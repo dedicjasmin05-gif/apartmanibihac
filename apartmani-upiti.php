@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Apartmani Upiti
  * Description: Upiti za smještaj s potvrdom vlasnika jednim klikom, kalendarom, iCal sinkronizacijom (Booking/Airbnb), kaparom i automatskim porukama.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Digital Puls
  * Text Domain: apartmani-upiti
  */
 
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_VER', '1.0.0');
+define('ABU_VER', '1.0.1');
 define('ABU_TABLE', 'abu_upiti');
 define('ABU_ICAL_TABLE', 'abu_ical_blocks');
 
@@ -114,7 +114,7 @@ function abu_register_cpt() {
         'labels' => array('name' => 'Objekti', 'singular_name' => 'Objekt', 'add_new_item' => 'Dodaj objekt', 'edit_item' => 'Uredi objekt'),
         'public' => true,
         'has_archive' => false,
-        'rewrite' => array('slug' => 'objekt', 'with_front' => false),
+        'rewrite' => array('slug' => 'smjestaj', 'with_front' => false),
         'menu_icon' => 'dashicons-admin-home',
         'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
         'show_in_rest' => true,
