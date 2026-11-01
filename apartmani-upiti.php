@@ -923,3 +923,5 @@ function abu_admin_postavke() {
 }
 
 require_once __DIR__ . '/uvoz.php';
+
+require_once __DIR__ . '/preusmjeravanja.php';
