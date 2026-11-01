@@ -21,7 +21,7 @@ foreach (array('/', '/smjestaj-bihac/', '/cesta-pitanja/kako-doci-u-bihac/', '/e
     $robots = preg_match('/<meta name=["\']robots["\'] content=["\']([^"\']+)/i', $b, $rm) ? $rm[1] : '-';
     $img = preg_match_all('/<img /i', $b);
     $alt = preg_match_all('/<img [^>]*alt=["\'][^"\']+["\']/i', $b);
-    echo $p . ' | ' . $k . ' | ' . $t . 's | ' . (strlen($b) >> 10) . 'KB | title: ' . (isset($ti[1]) ? trim(html_entity_decode($ti[1])) : '-') . ' | desc: ' . (isset($md[1]) ? strlen(html_entity_decode($md[1])) : 0) . ' zn | h1: ' . $h1 . ' | json-ld: ' . $ld . ' | hreflang: ' . $hl . ' | canonical: ' . $can . ' | robots: ' . $robots . ' | img ' . $img . ' (alt ' . $alt . ')' . PHP_EOL;
+    echo $p . ' | ' . $k . ' | ' . $t . 's | ' . (strlen($b) >> 10) . 'KB | title: ' . (isset($ti[1]) ? trim(html_entity_decode($ti[1])) : '-') . ' | desc: ' . (isset($md[1]) ? strlen(html_entity_decode($md[1])) : 0) . ' zn | h1: ' . $h1 . ' | json-ld: ' . $ld . ' | hreflang: ' . $hl . ' | canonical: ' . $can . ' | robots: ' . $robots . ' | img ' . $img . ' (alt ' . $alt . ') | kontakt traka: ' . (strpos($b, 'abu-kt-broj') !== false ? 'DA' : 'NE') . ' | desc tekst: ' . (isset($md[1]) ? html_entity_decode($md[1]) : '') . PHP_EOL;
 }
 list($k, $b) = dohvati('https://apartmanibihac.com/robots.txt');
 echo 'robots.txt ' . $k . ': ' . preg_replace('/\s+/', ' ', substr($b, 0, 300)) . PHP_EOL;

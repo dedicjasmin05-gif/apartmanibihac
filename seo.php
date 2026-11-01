@@ -53,6 +53,14 @@ add_filter('pre_get_document_title', function ($t) {
     $s = abu_seo_tekuca();
     if ($s && !empty($s['title'])) { return $s['title']; }
     if (is_front_page()) { return 'Smještaj Bihać: apartmani i vikendice na Uni od 25 €'; }
+    if ($x = abu_seo_pitanja_meta()) { return $x[0]; }
+    if (is_singular('objekt')) {
+        $id = get_queried_object_id();
+        $mj = (string) get_post_meta($id, '_abu_mjesto', true);
+        $kap = (int) get_post_meta($id, '_abu_kapacitet', true);
+        $tip = get_post_meta($id, '_abu_grupa', true) === 'vlastiti' ? 'apartman' : 'smještaj';
+        return get_the_title($id) . ': ' . $tip . ' ' . ($mj && stripos($mj, 'Bihać') === false ? $mj . ', Bihać' : 'Bihać') . ($kap ? ', do ' . $kap . ' osoba' : '');
+    }
     return $t;
 }, 20);
 
@@ -62,6 +70,7 @@ add_action('wp_head', function () {
     $opis = '';
     $s = abu_seo_tekuca();
     if ($s) { $opis = $s['meta']; }
+    elseif ($x = abu_seo_pitanja_meta()) { $opis = $x[1]; }
     elseif (is_front_page()) { $opis = 'Apartmani u Bihaću i kuće uz rijeku Unu: cijeli apartman od 25 € (50 KM) po noći. 19 objekata, upit bez naknade, odgovor u 12 sati. WhatsApp +387 61 591 320.'; }
     elseif (is_singular()) {
         $id = get_queried_object_id();
@@ -98,3 +107,33 @@ add_action('wp_head', function () {
         if ($p) { echo '<link rel="alternate" hreflang="x-default" href="' . esc_url(get_permalink($p)) . '">' . "\n"; }
     }
 }, 3);
+
+/** Naslov i opis za stranice s pitanjima (bs/en/de). */
+function abu_seo_pitanja_meta() {
+    if (!is_page() || !function_exists('abu_pitanja_teme_sve')) { return null; }
+    $id = get_queried_object_id();
+    $k = get_post_meta($id, '_abu_pitanja', true);
+    if (!$k) { return null; }
+    $l = get_post_meta($id, '_abu_pitanja_lang', true) ?: 'bs';
+    $J = abu_pitanja_jezici()[$l];
+    $cta = array('bs' => 'Smještaj u Bihaću od 25 € po noći.', 'en' => 'Whole apartments in Bihać from €25.', 'de' => 'Ganze Wohnungen in Bihać ab 25 €.');
+    $faq = array('bs' => 'pitanja i odgovori', 'en' => 'FAQ', 'de' => 'FAQ');
+    if ($k === 'sve') {
+        $nas = array('bs' => 'Česta pitanja o Bihaću, Uni i smještaju', 'en' => 'Bihać travel FAQ: Una, Plitvice, accommodation', 'de' => 'Bihać FAQ: Una, Plitvicer Seen, Unterkunft');
+        $op = array('bs' => '1000 odgovora o Bihaću: kako doći, granica, NP Una, Štrbački buk, rafting, Plitvice, hrana, novac. ', 'en' => '1000 answers about Bihać: getting there, the border, Una National Park, rafting, Plitvice Lakes, food, money. ', 'de' => '1000 Antworten zu Bihać: Anreise, Grenze, Nationalpark Una, Rafting, Plitvicer Seen, Essen, Geld. ');
+        return array($nas[$l], $op[$l] . $cta[$l]);
+    }
+    $t = abu_pitanja_teme_sve();
+    if (!isset($t[$k])) { return null; }
+    $naslov = $t[$k][$J['i'] + 1];
+    $opis = $t[$k][$J['i'] + 2];
+    $n = count(abu_pitanja_ucitaj($k, $l));
+    $br = array('bs' => $n . ' odgovora: ', 'en' => $n . ' answers: ', 'de' => $n . ' Antworten: ');
+    $title = $naslov . ' – ' . $faq[$l] . (strpos($naslov, 'Bihać') === false && strpos($naslov, 'Una') === false ? ' | Bihać' : '');
+    $meta = $br[$l] . $opis . ' ' . $cta[$l];
+    if (mb_strlen($meta) < 120) {
+        $prva = abu_pitanja_ucitaj($k, $l);
+        if ($prva) { $meta .= ' ' . wp_trim_words($prva[0]['q'], 12, '…'); }
+    }
+    return array($title, mb_substr($meta, 0, 158));
+}
