@@ -6,6 +6,11 @@ $_SERVER['REQUEST_URI'] = '/';
 require dirname(__DIR__, 4) . '/wp-load.php';
 
 echo 'verzija ' . ABU_VER . PHP_EOL;
+foreach (array('en/faq', 'de/faq') as $hp) {
+    $h = get_page_by_path($hp);
+    if ($h) { $dj = get_pages(array('child_of' => $h->ID, 'post_status' => 'publish')); $n = 0; foreach ($dj as $p) { $n += substr_count($p->post_content, '<h3>'); } echo $hp . ': ' . $h->post_status . ', ' . count($dj) . ' tema, ' . $n . ' pitanja, ' . get_permalink($h) . PHP_EOL; }
+    else { echo $hp . ': NEMA' . PHP_EOL; }
+}
 $r = get_page_by_path('cesta-pitanja');
 if ($r) {
     $dj = get_pages(array('child_of' => $r->ID, 'post_status' => 'publish'));
