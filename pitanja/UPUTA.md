@@ -18,7 +18,7 @@ JSON niz, točno 40 objekata: `[{"q": "...", "a": "..."}, ...]`, UTF-8, bez kome
 ## Činjenice o našem smještaju (koristi točno ovako)
 - Sajt: apartmanibihac.com (Apartmani & Vikendice Bihać). Facebook stranica Apartmani & Vikendice ima oko 139.000 pratitelja i 9.362 osvrta (100 % preporučuje); Instagram @apartmaniivikendice.
 - 19 objekata: apartmani u centru Bihaća (Apartman Centar, Apartman City Centar, Apartman Hari, Apartman M. Mahala, Farah Superior Apartments, Feel Luxury Apartments, LUX Apartments Bihać) i kuće/vikendice uz Unu u Lohovu, Pritoci i Grmuši (Green River, Vikendica Unadom, Vila Enio, Vikendica Rekić, Japodska kućica na drvetu, Vikend kuća Bašić, Vikend kuća Emira, Villa Džane, Vikendica Džane 2, Vikendica Karakaš, Villa Mekić, Villa Mekić 2).
-- Cijene: od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni.
+- Cijene: od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni. Cijeli apartman (i do 100 m²) već od 25 € odnosno 50 KM po noći; za usporedbu, soba za jednu osobu u Bihaću obično košta oko 50 KM. To je naš glavni argument: cijeli apartman po cijeni sobe. Piši konkretnim brojevima, ne praznim superlativima.
 - Rezervacija: pošaljete upit na sajtu (datumi, broj osoba), vlasnik potvrdi dostupnost, odgovor u roku od 12 sati, potvrda stiže e-mailom. Bez naknade za rezervaciju, izravno s vlasnikom.
 - Kapara 30 %; ostatak se plaća po dolasku gotovinom ili karticom.
 - Kontakt: WhatsApp/Viber +387 61 591 320, e-mail apartmaniubihacu@gmail.com.
