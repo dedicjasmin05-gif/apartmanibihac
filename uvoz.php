@@ -187,6 +187,8 @@ add_action('init', function () {
     foreach (get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'numberposts' => 100)) as $p) {
         $o .= '- [' . $p->post_title . '](' . get_permalink($p) . '): ' . wp_strip_all_tags(get_the_excerpt($p)) . "\n";
     }
+    $o .= "\n## Česta pitanja\n- [Sva česta pitanja o Bihaću i smještaju](" . home_url('/cesta-pitanja/') . "): odgovori po temama\n- [Svi odgovori kao tekst](" . home_url('/llms-full.txt') . ")\n";
+    if (function_exists('abu_pitanja_teme')) { foreach (abu_pitanja_teme() as $t) { $p = get_page_by_path('cesta-pitanja/' . $t[0]); if ($p && $p->post_status === 'publish') { $o .= '- [' . $t[1] . '](' . get_permalink($p) . '): ' . $t[2] . "\n"; } } }
     $o .= "\n## Stranice\n";
     foreach (array('rafting-na-uni', 'restorani-bihac', 'nocni-zivot-bihac', 'uvjeti-i-privatnost', 'prijavite-objekt') as $s) {
         $p = get_page_by_path($s);

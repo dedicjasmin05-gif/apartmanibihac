@@ -926,3 +926,4 @@ require_once __DIR__ . '/uvoz.php';
 
 require_once __DIR__ . '/preusmjeravanja.php';
 require_once __DIR__ . '/drustvene.php';
+require_once __DIR__ . '/pitanja.php';

@@ -62,5 +62,5 @@ add_action('template_redirect', function () {
 
 add_filter('robots_txt', function ($out, $public) {
     if (!$public) { return $out; }
-    return "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /?s=\nDisallow: /*?abu_a=\n\n# AI pretraživači su dobrodošli\nUser-agent: GPTBot\nAllow: /\nUser-agent: ClaudeBot\nAllow: /\nUser-agent: PerplexityBot\nAllow: /\nUser-agent: Google-Extended\nAllow: /\n\nSitemap: " . home_url('/wp-sitemap.xml') . "\n# llms: " . home_url('/llms.txt') . "\n";
+    return "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /?s=\nDisallow: /*?abu_a=\n\n# AI pretraživači su dobrodošli\nUser-agent: GPTBot\nAllow: /\nUser-agent: ClaudeBot\nAllow: /\nUser-agent: PerplexityBot\nAllow: /\nUser-agent: Google-Extended\nAllow: /\n\nSitemap: " . home_url('/wp-sitemap.xml') . "\n# llms: " . home_url('/llms.txt') . "\n# llms-full: " . home_url('/llms-full.txt') . "\n";
 }, 10, 2);
