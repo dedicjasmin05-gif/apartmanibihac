@@ -32,3 +32,11 @@
 - Bolt/Uber, dostava, pedijatri, hotelski bazeni, turistički vlak: nepotvrđeno.
 - Pitati Jasmina: dječji krevetić, ljubimci, ograđena dvorišta, roštilj po objektima; opis Japodske kućice.
 - PRIMIJENITI u svim temama: Apartman M. Mahala (Midžić Mahala) — psi da, roštilj, dječji krevetić na upit, mjesto za bicikle (potvrdio Jasmin).
+
+## 01–05
+- Udaljenosti aerodromi/gradovi (Zagreb 165 km 2,5 h; Zadar 155; Banja Luka 160; Sarajevo 290–310; Karlovac ~110 procjena).
+- Osobna iskaznica za sve EU građane — potvrđeno samo DE.
+- Užljebić opis; zimska oprema 15.11.–15.4. (vs 1.11.–1.4. u temi 23/25) — USKLADITI.
+- Carinski limiti; unos mesa/mliječnih u EU.
+- 22-novac-cijene: dodati npuna.com gdje se spominje stranica parka.
+- Posteljina, check-in/out, čišćenje, računi, plaćanje u eurima — pitati Jasmina.
