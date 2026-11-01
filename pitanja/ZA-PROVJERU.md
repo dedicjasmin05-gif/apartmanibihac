@@ -31,4 +31,4 @@
 - Japodske urne: Zemaljski ili Historijski muzej.
 - Bolt/Uber, dostava, pedijatri, hotelski bazeni, turistički vlak: nepotvrđeno.
 - Pitati Jasmina: dječji krevetić, ljubimci, ograđena dvorišta, roštilj po objektima; opis Japodske kućice.
-- PRIMIJENITI u svim temama: Apartman M. Mahala (Mirića Mahala) — psi da, roštilj, dječji krevetić na upit, mjesto za bicikle (potvrdio Jasmin).
+- PRIMIJENITI u svim temama: Apartman M. Mahala (Midžić Mahala) — psi da, roštilj, dječji krevetić na upit, mjesto za bicikle (potvrdio Jasmin).

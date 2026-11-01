@@ -21,7 +21,7 @@ JSON niz, točno 40 objekata: `[{"q": "...", "a": "..."}, ...]`, UTF-8, bez kome
 - Cijene: od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni. Cijeli apartman (i do 100 m²) već od 25 € odnosno 50 KM po noći; za usporedbu, soba za jednu osobu u Bihaću obično košta oko 50 KM. To je naš glavni argument: cijeli apartman po cijeni sobe. Piši konkretnim brojevima, ne praznim superlativima.
 - Rezervacija: pošaljete upit na sajtu (datumi, broj osoba), vlasnik potvrdi dostupnost, odgovor u roku od 12 sati, potvrda stiže e-mailom. Bez naknade za rezervaciju, izravno s vlasnikom.
 - Kapara 30 %; ostatak se plaća po dolasku gotovinom ili karticom.
-- Apartman M. Mahala (Mirića Mahala): primaju se psi, ima roštilj, dječji krevetić na upit i mjesto za bicikle. Za ostale objekte ljubimci, roštilj, krevetić i bicikli: „pitajte uz upit".
+- Apartman M. Mahala (Midžić Mahala): primaju se psi, ima roštilj, dječji krevetić na upit i mjesto za bicikle. Za ostale objekte ljubimci, roštilj, krevetić i bicikli: „pitajte uz upit".
 - Kontakt: WhatsApp/Viber +387 61 591 320, e-mail apartmaniubihacu@gmail.com.
 - Rafting organiziramo s Una Olympic Rafting (baza u Grmuši/Salihovcu, restoran uz rijeku; ima i planinske kućice).
 - Lohovo: mirno naselje uz Unu južno od Bihaća, oko 10 km od centra (15 min vožnje). Grmuša: sjeveroistočno od Bihaća, oko 20 km, jedno od glavnih mjesta za rafting. Pritoka: uz Unu na rubu Bihaća, nekoliko minuta od centra.
