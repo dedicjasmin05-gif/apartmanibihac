@@ -8,3 +8,11 @@
 - Temperatura vode po mjesecima (procjena).
 - Mine na Plješevici / Željava tuneli; čamac 6–8 osoba; ulaznica Plitvice uključuje vlak i brod; zimska oprema HR 15.11.–15.4.; bez cestarine na ruti.
 - Psi u objektima i mjesto za bicikle: pitati Jasmina po objektima.
+
+## 21–25
+- NESLAGANJE: zimska oprema u HR — tema 23/25 kaže 1.11.–1.4., tema 15 kaže 15.11.–15.4. Uskladiti (provjeriti HAK).
+- Parking Bihać (zone, SMS) nepotvrđeno.
+- Okvirne cijene (kava, ručak, SIM) procjena; gorivo na dan 31.10.2026.
+- Klima: prosjek 1961.–1990.
+- Pitka voda Klokot, povrat PDV-a, boravišna pristojba, EV punionice, gradski autobusi: nepotvrđeno.
+- Glovo prestao u BiH 8/2026 — potvrditi.

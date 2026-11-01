@@ -1,42 +1,162 @@
 [
-{"q": "Mogu li doći u Bihać sa psom iz Hrvatske ili Njemačke?", "a": "Da, pas iz EU može ući u Bosnu i Hercegovinu ako ima mikročip, važeće cijepljenje protiv bjesnoće i EU putovnicu za kućne ljubimce. Ista pravila vrijede za mačke i pse iz cijele Europske unije. Prije puta provjerite datume u putovnici, jer granični službenici najčešće gledaju upravo cijepljenje i broj čipa."},
-{"q": "Koji dokumenti trebaju za psa na ulasku u BiH?", "a": "Za psa iz EU potrebna je EU putovnica za kućne ljubimce u kojoj su upisani broj mikročipa i važeće cijepljenje protiv bjesnoće. Životinja mora biti čipirana prije cijepljenja ili istog dana. Ako dolazite iz zemlje izvan EU, umjesto putovnice obično treba veterinarski certifikat koji izdaje službeni veterinar, pa pravila provjerite na stranici Ureda za veterinarstvo BiH (vet.gov.ba)."},
-{"q": "Koliko dana prije puta pas mora biti cijepljen protiv bjesnoće?", "a": "Nakon prvog cijepljenja protiv bjesnoće mora proći najmanje 21 dan prije nego što pas smije putovati. Ako se cijepljenje redovno obnavlja prije isteka prethodnog, novo čekanje nije potrebno. Životinja u trenutku cijepljenja mora imati najmanje 12 tjedana, pa štenci mlađi od otprilike 15 tjedana u pravilu još ne mogu prelaziti granicu."},
-{"q": "Treba li psu titar antitijela za povratak iz BiH u EU?", "a": "Prema važećem popisu EU, Bosna i Hercegovina spada u zemlje iz kojih se za povratak ne traži test titra antitijela protiv bjesnoće. To znači da je za psa iz EU dovoljan čip, važeće cijepljenje i EU putovnica. Pravila se mogu promijeniti, pa prije puta provjerite stranicu Europske komisije o putovanju s ljubimcima ili pitajte svog veterinara."},
-{"q": "Je li istina da se za povratak iz Bosne mora raditi test krvi psu?", "a": "Ne, za Bosnu i Hercegovinu taj test trenutno nije potreban. BiH je na popisu zemalja s niskim rizikom od bjesnoće u propisima EU (Provedbena uredba 2026/636), pa se titar antitijela ne traži. Test je obavezan za povratak iz zemalja koje nisu na tom popisu. Prije polaska ipak provjerite ima li novih izmjena."},
-{"q": "Na kojem graničnom prijelazu mogu s psom ući u Hrvatsku iz Bihaća?", "a": "Ljubimci iz zemlje izvan EU smiju ući u Hrvatsku samo na određenim prijelazima, a za Bihać je najbliži Izačić – Ličko Petrovo Selo, koji je na tom popisu. Na popisu je i Maljevac kod Velike Kladuše. Popis određuje hrvatski Pravilnik o ulaznim točkama za premještanje kućnih ljubimaca, pa provjerite aktualnu verziju prije puta."},
-{"q": "Koliko kućnih ljubimaca smijem povesti u BiH?", "a": "Bez posebnih uvoznih pravila možete povesti najviše pet pasa, mačaka ili vretica. Za više od pet životinja vrijede pravila kao za komercijalni uvoz, s dodatnim pregledima i dokumentima. Iznimke postoje za natjecanja i izložbe, ali tada morate imati dokaz o prijavi, pa se za takve slučajeve javite Uredu za veterinarstvo BiH."},
-{"q": "Treba li psu zaštita od trakavice za povratak kući?", "a": "Samo ako se vraćate u Finsku, Irsku, Maltu, Norvešku ili Sjevernu Irsku. Za te zemlje pas mora dobiti lijek protiv trakavice Echinococcus multilocularis od 24 do 120 sati prije ulaska, a veterinar to upisuje u putovnicu. Za povratak u Hrvatsku, Njemačku, Austriju ili Sloveniju taj tretman nije obavezan."},
-{"q": "Primaju li apartmani u Bihaću pse?", "a": "To ovisi o objektu, jer svaki vlasnik sam odlučuje prima li kućne ljubimce. Na apartmanibihac.com u upitu navedite vrstu i veličinu ljubimca, a vlasnik će potvrditi može li doći s vama. Odgovor obično stiže u roku od 12 sati, a možete pitati i preko WhatsAppa ili Vibera na +387 61 591 320."},
-{"q": "Je li bolje s psom odsjesti u apartmanu u gradu ili u kući uz Unu?", "a": "Za psa je obično ugodnija kuća ili vikendica uz Unu, jer ima više prostora i mira nego stan u centru. U ponudi apartmanibihac.com su kuće u Lohovu, Pritoci i Grmuši, ali ljubimce ne primaju svi objekti. U upitu napišite da dolazite s psom, pa će vlasnik reći što je moguće."},
-{"q": "Plaća li se dodatno za psa u smještaju?", "a": "Neki vlasnici traže doplatu za ljubimca, a neki ne, pa to treba dogovoriti prije dolaska. Kod nas se cijena i uvjeti za ljubimca dogovaraju izravno s vlasnikom objekta, bez naknade za rezervaciju. Pošaljite upit na apartmanibihac.com s datumima i podacima o ljubimcu, pa ćete dobiti točan odgovor."},
-{"q": "Može li mačka putovati u Bihać pod istim uvjetima kao pas?", "a": "Da, za mačke vrijede ista pravila kao za pse: mikročip, važeće cijepljenje protiv bjesnoće i EU putovnica za ljubimce. Mačke obično teže podnose promjenu mjesta, pa ponesite njezinu posudu, pijesak i transporter. Za smještaj s mačkom u upitu provjerite prihvaća li vlasnik objekta kućne ljubimce."},
-{"q": "Gdje u Bihaću mogu naći veterinara?", "a": "U Bihaću rade veterinarske ambulante i veterinarska stanica, a u centru i okolici ih ima nekoliko. Radno vrijeme i dežurstva provjerite na Google kartama ili telefonom, jer se mijenjaju. U hitnom slučaju vlasnik smještaja obično zna preporučiti najbližu ambulantu, pa ga slobodno pitajte."},
-{"q": "Što ponijeti za psa na put u Bosnu?", "a": "Ponesite EU putovnicu ljubimca, povodac, posudu za vodu, dovoljno hrane na koju je navikao i vrećice za izmet. Dobro je imati zaštitu od krpelja i buha, jer su krpelji česti u travi uz rijeku. Za vruće ljetne dane u autu uvijek imajte vodu i radite pauze."},
-{"q": "Gdje mogu prošetati psa u Bihaću?", "a": "Najljepše šetnje sa psom su uz obalu Une u samom gradu, gdje postoje uređene pješačke staze i zelene površine. Mirnije šetnje nude naselja uz rijeku poput Pritoke i Lohova. U centru je gužva veća, pa je pas na povocu obavezan i pristojan izbor prema drugim šetačima."},
-{"q": "Može li pas plivati u Uni?", "a": "Pas se može kupati u Uni na mirnijim mjestima, ali voda je hladna i struja je na mnogim dionicama jaka. Birajte plićake s laganim tokom i nikad ne puštajte psa blizu slapova, brzaca ili ispod buka. Nakon kupanja ga dobro posušite, osobito ako je kratke dlake."},
-{"q": "Je li Una opasna za pse?", "a": "Una nije opasna na mirnim mjestima, ali brzaci i slapovi mogu povući i dobrog plivača, pa tako i psa. Opasnost je veća u proljeće kada je vodostaj visok. Psa kupajte samo tamo gdje sami vidite dno i lagan tok, a uz jaku struju ga držite na povocu."},
-{"q": "Smiju li psi u Nacionalni park Una?", "a": "Pravila za pse u Nacionalnom parku Una mogu se razlikovati po lokacijama, pa ih provjerite na službenoj stranici NP Una prije posjeta. U zaštićenim područjima pas u pravilu mora biti na povocu i ne smije uznemiravati divlje životinje. Kupanje pasa na Štrbačkom buku i Martin Brodu nije dobra ideja zbog jakog toka."},
-{"q": "Ima li pasa lutalica u Bihaću?", "a": "U Bihaću, kao i u drugim gradovima u BiH, ponekad se mogu vidjeti psi lutalice, osobito na rubu grada. Uglavnom su mirni, ali s vlastitim psom zaobiđite skupinu i ne puštajte ga s povoca. Ako vas netko zabrine, prijeđite na drugu stranu ulice i ne trčite."},
-{"q": "Treba li psu brnjica u Bosni?", "a": "Za obične pse na šetnji brnjica uglavnom nije obavezna, ali povodac na javnim mjestima jest uobičajen i očekivan. Za pse opasnih pasmina mogu vrijediti strožija pravila, pa ih provjerite prije puta. U javnom prijevozu i autobusima prijevoznik može tražiti brnjicu ili transporter."},
-{"q": "Mogu li s psom autobusom do Bihaća?", "a": "To ovisi o prijevozniku, jer svaka autobusna kompanija ima svoja pravila za kućne ljubimce. Mali ljubimci u transporteru obično se lakše primaju od velikih pasa. Najjednostavnije je putovati autom, a ako idete autobusom, pravila provjerite kod prijevoznika prije kupnje karte."},
-{"q": "Ima li krpelja uz Unu i kako zaštititi psa?", "a": "Da, krpelji su česti u travi i šumi uz Unu, osobito od proljeća do jeseni. Psa prije puta zaštitite ogrlicom, tabletom ili kapima protiv krpelja, prema savjetu veterinara. Nakon svake šetnje pregledajte uši, vrat, pazuhe i prostor između prstiju."},
-{"q": "Može li se u Bihaću kupiti hrana za pse?", "a": "Da, hranu za pse i mačke možete kupiti u većim supermarketima i u trgovinama za kućne ljubimce u Bihaću. Specijalne ili veterinarske dijete teže je naći, pa ih ponesite od kuće dovoljno za cijeli boravak. Isto vrijedi za lijekove koje ljubimac redovno uzima."},
-{"q": "Je li vikendica u Grmuši dobra za odmor s psom?", "a": "Grmuša je mirno mjesto uz Unu oko 20 km sjeveroistočno od Bihaća, pa je ugodnija za psa od grada. Ima prirode i mjesta za šetnju uz rijeku, a malo prometa. Prima li određena vikendica ljubimce, provjerite upitom na apartmanibihac.com ili preko WhatsAppa na +387 61 591 320."},
-{"q": "Je li Lohovo pogodno za odmor sa psom?", "a": "Lohovo je mirno naselje uz Unu, oko 10 km južno od centra Bihaća, s puno zelenila i malo prometa. Za psa je to ugodnije okruženje od gradskog apartmana, a do ulaza u NP Una treba oko 15 minuta vožnje. Prihvaća li pojedina kuća pse, piše vlasnik u odgovoru na vaš upit."},
-{"q": "Može li pas ostati sam u apartmanu dok smo na raftingu?", "a": "To morate unaprijed dogovoriti s vlasnikom smještaja, jer mnogi ne dopuštaju da ljubimac ostane sam. Pas u nepoznatom prostoru može lajati ili oštetiti namještaj. Ako planirate rafting ili duži izlet, u upitu to napišite, pa će vam vlasnik reći što je moguće."},
-{"q": "Može li pas na rafting na Uni?", "a": "Psi obično ne idu na rafting, jer je riječ o brzacima i čamcu s putnicima u zaštitnoj opremi. Za rafting s Una Olympic Rafting provjerite pravila kod organizatora, ali računajte da ljubimac ostaje na kopnu. Bolje je ostaviti psa s nekim tko ostaje u smještaju ili ga ne voditi na taj dio dana."},
-{"q": "Što ako se pas razboli na odmoru u Bihaću?", "a": "Javite se veterinarskoj ambulanti u Bihaću, a ako nije radno vrijeme, potražite dežurnu službu. Ponesite EU putovnicu ljubimca, jer u njoj piše povijest cijepljenja. Vlasnik smještaja vam obično može pomoći s kontaktom, a lijekove za kroničnu bolest ponesite od kuće."},
-{"q": "Je li vruće ljeto u Bihaću problem za pse?", "a": "U srpnju i kolovozu dnevne temperature u Bihaću često prelaze 25 do 30 °C, pa pse treba šetati rano ujutro i navečer. Usred dana asfalt može biti prevruć za šape. Hlad uz Unu i svježa voda puno pomažu, a psa nikad ne ostavljajte u zatvorenom autu."},
-{"q": "Kako izgleda granična kontrola kad putujem s psom?", "a": "Na granici pas uglavnom ostaje u autu, a službenik pregleda putovnicu i po potrebi očita mikročip. Pripremite putovnicu ljubimca zajedno s vašim dokumentima kako bi pregled bio brz. Ljeti na Izačiću zna biti čekanja, pa ponesite vodu i provjetrite auto."},
-{"q": "Treba li prijaviti psa na granici kad ulazim u BiH?", "a": "Da, pri ulasku s ljubimcem trebate pokazati njegove dokumente na graničnom prijelazu i dopustiti provjeru identiteta, odnosno čipa. Ured za veterinarstvo BiH navodi da se ljubimci unose preko određenih ulaznih mjesta. Najbolje je odmah reći službeniku da u autu imate psa ili mačku."},
-{"q": "Što ako pas nema EU putovnicu nego samo knjižicu cijepljenja?", "a": "Za putovanje iz EU u BiH i natrag potrebna je EU putovnica za ljubimce, obična knjižica cijepljenja nije dovoljna. Putovnicu izdaje ovlašteni veterinar u vašoj zemlji, a u nju upisuje čip i cijepljenje. Riješite to nekoliko tjedana prije puta, osobito ako pas tek treba biti cijepljen."},
-{"q": "Može li se s ljubimcem putovati iz Srbije ili Crne Gore u Bihać?", "a": "Može, ali za ljubimce iz zemalja izvan EU obično vrijede drugačiji dokumenti nego za EU putovnicu, najčešće veterinarski certifikat. Točne uvjete za vašu zemlju provjerite na stranici Ureda za veterinarstvo BiH, vet.gov.ba. Ako nakon toga idete u EU, provjerite i pravila zemlje u koju ulazite."},
-{"q": "Je li Bihać grad prijateljski prema psima?", "a": "Bihać je umjereno prijateljski prema psima: ima šetnica uz Unu i puno zelenila, a ljudi su uglavnom navikli na pse. U kafićima s terasom pas na povocu obično može sjediti vani s vama. U zatvorene restorane i trgovine pse uglavnom ne puštaju, pa je dobro pitati."},
-{"q": "Mogu li uz Unu pustiti psa bez povoca?", "a": "Na mirnim mjestima izvan grada neki ljudi puštaju pse, ali sigurnije je držati ga na povocu, osobito blizu vode. Struja Une je mjestimično jaka, a u šumi i livadama ima krpelja i divljih životinja. U samom gradu i na turističkim lokacijama povodac je obavezan i očekivan."},
-{"q": "Ima li u okolici Bihaća planinarskih staza za šetnju sa psom?", "a": "Da, oko Bihaća ima šumskih i planinarskih staza, na primjer prema Plješevici i uz rubove kanjona Une. Držite se označenih staza i putova, jer u nekim rubnim šumskim područjima još postoje minski sumnjive površine. Pas neka bude na povocu kako ne bi odlutao s puta."},
-{"q": "Zašto psa ne treba puštati s označenih staza oko Bihaća?", "a": "U nekim rubnim šumskim i planinskim područjima Unsko-sanskog kantona još postoje minski sumnjive površine iz rata. Takva područja su uglavnom označena, ali pas ne poznaje znakove i može otrčati u šumu. Zato je na izletima izvan naselja najsigurnije držati psa na povocu i na označenom putu."},
-{"q": "Kome se javiti ako izgubim psa u Bihaću?", "a": "Prvo obavijestite vlasnika smještaja i susjede, jer lokalni ljudi najbrže saznaju za izgubljenu životinju. Objavite oglas sa slikom u lokalnim Facebook grupama za Bihać i javite se veterinarskim ambulantama koje mogu očitati čip. Pomaže i to da broj vašeg mobitela bude na ogrlici psa."},
-{"q": "Kako rezervirati smještaj u Bihaću s kućnim ljubimcem?", "a": "Pošaljite upit na apartmanibihac.com s datumima, brojem osoba i podacima o ljubimcu, odnosno vrstom i veličinom. Vlasnik potvrdi dostupnost i prihvaća li ljubimca, a odgovor stiže u roku od 12 sati. Kapara je 30 %, a ostatak se plaća po dolasku gotovinom ili karticom."},
-{"q": "Je li Bihać dobar za odmor s psom na putu prema moru?", "a": "Da, Bihać je zgodno stajalište na putu s psom prema Jadranu, jer je oko 35 km od Plitvica i ima puno prirode za šetnju. Pas se nakon dugog puta može odmoriti uz Unu, a vi prenoćiti u mirnoj kući. Na povratku u EU ponesite EU putovnicu ljubimca s važećim cijepljenjem."}
+ {
+  "q": "Mogu li doći u Bihać sa psom iz Hrvatske ili Njemačke?",
+  "a": "Da, pas iz EU može ući u Bosnu i Hercegovinu ako ima mikročip, važeće cijepljenje protiv bjesnoće i EU putovnicu za kućne ljubimce. Ista pravila vrijede za mačke i pse iz cijele Europske unije. Prije puta provjerite datume u putovnici, jer granični službenici najčešće gledaju upravo cijepljenje i broj čipa."
+ },
+ {
+  "q": "Koji dokumenti trebaju za psa na ulasku u BiH?",
+  "a": "Za psa iz EU potrebna je EU putovnica za kućne ljubimce u kojoj su upisani broj mikročipa i važeće cijepljenje protiv bjesnoće. Životinja mora biti čipirana prije cijepljenja ili istog dana. Ako dolazite iz zemlje izvan EU, umjesto putovnice obično treba veterinarski certifikat koji izdaje službeni veterinar, pa pravila provjerite na stranici Ureda za veterinarstvo BiH (vet.gov.ba)."
+ },
+ {
+  "q": "Koliko dana prije puta pas mora biti cijepljen protiv bjesnoće?",
+  "a": "Nakon prvog cijepljenja protiv bjesnoće mora proći najmanje 21 dan prije nego što pas smije putovati. Ako se cijepljenje redovno obnavlja prije isteka prethodnog, novo čekanje nije potrebno. Životinja u trenutku cijepljenja mora imati najmanje 12 tjedana, pa štenci mlađi od otprilike 15 tjedana u pravilu još ne mogu prelaziti granicu."
+ },
+ {
+  "q": "Treba li psu titar antitijela za povratak iz BiH u EU?",
+  "a": "Prema važećem popisu EU, Bosna i Hercegovina spada u zemlje iz kojih se za povratak ne traži test titra antitijela protiv bjesnoće. To znači da je za psa iz EU dovoljan čip, važeće cijepljenje i EU putovnica. Pravila se mogu promijeniti, pa prije puta provjerite stranicu Europske komisije o putovanju s ljubimcima ili pitajte svog veterinara."
+ },
+ {
+  "q": "Je li istina da se za povratak iz Bosne mora raditi test krvi psu?",
+  "a": "Ne, za Bosnu i Hercegovinu taj test trenutno nije potreban. BiH je na popisu zemalja s niskim rizikom od bjesnoće u propisima EU (Provedbena uredba 2026/636), pa se titar antitijela ne traži. Test je obavezan za povratak iz zemalja koje nisu na tom popisu. Prije polaska ipak provjerite ima li novih izmjena."
+ },
+ {
+  "q": "Na kojem graničnom prijelazu mogu s psom ući u Hrvatsku iz Bihaća?",
+  "a": "Ljubimci iz zemlje izvan EU smiju ući u Hrvatsku samo na određenim prijelazima, a za Bihać je najbliži Izačić – Ličko Petrovo Selo, koji je na tom popisu. Na popisu je i Maljevac kod Velike Kladuše. Popis određuje hrvatski Pravilnik o ulaznim točkama za premještanje kućnih ljubimaca, pa provjerite aktualnu verziju prije puta."
+ },
+ {
+  "q": "Koliko kućnih ljubimaca smijem povesti u BiH?",
+  "a": "Bez posebnih uvoznih pravila možete povesti najviše pet pasa, mačaka ili vretica. Za više od pet životinja vrijede pravila kao za komercijalni uvoz, s dodatnim pregledima i dokumentima. Iznimke postoje za natjecanja i izložbe, ali tada morate imati dokaz o prijavi, pa se za takve slučajeve javite Uredu za veterinarstvo BiH."
+ },
+ {
+  "q": "Treba li psu zaštita od trakavice za povratak kući?",
+  "a": "Samo ako se vraćate u Finsku, Irsku, Maltu, Norvešku ili Sjevernu Irsku. Za te zemlje pas mora dobiti lijek protiv trakavice Echinococcus multilocularis od 24 do 120 sati prije ulaska, a veterinar to upisuje u putovnicu. Za povratak u Hrvatsku, Njemačku, Austriju ili Sloveniju taj tretman nije obavezan."
+ },
+ {
+  "q": "Primaju li apartmani u Bihaću pse?",
+  "a": "To ovisi o objektu, jer svaki vlasnik sam odlučuje prima li kućne ljubimce. Na apartmanibihac.com u upitu navedite vrstu i veličinu ljubimca, a vlasnik će potvrditi može li doći s vama. Odgovor obično stiže u roku od 12 sati, a možete pitati i preko WhatsAppa ili Vibera na +387 61 591 320."
+ },
+ {
+  "q": "Je li bolje s psom odsjesti u apartmanu u gradu ili u kući uz Unu?",
+  "a": "Za psa je obično ugodnija kuća ili vikendica uz Unu, jer ima više prostora i mira nego stan u centru. U ponudi apartmanibihac.com su kuće u Lohovu, Pritoci i Grmuši, ali ljubimce ne primaju svi objekti. U upitu napišite da dolazite s psom, pa će vlasnik reći što je moguće."
+ },
+ {
+  "q": "Plaća li se dodatno za psa u smještaju?",
+  "a": "Neki vlasnici traže doplatu za ljubimca, a neki ne, pa to treba dogovoriti prije dolaska. Kod nas se cijena i uvjeti za ljubimca dogovaraju izravno s vlasnikom objekta, bez naknade za rezervaciju. Pošaljite upit na apartmanibihac.com s datumima i podacima o ljubimcu, pa ćete dobiti točan odgovor."
+ },
+ {
+  "q": "Može li mačka putovati u Bihać pod istim uvjetima kao pas?",
+  "a": "Da, za mačke vrijede ista pravila kao za pse: mikročip, važeće cijepljenje protiv bjesnoće i EU putovnica za ljubimce. Mačke obično teže podnose promjenu mjesta, pa ponesite njezinu posudu, pijesak i transporter. Za smještaj s mačkom u upitu provjerite prihvaća li vlasnik objekta kućne ljubimce."
+ },
+ {
+  "q": "Gdje u Bihaću mogu naći veterinara?",
+  "a": "U Bihaću rade veterinarske ambulante i veterinarska stanica, a u centru i okolici ih ima nekoliko. Radno vrijeme i dežurstva provjerite na Google kartama ili telefonom, jer se mijenjaju. U hitnom slučaju vlasnik smještaja obično zna preporučiti najbližu ambulantu, pa ga slobodno pitajte."
+ },
+ {
+  "q": "Što ponijeti za psa na put u Bosnu?",
+  "a": "Ponesite EU putovnicu ljubimca, povodac, posudu za vodu, dovoljno hrane na koju je navikao i vrećice za izmet. Dobro je imati zaštitu od krpelja i buha, jer su krpelji česti u travi uz rijeku. Za vruće ljetne dane u autu uvijek imajte vodu i radite pauze."
+ },
+ {
+  "q": "Gdje mogu prošetati psa u Bihaću?",
+  "a": "Najljepše šetnje sa psom su uz obalu Une u samom gradu, gdje postoje uređene pješačke staze i zelene površine. Mirnije šetnje nude naselja uz rijeku poput Pritoke i Lohova. U centru je gužva veća, pa je pas na povocu obavezan i pristojan izbor prema drugim šetačima."
+ },
+ {
+  "q": "Može li pas plivati u Uni?",
+  "a": "Pas se može kupati u Uni na mirnijim mjestima, ali voda je hladna i struja je na mnogim dionicama jaka. Birajte plićake s laganim tokom i nikad ne puštajte psa blizu slapova, brzaca ili ispod buka. Nakon kupanja ga dobro posušite, osobito ako je kratke dlake."
+ },
+ {
+  "q": "Je li Una opasna za pse?",
+  "a": "Una nije opasna na mirnim mjestima, ali brzaci i slapovi mogu povući i dobrog plivača, pa tako i psa. Opasnost je veća u proljeće kada je vodostaj visok. Psa kupajte samo tamo gdje sami vidite dno i lagan tok, a uz jaku struju ga držite na povocu."
+ },
+ {
+  "q": "Smiju li psi u Nacionalni park Una?",
+  "a": "Pravila za pse u Nacionalnom parku Una mogu se razlikovati po lokacijama, pa ih provjerite na službenoj stranici NP Una prije posjeta. U zaštićenim područjima pas u pravilu mora biti na povocu i ne smije uznemiravati divlje životinje. Kupanje pasa na Štrbačkom buku i Martin Brodu nije dobra ideja zbog jakog toka."
+ },
+ {
+  "q": "Ima li pasa lutalica u Bihaću?",
+  "a": "U Bihaću, kao i u drugim gradovima u BiH, ponekad se mogu vidjeti psi lutalice, osobito na rubu grada. Uglavnom su mirni, ali s vlastitim psom zaobiđite skupinu i ne puštajte ga s povoca. Ako vas netko zabrine, prijeđite na drugu stranu ulice i ne trčite."
+ },
+ {
+  "q": "Treba li psu brnjica u Bosni?",
+  "a": "Za obične pse na šetnji brnjica uglavnom nije obavezna, ali povodac na javnim mjestima jest uobičajen i očekivan. Za pse opasnih pasmina mogu vrijediti strožija pravila, pa ih provjerite prije puta. U javnom prijevozu i autobusima prijevoznik može tražiti brnjicu ili transporter."
+ },
+ {
+  "q": "Mogu li s psom autobusom do Bihaća?",
+  "a": "To ovisi o prijevozniku, jer svaka autobusna kompanija ima svoja pravila za kućne ljubimce. Mali ljubimci u transporteru obično se lakše primaju od velikih pasa. Najjednostavnije je putovati autom, a ako idete autobusom, pravila provjerite kod prijevoznika prije kupnje karte."
+ },
+ {
+  "q": "Ima li krpelja uz Unu i kako zaštititi psa?",
+  "a": "Da, krpelji su česti u travi i šumi uz Unu, osobito od proljeća do jeseni. Psa prije puta zaštitite ogrlicom, tabletom ili kapima protiv krpelja, prema savjetu veterinara. Nakon svake šetnje pregledajte uši, vrat, pazuhe i prostor između prstiju. Krpelje uklonite pincetom što bliže koži."
+ },
+ {
+  "q": "Može li se u Bihaću kupiti hrana za pse?",
+  "a": "Da, hranu za pse i mačke možete kupiti u većim supermarketima i u trgovinama za kućne ljubimce u Bihaću. Specijalne ili veterinarske dijete teže je naći, pa ih ponesite od kuće dovoljno za cijeli boravak. Isto vrijedi za lijekove koje ljubimac redovno uzima."
+ },
+ {
+  "q": "Je li vikendica u Grmuši dobra za odmor s psom?",
+  "a": "Grmuša je mirno mjesto uz Unu oko 20 km sjeveroistočno od Bihaća, pa je ugodnija za psa od grada. Ima prirode i mjesta za šetnju uz rijeku, a malo prometa. Prima li određena vikendica ljubimce, provjerite upitom na apartmanibihac.com ili preko WhatsAppa na +387 61 591 320."
+ },
+ {
+  "q": "Je li Lohovo pogodno za odmor sa psom?",
+  "a": "Lohovo je mirno naselje uz Unu, oko 10 km južno od centra Bihaća, s puno zelenila i malo prometa. Za psa je to ugodnije okruženje od gradskog apartmana, a do ulaza u NP Una treba oko 15 minuta vožnje. Prihvaća li pojedina kuća pse, piše vlasnik u odgovoru na vaš upit."
+ },
+ {
+  "q": "Može li pas ostati sam u apartmanu dok smo na raftingu?",
+  "a": "To morate unaprijed dogovoriti s vlasnikom smještaja, jer mnogi ne dopuštaju da ljubimac ostane sam. Pas u nepoznatom prostoru može lajati ili oštetiti namještaj. Ako planirate rafting ili duži izlet, u upitu to napišite, pa će vam vlasnik reći što je moguće."
+ },
+ {
+  "q": "Može li pas na rafting na Uni?",
+  "a": "Psi obično ne idu na rafting, jer je riječ o brzacima i čamcu s putnicima u zaštitnoj opremi. Za rafting s Una Olympic Rafting provjerite pravila kod organizatora, ali računajte da ljubimac ostaje na kopnu. Bolje je ostaviti psa s nekim tko ostaje u smještaju ili ga ne voditi na taj dio dana."
+ },
+ {
+  "q": "Što ako se pas razboli na odmoru u Bihaću?",
+  "a": "Javite se veterinarskoj ambulanti u Bihaću, a ako nije radno vrijeme, potražite dežurnu službu. Ponesite EU putovnicu ljubimca, jer u njoj piše povijest cijepljenja. Vlasnik smještaja vam obično može pomoći s kontaktom, a lijekove za kroničnu bolest ponesite od kuće."
+ },
+ {
+  "q": "Je li vruće ljeto u Bihaću problem za pse?",
+  "a": "U srpnju i kolovozu dnevne temperature u Bihaću često prelaze 25 do 30 °C, pa pse treba šetati rano ujutro i navečer. Usred dana asfalt može biti prevruć za šape. Hlad uz Unu i svježa voda puno pomažu, a psa nikad ne ostavljajte u zatvorenom autu."
+ },
+ {
+  "q": "Kako izgleda granična kontrola kad putujem s psom?",
+  "a": "Na granici pas uglavnom ostaje u autu, a službenik pregleda putovnicu i po potrebi očita mikročip. Pripremite putovnicu ljubimca zajedno s vašim dokumentima kako bi pregled bio brz. Ljeti na Izačiću zna biti čekanja, pa ponesite vodu i provjetrite auto."
+ },
+ {
+  "q": "Treba li prijaviti psa na granici kad ulazim u BiH?",
+  "a": "Da, pri ulasku s ljubimcem trebate pokazati njegove dokumente na graničnom prijelazu i dopustiti provjeru identiteta, odnosno čipa. Ured za veterinarstvo BiH navodi da se ljubimci unose preko određenih ulaznih mjesta. Najbolje je odmah reći službeniku da u autu imate psa ili mačku."
+ },
+ {
+  "q": "Što ako pas nema EU putovnicu nego samo knjižicu cijepljenja?",
+  "a": "Za putovanje iz EU u BiH i natrag potrebna je EU putovnica za ljubimce, obična knjižica cijepljenja nije dovoljna. Putovnicu izdaje ovlašteni veterinar u vašoj zemlji, a u nju upisuje čip i cijepljenje. Riješite to nekoliko tjedana prije puta, osobito ako pas tek treba biti cijepljen."
+ },
+ {
+  "q": "Može li se s ljubimcem putovati iz Srbije ili Crne Gore u Bihać?",
+  "a": "Može, ali za ljubimce iz zemalja izvan EU obično vrijede drugačiji dokumenti nego za EU putovnicu, najčešće veterinarski certifikat. Točne uvjete za vašu zemlju provjerite na stranici Ureda za veterinarstvo BiH, vet.gov.ba. Ako nakon toga idete u EU, provjerite i pravila zemlje u koju ulazite."
+ },
+ {
+  "q": "Je li Bihać grad prijateljski prema psima?",
+  "a": "Bihać je umjereno prijateljski prema psima: ima šetnica uz Unu i puno zelenila, a ljudi su uglavnom navikli na pse. U kafićima s terasom pas na povocu obično može sjediti vani s vama. U zatvorene restorane i trgovine pse uglavnom ne puštaju, pa je dobro pitati."
+ },
+ {
+  "q": "Mogu li uz Unu pustiti psa bez povoca?",
+  "a": "Na mirnim mjestima izvan grada neki ljudi puštaju pse, ali sigurnije je držati ga na povocu, osobito blizu vode. Struja Une je mjestimično jaka, a u šumi i livadama ima krpelja i divljih životinja. U samom gradu i na turističkim lokacijama povodac je obavezan i očekivan."
+ },
+ {
+  "q": "Ima li u okolici Bihaća planinarskih staza za šetnju sa psom?",
+  "a": "Da, oko Bihaća ima šumskih i planinarskih staza, na primjer prema Plješevici i uz rubove kanjona Une. Držite se označenih staza i putova, jer u nekim rubnim šumskim područjima još postoje minski sumnjive površine. Pas neka bude na povocu kako ne bi odlutao s puta."
+ },
+ {
+  "q": "Zašto psa ne treba puštati s označenih staza oko Bihaća?",
+  "a": "U nekim rubnim šumskim i planinskim područjima Unsko-sanskog kantona još postoje minski sumnjive površine iz rata. Takva područja su uglavnom označena, ali pas ne poznaje znakove i može otrčati u šumu. Zato je na izletima izvan naselja najsigurnije držati psa na povocu i na označenom putu."
+ },
+ {
+  "q": "Kome se javiti ako izgubim psa u Bihaću?",
+  "a": "Prvo obavijestite vlasnika smještaja i susjede, jer lokalni ljudi najbrže saznaju za izgubljenu životinju. Objavite oglas sa slikom u lokalnim Facebook grupama za Bihać i javite se veterinarskim ambulantama koje mogu očitati čip. Pomaže i to da broj vašeg mobitela bude na ogrlici psa."
+ },
+ {
+  "q": "Kako rezervirati smještaj u Bihaću s kućnim ljubimcem?",
+  "a": "Pošaljite upit na apartmanibihac.com s datumima, brojem osoba i podacima o ljubimcu, odnosno vrstom i veličinom. Vlasnik potvrdi dostupnost i prihvaća li ljubimca, a odgovor stiže u roku od 12 sati. Kapara je 30 %, a ostatak se plaća po dolasku gotovinom ili karticom."
+ },
+ {
+  "q": "Je li Bihać dobar za odmor s psom na putu prema moru?",
+  "a": "Da, Bihać je zgodno stajalište na putu s psom prema Jadranu, jer je oko 35 km od Plitvica i ima puno prirode za šetnju. Pas se nakon dugog puta može odmoriti uz Unu, a vi prenoćiti u mirnoj kući. Na povratku u EU ponesite EU putovnicu ljubimca s važećim cijepljenjem."
+ }
 ]
