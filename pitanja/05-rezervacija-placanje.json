@@ -1,162 +1,42 @@
 [
- {
-  "q": "Kako rezervirati smještaj u Bihaću kod vas?",
-  "a": "Na apartmanibihac.com odaberete objekt, upišete datume dolaska i odlaska te broj osoba i pošaljete upit. Vlasnik potvrdi je li termin slobodan, a odgovor dobivate u roku od 12 sati. Nakon potvrde e-mailom stižu ukupna cijena i upute za kaparu. Kad uplatite kaparu od 30 %, rezervacija je potvrđena."
- },
- {
-  "q": "Kako poslati upit za apartman?",
-  "a": "Upit šaljete preko obrasca na stranici objekta na apartmanibihac.com: upišete ime, e-mail, broj mobitela, datume i broj osoba, a poruka nije obavezna. Upit je besplatan i ne obvezuje vas. Ako vam je draže, termin nam možete poslati i na WhatsApp ili Viber +387 61 591 320."
- },
- {
-  "q": "Koliko brzo odgovarate na upit?",
-  "a": "Na upit odgovaramo u roku od 12 sati, a najčešće i brže. U tom roku vlasnik objekta provjeri i potvrdi je li termin slobodan. Potvrda s cijenom i uputama za kaparu stiže vam e-mailom. Za hitne upite pišite nam na WhatsApp ili Viber +387 61 591 320."
- },
- {
-  "q": "Je li upit isto što i rezervacija?",
-  "a": "Ne, upit još nije rezervacija, nego zahtjev da vlasnik potvrdi slobodan termin. Termin vam čuvamo dok vlasnik ne odgovori, a nakon potvrde dobivate ukupnu cijenu i upute za kaparu. Rezervacija je potvrđena kad uplatite kaparu. Ako kapara ne stigne u roku od 24 sata od potvrde, termin se oslobađa."
- },
- {
-  "q": "Naplaćujete li naknadu za rezervaciju?",
-  "a": "Ne, za rezervaciju preko apartmanibihac.com ne plaćate nikakvu naknadu. Rezervirate izravno s vlasnikom, bez provizije posrednika, pa je i cijena obično povoljnija. Plaćate samo cijenu smještaja: kaparu unaprijed, a ostatak po dolasku. Cijeli apartman, i do 100 m², tako dobijete već od 25 €, odnosno 50 KM po noći."
- },
- {
-  "q": "Koliko iznosi kapara?",
-  "a": "Kapara iznosi 30 % ukupne cijene smještaja i plaća se nakon što vlasnik potvrdi termin. Ostalih 70 % plaćate vlasniku pri dolasku, gotovinom ili karticom. Primjerice, za boravak od 200 € kapara je 60 €, a 140 € plaćate po dolasku."
- },
- {
-  "q": "Do kada moram uplatiti kaparu?",
-  "a": "Kaparu treba uplatiti u roku od 24 sata od potvrde termina, a točan rok piše u e-mailu s potvrdom. Ako kapara ne stigne u roku, termin se oslobađa za druge goste. Ako vam treba malo više vremena, javite nam se odmah na WhatsApp ili Viber +387 61 591 320."
- },
- {
-  "q": "Kako mogu platiti kaparu?",
-  "a": "Kaparu možete platiti karticom preko poveznice za plaćanje ili uplatom na bankovni račun, prema uputama u e-mailu s potvrdom. Uz uplatu na račun navedite broj upita kao opis plaćanja. Kad kapara stigne, rezervacija je potvrđena. Kaparu treba uplatiti u roku od 24 sata od potvrde termina."
- },
- {
-  "q": "Kako se plaća ostatak cijene?",
-  "a": "Ostatak, odnosno 70 % cijene, plaćate vlasniku pri dolasku, gotovinom ili karticom. Gotovina se može platiti u konvertibilnim markama ili eurima, ovisno o dogovoru s vlasnikom. Ako želite platiti karticom, javite to unaprijed, da domaćin bude spreman. Iznos ostatka piše u e-mailu s potvrdom, pa ga znate unaprijed."
- },
- {
-  "q": "Mogu li platiti u eurima?",
-  "a": "Da, cijene na apartmanibihac.com navedene su u eurima, a ostatak pri dolasku najčešće možete platiti u eurima ili konvertibilnim markama. Tečaj je stalan: 1 euro vrijedi oko 1,96 KM. Ako plaćate gotovinom u eurima, pripremite manje novčanice. Kaparu plaćate karticom ili uplatom na račun, prema uputama iz potvrde."
- },
- {
-  "q": "Je li plaćanje kapare sigurno?",
-  "a": "Da, kaparu plaćate karticom preko poveznice za plaćanje ili izravno na račun naveden u potvrdi, a podaci kartice ne šalju se nama ni vlasniku. Nikad ne plaćajte na račun koji vam pošalje netko drugi, nego samo prema uputama iz našeg e-maila. Ako niste sigurni, provjerite na WhatsApp +387 61 591 320."
- },
- {
-  "q": "Kome dajete moje osobne podatke?",
-  "a": "Ime, e-mail i broj mobitela koristimo samo za obradu upita i rezervacije. Dijelimo ih isključivo s vlasnikom objekta, i to tek nakon uplate kapare. Podatke ne prodajemo i ne šaljemo nikome trećem. Za brisanje podataka pišite nam na e-mail apartmaniubihacu@gmail.com."
- },
- {
-  "q": "Kada dobivam adresu smještaja?",
-  "a": "Točnu adresu i kontakt vlasnika dobivate e-mailom nakon što uplatite kaparu. Prije toga na sajtu vidite naselje i opis lokacije, primjerice centar Bihaća, Lohovo, Pritoka ili Grmuša. Tako su i gost i vlasnik zaštićeni od lažnih rezervacija. Nakon toga se oko dolaska i ključeva dogovarate izravno s vlasnikom."
- },
- {
-  "q": "Mogu li otkazati rezervaciju?",
-  "a": "Da, rezervaciju možete otkazati, a uvjeti otkaza navedeni su uz upit na sajtu i u e-mailu s potvrdom. Prije slanja upita potvrđujete da ste ih pročitali, pa točno znate što vrijedi za kaparu. Za otkaz nam se javite e-mailom na apartmaniubihacu@gmail.com ili na WhatsApp +387 61 591 320."
- },
- {
-  "q": "Vraća li se kapara ako otkažem?",
-  "a": "Vraća li se kapara i u kojem iznosu ovisi o tome koliko ranije otkazujete, a uvjeti otkaza navedeni su uz upit na sajtu. Prije slanja upita ih pročitajte, jer ih potvrđujete u obrascu. Ako vam se planovi mijenjaju, javite se što prije, pa ćemo pokušati pronaći i drugi termin."
- },
- {
-  "q": "Mogu li promijeniti datume rezervacije?",
-  "a": "Promjena datuma moguća je ako je objekt slobodan u novom terminu i vlasnik se slaže. Javite nam se što ranije na WhatsApp ili Viber +387 61 591 320 ili e-mailom, pa ćemo provjeriti dostupnost. Što ranije javite, to je veća šansa da novi termin bude slobodan."
- },
- {
-  "q": "Mogu li promijeniti broj osoba nakon rezervacije?",
-  "a": "Da, broj osoba možete promijeniti ako to dopušta kapacitet objekta, a cijena se može prilagoditi. Svaki objekt ima najveći broj gostiju, primjerice Apartman Hari do 4 osobe ili Villa Mekić 2 do 20 osoba. Promjenu nam javite prije dolaska. Ako vas je više nego što objekt prima, predložit ćemo veći objekt."
- },
- {
-  "q": "Zašto rezervirati izravno, a ne preko Bookinga?",
-  "a": "Kad rezervirate izravno na apartmanibihac.com, nema provizije velikih platformi, pa vlasnik može ponuditi bolju cijenu. Dogovarate se s ljudima koji poznaju objekt i Bihać, a odgovor stiže u roku od 12 sati. Cijeli apartman, i do 100 m², kod nas košta već od 25 €, odnosno 50 KM po noći."
- },
- {
-  "q": "Je li cijena kod vas niža nego na Bookingu?",
-  "a": "Izravna rezervacija je obično povoljnija jer vlasnik ne plaća proviziju platformi, pa dio te uštede može prenijeti na vas. Cijene ovise o objektu i sezoni, a kreću se od 25 do 100 € po noći za cijeli objekt. Usporedite cijenu za svoje datume na apartmanibihac.com."
- },
- {
-  "q": "Je li cijena po osobi ili za cijeli apartman?",
-  "a": "Naše cijene su za cijeli objekt po noći, a ne po osobi. Zato je cijeli apartman, i do 100 m², već od 25 €, odnosno 50 KM po noći, otprilike koliko u Bihaću obično košta soba za jednu osobu. Što vas je više, cijena po osobi je niža."
- },
- {
-  "q": "Što je uključeno u cijenu smještaja?",
-  "a": "U cijenu je uključen cijeli objekt s opremom navedenom u opisu, obično i parking i Wi-Fi. Boravišna taksa, ako nije već u cijeni, plaća se prema pravilima Unsko-sanskog kantona, a to piše u potvrdi. Dodatne usluge, poput raftinga ili prijevoza, dogovaraju se posebno."
- },
- {
-  "q": "Dobivam li potvrdu rezervacije?",
-  "a": "Da, potvrdu rezervacije dobivate e-mailom, prvo kad vlasnik potvrdi termin, a zatim kad uplatite kaparu. U potvrdi su datumi, objekt, ukupna cijena, iznos kapare i uvjeti otkaza. Potvrdu sačuvajte i pokažite ako vas pitaju na granici. Potvrda stiže na e-mail koji ste upisali u upitu, pa provjerite i mapu neželjene pošte."
- },
- {
-  "q": "Mogu li dobiti račun za smještaj?",
-  "a": "Ako vam treba račun, primjerice za tvrtku ili putne troškove, napišite to u upitu prije potvrde termina. Mogućnost izdavanja računa i podaci na njemu ovise o objektu i vlasniku, pa to provjeravamo unaprijed. Za kaparu dobivate potvrdu o uplati. Za pitanja oko računa pišite na apartmaniubihacu@gmail.com."
- },
- {
-  "q": "Koliko noćenja moram rezervirati najmanje?",
-  "a": "Minimalni broj noćenja ovisi o objektu i sezoni, a ljeti je kod nekih kuća uz Unu dulji nego izvan sezone. Ako odabrani termin ne zadovoljava minimum, obrazac na sajtu će vas na to upozoriti. Za kraće boravke najlakše je pronaći slobodan apartman u centru Bihaća."
- },
- {
-  "q": "Mogu li rezervirati samo jednu noć?",
-  "a": "Za jednu noć najčešće je moguće rezervirati apartmane u Bihaću, posebno izvan glavne sezone. Kod nekih kuća uz Unu ljeti je potreban dulji boravak. Pošaljite upit za svoje datume na apartmanibihac.com, a obrazac odmah pokazuje minimalan broj noći za taj objekt."
- },
- {
-  "q": "Kako znam je li apartman slobodan za moje datume?",
-  "a": "Na stranici svakog objekta na apartmanibihac.com nalazi se kalendar dostupnosti, pa odmah vidite zauzete dane. Kalendari se mogu povezati s Bookingom i Airbnbom, kako ne bi došlo do dvostruke rezervacije. Konačnu potvrdu ipak daje vlasnik nakon vašeg upita, u roku od 12 sati."
- },
- {
-  "q": "Što ako stignem kasno navečer?",
-  "a": "Kasni dolazak nije problem ako ga unaprijed najavite u upitu ili vlasniku nakon potvrde. Domaćin će vas pričekati ili dogovoriti drugi način preuzimanja ključeva. Ako zbog granice ili puta kasnite više nego što ste rekli, javite se na WhatsApp ili Viber +387 61 591 320."
- },
- {
-  "q": "Što ako stignem rano ujutro?",
-  "a": "Raniji ulazak ovisi o tome je li objekt slobodan noć prije vašeg dolaska. Napišite vrijeme dolaska u upitu, pa ćemo s vlasnikom provjeriti je li moguće. Ako nije, prtljagu možete najčešće ostaviti, a u grad otići na kavu uz Unu."
- },
- {
-  "q": "Kako vas mogu kontaktirati?",
-  "a": "Najbrže nas dobijete na WhatsApp ili Viber +387 61 591 320, a e-mail je apartmaniubihacu@gmail.com. Upit za konkretan objekt i datume najbolje je poslati preko obrasca na apartmanibihac.com, jer tako odmah stiže vlasniku. Govorimo bosanski, engleski i njemački. Na upite odgovaramo u roku od 12 sati."
- },
- {
-  "q": "Mogu li rezervirati preko WhatsAppa?",
-  "a": "Da, na WhatsApp ili Viber +387 61 591 320 možete poslati datume, broj osoba i objekt koji vas zanima, pa ćemo provjeriti dostupnost. Za službenu potvrdu i uplatu kapare ipak ćemo vas uputiti na upit na sajtu ili vam ga pripremiti. Tako i vi i vlasnik imate sve podatke e-mailom."
- },
- {
-  "q": "Što ako vlasnik ne potvrdi termin?",
-  "a": "Ako termin nije slobodan, dobivate obavijest i ništa ne plaćate. Pošaljite upit za drugi objekt ili nam javite na WhatsApp +387 61 591 320 što tražite, pa ćemo predložiti slobodan smještaj sličnog kapaciteta. U ponudi imamo 19 objekata u Bihaću i uz Unu."
- },
- {
-  "q": "Je li vaša stranica sigurna za rezervaciju?",
-  "a": "Da, apartmanibihac.com je stranica Apartmana & Vikendica Bihać, čija Facebook stranica ima oko 139.000 pratitelja i 9.362 osvrta, uz 100 % preporuka. Svaki upit ide izravno vlasniku, a kaparu plaćate samo prema uputama iz našeg e-maila. Za provjeru nas uvijek možete nazvati ili pisati na +387 61 591 320."
- },
- {
-  "q": "Kako prepoznati lažnu ponudu za smještaj u Bihaću?",
-  "a": "Budite oprezni ako netko traži uplatu cijelog iznosa unaprijed, na privatni račun u inozemstvu ili preko nepoznatih poveznica. Kod nas se unaprijed plaća samo kapara od 30 %, a upute stižu s naše adrese nakon potvrde vlasnika. Ako dobijete sumnjivu poruku u naše ime, provjerite na WhatsApp +387 61 591 320."
- },
- {
-  "q": "Mogu li rezervirati za nekog drugog?",
-  "a": "Da, smještaj možete rezervirati za prijatelje ili rodbinu, ali u upitu napišite ime osobe koja dolazi i njezin broj mobitela. Pri dolasku domaćin treba osobne dokumente svih gostiju zbog prijave boravka. Kaparu može platiti bilo tko. Potvrda i upute za kaparu stižu na e-mail koji upišete u upitu."
- },
- {
-  "q": "Dajete li popust za dulji boravak?",
-  "a": "Za dulji boravak, primjerice tjedan ili više, mnogi vlasnici daju bolju cijenu. U upitu napišite točne datume i pitajte za popust, a vlasnik će odgovoriti uz potvrdu termina. Izvan srpnja i kolovoza cijene su obično i niže. Za dulji boravak praktični su apartmani s kuhinjom i perilicom rublja."
- },
- {
-  "q": "Kada je najbolje rezervirati smještaj za ljeto?",
-  "a": "Za srpanj i kolovoz najbolje je rezervirati nekoliko tjedana ili mjeseci ranije, posebno kuće uz Unu i objekte za veće grupe. Vila Enio s bazenom i velike vile poput Ville Mekić 2 ljeti se brzo popune. Izvan sezone slobodan smještaj često se nađe i za nekoliko dana."
- },
- {
-  "q": "Mogu li rezervirati smještaj u zadnji čas?",
-  "a": "Da, ako je objekt slobodan, rezervacija je moguća i za isti ili sljedeći dan. Tada je najbrže javiti se na WhatsApp ili Viber +387 61 591 320, da odmah provjerimo dostupnost kod vlasnika. Kaparu tada plaćate odmah nakon potvrde. U centru Bihaća slobodan apartman se izvan sezone najlakše nađe."
- },
- {
-  "q": "Treba li kapara i za grupni smještaj?",
-  "a": "Da, i za grupe kapara iznosi 30 % ukupne cijene, a ostatak se plaća pri dolasku. Za grupe od 10 i više osoba u upitu napišite točan broj osoba i trebaju li vam odvojeni kreveti. Ako uz smještaj želite rafting, dobit ćete zajedničku ponudu."
- },
- {
-  "q": "Mogu li platiti rafting i smještaj zajedno?",
-  "a": "Smještaj i rafting s Una Olympic Raftingom možete dogovoriti u istom upitu, pa dobivate zajedničku ponudu. Kapara od 30 % odnosi se na smještaj, a način plaćanja raftinga piše u ponudi. U poruci napišite broj osoba i željeni dan za rafting."
- },
- {
-  "q": "Postoji li dodatni trošak za čišćenje?",
-  "a": "Dodatni trošci, ako postoje, navode se u potvrdi uz ukupnu cijenu, pa ih znate prije uplate kapare. Kod većine objekata završno čišćenje je uključeno u cijenu. Ako niste sigurni, pitajte uz upit. Nema ni naknade za rezervaciju, jer rezervirate izravno s vlasnikom."
- }
+{"q": "Kako rezervirati smještaj u Bihaću kod vas?", "a": "Na apartmanibihac.com odaberete objekt, upišete datume dolaska i odlaska te broj osoba i pošaljete upit. Vlasnik potvrdi je li termin slobodan, a odgovor dobivate u roku od 12 sati, uz potvrdu e-mailom s ukupnom cijenom. Smještaj plaćate gotovinom po dolasku, bez obavezne kapare. Ako želite, možete uplatiti avans unaprijed i za to dobiti popust, a iznos i način uplate dogovaramo uz potvrdu upita."},
+{"q": "Kako poslati upit za apartman?", "a": "Upit šaljete preko obrasca na stranici objekta na apartmanibihac.com: upišete ime, e-mail, broj mobitela, datume i broj osoba, a poruka nije obavezna. Upit je besplatan i ne obvezuje vas. Ako vam je draže, termin nam možete poslati i na WhatsApp ili Viber +387 61 591 320."},
+{"q": "Koliko brzo odgovarate na upit?", "a": "Na upit odgovaramo u roku od 12 sati, a najčešće i brže. U tom roku vlasnik objekta provjeri i potvrdi je li termin slobodan. Potvrda s ukupnom cijenom stiže vam e-mailom, a smještaj plaćate gotovinom po dolasku. Za hitne upite pišite nam na WhatsApp ili Viber +387 61 591 320."},
+{"q": "Je li upit isto što i rezervacija?", "a": "Ne, upit još nije rezervacija, nego zahtjev da vlasnik potvrdi slobodan termin. Kad vlasnik potvrdi termin, dobivate e-mail s ukupnom cijenom i rezervacija je dogovorena. Obavezne kapare nema, a smještaj plaćate gotovinom po dolasku. Ako želite, možete uplatiti avans unaprijed i za to dobiti popust, a iznos i način uplate dogovaramo uz potvrdu upita."},
+{"q": "Naplaćujete li naknadu za rezervaciju?", "a": "Ne, za rezervaciju preko apartmanibihac.com ne plaćate nikakvu naknadu. Rezervirate izravno s vlasnikom, bez provizije posrednika, pa je i cijena obično povoljnija. Plaćate samo cijenu smještaja, gotovinom po dolasku. Cijeli apartman, i do 100 m², tako dobijete već od 25 €, odnosno 50 KM po noći."},
+{"q": "Treba li platiti kaparu?", "a": "Ne, obavezne kapare nema: smještaj se plaća gotovinom po dolasku. Ako želite, možete uplatiti avans unaprijed i za to dobiti popust na cijenu. Iznos popusta i način uplate dogovaramo uz potvrdu vašeg upita, pa točno znate na čemu ste prije dolaska."},
+{"q": "Kada se plaća smještaj?", "a": "Smještaj se plaća gotovinom po dolasku, kad preuzmete ključeve, a ne unaprijed. Rezervacija je dogovorena kad vlasnik potvrdi termin e-mailom. Ako vam odgovara, avans možete uplatiti unaprijed uz popust, a detalje dogovaramo uz potvrdu upita. Za pitanja nam pišite na WhatsApp ili Viber +387 61 591 320."},
+{"q": "Mogu li platiti avans unaprijed?", "a": "Možete, iako nije obavezno. Osnovni način plaćanja je gotovinom po dolasku, a gosti koji žele uplatiti avans unaprijed dobivaju popust. Iznos popusta i način uplate dogovaramo uz potvrdu upita, pa to napišite u poruci ako vas zanima. Nikad ne plaćajte prema uputama koje ne dolaze od nas."},
+{"q": "Kako se plaća smještaj?", "a": "Smještaj se plaća gotovinom po dolasku, vlasniku objekta. Zato pripremite gotovinu, u eurima ili markama prema dogovoru s vlasnikom. Ako ste uplatili avans unaprijed, po dolasku plaćate samo ostatak. Ukupni iznos piše u e-mailu s potvrdom, pa ga znate unaprijed. Posteljina i završno čišćenje već su uključeni u cijenu."},
+{"q": "Mogu li platiti u eurima?", "a": "Cijene na apartmanibihac.com navedene su u eurima, a smještaj plaćate gotovinom po dolasku. Plaća li se u eurima ili u konvertibilnim markama, potvrdi vlasnik u odgovoru na upit. Tečaj je stalan: 1 euro vrijedi oko 1,96 KM. Ako plaćate eurima, pripremite manje novčanice."},
+{"q": "Je li sigurno uplatiti avans?", "a": "Avans nije obavezan, jer se smještaj inače plaća gotovinom po dolasku. Ako ga želite uplatiti radi popusta, način uplate dogovaramo izravno s vama uz potvrdu upita. Nikad ne plaćajte na račun koji vam pošalje netko drugi u naše ime. Ako niste sigurni, provjerite na WhatsApp +387 61 591 320."},
+{"q": "Kome dajete moje osobne podatke?", "a": "Ime, e-mail i broj mobitela koristimo samo za obradu upita i rezervacije. Dijelimo ih isključivo s vlasnikom objekta u koji dolazite, i to kad vlasnik potvrdi rezervaciju. Podatke ne prodajemo i ne šaljemo nikome trećem. Za brisanje podataka pišite nam na e-mail apartmaniubihacu@gmail.com."},
+{"q": "Kada dobivam adresu smještaja?", "a": "Točnu adresu i kontakt vlasnika dobivate e-mailom nakon što vlasnik potvrdi rezervaciju. Prije toga na sajtu vidite naselje i opis lokacije, primjerice centar Bihaća, Lohovo, Pritoka ili Grmuša. Nakon toga se oko dolaska i ključeva dogovarate izravno s vlasnikom. Ulazak u smještaj moguć je od 12:00."},
+{"q": "Mogu li otkazati rezervaciju?", "a": "Da, rezervaciju možete otkazati, a uvjeti otkaza navedeni su uz upit na sajtu i u e-mailu s potvrdom. Budući da se smještaj plaća gotovinom po dolasku, bez obavezne kapare, otkaz nas najviše pomaže kad stigne što ranije. Za otkaz nam se javite e-mailom na apartmaniubihacu@gmail.com ili na WhatsApp +387 61 591 320."},
+{"q": "Vraća li se avans ako otkažem?", "a": "Ako ste uplatili avans unaprijed, uvjeti povrata pri otkazu dogovaraju se zajedno s avansom, uz potvrdu upita, pa ih znate prije uplate. Ako avans niste uplatili, nego plaćate gotovinom po dolasku, nemate što tražiti natrag. Ako vam se planovi mijenjaju, javite se što prije, pa ćemo pokušati pronaći i drugi termin."},
+{"q": "Mogu li promijeniti datume rezervacije?", "a": "Promjena datuma moguća je ako je objekt slobodan u novom terminu i vlasnik se slaže. Javite nam se što ranije na WhatsApp ili Viber +387 61 591 320 ili e-mailom, pa ćemo provjeriti dostupnost. Što ranije javite, to je veća šansa da novi termin bude slobodan."},
+{"q": "Mogu li promijeniti broj osoba nakon rezervacije?", "a": "Da, broj osoba možete promijeniti ako to dopušta kapacitet objekta, a cijena se može prilagoditi. Svaki objekt ima najveći broj gostiju, primjerice Apartman Hari do 4 osobe ili Villa Mekić 2 do 20 osoba. Promjenu nam javite prije dolaska. Ako vas je više nego što objekt prima, predložit ćemo veći objekt."},
+{"q": "Zašto rezervirati izravno, a ne preko Bookinga?", "a": "Kad rezervirate izravno na apartmanibihac.com, nema provizije velikih platformi, pa vlasnik može ponuditi bolju cijenu. Dogovarate se s ljudima koji poznaju objekt i Bihać, a odgovor stiže u roku od 12 sati. Cijeli apartman, i do 100 m², kod nas košta već od 25 €, odnosno 50 KM po noći."},
+{"q": "Je li cijena kod vas niža nego na Bookingu?", "a": "Izravna rezervacija je obično povoljnija jer vlasnik ne plaća proviziju platformi, pa dio te uštede može prenijeti na vas. Cijene ovise o objektu i sezoni, a kreću se od 25 do 100 € po noći za cijeli objekt. Usporedite cijenu za svoje datume na apartmanibihac.com."},
+{"q": "Je li cijena po osobi ili za cijeli apartman?", "a": "Naše cijene su za cijeli objekt po noći, a ne po osobi. Zato je cijeli apartman, i do 100 m², već od 25 €, odnosno 50 KM po noći, otprilike koliko u Bihaću obično košta soba za jednu osobu. Što vas je više, cijena po osobi je niža."},
+{"q": "Što je uključeno u cijenu smještaja?", "a": "U cijenu je uključen cijeli objekt s opremom navedenom u opisu, obično i parking i Wi-Fi. Boravišna taksa, ako nije već u cijeni, plaća se prema pravilima Unsko-sanskog kantona, a to piše u potvrdi. Dodatne usluge, poput raftinga ili prijevoza, dogovaraju se posebno."},
+{"q": "Dobivam li potvrdu rezervacije?", "a": "Da, potvrdu rezervacije dobivate e-mailom kad vlasnik potvrdi termin. U potvrdi su datumi, objekt, ukupna cijena i uvjeti otkaza, a smještaj plaćate gotovinom po dolasku. Potvrdu sačuvajte i pokažite ako vas pitaju na granici. Potvrda stiže na e-mail koji ste upisali u upitu, pa provjerite i mapu neželjene pošte."},
+{"q": "Mogu li dobiti račun za smještaj?", "a": "Ako vam treba račun, primjerice za tvrtku ili putne troškove, napišite to u upitu prije potvrde termina. Mogućnost izdavanja računa i podaci na njemu ovise o objektu i vlasniku, pa to provjeravamo unaprijed. Ako uplatite avans, potvrdu o uplati dogovaramo zajedno s uplatom. Za pitanja oko računa pišite na apartmaniubihacu@gmail.com."},
+{"q": "Koliko noćenja moram rezervirati najmanje?", "a": "Minimalni broj noćenja ovisi o objektu i sezoni, a ljeti je kod nekih kuća uz Unu dulji nego izvan sezone. Ako odabrani termin ne zadovoljava minimum, obrazac na sajtu će vas na to upozoriti. Za kraće boravke najlakše je pronaći slobodan apartman u centru Bihaća."},
+{"q": "Mogu li rezervirati samo jednu noć?", "a": "Za jednu noć najčešće je moguće rezervirati apartmane u Bihaću, posebno izvan glavne sezone. Kod nekih kuća uz Unu ljeti je potreban dulji boravak. Pošaljite upit za svoje datume na apartmanibihac.com, a obrazac odmah pokazuje minimalan broj noći za taj objekt."},
+{"q": "Kako znam je li apartman slobodan za moje datume?", "a": "Na stranici svakog objekta na apartmanibihac.com nalazi se kalendar dostupnosti, pa odmah vidite zauzete dane. Kalendari se mogu povezati s Bookingom i Airbnbom, kako ne bi došlo do dvostruke rezervacije. Konačnu potvrdu ipak daje vlasnik nakon vašeg upita, u roku od 12 sati."},
+{"q": "Što ako stignem kasno navečer?", "a": "Kasni dolazak nije problem ako ga unaprijed najavite u upitu ili vlasniku nakon potvrde. Domaćin će vas pričekati ili dogovoriti drugi način preuzimanja ključeva. Ako zbog granice ili puta kasnite više nego što ste rekli, javite se na WhatsApp ili Viber +387 61 591 320."},
+{"q": "Što ako stignem rano ujutro?", "a": "Ulazak u smještaj redovno je moguć od 12:00. Raniji ulazak ovisi o tome je li objekt slobodan noć prije vašeg dolaska, pa napišite vrijeme dolaska u upitu i provjerit ćemo s vlasnikom. Ako nije moguće, prtljagu često možete ostaviti, a do podneva otići na kavu uz Unu."},
+{"q": "Kako vas mogu kontaktirati?", "a": "Najbrže nas dobijete na WhatsApp ili Viber +387 61 591 320, a e-mail je apartmaniubihacu@gmail.com. Upit za konkretan objekt i datume najbolje je poslati preko obrasca na apartmanibihac.com, jer tako odmah stiže vlasniku. Govorimo bosanski, engleski i njemački. Na upite odgovaramo u roku od 12 sati."},
+{"q": "Mogu li rezervirati preko WhatsAppa?", "a": "Da, na WhatsApp ili Viber +387 61 591 320 možete poslati datume, broj osoba i objekt koji vas zanima, pa ćemo provjeriti dostupnost. Za službenu potvrdu ipak ćemo vas uputiti na upit na sajtu ili vam ga pripremiti. Tako i vi i vlasnik imate sve podatke e-mailom, a smještaj plaćate gotovinom po dolasku."},
+{"q": "Što ako vlasnik ne potvrdi termin?", "a": "Ako termin nije slobodan, dobivate obavijest i ništa ne plaćate. Pošaljite upit za drugi objekt ili nam javite na WhatsApp +387 61 591 320 što tražite, pa ćemo predložiti slobodan smještaj sličnog kapaciteta. U ponudi imamo 19 objekata u Bihaću i uz Unu."},
+{"q": "Je li vaša stranica sigurna za rezervaciju?", "a": "Da, apartmanibihac.com je stranica Apartmana & Vikendica Bihać, čija Facebook stranica ima oko 139.000 pratitelja i 9.362 osvrta, uz 100 % preporuka. Svaki upit ide izravno vlasniku, a smještaj se plaća gotovinom po dolasku, pa unaprijed ne morate ništa uplaćivati. Za provjeru nas uvijek možete nazvati ili pisati na +387 61 591 320."},
+{"q": "Kako prepoznati lažnu ponudu za smještaj u Bihaću?", "a": "Budite oprezni ako netko traži uplatu cijelog iznosa unaprijed, na privatni račun u inozemstvu ili preko nepoznatih poveznica. Kod nas se smještaj plaća gotovinom po dolasku, a avans je samo dobrovoljna opcija uz popust, dogovorena s nama nakon potvrde vlasnika. Ako dobijete sumnjivu poruku u naše ime, provjerite na WhatsApp +387 61 591 320."},
+{"q": "Mogu li rezervirati za nekog drugog?", "a": "Da, smještaj možete rezervirati za prijatelje ili rodbinu, ali u upitu napišite ime osobe koja dolazi i njezin broj mobitela. Pri dolasku domaćin treba osobne dokumente svih gostiju zbog prijave boravka. Smještaj se plaća gotovinom po dolasku, a potvrda stiže na e-mail koji upišete u upitu."},
+{"q": "Dajete li popust za dulji boravak?", "a": "Za dulji boravak, primjerice tjedan ili više, mnogi vlasnici daju bolju cijenu. U upitu napišite točne datume i pitajte za popust, a vlasnik će odgovoriti uz potvrdu termina. Izvan srpnja i kolovoza cijene su obično i niže. Za dulji boravak praktični su apartmani s kuhinjom i perilicom rublja."},
+{"q": "Kada je najbolje rezervirati smještaj za ljeto?", "a": "Za srpanj i kolovoz najbolje je rezervirati nekoliko tjedana ili mjeseci ranije, posebno kuće uz Unu i objekte za veće grupe. Vila Enio s bazenom i velike vile poput Ville Mekić 2 ljeti se brzo popune. Izvan sezone slobodan smještaj često se nađe i za nekoliko dana."},
+{"q": "Mogu li rezervirati smještaj u zadnji čas?", "a": "Da, ako je objekt slobodan, rezervacija je moguća i za isti ili sljedeći dan. Tada je najbrže javiti se na WhatsApp ili Viber +387 61 591 320, da odmah provjerimo dostupnost kod vlasnika. Ništa ne morate plaćati unaprijed, jer se smještaj plaća gotovinom po dolasku. U centru Bihaća slobodan apartman se izvan sezone najlakše nađe."},
+{"q": "Treba li platiti unaprijed za grupni smještaj?", "a": "Ne, i za grupe se smještaj plaća gotovinom po dolasku, bez obavezne kapare. Ako želite sigurnost i popust, možete uplatiti avans unaprijed, a iznos i način dogovaramo uz potvrdu upita. Za grupe od 10 i više osoba napišite točan broj osoba i trebaju li vam odvojeni kreveti, a uz smještaj možete dobiti i ponudu za rafting."},
+{"q": "Mogu li platiti rafting i smještaj zajedno?", "a": "Smještaj i rafting s Una Olympic Raftingom možete dogovoriti u istom upitu, pa dobivate zajedničku ponudu. Smještaj se plaća gotovinom po dolasku, a način plaćanja raftinga piše u ponudi. U poruci napišite broj osoba i željeni dan za rafting. Posteljina i završno čišćenje uključeni su u cijenu smještaja."},
+{"q": "Postoji li dodatni trošak za čišćenje?", "a": "Ne, završno čišćenje i posteljina uključeni su u cijenu, pa ih ne plaćate posebno. Eventualne druge stavke, poput boravišne takse, vlasnik navodi u potvrdi uz ukupnu cijenu, pa ih znate unaprijed. Nema ni naknade za rezervaciju, jer rezervirate izravno s vlasnikom."}
 ]

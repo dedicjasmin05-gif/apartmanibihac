@@ -1,162 +1,42 @@
 [
- {
-  "q": "Gdje se može ići na rafting na Uni kod Bihaća?",
-  "a": "Rafting na Uni kod Bihaća vozi se na nekoliko dionica: Štrbački buk – Lohovo u Nacionalnom parku Una, Kostela – Grmuša te Grmuša – Bosanska Krupa nizvodno od grada. Dionice se razlikuju po težini i trajanju, pa izbor ovisi o iskustvu grupe i vodostaju. Organizatori obično osiguravaju prijevoz do starta i natrag."
- },
- {
-  "q": "Koje su rafting dionice na Uni i po čemu se razlikuju?",
-  "a": "Najpoznatija je dionica Štrbački buk – Lohovo, dugačka oko 15 km, s brzacima i manjim slapovima, i ona je najzahtjevnija. Dionica Kostela – Grmuša mirnija je i pogodna za obitelji i početnike, a Grmuša – Bosanska Krupa ima umjerene brzake. Nizvodno od Bosanske Krupe rijeka je uglavnom mirna i spora."
- },
- {
-  "q": "Koliko je duga rafting dionica Štrbački buk – Lohovo?",
-  "a": "Dionica od Štrbačkog buka do Lohova duga je oko 15 km i spušta se 3 do 4 sata, prema podacima Nacionalnog parka Una. Neki organizatori završavaju ranije, kod Loskuna, čime se preskače mirniji završni dio prema Lohovu. Budući da je dionica unutar parka, uz cijenu raftinga plaća se i ulaznica za NP Una."
- },
- {
-  "q": "Koliko traje rafting na Uni?",
-  "a": "Samo spuštanje rijekom traje otprilike 2 do 4 sata, ovisno o dionici i vodostaju. Kad se uračunaju dolazak u bazu, presvlačenje, upute za sigurnost i prijevoz do starta, za cijeli izlet treba računati otprilike pola dana. Kod duljih tura uz rijeku se često pravi pauza za kupanje i odmor."
- },
- {
-  "q": "Je li rafting na Uni težak?",
-  "a": "Težina ovisi o dionici i vodostaju. Nacionalni park Una navodi da je dionica Štrbački buk – Lohovo pri visokom vodostaju u travnju i svibnju ocijenjena od 3 do 5, a pri srednjem vodostaju od 2 do 4. Dionica Kostela – Grmuša znatno je mirnija i pogodna za prvi rafting."
- },
- {
-  "q": "Treba li prethodno iskustvo za rafting na Uni?",
-  "a": "Ne treba, rafting na Uni mogu voziti i potpuni početnici jer je u svakom čamcu licencirani skiper. Prije polaska dobijete upute kako veslati i kako se ponašati u čamcu, a skiper vodi čamac kroz brzake. Početnicima se obično preporučuje mirnija dionica ili srednji vodostaj."
- },
- {
-  "q": "Od koje dobi djeca mogu na rafting na Uni?",
-  "a": "Na mirnijim dionicama, poput Kostela – Grmuša, organizatori obično primaju djecu od otprilike 6 godina, ovisno o vodostaju. Za zahtjevniju dionicu od Štrbačkog buka granica je često viša, pa dob djeteta navedite unaprijed. Organizator na dan polaska odlučuje je li voda sigurna za djecu."
- },
- {
-  "q": "Moram li znati plivati za rafting?",
-  "a": "Na mirnijim dionicama plivanje uglavnom nije uvjet jer svi nose prsluk za spašavanje i kacigu. Ipak je bolje da sudionici barem osnovno plivaju i da se u vodi ne paniče, osobito na zahtjevnijim dionicama i pri višem vodostaju. Ako ne znate plivati, recite to organizatoru prije rezervacije kako bi vam preporučio odgovarajuću dionicu."
- },
- {
-  "q": "Koju opremu dobijem za rafting na Uni?",
-  "a": "Organizator osigurava čamac, veslo, prsluk za spašavanje i kacigu, a često i vodootpornu vreću za stvari. Kod hladnije vode, u proljeće ili jesen, obično se daju i neoprenska odijela. Prsluk i kaciga obvezni su cijelo vrijeme i ne smiju se skidati tijekom spusta."
- },
- {
-  "q": "Što obući za rafting na Uni?",
-  "a": "Obucite kupaći kostim ili sportsku odjeću koja se brzo suši, a na noge obuću koja se čvrsto drži za stopalo, poput sandala s kopčom ili starih tenisica. Japanke nisu dobre jer lako spadnu u vodi. Ponesite ručnik, suhu odjeću za presvlačenje, kremu za sunčanje i kapu."
- },
- {
-  "q": "Kada je sezona raftinga na Uni?",
-  "a": "Rafting na Uni vozi se otprilike od ožujka ili travnja do listopada, ovisno o vremenu u pojedinoj godini. Najviši vodostaj i najjači brzaci obično su u travnju i svibnju. Ljeti je voda niža, toplija i mirnija, pa je to najbolje vrijeme za obitelji i početnike."
- },
- {
-  "q": "Kako vodostaj utječe na rafting na Uni?",
-  "a": "Pri visokom vodostaju, obično u proljeće, brzaci su jači, rijeka brža, a spust zahtjevniji. Pri srednjem i nižem vodostaju, ljeti i u ranu jesen, vožnja je mirnija i pogodnija za početnike i djecu. Organizator na dan polaska procjenjuje stanje rijeke i prema tome odlučuje o dionici."
- },
- {
-  "q": "Koliko je hladna voda na Uni tijekom raftinga?",
-  "a": "Una je hladna planinska rijeka, a na dionici od Štrbačkog buka temperatura vode prema podacima NP Una iznosi otprilike 13 do 17 °C. U proljeće je voda hladnija, zbog čega organizatori obično daju neoprenska odijela. Ljeti je kupanje tijekom pauze ugodno osvježenje."
- },
- {
-  "q": "Je li rafting na Uni siguran?",
-  "a": "Rafting na Uni smatra se sigurnim ako se poštuju pravila: svaki čamac vodi licencirani skiper, a prsluk i kaciga obvezni su cijelo vrijeme. Na rafting se ide na vlastitu odgovornost, pa je važno slušati upute skipera od početka do kraja spusta. Alkohol je prije i tijekom raftinga strogo zabranjen."
- },
- {
-  "q": "Koja su pravila ponašanja na raftingu u Nacionalnom parku Una?",
-  "a": "U NP Una zabranjeno je konzumiranje alkohola, ugrožavanje vlastite i tuđe sigurnosti te skidanje kacige i prsluka. Svi sudionici moraju slušati upute skipera, a voditelj i skiper mogu isključiti osobu koja se ne pridržava pravila. Popis ovlaštenih rafting agencija objavljen je na službenoj stranici NP Una."
- },
- {
-  "q": "Koja je rafting dionica najbolja za početnike i obitelji?",
-  "a": "Za početnike i obitelji najčešće se preporučuje dionica Kostela – Grmuša, koja je mirna, slikovita i ima mjesta za kupanje. Spust traje oko dva i pol sata uz lagano veslanje. Djeca obično mogu sudjelovati od otprilike 6 godina, ovisno o vodostaju i procjeni organizatora."
- },
- {
-  "q": "Koja je rafting dionica na Uni za iskusnije?",
-  "a": "Iskusniji najčešće biraju dionicu Štrbački buk – Lohovo, osobito u proljeće pri višem vodostaju, kad su brzaci i slapovi najjači. Prvi dio dionice brz je i nepredvidiv, s brojnim manjim i većim slapovima, brzacima i virovima. Umjerene brzake ima i dionica Grmuša – Bosanska Krupa."
- },
- {
-  "q": "Tko je Una Olympic Rafting?",
-  "a": "Una Olympic Rafting je rafting organizator s bazom u Grmuši, odnosno Salihovcu, uz rijeku Unu sjeveroistočno od Bihaća. U bazi je restoran uz rijeku, a ima i planinske kućice za smještaj. Mi organiziramo rafting za naše goste u suradnji s njima, pa termin možete dogovoriti zajedno s rezervacijom smještaja na apartmanibihac.com."
- },
- {
-  "q": "Gdje se nalazi Una Olympic Rafting?",
-  "a": "Baza Una Olympic Raftinga nalazi se u Grmuši, u području Salihovca, uz Unu, otprilike 20 km sjeveroistočno od centra Bihaća. Grmuša je jedno od glavnih mjesta za rafting na Uni. Uz bazu je restoran na obali rijeke, gdje se nakon spusta može jesti i odmoriti."
- },
- {
-  "q": "Mogu li rezervirati rafting zajedno sa smještajem?",
-  "a": "Da, rafting za naše goste organiziramo s Una Olympic Raftingom, pa ga možete dogovoriti zajedno sa smještajem. U upitu na apartmanibihac.com ili porukom na WhatsApp/Viber +387 61 591 320 navedite željeni datum, broj osoba i dob djece. Javit ćemo vam slobodne termine i aktualnu cijenu."
- },
- {
-  "q": "Koliko košta rafting na Uni?",
-  "a": "Cijena raftinga ovisi o dionici, trajanju, veličini grupe i tome je li uključen ručak ili prijevoz, pa vrijedi upitati za aktualnu cijenu. Za dionicu od Štrbačkog buka dodatno se plaća i ulaznica za Nacionalni park Una. Za rafting s Una Olympic Raftingom pišite nam na WhatsApp/Viber +387 61 591 320."
- },
- {
-  "q": "Je li uz rafting uključen ručak?",
-  "a": "To ovisi o organizatoru i paketu koji odaberete. Kod Una Olympic Raftinga u bazi je restoran uz rijeku, pa se ručak nakon spusta često može dogovoriti uz rafting. Kad šaljete upit, navedite želite li ručak kako biste dobili točnu ponudu."
- },
- {
-  "q": "Može li se na rafting ići s većom grupom?",
-  "a": "Da, rafting je čest izbor za veće grupe, prijatelje, tvrtke i momačke ili djevojačke zabave. Čamci obično primaju oko šest do osam osoba sa skiperom, pa se veća grupa raspoređuje u više čamaca. Za veće grupe termin je dobro rezervirati unaprijed, osobito ljeti i vikendom."
- },
- {
-  "q": "Je li rafting dobar za team building?",
-  "a": "Rafting na Uni često se bira za team building jer traži zajedničko veslanje i dogovor u čamcu, a ne zahtijeva prethodno iskustvo. Uz spust se obično organizira ručak uz rijeku i druženje. Za grupe koje ostaju više dana možemo ponuditi smještaj u kućama uz Unu u Lohovu, Pritoci ili Grmuši."
- },
- {
-  "q": "Što ponijeti na rafting?",
-  "a": "Ponesite kupaći kostim, ručnik, suhu odjeću i obuću za presvlačenje, kremu za sunčanje i kapu. Mobitel i dokumente ostavite u vodootpornoj vreći ili u autu jer se u čamcu sve smoči. Naočale je dobro pričvrstiti trakom, a nakit ostaviti u smještaju."
- },
- {
-  "q": "Može li se ponijeti mobitel na rafting?",
-  "a": "Može, ali samo u vodootpornoj vrećici ili kutiji jer se tijekom spusta sve smoči, a čamac se može i prevrnuti. Neki organizatori imaju vodootporne vreće ili snimaju fotografije tijekom spusta. Ako nemate zaštitu, mobitel je sigurnije ostaviti u bazi ili u autu."
- },
- {
-  "q": "Što ako padnem iz čamca tijekom raftinga?",
-  "a": "Ako padnete u vodu, prsluk vas drži na površini, a prije polaska skiper objašnjava kako se postaviti u vodi i kako vas izvući natrag u čamac. Obično treba ležati na leđima s nogama prema nizvodno i slušati upute. Ne paničite, čamac i skiper su blizu."
- },
- {
-  "q": "Može li se na rafting po kiši?",
-  "a": "Može, jer se na raftingu ionako smočite, a kiša obično ne smeta. Organizator ipak može otkazati ili promijeniti dionicu ako jaka kiša naglo podigne vodostaj ili ako je nevrijeme s grmljavinom. O odluci vas obavijeste na dan polaska ili dan ranije."
- },
- {
-  "q": "Treba li rafting rezervirati unaprijed?",
-  "a": "Da, rafting je dobro rezervirati unaprijed, osobito u srpnju i kolovozu te vikendom, kad je najviše gostiju. Kod rezervacije navedite broj osoba, dob djece i željenu dionicu. Ako dolazite u naš smještaj, termin možemo dogovoriti s Una Olympic Raftingom zajedno s rezervacijom."
- },
- {
-  "q": "Koliko je udaljena Grmuša od Bihaća?",
-  "a": "Grmuša je otprilike 20 km sjeveroistočno od centra Bihaća, uz Unu prema Bosanskoj Krupi. Do nje se iz grada vozi otprilike 20 do 25 minuta. U Grmuši imamo kuće uz rijeku, pa vam je rafting baza Una Olympic Raftinga praktično na pragu."
- },
- {
-  "q": "Gdje spavati ako dolazimo na rafting na Uni?",
-  "a": "Za rafting je praktično spavati u kućama uz Unu u Grmuši ili Lohovu, ili u apartmanima u centru Bihaća. Na apartmanibihac.com imamo 19 objekata, od 25 do 100 € po noći za cijeli objekt, pa je cijeli apartman od 50 KM po cijeni sobe za jednu osobu. Rafting organiziramo s Una Olympic Raftingom."
- },
- {
-  "q": "Što je Una regata?",
-  "a": "Una regata je tradicionalna međunarodna turistička regata, višednevni spust Unom čamcima uz kulturni i zabavni program. Održava se ljeti, obično u srpnju, a 2026. održana je 52. po redu. Točne datume i rutu za sljedeću godinu provjerite na službenim najavama organizatora."
- },
- {
-  "q": "Može li se ići na rafting u proljeće?",
-  "a": "Može, a proljeće, osobito travanj i svibanj, vrijeme je najvišeg vodostaja i najjačih brzaka na Uni. To je zanimljivije za one koji traže uzbuđenje, ali voda je hladnija, pa se obično dobivaju neoprenska odijela. Za malu djecu i početnike bolje je ljeto."
- },
- {
-  "q": "Može li se ići na rafting u listopadu?",
-  "a": "Rafting se na Uni obično vozi do listopada, ovisno o vremenu i vodostaju u pojedinoj godini. U listopadu je manje gužve, ali su voda i zrak hladniji, pa su neoprenska odijela uobičajena. Termin provjerite s organizatorom jer se sezona može završiti ranije."
- },
- {
-  "q": "Mogu li stariji ljudi na rafting?",
-  "a": "Mogu, ako su općenito dobrog zdravlja i pokretni, jer se na mirnijim dionicama vesla lagano i skiper vodi čamac. Za starije osobe obično se preporučuje dionica Kostela – Grmuša i ljetni vodostaj. Zdravstvene tegobe, poput problema sa srcem ili leđima, prijavite organizatoru prije polaska."
- },
- {
-  "q": "Mogu li trudnice na rafting?",
-  "a": "Trudnicama se rafting općenito ne preporučuje zbog mogućih udaraca, pada u hladnu vodu i naglih pokreta u brzacima. Ako vaša grupa ide na rafting, kao alternativu možete razmisliti o mirnoj šetnji uz rijeku ili posjetu Štrbačkom buku s vidikovaca. O svemu je najbolje posavjetovati se s liječnikom."
- },
- {
-  "q": "Je li dionica od Štrbačkog buka u Nacionalnom parku Una?",
-  "a": "Da, dionica Štrbački buk – Lohovo nalazi se u Nacionalnom parku Una, pa se uz rafting plaća i ulaznica za park. U parku smiju voziti samo ovlaštene rafting agencije i licencirani skiperi. Popis agencija i aktualne cijene ulaznica provjerite na službenoj stranici NP Una."
- },
- {
-  "q": "Kako izgleda dan na raftingu?",
-  "a": "Dan obično počinje dolaskom u bazu, presvlačenjem i podjelom opreme, nakon čega slijede upute o sigurnosti. Zatim vas prevezu do starta, gdje počinje spust od nekoliko sati, s pauzama za kupanje. Nakon cilja slijedi povratak u bazu, presvlačenje i često zajednički ručak uz rijeku."
- },
- {
-  "q": "Mogu li se kupati tijekom raftinga?",
-  "a": "Da, na većini dionica skiper napravi pauzu na mirnijem dijelu rijeke ili uz obalu, gdje se možete okupati. Neki organizatori omogućuju i skokove s nižih stijena, ali samo na mjestima koja skiper odobri. Una je hladna, pa je kupanje kratko, ali osvježavajuće."
- },
- {
-  "q": "Je li rafting moguć ako dolazimo samo na jedan dan?",
-  "a": "Da, rafting na Uni lako se uklapa u jednodnevni izlet jer cijeli program traje otprilike pola dana. Ipak, mnogi gosti ostanu barem jednu noć kako bi nakon raftinga posjetili Štrbački buk ili se odmorili uz rijeku. Smještaj uz Unu ili u Bihaću možete rezervirati na apartmanibihac.com."
- }
+{"q": "Gdje se može ići na rafting na Uni kod Bihaća?", "a": "Rafting na Uni kod Bihaća vozi se na nekoliko dionica: Štrbački buk – Lohovo u Nacionalnom parku Una, Kostela – Grmuša te Grmuša – Bosanska Krupa nizvodno od grada. Dionice se razlikuju po težini i trajanju, pa izbor ovisi o iskustvu grupe i vodostaju. Organizatori obično osiguravaju prijevoz do starta i natrag."},
+{"q": "Koje su rafting dionice na Uni i po čemu se razlikuju?", "a": "Najpoznatija je dionica Štrbački buk – Lohovo, dugačka oko 15 km, s brzacima i manjim slapovima, i ona je najzahtjevnija. Dionica Kostela – Grmuša mirnija je i pogodna za obitelji i početnike, a Grmuša – Bosanska Krupa ima umjerene brzake. Nizvodno od Bosanske Krupe rijeka je uglavnom mirna i spora."},
+{"q": "Koliko je duga rafting dionica Štrbački buk – Lohovo?", "a": "Dionica od Štrbačkog buka do Lohova duga je oko 15 km i spušta se 3 do 4 sata, prema podacima Nacionalnog parka Una. Neki organizatori završavaju ranije, kod Loskuna, čime se preskače mirniji završni dio prema Lohovu. Budući da je dionica unutar parka, uz cijenu raftinga plaća se i ulaznica za NP Una."},
+{"q": "Koliko traje rafting na Uni?", "a": "Samo spuštanje rijekom traje otprilike 2 do 4 sata, ovisno o dionici i vodostaju. Kad se uračunaju dolazak u bazu, presvlačenje, upute za sigurnost i prijevoz do starta, za cijeli izlet treba računati otprilike pola dana. Kod duljih tura uz rijeku se često pravi pauza za kupanje i odmor."},
+{"q": "Je li rafting na Uni težak?", "a": "Težina ovisi o dionici i vodostaju. Nacionalni park Una navodi da je dionica Štrbački buk – Lohovo pri visokom vodostaju u travnju i svibnju ocijenjena od 3 do 5, a pri srednjem vodostaju od 2 do 4. Dionica Kostela – Grmuša znatno je mirnija i pogodna za prvi rafting."},
+{"q": "Treba li prethodno iskustvo za rafting na Uni?", "a": "Ne treba, rafting na Uni mogu voziti i potpuni početnici jer je u svakom čamcu licencirani skiper. Prije polaska dobijete upute kako veslati i kako se ponašati u čamcu, a skiper vodi čamac kroz brzake. Početnicima se obično preporučuje mirnija dionica ili srednji vodostaj."},
+{"q": "Od koje dobi djeca mogu na rafting na Uni?", "a": "Na mirnijim dionicama, poput Kostela – Grmuša, organizatori obično primaju djecu od otprilike 6 godina, ovisno o vodostaju. Za zahtjevniju dionicu od Štrbačkog buka organizatori obično ne preporučuju djecu mlađu od 12 godina. Dob djeteta navedite unaprijed, a organizator na dan polaska odlučuje je li voda sigurna za djecu."},
+{"q": "Moram li znati plivati za rafting?", "a": "Na mirnijim dionicama plivanje uglavnom nije uvjet jer svi nose prsluk za spašavanje i kacigu. Ipak je bolje da sudionici barem osnovno plivaju i da se u vodi ne paniče, osobito na zahtjevnijim dionicama i pri višem vodostaju. Ako ne znate plivati, recite to organizatoru prije rezervacije kako bi vam preporučio odgovarajuću dionicu."},
+{"q": "Koju opremu dobijem za rafting na Uni?", "a": "Organizator osigurava čamac, veslo, prsluk za spašavanje i kacigu, a često i vodootpornu vreću za stvari. Kod hladnije vode, u proljeće ili jesen, obično se daju i neoprenska odijela. Prsluk i kaciga obvezni su cijelo vrijeme i ne smiju se skidati tijekom spusta."},
+{"q": "Što obući za rafting na Uni?", "a": "Obucite kupaći kostim ili sportsku odjeću koja se brzo suši, a na noge obuću koja se čvrsto drži za stopalo, poput sandala s kopčom ili starih tenisica. Japanke nisu dobre jer lako spadnu u vodi. Ponesite ručnik, suhu odjeću za presvlačenje, kremu za sunčanje i kapu."},
+{"q": "Kada je sezona raftinga na Uni?", "a": "Rafting na Uni vozi se otprilike od ožujka ili travnja do listopada, ovisno o vremenu u pojedinoj godini. Najviši vodostaj i najjači brzaci obično su u travnju i svibnju. Ljeti je voda niža, toplija i mirnija, pa je to najbolje vrijeme za obitelji i početnike."},
+{"q": "Kako vodostaj utječe na rafting na Uni?", "a": "Pri visokom vodostaju, obično u proljeće, brzaci su jači, rijeka brža, a spust zahtjevniji. Pri srednjem i nižem vodostaju, ljeti i u ranu jesen, vožnja je mirnija i pogodnija za početnike i djecu. Organizator na dan polaska procjenjuje stanje rijeke i prema tome odlučuje o dionici."},
+{"q": "Koliko je hladna voda na Uni tijekom raftinga?", "a": "Una je hladna planinska rijeka, a na dionici od Štrbačkog buka temperatura vode prema podacima NP Una iznosi otprilike 13 do 17 °C. U proljeće je voda hladnija, zbog čega organizatori obično daju neoprenska odijela. Ljeti je kupanje tijekom pauze ugodno osvježenje."},
+{"q": "Je li rafting na Uni siguran?", "a": "Rafting na Uni smatra se sigurnim ako se poštuju pravila: svaki čamac vodi licencirani skiper, a prsluk i kaciga obvezni su cijelo vrijeme. Na rafting se ide na vlastitu odgovornost, pa je važno slušati upute skipera od početka do kraja spusta. Alkohol je prije i tijekom raftinga strogo zabranjen."},
+{"q": "Koja su pravila ponašanja na raftingu u Nacionalnom parku Una?", "a": "U NP Una zabranjeno je konzumiranje alkohola, ugrožavanje vlastite i tuđe sigurnosti te skidanje kacige i prsluka. Svi sudionici moraju slušati upute skipera, a voditelj i skiper mogu isključiti osobu koja se ne pridržava pravila. Popis ovlaštenih rafting agencija objavljen je na službenoj stranici NP Una, npuna.com."},
+{"q": "Koja je rafting dionica najbolja za početnike i obitelji?", "a": "Za početnike i obitelji najčešće se preporučuje dionica Kostela – Grmuša, koja je mirna, slikovita i ima mjesta za kupanje. Spust traje oko dva i pol sata uz lagano veslanje. Djeca obično mogu sudjelovati od otprilike 6 godina, ovisno o vodostaju i procjeni organizatora."},
+{"q": "Koja je rafting dionica na Uni za iskusnije?", "a": "Iskusniji najčešće biraju dionicu Štrbački buk – Lohovo, osobito u proljeće pri višem vodostaju, kad su brzaci i slapovi najjači. Prvi dio dionice brz je i nepredvidiv, s brojnim manjim i većim slapovima, brzacima i virovima. Umjerene brzake ima i dionica Grmuša – Bosanska Krupa."},
+{"q": "Tko je Una Olympic Rafting?", "a": "Una Olympic Rafting je rafting organizator s bazom u Grmuši, odnosno Salihovcu, uz rijeku Unu sjeveroistočno od Bihaća. U bazi je restoran uz rijeku, a ima i planinske kućice za smještaj. Mi organiziramo rafting za naše goste u suradnji s njima, pa termin možete dogovoriti zajedno s rezervacijom smještaja na apartmanibihac.com."},
+{"q": "Gdje se nalazi Una Olympic Rafting?", "a": "Baza Una Olympic Raftinga nalazi se u Grmuši, u području Salihovca, uz Unu, otprilike 20 km sjeveroistočno od centra Bihaća. Grmuša je jedno od glavnih mjesta za rafting na Uni. Uz bazu je restoran na obali rijeke, gdje se nakon spusta može jesti i odmoriti."},
+{"q": "Mogu li rezervirati rafting zajedno sa smještajem?", "a": "Da, rafting za naše goste organiziramo s Una Olympic Raftingom, pa ga možete dogovoriti zajedno sa smještajem. U upitu na apartmanibihac.com ili porukom na WhatsApp/Viber +387 61 591 320 navedite željeni datum, broj osoba i dob djece. Javit ćemo vam slobodne termine i aktualnu cijenu."},
+{"q": "Koliko košta rafting na Uni?", "a": "Cijena raftinga ovisi o dionici, trajanju, veličini grupe i tome je li uključen ručak ili prijevoz, pa vrijedi upitati za aktualnu cijenu. Za dionicu od Štrbačkog buka dodatno se plaća i ulaznica za Nacionalni park Una. Za rafting s Una Olympic Raftingom pišite nam na WhatsApp/Viber +387 61 591 320."},
+{"q": "Je li uz rafting uključen ručak?", "a": "To ovisi o organizatoru i paketu koji odaberete. Kod Una Olympic Raftinga u bazi je restoran uz rijeku, pa se ručak nakon spusta često može dogovoriti uz rafting. Kad šaljete upit, navedite želite li ručak kako biste dobili točnu ponudu."},
+{"q": "Može li se na rafting ići s većom grupom?", "a": "Da, rafting je čest izbor za veće grupe, prijatelje, tvrtke i momačke ili djevojačke zabave. Svaki čamac vodi licencirani skiper, a veća grupa raspoređuje se u više čamaca, ovisno o veličini čamaca kod organizatora. Za veće grupe termin je dobro rezervirati unaprijed, osobito ljeti i vikendom, i u upitu navesti točan broj osoba."},
+{"q": "Je li rafting dobar za team building?", "a": "Rafting na Uni često se bira za team building jer traži zajedničko veslanje i dogovor u čamcu, a ne zahtijeva prethodno iskustvo. Uz spust se obično organizira ručak uz rijeku i druženje. Za grupe koje ostaju više dana možemo ponuditi smještaj u kućama uz Unu u Lohovu, Pritoci ili Grmuši."},
+{"q": "Što ponijeti na rafting?", "a": "Ponesite kupaći kostim, ručnik, suhu odjeću i obuću za presvlačenje, kremu za sunčanje i kapu. Mobitel i dokumente ostavite u vodootpornoj vreći ili u autu jer se u čamcu sve smoči. Naočale je dobro pričvrstiti trakom, a nakit ostaviti u smještaju."},
+{"q": "Može li se ponijeti mobitel na rafting?", "a": "Može, ali samo u vodootpornoj vrećici ili kutiji jer se tijekom spusta sve smoči, a čamac se može i prevrnuti. Neki organizatori imaju vodootporne vreće ili snimaju fotografije tijekom spusta. Ako nemate zaštitu, mobitel je sigurnije ostaviti u bazi ili u autu."},
+{"q": "Što ako padnem iz čamca tijekom raftinga?", "a": "Ako padnete u vodu, prsluk vas drži na površini, a prije polaska skiper objašnjava kako se postaviti u vodi i kako vas izvući natrag u čamac. Obično treba ležati na leđima s nogama prema nizvodno i slušati upute. Ne paničite, čamac i skiper su blizu."},
+{"q": "Može li se na rafting po kiši?", "a": "Može, jer se na raftingu ionako smočite, a kiša obično ne smeta. Organizator ipak može otkazati ili promijeniti dionicu ako jaka kiša naglo podigne vodostaj ili ako je nevrijeme s grmljavinom. O odluci vas obavijeste na dan polaska ili dan ranije."},
+{"q": "Treba li rafting rezervirati unaprijed?", "a": "Da, rafting je dobro rezervirati unaprijed, osobito u srpnju i kolovozu te vikendom, kad je najviše gostiju. Kod rezervacije navedite broj osoba, dob djece i željenu dionicu. Ako dolazite u naš smještaj, termin možemo dogovoriti s Una Olympic Raftingom zajedno s rezervacijom."},
+{"q": "Koliko je udaljena Grmuša od Bihaća?", "a": "Grmuša je otprilike 20 km sjeveroistočno od centra Bihaća, uz Unu prema Bosanskoj Krupi. Do nje se iz grada vozi otprilike 20 do 25 minuta. U Grmuši imamo kuće uz rijeku, pa vam je rafting baza Una Olympic Raftinga praktično na pragu."},
+{"q": "Gdje spavati ako dolazimo na rafting na Uni?", "a": "Za rafting je praktično spavati u kućama uz Unu u Grmuši ili Lohovu, ili u apartmanima u centru Bihaća. Na apartmanibihac.com imamo 19 objekata, od 25 do 100 € po noći za cijeli objekt, pa je cijeli apartman od 50 KM po cijeni sobe za jednu osobu. Rafting organiziramo s Una Olympic Raftingom."},
+{"q": "Što je Una regata?", "a": "Una regata je tradicionalna međunarodna turistička regata, višednevni spust Unom čamcima uz kulturni i zabavni program. Održava se ljeti, obično u srpnju, a 2026. održana je 52. po redu. Točne datume i rutu za sljedeću godinu provjerite na službenim najavama organizatora."},
+{"q": "Može li se ići na rafting u proljeće?", "a": "Može, a proljeće, osobito travanj i svibanj, vrijeme je najvišeg vodostaja i najjačih brzaka na Uni. To je zanimljivije za one koji traže uzbuđenje, ali voda je hladnija, pa se obično dobivaju neoprenska odijela. Za malu djecu i početnike bolje je ljeto."},
+{"q": "Može li se ići na rafting u listopadu?", "a": "Rafting se na Uni obično vozi do listopada, ovisno o vremenu i vodostaju u pojedinoj godini. U listopadu je manje gužve, ali su voda i zrak hladniji, pa su neoprenska odijela uobičajena. Termin provjerite s organizatorom jer se sezona može završiti ranije."},
+{"q": "Mogu li stariji ljudi na rafting?", "a": "Mogu, ako su općenito dobrog zdravlja i pokretni, jer se na mirnijim dionicama vesla lagano i skiper vodi čamac. Za starije osobe obično se preporučuje dionica Kostela – Grmuša i ljetni vodostaj. Zdravstvene tegobe, poput problema sa srcem ili leđima, prijavite organizatoru prije polaska."},
+{"q": "Mogu li trudnice na rafting?", "a": "Trudnicama se rafting općenito ne preporučuje zbog mogućih udaraca, pada u hladnu vodu i naglih pokreta u brzacima. Ako vaša grupa ide na rafting, kao alternativu možete razmisliti o mirnoj šetnji uz rijeku ili posjetu Štrbačkom buku s vidikovaca. O svemu je najbolje posavjetovati se s liječnikom."},
+{"q": "Je li dionica od Štrbačkog buka u Nacionalnom parku Una?", "a": "Da, dionica Štrbački buk – Lohovo nalazi se u Nacionalnom parku Una, pa se uz rafting plaća i ulaznica za park. U parku smiju voziti samo ovlaštene rafting agencije i licencirani skiperi. Popis agencija i aktualne cijene ulaznica provjerite na službenoj stranici NP Una, npuna.com."},
+{"q": "Kako izgleda dan na raftingu?", "a": "Dan obično počinje dolaskom u bazu, presvlačenjem i podjelom opreme, nakon čega slijede upute o sigurnosti. Zatim vas prevezu do starta, gdje počinje spust od nekoliko sati, s pauzama za kupanje. Nakon cilja slijedi povratak u bazu, presvlačenje i često zajednički ručak uz rijeku."},
+{"q": "Mogu li se kupati tijekom raftinga?", "a": "Da, na većini dionica skiper napravi pauzu na mirnijem dijelu rijeke ili uz obalu, gdje se možete okupati. Neki organizatori omogućuju i skokove s nižih stijena, ali samo na mjestima koja skiper odobri. Una je hladna, pa je kupanje kratko, ali osvježavajuće."},
+{"q": "Je li rafting moguć ako dolazimo samo na jedan dan?", "a": "Da, rafting na Uni lako se uklapa u jednodnevni izlet jer cijeli program traje otprilike pola dana. Ipak, mnogi gosti ostanu barem jednu noć kako bi nakon raftinga posjetili Štrbački buk ili se odmorili uz rijeku. Smještaj uz Unu ili u Bihaću možete rezervirati na apartmanibihac.com."}
 ]

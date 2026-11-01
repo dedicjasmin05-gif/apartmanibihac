@@ -1,162 +1,42 @@
 [
- {
-  "q": "Koje ribe ima u rijeci Uni?",
-  "a": "U Uni žive potočna pastrva, lipljen i mladica, a u nekim dijelovima i kalifornijska pastrva, koja je unesena vrsta. Una je među ribolovcima poznata po bistroj vodi i salmonidnim vrstama. Uz te vrste u rijeci žive i razne druge vrste riba, osobito na nizvodnijim dijelovima."
- },
- {
-  "q": "Ima li mladice u Uni?",
-  "a": "Da, mladica, poznata i kao hucho ili dunavski losos, živi u Uni i ribolovcima je jedna od najcjenjenijih riba u rijeci. Najčešće se spominje na dijelovima nizvodno od Bihaća, prema Bosanskoj Krupi. Za ribolov na mladicu vrijede posebna pravila, pa ih prije izlaska provjerite kod lokalnog ribolovnog društva."
- },
- {
-  "q": "Kada je sezona ribolova na mladicu?",
-  "a": "Ribolov na mladicu u BiH općenito je vezan uz hladniji dio godine, otprilike od jeseni do zime, kad je riba najaktivnija. Točan period ovisi o propisima i dijelu rijeke, pa ga provjerite kod lokalnog ribolovnog društva. Na mnogim revirima mladica se lovi po načelu ulovi i pusti."
- },
- {
-  "q": "Treba li dozvola za ribolov na Uni?",
-  "a": "Da, za ribolov na Uni uvijek je potrebna važeća dozvola za revir na kojem lovite. Uz dozvolu nosite i osobni dokument. Za Nacionalni park Una dozvole izdaje park, a za dijelove rijeke izvan parka lokalna sportsko-ribolovna društva. Dozvolu je dobro kupiti prije izlaska na vodu jer rendžeri i čuvari ribolova provjeravaju ribolovce."
- },
- {
-  "q": "Gdje kupiti dozvolu za ribolov u Nacionalnom parku Una?",
-  "a": "Dnevne i višednevne dozvole za NP Una kupuju se u Turističkom informativnom centru u Bihaću, u info punktu u Kulen Vakufu i na ulazu Milančev buk u Martin Brodu. Godišnje dozvole izdaje samo uprava parka. Cijene dozvola objavljene su u cjeniku na službenoj stranici NP Una."
- },
- {
-  "q": "Gdje kupiti dozvolu za ribolov na Uni izvan nacionalnog parka?",
-  "a": "Za dijelove Une izvan Nacionalnog parka dozvole izdaju lokalna sportsko-ribolovna društva koja gospodare tim revirima, primjerice u Bihaću i Bosanskoj Krupi. Uvjeti, cijene i prodajna mjesta razlikuju se od društva do društva. Najbolje je raspitati se u Turističkom informativnom centru u Bihaću."
- },
- {
-  "q": "Koje vrste ribolovnih dozvola postoje u NP Una?",
-  "a": "Za turiste NP Una nudi dnevne i trodnevne dozvole, a za revire za mušičarenje i petodnevne. Članovi ribolovnih društava iz BiH mogu kupiti dnevnu dozvolu uz dokaz o članstvu, a postoje i godišnje dozvole za domaće ribolovce i mještane. Cijene su navedene u cjeniku NP Una."
- },
- {
-  "q": "Koji su ribolovni reviri u Nacionalnom parku Una?",
-  "a": "Prema pravilima za 2026., u parku su reviri Martin Brod s posebnom dionicom na Uncu, Gečet, Kulen Vakuf, Klisa – Ćelije, Dvoslap i Očigrije. Martin Brod i Kulen Vakuf namijenjeni su samo mušičarenju, a na ostalima je dopušten i ribolov varalicom i bombardom. Pravila se mogu mijenjati svake godine."
- },
- {
-  "q": "Gdje je mušičarenje na Uni?",
-  "a": "U Nacionalnom parku Una mušičarenje je dopušteno na revirima Martin Brod, uključujući posebnu dionicu na rijeci Unac, i Kulen Vakuf, a na revir Gečet od ponedjeljka do četvrtka. Martin Brod je među mušičarima posebno poznat po bistroj vodi i dugim mirnim dionicama. Na tim revirima ribe se vraćaju u vodu."
- },
- {
-  "q": "Je li na Uni obvezan ulovi i pusti?",
-  "a": "Na revirima za mušičarenje u NP Una, Martin Brod, Kulen Vakuf i Unac, vrijedi isključivo načelo ulovi i pusti za sve vrste. Na revirima za varalicu i bombardu dopušteno je zadržati najviše dvije ribe dnevno, i to samo pastrve i lipljene duge od 30 do 40 cm. Izvan parka vrijede pravila lokalnog ribolovnog društva."
- },
- {
-  "q": "Kada je sezona ribolova na pastrvu u NP Una?",
-  "a": "Na revirima za varalicu i bombardu u NP Una potočna pastrva lovi se od 1. ožujka do 30. rujna, prema pravilima za 2026. godinu. Na revirima za mušičarenje sezona je od 1. svibnja do 31. listopada, a na Uncu od 1. ožujka do 31. listopada. Datume svake godine provjerite na službenoj stranici parka."
- },
- {
-  "q": "Kada je sezona ribolova na lipljena na Uni?",
-  "a": "U Nacionalnom parku Una lipljen se prema pravilima za 2026. lovi od 1. svibnja do 31. listopada. Izvan tog perioda lipljen je zaštićen. Sezone se mogu promijeniti od godine do godine, pa prije dolaska provjerite aktualnu odluku o ribolovu NP Una."
- },
- {
-  "q": "Koji su dani dopušteni za ribolov u NP Una?",
-  "a": "Na revirima za mušičarenje Martin Brod, Kulen Vakuf i Unac lovi se svaki dan u sezoni. Na revirima Klisa – Ćelije, Dvoslap i Očigrije ribolov je dopušten samo od petka do nedjelje. Na revir Gečet mušičari love od ponedjeljka do četvrtka, a ostali od petka do nedjelje."
- },
- {
-  "q": "U koliko sati se smije pecati u NP Una?",
-  "a": "Ribolov u NP Una počinje u 7 sati, a završava ovisno o dijelu godine: u 18 sati do 1. svibnja, u 21 sat od svibnja do kraja kolovoza, te u 19 sati u rujnu. Noćni ribolov je zabranjen. Točno vrijeme za vaš datum provjerite u aktualnim pravilima parka."
- },
- {
-  "q": "Koja je minimalna mjera za pastrvu i lipljena na Uni?",
-  "a": "Na revirima NP Una gdje je dopušteno zadržati ulov, pastrva i lipljen moraju biti dugi između 30 i 40 cm, a ribe izvan tog raspona vraćaju se u vodu. Dnevno se smiju zadržati najviše dvije ribe. Izvan parka mjere određuju lokalna ribolovna društva."
- },
- {
-  "q": "Što je zabranjeno pri ribolovu u Nacionalnom parku Una?",
-  "a": "Zabranjeni su živi mamac i kruh, ribolov s čamca i mostova, noćni ribolov, lov rukom te ribolov u zonama trajne zabrane. Na revirima za mušičarenje dopušten je jedan štap, udica bez kontrakuke i bez otežanja. Nakon ribolova obvezna je odjava kod rendžerske službe."
- },
- {
-  "q": "Gdje je ribolov zabranjen u Nacionalnom parku Una?",
-  "a": "U NP Una postoji sedam zona trajne zabrane ribolova, među kojima su područja kod Štrbačkog buka, kod Klise, iznad Dvoslapa i na dijelovima Unca, Krke i Ostrovice. U tim zonama zabranjen je svaki oblik ribolova. Točne granice zona navedene su u odluci o ribolovu na službenoj stranici parka."
- },
- {
-  "q": "Trebaju li djeca dozvolu za ribolov na Uni?",
-  "a": "U Nacionalnom parku Una djeca mlađa od 13 godina ne trebaju dozvolu ako love uz nadzor odrasle osobe s važećom dozvolom. Njihov ulov ubraja se u dnevni limit te odrasle osobe. Izvan parka pravila za djecu određuju lokalna ribolovna društva."
- },
- {
-  "q": "Koje su kazne za ribolov bez dozvole na Uni?",
-  "a": "U NP Una ribolov bez dozvole može donijeti privremenu ili trajnu zabranu ribolova u parku, a dozvola se ne vraća. Prema pravilima za 2026., osobe sankcionirane prethodne godine ne mogu kupiti dozvolu za tekuću godinu. Uz to su moguće i novčane kazne prema zakonu."
- },
- {
-  "q": "Koji je najbolji period za ribolov na Uni?",
-  "a": "Za pastrvu i lipljena najbolji su kasno proljeće i rana jesen, kad je voda bistra i ribe aktivne. Ljeti je najbolje loviti rano ujutro i predvečer, kad je voda hladnija. Mladica se tradicionalno lovi u hladnijem dijelu godine, otprilike od jeseni do zime."
- },
- {
-  "q": "Gdje su najbolja mjesta za ribolov na Uni?",
-  "a": "Među mušičarima najpoznatiji su Martin Brod i rijeka Unac u Nacionalnom parku Una te okolica Kulen Vakufa. Za varalicu su popularni reviri Klisa – Ćelije i Dvoslap u parku. Nizvodno od Bihaća, prema Bosanskoj Krupi, ribolovci najčešće traže mladicu. Koji god revir odabrali, prije izlaska provjerite pravila i dopuštene metode."
- },
- {
-  "q": "Može li se pecati u Bihaću u samom gradu?",
-  "a": "Una teče kroz centar Bihaća, ali i tamo je potrebna dozvola lokalnog ribolovnog društva koje gospodari tim dijelom rijeke. Pravila i dopuštene metode mogu se razlikovati od onih u nacionalnom parku. Informacije o dozvolama potražite u Turističkom informativnom centru u Bihaću."
- },
- {
-  "q": "Može li se iznajmiti ribolovni vodič na Uni?",
-  "a": "Da, na Uni rade lokalni ribolovni vodiči koji poznaju revire i pravila, osobito za mušičarenje i lov na mladicu. Vodič je korisno uzeti ako prvi put lovite na Uni jer pomaže s dozvolom, izborom mjesta i tehnikom. Kontakte vodiča mogu dati lokalna ribolovna društva ili turistički centar."
- },
- {
-  "q": "Koje muhe se koriste na Uni?",
-  "a": "Na Uni se koriste i suhe muhe i nimfe, ovisno o godišnjem dobu, vremenu i aktivnosti ribe, a lokalni mušičari često preporučuju manje uzorke zbog bistre vode. Na revirima NP Una dopuštena je samo udica bez kontrakuke. Za točan izbor muha najbolje je pitati lokalnog vodiča."
- },
- {
-  "q": "Je li Una dobra za mušičarenje?",
-  "a": "Da, Una je međunarodno poznata među mušičarima zbog vrlo bistre vode, slapova i populacija pastrve i lipljena. Posebno je cijenjena dionica kod Martin Broda i rijeka Unac. Ribolov na mušicu u parku je po načelu ulovi i pusti, što pomaže očuvanju ribljeg fonda."
- },
- {
-  "q": "Smije li se ponijeti ulovljena riba iz NP Una?",
-  "a": "Na revirima za varalicu i bombardu u NP Una smiju se zadržati najviše dvije ribe dnevno, ako su duge između 30 i 40 cm. Na revirima za mušičarenje sve ribe se moraju vratiti u vodu. Pravila se mogu promijeniti, pa ih provjerite prije svakog izlaska."
- },
- {
-  "q": "Je li kalifornijska pastrva zavičajna u Uni?",
-  "a": "Nije, kalifornijska pastrva je unesena vrsta, a pravila NP Una navode je kao alohtonu. Na revirima za varalicu može se loviti od 1. ožujka do 31. listopada, a na revirima za mušičarenje također se vraća u vodu. Zavičajne vrste su potočna pastrva, lipljen i mladica."
- },
- {
-  "q": "Treba li se odjaviti nakon ribolova u NP Una?",
-  "a": "Da, prema pravilima NP Una ribolovci se nakon ribolova moraju odjaviti kod rendžerske službe. Rendžeri tijekom dana kontroliraju dozvole i pridržavanje pravila, pa uz dozvolu uvijek nosite i osobni dokument. Propuštanje odjave može se smatrati kršenjem pravila. Točan način odjave objasnit će vam pri kupnji dozvole."
- },
- {
-  "q": "Ima li ribolova na Uni zimi?",
-  "a": "U Nacionalnom parku Una ribolov se prema pravilima obavlja uglavnom od ožujka do listopada, pa zimi tamo nije dopušten. Izvan parka, na dijelovima rijeke kojima gospodare lokalna društva, zimi se tradicionalno lovi mladica, prema njihovim pravilima. Provjerite datume kod društva prije dolaska."
- },
- {
-  "q": "Je li Una čista rijeka za ribolov?",
-  "a": "Una je poznata po vrlo bistroj vodi, a službene analize iz 2025. potvrdile su da je rijeka na području Bihaća čista. Bistra voda znači da je riba oprezna, pa su potrebni tanji predvezi i oprezan prilaz obali. Upravo zbog toga Una privlači ribolovce iz cijele Europe."
- },
- {
-  "q": "Koliko je Martin Brod udaljen od Bihaća?",
-  "a": "Martin Brod je udaljen otprilike 60 km od Bihaća, preko Ripča i Kulen Vakufa, i do njega treba računati oko sat vremena vožnje. Nalazi se u južnom dijelu Nacionalnog parka Una, uz slap Milančev buk. Ondje se nalazi i prodajno mjesto ribolovnih dozvola."
- },
- {
-  "q": "Je li Bihać dobra baza za ribolovni odmor?",
-  "a": "Jest, iz Bihaća se lako stiže do revira u Nacionalnom parku Una i do dijelova Une nizvodno prema Bosanskoj Krupi. U Bihaću se u Turističkom informativnom centru mogu kupiti i dozvole za park. Za ribolovce su praktične naše kuće uz Unu, a upit možete poslati na apartmanibihac.com."
- },
- {
-  "q": "Imate li smještaj uz Unu za ribolovce?",
-  "a": "Da, imamo kuće i vikendice uz Unu u Lohovu, Pritoci i Grmuši, s pristupom rijeci i mirnim okruženjem. Cijene su od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni. Za dostupnost pišite na WhatsApp/Viber +387 61 591 320."
- },
- {
-  "q": "Smije li se pecati ispred kuće uz Unu?",
-  "a": "Ribolov je dopušten samo uz važeću dozvolu za revir na kojem se kuća nalazi, bez obzira na to što je kuća na obali. Dio rijeke kod Lohova i Pritoke pripada različitim revirima, pa provjerite kojem društvu ili parku pripada. Pri dolasku vam možemo reći kome se obratiti za dozvolu."
- },
- {
-  "q": "Može li se loviti s obale ili s čamca na Uni?",
-  "a": "U Nacionalnom parku Una ribolov s čamca i s mostova je zabranjen, pa se lovi s obale ili gazeći u vodi. Izvan parka pravila određuju lokalna ribolovna društva. Kod gaženja budite oprezni jer je dno kamenito, a struja na nekim mjestima jaka."
- },
- {
-  "q": "Koju opremu ponijeti za ribolov na Uni?",
-  "a": "Za mušičarenje ponesite štap za muhu, čizme ili hlače za gaženje s dobrim đonom, polarizirane naočale i udice bez kontrakuke. Za varalicu je dovoljan lagani štap za spinning, s obzirom na pravila revira. Uz opremu obavezno nosite dozvolu i osobni dokument."
- },
- {
-  "q": "Smiju li se koristiti živi mamci na Uni?",
-  "a": "U Nacionalnom parku Una živi mamac i kruh su zabranjeni, a dopuštene su samo umjetne varalice, bombarda i muhe, ovisno o reviru. Zabranjeno je i korištenje ribe kao mamca. Izvan parka pravila provjerite kod lokalnog ribolovnog društva. Na revirima za mušičarenje dopuštena je samo umjetna muha na udici bez kontrakuke."
- },
- {
-  "q": "Je li ribolov na Uni moguć za početnike?",
-  "a": "Jest, ali zbog bistre vode i oprezne ribe ribolov na Uni može biti zahtjevniji nego na drugim rijekama. Početnicima se preporučuje lokalni vodič ili revir za varalicu, gdje su pravila jednostavnija. Djeca mlađa od 13 godina u NP Una mogu loviti uz odraslu osobu s dozvolom."
- },
- {
-  "q": "Gdje saznati aktualna pravila ribolova na Uni?",
-  "a": "Aktualna pravila za Nacionalni park Una, uključujući sezone, revire i cjenik, objavljuju se na službenoj stranici NP Una. Za dijelove rijeke izvan parka pravila daju lokalna sportsko-ribolovna društva. Pravila se svake godine mogu promijeniti, pa ih provjerite prije dolaska. Informacije o dozvolama možete dobiti i u Turističkom informativnom centru u Bihaću."
- },
- {
-  "q": "Može li se ribolov kombinirati s obiteljskim odmorom u Bihaću?",
-  "a": "Može, jer dok jedan član obitelji lovi, ostali mogu na kupanje, rafting ili obilazak Štrbačkog buka. Udaljenosti oko Bihaća su male, pa je lako uskladiti dan. Kuće uz Unu u Lohovu, Pritoci i Grmuši pogodne su za takav odmor, a rezervacija je bez naknade, izravno s vlasnikom."
- }
+{"q": "Koje ribe ima u rijeci Uni?", "a": "U Uni žive potočna pastrva, lipljen i mladica, a u nekim dijelovima i kalifornijska pastrva, koja je unesena vrsta. Una je među ribolovcima poznata po bistroj vodi i salmonidnim vrstama. Uz te vrste u rijeci žive i razne druge vrste riba, osobito na nizvodnijim dijelovima."},
+{"q": "Ima li mladice u Uni?", "a": "Da, mladica, poznata i kao hucho ili dunavski losos, živi u Uni i ribolovcima je jedna od najcjenjenijih riba u rijeci. Najčešće se spominje na dijelovima nizvodno od Bihaća, prema Bosanskoj Krupi. Za ribolov na mladicu vrijede posebna pravila, pa ih prije izlaska provjerite kod lokalnog ribolovnog društva."},
+{"q": "Kada je sezona ribolova na mladicu?", "a": "Ribolov na mladicu u BiH općenito je vezan uz hladniji dio godine, otprilike od jeseni do zime, kad je riba najaktivnija. Točan period ovisi o propisima i dijelu rijeke, pa ga provjerite kod lokalnog ribolovnog društva. Na mnogim revirima mladica se lovi po načelu ulovi i pusti."},
+{"q": "Treba li dozvola za ribolov na Uni?", "a": "Da, za ribolov na Uni uvijek je potrebna važeća dozvola za revir na kojem lovite. Uz dozvolu nosite i osobni dokument. Za Nacionalni park Una dozvole izdaje park, a za dijelove rijeke izvan parka lokalna sportsko-ribolovna društva. Dozvolu je dobro kupiti prije izlaska na vodu jer rendžeri i čuvari ribolova provjeravaju ribolovce."},
+{"q": "Gdje kupiti dozvolu za ribolov u Nacionalnom parku Una?", "a": "Dnevne i višednevne dozvole za NP Una kupuju se u Turističkom informativnom centru u Bihaću, u info punktu u Kulen Vakufu i na ulazu Milančev buk u Martin Brodu. Godišnje dozvole izdaje samo uprava parka. Cijene dozvola objavljene su u cjeniku na službenoj stranici NP Una, npuna.com."},
+{"q": "Gdje kupiti dozvolu za ribolov na Uni izvan nacionalnog parka?", "a": "Za dijelove Une izvan Nacionalnog parka dozvole izdaju lokalna sportsko-ribolovna društva koja gospodare tim revirima, primjerice u Bihaću i Bosanskoj Krupi. Uvjeti, cijene i prodajna mjesta razlikuju se od društva do društva. Najbolje je raspitati se u Turističkom informativnom centru u Bihaću."},
+{"q": "Koje vrste ribolovnih dozvola postoje u NP Una?", "a": "Za turiste NP Una nudi dnevne i trodnevne dozvole, a za revire za mušičarenje i petodnevne. Članovi ribolovnih društava iz BiH mogu kupiti dnevnu dozvolu uz dokaz o članstvu, a postoje i godišnje dozvole za domaće ribolovce i mještane. Cijene su navedene u cjeniku NP Una."},
+{"q": "Koji su ribolovni reviri u Nacionalnom parku Una?", "a": "Prema pravilima za 2026., u parku su reviri Martin Brod s posebnom dionicom na Uncu, Gečet, Kulen Vakuf, Klisa – Ćelije, Dvoslap i Očigrije. Martin Brod i Kulen Vakuf namijenjeni su samo mušičarenju, a na ostalima je dopušten i ribolov varalicom i bombardom. Pravila se mogu mijenjati svake godine."},
+{"q": "Gdje je mušičarenje na Uni?", "a": "U Nacionalnom parku Una mušičarenje je dopušteno na revirima Martin Brod, uključujući posebnu dionicu na rijeci Unac, i Kulen Vakuf, a na revir Gečet od ponedjeljka do četvrtka. Martin Brod je među mušičarima posebno poznat po bistroj vodi i dugim mirnim dionicama. Na tim revirima ribe se vraćaju u vodu."},
+{"q": "Je li na Uni obvezan ulovi i pusti?", "a": "Na revirima za mušičarenje u NP Una, Martin Brod, Kulen Vakuf i Unac, vrijedi isključivo načelo ulovi i pusti za sve vrste. Na revirima za varalicu i bombardu dopušteno je zadržati najviše dvije ribe dnevno, i to samo pastrve i lipljene duge od 30 do 40 cm. Izvan parka vrijede pravila lokalnog ribolovnog društva."},
+{"q": "Kada je sezona ribolova na pastrvu u NP Una?", "a": "Na revirima za varalicu i bombardu u NP Una potočna pastrva lovi se od 1. ožujka do 30. rujna, prema pravilima za 2026. godinu. Na revirima za mušičarenje sezona je od 1. svibnja do 31. listopada, a na Uncu od 1. ožujka do 31. listopada. Datume svake godine provjerite na službenoj stranici parka npuna.com."},
+{"q": "Kada je sezona ribolova na lipljena na Uni?", "a": "U Nacionalnom parku Una lipljen se prema pravilima za 2026. lovi od 1. svibnja do 31. listopada. Izvan tog perioda lipljen je zaštićen. Sezone se mogu promijeniti od godine do godine, pa prije dolaska provjerite aktualnu odluku o ribolovu NP Una."},
+{"q": "Koji su dani dopušteni za ribolov u NP Una?", "a": "Na revirima za mušičarenje Martin Brod, Kulen Vakuf i Unac lovi se svaki dan u sezoni. Na revirima Klisa – Ćelije, Dvoslap i Očigrije ribolov je dopušten samo od petka do nedjelje. Na revir Gečet mušičari love od ponedjeljka do četvrtka, a ostali od petka do nedjelje."},
+{"q": "U koliko sati se smije pecati u NP Una?", "a": "Ribolov u NP Una počinje u 7 sati, a završava ovisno o dijelu godine: u 18 sati do 1. svibnja, u 21 sat od svibnja do kraja kolovoza, te u 19 sati u rujnu. Noćni ribolov je zabranjen. Točno vrijeme za vaš datum provjerite u aktualnim pravilima parka."},
+{"q": "Koja je minimalna mjera za pastrvu i lipljena na Uni?", "a": "Na revirima NP Una gdje je dopušteno zadržati ulov, pastrva i lipljen moraju biti dugi između 30 i 40 cm, a ribe izvan tog raspona vraćaju se u vodu. Dnevno se smiju zadržati najviše dvije ribe. Izvan parka mjere određuju lokalna ribolovna društva."},
+{"q": "Što je zabranjeno pri ribolovu u Nacionalnom parku Una?", "a": "Zabranjeni su živi mamac i kruh, ribolov s čamca i mostova, noćni ribolov, lov rukom te ribolov u zonama trajne zabrane. Na revirima za mušičarenje dopušten je jedan štap, udica bez kontrakuke i bez otežanja. Nakon ribolova obvezna je odjava kod rendžerske službe."},
+{"q": "Gdje je ribolov zabranjen u Nacionalnom parku Una?", "a": "U NP Una postoji sedam zona trajne zabrane ribolova, među kojima su područja kod Štrbačkog buka, kod Klise, iznad Dvoslapa i na dijelovima Unca, Krke i Ostrovice. U tim zonama zabranjen je svaki oblik ribolova. Točne granice zona navedene su u odluci o ribolovu na službenoj stranici parka npuna.com."},
+{"q": "Trebaju li djeca dozvolu za ribolov na Uni?", "a": "U Nacionalnom parku Una djeca mlađa od 13 godina ne trebaju dozvolu ako love uz nadzor odrasle osobe s važećom dozvolom. Njihov ulov ubraja se u dnevni limit te odrasle osobe. Izvan parka pravila za djecu određuju lokalna ribolovna društva."},
+{"q": "Koje su kazne za ribolov bez dozvole na Uni?", "a": "U NP Una ribolov bez dozvole može donijeti privremenu ili trajnu zabranu ribolova u parku, a dozvola se ne vraća. Prema pravilima za 2026., osobe sankcionirane prethodne godine ne mogu kupiti dozvolu za tekuću godinu. Uz to su moguće i novčane kazne prema zakonu."},
+{"q": "Koji je najbolji period za ribolov na Uni?", "a": "Za pastrvu i lipljena najbolji su kasno proljeće i rana jesen, kad je voda bistra i ribe aktivne. Ljeti je najbolje loviti rano ujutro i predvečer, kad je voda hladnija. Mladica se tradicionalno lovi u hladnijem dijelu godine, otprilike od jeseni do zime."},
+{"q": "Gdje su najbolja mjesta za ribolov na Uni?", "a": "Među mušičarima najpoznatiji su Martin Brod i rijeka Unac u Nacionalnom parku Una te okolica Kulen Vakufa. Za varalicu su popularni reviri Klisa – Ćelije i Dvoslap u parku. Nizvodno od Bihaća, prema Bosanskoj Krupi, ribolovci najčešće traže mladicu. Koji god revir odabrali, prije izlaska provjerite pravila i dopuštene metode."},
+{"q": "Može li se pecati u Bihaću u samom gradu?", "a": "Una teče kroz centar Bihaća, ali i tamo je potrebna dozvola lokalnog ribolovnog društva koje gospodari tim dijelom rijeke. Pravila i dopuštene metode mogu se razlikovati od onih u nacionalnom parku. Informacije o dozvolama potražite u Turističkom informativnom centru u Bihaću."},
+{"q": "Može li se iznajmiti ribolovni vodič na Uni?", "a": "Da, na Uni rade lokalni ribolovni vodiči koji poznaju revire i pravila, osobito za mušičarenje i lov na mladicu. Vodič je korisno uzeti ako prvi put lovite na Uni jer pomaže s dozvolom, izborom mjesta i tehnikom. Kontakte vodiča mogu dati lokalna ribolovna društva ili turistički centar."},
+{"q": "Koje muhe se koriste na Uni?", "a": "Na Uni se koriste i suhe muhe i nimfe, ovisno o godišnjem dobu, vremenu i aktivnosti ribe, a lokalni mušičari često preporučuju manje uzorke zbog bistre vode. Na revirima NP Una dopuštena je samo udica bez kontrakuke. Za točan izbor muha najbolje je pitati lokalnog vodiča."},
+{"q": "Je li Una dobra za mušičarenje?", "a": "Da, Una je međunarodno poznata među mušičarima zbog vrlo bistre vode, slapova i populacija pastrve i lipljena. Posebno je cijenjena dionica kod Martin Broda i rijeka Unac. Ribolov na mušicu u parku je po načelu ulovi i pusti, što pomaže očuvanju ribljeg fonda."},
+{"q": "Smije li se ponijeti ulovljena riba iz NP Una?", "a": "Na revirima za varalicu i bombardu u NP Una smiju se zadržati najviše dvije ribe dnevno, ako su duge između 30 i 40 cm. Na revirima za mušičarenje sve ribe se moraju vratiti u vodu. Pravila se mogu promijeniti, pa ih provjerite prije svakog izlaska."},
+{"q": "Je li kalifornijska pastrva zavičajna u Uni?", "a": "Nije, kalifornijska pastrva je unesena vrsta, a pravila NP Una navode je kao alohtonu. Na revirima za varalicu može se loviti od 1. ožujka do 31. listopada, a na revirima za mušičarenje također se vraća u vodu. Zavičajne vrste su potočna pastrva, lipljen i mladica."},
+{"q": "Treba li se odjaviti nakon ribolova u NP Una?", "a": "Da, prema pravilima NP Una ribolovci se nakon ribolova moraju odjaviti kod rendžerske službe. Rendžeri tijekom dana kontroliraju dozvole i pridržavanje pravila, pa uz dozvolu uvijek nosite i osobni dokument. Propuštanje odjave može se smatrati kršenjem pravila. Točan način odjave objasnit će vam pri kupnji dozvole."},
+{"q": "Ima li ribolova na Uni zimi?", "a": "U Nacionalnom parku Una ribolov se prema pravilima obavlja uglavnom od ožujka do listopada, pa zimi tamo nije dopušten. Izvan parka, na dijelovima rijeke kojima gospodare lokalna društva, zimi se tradicionalno lovi mladica, prema njihovim pravilima. Provjerite datume kod društva prije dolaska."},
+{"q": "Je li Una čista rijeka za ribolov?", "a": "Una je poznata po vrlo bistroj vodi, a službene analize iz 2025. potvrdile su da je rijeka na području Bihaća čista. Bistra voda znači da je riba oprezna, pa su potrebni tanji predvezi i oprezan prilaz obali. Upravo zbog toga Una privlači ribolovce iz cijele Europe."},
+{"q": "Koliko je Martin Brod udaljen od Bihaća?", "a": "Martin Brod je udaljen oko 50 km od Bihaća, preko Ripča i Kulen Vakufa, i do njega treba računati oko sat vremena vožnje. Nalazi se u južnom dijelu Nacionalnog parka Una, uz slap Milančev buk. Ondje se nalazi i prodajno mjesto ribolovnih dozvola."},
+{"q": "Je li Bihać dobra baza za ribolovni odmor?", "a": "Jest, iz Bihaća se lako stiže do revira u Nacionalnom parku Una i do dijelova Une nizvodno prema Bosanskoj Krupi. U Bihaću se u Turističkom informativnom centru mogu kupiti i dozvole za park. Za ribolovce su praktične naše kuće uz Unu, a upit možete poslati na apartmanibihac.com."},
+{"q": "Imate li smještaj uz Unu za ribolovce?", "a": "Da, imamo kuće i vikendice uz Unu u Lohovu, Pritoci i Grmuši, s pristupom rijeci i mirnim okruženjem. Cijene su od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni. Za dostupnost pišite na WhatsApp/Viber +387 61 591 320."},
+{"q": "Smije li se pecati ispred kuće uz Unu?", "a": "Ribolov je dopušten samo uz važeću dozvolu za revir na kojem se kuća nalazi, bez obzira na to što je kuća na obali. Dio rijeke kod Lohova i Pritoke pripada različitim revirima, pa provjerite kojem društvu ili parku pripada. Pri dolasku vam možemo reći kome se obratiti za dozvolu."},
+{"q": "Može li se loviti s obale ili s čamca na Uni?", "a": "U Nacionalnom parku Una ribolov s čamca i s mostova je zabranjen, pa se lovi s obale ili gazeći u vodi. Izvan parka pravila određuju lokalna ribolovna društva. Kod gaženja budite oprezni jer je dno kamenito, a struja na nekim mjestima jaka."},
+{"q": "Koju opremu ponijeti za ribolov na Uni?", "a": "Za mušičarenje ponesite štap za muhu, čizme ili hlače za gaženje s dobrim đonom, polarizirane naočale i udice bez kontrakuke. Za varalicu je dovoljan lagani štap za spinning, s obzirom na pravila revira. Uz opremu obavezno nosite dozvolu i osobni dokument."},
+{"q": "Smiju li se koristiti živi mamci na Uni?", "a": "U Nacionalnom parku Una živi mamac i kruh su zabranjeni, a dopuštene su samo umjetne varalice, bombarda i muhe, ovisno o reviru. Zabranjeno je i korištenje ribe kao mamca. Izvan parka pravila provjerite kod lokalnog ribolovnog društva. Na revirima za mušičarenje dopuštena je samo umjetna muha na udici bez kontrakuke."},
+{"q": "Je li ribolov na Uni moguć za početnike?", "a": "Jest, ali zbog bistre vode i oprezne ribe ribolov na Uni može biti zahtjevniji nego na drugim rijekama. Početnicima se preporučuje lokalni vodič ili revir za varalicu, gdje su pravila jednostavnija. Djeca mlađa od 13 godina u NP Una mogu loviti uz odraslu osobu s dozvolom."},
+{"q": "Gdje saznati aktualna pravila ribolova na Uni?", "a": "Aktualna pravila za Nacionalni park Una, uključujući sezone, revire i cjenik, objavljuju se na službenoj stranici NP Una, npuna.com. Za dijelove rijeke izvan parka pravila daju lokalna sportsko-ribolovna društva. Pravila se svake godine mogu promijeniti, pa ih provjerite prije dolaska. Informacije o dozvolama možete dobiti i u Turističkom informativnom centru u Bihaću."},
+{"q": "Može li se ribolov kombinirati s obiteljskim odmorom u Bihaću?", "a": "Može, jer dok jedan član obitelji lovi, ostali mogu na kupanje, rafting ili obilazak Štrbačkog buka. Udaljenosti oko Bihaća su male, pa je lako uskladiti dan. Kuće uz Unu u Lohovu, Pritoci i Grmuši pogodne su za takav odmor, a rezervacija je bez naknade, izravno s vlasnikom."}
 ]

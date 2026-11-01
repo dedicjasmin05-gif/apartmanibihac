@@ -1,162 +1,42 @@
 [
- {
-  "q": "Koja je valuta u Bihaću?",
-  "a": "U Bihaću i cijeloj Bosni i Hercegovini plaća se konvertibilnom markom, skraćeno KM (oznaka BAM). Jedna marka ima 100 feninga. Kovanice su od 5 feninga do 5 KM, a novčanice od 10 do 200 KM. Na računima i cjenicima piše KM, a u bankama i na mjenjačkim listama BAM."
- },
- {
-  "q": "Koliko vrijedi 1 euro u konvertibilnim markama?",
-  "a": "Konvertibilna marka vezana je uz euro po fiksnom tečaju 1 euro = 1,95583 KM. U praksi se često računa da je 1 euro približno 2 KM, odnosno da je 1 KM malo više od 50 eurocenti. Mjenjačnice i banke imaju malo nepovoljniji kupovni tečaj od službenog."
- },
- {
-  "q": "Mijenja li se tečaj marke prema euru?",
-  "a": "Ne, tečaj je fiksan od uvođenja eura i iznosi 1,95583 KM za 1 euro. Zato ne morate pratiti promjene tečaja prije puta. Razlike postoje samo u proviziji i tečaju koji primjenjuju pojedine mjenjačnice, banke i trgovine kad primaju eure. Zbog fiksnog tečaja cijene u markama lako preračunate u eure tako da ih podijelite s dva."
- },
- {
-  "q": "Mogu li u Bihaću plaćati eurima?",
-  "a": "Na mnogim mjestima u Bihaću primaju eure, osobito u smještaju, većim restoranima i na benzinskim postajama, ali to nije pravilo. Kada plaćate eurima, ostatak obično dobijete u markama i po zaokruženom tečaju od oko 2 KM. Za kavu, pekaru, tržnicu i parking bolje je imati marke."
- },
- {
-  "q": "Kojim tečajem trgovine primaju eure?",
-  "a": "Trgovine i restorani koji primaju eure najčešće računaju 1 euro = 2 KM ili malo manje, a ostatak vraćaju u markama. To je za vas obično neznatno lošije od službenog tečaja 1,95583. Za veće iznose isplati se platiti karticom ili podići marke na bankomatu."
- },
- {
-  "q": "Mogu li smještaj u Bihaću platiti u eurima?",
-  "a": "Da, cijene smještaja na apartmanibihac.com izražene su u eurima, od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni. Kapara je 30 %, a ostatak se plaća po dolasku gotovinom ili karticom. Točan način plaćanja potvrdi vlasnik u odgovoru na vaš upit."
- },
- {
-  "q": "Primaju li se kartice u Bihaću?",
-  "a": "Da, Visa i Mastercard prihvaćaju se u većini supermarketa, benzinskih postaja, hotela i većih restorana u Bihaću. Manji kafići, pekare, tržnica i neki privatni iznajmljivači radije primaju gotovinu. Zato uz karticu uvijek imajte nešto maraka u novčaniku. Na tržnici i kod malih obrtnika gotovina je i dalje najsigurniji način plaćanja."
- },
- {
-  "q": "Može li se platiti American Express karticom u BiH?",
-  "a": "American Express se u Bosni i Hercegovini prihvaća puno rjeđe od Visa i Mastercard kartica. Na manjim mjestima poput Bihaća računajte da ga mnogi trgovci neće primiti. Za put ponesite Visa ili Mastercard karticu i nešto gotovine. Prije puta provjerite kod svoje banke naplaćuje li naknadu za plaćanje karticom izvan EU."
- },
- {
-  "q": "Ima li bankomata u Bihaću?",
-  "a": "Da, u Bihaću ima puno bankomata, osobito u centru grada, uz banke i trgovačke centre. U manjim naseljima uz Unu, poput Grmuše ili Lohova, bankomata gotovo nema, pa novac podignite u gradu. Bankomati izdaju konvertibilne marke. Podizanje novca planirajte prije odlaska na izlet uz rijeku ili na rafting."
- },
- {
-  "q": "Naplaćuju li bankomati u BiH proviziju stranim karticama?",
-  "a": "Mnogi bankomati u BiH naplaćuju naknadu za podizanje stranom karticom, a i vaša banka može naplatiti svoju. Iznos naknade ovisi o banci i obično se prikaže na ekranu prije potvrde. Ako vas bankomat pita želite li konverziju u svoju valutu, odbijte je i odaberite isplatu u markama."
- },
- {
-  "q": "Treba li odabrati konverziju u eure kad plaćam karticom?",
-  "a": "Ne, kad terminal ili bankomat ponudi naplatu u eurima umjesto u markama, bolje je odabrati marke. Konverzija na mjestu plaćanja (DCC) obično ima lošiji tečaj od onog koji primjenjuje vaša banka. Plaćanjem u lokalnoj valuti najčešće prođete jeftinije. Isto pravilo vrijedi za plaćanje karticom u trgovini i za podizanje novca na bankomatu."
- },
- {
-  "q": "Gdje mogu promijeniti novac u Bihaću?",
-  "a": "Novac možete promijeniti u bankama i ovlaštenim mjenjačnicama u centru Bihaća, a neke pošte također mijenjaju novac. Za euro je tečaj stabilan zbog fiksne veze, pa razlike među mjenjačnicama nisu velike. Novac ne mijenjajte na ulici kod nepoznatih osoba. Za zamjenu ponesite osobnu iskaznicu ili putovnicu, jer je banka može tražiti."
- },
- {
-  "q": "Isplati li se mijenjati eure u marke prije puta?",
-  "a": "Uglavnom ne, jer u vašoj banci kod kuće tečaj za marke može biti lošiji nego u BiH. Najjednostavnije je donijeti eure i promijeniti ih u Bihaću ili podići marke na bankomatu. Kako je tečaj fiksan, nema smisla čekati povoljniji trenutak."
- },
- {
-  "q": "Mogu li marke vratiti u eure na kraju odmora?",
-  "a": "Da, preostale marke možete promijeniti natrag u eure u bankama i mjenjačnicama u BiH. Izvan Bosne i Hercegovine marke je teško promijeniti, pa to obavite prije izlaska iz zemlje. Najbolje je pred kraj boravka trošiti gotovinu i ostatak platiti karticom."
- },
- {
-  "q": "Koliko košta kava u Bihaću?",
-  "a": "Kava u kafiću u Bihaću obično košta otprilike 2 do 3,5 KM, odnosno oko 1 do 1,8 eura. Cijene ovise o lokaciji, pa su u centru i uz rijeku malo više. To je primjetno jeftinije nego u Hrvatskoj ili u zapadnoj Europi."
- },
- {
-  "q": "Koliko košta ručak u restoranu u Bihaću?",
-  "a": "Glavno jelo u običnom restoranu u Bihaću obično košta otprilike 12 do 25 KM, odnosno oko 6 do 13 eura. Riba iz Une, roštilj za više osoba ili jela u boljim restoranima mogu biti skuplji. Porcije su obično velike, pa je jedno jelo često dovoljno za obrok."
- },
- {
-  "q": "Koliko koštaju ćevapi u Bihaću?",
-  "a": "Porcija ćevapa u Bihaću obično stoji otprilike 6 do 12 KM, ovisno o veličini porcije i mjestu. Uz ćevape se dobiju somun i luk, a kajmak se često plaća posebno. Točne cijene uvijek su na jelovniku, pa ih provjerite prije narudžbe."
- },
- {
-  "q": "Kolika je cijena goriva u BiH?",
-  "a": "Krajem listopada 2026. prosječna cijena benzina u BiH bila je oko 3,3 KM po litri, a dizela oko 3,8 KM, odnosno oko 1,7 i 1,95 eura. Cijene se mijenjaju gotovo svaki tjedan i razlikuju se po benzinskim postajama. Na postajama se može platiti karticom, a često i eurima."
- },
- {
-  "q": "Je li gorivo u BiH jeftinije nego u Hrvatskoj?",
-  "a": "Gorivo u BiH povijesno je često bilo nešto jeftinije nego u Hrvatskoj, ali razlika se mijenja s tržištem i propisima o cijenama. Prije puta usporedite aktualne cijene na stranicama koje prate cijene goriva u obje zemlje. Na prijelazu Izačić puno vozača natoči gorivo s one strane granice gdje je trenutno povoljnije."
- },
- {
-  "q": "Je li Bosna i Hercegovina jeftina za turiste?",
-  "a": "Za većinu gostiju iz EU Bosna i Hercegovina je primjetno jeftinija od Hrvatske, Austrije ili Njemačke, osobito hrana, kava i smještaj. Uvozna roba u trgovinama i gorivo nisu puno jeftiniji. Na apartmanibihac.com cijeli apartman stoji od 25 € (50 KM) po noći, otprilike koliko soba za jednu osobu u Bihaću."
- },
- {
-  "q": "Koliko novca ponijeti za vikend u Bihaću?",
-  "a": "Za dvije osobe obično je dovoljno računati otprilike 50 do 100 eura dnevno za hranu, kavu i manje izlete, bez smještaja. Rafting, ulaznice za NP Una i gorivo dodajte posebno, ovisno o planu. Za smještaj računajte od 25 € (50 KM) po noći za cijeli apartman na apartmanibihac.com."
- },
- {
-  "q": "Koliko se daje napojnica u restoranu u BiH?",
-  "a": "Napojnica u restoranima u Bosni i Hercegovini nije obavezna, ali je uobičajena ako ste zadovoljni uslugom. Najčešće se zaokruži račun ili ostavi oko 10 %. U kafićima ljudi obično ostave sitniš ili zaokruže iznos na prvu okruglu brojku. Napojnicu možete ostaviti u gotovini, i u markama i u eurima."
- },
- {
-  "q": "Daje li se napojnica taksistu u Bihaću?",
-  "a": "Napojnica taksistu nije očekivana, ali ljudi često zaokruže iznos na prvu okruglu brojku. Prije vožnje dogovorite cijenu ili provjerite radi li taksimetar. Za kraće vožnje po Bihaću cijene su obično niske. Za dulje relacije, primjerice do Grmuše ili do granice, cijenu svakako dogovorite unaprijed, jer taksimetar tada nije uvijek pravilo."
- },
- {
-  "q": "Koliko košta ulaznica za Nacionalni park Una?",
-  "a": "Cijene ulaznica za NP Una razlikuju se po lokaciji (Štrbački buk, Martin Brod) i vrsti posjetitelja, a mijenjaju se iz sezone u sezonu. Aktualne cijene i načine plaćanja provjerite na službenoj stranici Nacionalnog parka Una. Na ulazu je dobro imati marke u gotovini."
- },
- {
-  "q": "Koliko košta rafting na Uni?",
-  "a": "Cijena raftinga ovisi o dionici, trajanju i tome što je uključeno, primjerice ručak ili prijevoz. Rafting organiziramo s Una Olympic Rafting iz Grmuše, pa vam točnu ponudu za vaš datum možemo poslati na upit. Pišite na WhatsApp ili Viber +387 61 591 320."
- },
- {
-  "q": "Mogu li rafting platiti eurima?",
-  "a": "Organizatori raftinga na Uni obično primaju i eure i marke, a neki i kartice. Za rafting s Una Olympic Rafting, koji organiziramo uz naš smještaj, način plaćanja potvrdimo uz ponudu. Javite se na +387 61 591 320 ili preko upita na apartmanibihac.com."
- },
- {
-  "q": "Je li BiH u EU roamingu?",
-  "a": "Ne, Bosna i Hercegovina nije članica EU i nije u zoni roaminga po domaćim cijenama. Pozivi i mobilni internet s EU SIM karticom mogu biti skupi, ovisno o vašem operateru. EU je 2026. pokrenula pregovore o uključivanju zapadnog Balkana u roaming, ali to još nije na snazi."
- },
- {
-  "q": "Koliko košta roaming u Bosni s hrvatskim brojem?",
-  "a": "Cijene ovise o vašem operateru i tarifi, jer BiH nije u EU roaming zoni. Neki hrvatski i drugi europski operateri nude posebne pakete za BiH, pa se prije puta raspitajte kod svog operatera. Bez paketa mobilni internet može brzo postati skup, pa isključite podatkovni roaming dok ne provjerite cijene."
- },
- {
-  "q": "Kako izbjeći visok račun za mobitel u BiH?",
-  "a": "Prije puta provjerite kod svog operatera cijene za BiH i eventualne pakete, a na mobitelu isključite podatkovni roaming. Koristite Wi-Fi u smještaju, koji je u većini objekata besplatan. Za duži boravak isplati se kupiti lokalnu SIM karticu ili turističku eSIM."
- },
- {
-  "q": "Mogu li kupiti lokalnu SIM karticu u Bihaću?",
-  "a": "Da, prepaid SIM karticu možete kupiti u poslovnicama operatera, na kioscima i u nekim trgovinama u Bihaću. Glavni operateri su BH Telecom, m:tel i HT Eronet, a svi pokrivaju Bihać. Neki imaju turističke pakete s puno mobilnih podataka za nekoliko dana."
- },
- {
-  "q": "Koliko košta turistička SIM kartica u BiH?",
-  "a": "Turistički paketi s mobilnim podacima kod operatera u BiH obično koštaju otprilike 20 do 60 KM, ovisno o količini podataka i trajanju. Ponude se često mijenjaju, pa ih provjerite na stranicama operatera ili u poslovnici. Za kraći boravak mogu biti povoljnije i turističke eSIM kartice."
- },
- {
-  "q": "Može li se koristiti eSIM u Bosni i Hercegovini?",
-  "a": "Da, eSIM radi u BiH, a nude ga i domaći operateri i međunarodni pružatelji turističkih eSIM paketa. Turistički eSIM obično ima samo mobilne podatke, bez lokalnog broja. Prije kupnje provjerite podržava li vaš mobitel eSIM. Lokalna SIM kartica obično je povoljnija ako trebate i pozive, a eSIM je praktičniji jer ga aktivirate prije dolaska."
- },
- {
-  "q": "Je li hrana u trgovinama u BiH jeftinija nego u Hrvatskoj?",
-  "a": "Domaći proizvodi poput kruha, mliječnih proizvoda, voća i povrća uglavnom su nešto jeftiniji nego u Hrvatskoj. Uvozni markirani proizvodi često stoje slično ili čak više. Na tržnici u Bihaću sezonsko voće i povrće obično je najpovoljnije. Velike trgovačke lance i tržnicu imate u samom Bihaću, a u selima uz Unu samo manje trgovine."
- },
- {
-  "q": "Ima li u Bihaću velikih supermarketa?",
-  "a": "Da, u Bihaću rade veliki supermarketi i trgovački lanci u kojima se može platiti karticom. Imaju širok izbor hrane, pića i kozmetike po uobičajenim cijenama za BiH. U selima uz Unu su samo male trgovine, pa veću kupnju obavite u gradu."
- },
- {
-  "q": "Koliko košta pivo u kafiću u Bihaću?",
-  "a": "Domaće pivo u kafiću u Bihaću obično stoji otprilike 3 do 5 KM, a strana piva malo više. Cijene ovise o mjestu i veličini boce ili čaše. U trgovini je pivo znatno jeftinije nego u kafiću. Uz pivo se u Bihaću često pije i domaća rakija, čija cijena također ovisi o mjestu."
- },
- {
-  "q": "Plaća li se boravišna taksa u Bihaću?",
-  "a": "Da, u BiH se za turiste u pravilu plaća boravišna pristojba, čiji iznos određuju kanton i grad. Kod nas se ona obično obračunava uz cijenu smještaja, a vlasnik vam kaže je li uključena. Pitajte to u upitu na apartmanibihac.com kako ne bi bilo iznenađenja."
- },
- {
-  "q": "Koliko košta smještaj u Bihaću po noći?",
-  "a": "Soba za jednu osobu u Bihaću obično košta oko 50 KM po noći. Na apartmanibihac.com za otprilike isti iznos, od 25 € odnosno 50 KM, dobijete cijeli apartman, neki i do 100 m². Cijene idu od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni."
- },
- {
-  "q": "Isplati li se uzeti cijeli apartman umjesto sobe u Bihaću?",
-  "a": "Da, jer cijeli apartman na apartmanibihac.com stoji od 25 € (50 KM) po noći, koliko u Bihaću obično košta soba za jednu osobu. Za tu cijenu imate kuhinju, vlastitu kupaonicu i više prostora, a neki apartmani imaju i do 100 m². Za dvoje ili obitelj cijena po osobi je još niža."
- },
- {
-  "q": "Kako platiti kaparu za smještaj u Bihaću?",
-  "a": "Kapara iznosi 30 % ukupne cijene, a način uplate dogovarate izravno s vlasnikom nakon potvrde dostupnosti. Ostatak plaćate po dolasku gotovinom ili karticom. Bez naknade za rezervaciju, a potvrda stiže e-mailom, pa sve detalje imate na jednom mjestu. Vlasnik vam nakon potvrde dostupnosti pošalje podatke za uplatu kapare."
- },
- {
-  "q": "Je li u Bihaću skuplje ljeti nego zimi?",
-  "a": "Smještaj je ljeti obično skuplji, jer je to glavna sezona za rafting, kupanje u Uni i izlete na Plitvice. Hrana i kava u gradu uglavnom imaju iste cijene tijekom cijele godine. Na apartmanibihac.com cijena po noći ovisi o objektu i sezoni, od 25 do 100 € za cijeli objekt."
- }
+{"q": "Koja je valuta u Bihaću?", "a": "U Bihaću i cijeloj Bosni i Hercegovini plaća se konvertibilnom markom, skraćeno KM (oznaka BAM). Jedna marka ima 100 feninga. Kovanice su od 5 feninga do 5 KM, a novčanice od 10 do 200 KM. Na računima i cjenicima piše KM, a u bankama i na mjenjačkim listama BAM."},
+{"q": "Koliko vrijedi 1 euro u konvertibilnim markama?", "a": "Konvertibilna marka vezana je uz euro po fiksnom tečaju 1 euro = 1,95583 KM. U praksi se često računa da je 1 euro približno 2 KM, odnosno da je 1 KM malo više od 50 eurocenti. Mjenjačnice i banke imaju malo nepovoljniji kupovni tečaj od službenog."},
+{"q": "Mijenja li se tečaj marke prema euru?", "a": "Ne, tečaj je fiksan od uvođenja eura i iznosi 1,95583 KM za 1 euro. Zato ne morate pratiti promjene tečaja prije puta. Razlike postoje samo u proviziji i tečaju koji primjenjuju pojedine mjenjačnice, banke i trgovine kad primaju eure. Zbog fiksnog tečaja cijene u markama lako preračunate u eure tako da ih podijelite s dva."},
+{"q": "Mogu li u Bihaću plaćati eurima?", "a": "Na mnogim mjestima u Bihaću primaju eure, osobito u smještaju, većim restoranima i na benzinskim postajama, ali to nije pravilo. Kada plaćate eurima, ostatak obično dobijete u markama i po zaokruženom tečaju od oko 2 KM. Za kavu, pekaru, tržnicu i parking bolje je imati marke."},
+{"q": "Kojim tečajem trgovine primaju eure?", "a": "Trgovine i restorani koji primaju eure najčešće računaju 1 euro = 2 KM ili malo manje, a ostatak vraćaju u markama. To je za vas obično neznatno lošije od službenog tečaja 1,95583. Za veće iznose isplati se platiti karticom ili podići marke na bankomatu."},
+{"q": "Mogu li smještaj u Bihaću platiti u eurima?", "a": "Cijene smještaja na apartmanibihac.com izražene su u eurima, od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni. Smještaj se plaća gotovinom po dolasku, bez obavezne kapare. Plaća li se u eurima ili markama, potvrdi vlasnik u odgovoru na vaš upit."},
+{"q": "Primaju li se kartice u Bihaću?", "a": "Da, Visa i Mastercard prihvaćaju se u većini supermarketa, benzinskih postaja, hotela i većih restorana u Bihaću. Manji kafići, pekare, tržnica i neki privatni iznajmljivači radije primaju gotovinu. Zato uz karticu uvijek imajte nešto maraka u novčaniku. Na tržnici i kod malih obrtnika gotovina je i dalje najsigurniji način plaćanja."},
+{"q": "Može li se platiti American Express karticom u BiH?", "a": "American Express se u Bosni i Hercegovini prihvaća puno rjeđe od Visa i Mastercard kartica. Na manjim mjestima poput Bihaća računajte da ga mnogi trgovci neće primiti. Za put ponesite Visa ili Mastercard karticu i nešto gotovine. Prije puta provjerite kod svoje banke naplaćuje li naknadu za plaćanje karticom izvan EU."},
+{"q": "Ima li bankomata u Bihaću?", "a": "Da, u Bihaću ima puno bankomata, osobito u centru grada, uz banke i trgovačke centre. U manjim naseljima uz Unu, poput Grmuše ili Lohova, bankomata gotovo nema, pa novac podignite u gradu. Bankomati izdaju konvertibilne marke. Podizanje novca planirajte prije odlaska na izlet uz rijeku ili na rafting."},
+{"q": "Naplaćuju li bankomati u BiH proviziju stranim karticama?", "a": "Mnogi bankomati u BiH naplaćuju naknadu za podizanje stranom karticom, a i vaša banka može naplatiti svoju. Iznos naknade ovisi o banci i obično se prikaže na ekranu prije potvrde. Ako vas bankomat pita želite li konverziju u svoju valutu, odbijte je i odaberite isplatu u markama."},
+{"q": "Treba li odabrati konverziju u eure kad plaćam karticom?", "a": "Ne, kad terminal ili bankomat ponudi naplatu u eurima umjesto u markama, bolje je odabrati marke. Konverzija na mjestu plaćanja (DCC) obično ima lošiji tečaj od onog koji primjenjuje vaša banka. Plaćanjem u lokalnoj valuti najčešće prođete jeftinije. Isto pravilo vrijedi za plaćanje karticom u trgovini i za podizanje novca na bankomatu."},
+{"q": "Gdje mogu promijeniti novac u Bihaću?", "a": "Novac možete promijeniti u bankama i ovlaštenim mjenjačnicama u centru Bihaća, a neke pošte također mijenjaju novac. Za euro je tečaj stabilan zbog fiksne veze, pa razlike među mjenjačnicama nisu velike. Novac ne mijenjajte na ulici kod nepoznatih osoba. Za zamjenu ponesite osobnu iskaznicu ili putovnicu, jer je banka može tražiti."},
+{"q": "Isplati li se mijenjati eure u marke prije puta?", "a": "Uglavnom ne, jer u vašoj banci kod kuće tečaj za marke može biti lošiji nego u BiH. Najjednostavnije je donijeti eure i promijeniti ih u Bihaću ili podići marke na bankomatu. Kako je tečaj fiksan, nema smisla čekati povoljniji trenutak."},
+{"q": "Mogu li marke vratiti u eure na kraju odmora?", "a": "Da, preostale marke možete promijeniti natrag u eure u bankama i mjenjačnicama u BiH. Izvan Bosne i Hercegovine marke je teško promijeniti, pa to obavite prije izlaska iz zemlje. Najbolje je pred kraj boravka trošiti gotovinu i ostatak platiti karticom."},
+{"q": "Koliko košta kava u Bihaću?", "a": "Kava u kafiću u Bihaću obično košta otprilike 2 do 3,5 KM, odnosno oko 1 do 1,8 eura. Cijene ovise o lokaciji, pa su u centru i uz rijeku malo više. To je primjetno jeftinije nego u Hrvatskoj ili u zapadnoj Europi."},
+{"q": "Koliko košta ručak u restoranu u Bihaću?", "a": "Glavno jelo u običnom restoranu u Bihaću obično košta otprilike 12 do 25 KM, odnosno oko 6 do 13 eura. Riba iz Une, roštilj za više osoba ili jela u boljim restoranima mogu biti skuplji. Porcije su obično velike, pa je jedno jelo često dovoljno za obrok."},
+{"q": "Koliko koštaju ćevapi u Bihaću?", "a": "Porcija ćevapa u Bihaću obično stoji otprilike 6 do 12 KM, ovisno o veličini porcije i mjestu. Uz ćevape se dobiju somun i luk, a kajmak se često plaća posebno. Točne cijene uvijek su na jelovniku, pa ih provjerite prije narudžbe."},
+{"q": "Kolika je cijena goriva u BiH?", "a": "Cijene goriva u BiH mijenjaju se gotovo svaki tjedan i razlikuju se po benzinskim postajama, pa ih ovdje ne navodimo kao stalan podatak. Aktualne cijene vidjet ćete na postajama i na lokalnim portalima koji prate cijene goriva. Na postajama se može platiti karticom, a često i eurima."},
+{"q": "Je li gorivo u BiH jeftinije nego u Hrvatskoj?", "a": "Gorivo u BiH povijesno je često bilo nešto jeftinije nego u Hrvatskoj, ali razlika se mijenja s tržištem i propisima o cijenama. Prije puta usporedite aktualne cijene na stranicama koje prate cijene goriva u obje zemlje. Na prijelazu Izačić puno vozača natoči gorivo s one strane granice gdje je trenutno povoljnije."},
+{"q": "Je li Bosna i Hercegovina jeftina za turiste?", "a": "Za većinu gostiju iz EU Bosna i Hercegovina je primjetno jeftinija od Hrvatske, Austrije ili Njemačke, osobito hrana, kava i smještaj. Uvozna roba u trgovinama i gorivo nisu puno jeftiniji. Na apartmanibihac.com cijeli apartman stoji od 25 € (50 KM) po noći, otprilike koliko soba za jednu osobu u Bihaću."},
+{"q": "Koliko novca ponijeti za vikend u Bihaću?", "a": "Za dvije osobe obično je dovoljno računati otprilike 50 do 100 eura dnevno za hranu, kavu i manje izlete, bez smještaja. Rafting, ulaznice za NP Una i gorivo dodajte posebno, ovisno o planu. Za smještaj računajte od 25 € (50 KM) po noći za cijeli apartman na apartmanibihac.com."},
+{"q": "Koliko se daje napojnica u restoranu u BiH?", "a": "Napojnica u restoranima u Bosni i Hercegovini nije obavezna, ali je uobičajena ako ste zadovoljni uslugom. Najčešće se zaokruži račun ili ostavi oko 10 %. U kafićima ljudi obično ostave sitniš ili zaokruže iznos na prvu okruglu brojku. Napojnicu možete ostaviti u gotovini, i u markama i u eurima."},
+{"q": "Daje li se napojnica taksistu u Bihaću?", "a": "Napojnica taksistu nije očekivana, ali ljudi često zaokruže iznos na prvu okruglu brojku. Prije vožnje dogovorite cijenu ili provjerite radi li taksimetar. Za kraće vožnje po Bihaću cijene su obično niske. Za dulje relacije, primjerice do Grmuše ili do granice, cijenu svakako dogovorite unaprijed, jer taksimetar tada nije uvijek pravilo."},
+{"q": "Koliko košta ulaznica za Nacionalni park Una?", "a": "Cijene ulaznica za NP Una razlikuju se po lokaciji (Štrbački buk, Martin Brod) i vrsti posjetitelja, a mijenjaju se iz sezone u sezonu. Aktualne cijene provjerite na službenoj stranici Nacionalnog parka Una, npuna.com. Prema cjeniku parka plaća se gotovinom ili uplatom na račun, pa je na ulazu dobro imati marke u gotovini."},
+{"q": "Koliko košta rafting na Uni?", "a": "Cijena raftinga ovisi o dionici, trajanju i tome što je uključeno, primjerice ručak ili prijevoz. Rafting organiziramo s Una Olympic Rafting iz Grmuše, pa vam točnu ponudu za vaš datum možemo poslati na upit. Pišite na WhatsApp ili Viber +387 61 591 320."},
+{"q": "Mogu li rafting platiti eurima?", "a": "Organizatori raftinga na Uni obično primaju i eure i marke, a neki i kartice. Za rafting s Una Olympic Rafting, koji organiziramo uz naš smještaj, način plaćanja potvrdimo uz ponudu. Javite se na +387 61 591 320 ili preko upita na apartmanibihac.com."},
+{"q": "Je li BiH u EU roamingu?", "a": "Ne, Bosna i Hercegovina nije članica EU i nije u zoni roaminga po domaćim cijenama. Pozivi i mobilni internet s EU SIM karticom mogu biti skupi, ovisno o vašem operateru. EU je 2026. pokrenula pregovore o uključivanju zapadnog Balkana u roaming, ali to još nije na snazi."},
+{"q": "Koliko košta roaming u Bosni s hrvatskim brojem?", "a": "Cijene ovise o vašem operateru i tarifi, jer BiH nije u EU roaming zoni. Neki hrvatski i drugi europski operateri nude posebne pakete za BiH, pa se prije puta raspitajte kod svog operatera. Bez paketa mobilni internet može brzo postati skup, pa isključite podatkovni roaming dok ne provjerite cijene."},
+{"q": "Kako izbjeći visok račun za mobitel u BiH?", "a": "Prije puta provjerite kod svog operatera cijene za BiH i eventualne pakete, a na mobitelu isključite podatkovni roaming. Koristite Wi-Fi u smještaju, koji je u većini objekata besplatan. Za duži boravak isplati se kupiti lokalnu SIM karticu ili turističku eSIM."},
+{"q": "Mogu li kupiti lokalnu SIM karticu u Bihaću?", "a": "Da, prepaid SIM karticu možete kupiti u poslovnicama operatera, na kioscima i u nekim trgovinama u Bihaću. Glavni operateri su BH Telecom, m:tel i HT Eronet, a svi pokrivaju Bihać. Neki imaju turističke pakete s puno mobilnih podataka za nekoliko dana."},
+{"q": "Koliko košta turistička SIM kartica u BiH?", "a": "Turistički paketi s mobilnim podacima kod operatera u BiH obično koštaju otprilike 20 do 60 KM, ovisno o količini podataka i trajanju. Ponude se često mijenjaju, pa ih provjerite na stranicama operatera ili u poslovnici. Za kraći boravak mogu biti povoljnije i turističke eSIM kartice."},
+{"q": "Može li se koristiti eSIM u Bosni i Hercegovini?", "a": "Da, eSIM radi u BiH, a nude ga i domaći operateri i međunarodni pružatelji turističkih eSIM paketa. Turistički eSIM obično ima samo mobilne podatke, bez lokalnog broja. Prije kupnje provjerite podržava li vaš mobitel eSIM. Lokalna SIM kartica obično je povoljnija ako trebate i pozive, a eSIM je praktičniji jer ga aktivirate prije dolaska."},
+{"q": "Je li hrana u trgovinama u BiH jeftinija nego u Hrvatskoj?", "a": "Domaći proizvodi poput kruha, mliječnih proizvoda, voća i povrća uglavnom su nešto jeftiniji nego u Hrvatskoj. Uvozni markirani proizvodi često stoje slično ili čak više. Na tržnici u Bihaću sezonsko voće i povrće obično je najpovoljnije. Velike trgovačke lance i tržnicu imate u samom Bihaću, a u selima uz Unu samo manje trgovine."},
+{"q": "Ima li u Bihaću velikih supermarketa?", "a": "Da, u Bihaću rade veliki supermarketi i trgovački lanci u kojima se može platiti karticom. Imaju širok izbor hrane, pića i kozmetike po uobičajenim cijenama za BiH. U selima uz Unu su samo male trgovine, pa veću kupnju obavite u gradu."},
+{"q": "Koliko košta pivo u kafiću u Bihaću?", "a": "Domaće pivo u kafiću u Bihaću obično stoji otprilike 3 do 5 KM, a strana piva malo više. Cijene ovise o mjestu i veličini boce ili čaše. U trgovini je pivo znatno jeftinije nego u kafiću. Uz pivo se u Bihaću često pije i domaća rakija, čija cijena također ovisi o mjestu."},
+{"q": "Plaća li se boravišna taksa u Bihaću?", "a": "Da, u BiH se za turiste u pravilu plaća boravišna pristojba, čiji iznos određuju kanton i grad. Kod nas se ona obično obračunava uz cijenu smještaja, a vlasnik vam kaže je li uključena. Pitajte to u upitu na apartmanibihac.com kako ne bi bilo iznenađenja."},
+{"q": "Koliko košta smještaj u Bihaću po noći?", "a": "Soba za jednu osobu u Bihaću obično košta oko 50 KM po noći. Na apartmanibihac.com za otprilike isti iznos, od 25 € odnosno 50 KM, dobijete cijeli apartman, neki i do 100 m². Cijene idu od 25 do 100 € po noći za cijeli objekt, ovisno o objektu i sezoni."},
+{"q": "Isplati li se uzeti cijeli apartman umjesto sobe u Bihaću?", "a": "Da, jer cijeli apartman na apartmanibihac.com stoji od 25 € (50 KM) po noći, koliko u Bihaću obično košta soba za jednu osobu. Za tu cijenu imate kuhinju, vlastitu kupaonicu i više prostora, a neki apartmani imaju i do 100 m². Za dvoje ili obitelj cijena po osobi je još niža."},
+{"q": "Treba li platiti kaparu za smještaj u Bihaću?", "a": "Ne, kod nas obavezne kapare nema: smještaj se plaća gotovinom po dolasku. Ako želite, možete uplatiti avans unaprijed i za to dobiti popust, a iznos popusta i način uplate dogovaramo uz potvrdu upita. Naknade za rezervaciju nema, a potvrda stiže e-mailom."},
+{"q": "Je li u Bihaću skuplje ljeti nego zimi?", "a": "Smještaj je ljeti obično skuplji, jer je to glavna sezona za rafting, kupanje u Uni i izlete na Plitvice. Hrana i kava u gradu uglavnom imaju iste cijene tijekom cijele godine. Na apartmanibihac.com cijena po noći ovisi o objektu i sezoni, od 25 do 100 € za cijeli objekt."}
 ]

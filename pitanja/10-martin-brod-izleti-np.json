@@ -1,162 +1,42 @@
 [
- {
-  "q": "Koliko ima od Bihaća do Martin Broda?",
-  "a": "Od Bihaća do Martin Broda ima otprilike 50 do 60 km, ovisno o ruti, a vožnja traje oko sat vremena. Put vodi na jug preko Ripča, Orašca i Kulen Vakufa, a iza Kulen Vakufa postoji kraći makadamski dio. Martin Brod je dio Grada Bihaća i Nacionalnog parka Una."
- },
- {
-  "q": "Kako doći iz Bihaća u Martin Brod?",
-  "a": "Iz Bihaća vozite prema jugu, uz Unu preko Ripča i Lohova do Orašca, pa dalje do Kulen Vakufa. Od Kulen Vakufa do Martin Broda vozite se još otprilike 15 minuta, a na tom dijelu nakon kraja asfalta slijedi kratka makadamska dionica. Pratite smeđe oznake za Nacionalni park Una."
- },
- {
-  "q": "Što vidjeti u Martin Brodu?",
-  "a": "U Martin Brodu su slapovi Milančev buk, najveći kompleks slapova u Nacionalnom parku Una, i ušće Unca u Unu. Tu su i manastir Rmanj, stari mlinovi, bučnica stara više od 300 godina te staze Martina staza i Put pod gredu. Za obilazak slapova kupuje se ulaznica na ulazu broj 5."
- },
- {
-  "q": "Što je Milančev buk?",
-  "a": "Milančev buk je niz slapova i kaskada na Uni u Martin Brodu, dug oko 800 metara, s ukupnim padom od oko 54 metra. Prema Nacionalnom parku Una, to je najveći i najduži kompleks slapova u parku. Proteže se uz selo sve do ušća Unca."
- },
- {
-  "q": "Koliko je visok Milančev buk?",
-  "a": "Milančev buk nije jedan visok slap nego niz slapova i kaskada, s ukupnim padom od oko 54 metra na dužini od oko 800 metara. Zato se u nekim izvorima navodi kao slap od 50-ak metara. Najljepše izgleda u proljeće, pri visokom vodostaju."
- },
- {
-  "q": "Plaća li se ulaz na Milančev buk?",
-  "a": "Da, Milančev buk je u zoni Martin Brod Nacionalnog parka Una i za njega se kupuje ulaznica na ulazu broj 5. Karta obuhvaća slapove Milančev buk i Jalački buk, a postoji i kombinirana karta sa Štrbačkim bukom. Aktualne cijene provjerite na službenoj stranici npuna.com."
- },
- {
-  "q": "Gdje se nalazi manastir Rmanj?",
-  "a": "Manastir Rmanj nalazi se kod Martin Broda, na mjestu gdje se Unac ulijeva u Unu, i vidi se pri ulasku u selo. To je pravoslavni manastir i važno duhovno središte pograničnog područja Bosne, Like i Dalmacije. Pri posjetu poštujte pravila odijevanja i ponašanja u sakralnim objektima."
- },
- {
-  "q": "Koliko je star manastir Rmanj?",
-  "a": "Manastir Rmanj potječe iz srednjeg vijeka, a izvori ga uglavnom smještaju u 15. stoljeće. Narodna predaja povezuje njegovo osnivanje s Katarinom Branković i njezinim sinom Hermanom, po kojem je, prema predaji, dobio ime. Monasi su se vratili 1998., a novi konak osvećen je 2006. godine."
- },
- {
-  "q": "Gdje je Kulen Vakuf i koliko ima od Bihaća?",
-  "a": "Kulen Vakuf je naselje na Uni južno od Bihaća, unutar Nacionalnog parka Una, otprilike 45 do 50 km od grada. Najveće je naselje u parku i nalazi se na putu prema Martin Brodu. Iz Bihaća se vozite oko 45 minuta do sat vremena."
- },
- {
-  "q": "Što vidjeti u Kulen Vakufu?",
-  "a": "U Kulen Vakufu vrijedi vidjeti džamiju iz osmanskog razdoblja u središtu naselja, staru čaršiju i mostove na Uni. Iznad naselja je stari grad Ostrovica s pogledom na dolinu Une, a preko rijeke ruševine utvrde Havala. Kulen Vakuf je i dobra stanica za ručak, uz pastrvu iz Une."
- },
- {
-  "q": "Što je stari grad Ostrovica?",
-  "a": "Ostrovica je srednjovjekovna utvrda na šumovitom grebenu iznad Kulen Vakufa, na lijevoj obali Une. Prvi put se spominje 1407., Osmanlije su je zauzele 1523., a napuštena je 1878. godine. Nacionalni je spomenik Bosne i Hercegovine i djelomično je obnovljena. S vrha se pruža pogled na Kulen Vakuf i dolinu Une."
- },
- {
-  "q": "Kako doći do Ostrovice?",
-  "a": "Do Ostrovice se dolazi iz Kulen Vakufa, a do same utvrde vodi uspon pješice. Uspon je kraći, ali strm, pa trebate obuću s dobrim potplatom i vodu ljeti. Ruševine su djelomično urušene, pa se na zidinama krećite oprezno. Za uspon i obilazak računajte otprilike sat do dva, uz odmor na vrhu."
- },
- {
-  "q": "Što je utvrda Havala?",
-  "a": "Havala je osmanska utvrda iz sredine 17. stoljeća na desnoj obali Une, nasuprot Ostrovici i Kulen Vakufu. Imala je zadaću nadzirati most na Uni i put prema Lici i Dalmaciji. Danas su od nje ostale ruševine, manje posjećene od Ostrovice."
- },
- {
-  "q": "Gdje je Klisa kod Bihaća?",
-  "a": "Klisa je malo selo na području Grada Bihaća, na putu između Orašca i Kulen Vakufa, u dolini Une. Prema popisu iz 2013. imalo je oko 180 stanovnika. Kroz Klisu prolazite ako se iz Orašca vozite prema Kulen Vakufu i Martin Brodu."
- },
- {
-  "q": "Ima li nešto za vidjeti u Klisi?",
-  "a": "Klisa je mirno selo bez velikih znamenitosti, ali je dio lijepog puta uz Unu između Orašca i Kulen Vakufa. Vožnja kroz ovaj dio doline nudi poglede na rijeku i okolna brda. Većina posjetitelja kroz Klisu prolazi na putu do Ostrovice i Martin Broda."
- },
- {
-  "q": "Kako u jednom danu obići Štrbački buk, Kulen Vakuf i Martin Brod?",
-  "a": "Krenite ujutro iz Bihaća do Štrbačkog buka preko Orašca, pa se nakon obilaska vratite na glavnu cestu i nastavite prema Kulen Vakufu. Ondje stanite kod Ostrovice i za ručak, a popodne obiđite Milančev buk i manastir Rmanj u Martin Brodu. Navečer se vraćate u Bihać za oko sat vremena."
- },
- {
-  "q": "Koliko ima od Štrbačkog buka do Martin Broda?",
-  "a": "Od Štrbačkog buka do Martin Broda ima otprilike 20 km, preko Orašca i Kulen Vakufa. Zbog makadamske pristupne ceste do slapa i uskog dijela puta prema Martin Brodu, vožnja traje oko 40 minuta. Oba mjesta lako se obilaze isti dan."
- },
- {
-  "q": "Koliko ima od Kulen Vakufa do Martin Broda?",
-  "a": "Od Kulen Vakufa do Martin Broda vozite se otprilike 15 minuta. Na izlasku iz Kulen Vakufa nakon kraja asfalta slijedi kratka makadamska dionica, a zatim ponovno asfalt. Cesta je prohodna za obične automobile. Put vodi uz Unu, pa usput možete stati i fotografirati rijeku."
- },
- {
-  "q": "Kakve su ceste do Martin Broda i Kulen Vakufa?",
-  "a": "Cesta od Bihaća preko Orašca do Kulen Vakufa je asfaltirana, ali je uska i vijugava, pa vožnja traje duže nego što udaljenost govori. Prema Martin Brodu postoji kraća makadamska dionica, a pristupna cesta do Štrbačkog buka dijelom je makadam. Ljeti računajte na poljoprivredna vozila i bicikliste na cesti."
- },
- {
-  "q": "Treba li prelaziti granicu na putu do Martin Broda?",
-  "a": "Ne, put od Bihaća preko Orašca i Kulen Vakufa do Martin Broda cijelo vrijeme ide kroz Bosnu i Hercegovinu. Navigacija ponekad predlaže rutu preko Hrvatske, ali tada prelazite granicu dva puta. Najjednostavnije je pratiti oznake za Kulen Vakuf i Nacionalni park Una."
- },
- {
-  "q": "Je li Martin Brod na UNESCO listi?",
-  "a": "Sedreni slapovi u Martin Brodu upisani su 2019. na preliminarnu listu svjetske baštine Bosne i Hercegovine. To znači da su kandidat, ali nisu na konačnoj listi UNESCO-a. Nacionalni park Una zalaže se za nominaciju zajedno sa Štrbačkim bukom. Upis na preliminarnu listu pomaže zaštiti, ali posjetiteljima ništa ne mijenja."
- },
- {
-  "q": "Može li se kupati u Martin Brodu?",
-  "a": "U Uni se u Nacionalnom parku smije kupati samo na označenim mjestima i nikada na manje od 50 metara od slapova, pa ni kod Milančeva buka. Kupanje u Uncu i ostalim rijekama parka nije dopušteno. Gdje se točno smije kupati, pitajte na ulazu broj 5."
- },
- {
-  "q": "Ima li izletište u Martin Brodu?",
-  "a": "Da, kod ulaza broj 5 nalazi se izletište Lučica s natkrivenim stolovima i klupama. Ondje su uređeni i podignuti roštilji, jedno od rijetkih mjesta u parku gdje se smije paliti vatra. Lučica je i mjesto otvaranja Una regate krajem srpnja."
- },
- {
-  "q": "Što je bučnica u Martin Brodu?",
-  "a": "Bučnica je stara drvena naprava na vodu u kojoj snaga Une pere i omekšava vunene pokrivače, pa je zovu prirodnom perilicom. Ona u Martin Brodu nalazi se oko 200 metara od slapa, a procjenjuje se da je starija od 300 godina. Uz nju se mogu vidjeti i stari mlinovi."
- },
- {
-  "q": "Odakle ime Martin Brod?",
-  "a": "Prema lokalnoj legendi, ime Martin Brod potječe od priče o dvoje mladih zaljubljenih čija je nesretna ljubav dala ime mjestu. Na tu predaju podsjeća pješačka staza Martina staza. Naselje ima dugu povijest, a u izvorima se spominje još u 14. i 15. stoljeću."
- },
- {
-  "q": "Ima li restorana u Martin Brodu i Kulen Vakufu?",
-  "a": "U Martin Brodu i Kulen Vakufu ima lokalnih restorana i gostionica, uglavnom s ribom iz Une, posebno pastrvom. Ponuda i radno vrijeme ovise o sezoni, a izvan ljeta dio objekata ne radi. Ponesite vodu i nešto za jelo, a ako želite sigurno večerati, vratite se u Bihać."
- },
- {
-  "q": "Koliko vremena treba za Martin Brod?",
-  "a": "Za šetnju uz Milančev buk, manastir Rmanj i obilazak sela dovoljno je dva do tri sata. Uz vožnju iz Bihaća i nazad računajte na pola dana ili više. U kombinaciji sa Štrbačkim bukom i Kulen Vakufom to je cjelodnevni izlet."
- },
- {
-  "q": "Je li Martin Brod pogodan za djecu?",
-  "a": "Da, Martin Brod je pogodan za obitelji jer ima šetnice uz slapove, izletište Lučica i mjesta za odmor. Uz vodu djecu držite blizu sebe jer su sedrene stijene i staze sklizave. Djeca mlađa od 7 godina u Nacionalni park Una ulaze besplatno."
- },
- {
-  "q": "Može li se rafting u Martin Brodu?",
-  "a": "Da, vožnja čamcem, kajakom i raftom dopuštena je na dionici Martin Brod – Kulen Vakuf, uz posebnu kartu parka i preko licenciranih organizatora. To je drukčija dionica od rafting dionice u Grmuši kod Bihaća. Rafting u Grmuši za naše goste organiziramo s Una Olympic Raftingom."
- },
- {
-  "q": "Smije li pas u Martin Brod?",
-  "a": "Psi u Nacionalni park Una smiju samo na povodcu, ali prema pravilima parka ne smiju na šetnice u Martin Brodu ni u sakralne objekte. Sa psom zato možete u selo i na izletište, ali ne i na staze uz slapove. Pravila provjerite na npuna.com prije posjeta."
- },
- {
-  "q": "Koja je najbolja ruta za jednodnevni izlet po Nacionalnom parku Una?",
-  "a": "Klasična ruta ide iz Bihaća do Štrbačkog buka preko Orašca, zatim kroz Klisu do Kulen Vakufa i Ostrovice, i na kraju u Martin Brod. Ukupno je to oko 120 km kružne vožnje uz nekoliko sati obilaska. Krenite rano da biste stigli sve bez žurbe i vratili se za dana."
- },
- {
-  "q": "Je li bolje Martin Brod ili Štrbački buk?",
-  "a": "Štrbački buk je jedan visok i snažan slap od oko 24 metra, a Martin Brod niz slapova i kaskada s pogledom na selo, mlinove i manastir. Štrbački buk je bliži i poznatiji, a Martin Brod mirniji i raznolikiji. Ako imate cijeli dan, obiđite oba."
- },
- {
-  "q": "Vrijedi li ići u Martin Brod zimi?",
-  "a": "Martin Brod zimi ima mirnu, maglovitu ljepotu i gotovo nema posjetitelja. Ceste su zimi zbog snijega i leda sporije, a dio restorana ne radi. Prije polaska provjerite stanje na cestama i obavijesti na npuna.com. Kao i na Štrbačkom buku, slapovi su zimi često obavijeni maglom i ledom uz rub."
- },
- {
-  "q": "Gdje odsjesti za izlet u Martin Brod i Kulen Vakuf?",
-  "a": "Najpraktičnije je odsjesti u Bihaću ili u Lohovu, na putu prema Orašcu i Kulen Vakufu. Na apartmanibihac.com cijeli apartman, i do 100 m², košta već od 25 €, odnosno 50 KM po noći, približno kao soba za jednu osobu u Bihaću. Upit možete poslati i na WhatsApp/Viber +387 61 591 320."
- },
- {
-  "q": "Što je bio Kulen Vakuf u povijesti?",
-  "a": "Kulen Vakuf je stoljećima bio važno raskrižje na Uni, a kroz njega je prolazila i rimska cesta između Dalmacije i Panonije. U osmansko doba razvio se oko džamije i velikog mosta, pa se zvao Džisr-i-kebir, odnosno Veliki most. Današnje ime dobio je u 19. stoljeću."
- },
- {
-  "q": "Ima li u Kulen Vakufu ribolova?",
-  "a": "Da, kod Kulen Vakufa postoji mušičarski revir na Uni dug oko 1,5 km, a riba se na takvim revirima vraća u vodu. Za ribolov u Nacionalnom parku Una potrebna je važeća dozvola. Vrste dozvola i pravila provjerite na npuna.com. Na ostalim dijelovima Une u parku pravila ograničavaju broj i veličinu ulova."
- },
- {
-  "q": "Što je Pogledalo kod Martin Broda?",
-  "a": "Pogledalo je vidikovac kod Martin Broda s pogledom na dolinu Une i okolicu. Do njega se dolazi pješice, pa ponesite udobnu obuću. Za točan put pitajte na info točki parka u Martin Brodu. Lokalni vodiči i domaćini u selu rado će vam pokazati put."
- },
- {
-  "q": "Može li se iz Martin Broda do Drvara?",
-  "a": "Da, iz Martin Broda cesta vodi dalje uz Unac prema Drvaru, a Unac dolazi upravo iz tog smjera. Dionica je manje prometna i mjestimično uska. Ako planirate kružni put, provjerite stanje ceste prije polaska. Iz Drvara se dalje može vratiti u Bihać preko Bosanskog Petrovca."
- },
- {
-  "q": "Što ponijeti na izlet u Martin Brod i Kulen Vakuf?",
-  "a": "Ponesite gotovinu u konvertibilnim markama za ulaznice, udobnu obuću za sklizave staze i uspon na Ostrovicu te vodu i nešto za jelo. Ljeti trebaju kapa i krema za sunčanje, a za posjet manastiru Rmanj prikladna odjeća koja pokriva ramena i koljena. Gorivo natočite u Bihaću jer na putu nema mnogo benzinskih postaja."
- },
- {
-  "q": "Ima li željeznica u Martin Brodu?",
-  "a": "Kroz Martin Brod prolazi stara Unska pruga, a u selu postoje stanica i poznati željeznički most. Most je zanimljiv za fotografiranje, osobito s obale Une. Redovni putnički promet na pruzi je ograničen, pa za putovanje do Martin Broda računajte na automobil."
- }
+{"q": "Koliko ima od Bihaća do Martin Broda?", "a": "Od Bihaća do Martin Broda ima oko 50 km, a vožnja traje oko sat vremena. Put vodi na jug preko Ripča, Orašca i Kulen Vakufa, a iza Kulen Vakufa postoji kraći makadamski dio. Martin Brod je dio Grada Bihaća i Nacionalnog parka Una."},
+{"q": "Kako doći iz Bihaća u Martin Brod?", "a": "Iz Bihaća vozite prema jugu, uz Unu preko Ripča i Lohova do Orašca, pa dalje do Kulen Vakufa. Od Kulen Vakufa do Martin Broda vozite se još otprilike 15 minuta, a na tom dijelu nakon kraja asfalta slijedi kratka makadamska dionica. Pratite smeđe oznake za Nacionalni park Una."},
+{"q": "Što vidjeti u Martin Brodu?", "a": "U Martin Brodu su slapovi Milančev buk, najveći kompleks slapova u Nacionalnom parku Una, i ušće Unca u Unu. Tu su i manastir Rmanj, stari mlinovi, bučnica stara više od 300 godina te staze Martina staza i Put pod gredu. Za obilazak slapova kupuje se ulaznica na ulazu broj 5."},
+{"q": "Što je Milančev buk?", "a": "Milančev buk je niz slapova i kaskada na Uni u Martin Brodu, dug oko 800 metara, s ukupnim padom od oko 54 metra. Prema Nacionalnom parku Una, to je najveći i najduži kompleks slapova u parku. Proteže se uz selo sve do ušća Unca."},
+{"q": "Koliko je visok Milančev buk?", "a": "Milančev buk nije jedan visok slap nego niz slapova i kaskada, s ukupnim padom od oko 54 metra na dužini od oko 800 metara. Zato se u nekim izvorima navodi kao slap od 50-ak metara. Najljepše izgleda u proljeće, pri visokom vodostaju."},
+{"q": "Plaća li se ulaz na Milančev buk?", "a": "Da, Milančev buk je u zoni Martin Brod Nacionalnog parka Una i za njega se kupuje ulaznica na ulazu broj 5. Karta obuhvaća slapove Milančev buk i Jalački buk, a postoji i kombinirana karta sa Štrbačkim bukom. Aktualne cijene provjerite na službenoj stranici npuna.com."},
+{"q": "Gdje se nalazi manastir Rmanj?", "a": "Manastir Rmanj nalazi se kod Martin Broda, na mjestu gdje se Unac ulijeva u Unu, i vidi se pri ulasku u selo. To je pravoslavni manastir i važno duhovno središte pograničnog područja Bosne, Like i Dalmacije. Pri posjetu poštujte pravila odijevanja i ponašanja u sakralnim objektima."},
+{"q": "Koliko je star manastir Rmanj?", "a": "Manastir Rmanj potječe iz srednjeg vijeka, a izvori ga uglavnom smještaju u 15. stoljeće. Narodna predaja povezuje njegovo osnivanje s Katarinom Branković i njezinim sinom Hermanom, po kojem je, prema predaji, dobio ime. Monasi su se vratili 1998., a novi konak osvećen je 2006. godine."},
+{"q": "Gdje je Kulen Vakuf i koliko ima od Bihaća?", "a": "Kulen Vakuf je naselje na Uni južno od Bihaća, unutar Nacionalnog parka Una, oko 45 km od grada. Najveće je naselje u parku i nalazi se na putu prema Martin Brodu. Iz Bihaća se vozite otprilike 45 minuta. Iznad mjesta je srednjovjekovna tvrđava Ostrovica."},
+{"q": "Što vidjeti u Kulen Vakufu?", "a": "U Kulen Vakufu vrijedi vidjeti džamiju iz osmanskog razdoblja u središtu naselja, staru čaršiju i mostove na Uni. Iznad naselja je stari grad Ostrovica s pogledom na dolinu Une, a preko rijeke ruševine utvrde Havala. Kulen Vakuf je i dobra stanica za ručak, uz pastrvu iz Une."},
+{"q": "Što je stari grad Ostrovica?", "a": "Ostrovica je srednjovjekovna utvrda na šumovitom grebenu iznad Kulen Vakufa, na lijevoj obali Une. Prvi put se spominje 1407., Osmanlije su je zauzele 1523., a napuštena je 1878. godine. Nacionalni je spomenik Bosne i Hercegovine i djelomično je obnovljena. S vrha se pruža pogled na Kulen Vakuf i dolinu Une."},
+{"q": "Kako doći do Ostrovice?", "a": "Do Ostrovice se dolazi iz Kulen Vakufa, a do same utvrde vodi uspon pješice. Uspon je kraći, ali strm, pa trebate obuću s dobrim potplatom i vodu ljeti. Ruševine su djelomično urušene, pa se na zidinama krećite oprezno. Za uspon i obilazak računajte otprilike sat do dva, uz odmor na vrhu."},
+{"q": "Što je utvrda Havala?", "a": "Havala je osmanska utvrda iz sredine 17. stoljeća na desnoj obali Une, nasuprot Ostrovici i Kulen Vakufu. Imala je zadaću nadzirati most na Uni i put prema Lici i Dalmaciji. Danas su od nje ostale ruševine, manje posjećene od Ostrovice."},
+{"q": "Gdje je Klisa kod Bihaća?", "a": "Klisa je malo selo na području Grada Bihaća, na putu između Orašca i Kulen Vakufa, u dolini Une. Prema popisu iz 2013. imalo je oko 180 stanovnika. Kroz Klisu prolazite ako se iz Orašca vozite prema Kulen Vakufu i Martin Brodu."},
+{"q": "Ima li nešto za vidjeti u Klisi?", "a": "Klisa je mirno selo bez velikih znamenitosti, ali je dio lijepog puta uz Unu između Orašca i Kulen Vakufa. Vožnja kroz ovaj dio doline nudi poglede na rijeku i okolna brda. Većina posjetitelja kroz Klisu prolazi na putu do Ostrovice i Martin Broda."},
+{"q": "Kako u jednom danu obići Štrbački buk, Kulen Vakuf i Martin Brod?", "a": "Krenite ujutro iz Bihaća do Štrbačkog buka preko Orašca, pa se nakon obilaska vratite na glavnu cestu i nastavite prema Kulen Vakufu. Ondje stanite kod Ostrovice i za ručak, a popodne obiđite Milančev buk i manastir Rmanj u Martin Brodu. Navečer se vraćate u Bihać za oko sat vremena."},
+{"q": "Koliko ima od Štrbačkog buka do Martin Broda?", "a": "Od Štrbačkog buka do Martin Broda vraćate se do Orašca i nastavljate preko Kulen Vakufa. Zbog makadamske pristupne ceste do slapa i uskog dijela puta prema Martin Brodu, vožnja traje oko 45 minuta. Oba mjesta lako se obilaze isti dan, a usput možete stati kod Ostrovice u Kulen Vakufu."},
+{"q": "Koliko ima od Kulen Vakufa do Martin Broda?", "a": "Od Kulen Vakufa do Martin Broda vozite se otprilike 15 minuta. Na izlasku iz Kulen Vakufa nakon kraja asfalta slijedi kratka makadamska dionica, a zatim ponovno asfalt. Cesta je prohodna za obične automobile. Put vodi uz Unu, pa usput možete stati i fotografirati rijeku."},
+{"q": "Kakve su ceste do Martin Broda i Kulen Vakufa?", "a": "Cesta od Bihaća preko Orašca do Kulen Vakufa je asfaltirana, ali je uska i vijugava, pa vožnja traje duže nego što udaljenost govori. Prema Martin Brodu postoji kraća makadamska dionica, a pristupna cesta do Štrbačkog buka dijelom je makadam. Ljeti računajte na poljoprivredna vozila i bicikliste na cesti."},
+{"q": "Treba li prelaziti granicu na putu do Martin Broda?", "a": "Ne, put od Bihaća preko Orašca i Kulen Vakufa do Martin Broda cijelo vrijeme ide kroz Bosnu i Hercegovinu. Navigacija ponekad predlaže rutu preko Hrvatske, ali tada prelazite granicu dva puta. Najjednostavnije je pratiti oznake za Kulen Vakuf i Nacionalni park Una."},
+{"q": "Je li Martin Brod na UNESCO listi?", "a": "Sedreni slapovi u Martin Brodu upisani su 2019. na preliminarnu listu svjetske baštine Bosne i Hercegovine. To znači da su kandidat, ali nisu na konačnoj listi UNESCO-a. Nacionalni park Una zalaže se za nominaciju zajedno sa Štrbačkim bukom. Upis na preliminarnu listu pomaže zaštiti, ali posjetiteljima ništa ne mijenja."},
+{"q": "Može li se kupati u Martin Brodu?", "a": "U Uni se u Nacionalnom parku smije kupati samo na označenim mjestima i nikada na manje od 50 metara od slapova, pa ni kod Milančeva buka. Kupanje u Uncu i ostalim rijekama parka nije dopušteno. Gdje se točno smije kupati, pitajte na ulazu broj 5."},
+{"q": "Ima li izletište u Martin Brodu?", "a": "Da, kod ulaza broj 5 nalazi se izletište Lučica s natkrivenim stolovima i klupama. Ondje su uređeni i podignuti roštilji, jedno od rijetkih mjesta u parku gdje se smije paliti vatra. Lučica je i mjesto otvaranja Una regate krajem srpnja."},
+{"q": "Što je bučnica u Martin Brodu?", "a": "Bučnica je stara drvena naprava na vodu u kojoj snaga Une pere i omekšava vunene pokrivače, pa je zovu prirodnom perilicom. Ona u Martin Brodu nalazi se oko 200 metara od slapa, a procjenjuje se da je starija od 300 godina. Uz nju se mogu vidjeti i stari mlinovi."},
+{"q": "Odakle ime Martin Brod?", "a": "Prema lokalnoj legendi, ime Martin Brod potječe od priče o dvoje mladih zaljubljenih čija je nesretna ljubav dala ime mjestu. Na tu predaju podsjeća pješačka staza Martina staza. Naselje ima dugu povijest, a u izvorima se spominje još u 14. i 15. stoljeću."},
+{"q": "Ima li restorana u Martin Brodu i Kulen Vakufu?", "a": "U Martin Brodu i Kulen Vakufu ima lokalnih restorana i gostionica, uglavnom s ribom iz Une, posebno pastrvom. Ponuda i radno vrijeme ovise o sezoni, a izvan ljeta dio objekata ne radi. Ponesite vodu i nešto za jelo, a ako želite sigurno večerati, vratite se u Bihać."},
+{"q": "Koliko vremena treba za Martin Brod?", "a": "Za šetnju uz Milančev buk, manastir Rmanj i obilazak sela dovoljno je dva do tri sata. Uz vožnju iz Bihaća i nazad računajte na pola dana ili više. U kombinaciji sa Štrbačkim bukom i Kulen Vakufom to je cjelodnevni izlet."},
+{"q": "Je li Martin Brod pogodan za djecu?", "a": "Da, Martin Brod je pogodan za obitelji jer ima šetnice uz slapove, izletište Lučica i mjesta za odmor. Uz vodu djecu držite blizu sebe jer su sedrene stijene i staze sklizave. Djeca mlađa od 7 godina u Nacionalni park Una ulaze besplatno."},
+{"q": "Može li se rafting u Martin Brodu?", "a": "Da, vožnja čamcem, kajakom i raftom dopuštena je na dionici Martin Brod – Kulen Vakuf, uz posebnu kartu parka i preko licenciranih organizatora. To je drukčija dionica od rafting dionice u Grmuši kod Bihaća. Rafting u Grmuši za naše goste organiziramo s Una Olympic Raftingom."},
+{"q": "Smije li pas u Martin Brod?", "a": "Psi u Nacionalni park Una smiju samo na povodcu, ali prema pravilima parka ne smiju na šetnice u Martin Brodu ni u sakralne objekte. Sa psom zato možete u selo i na izletište, ali ne i na staze uz slapove. Pravila provjerite na npuna.com prije posjeta."},
+{"q": "Koja je najbolja ruta za jednodnevni izlet po Nacionalnom parku Una?", "a": "Klasična ruta ide iz Bihaća do Štrbačkog buka preko Orašca, zatim kroz Klisu do Kulen Vakufa i Ostrovice, i na kraju u Martin Brod. Ukupno je to oko 120 km kružne vožnje uz nekoliko sati obilaska. Krenite rano da biste stigli sve bez žurbe i vratili se za dana."},
+{"q": "Je li bolje Martin Brod ili Štrbački buk?", "a": "Štrbački buk je jedan visok i snažan slap od 24,5 metra, a Martin Brod niz slapova i kaskada s pogledom na selo, mlinove i manastir. Štrbački buk je bliži i poznatiji, a Martin Brod mirniji i raznolikiji. Ako imate cijeli dan, obiđite oba."},
+{"q": "Vrijedi li ići u Martin Brod zimi?", "a": "Martin Brod zimi ima mirnu, maglovitu ljepotu i gotovo nema posjetitelja. Ceste su zimi zbog snijega i leda sporije, a dio restorana ne radi. Prije polaska provjerite stanje na cestama i obavijesti na npuna.com. Kao i na Štrbačkom buku, slapovi su zimi često obavijeni maglom i ledom uz rub."},
+{"q": "Gdje odsjesti za izlet u Martin Brod i Kulen Vakuf?", "a": "Najpraktičnije je odsjesti u Bihaću ili u Lohovu, na putu prema Orašcu i Kulen Vakufu. Na apartmanibihac.com cijeli apartman, i do 100 m², košta već od 25 €, odnosno 50 KM po noći, približno kao soba za jednu osobu u Bihaću. Upit možete poslati i na WhatsApp/Viber +387 61 591 320."},
+{"q": "Što je bio Kulen Vakuf u povijesti?", "a": "Kulen Vakuf je stoljećima bio važno raskrižje na Uni, a kroz njega je prolazila i rimska cesta između Dalmacije i Panonije. U osmansko doba razvio se oko džamije i velikog mosta, pa se zvao Džisr-i-kebir, odnosno Veliki most. Današnje ime dobio je u 19. stoljeću."},
+{"q": "Ima li u Kulen Vakufu ribolova?", "a": "Da, kod Kulen Vakufa postoji mušičarski revir na Uni dug oko 1,5 km, a riba se na takvim revirima vraća u vodu. Za ribolov u Nacionalnom parku Una potrebna je važeća dozvola. Vrste dozvola i pravila provjerite na npuna.com. Na ostalim dijelovima Une u parku pravila ograničavaju broj i veličinu ulova."},
+{"q": "Što je Pogledalo kod Martin Broda?", "a": "Pogledalo je vidikovac kod Martin Broda s pogledom na dolinu Une i okolicu. Do njega se dolazi pješice, pa ponesite udobnu obuću. Za točan put pitajte na info točki parka u Martin Brodu. Lokalni vodiči i domaćini u selu rado će vam pokazati put."},
+{"q": "Može li se iz Martin Broda do Drvara?", "a": "Da, iz Martin Broda cesta vodi dalje uz Unac prema Drvaru, a Unac dolazi upravo iz tog smjera. Dionica je manje prometna i mjestimično uska. Ako planirate kružni put, provjerite stanje ceste prije polaska. Iz Drvara se dalje može vratiti u Bihać preko Bosanskog Petrovca."},
+{"q": "Što ponijeti na izlet u Martin Brod i Kulen Vakuf?", "a": "Ponesite gotovinu u konvertibilnim markama za ulaznice, udobnu obuću za sklizave staze i uspon na Ostrovicu te vodu i nešto za jelo. Ljeti trebaju kapa i krema za sunčanje, a za posjet manastiru Rmanj prikladna odjeća koja pokriva ramena i koljena. Gorivo natočite u Bihaću jer na putu nema mnogo benzinskih postaja."},
+{"q": "Ima li željeznica u Martin Brodu?", "a": "Kroz Martin Brod prolazi stara Unska pruga, a u selu postoje stanica i poznati željeznički most. Most je zanimljiv za fotografiranje, osobito s obale Une. Redovni putnički promet na pruzi je ograničen, pa za putovanje do Martin Broda računajte na automobil."}
 ]

@@ -1,162 +1,42 @@
 [
- {
-  "q": "Gdje se kupati u Bihaću?",
-  "a": "U samom Bihaću najpoznatija gradska kupališta na Uni su Beton, Amerikančevo i Plandište, koje mještani zovu i Vatrogasno, sva na pješačkoj udaljenosti od centra. Malo dalje od centra su Hatinac i Brvice. Una je hladna i na nekim mjestima brza, pa u vodu ulazite postupno."
- },
- {
-  "q": "Koje je glavno gradsko kupalište u Bihaću?",
-  "a": "Najpoznatije gradsko kupalište u Bihaću je Beton, uz Unu u samom centru, do kojeg se dolazi pješice. U blizini su i kupališta Amerikančevo i Plandište. Plandište je uređeno 2024. godine i nalazi se nekoliko minuta hoda od centra, uz kafiće."
- },
- {
-  "q": "Što je kupalište Plandište u Bihaću?",
-  "a": "Plandište, poznato i kao Vatrogasno, gradsko je kupalište na Uni nekoliko minuta hoda od centra Bihaća. Grad ga je uredio u prvoj fazi radova završenoj 2024. godine. Popularno je kod obitelji s djecom i grupa jer je blizu kafića i centra."
- },
- {
-  "q": "Gdje je kupalište Hatinac?",
-  "a": "Hatinac je kupalište na Uni otprilike 2 km od centra Bihaća, do kojeg se može pješice, biciklom ili autom. Poznato je po širokoj obali i skokovima u vodu. Prije skakanja uvijek provjerite dubinu jer se vodostaj mijenja. U blizini se nalazi kulturni centar KRAK."
- },
- {
-  "q": "Gdje je kupalište Brvice u Bihaću?",
-  "a": "Brvice su kupalište na Uni otprilike 3 km od centra Bihaća, do kojeg se dolazi autom ili biciklom. Omiljeno je mještanima i turistima, osobito za grupne izlete i druženja uz rijeku. Ljeti vikendom zna biti dosta posjećeno. Ako želite mir, dođite radnim danom ili ranije ujutro."
- },
- {
-  "q": "Gdje se kupati s malom djecom kod Bihaća?",
-  "a": "S malom djecom dobri su Japodski otoci kod Ripča, gdje je voda mirnija i plića, te Amerikančevo u gradu, koje ima hlada. Plandište je također popularno među obiteljima. Djecu u vodi uvijek nadzirite jer Una nema stalnih spasilaca. Japodski otoci udaljeni su otprilike 10 minuta vožnje od centra, a Amerikančevo je u samom gradu."
- },
- {
-  "q": "Što su Japodski otoci?",
-  "a": "Japodski otoci su skupina otočića na Uni kod Ripča, otprilike 10 minuta vožnje od centra Bihaća, povezanih drvenim mostićima. Voda je ondje mirna i plitka, pa je mjesto pogodno za obitelji s malom djecom. Do obale se dolazi autom i kratkom šetnjom."
- },
- {
-  "q": "Što su Bihaćki Maldivi?",
-  "a": "Bihaćkim Maldivima mještani zovu kupališta kod slapova Dvoslap i Troslap u Račiću, otprilike 10 km od centra Bihaća. Poznata su po tirkiznoj vodi i manjim slapovima. Područje je dio Nacionalnog parka Una, gdje se kupa samo na označenim mjestima, a ne u blizini samih slapova."
- },
- {
-  "q": "Može li se kupati kod Štrbačkog buka?",
-  "a": "Ne, prema pravilima NP Una kupanje je zabranjeno 50 m uzvodno i nizvodno od slapova, a zabranjeno je i hodanje po sedrenim barijerama. U parku se smije kupati samo na posebno označenim mjestima i dok su ulazi otvoreni. Štrbački buk razgledava se sa staza i vidikovaca."
- },
- {
-  "q": "Kolika je temperatura Une ljeti?",
-  "a": "Una je hladna planinska rijeka, a ljeti je temperatura vode obično otprilike od 16 do 22 °C, ovisno o mjestu i vremenu. Na dijelovima bliže izvorima i u nacionalnom parku voda je hladnija. Na mirnijim i plićim mjestima u gradu voda se u srpnju i kolovozu najviše zagrije."
- },
- {
-  "q": "Kolika je temperatura Une po mjesecima?",
-  "a": "Okvirno, Una je u svibnju i rujnu oko 13 do 16 °C, a u lipnju, srpnju i kolovozu otprilike od 16 do 22 °C, ovisno o mjestu. Temperatura ovisi o vremenu, vodostaju i udaljenosti od izvora. Zato ljeti mnogi preferiraju kraće kupanje i postupni ulazak u vodu."
- },
- {
-  "q": "Kada počinje sezona kupanja na Uni?",
-  "a": "Sezona kupanja na Uni obično počinje u lipnju, kad se zrak dovoljno zagrije, a traje do kraja kolovoza ili početka rujna. Najtoplija voda je u srpnju i kolovozu. U svibnju i rujnu kupaju se uglavnom oni koji ne smetaju hladna voda."
- },
- {
-  "q": "Je li kupanje u Uni sigurno?",
-  "a": "Kupanje u Uni sigurno je ako se poštuju osnovna pravila, ali rijeka je hladna, na mjestima brza i duboka, a nema stalnih spasilaca. Svake godine stručnjaci upozoravaju na oprez jer je bilo utapanja, najčešće zbog panike i precjenjivanja vlastitih sposobnosti. Ne kupajte se sami i ne skačite bez provjere dubine."
- },
- {
-  "q": "Je li voda u Uni čista?",
-  "a": "Da, službene analize iz 2025. potvrdile su da je Una na području Bihaća čista i sigurna za kupanje. Rijeka je poznata po vrlo bistroj, zelenoj vodi, ali je ne pijte izravno iz rijeke. Bistra voda i vidljivo dno mogu zavarati, pa je rijeka ponegdje dublja nego što izgleda. Zato pri ulasku i skakanju uvijek prvo provjerite dubinu."
- },
- {
-  "q": "Ima li spasilaca na kupalištima u Bihaću?",
-  "a": "Una u Bihaću uglavnom nema stalnih spasilaca, pa se za sigurnost svatko brine sam. Djecu i neplivače uvijek nadzirite, a prsluk za djecu je dobra ideja. Izbjegavajte kupanje nakon obilnog jela, alkohola ili naglog ulaska u hladnu vodu. Ne kupajte se sami i ne plivajte prema brzacima."
- },
- {
-  "q": "Kako se sigurno kupati u hladnoj Uni?",
-  "a": "U vodu ulazite postupno kako bi se tijelo naviknulo na hladnoću, a ne skačite odmah nakon sunčanja. Prije skoka provjerite dubinu i ne plivajte prema brzacima ni ispod slapova. Plivajte uz obalu i ne kupajte se sami, osobito ako niste sigurni plivač."
- },
- {
-  "q": "Ima li bazen u Bihaću?",
-  "a": "U Bihaću i okolici bazene uglavnom imaju pojedini hoteli i privatni smještajni objekti, a ljeti se većina ljudi kupa u Uni. Otvorenost i uvjete korištenja bazena za posjetitelje provjerite izravno kod objekta. Rijeka je zbog čiste vode i uređenih kupališta glavno mjesto za kupanje."
- },
- {
-  "q": "Mogu li se kupati u Uni kod vaših kuća?",
-  "a": "Naše kuće i vikendice u Lohovu, Pritoci i Grmuši nalaze se uz Unu, a mnoge imaju pristup rijeci ili su na kratkoj šetnji do vode. Točan pristup i dubina razlikuju se od objekta do objekta, pa pitajte prije rezervacije. Upit možete poslati na apartmanibihac.com ili na WhatsApp/Viber +387 61 591 320."
- },
- {
-  "q": "Može li se kupati u Lohovu?",
-  "a": "Da, u Lohovu, mirnom naselju uz Unu oko 10 km južno od Bihaća, ljeti se kupa u rijeci. Ondje rijeka ima mirnijih dijelova, a do Nacionalnog parka Una je blizu. U Lohovu imamo kuće uz Unu, a cijene su od 25 do 100 € po noći za cijeli objekt."
- },
- {
-  "q": "Može li se kupati u Pritoci?",
-  "a": "Da, Pritoka je naselje uz Unu na rubu Bihaća, nekoliko minuta od centra, i ljeti se ondje kupa u rijeci. Prednost je što ste blizu grada, a ipak u mirnijem okruženju uz vodu. U Pritoci imamo kuće uz Unu za obitelji i grupe."
- },
- {
-  "q": "Može li se kupati u Grmuši?",
-  "a": "Da, u Grmuši, oko 20 km sjeveroistočno od Bihaća, Una je široka i ljeti pogodna za kupanje. Grmuša je i jedno od glavnih mjesta za rafting, pa je ljeti živahnija. U blizini su i kupališta Kostela i Salihovac u kanjonu Une."
- },
- {
-  "q": "Što je kupalište Kostela?",
-  "a": "Kostela je kupalište u kanjonu Une, na putu od Bihaća prema Bosanskoj Krupi, mirnije i manje posjećeno od gradskih. Turistička zajednica Grada Bihaća 2026. započela je uređenje Kostele, s planiranim dječjim igralištem, drvenim pristaništem i svlačionicama. Kostela je i polazište mirne rafting dionice prema Grmuši."
- },
- {
-  "q": "Gdje se kupati izvan gužve kod Bihaća?",
-  "a": "Mirnija mjesta su u kanjonu Une prema Bosanskoj Krupi, primjerice Kostela i Salihovac, te uz rijeku u Lohovu. Ljeti radnim danom i rano ujutro manje je ljudi i na gradskim kupalištima. Ako želite potpuni mir, praktične su kuće uz Unu s pristupom rijeci."
- },
- {
-  "q": "Što je vrelo Krušnice?",
-  "a": "Vrelo Krušnice je izvor rijeke Krušnice u općini Bosanska Krupa, između sela Gudavac i Vranjska. Krušnica je kratka rijeka, duga oko 6,5 km, koja se ulijeva u Unu kod Bosanske Krupe. Vrelo je popularno izletište zbog bistre vode, sjene i mjesta za odmor."
- },
- {
-  "q": "Može li se kupati na vrelu Krušnice?",
-  "a": "Na Krušnici se ljeti kupa, ali voda je kod samog izvora vrlo hladna, pa je kupanje kratko i osvježavajuće. Uz rijeku su uređena mjesta za odmor i izletnici često dolaze na cijeli dan. Do Bosanske Krupe iz Bihaća ima oko 35 km, odnosno otprilike 40 minuta vožnje."
- },
- {
-  "q": "Koliko je od Bihaća do Bosanske Krupe?",
-  "a": "Od Bihaća do Bosanske Krupe ima otprilike 35 km, a vožnja traje oko 40 minuta cestom uz Unu, preko Grmuše. Usput su kupališta Kostela i Salihovac. U Bosanskoj Krupi vrijedi posjetiti vrelo Krušnice i otočiće na Uni u samom gradu."
- },
- {
-  "q": "Što ponijeti na kupanje na Unu?",
-  "a": "Ponesite ručnik ili prostirku, kremu za sunčanje, kapu, vodu i obuću za vodu jer je dno često kamenito. Na mnogim kupalištima nema puno usluga, pa je dobro ponijeti i hranu. Za djecu je koristan prsluk za plivanje. Korisna je i vrećica za smeće jer kanti na nekim mjestima nema."
- },
- {
-  "q": "Treba li obuća za vodu za kupanje u Uni?",
-  "a": "Preporučuje se, jer je dno Une na većini kupališta kamenito i mjestimično sklisko zbog mahovine. Obuća za vodu štiti stopala i daje bolji oslonac pri ulasku u rijeku. Posebno je korisna za djecu i na mjestima sa slapovima. Možete koristiti i stare tenisice ili sandale s kopčom."
- },
- {
-  "q": "Može li se skakati u Unu?",
-  "a": "Skakanje u Unu je popularno na nekim mjestima, poput Hatinca, ali dubina se mijenja s vodostajem. Prije svakog skoka provjerite dubinu i da ispod nema stijena ili drugih kupača. Nikad ne skačite na nepoznatim mjestima ili blizu slapova. Kod skakanja u Unu uvijek neka netko ostane na obali."
- },
- {
-  "q": "Je li Una dobra za plivanje neplivača?",
-  "a": "Neplivači se u Uni trebaju kupati samo u plićaku, uz pratnju i po mogućnosti s prslukom. Struja i dubina mogu se naglo promijeniti već nekoliko metara od obale. Za djecu neplivače mirnija i plića mjesta su Japodski otoci kod Ripča."
- },
- {
-  "q": "Je li ulaz na gradska kupališta u Bihaću besplatan?",
-  "a": "Gradska kupališta na Uni u Bihaću, poput Betona, Amerikančeva i Plandišta, obično su javna i bez ulaznice. Na kupalištima unutar Nacionalnog parka Una, primjerice kod Račića, može se plaćati ulaznica za park. Aktualne cijene za park provjerite na službenoj stranici NP Una."
- },
- {
-  "q": "Kada je najbolje vrijeme dana za kupanje u Uni?",
-  "a": "Najbolje je kupati se poslijepodne, između otprilike 13 i 17 sati, kad je zrak najtopliji i voda na plitkim mjestima najugodnija. Ujutro je manje gužve, ali voda je hladnija. Za mirno kupanje ljeti izbjegavajte vikend poslijepodne na gradskim kupalištima. U kućama uz Unu možete se kupati kad god želite, bez gužve."
- },
- {
-  "q": "Ima li kafića i hrane uz kupališta u Bihaću?",
-  "a": "Uz gradska kupališta u centru, osobito Plandište, ima kafića i restorana na pješačkoj udaljenosti. Na udaljenijim kupalištima, poput Kostele ili Brvica, usluga je manje, pa je dobro ponijeti vodu i hranu. Uz Unu ima i restorana koji nude ribu. Uz Unu se mogu probati i jela od pastrve."
- },
- {
-  "q": "Može li se kupati u Uni sa psom?",
-  "a": "Na gradskim kupalištima psi nisu uvijek dobrodošli, pa je bolje izabrati mirnija mjesta uz rijeku izvan gužve. U Nacionalnom parku Una vrijede posebna pravila za kućne ljubimce. Ako putujete sa psom, pitajte nas koji naši objekti primaju ljubimce. Psa u vodi držite na oku jer struja može biti jaka."
- },
- {
-  "q": "Može li se kupati u rujnu u Bihaću?",
-  "a": "Početkom rujna mnogi se još kupaju u Uni, osobito u toplim danima, ali voda postaje hladnija i obično pada ispod 18 °C. Krajem rujna kupanje je uglavnom za one koji vole hladnu vodu. Rujan je zato dobar za šetnje uz rijeku i izlete, uz kraće kupanje."
- },
- {
-  "q": "Je li bolje kupanje u Uni ili na moru?",
-  "a": "Una nudi drugačije iskustvo od mora: vodu koja je slatka, bistra i hladnija, okružena zelenilom, bez soli i bez velike gužve. Za vruće ljetne dane osvježenje je jače nego na moru. Mnogi gosti kombiniraju odmor na Uni s izletom na Plitvička jezera."
- },
- {
-  "q": "Ima li u Bihaću kupalište s ležaljkama?",
-  "a": "Na nekim uređenim mjestima uz Unu i u pojedinim hotelima i restoranima uz rijeku moguće je koristiti ležaljke, ali ponuda se mijenja iz sezone u sezonu. Na gradskim kupalištima ljudi se obično sunčaju na vlastitim ručnicima na travi ili betonu. Uvjete provjerite na licu mjesta."
- },
- {
-  "q": "Koja je najbolja kuća uz Unu za kupanje?",
-  "a": "Za kupanje su najpraktičnije naše kuće uz Unu u Lohovu, Pritoci i Grmuši, a pristup rijeci razlikuje se od objekta do objekta. Kad šaljete upit, napišite da vam je važan izravan pristup vodi pa ćemo preporučiti odgovarajući objekt. Odgovor dobijete u roku od 12 sati."
- },
- {
-  "q": "Može li se kupati u Uni u gradu Bihaću noću?",
-  "a": "Kupanje noću ne preporučuje se jer se ne vidi dno, dubina ni brzina vode, a nema spasilaca. Mnoga utapanja događaju se upravo kad se precijene sposobnosti ili kad se kupa nakon alkohola. Na Unu je najsigurnije ići danju i u društvu."
- },
- {
-  "q": "Gdje odsjesti u Bihaću blizu kupališta?",
-  "a": "Ako želite pješice do gradskih kupališta Beton, Amerikančevo i Plandište, birajte naše apartmane u centru Bihaća. Ako želite rijeku pred vratima, birajte kuće uz Unu u Lohovu, Pritoci ili Grmuši. Cijeli apartman stoji već od 25 €, odnosno 50 KM po noći, a upit pošaljite na apartmanibihac.com."
- }
+{"q": "Gdje se kupati u Bihaću?", "a": "U samom Bihaću najpoznatija gradska kupališta na Uni su Beton, Amerikančevo i Plandište, koje mještani zovu i Vatrogasno, sva na pješačkoj udaljenosti od centra. Malo dalje od centra su Hatinac i Brvice. Una je hladna i na nekim mjestima brza, pa u vodu ulazite postupno."},
+{"q": "Koje je glavno gradsko kupalište u Bihaću?", "a": "Najpoznatije gradsko kupalište u Bihaću je Beton, uz Unu u samom centru, do kojeg se dolazi pješice. U blizini su i kupališta Amerikančevo i Plandište. Plandište je uređeno 2024. godine i nalazi se nekoliko minuta hoda od centra, uz kafiće."},
+{"q": "Što je kupalište Plandište u Bihaću?", "a": "Plandište, poznato i kao Vatrogasno, gradsko je kupalište na Uni nekoliko minuta hoda od centra Bihaća. Grad ga je uredio u prvoj fazi radova završenoj 2024. godine. Popularno je kod obitelji s djecom i grupa jer je blizu kafića i centra."},
+{"q": "Gdje je kupalište Hatinac?", "a": "Hatinac je kupalište na Uni otprilike 2 km od centra Bihaća, do kojeg se može pješice, biciklom ili autom. Poznato je po širokoj obali i skokovima u vodu. Prije skakanja uvijek provjerite dubinu jer se vodostaj mijenja. U blizini se nalazi kulturni centar KRAK."},
+{"q": "Gdje je kupalište Brvice u Bihaću?", "a": "Brvice su kupalište na Uni otprilike 3 km od centra Bihaća, do kojeg se dolazi autom ili biciklom. Omiljeno je mještanima i turistima, osobito za grupne izlete i druženja uz rijeku. Ljeti vikendom zna biti dosta posjećeno. Ako želite mir, dođite radnim danom ili ranije ujutro."},
+{"q": "Gdje se kupati s malom djecom kod Bihaća?", "a": "S malom djecom dobri su Japodski otoci kod Ripča, gdje je voda mirnija i plića, te Amerikančevo u gradu, koje ima hlada. Plandište je također popularno među obiteljima. Djecu u vodi uvijek nadzirite jer Una nema stalnih spasilaca. Japodski otoci udaljeni su otprilike 10 minuta vožnje od centra, a Amerikančevo je u samom gradu."},
+{"q": "Što su Japodski otoci?", "a": "Japodski otoci su skupina otočića na Uni kod Ripča, otprilike 10 minuta vožnje od centra Bihaća, povezanih drvenim mostićima. Voda je ondje mirna i plitka, pa je mjesto pogodno za obitelji s malom djecom. Do obale se dolazi autom i kratkom šetnjom."},
+{"q": "Što su Bihaćki Maldivi?", "a": "Bihaćkim Maldivima mještani zovu kupališta kod slapova Dvoslap i Troslap u Račiću, otprilike 10 km od centra Bihaća. Poznata su po tirkiznoj vodi i manjim slapovima. Područje je dio Nacionalnog parka Una, gdje se kupa samo na označenim mjestima, a ne u blizini samih slapova."},
+{"q": "Može li se kupati kod Štrbačkog buka?", "a": "Ne, prema pravilima NP Una kupanje je zabranjeno 50 m uzvodno i nizvodno od slapova, a zabranjeno je i hodanje po sedrenim barijerama. U parku se smije kupati samo na posebno označenim mjestima i dok su ulazi otvoreni. Štrbački buk razgledava se sa staza i vidikovaca."},
+{"q": "Kolika je temperatura Une ljeti?", "a": "Una je hladna planinska rijeka, a ljeti je temperatura vode obično otprilike od 16 do 22 °C, ovisno o mjestu i vremenu. Na dijelovima bliže izvorima i u nacionalnom parku voda je hladnija. Na mirnijim i plićim mjestima u gradu voda se u srpnju i kolovozu najviše zagrije."},
+{"q": "Kolika je temperatura Une po mjesecima?", "a": "Okvirno, Una je u svibnju i rujnu oko 13 do 16 °C, a u lipnju, srpnju i kolovozu otprilike od 16 do 22 °C, ovisno o mjestu. Temperatura ovisi o vremenu, vodostaju i udaljenosti od izvora. Zato ljeti mnogi preferiraju kraće kupanje i postupni ulazak u vodu."},
+{"q": "Kada počinje sezona kupanja na Uni?", "a": "Sezona kupanja na Uni obično počinje u lipnju, kad se zrak dovoljno zagrije, a traje do kraja kolovoza ili početka rujna. Najtoplija voda je u srpnju i kolovozu. U svibnju i rujnu kupaju se uglavnom oni koji ne smetaju hladna voda."},
+{"q": "Je li kupanje u Uni sigurno?", "a": "Kupanje u Uni sigurno je ako se poštuju osnovna pravila, ali rijeka je hladna, na mjestima brza i duboka, a nema stalnih spasilaca. Svake godine stručnjaci upozoravaju na oprez jer je bilo utapanja, najčešće zbog panike i precjenjivanja vlastitih sposobnosti. Ne kupajte se sami i ne skačite bez provjere dubine."},
+{"q": "Je li voda u Uni čista?", "a": "Da, službene analize iz 2025. potvrdile su da je Una na području Bihaća čista i sigurna za kupanje. Rijeka je poznata po vrlo bistroj, zelenoj vodi, ali je ne pijte izravno iz rijeke. Bistra voda i vidljivo dno mogu zavarati, pa je rijeka ponegdje dublja nego što izgleda. Zato pri ulasku i skakanju uvijek prvo provjerite dubinu."},
+{"q": "Ima li spasilaca na kupalištima u Bihaću?", "a": "Una u Bihaću uglavnom nema stalnih spasilaca, pa se za sigurnost svatko brine sam. Djecu i neplivače uvijek nadzirite, a prsluk za djecu je dobra ideja. Izbjegavajte kupanje nakon obilnog jela, alkohola ili naglog ulaska u hladnu vodu. Ne kupajte se sami i ne plivajte prema brzacima."},
+{"q": "Kako se sigurno kupati u hladnoj Uni?", "a": "U vodu ulazite postupno kako bi se tijelo naviknulo na hladnoću, a ne skačite odmah nakon sunčanja. Prije skoka provjerite dubinu i ne plivajte prema brzacima ni ispod slapova. Plivajte uz obalu i ne kupajte se sami, osobito ako niste sigurni plivač."},
+{"q": "Ima li bazen u Bihaću?", "a": "U Bihaću i okolici bazene uglavnom imaju pojedini hoteli i privatni smještajni objekti, a ljeti se većina ljudi kupa u Uni. Otvorenost i uvjete korištenja bazena za posjetitelje provjerite izravno kod objekta. Rijeka je zbog čiste vode i uređenih kupališta glavno mjesto za kupanje."},
+{"q": "Mogu li se kupati u Uni kod vaših kuća?", "a": "Naše kuće i vikendice u Lohovu, Pritoci i Grmuši nalaze se uz Unu, a mnoge imaju pristup rijeci ili su na kratkoj šetnji do vode. Točan pristup i dubina razlikuju se od objekta do objekta, pa pitajte prije rezervacije. Upit možete poslati na apartmanibihac.com ili na WhatsApp/Viber +387 61 591 320."},
+{"q": "Može li se kupati u Lohovu?", "a": "Da, u Lohovu, mirnom naselju uz Unu oko 10 km južno od Bihaća, ljeti se kupa u rijeci. Ondje rijeka ima mirnijih dijelova, a do Nacionalnog parka Una je blizu. U Lohovu imamo kuće uz Unu, a cijene su od 25 do 100 € po noći za cijeli objekt."},
+{"q": "Može li se kupati u Pritoci?", "a": "Da, Pritoka je naselje uz Unu na rubu Bihaća, nekoliko minuta od centra, i ljeti se ondje kupa u rijeci. Prednost je što ste blizu grada, a ipak u mirnijem okruženju uz vodu. U Pritoci imamo kuće uz Unu za obitelji i grupe."},
+{"q": "Može li se kupati u Grmuši?", "a": "Da, u Grmuši, oko 20 km sjeveroistočno od Bihaća, Una je široka i ljeti pogodna za kupanje. Grmuša je i jedno od glavnih mjesta za rafting, pa je ljeti živahnija. U blizini su i kupališta Kostela i Salihovac u kanjonu Une."},
+{"q": "Što je kupalište Kostela?", "a": "Kostela je kupalište u kanjonu Une, na putu od Bihaća prema Bosanskoj Krupi, mirnije i manje posjećeno od gradskih. Turistička zajednica Grada Bihaća 2026. započela je uređenje Kostele, s planiranim dječjim igralištem, drvenim pristaništem i svlačionicama. Kostela je i polazište mirne rafting dionice prema Grmuši."},
+{"q": "Gdje se kupati izvan gužve kod Bihaća?", "a": "Mirnija mjesta su u kanjonu Une prema Bosanskoj Krupi, primjerice Kostela i Salihovac, te uz rijeku u Lohovu. Ljeti radnim danom i rano ujutro manje je ljudi i na gradskim kupalištima. Ako želite potpuni mir, praktične su kuće uz Unu s pristupom rijeci."},
+{"q": "Što je vrelo Krušnice?", "a": "Vrelo Krušnice je izvor rijeke Krušnice u općini Bosanska Krupa, između sela Gudavac i Vranjska. Krušnica je kratka rijeka, duga oko 6,5 km, koja se ulijeva u Unu kod Bosanske Krupe. Vrelo je popularno izletište zbog bistre vode, sjene i mjesta za odmor."},
+{"q": "Može li se kupati na vrelu Krušnice?", "a": "Na Krušnici se ljeti kupa, ali voda je kod samog izvora vrlo hladna, pa je kupanje kratko i osvježavajuće. Uz rijeku su uređena mjesta za odmor i izletnici često dolaze na cijeli dan. Do Bosanske Krupe iz Bihaća ima oko 35 km, odnosno otprilike 40 minuta vožnje."},
+{"q": "Koliko je od Bihaća do Bosanske Krupe?", "a": "Od Bihaća do Bosanske Krupe ima otprilike 35 km, a vožnja traje oko 40 minuta cestom uz Unu, preko Grmuše. Usput su kupališta Kostela i Salihovac. U Bosanskoj Krupi vrijedi posjetiti vrelo Krušnice i otočiće na Uni u samom gradu."},
+{"q": "Što ponijeti na kupanje na Unu?", "a": "Ponesite ručnik ili prostirku, kremu za sunčanje, kapu, vodu i obuću za vodu jer je dno često kamenito. Na mnogim kupalištima nema puno usluga, pa je dobro ponijeti i hranu. Za djecu je koristan prsluk za plivanje. Korisna je i vrećica za smeće jer kanti na nekim mjestima nema."},
+{"q": "Treba li obuća za vodu za kupanje u Uni?", "a": "Preporučuje se, jer je dno Une na većini kupališta kamenito i mjestimično sklisko zbog mahovine. Obuća za vodu štiti stopala i daje bolji oslonac pri ulasku u rijeku. Posebno je korisna za djecu i na mjestima sa slapovima. Možete koristiti i stare tenisice ili sandale s kopčom."},
+{"q": "Može li se skakati u Unu?", "a": "Skakanje u Unu je popularno na nekim mjestima, poput Hatinca, ali dubina se mijenja s vodostajem. Prije svakog skoka provjerite dubinu i da ispod nema stijena ili drugih kupača. Nikad ne skačite na nepoznatim mjestima ili blizu slapova. Kod skakanja u Unu uvijek neka netko ostane na obali."},
+{"q": "Je li Una dobra za plivanje neplivača?", "a": "Neplivači se u Uni trebaju kupati samo u plićaku, uz pratnju i po mogućnosti s prslukom. Struja i dubina mogu se naglo promijeniti već nekoliko metara od obale. Za djecu neplivače mirnija i plića mjesta su Japodski otoci kod Ripča."},
+{"q": "Je li ulaz na gradska kupališta u Bihaću besplatan?", "a": "Gradska kupališta na Uni u Bihaću, poput Betona, Amerikančeva i Plandišta, obično su javna i bez ulaznice. Na kupalištima unutar Nacionalnog parka Una, primjerice kod Račića, može se plaćati ulaznica za park. Aktualne cijene za park provjerite na službenoj stranici NP Una, npuna.com."},
+{"q": "Kada je najbolje vrijeme dana za kupanje u Uni?", "a": "Najbolje je kupati se poslijepodne, između otprilike 13 i 17 sati, kad je zrak najtopliji i voda na plitkim mjestima najugodnija. Ujutro je manje gužve, ali voda je hladnija. Za mirno kupanje ljeti izbjegavajte vikend poslijepodne na gradskim kupalištima. U kućama uz Unu možete se kupati kad god želite, bez gužve."},
+{"q": "Ima li kafića i hrane uz kupališta u Bihaću?", "a": "Uz gradska kupališta u centru, osobito Plandište, ima kafića i restorana na pješačkoj udaljenosti. Na udaljenijim kupalištima, poput Kostele ili Brvica, usluga je manje, pa je dobro ponijeti vodu i hranu. Uz Unu ima i restorana koji nude ribu. Uz Unu se mogu probati i jela od pastrve."},
+{"q": "Može li se kupati u Uni sa psom?", "a": "Na gradskim kupalištima psi nisu uvijek dobrodošli, pa je bolje izabrati mirnija mjesta uz rijeku izvan gužve. U Nacionalnom parku Una vrijede posebna pravila za kućne ljubimce, objavljena na npuna.com. Od naših objekata pse prima Apartman M. Mahala (Midžić Mahala), a za ostale pitajte uz upit. Psa u vodi držite na oku jer struja može biti jaka."},
+{"q": "Može li se kupati u rujnu u Bihaću?", "a": "Početkom rujna mnogi se još kupaju u Uni, osobito u toplim danima, ali voda postaje hladnija i obično pada ispod 18 °C. Krajem rujna kupanje je uglavnom za one koji vole hladnu vodu. Rujan je zato dobar za šetnje uz rijeku i izlete, uz kraće kupanje."},
+{"q": "Je li bolje kupanje u Uni ili na moru?", "a": "Una nudi drugačije iskustvo od mora: vodu koja je slatka, bistra i hladnija, okružena zelenilom, bez soli i bez velike gužve. Za vruće ljetne dane osvježenje je jače nego na moru. Mnogi gosti kombiniraju odmor na Uni s izletom na Plitvička jezera."},
+{"q": "Ima li u Bihaću kupalište s ležaljkama?", "a": "Na nekim uređenim mjestima uz Unu i u pojedinim hotelima i restoranima uz rijeku moguće je koristiti ležaljke, ali ponuda se mijenja iz sezone u sezonu. Na gradskim kupalištima ljudi se obično sunčaju na vlastitim ručnicima na travi ili betonu. Uvjete provjerite na licu mjesta."},
+{"q": "Koja je najbolja kuća uz Unu za kupanje?", "a": "Za kupanje su najpraktičnije naše kuće uz Unu u Lohovu, Pritoci i Grmuši, a pristup rijeci razlikuje se od objekta do objekta. Kad šaljete upit, napišite da vam je važan izravan pristup vodi pa ćemo preporučiti odgovarajući objekt. Odgovor dobijete u roku od 12 sati."},
+{"q": "Može li se kupati u Uni u gradu Bihaću noću?", "a": "Kupanje noću ne preporučuje se jer se ne vidi dno, dubina ni brzina vode, a nema spasilaca. Mnoga utapanja događaju se upravo kad se precijene sposobnosti ili kad se kupa nakon alkohola. Na Unu je najsigurnije ići danju i u društvu."},
+{"q": "Gdje odsjesti u Bihaću blizu kupališta?", "a": "Ako želite pješice do gradskih kupališta Beton, Amerikančevo i Plandište, birajte naše apartmane u centru Bihaća. Ako želite rijeku pred vratima, birajte kuće uz Unu u Lohovu, Pritoci ili Grmuši. Cijeli apartman stoji već od 25 €, odnosno 50 KM po noći, a upit pošaljite na apartmanibihac.com."}
 ]
