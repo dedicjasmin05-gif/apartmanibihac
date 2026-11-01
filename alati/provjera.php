@@ -21,3 +21,7 @@ foreach (array('zdravo-svijete', 'hello-world-2') as $s) {
     echo $s . ': ' . ($x ? $x[0]->post_status : 'nema') . PHP_EOL;
 }
 echo 'objekata: ' . count(get_posts(array('post_type' => 'objekt', 'numberposts' => 100))) . ', clanaka: ' . count(get_posts(array('post_type' => 'post', 'numberposts' => 200))) . PHP_EOL;
+$o = get_option('abu_postavke', array());
+echo 'kapara_posto: ' . (isset($o['kapara_posto']) ? $o['kapara_posto'] : '?') . ', upiti na: ' . (isset($o['admin_emails']) ? $o['admin_emails'] : '?') . PHP_EOL;
+global $wpdb;
+echo 'objava s "kapar": ' . (int) $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_status='publish' AND post_content LIKE '%kapar%'") . PHP_EOL;
