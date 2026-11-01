@@ -37,8 +37,28 @@ function G($url, $json = false) {
     return $json ? json_decode($b, true) : $b;
 }
 
+function R($stari, $put) {
+    static $nacin = null;
+    $put = ltrim($put, '/');
+    if ($nacin === null) {
+        $r = wp_remote_get($stari . '/wp-json/', array('timeout' => 30));
+        $nacin = (!is_wp_error($r) && wp_remote_retrieve_response_code($r) === 200) ? 'lijep' : 'route';
+    }
+    if ($nacin === 'lijep') { return $stari . '/wp-json/' . $put; }
+    $dij = explode('?', $put, 2);
+    return $stari . '/?rest_route=/' . rtrim($dij[0], '/') . (isset($dij[1]) ? '&' . $dij[1] : '');
+}
+if ($KORAK === 'provjera') {
+    foreach (array('/', '/?rest_route=/', '/smjestaj/vila-enio/', '/feed/') as $u) {
+        $r = wp_remote_get($STARI . $u, array('timeout' => 30, 'redirection' => 0));
+        if (is_wp_error($r)) { echo $u . ' GREŠKA ' . $r->get_error_message() . "\n"; continue; }
+        $b = wp_remote_retrieve_body($r);
+        echo $u . ' -> ' . wp_remote_retrieve_response_code($r) . ' ' . strlen($b) . 'B server=' . wp_remote_retrieve_header($r, 'server') . ' loc=' . wp_remote_retrieve_header($r, 'location') . ' | ' . substr(preg_replace('/\s+/', ' ', strip_tags(substr($b, 0, 600))), 0, 160) . "\n";
+    }
+    echo 'ip=' . gethostbyname(parse_url($STARI, PHP_URL_HOST)) . "\n";
+}
 L('=== start ' . $STARI . ($IP ? ' preko ' . $IP : '') . ' korak=' . $KORAK);
-$root = G($STARI . '/wp-json/', true);
+$root = G(R($STARI, ''), true);
 if ($root && isset($root['namespaces']) && in_array('abu/v1', $root['namespaces'], true)) {
     L('STOP: ' . $STARI . ' pokazuje na NOVI sajt (Hostinger), a ne na stari. Treba IP starog servera.');
     exit(1);
@@ -78,7 +98,7 @@ function slike_iz_html($html, $stari) {
 /* ---------- 1. Slike objekata ---------- */
 if ($KORAK === 'sve' || $KORAK === 'slike') {
     // Pokušaj preko REST-a: pronađi tip objava za smještaj
-    $tipovi = G($STARI . '/wp-json/wp/v2/types', true);
+    $tipovi = G(R($STARI, 'wp/v2/types'), true);
     $rest_tip = '';
     if (is_array($tipovi)) {
         foreach ($tipovi as $slug => $t) {
@@ -93,12 +113,12 @@ if ($KORAK === 'sve' || $KORAK === 'slike') {
     foreach ($objekti as $o) {
         $urls = array();
         if ($rest_tip) {
-            $stari_o = G($STARI . '/wp-json/wp/v2/' . $rest_tip . '?slug=' . $o->post_name, true);
+            $stari_o = G(R($STARI, 'wp/v2/' . $rest_tip . '?slug=' . $o->post_name), true);
             if ($stari_o && !empty($stari_o[0]['id'])) {
-                $med = G($STARI . '/wp-json/wp/v2/media?parent=' . $stari_o[0]['id'] . '&per_page=100', true);
+                $med = G(R($STARI, 'wp/v2/media?parent=' . $stari_o[0]['id'] . '&per_page=100'), true);
                 if (is_array($med)) { foreach ($med as $md) { if (!empty($md['source_url'])) { $urls[] = $md['source_url']; } } }
                 if (!empty($stari_o[0]['featured_media'])) {
-                    $fm = G($STARI . '/wp-json/wp/v2/media/' . $stari_o[0]['featured_media'], true);
+                    $fm = G(R($STARI, 'wp/v2/media/' . $stari_o[0]['featured_media']), true);
                     if ($fm && !empty($fm['source_url'])) { array_unshift($urls, $fm['source_url']); }
                 }
             }
@@ -142,7 +162,7 @@ if ($KORAK === 'sve' || $KORAK === 'clanci') {
     $cat_id = $cat ? $cat->term_id : 1;
     $str = 1; $ukupno = 0;
     do {
-        $posts = G($STARI . '/wp-json/wp/v2/posts?per_page=50&page=' . $str, true);
+        $posts = G(R($STARI, 'wp/v2/posts?per_page=50&page=' . $str), true);
         if (!is_array($posts) || !$posts) { break; }
         foreach ($posts as $p) {
             $slug = $p['slug'];
@@ -163,7 +183,7 @@ if ($KORAK === 'sve' || $KORAK === 'clanci') {
                 }
             }
             if (!empty($p['featured_media'])) {
-                $fm = G($STARI . '/wp-json/wp/v2/media/' . $p['featured_media'], true);
+                $fm = G(R($STARI, 'wp/v2/media/' . $p['featured_media']), true);
                 if ($fm && !empty($fm['source_url'])) { $a = uvezi_sliku($fm['source_url'], $id, get_the_title($id)); if ($a) { set_post_thumbnail($id, $a); } }
             }
             // linkovi na stari sajt ostaju relativni na isti domen

@@ -3,8 +3,9 @@
 if (!defined('ABSPATH')) { exit; }
 require_once __DIR__ . '/sadrzaj-objekti.php';
 require_once __DIR__ . '/sadrzaj-stranice.php';
+require_once __DIR__ . '/jezici.php';
 
-define('ABU_SEED', '2026-11-01a');
+define('ABU_SEED', '2026-11-01b');
 
 add_action('init', function () {
     if (get_option('abu_seed') === ABU_SEED) { return; }
@@ -60,6 +61,10 @@ function abu_seed_run() {
         $p = abu_seed_post_by_slug($slug, 'page');
         if ($p) { $ids[$slug] = $p->ID; continue; }
         $ids[$slug] = wp_insert_post(array('post_type' => 'page', 'post_status' => 'publish', 'post_name' => $slug, 'post_title' => $s[0], 'post_excerpt' => $s[1], 'post_content' => $s[2]));
+    }
+    foreach (abu_seed_jezici() as $slug => $s) {
+        if (abu_seed_post_by_slug($slug, 'page')) { continue; }
+        wp_insert_post(array('post_type' => 'page', 'post_status' => 'publish', 'post_name' => $slug, 'post_title' => $s[0], 'post_excerpt' => $s[1], 'post_content' => $s[2]));
     }
     $poc = abu_seed_post_by_slug('pocetna', 'page');
     $poc_id = $poc ? $poc->ID : wp_insert_post(array('post_type' => 'page', 'post_status' => 'publish', 'post_name' => 'pocetna', 'post_title' => 'Početna', 'post_content' => ''));
