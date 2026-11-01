@@ -179,7 +179,7 @@ add_action('init', function () {
     $path = isset($_SERVER['REQUEST_URI']) ? strtok(wp_unslash($_SERVER['REQUEST_URI']), '?') : '';
     if ($path !== '/llms.txt') { return; }
     header('Content-Type: text/plain; charset=utf-8');
-    $o = "# Apartmani i vikendice Bihać (apartmanibihac.com)\n\n> Smještaj u Bihaću i uz rijeku Unu, Bosna i Hercegovina: apartmani u gradu i kuće za odmor u Lohovu, Pritoci i Grmuši. Cijene od 25 do 100 € po noći za cijeli objekt. Direktan upit, vlasnik potvrđuje u roku od 12 sati, kapara 30 %. Kontakt: +387 61 591 320 (WhatsApp/Viber).\n\n## Smještaj\n";
+    $o = "# Apartmani i vikendice Bihać (apartmanibihac.com)\n\n> Smještaj u Bihaću i uz rijeku Unu, Bosna i Hercegovina: apartmani u gradu i kuće za odmor u Lohovu, Pritoci i Grmuši. Cijene od 25 do 100 € po noći za cijeli objekt. Direktan upit, vlasnik potvrđuje u roku od 12 sati, plaćanje gotovinom pri dolasku (uz avans popust). Kontakt: +387 61 591 320 (WhatsApp/Viber).\n\n## Smještaj\n";
     foreach (get_posts(array('post_type' => 'objekt', 'post_status' => 'publish', 'numberposts' => 200, 'orderby' => 'title', 'order' => 'ASC')) as $p) {
         $o .= '- [' . $p->post_title . '](' . get_permalink($p) . '): ' . get_post_meta($p->ID, '_abu_mjesto', true) . ', do ' . (int) get_post_meta($p->ID, '_abu_kapacitet', true) . ' osoba. ' . wp_strip_all_tags($p->post_excerpt) . "\n";
     }
@@ -197,3 +197,19 @@ add_action('init', function () {
     echo $o; // phpcs:ignore
     exit;
 }, 1);
+
+/* ---------- 1.0.5: plaćanje gotovinom, ispravak već objavljenog sadržaja (jednokratno) ---------- */
+add_action('init', function () {
+    if (get_option('abu_mig_placanje') || get_transient('abu_mig_placanje_lock')) { return; }
+    set_transient('abu_mig_placanje_lock', 1, 300);
+    $r = json_decode((string) file_get_contents(__DIR__ . '/alati/zamjene-placanje.json'), true);
+    if (is_array($r)) {
+        foreach (get_posts(array('post_type' => array('page', 'post', 'objekt'), 'post_status' => 'any', 'numberposts' => -1)) as $p) {
+            $c = $p->post_content; $e = $p->post_excerpt;
+            foreach ($r as $x) { $c = str_replace($x[0], $x[1], $c); $e = str_replace($x[0], $x[1], $e); }
+            if ($c !== $p->post_content || $e !== $p->post_excerpt) { wp_update_post(array('ID' => $p->ID, 'post_content' => $c, 'post_excerpt' => $e)); }
+        }
+    }
+    update_option('abu_mig_placanje', 1);
+    delete_transient('abu_mig_placanje_lock');
+}, 31);

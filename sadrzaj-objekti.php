@@ -102,6 +102,6 @@ function abu_seed_objekt_html($o) {
     $h .= "<h2>Što objekt nudi</h2>\n<ul>\n";
     foreach ($o[6] as $a) { $h .= '<li>' . esc_html($a) . "</li>\n"; }
     $h .= "</ul>\n<h2>Gdje se nalazi</h2>\n<p>" . esc_html(abu_seed_lok($o[2])) . "</p>\n";
-    $h .= '<h2>Kako rezervirati</h2>' . "\n" . '<p>Odaberite datume u kalendaru i pošaljite upit. Vlasnik potvrđuje u roku od 12 sati, a potvrdu s cijenom dobivate e-mailom i SMS-om. Nakon kapare od 30 % šaljemo adresu i kontakt vlasnika.</p>';
+    $h .= '<h2>Kako rezervirati</h2>' . "\n" . '<p>Odaberite datume u kalendaru i pošaljite upit. Vlasnik potvrđuje u roku od 12 sati, a potvrdu s cijenom dobivate e-mailom i SMS-om. Uz potvrdu rezervacije šaljemo adresu i kontakt vlasnika. Plaćanje gotovinom pri dolasku.</p>';
     return $h;
 }

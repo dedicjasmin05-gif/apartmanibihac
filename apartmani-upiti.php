@@ -1,15 +1,15 @@
 <?php
 /**
  * Plugin Name: Apartmani Upiti
- * Description: Upiti za smještaj s potvrdom vlasnika jednim klikom, kalendarom, iCal sinkronizacijom (Booking/Airbnb), kaparom i automatskim porukama.
- * Version: 1.0.4
+ * Description: Upiti za smještaj s potvrdom vlasnika jednim klikom, kalendarom, iCal sinkronizacijom (Booking/Airbnb), plaćanjem gotovinom (kapara opcionalno) i automatskim porukama.
+ * Version: 1.0.5
  * Author: Digital Puls
  * Text Domain: apartmani-upiti
  */
 
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_VER', '1.0.4');
+define('ABU_VER', '1.0.5');
 define('ABU_TABLE', 'abu_upiti');
 define('ABU_ICAL_TABLE', 'abu_ical_blocks');
 
@@ -83,13 +83,25 @@ function abu_opt($key, $default = '') {
     $o = get_option('abu_postavke', array());
     return isset($o[$key]) && $o[$key] !== '' ? $o[$key] : $default;
 }
+/** 1.0.5: gotovina pri dolasku, upiti na Gmail (jednokratno ažuriranje spremljenih postavki). */
+add_action('init', function () {
+    if (get_option('abu_mig_105')) { return; }
+    $o = get_option('abu_postavke', array());
+    if (is_array($o)) {
+        $o['kapara_posto'] = 0;
+        $o['uvjeti_otkaza'] = 'Plaćanje gotovinom pri dolasku. Ako ne možete doći, javite nam se što prije da oslobodimo termin.';
+        if (empty($o['admin_emails']) || $o['admin_emails'] === get_option('admin_email')) { $o['admin_emails'] = 'apartmaniubihacu@gmail.com'; }
+        update_option('abu_postavke', $o);
+    }
+    update_option('abu_mig_105', 1);
+}, 5);
 function abu_defaults() {
     return array(
         'admin_emails'   => 'apartmaniubihacu@gmail.com',
         'admin_telefoni' => '',
         'drzi_sati'      => 12,
         'podsjetnik_sati'=> 3,
-        'kapara_posto'   => 30,
+        'kapara_posto'   => 0, // 0 = bez kapare, plaćanje gotovinom pri dolasku
         'kapara_sati'    => 24,
         'iban'           => '',
         'primatelj'      => '',
@@ -100,7 +112,7 @@ function abu_defaults() {
         'sms_url'        => '',
         'sms_kljuc'      => '',
         'sms_posiljatelj'=> 'ApartBihac',
-        'uvjeti_otkaza'  => 'Do 14 dana prije dolaska kapara se vraća umanjena za trošak plaćanja. Kasnije se kapara ne vraća.',
+        'uvjeti_otkaza'  => 'Plaćanje gotovinom pri dolasku. Ako ne možete doći, javite nam se što prije da oslobodimo termin.',
     );
 }
 
@@ -331,7 +343,7 @@ function abu_t($key, $lang = 'bs') {
                 's_otkazan' => 'Termin oslobođen — %s',
                 'b_otkazan' => "Poštovani %1\$s,\n\nkapara za %2\$s nije uplaćena u roku pa je termin oslobođen. Ako i dalje želite doći, pošaljite novi upit ili nam se javite: %3\$s",
                 's_placeno' => 'Rezervacija potvrđena — %s',
-                'b_placeno' => "Poštovani %1\$s,\n\nvaša rezervacija je potvrđena.\n\nObjekt: %2\$s\nAdresa: %3\$s\nDolazak: %4\$s\nOdlazak: %5\$s\nOsoba: %6\$d\nPreostalo za platiti pri dolasku: %7\$s €\n\nVlasnik: %8\$s, %9\$s\n\nUvjeti otkaza: %10\$s",
+                'b_placeno' => "Poštovani %1\$s,\n\nvaša rezervacija je potvrđena.\n\nObjekt: %2\$s\nAdresa: %3\$s\nDolazak: %4\$s\nOdlazak: %5\$s\nOsoba: %6\$d\nZa platiti gotovinom pri dolasku: %7\$s €\nUlazak od 12:00, izlazak do 11:00 (do 12:00 ako je objekt slobodan). Posteljina i čišćenje su uključeni.\n\nVlasnik: %8\$s, %9\$s\n\nUvjeti otkaza: %10\$s",
                 's_7d' => 'Za 7 dana dolazite u Bihać — %s',
                 'b_7d' => "Poštovani %1\$s,\n\nvidimo se %2\$s u objektu %3\$s.\n\n%4\$s\n\nRafting na Uni, team building i restoran uz rijeku: Una Olympic Rafting, +387 67 103 7177.\n\nVlasnik: %5\$s",
                 's_1d' => 'Sutra dolazite — %s',
@@ -357,7 +369,7 @@ function abu_t($key, $lang = 'bs') {
                 's_otkazan' => 'Termin freigegeben — %s',
                 'b_otkazan' => "Hallo %1\$s,\n\ndie Anzahlung für %2\$s ist nicht eingegangen, der Termin wurde freigegeben. Kontakt: %3\$s",
                 's_placeno' => 'Buchung bestätigt — %s',
-                'b_placeno' => "Hallo %1\$s,\n\nIhre Buchung ist bestätigt.\n\nUnterkunft: %2\$s\nAdresse: %3\$s\nAnreise: %4\$s\nAbreise: %5\$s\nPersonen: %6\$d\nRestbetrag bei Anreise: %7\$s €\n\nGastgeber: %8\$s, %9\$s\n\nStornobedingungen: %10\$s",
+                'b_placeno' => "Hallo %1\$s,\n\nIhre Buchung ist bestätigt.\n\nUnterkunft: %2\$s\nAdresse: %3\$s\nAnreise: %4\$s\nAbreise: %5\$s\nPersonen: %6\$d\nBar zu zahlen bei Anreise: %7\$s €\nCheck-in ab 12:00, Check-out bis 11:00 (bis 12:00, wenn frei). Bettwäsche und Endreinigung inklusive.\n\nGastgeber: %8\$s, %9\$s\n\nStornobedingungen: %10\$s",
                 's_7d' => 'In 7 Tagen in Bihać — %s',
                 'b_7d' => "Hallo %1\$s,\n\nwir sehen uns am %2\$s in %3\$s.\n\n%4\$s\n\nRafting auf der Una: Una Olympic Rafting, +387 67 103 7177.\n\nGastgeber: %5\$s",
                 's_1d' => 'Morgen ist Anreise — %s',
@@ -383,7 +395,7 @@ function abu_t($key, $lang = 'bs') {
                 's_otkazan' => 'Dates released — %s',
                 'b_otkazan' => "Dear %1\$s,\n\nthe deposit for %2\$s was not received in time, so the dates were released. Contact: %3\$s",
                 's_placeno' => 'Booking confirmed — %s',
-                'b_placeno' => "Dear %1\$s,\n\nyour booking is confirmed.\n\nProperty: %2\$s\nAddress: %3\$s\nArrival: %4\$s\nDeparture: %5\$s\nGuests: %6\$d\nBalance due on arrival: %7\$s €\n\nHost: %8\$s, %9\$s\n\nCancellation terms: %10\$s",
+                'b_placeno' => "Dear %1\$s,\n\nyour booking is confirmed.\n\nProperty: %2\$s\nAddress: %3\$s\nArrival: %4\$s\nDeparture: %5\$s\nGuests: %6\$d\nTo pay in cash on arrival: %7\$s €\nCheck-in from 12:00, check-out by 11:00 (12:00 if the property is free). Bed linen and final cleaning included.\n\nHost: %8\$s, %9\$s\n\nCancellation terms: %10\$s",
                 's_7d' => 'See you in Bihać in 7 days — %s',
                 'b_7d' => "Dear %1\$s,\n\nsee you on %2\$s at %3\$s.\n\n%4\$s\n\nRafting on the Una: Una Olympic Rafting, +387 67 103 7177.\n\nHost: %5\$s",
                 's_1d' => 'Arrival tomorrow — %s',
@@ -480,7 +492,7 @@ function abu_kreiraj_upit($d) {
     $noci = max(1, (int) round((strtotime($d['odlazak']) - strtotime($d['dolazak'])) / 86400));
     if ($cijena > 0) {
         $u['iznos'] = round($cijena * $noci, 2);
-        $u['kapara'] = round($u['iznos'] * intval(abu_opt('kapara_posto', 30)) / 100, 2);
+        $u['kapara'] = intval(abu_opt('kapara_posto', 0)) > 0 ? round($u['iznos'] * intval(abu_opt('kapara_posto', 0)) / 100, 2) : null;
     }
     $wpdb->insert($wpdb->prefix . ABU_TABLE, $u);
     $id = (int) $wpdb->insert_id;
@@ -581,6 +593,15 @@ function abu_placanje_upute($u) {
 }
 
 function abu_potvrdi($u) {
+    if (intval(abu_opt('kapara_posto', 0)) <= 0) { // gotovinski način: odmah potvrđena rezervacija
+        abu_set($u->id, array('potvrden' => current_time('mysql'), 'kapara' => null));
+        abu_placeno(abu_get($u->id));
+        global $wpdb;
+        $t = $wpdb->prefix . ABU_TABLE;
+        $drugi = $wpdb->get_col($wpdb->prepare("SELECT id FROM $t WHERE objekt_id=%d AND id<>%d AND status='novi' AND dolazak < %s AND odlazak > %s", $u->objekt_id, $u->id, $u->odlazak, $u->dolazak));
+        foreach ($drugi as $did) { abu_odbij(abu_get((int) $did), true); }
+        return;
+    }
     $sati = intval(abu_opt('kapara_sati', 24));
     abu_set($u->id, array('status' => 'potvrden', 'potvrden' => current_time('mysql'), 'kapara_do' => gmdate('Y-m-d H:i:s', current_time('timestamp') + $sati * HOUR_IN_SECONDS)));
     $u = abu_get($u->id);
@@ -631,7 +652,7 @@ function abu_placeno($u) {
     $u = abu_get($u->id);
     $o = get_post($u->objekt_id);
     $L = $u->jezik;
-    $ostatak = ($u->iznos && $u->kapara) ? abu_novac($u->iznos - $u->kapara) : '—';
+    $ostatak = $u->iznos ? abu_novac($u->iznos - ($u->kapara ? $u->kapara : 0)) : '—';
     $vl_ime = abu_m($u->objekt_id, 'vlasnik_ime');
     $vl_tel = abu_m($u->objekt_id, 'vlasnik_tel');
     abu_mail($u->email, sprintf(abu_t('s_placeno', $L), $o->post_title), sprintf(abu_t('b_placeno', $L),

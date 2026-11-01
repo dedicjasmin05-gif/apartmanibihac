@@ -54,7 +54,7 @@ function abu_seed_jezici() {
 <ul>
 <li><strong>Direct with the owner</strong>: no booking fees, prices from €25 to €100 per night for the whole property.</li>
 <li><strong>Answer within 12 hours</strong>: send an inquiry, the owner confirms availability and you get a confirmation by e-mail.</li>
-<li><strong>30 % deposit</strong>: the rest is paid on arrival in cash or by card.</li>
+<li><strong>Pay in cash on arrival</strong>: no deposit required. Pay a deposit in advance if you like and get a discount.</li>
 <li><strong>Local help</strong>: rafting, restaurants, trips to Štrbački buk and Plitvice. Ask us on WhatsApp or Viber: <a href="' . $wa . '">+387 61 591 320</a>.</li>
 </ul>
 <h2>Where to stay</h2>
@@ -73,7 +73,7 @@ function abu_seed_jezici() {
 <ul>
 <li><strong>Direkt beim Vermieter</strong>: keine Buchungsgebühren, 25 bis 100 € pro Nacht für das ganze Objekt.</li>
 <li><strong>Antwort innerhalb von 12 Stunden</strong>: Anfrage senden, der Vermieter bestätigt die Verfügbarkeit, Sie erhalten eine Bestätigung per E-Mail.</li>
-<li><strong>30 % Anzahlung</strong>: der Rest wird bei Ankunft bar oder mit Karte bezahlt.</li>
+<li><strong>Barzahlung bei Ankunft</strong>: keine Anzahlung nötig. Mit freiwilliger Anzahlung erhalten Sie einen Rabatt.</li>
 <li><strong>Hilfe vor Ort</strong>: Rafting, Restaurants, Ausflüge zum Štrbački buk und nach Plitvice. Schreiben Sie uns auf WhatsApp oder Viber: <a href="' . $wa . '">+387 61 591 320</a>. Wir sprechen Deutsch.</li>
 </ul>
 <h2>Wo übernachten</h2>
