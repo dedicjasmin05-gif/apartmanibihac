@@ -1,42 +1,162 @@
 [
-{"q": "Gdje se nalazi Štrbački buk?", "a": "Štrbački buk je slap na rijeci Uni u Nacionalnom parku Una, južno od Bihaća, između Orašca i Kulen Vakufa. Nalazi se na samoj granici Bosne i Hercegovine i Hrvatske, koja ovdje ide rijekom. Najveći je i najpoznatiji slap na Uni."},
-{"q": "Koliko je visok Štrbački buk?", "a": "Prema podacima Nacionalnog parka Una, Štrbački buk visok je 24,5 metra i najviši je slap u parku. Voda pada u nekoliko stepenica preko sedrenih pragova. Slap je širok nekoliko desetaka metara, pa je osobito impresivan pri visokom vodostaju u proljeće."},
-{"q": "Koliko ima od Bihaća do Štrbačkog buka?", "a": "Od centra Bihaća do Štrbačkog buka ima otprilike 30 do 35 km, ovisno o tome idete li preko Orašca ili Gorjevca. Vožnja obično traje 45 minuta do sat vremena jer je zadnji dio puta makadam. Ako odsjednete u Lohovu, kraće ćete se voziti do Orašca."},
-{"q": "Kako doći do Štrbačkog buka iz Bihaća?", "a": "Najčešći put vodi iz Bihaća prema jugu, preko Ripča i Lohova do Orašca, gdje skrenete prema ulazu 3 Ćelije i Štrbačkom buku. Od Orašca do slapa je oko 8 km ceste, dijelom asfaltirane, a dijelom makadam. Drugi put ide preko ulaza Gorjevac na cesti prema Bosanskom Petrovcu, s dužim makadamom od oko 14 km."},
-{"q": "Je li put do Štrbačkog buka makadam?", "a": "Da, zadnji dio puta do Štrbačkog buka i dalje je djelomično makadam. Od Orašca preko ulaza Ćelije to je oko 8 km uske ceste, a od ulaza Gorjevac oko 14 km makadama s ograničenjem od 30 km/h. Put je prohodan za obične automobile, ali vozite polako i pazite na mimoilaženje."},
-{"q": "Može li se običnim autom do Štrbačkog buka?", "a": "Da, do Štrbačkog buka može se doći običnim osobnim automobilom, bez terenca. Makadam je uglavnom uređen, ali mjestimično ima rupa, pa vozite sporo, osobito nakon kiše. Ceste su uske, pa se na pojedinim mjestima morate stisnuti uz rub da propustite vozilo iz suprotnog smjera."},
-{"q": "Koji je bolji put do Štrbačkog buka, preko Orašca ili Gorjevca?", "a": "Većina posjetitelja ide preko Orašca i ulaza Ćelije jer je makadamski dio kraći, oko 8 km. Put preko Gorjevca ima oko 14 km makadama, iako ga navigacija ponekad predlaže kao kraći. Ako niste sigurni, pratite smeđe turističke oznake za Nacionalni park Una."},
-{"q": "Ima li parkinga kod Štrbačkog buka?", "a": "Da, na kraju pristupne ceste nalazi se parkiralište, a odatle do slapa vodi kratka staza. U srpnju i kolovozu, osobito vikendom, parkiralište se zna brzo popuniti. Dođite ujutro pa ćete lakše parkirati i izbjeći gužvu na vidikovcima. Iz parkirališta do vidikovaca hodate svega nekoliko minuta."},
-{"q": "Može li se autobusom do Štrbačkog buka?", "a": "Veliki autobusi ne mogu na cestu od Orašca prema Štrbačkom buku jer je preuska, pa su dopušteni samo osobni automobili, motocikli i kombiji do 35 sjedala. Organizirane grupe obično presjedaju na manja vozila u Orašcu, a taj se prijevoz plaća posebno. Park pomaže u organizaciji prijevoza za veće grupe."},
-{"q": "Plaća li se ulaz na Štrbački buk?", "a": "Da, Štrbački buk je u Nacionalnom parku Una i za posjet se kupuje ulaznica. Pojedinačna karta vrijedi za cijeli dan u zoni Štrbački buk – Lohovo, a djeca do 7 godina ne plaćaju. Cijene se mijenjaju, pa aktualni cjenik provjerite na službenoj stranici npuna.com."},
-{"q": "Gdje se kupuje ulaznica za Štrbački buk?", "a": "Ulaznica se kupuje na ulazu u zonu, primjerice na ulazu 3 Ćelije na cesti iz Orašca ili na ulazu Gorjevac. Posjetitelji navode da se ondje uglavnom plaća gotovinom u konvertibilnim markama, pa ponesite KM. Ako se nešto promijeni, to će biti objavljeno na npuna.com."},
-{"q": "Može li se kupati na Štrbačkom buku?", "a": "Kupanje u samom slapu i u njegovoj neposrednoj blizini nije dopušteno. Pravila parka zabranjuju kupanje na manje od 50 metara uzvodno ili nizvodno od slapova i hodanje po sedrenim barijerama. U Uni se u parku smije kupati samo na označenim mjestima i dok su ulazi otvoreni."},
-{"q": "Gdje se kupati u blizini Štrbačkog buka?", "a": "U zoni Štrbačkog buka kupati se smije samo na mjestima koja je park označio za kupanje, a ne uz sam slap. Na putu do slapa ima mjesta uz rijeku gdje se ljeti kupa, ali poštujte oznake parka. Više slobode za kupanje imate u Lohovu i Pritoci, gdje mnoge kuće s apartmanibihac.com imaju vlastiti izlaz na Unu."},
-{"q": "Ima li vidikovaca na Štrbačkom buku?", "a": "Da, uz slap vodi drvena šetnica s više vidikovaca i terasa s kojih se Štrbački buk vidi iz različitih kutova. Najbolji pogled na cijelu širinu slapa je s donjih platformi, a odozgo se vidi kako se Una ruši preko sedrenih stepenica. Na šetnici se kreće polako jer daske znaju biti mokre."},
-{"q": "Kada je najbolje doba dana za posjet Štrbačkom buku?", "a": "Najbolje je doći ujutro, kad je manje ljudi i kad je svjetlo mekše za fotografije. Ljeti oko podneva i popodne stiže najviše posjetitelja i grupa. Ako želite mir, krenite iz Bihaća tako da budete kod slapa prije 10 sati. Ako dolazite s Plitvica, raspored dana prilagodite tako da na slap stignete prije podneva ili pred kraj popodneva."},
-{"q": "Kada je najbolje doba godine za Štrbački buk?", "a": "U proljeće, osobito u travnju i svibnju, slap je najsnažniji i najglasniji zbog visokog vodostaja. Ljeti je voda najbistrija i smaragdna, a okolina najživlja, iako je tada i najviše posjetitelja. U jesen šuma oko slapa poprimi zlatne boje i ima manje ljudi."},
-{"q": "Vrijedi li posjetiti Štrbački buk zimi?", "a": "Štrbački buk zimi ima poseban ugođaj, s maglom i ponekad snijegom, a posjetitelja je vrlo malo. Problem je pristupna cesta, koja je zbog makadama i snijega zimi ponekad teže prohodna. Prije polaska provjerite uvjete na cesti i obavijesti na npuna.com."},
-{"q": "Koliko vremena treba za Štrbački buk?", "a": "Za šetnju po vidikovcima i odmor uz slap dovoljno je sat do dva. S vožnjom iz Bihaća u oba smjera računajte na pola dana. Ako ga kombinirate s Kulen Vakufom i Martin Brodom, izlet traje cijeli dan. Ako planirate i kupanje na označenim mjestima, ostavite još sat ili dva."},
-{"q": "Je li Štrbački buk na granici s Hrvatskom?", "a": "Da, Štrbački buk je na samoj granici, jer granica između Bosne i Hercegovine i Hrvatske na tom dijelu ide rijekom Unom. Posjetiteljska zona s ulaznicama i šetnicama je na bosanskohercegovačkoj strani, u Nacionalnom parku Una. Granicu ne prelazite pješice preko rijeke, jer to nije službeni granični prijelaz."},
-{"q": "Može li se Štrbački buk vidjeti iz Hrvatske?", "a": "S hrvatske strane postoje lokalni putevi i mjesta s pogledom na slap, ali to nije uređena posjetiteljska zona kao na strani Nacionalnog parka Una. Glavne šetnice, vidikovci, parking i ulaznice su na bosanskohercegovačkoj obali. Za cjelovit doživljaj najbolje je slap posjetiti iz Bihaća."},
-{"q": "Može li se rafting spojiti sa Štrbačkim bukom?", "a": "Da, rafting na Uni često počinje ispod Štrbačkog buka, na dionici prema Lohovu, a organiziraju ga licencirane agencije. Dionica ima brzake i prolazi kroz kanjon, pa je organizatori obično ne preporučuju djeci mlađoj od 12 godina. Rafting na mirnijoj dionici, s ciljem u Grmuši, za naše goste organiziramo s Una Olympic Raftingom."},
-{"q": "Je li rafting kod Štrbačkog buka težak?", "a": "Dionica ispod Štrbačkog buka smatra se zahtjevnijom od mirnijih dionica Une, s brzacima srednje težine. Agencije je obično preporučuju odraslima i djeci od otprilike 12 godina, uz skipera i opremu. Za obitelji s mlađom djecom postoje lakše dionice drugdje na Uni."},
-{"q": "Što ponijeti na izlet na Štrbački buk?", "a": "Ponesite udobnu obuću s dobrim potplatom jer su staze i daske uz vodu sklizave, te gotovinu u konvertibilnim markama za ulaznicu. Ljeti trebaju voda, kapa i krema za sunčanje, a kupaći ako planirate kupanje na označenim mjestima. Ponesite i vreću za otpad, jer otpad u parku nosite sa sobom."},
-{"q": "Ima li hrane kod Štrbačkog buka?", "a": "Na službenoj stranici parka spominje se restoran Buk kod slapa, a ljeti uz parkiralište obično rade manji ugostitelji. Radno vrijeme nije stalno, osobito izvan sezone, pa ne računajte na to da će sigurno raditi. Najsigurnije je ponijeti vodu i nešto za jelo, a za objed se vratiti prema Orašcu, Kulen Vakufu ili Bihaću."},
-{"q": "Može li se roštiljati kod Štrbačkog buka?", "a": "Da, ali samo na uređenom izletištu kod Štrbačkog buka, gdje postoje podignuti roštilji. Izvan tih mjesta paljenje vatre u Nacionalnom parku Una je zabranjeno. Ako želite roštilj uz rijeku bez ograničenja, bolja je vikendica uz Unu. Drva i potrepštine ponesite sa sobom i nakon roštilja ostavite mjesto čisto."},
-{"q": "Ima li toaleta na Štrbačkom buku?", "a": "Ulaznica se kupuje na ulazu u zonu, primjerice na ulazu 3 Ćelije na cesti iz Orašca ili na ulazu Gorjevac. Prema cjeniku parka plaća se gotovinom ili uplatom na račun parka, pa na ulaz ponesite marke u gotovini. Ako se nešto promijeni, to će biti objavljeno na npuna.com."},
-{"q": "Je li Štrbački buk pogodan za djecu?", "a": "Da, Štrbački buk je pogodan za obitelji jer je od parkirališta do slapa kratka šetnja, a šetnice imaju ograde. Djecu na drvenim stazama i uz vodu držite blizu sebe jer su rubovi sklizavi. Djeca mlađa od 7 godina ulaze besplatno."},
-{"q": "Je li Štrbački buk pristupačan za kolica?", "a": "Do dijela vidikovaca može se doći bez većih uspona, ali staze nisu potpuno prilagođene kolicima ni invalidskim kolicima. Ima dasaka, stepenica i neravnih dijelova, osobito prema donjim platformama. Za malu djecu praktičnija je nosiljka nego kolica. Ako putujete s osobom smanjene pokretljivosti, prije posjeta se javite parku na npuna.com."},
-{"q": "Smije li pas na Štrbački buk?", "a": "Pas smije u Nacionalni park Una samo na povodcu, ali prema pravilima parka psi ne smiju na šetnice kod Štrbačkog buka. To znači da sa psom možete u zonu, ali ne i na drvene staze do slapa. Prije posjeta provjerite pravila na npuna.com."},
-{"q": "Može li se letjeti dronom iznad Štrbačkog buka?", "a": "Dron se u Nacionalnom parku Una ne smije koristiti bez prethodne suglasnosti uprave parka. To vrijedi i za Štrbački buk, gdje je ljeti puno ljudi. Za dozvolu se javite parku putem kontakata na npuna.com. Bez dozvole se dron može oduzeti, a zabranjeno je i komercijalno snimanje."},
-{"q": "Koliko je daleko Štrbački buk od Plitvičkih jezera?", "a": "Plitvička jezera i Štrbački buk mogu se obići u istom danu, ali je to naporan dan. Od Plitvica do Bihaća vozite se 35 do 40 minuta preko prijelaza Izačić, a iz Bihaća do Štrbačkog buka još oko 45 minuta do sat vremena. Opušteniji plan je dva dana s noćenjem u Bihaću, primjerice u nekom od objekata na apartmanibihac.com."},
-{"q": "Kako kombinirati Štrbački buk i Martin Brod u jednom danu?", "a": "Ujutro posjetite Štrbački buk, zatim se vratite do Orašca i nastavite preko Kulen Vakufa do Martin Broda, što je oko 45 minuta vožnje. U Kulen Vakufu možete stati kod starog grada Ostrovice, a u Martin Brodu obići Milančev buk i manastir Rmanj. Navečer se vraćate u Bihać, oko 50 km i otprilike sat vremena vožnje."},
-{"q": "Zašto se slap zove Štrbački buk?", "a": "Slap je ime dobio po obližnjem selu Štrbci, a „buk“ je narodni naziv za slap ili jaki brzak na rijeci. Zato na Uni ima više „bukova“, poput Milančeva buka i Kostelskog buka. Štrbački buk je među njima najveći i najpoznatiji."},
-{"q": "Je li Štrbački buk na UNESCO listi?", "a": "Štrbački buk nije na listi svjetske baštine UNESCO-a. Na preliminarnoj listi Bosne i Hercegovine od 2019. su sedreni slapovi u Martin Brodu, a Nacionalni park Una pokrenuo je inicijativu da se nominacija proširi i na Štrbački buk. Ishod te inicijative još nije poznat."},
-{"q": "Je li bilo mlinova na Štrbačkom buku?", "a": "Da, početkom 20. stoljeća uz Štrbački buk radili su mlinovi na vodu. Uz šetnicu kod slapa i danas se može vidjeti stari mlin. Takvi mlinovi bili su česti duž cijele Une, a neki su obnovljeni u Martin Brodu. Mlinovi su nekad služili stanovnicima okolnih sela za mljevenje žita."},
-{"q": "Koliko je slap Štrbački buk širok?", "a": "Štrbački buk je širok nekoliko desetaka metara, a izvori navode od oko 40 do gotovo 60 metara, ovisno o tome što se mjeri. Pri visokom vodostaju voda se prelijeva preko gotovo cijele širine sedrenih stepenica. Zato slap najimpresivnije izgleda u proljeće."},
-{"q": "Je li opasno voziti do Štrbačkog buka?", "a": "Vožnja nije opasna ako vozite polako i pažljivo, ali cesta je uska, makadamska i mjestimično s rupama. Na nekim dionicama dva se automobila teško mimoilaze, a na putu postoje i znakovi upozorenja na medvjede. Izbjegavajte vožnju po mraku ako ne poznajete put."},
-{"q": "Ima li signala za mobitel kod Štrbačkog buka?", "a": "Signal mobilne mreže na pristupnoj cesti i kod slapa može biti slab ili povremeno nestati, a uz granicu telefon se ponekad spoji na hrvatsku mrežu. Prije polaska preuzmite kartu za navigaciju bez interneta. Ako koristite roaming, pazite na prebacivanje mreže."},
-{"q": "Gdje odsjesti ako želim posjetiti Štrbački buk?", "a": "Najpraktičnije je odsjesti u Bihaću ili uz Unu u Lohovu, odakle je put prema Orašcu i Štrbačkom buku kraći. Na apartmanibihac.com cijeli apartman košta već od 25 €, odnosno 50 KM po noći, što je otprilike cijena sobe za jednu osobu u Bihaću. Upit možete poslati i na WhatsApp/Viber +387 61 591 320."},
-{"q": "Je li Štrbački buk vrijedan posjeta?", "a": "Da, Štrbački buk je jedan od najljepših slapova u Bosni i Hercegovini i glavna atrakcija Nacionalnog parka Una. Kombinacija visokog sedrenog slapa, smaragdne vode i uređenih vidikovaca privlači posjetitelje iz cijele regije. Ako ste u Bihaću ili na Plitvicama, vrijedi izdvojiti pola dana za njega."}
+  {
+    "q": "Gdje se nalazi Štrbački buk?",
+    "a": "Štrbački buk je slap na rijeci Uni u Nacionalnom parku Una, južno od Bihaća, između Orašca i Kulen Vakufa. Nalazi se na samoj granici Bosne i Hercegovine i Hrvatske, koja ovdje ide rijekom. Najveći je i najpoznatiji slap na Uni."
+  },
+  {
+    "q": "Koliko je visok Štrbački buk?",
+    "a": "Prema podacima Nacionalnog parka Una, Štrbački buk visok je 24,5 metra i najviši je slap u parku. Voda pada u nekoliko stepenica preko sedrenih pragova. Slap je širok nekoliko desetaka metara, pa je osobito impresivan pri visokom vodostaju u proljeće."
+  },
+  {
+    "q": "Koliko ima od Bihaća do Štrbačkog buka?",
+    "a": "Od centra Bihaća do Štrbačkog buka ima otprilike 30 do 35 km, ovisno o tome idete li preko Orašca ili Gorjevca. Vožnja obično traje 45 minuta do sat vremena jer je zadnji dio puta makadam. Ako odsjednete u Lohovu, kraće ćete se voziti do Orašca."
+  },
+  {
+    "q": "Kako doći do Štrbačkog buka iz Bihaća?",
+    "a": "Najčešći put vodi iz Bihaća prema jugu, preko Ripča i Lohova do Orašca, gdje skrenete prema ulazu 3 Ćelije i Štrbačkom buku. Od Orašca do slapa je oko 8 km ceste, dijelom asfaltirane, a dijelom makadam. Drugi put ide preko ulaza Gorjevac na cesti prema Bosanskom Petrovcu, s dužim makadamom od oko 14 km."
+  },
+  {
+    "q": "Je li put do Štrbačkog buka makadam?",
+    "a": "Da, zadnji dio puta do Štrbačkog buka i dalje je djelomično makadam. Od Orašca preko ulaza Ćelije to je oko 8 km uske ceste, a od ulaza Gorjevac oko 14 km makadama s ograničenjem od 30 km/h. Put je prohodan za obične automobile, ali vozite polako i pazite na mimoilaženje."
+  },
+  {
+    "q": "Može li se običnim autom do Štrbačkog buka?",
+    "a": "Da, do Štrbačkog buka može se doći običnim osobnim automobilom, bez terenca. Makadam je uglavnom uređen, ali mjestimično ima rupa, pa vozite sporo, osobito nakon kiše. Ceste su uske, pa se na pojedinim mjestima morate stisnuti uz rub da propustite vozilo iz suprotnog smjera."
+  },
+  {
+    "q": "Koji je bolji put do Štrbačkog buka, preko Orašca ili Gorjevca?",
+    "a": "Većina posjetitelja ide preko Orašca i ulaza Ćelije jer je makadamski dio kraći, oko 8 km. Put preko Gorjevca ima oko 14 km makadama, iako ga navigacija ponekad predlaže kao kraći. Ako niste sigurni, pratite smeđe turističke oznake za Nacionalni park Una."
+  },
+  {
+    "q": "Ima li parkinga kod Štrbačkog buka?",
+    "a": "Da, na kraju pristupne ceste nalazi se parkiralište, a odatle do slapa vodi kratka staza. U srpnju i kolovozu, osobito vikendom, parkiralište se zna brzo popuniti. Dođite ujutro pa ćete lakše parkirati i izbjeći gužvu na vidikovcima. Iz parkirališta do vidikovaca hodate svega nekoliko minuta."
+  },
+  {
+    "q": "Može li se autobusom do Štrbačkog buka?",
+    "a": "Veliki autobusi ne mogu na cestu od Orašca prema Štrbačkom buku jer je preuska, pa su dopušteni samo osobni automobili, motocikli i kombiji do 35 sjedala. Organizirane grupe obično presjedaju na manja vozila u Orašcu, a taj se prijevoz plaća posebno. Park pomaže u organizaciji prijevoza za veće grupe."
+  },
+  {
+    "q": "Plaća li se ulaz na Štrbački buk?",
+    "a": "Da, Štrbački buk je u Nacionalnom parku Una i za posjet se kupuje ulaznica. Pojedinačna karta vrijedi za cijeli dan u zoni Štrbački buk – Lohovo, a djeca do 7 godina ne plaćaju. Cijene se mijenjaju, pa aktualni cjenik provjerite na službenoj stranici npuna.com."
+  },
+  {
+    "q": "Gdje se kupuje ulaznica za Štrbački buk?",
+    "a": "Ulaznica se kupuje na ulazu u zonu, primjerice na ulazu 3 Ćelije na cesti iz Orašca ili na ulazu Gorjevac. Posjetitelji navode da se ondje uglavnom plaća gotovinom u konvertibilnim markama, pa ponesite KM. Ako se nešto promijeni, to će biti objavljeno na npuna.com."
+  },
+  {
+    "q": "Može li se kupati na Štrbačkom buku?",
+    "a": "Kupanje u samom slapu i u njegovoj neposrednoj blizini nije dopušteno. Pravila parka zabranjuju kupanje na manje od 50 metara uzvodno ili nizvodno od slapova i hodanje po sedrenim barijerama. U Uni se u parku smije kupati samo na označenim mjestima i dok su ulazi otvoreni."
+  },
+  {
+    "q": "Gdje se kupati u blizini Štrbačkog buka?",
+    "a": "U zoni Štrbačkog buka kupati se smije samo na mjestima koja je park označio za kupanje, a ne uz sam slap. Na putu do slapa ima mjesta uz rijeku gdje se ljeti kupa, ali poštujte oznake parka. Više slobode za kupanje imate u Lohovu i Pritoci, gdje mnoge kuće s apartmanibihac.com imaju vlastiti izlaz na Unu."
+  },
+  {
+    "q": "Ima li vidikovaca na Štrbačkom buku?",
+    "a": "Da, uz slap vodi drvena šetnica s više vidikovaca i terasa s kojih se Štrbački buk vidi iz različitih kutova. Najbolji pogled na cijelu širinu slapa je s donjih platformi, a odozgo se vidi kako se Una ruši preko sedrenih stepenica. Na šetnici se kreće polako jer daske znaju biti mokre."
+  },
+  {
+    "q": "Kada je najbolje doba dana za posjet Štrbačkom buku?",
+    "a": "Najbolje je doći ujutro, kad je manje ljudi i kad je svjetlo mekše za fotografije. Ljeti oko podneva i popodne stiže najviše posjetitelja i grupa. Ako želite mir, krenite iz Bihaća tako da budete kod slapa prije 10 sati. Ako dolazite s Plitvica, raspored dana prilagodite tako da na slap stignete prije podneva ili pred kraj popodneva."
+  },
+  {
+    "q": "Kada je najbolje doba godine za Štrbački buk?",
+    "a": "U proljeće, osobito u travnju i svibnju, slap je najsnažniji i najglasniji zbog visokog vodostaja. Ljeti je voda najbistrija i smaragdna, a okolina najživlja, iako je tada i najviše posjetitelja. U jesen šuma oko slapa poprimi zlatne boje i ima manje ljudi."
+  },
+  {
+    "q": "Vrijedi li posjetiti Štrbački buk zimi?",
+    "a": "Štrbački buk zimi ima poseban ugođaj, s maglom i ponekad snijegom, a posjetitelja je vrlo malo. Problem je pristupna cesta, koja je zbog makadama i snijega zimi ponekad teže prohodna. Prije polaska provjerite uvjete na cesti i obavijesti na npuna.com."
+  },
+  {
+    "q": "Koliko vremena treba za Štrbački buk?",
+    "a": "Za šetnju po vidikovcima i odmor uz slap dovoljno je sat do dva. S vožnjom iz Bihaća u oba smjera računajte na pola dana. Ako ga kombinirate s Kulen Vakufom i Martin Brodom, izlet traje cijeli dan. Ako planirate i kupanje na označenim mjestima, ostavite još sat ili dva."
+  },
+  {
+    "q": "Je li Štrbački buk na granici s Hrvatskom?",
+    "a": "Da, Štrbački buk je na samoj granici, jer granica između Bosne i Hercegovine i Hrvatske na tom dijelu ide rijekom Unom. Posjetiteljska zona s ulaznicama i šetnicama je na bosanskohercegovačkoj strani, u Nacionalnom parku Una. Granicu ne prelazite pješice preko rijeke, jer to nije službeni granični prijelaz."
+  },
+  {
+    "q": "Može li se Štrbački buk vidjeti iz Hrvatske?",
+    "a": "S hrvatske strane postoje lokalni putevi i mjesta s pogledom na slap, ali to nije uređena posjetiteljska zona kao na strani Nacionalnog parka Una. Glavne šetnice, vidikovci, parking i ulaznice su na bosanskohercegovačkoj obali. Za cjelovit doživljaj najbolje je slap posjetiti iz Bihaća."
+  },
+  {
+    "q": "Može li se rafting spojiti sa Štrbačkim bukom?",
+    "a": "Da, rafting na Uni često počinje ispod Štrbačkog buka, na dionici prema Lohovu, a organiziraju ga licencirane agencije. Dionica ima brzake i prolazi kroz kanjon, pa je organizatori obično ne preporučuju djeci mlađoj od 12 godina. Rafting na mirnijoj dionici, s ciljem u Grmuši, za naše goste organiziramo s Una Olympic Raftingom."
+  },
+  {
+    "q": "Je li rafting kod Štrbačkog buka težak?",
+    "a": "Dionica ispod Štrbačkog buka smatra se zahtjevnijom od mirnijih dionica Une, s brzacima srednje težine. Agencije je obično preporučuju odraslima i djeci od otprilike 12 godina, uz skipera i opremu. Za obitelji s mlađom djecom postoje lakše dionice drugdje na Uni."
+  },
+  {
+    "q": "Što ponijeti na izlet na Štrbački buk?",
+    "a": "Ponesite udobnu obuću s dobrim potplatom jer su staze i daske uz vodu sklizave, te gotovinu u konvertibilnim markama za ulaznicu. Ljeti trebaju voda, kapa i krema za sunčanje, a kupaći ako planirate kupanje na označenim mjestima. Ponesite i vreću za otpad, jer otpad u parku nosite sa sobom."
+  },
+  {
+    "q": "Ima li hrane kod Štrbačkog buka?",
+    "a": "Na službenoj stranici parka spominje se restoran Buk kod slapa, a ljeti uz parkiralište obično rade manji ugostitelji. Radno vrijeme nije stalno, osobito izvan sezone, pa ne računajte na to da će sigurno raditi. Najsigurnije je ponijeti vodu i nešto za jelo, a za objed se vratiti prema Orašcu, Kulen Vakufu ili Bihaću."
+  },
+  {
+    "q": "Može li se roštiljati kod Štrbačkog buka?",
+    "a": "Da, ali samo na uređenom izletištu kod Štrbačkog buka, gdje postoje podignuti roštilji. Izvan tih mjesta paljenje vatre u Nacionalnom parku Una je zabranjeno. Ako želite roštilj uz rijeku bez ograničenja, bolja je vikendica uz Unu. Drva i potrepštine ponesite sa sobom i nakon roštilja ostavite mjesto čisto."
+  },
+  {
+    "q": "Ima li toaleta na Štrbačkom buku?",
+    "a": "Da, na Štrbačkom buku ima toaleta, ali se prema cjeniku parka njihovo korištenje plaća posebno i nije uključeno u ulaznicu. Zato je dobro imati sa sobom nešto gotovine u konvertibilnim markama. Aktualni cjenik provjerite na službenoj stranici parka npuna.com."
+  },
+  {
+    "q": "Je li Štrbački buk pogodan za djecu?",
+    "a": "Da, Štrbački buk je pogodan za obitelji jer je od parkirališta do slapa kratka šetnja, a šetnice imaju ograde. Djecu na drvenim stazama i uz vodu držite blizu sebe jer su rubovi sklizavi. Djeca mlađa od 7 godina ulaze besplatno."
+  },
+  {
+    "q": "Je li Štrbački buk pristupačan za kolica?",
+    "a": "Do dijela vidikovaca može se doći bez većih uspona, ali staze nisu potpuno prilagođene kolicima ni invalidskim kolicima. Ima dasaka, stepenica i neravnih dijelova, osobito prema donjim platformama. Za malu djecu praktičnija je nosiljka nego kolica. Ako putujete s osobom smanjene pokretljivosti, prije posjeta se javite parku na npuna.com."
+  },
+  {
+    "q": "Smije li pas na Štrbački buk?",
+    "a": "Pas smije u Nacionalni park Una samo na povodcu, ali prema pravilima parka psi ne smiju na šetnice kod Štrbačkog buka. To znači da sa psom možete u zonu, ali ne i na drvene staze do slapa. Prije posjeta provjerite pravila na npuna.com."
+  },
+  {
+    "q": "Može li se letjeti dronom iznad Štrbačkog buka?",
+    "a": "Dron se u Nacionalnom parku Una ne smije koristiti bez prethodne suglasnosti uprave parka. To vrijedi i za Štrbački buk, gdje je ljeti puno ljudi. Za dozvolu se javite parku putem kontakata na npuna.com. Bez dozvole se dron može oduzeti, a zabranjeno je i komercijalno snimanje."
+  },
+  {
+    "q": "Koliko je daleko Štrbački buk od Plitvičkih jezera?",
+    "a": "Plitvička jezera i Štrbački buk mogu se obići u istom danu, ali je to naporan dan. Od Plitvica do Bihaća vozite se 35 do 40 minuta preko prijelaza Izačić, a iz Bihaća do Štrbačkog buka još oko 45 minuta do sat vremena. Opušteniji plan je dva dana s noćenjem u Bihaću, primjerice u nekom od objekata na apartmanibihac.com."
+  },
+  {
+    "q": "Kako kombinirati Štrbački buk i Martin Brod u jednom danu?",
+    "a": "Ujutro posjetite Štrbački buk, zatim se vratite do Orašca i nastavite preko Kulen Vakufa do Martin Broda, što je oko 45 minuta vožnje. U Kulen Vakufu možete stati kod starog grada Ostrovice, a u Martin Brodu obići Milančev buk i manastir Rmanj. Navečer se vraćate u Bihać, oko 50 km i otprilike sat vremena vožnje."
+  },
+  {
+    "q": "Zašto se slap zove Štrbački buk?",
+    "a": "Slap je ime dobio po obližnjem selu Štrbci, a „buk“ je narodni naziv za slap ili jaki brzak na rijeci. Zato na Uni ima više „bukova“, poput Milančeva buka i Kostelskog buka. Štrbački buk je među njima najveći i najpoznatiji."
+  },
+  {
+    "q": "Je li Štrbački buk na UNESCO listi?",
+    "a": "Štrbački buk nije na listi svjetske baštine UNESCO-a. Na preliminarnoj listi Bosne i Hercegovine od 2019. su sedreni slapovi u Martin Brodu, a Nacionalni park Una pokrenuo je inicijativu da se nominacija proširi i na Štrbački buk. Ishod te inicijative još nije poznat."
+  },
+  {
+    "q": "Je li bilo mlinova na Štrbačkom buku?",
+    "a": "Da, početkom 20. stoljeća uz Štrbački buk radili su mlinovi na vodu. Uz šetnicu kod slapa i danas se može vidjeti stari mlin. Takvi mlinovi bili su česti duž cijele Une, a neki su obnovljeni u Martin Brodu. Mlinovi su nekad služili stanovnicima okolnih sela za mljevenje žita."
+  },
+  {
+    "q": "Koliko je slap Štrbački buk širok?",
+    "a": "Štrbački buk je širok nekoliko desetaka metara, a izvori navode od oko 40 do gotovo 60 metara, ovisno o tome što se mjeri. Pri visokom vodostaju voda se prelijeva preko gotovo cijele širine sedrenih stepenica. Zato slap najimpresivnije izgleda u proljeće."
+  },
+  {
+    "q": "Je li opasno voziti do Štrbačkog buka?",
+    "a": "Vožnja nije opasna ako vozite polako i pažljivo, ali cesta je uska, makadamska i mjestimično s rupama. Na nekim dionicama dva se automobila teško mimoilaze, a na putu postoje i znakovi upozorenja na medvjede. Izbjegavajte vožnju po mraku ako ne poznajete put."
+  },
+  {
+    "q": "Ima li signala za mobitel kod Štrbačkog buka?",
+    "a": "Signal mobilne mreže na pristupnoj cesti i kod slapa može biti slab ili povremeno nestati, a uz granicu telefon se ponekad spoji na hrvatsku mrežu. Prije polaska preuzmite kartu za navigaciju bez interneta. Ako koristite roaming, pazite na prebacivanje mreže."
+  },
+  {
+    "q": "Gdje odsjesti ako želim posjetiti Štrbački buk?",
+    "a": "Najpraktičnije je odsjesti u Bihaću ili uz Unu u Lohovu, odakle je put prema Orašcu i Štrbačkom buku kraći. Na apartmanibihac.com cijeli apartman košta već od 25 €, odnosno 50 KM po noći, što je otprilike cijena sobe za jednu osobu u Bihaću. Upit možete poslati i na WhatsApp/Viber +387 61 591 320."
+  },
+  {
+    "q": "Je li Štrbački buk vrijedan posjeta?",
+    "a": "Da, Štrbački buk je jedan od najljepših slapova u Bosni i Hercegovini i glavna atrakcija Nacionalnog parka Una. Kombinacija visokog sedrenog slapa, smaragdne vode i uređenih vidikovaca privlači posjetitelje iz cijele regije. Ako ste u Bihaću ili na Plitvicama, vrijedi izdvojiti pola dana za njega."
+  }
 ]
