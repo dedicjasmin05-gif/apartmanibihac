@@ -16,3 +16,11 @@
 - Klima: prosjek 1961.–1990.
 - Pitka voda Klokot, povrat PDV-a, boravišna pristojba, EV punionice, gradski autobusi: nepotvrđeno.
 - Glovo prestao u BiH 8/2026 — potvrditi.
+
+## 06–10
+- Udaljenosti: Štrbački buk 30–40 km; Martin Brod 50–60 km (tema 11 kaže ~60); Kulen Vakuf 45–50 km; kružni izlet ~120 km — uskladiti među temama.
+- Površina NP Una 198 km² vs 350 km² (izvori se razilaze).
+- Visina Štrbačkog buka 24,5 m (park).
+- Ulaznice samo gotovinom u KM? (blog izvor).
+- Rafting kod Štrbačkog buka od 12 god. (jedan organizator) — uskladiti s temom 11 i 20.
+- Bazen ima samo Vila Enio; klima samo kod nekih apartmana.
