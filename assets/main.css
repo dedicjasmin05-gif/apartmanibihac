@@ -284,3 +284,5 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+.foot-lang{margin-left:1rem}.foot-lang a{color:inherit;text-decoration:underline;text-underline-offset:2px}

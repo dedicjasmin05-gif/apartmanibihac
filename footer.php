@@ -33,7 +33,7 @@
       </ul>
     </div>
   </div>
-  <div class="wrap foot-legal">© <?php echo esc_html(gmdate('Y')); ?> apartmanibihac.com</div>
+  <div class="wrap foot-legal">© <?php echo esc_html(gmdate('Y')); ?> apartmanibihac.com <span class="foot-lang"><a href="<?php echo esc_url(home_url('/')); ?>" hreflang="bs">Bosanski</a> · <a href="<?php echo esc_url(home_url('/en/')); ?>" hreflang="en">English</a> · <a href="<?php echo esc_url(home_url('/de/')); ?>" hreflang="de">Deutsch</a></span></div>
 </footer>
 <?php wp_footer(); ?>
 </body>
