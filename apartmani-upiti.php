@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Apartmani Upiti
  * Description: Upiti za smještaj s potvrdom vlasnika jednim klikom, kalendarom, iCal sinkronizacijom (Booking/Airbnb), kaparom i automatskim porukama.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: Digital Puls
  * Text Domain: apartmani-upiti
  */
 
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_VER', '1.0.3');
+define('ABU_VER', '1.0.4');
 define('ABU_TABLE', 'abu_upiti');
 define('ABU_ICAL_TABLE', 'abu_ical_blocks');
 
@@ -85,7 +85,7 @@ function abu_opt($key, $default = '') {
 }
 function abu_defaults() {
     return array(
-        'admin_emails'   => get_option('admin_email'),
+        'admin_emails'   => 'apartmaniubihacu@gmail.com',
         'admin_telefoni' => '',
         'drzi_sati'      => 12,
         'podsjetnik_sati'=> 3,
@@ -433,7 +433,7 @@ function abu_wa_link($tel, $text) {
     return 'https://wa.me/' . preg_replace('/[^0-9]/', '', (string) $tel) . '?text=' . rawurlencode($text);
 }
 function abu_admin_emails() {
-    return array_filter(array_map('trim', explode(',', (string) abu_opt('admin_emails', get_option('admin_email')))));
+    return array_filter(array_map('trim', explode(',', (string) abu_opt('admin_emails', 'apartmaniubihacu@gmail.com'))));
 }
 function abu_admin_telefoni() {
     return array_filter(array_map('trim', explode(',', (string) abu_opt('admin_telefoni'))));
@@ -925,3 +925,4 @@ function abu_admin_postavke() {
 require_once __DIR__ . '/uvoz.php';
 
 require_once __DIR__ . '/preusmjeravanja.php';
+require_once __DIR__ . '/drustvene.php';
