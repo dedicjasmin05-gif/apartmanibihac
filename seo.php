@@ -145,6 +145,8 @@ add_filter('the_content', function ($c) {
         array('restorani-bihac', 'Restorani u Bihaću', 'Riba iz Une, travnički ćevapi, pizza i domaća jela.'),
         array('nocni-zivot-bihac', 'Noćni život', 'Barovi na obali Une, ljetne terase i klubovi.'),
         array('rafting-na-uni', 'Rafting na Uni', 'Spust kroz kanjon uz skipera, s ručkom uz rijeku.'),
+        array('team-building-bihac', 'Team building na Uni', 'Rafting, smještaj i ručak za firme i grupe na jednom mjestu.'),
+        array('vikendice-s-bazenom', 'Vikendice s bazenom', 'Kuće uz Unu s bazenom za obitelji i društva.'),
         array('cesta-pitanja', 'Česta pitanja', '1000 odgovora o Bihaću, NP Una, Plitvicama i smještaju.'),
     );
     $h = '<style>.abu-pr-blok{margin:32px 0}.abu-pr-blok h2{margin:0 0 14px}.abu-pr-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.abu-pr-k{display:block;padding:18px;border-radius:14px;background:#f6f8f4;color:inherit!important;text-decoration:none;border:1px solid #e5e9e2}.abu-pr-k:hover{border-color:#14532d}.abu-pr-k strong{display:block;font-size:17px;margin-bottom:6px;color:#14532d}.abu-pr-k span{font-size:14px;color:#444}</style>'
