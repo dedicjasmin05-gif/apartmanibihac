@@ -34,7 +34,7 @@ function abu_kt_gumbi($klasa) {
 
 function abu_kt_css() {
     return '<style>
-.abu-kt{background:#14532d;color:#fff;font:600 15px/1.3 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;position:relative;z-index:9999}
+.abu-kt{background:#14532d;color:#fff;font:600 15px/1.3 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;position:fixed;top:0;left:0;right:0;z-index:100000}
 .abu-kt-in{max-width:1200px;margin:0 auto;padding:8px 16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 14px}
 .abu-kt-broj{color:#fff!important;text-decoration:none;font-size:18px;font-weight:800;letter-spacing:.3px;white-space:nowrap}
 .abu-kt-uv{opacity:.85;font-weight:500}
@@ -61,7 +61,13 @@ function abu_kt_traka() {
         . abu_kt_gumbi('abu-kt-g')
         . '<span class="abu-kt-sp">' . esc_html(abu_kt_t('cijena')) . ' · ' . esc_html(abu_kt_t('jezici')) . '</span>'
         . '</div></div>'
-        . '<nav class="abu-kt-dno" aria-label="Kontakt">' . abu_kt_gumbi('abu-kt-d') . '</nav>';
+        . '<nav class="abu-kt-dno" aria-label="Kontakt">' . abu_kt_gumbi('abu-kt-d') . '</nav>'
+        . '<script>' . abu_kt_js() . '</script>';
+}
+
+/** Pomakni stranicu i zaglavlje teme ispod fiksne trake (tema ima zaglavlje preko vrha). */
+function abu_kt_js() {
+    return '(function(){function f(){var b=document.querySelector(".abu-kt");if(!b)return;var h=b.offsetHeight;var ab=document.getElementById("wpadminbar");var o=ab?ab.offsetHeight:0;b.style.top=o+"px";document.documentElement.style.setProperty("--abu-kt-h",h+"px");document.body.style.paddingTop=h+"px";var el=document.querySelectorAll("body *");for(var i=0;i<el.length;i++){var e=el[i];if(e===b||b.contains(e)||e.classList.contains("abu-kt-dno")||e.closest(".abu-kt-dno"))continue;var cs=getComputedStyle(e);var hd=e.tagName==="HEADER"||/(^|[ _-])(header|navbar|site-nav|masthead|topbar)/i.test(typeof e.className==="string"?e.className:"");if(!(cs.position==="fixed"||cs.position==="sticky"||(cs.position==="absolute"&&hd&&e.offsetParent===document.body)))continue;var r=e.getBoundingClientRect();if(r.top>h+o+5||r.height>window.innerHeight*0.6)continue;if(e.dataset.abuTop===undefined){e.dataset.abuTop=parseFloat(cs.top)||0;}e.style.top=(parseFloat(e.dataset.abuTop)+h+o)+"px";}}if(document.readyState!=="loading")f();else document.addEventListener("DOMContentLoaded",f);window.addEventListener("load",f);window.addEventListener("resize",f);setTimeout(f,800);})();';
 }
 
 /** Na vrhu stranice (tema s wp_body_open), inače na dnu s pomakom na vrh. */
