@@ -49,11 +49,11 @@ function R($stari, $put) {
     return $stari . '/?rest_route=/' . rtrim($dij[0], '/') . (isset($dij[1]) ? '&' . $dij[1] : '');
 }
 if ($KORAK === 'provjera') {
-    foreach (array('/', '/?rest_route=/', '/smjestaj/vila-enio/', '/feed/') as $u) {
+    foreach (array('/', '/index.php', '/wp-login.php', '/wp-content/uploads/', '/wp-content/uploads/2024/', '/smjestaj/vila-enio/') as $u) {
         $r = wp_remote_get($STARI . $u, array('timeout' => 30, 'redirection' => 0));
         if (is_wp_error($r)) { echo $u . ' GREŠKA ' . $r->get_error_message() . "\n"; continue; }
         $b = wp_remote_retrieve_body($r);
-        echo $u . ' -> ' . wp_remote_retrieve_response_code($r) . ' ' . strlen($b) . 'B server=' . wp_remote_retrieve_header($r, 'server') . ' loc=' . wp_remote_retrieve_header($r, 'location') . ' | ' . substr(preg_replace('/\s+/', ' ', strip_tags(substr($b, 0, 600))), 0, 160) . "\n";
+        echo $u . ' -> ' . wp_remote_retrieve_response_code($r) . ' ' . strlen($b) . 'B server=' . wp_remote_retrieve_header($r, 'server') . ' loc=' . wp_remote_retrieve_header($r, 'location') . ' | ' . substr(preg_replace('/\s+/', ' ', strip_tags($b)), 0, 1500) . "\n";
     }
     echo 'ip=' . gethostbyname(parse_url($STARI, PHP_URL_HOST)) . "\n";
 }
