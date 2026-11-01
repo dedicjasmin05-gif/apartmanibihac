@@ -137,3 +137,22 @@ function abu_seo_pitanja_meta() {
     }
     return array($title, mb_substr($meta, 0, 158));
 }
+
+/** Naslovnica: blok "Naše preporuke" (restorani, noćni život, rafting, česta pitanja), kao na starom sajtu. */
+add_filter('the_content', function ($c) {
+    if (is_admin() || !in_the_loop() || !is_main_query() || !is_front_page() || strpos($c, 'abu-pr-blok') !== false) { return $c; }
+    $st = array(
+        array('restorani-bihac', 'Restorani u Bihaću', 'Riba iz Une, travnički ćevapi, pizza i domaća jela.'),
+        array('nocni-zivot-bihac', 'Noćni život', 'Barovi na obali Une, ljetne terase i klubovi.'),
+        array('rafting-na-uni', 'Rafting na Uni', 'Spust kroz kanjon uz skipera, s ručkom uz rijeku.'),
+        array('cesta-pitanja', 'Česta pitanja', '1000 odgovora o Bihaću, NP Una, Plitvicama i smještaju.'),
+    );
+    $h = '<style>.abu-pr-blok{margin:32px 0}.abu-pr-blok h2{margin:0 0 14px}.abu-pr-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.abu-pr-k{display:block;padding:18px;border-radius:14px;background:#f6f8f4;color:inherit!important;text-decoration:none;border:1px solid #e5e9e2}.abu-pr-k:hover{border-color:#14532d}.abu-pr-k strong{display:block;font-size:17px;margin-bottom:6px;color:#14532d}.abu-pr-k span{font-size:14px;color:#444}</style>'
+        . '<section class="abu-pr-blok"><h2>Naše preporuke za Bihać</h2><div class="abu-pr-g">';
+    foreach ($st as $s) {
+        $p = get_page_by_path($s[0]);
+        if (!$p || $p->post_status !== 'publish') { continue; }
+        $h .= '<a class="abu-pr-k" href="' . esc_url(get_permalink($p)) . '"><strong>' . esc_html($s[1]) . '</strong><span>' . esc_html($s[2]) . '</span></a>';
+    }
+    return $c . $h . '</div></section>';
+}, 25);
