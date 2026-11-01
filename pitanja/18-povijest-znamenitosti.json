@@ -1,42 +1,162 @@
 [
-{"q": "Koje su glavne znamenitosti u Bihaću?", "a": "Glavne znamenitosti u središtu Bihaća su Kapetanova kula s muzejom, Fethija džamija, ostaci crkve sv. Ante Padovanskog s visokim tornjem i turbe, a sve su međusobno blizu. U okolici su tvrđava Sokolac, Japodski otoci u Račiću i Ostrožac kod Cazina. Uz to, sam grad na otocima i brzacima Une jedna je od najljepših slika Bihaća."},
-{"q": "Koliko je star grad Bihać?", "a": "Bihać se prvi put spominje 26. februara 1260. godine u povelji ugarsko-hrvatskog kralja Bele IV. Dvije godine poslije, 1262., Bela IV. dao mu je status slobodnog kraljevskog grada. Područje je naseljeno i mnogo ranije, još u doba Japoda, ilirskog naroda koji je živio uz Unu u prvom tisućljeću prije nove ere."},
-{"q": "Šta je Kapetanova kula u Bihaću?", "a": "Kapetanova kula je kamena kula u središtu Bihaća, jedan od najstarijih sačuvanih objekata u gradu. Ime je dobila po gradskom kapetanu koji je stanovao na najvišem katu, a u austrougarsko vrijeme i kasnije služila je kao zatvor. Godine 1972. pretvorena je u muzej, a posljednja obnova završena je 2021."},
-{"q": "Kada je izgrađena Kapetanova kula?", "a": "Točan datum izgradnje Kapetanove kule nije poznat, a povjesničari se ne slažu: dio njih je smješta u srednji vijek, a dio u rano osmansko razdoblje. Sigurno je da je dio stare bihaćke tvrđave i da je stoljećima imala obrambenu, a poslije zatvorsku ulogu. Danas je u njoj muzejska postavka o povijesti kraja."},
-{"q": "Šta se može vidjeti u muzeju u Kapetanovoj kuli?", "a": "U Kapetanovoj kuli nalazi se nekoliko stalnih postavki koje pokrivaju razdoblje od prapovijesti do austrougarskog doba. Na jednom katu prikazana je duhovna i materijalna kultura Japoda, na drugom antički gradovi Unsko-sanskog kantona, a na vrhu je uređena kapetanova divanhana. S vrha kule pruža se pogled na stari dio grada i Unu."},
-{"q": "Kada radi muzej u Kapetanovoj kuli?", "a": "Muzej u Kapetanovoj kuli obično radi radnim danima prijepodne i ranim popodnevom, subotom kraće, a nedjeljom je uglavnom zatvoren. Radno vrijeme i cijena ulaznice mogu se mijenjati, posebno izvan sezone. Prije posjete provjerite aktualne informacije kod Muzeja Unsko-sanskog kantona."},
-{"q": "Šta je Fethija džamija?", "a": "Fethija džamija u Bihaću izvorno je bila katolička crkva sv. Ante Padovanskog, sagrađena 1266. godine u gotičkom stilu. Nakon osmanskog osvajanja Bihaća 1592. godine pretvorena je u džamiju i dobila ime Fethija, što znači osvajanje. Smatra se jednom od najstarijih gotičkih građevina u Bosni i Hercegovini i zaštićenim je nacionalnim spomenikom."},
-{"q": "Zašto Fethija džamija izgleda kao crkva?", "a": "Fethija džamija izgleda kao crkva jer je to izvorno i bila: gotička crkva sv. Ante iz 13. stoljeća, pretvorena u džamiju 1592. godine. Sačuvali su se gotički prozori, portal i rozeta, što je rijetkost među džamijama. Stari gotički zvonik služio je kao minaret do 1863., kada je zbog dotrajalosti srušen i zamijenjen novim minaretom."},
-{"q": "Može li se posjetiti Fethija džamija?", "a": "Fethija je aktivna džamija i u pravilu se može razgledati izvana, a ulazak ovisi o vremenu molitve i dopuštenju. Početkom 2026. godine najavljena je njezina cjelovita obnova, pa unutrašnjost u nekom razdoblju može biti zatvorena. Ako ulazite, obucite se pristojno i izujte se, a žene se obično pokriju maramom."},
-{"q": "Šta je ostalo od crkve sv. Ante u centru Bihaća?", "a": "Od katoličke crkve sv. Ante Padovanskog u centru Bihaća ostali su visoki toranj i dijelovi zidova. Crkva je dovršena krajem 19. stoljeća, a uništena u bombardiranju 1943. godine, kada je stradao velik dio središta grada. Ruševina stoji uz Kapetanovu kulu i Fethiju i jedan je od prepoznatljivih prizora Bihaća."},
-{"q": "Je li toranj u centru Bihaća od Fethije ili od druge crkve?", "a": "Visoki toranj u centru Bihaća pripada ruševini novije katoličke crkve sv. Ante Padovanskog, sagrađene za austrougarske uprave i uništene 1943. godine. To nije zvonik Fethije: Fethija je stara gotička crkva iz 1266., danas džamija s minaretom. Obje građevine nose ime sv. Ante, pa ih posjetitelji često zamijene."},
-{"q": "Šta je turbe u Bihaću?", "a": "Turbe u Bihaću je mali osmanski nadgrobni spomenik, mauzolej, u središtu grada uz Kapetanovu kulu i Fethiju. Zajedno s njima čini povijesnu cjelinu staroga grada. Razgledava se izvana, a obilazak svih tih znamenitosti zajedno traje manje od sat vremena."},
-{"q": "Kada su Osmanlije osvojile Bihać?", "a": "Osmanlije su osvojile Bihać u junu 1592. godine, nakon opsade koja je trajala oko deset dana. Grad je potom bio važna osmanska utvrda na granici prema Habsburškoj Monarhiji gotovo tri stoljeća. Tada je crkva sv. Ante pretvorena u Fethija džamiju."},
-{"q": "Kada je Bihać došao pod Austro-Ugarsku?", "a": "Osmanska vlast u Bihaću završila je 1878. godine, nakon Berlinskog kongresa, kada je Austro-Ugarska preuzela upravu nad Bosnom i Hercegovinom. U tom razdoblju grad je dobio nove javne zgrade, katoličku crkvu sv. Ante i modernije uređene ulice. Kapetanova kula tada je pretvorena u zatvor."},
-{"q": "Šta je AVNOJ i kakve veze ima s Bihaćem?", "a": "AVNOJ je Antifašističko vijeće narodnog oslobođenja Jugoslavije, čije je Prvo zasjedanje održano u Bihaću 26. i 27. novembra 1942. godine. Tada je grad bio pod kontrolom partizana, a to razdoblje zove se Bihaćka republika. Drugo zasjedanje AVNOJ-a održano je godinu dana poslije, 29. i 30. novembra 1943., u Jajcu."},
-{"q": "Šta je Bihaćka republika?", "a": "Bihaćka republika je naziv za veliko područje koje su partizani držali krajem 1942. i početkom 1943. godine, sa središtem u Bihaću. Grad je oslobođen početkom novembra 1942., a u njemu je 26. i 27. novembra održano Prvo zasjedanje AVNOJ-a. Područje je napušteno krajem januara 1943. pred njemačkom ofenzivom."},
-{"q": "Postoji li muzej AVNOJ-a u Bihaću?", "a": "Nekadašnji Muzej Prvog zasjedanja AVNOJ-a 1964. godine spojen je s gradskim muzejom, a danas je ta građa dio Muzeja Unsko-sanskog kantona u Bihaću. Muzej ima povijesni, arheološki, etnološki i umjetnički odjel. Za aktualne izložbe i radno vrijeme obratite se izravno muzeju."},
-{"q": "Ko su bili Japodi?", "a": "Japodi su bili ilirski narod koji je otprilike u posljednjem tisućljeću prije nove ere živio na širem području srednjeg toka Une, u današnjoj Lici, Gorskom kotaru i dijelu Slovenije. Gradili su naselja uz rijeku, bavili se ribolovom, a poslije su ih pokorili Rimljani. U okolici Bihaća pronađeni su njihovi grobovi, nakit od jantara i ukrašene urne."},
-{"q": "Gdje su pronađene japodske urne?", "a": "Japodske urne su ukrašene kamene posude za pepeo pokojnika, pronađene na nekropolama u okolici Bihaća, a prva je otkrivena 1890. godine u nekropoli Jezerine. Ukrašene su likovima ljudi i životinja i datiraju od otprilike 5. stoljeća prije nove ere do rimskog doba. Najpoznatija zbirka čuva se u Zemaljskom i Historijskom muzeju u Sarajevu, a dio japodske građe izložen je i u Bihaću."},
-{"q": "Šta su sojenice kod Ripča?", "a": "Kod Ripča, oko 5 km od Bihaća, pronađeni su ostaci prapovijesnog naselja sojenica, kuća od drveta podignutih nad rijekom na hrastovim stupovima zabijenim u dno. Takva naselja rijetka su na Balkanu i u Europi. Ripač je na putu prema NP Una, pa se lako uklapa u izlet uz rijeku."},
-{"q": "Šta su Japodski otoci?", "a": "Japodski otoci su izletište u Račiću kod Bihaća, na nekoliko riječnih otoka na Uni povezanih mostićima, uz rub NP Una. Ime su dobili po Japodima, a na otocima su postavljene skulpture koje ih prikazuju. Tu su restoran, smještaj, šetnice i polazište za rafting, a od centra Bihaća udaljeni su oko 15 km."},
-{"q": "Šta je stari grad Sokolac?", "a": "Sokolac je srednjovjekovna tvrđava na brdu iznad istoimenog sela, nekoliko kilometara južno od Bihaća, na cesti prema NP Una i Štrbačkom buku. Prvi put se spominje krajem 14. stoljeća i proglašen je nacionalnim spomenikom BiH. Nakon obnove otvorena je za posjetitelje 2015. godine, a s nje se vidi Bihać i dolina Une."},
-{"q": "Kako doći do tvrđave Sokolac?", "a": "Tvrđava Sokolac je oko 5 km južno od centra Bihaća, a do nje se dolazi automobilom cestom prema NP Una ili pješice planinarskom stazom za otprilike sat vremena. Od parkirališta do vrha je kratak uspon. Ako odsjedate u Lohovu, Sokolac vam je usput kad idete prema Štrbačkom buku."},
-{"q": "Šta je Ostrožac?", "a": "Ostrožac je utvrda i dvorac iznad rijeke Une kod Cazina, oko 17 km sjeverno od Bihaća. Građen je u više razdoblja: srednjovjekovna utvrda iz 13. stoljeća, osmanski dio i dvorac koji je između 1900. i 1906. godine obnovio Lothar von Berks. U dvorištu se nalazi park s više od 150 kamenih skulptura, a cjelina je od 2013. nacionalni spomenik."},
-{"q": "Ko je bio Lothar von Berks?", "a": "Lothar von Berks bio je austrougarski upravitelj Bihaća koji je početkom 20. stoljeća, između 1900. i 1906., preuredio dvorac Ostrožac kod Cazina. Prema predaji, dvorac je obnovio kao dar svojoj supruzi. Zahvaljujući tom preuređenju Ostrožac danas ima izgled romantičnog dvorca, a ne samo tvrđave."},
-{"q": "Šta je kiparska kolonija u Ostrošcu?", "a": "U dvorištu Ostrošca više od pola stoljeća održava se kiparska kolonija u kojoj kipari klešu skulpture od bihacita, lokalnog kamena. Do danas je u dvorištu ostalo više od 150 skulptura, pa je nastao park skulptura na otvorenom. Skulpture su sastavni dio zaštićenog nacionalnog spomenika."},
-{"q": "Je li Bihać bio pod opsadom u ratu devedesetih?", "a": "Da, Bihać je tijekom rata u Bosni i Hercegovini bio pod opsadom oko tri godine, od 1992. do 1995. godine. Opsada je završila u augustu 1995. godine. Danas je grad obnovljen i miran, a o tom razdoblju svjedoče spomen-obilježja u gradu."},
-{"q": "Koliko stanovnika ima Bihać?", "a": "Prema popisu iz 2013. godine, Grad Bihać imao je oko 56.000 stanovnika, od čega oko 43.000 u samom gradskom području. Bihać je središte Unsko-sanskog kantona i najveći grad na rijeci Uni. Smješten je na otprilike 230 m nadmorske visine."},
-{"q": "Zašto Bihać leži na otocima?", "a": "Rijeka Una kroz Bihać teče u više rukavaca, oko otoka i preko malih kaskada, pa je grad dijelom izgrađen na riječnim otocima. U najstarijoj povelji iz 1260. godine Bihać se spominje kao grad na otoku sv. Ladislava. Ti rukavci i mostovi i danas daju posebnost središtu grada."},
-{"q": "Mogu li razgledati stari grad Bihać pješice?", "a": "Da, povijesno središte Bihaća s Kapetanovom kulom, Fethijom, ruševinom crkve sv. Ante i turbetom obilazi se pješice za sat do dva, uz šetnju uz Unu. Sve je na maloj udaljenosti i ravnom terenu. Ako odsjedate u našim apartmanima u centru, do starog grada stižete za nekoliko minuta hoda."},
-{"q": "Je li Bihać bio slobodni kraljevski grad?", "a": "Da, kralj Bela IV. proglasio je Bihać slobodnim kraljevskim gradom 1262. godine, pod izravnom vlašću ugarsko-hrvatske krune. Prema lokalnoj predaji, kralj se u Bihaću sklanjao pred Tatarima, pa je grad nagradio povlasticama. Tijekom srednjeg vijeka Bihać je bio važno središte hrvatskog kraljevstva."},
-{"q": "Ima li u Bihaću tragova rimskog doba?", "a": "Da, na području Unsko-sanskog kantona postoje ostaci antičkih naselja i rimski nalazi, a dio ih je prikazan u postavci o antičkim gradovima u Kapetanovoj kuli. Rimljani su pokorili Japode i uključili ovaj kraj u svoju provinciju. Vidljivih rimskih građevina u samom Bihaću nema mnogo, pa je muzej najbolje mjesto za upoznavanje tog razdoblja."},
-{"q": "Koja je najstarija građevina u Bihaću?", "a": "Najstarija sigurno datirana građevina u Bihaću je Fethija džamija, nekadašnja gotička crkva sv. Ante iz 1266. godine. Kapetanova kula je također vrlo stara, ali njezina točna starost nije utvrđena. Obje su u samom središtu grada, na nekoliko koraka jedna od druge."},
-{"q": "Šta je Ostrovica kod Kulen Vakufa?", "a": "Ostrovica je srednjovjekovna i osmanska tvrđava na brdu iznad Kulen Vakufa, na jugu bihaćkog područja uz Unu. S nje se pruža širok pogled na dolinu Une i naselje ispod. Do nje vodi strma staza, pa ponesite dobru obuću i vodu."},
-{"q": "Je li Ripač važan povijesno?", "a": "Ripač je povijesno važan kao nalazište prapovijesnog japodskog naselja sojenica i kao srednjovjekovna utvrda koju su Habsburgovci branili od Osmanlija u 16. stoljeću. Danas je selo uz Unu na putu od Bihaća prema NP Una. Restorani uz rijeku čine ga ugodnim mjestom za kratku stanicu."},
-{"q": "Kakav je doprinos Bihaća u Drugom svjetskom ratu?", "a": "Bihać je u Drugom svjetskom ratu imao posebnu ulogu jer je u njemu u novembru 1942. održano Prvo zasjedanje AVNOJ-a, temelj buduće jugoslavenske federacije. Grad je bio teško oštećen bombardiranjima, osobito 1943. godine, kada je uništena i crkva sv. Ante. Taj dio povijesti prikazan je u Muzeju Unsko-sanskog kantona."},
-{"q": "Koliko vremena treba za obilazak znamenitosti u Bihaću?", "a": "Za središte Bihaća s Kapetanovom kulom, Fethijom i šetnjom uz Unu dovoljno je pola dana. Ako dodate Sokolac i Japodske otoke, treba vam cijeli dan, a s Ostrošcem i Štrbačkim bukom dva dana. Zato većina gostiju ostaje dva do tri noćenja, a na apartmanibihac.com cijeli apartman dobijete već od 25 € (50 KM) po noći, po cijeni sobe."},
-{"q": "Postoji li vođeni obilazak Bihaća?", "a": "Vođeni obilasci Bihaća povremeno se organiziraju preko lokalnih turističkih agencija i turističke zajednice, posebno u sezoni. Ponuda i cijene se mijenjaju, pa ih treba provjeriti unaprijed. Ako želite, javite nam se na WhatsApp/Viber +387 61 591 320 i pomoći ćemo vam pronaći aktualnu ponudu."},
-{"q": "Šta je Bihaćka pivovara?", "a": "Bihaćka pivovara je lokalna pivovara poznata po pivu Preminger, koje se toči u većini kafića i restorana u gradu. Industrijska proizvodnja piva u Bihaću ima dugu tradiciju i dio je identiteta grada. Pivo je najlakše probati u bilo kojem kafiću uz Unu."},
-{"q": "Je li stari grad Ostrožac otvoren za posjetitelje?", "a": "Ostrožac je moguće posjetiti, a dvorište s parkom skulptura najčešće je otvoreno za razgled, dok su pojedini dijelovi dvorca u obnovi. Grad Cazin osigurao je sredstva za obnovu dvorca Lothara von Berksa, pa se uvjeti posjete mogu mijenjati. Prije polaska provjerite aktualno stanje kod Turističke zajednice ili Grada Cazina."}
+ {
+  "q": "Koje su glavne znamenitosti u Bihaću?",
+  "a": "Glavne znamenitosti u središtu Bihaća su Kapetanova kula s muzejom, Fethija džamija, ostaci crkve sv. Ante Padovanskog s visokim tornjem i turbe, a sve su međusobno blizu. U okolici su tvrđava Sokolac, Japodski otoci u Račiću i Ostrožac kod Cazina. Uz to, sam grad na otocima i brzacima Une jedna je od najljepših slika Bihaća."
+ },
+ {
+  "q": "Koliko je star grad Bihać?",
+  "a": "Bihać se prvi put spominje 26. februara 1260. godine u povelji ugarsko-hrvatskog kralja Bele IV. Dvije godine poslije, 1262., Bela IV. dao mu je status slobodnog kraljevskog grada. Područje je naseljeno i mnogo ranije, još u doba Japoda, ilirskog naroda koji je živio uz Unu u prvom tisućljeću prije nove ere."
+ },
+ {
+  "q": "Šta je Kapetanova kula u Bihaću?",
+  "a": "Kapetanova kula je kamena kula u središtu Bihaća, jedan od najstarijih sačuvanih objekata u gradu. Ime je dobila po gradskom kapetanu koji je stanovao na najvišem katu, a u austrougarsko vrijeme i kasnije služila je kao zatvor. Godine 1972. pretvorena je u muzej, a posljednja obnova završena je 2021."
+ },
+ {
+  "q": "Kada je izgrađena Kapetanova kula?",
+  "a": "Točan datum izgradnje Kapetanove kule nije poznat, a povjesničari se ne slažu: dio njih je smješta u srednji vijek, a dio u rano osmansko razdoblje. Sigurno je da je dio stare bihaćke tvrđave i da je stoljećima imala obrambenu, a poslije zatvorsku ulogu. Danas je u njoj muzejska postavka o povijesti kraja."
+ },
+ {
+  "q": "Šta se može vidjeti u muzeju u Kapetanovoj kuli?",
+  "a": "U Kapetanovoj kuli nalazi se nekoliko stalnih postavki koje pokrivaju razdoblje od prapovijesti do austrougarskog doba. Na jednom katu prikazana je duhovna i materijalna kultura Japoda, na drugom antički gradovi Unsko-sanskog kantona, a na vrhu je uređena kapetanova divanhana. S vrha kule pruža se pogled na stari dio grada i Unu."
+ },
+ {
+  "q": "Kada radi muzej u Kapetanovoj kuli?",
+  "a": "Muzej u Kapetanovoj kuli obično radi radnim danima prijepodne i ranim popodnevom, subotom kraće, a nedjeljom je uglavnom zatvoren. Radno vrijeme i cijena ulaznice mogu se mijenjati, posebno izvan sezone. Prije posjete provjerite aktualne informacije kod Muzeja Unsko-sanskog kantona. Kula je u starom dijelu grada, nekoliko koraka od Fethije."
+ },
+ {
+  "q": "Šta je Fethija džamija?",
+  "a": "Fethija džamija u Bihaću izvorno je bila katolička crkva sv. Ante Padovanskog, sagrađena 1266. godine u gotičkom stilu. Nakon osmanskog osvajanja Bihaća 1592. godine pretvorena je u džamiju i dobila ime Fethija, što znači osvajanje. Smatra se jednom od najstarijih gotičkih građevina u Bosni i Hercegovini i zaštićenim je nacionalnim spomenikom."
+ },
+ {
+  "q": "Zašto Fethija džamija izgleda kao crkva?",
+  "a": "Fethija džamija izgleda kao crkva jer je to izvorno i bila: gotička crkva sv. Ante iz 13. stoljeća, pretvorena u džamiju 1592. godine. Sačuvali su se gotički prozori, portal i rozeta, što je rijetkost među džamijama. Stari gotički zvonik služio je kao minaret do 1863., kada je zbog dotrajalosti srušen i zamijenjen novim minaretom."
+ },
+ {
+  "q": "Može li se posjetiti Fethija džamija?",
+  "a": "Fethija je aktivna džamija i u pravilu se može razgledati izvana, a ulazak ovisi o vremenu molitve i dopuštenju. Početkom 2026. godine najavljena je njezina cjelovita obnova, pa unutrašnjost u nekom razdoblju može biti zatvorena. Ako ulazite, obucite se pristojno i izujte se, a žene se obično pokriju maramom."
+ },
+ {
+  "q": "Šta je ostalo od crkve sv. Ante u centru Bihaća?",
+  "a": "Od katoličke crkve sv. Ante Padovanskog u centru Bihaća ostali su visoki toranj i dijelovi zidova. Crkva je dovršena krajem 19. stoljeća, a uništena u bombardiranju 1943. godine, kada je stradao velik dio središta grada. Ruševina stoji uz Kapetanovu kulu i Fethiju i jedan je od prepoznatljivih prizora Bihaća."
+ },
+ {
+  "q": "Je li toranj u centru Bihaća od Fethije ili od druge crkve?",
+  "a": "Visoki toranj u centru Bihaća pripada ruševini novije katoličke crkve sv. Ante Padovanskog, sagrađene za austrougarske uprave i uništene 1943. godine. To nije zvonik Fethije: Fethija je stara gotička crkva iz 1266., danas džamija s minaretom. Obje građevine nose ime sv. Ante, pa ih posjetitelji često zamijene."
+ },
+ {
+  "q": "Šta je turbe u Bihaću?",
+  "a": "Turbe u Bihaću je mali osmanski nadgrobni spomenik, mauzolej, u središtu grada uz Kapetanovu kulu i Fethiju. Zajedno s njima čini povijesnu cjelinu staroga grada. Razgledava se izvana, a obilazak svih tih znamenitosti zajedno traje manje od sat vremena. Najbolje ga je posjetiti uz šetnju starim gradom."
+ },
+ {
+  "q": "Kada su Osmanlije osvojile Bihać?",
+  "a": "Osmanlije su osvojile Bihać u junu 1592. godine, nakon opsade koja je trajala oko deset dana. Grad je potom bio važna osmanska utvrda na granici prema Habsburškoj Monarhiji gotovo tri stoljeća. Tada je crkva sv. Ante pretvorena u Fethija džamiju."
+ },
+ {
+  "q": "Kada je Bihać došao pod Austro-Ugarsku?",
+  "a": "Osmanska vlast u Bihaću završila je 1878. godine, nakon Berlinskog kongresa, kada je Austro-Ugarska preuzela upravu nad Bosnom i Hercegovinom. U tom razdoblju grad je dobio nove javne zgrade, katoličku crkvu sv. Ante i modernije uređene ulice. Kapetanova kula tada je pretvorena u zatvor."
+ },
+ {
+  "q": "Šta je AVNOJ i kakve veze ima s Bihaćem?",
+  "a": "AVNOJ je Antifašističko vijeće narodnog oslobođenja Jugoslavije, čije je Prvo zasjedanje održano u Bihaću 26. i 27. novembra 1942. godine. Tada je grad bio pod kontrolom partizana, a to razdoblje zove se Bihaćka republika. Drugo zasjedanje AVNOJ-a održano je godinu dana poslije, 29. i 30. novembra 1943., u Jajcu."
+ },
+ {
+  "q": "Šta je Bihaćka republika?",
+  "a": "Bihaćka republika je naziv za veliko područje koje su partizani držali krajem 1942. i početkom 1943. godine, sa središtem u Bihaću. Grad je oslobođen početkom novembra 1942., a u njemu je 26. i 27. novembra održano Prvo zasjedanje AVNOJ-a. Područje je napušteno krajem januara 1943. pred njemačkom ofenzivom."
+ },
+ {
+  "q": "Postoji li muzej AVNOJ-a u Bihaću?",
+  "a": "Nekadašnji Muzej Prvog zasjedanja AVNOJ-a 1964. godine spojen je s gradskim muzejom, a danas je ta građa dio Muzeja Unsko-sanskog kantona u Bihaću. Muzej ima povijesni, arheološki, etnološki i umjetnički odjel. Za aktualne izložbe i radno vrijeme obratite se izravno muzeju."
+ },
+ {
+  "q": "Ko su bili Japodi?",
+  "a": "Japodi su bili ilirski narod koji je otprilike u posljednjem tisućljeću prije nove ere živio na širem području srednjeg toka Une, u današnjoj Lici, Gorskom kotaru i dijelu Slovenije. Gradili su naselja uz rijeku, bavili se ribolovom, a poslije su ih pokorili Rimljani. U okolici Bihaća pronađeni su njihovi grobovi, nakit od jantara i ukrašene urne."
+ },
+ {
+  "q": "Gdje su pronađene japodske urne?",
+  "a": "Japodske urne su ukrašene kamene posude za pepeo pokojnika, pronađene na nekropolama u okolici Bihaća, a prva je otkrivena 1890. godine u nekropoli Jezerine. Ukrašene su likovima ljudi i životinja i datiraju od otprilike 5. stoljeća prije nove ere do rimskog doba. Najpoznatija zbirka čuva se u Zemaljskom i Historijskom muzeju u Sarajevu, a dio japodske građe izložen je i u Bihaću."
+ },
+ {
+  "q": "Šta su sojenice kod Ripča?",
+  "a": "Kod Ripča, oko 5 km od Bihaća, pronađeni su ostaci prapovijesnog naselja sojenica, kuća od drveta podignutih nad rijekom na hrastovim stupovima zabijenim u dno. Takva naselja rijetka su na Balkanu i u Europi. Ripač je na putu prema NP Una, pa se lako uklapa u izlet uz rijeku."
+ },
+ {
+  "q": "Šta su Japodski otoci?",
+  "a": "Japodski otoci su izletište u Račiću kod Bihaća, na nekoliko riječnih otoka na Uni povezanih mostićima, uz rub NP Una. Ime su dobili po Japodima, a na otocima su postavljene skulpture koje ih prikazuju. Tu su restoran, smještaj, šetnice i polazište za rafting, a od centra Bihaća udaljeni su oko 15 km."
+ },
+ {
+  "q": "Šta je stari grad Sokolac?",
+  "a": "Sokolac je srednjovjekovna tvrđava na brdu iznad istoimenog sela, nekoliko kilometara južno od Bihaća, na cesti prema NP Una i Štrbačkom buku. Prvi put se spominje krajem 14. stoljeća i proglašen je nacionalnim spomenikom BiH. Nakon obnove otvorena je za posjetitelje 2015. godine, a s nje se vidi Bihać i dolina Une."
+ },
+ {
+  "q": "Kako doći do tvrđave Sokolac?",
+  "a": "Tvrđava Sokolac je oko 5 km južno od centra Bihaća, a do nje se dolazi automobilom cestom prema NP Una ili pješice planinarskom stazom za otprilike sat vremena. Od parkirališta do vrha je kratak uspon. Ako odsjedate u Lohovu, Sokolac vam je usput kad idete prema Štrbačkom buku."
+ },
+ {
+  "q": "Šta je Ostrožac?",
+  "a": "Ostrožac je utvrda i dvorac iznad rijeke Une kod Cazina, oko 17 km sjeverno od Bihaća. Građen je u više razdoblja: srednjovjekovna utvrda iz 13. stoljeća, osmanski dio i dvorac koji je između 1900. i 1906. godine obnovio Lothar von Berks. U dvorištu se nalazi park s više od 150 kamenih skulptura, a cjelina je od 2013. nacionalni spomenik."
+ },
+ {
+  "q": "Ko je bio Lothar von Berks?",
+  "a": "Lothar von Berks bio je austrougarski upravitelj Bihaća koji je početkom 20. stoljeća, između 1900. i 1906., preuredio dvorac Ostrožac kod Cazina. Prema predaji, dvorac je obnovio kao dar svojoj supruzi. Zahvaljujući tom preuređenju Ostrožac danas ima izgled romantičnog dvorca, a ne samo tvrđave."
+ },
+ {
+  "q": "Šta je kiparska kolonija u Ostrošcu?",
+  "a": "U dvorištu Ostrošca više od pola stoljeća održava se kiparska kolonija u kojoj kipari klešu skulpture od bihacita, lokalnog kamena. Do danas je u dvorištu ostalo više od 150 skulptura, pa je nastao park skulptura na otvorenom. Skulpture su sastavni dio zaštićenog nacionalnog spomenika."
+ },
+ {
+  "q": "Je li Bihać bio pod opsadom u ratu devedesetih?",
+  "a": "Da, Bihać je tijekom rata u Bosni i Hercegovini bio pod opsadom oko tri godine, od 1992. do 1995. godine. Opsada je završila u augustu 1995. godine. Danas je grad obnovljen i miran, a o tom razdoblju svjedoče spomen-obilježja u gradu."
+ },
+ {
+  "q": "Koliko stanovnika ima Bihać?",
+  "a": "Prema popisu iz 2013. godine, Grad Bihać imao je oko 56.000 stanovnika, od čega oko 43.000 u samom gradskom području. Bihać je središte Unsko-sanskog kantona i najveći grad na rijeci Uni. Smješten je na otprilike 230 m nadmorske visine. Kroz grad teče rijeka Una, koja mu daje prepoznatljiv izgled."
+ },
+ {
+  "q": "Zašto Bihać leži na otocima?",
+  "a": "Rijeka Una kroz Bihać teče u više rukavaca, oko otoka i preko malih kaskada, pa je grad dijelom izgrađen na riječnim otocima. U najstarijoj povelji iz 1260. godine Bihać se spominje kao grad na otoku sv. Ladislava. Ti rukavci i mostovi i danas daju posebnost središtu grada."
+ },
+ {
+  "q": "Mogu li razgledati stari grad Bihać pješice?",
+  "a": "Da, povijesno središte Bihaća s Kapetanovom kulom, Fethijom, ruševinom crkve sv. Ante i turbetom obilazi se pješice za sat do dva, uz šetnju uz Unu. Sve je na maloj udaljenosti i ravnom terenu. Ako odsjedate u našim apartmanima u centru, do starog grada stižete za nekoliko minuta hoda."
+ },
+ {
+  "q": "Je li Bihać bio slobodni kraljevski grad?",
+  "a": "Da, kralj Bela IV. proglasio je Bihać slobodnim kraljevskim gradom 1262. godine, pod izravnom vlašću ugarsko-hrvatske krune. Prema lokalnoj predaji, kralj se u Bihaću sklanjao pred Tatarima, pa je grad nagradio povlasticama. Tijekom srednjeg vijeka Bihać je bio važno središte hrvatskog kraljevstva."
+ },
+ {
+  "q": "Ima li u Bihaću tragova rimskog doba?",
+  "a": "Da, na području Unsko-sanskog kantona postoje ostaci antičkih naselja i rimski nalazi, a dio ih je prikazan u postavci o antičkim gradovima u Kapetanovoj kuli. Rimljani su pokorili Japode i uključili ovaj kraj u svoju provinciju. Vidljivih rimskih građevina u samom Bihaću nema mnogo, pa je muzej najbolje mjesto za upoznavanje tog razdoblja."
+ },
+ {
+  "q": "Koja je najstarija građevina u Bihaću?",
+  "a": "Najstarija sigurno datirana građevina u Bihaću je Fethija džamija, nekadašnja gotička crkva sv. Ante iz 1266. godine. Kapetanova kula je također vrlo stara, ali njezina točna starost nije utvrđena. Obje su u samom središtu grada, na nekoliko koraka jedna od druge."
+ },
+ {
+  "q": "Šta je Ostrovica kod Kulen Vakufa?",
+  "a": "Ostrovica je srednjovjekovna i osmanska tvrđava na brdu iznad Kulen Vakufa, na jugu bihaćkog područja uz Unu. S nje se pruža širok pogled na dolinu Une i naselje ispod. Do nje vodi strma staza, pa ponesite dobru obuću i vodu."
+ },
+ {
+  "q": "Je li Ripač važan povijesno?",
+  "a": "Ripač je povijesno važan kao nalazište prapovijesnog japodskog naselja sojenica i kao srednjovjekovna utvrda koju su Habsburgovci branili od Osmanlija u 16. stoljeću. Danas je selo uz Unu na putu od Bihaća prema NP Una. Restorani uz rijeku čine ga ugodnim mjestom za kratku stanicu."
+ },
+ {
+  "q": "Kakav je doprinos Bihaća u Drugom svjetskom ratu?",
+  "a": "Bihać je u Drugom svjetskom ratu imao posebnu ulogu jer je u njemu u novembru 1942. održano Prvo zasjedanje AVNOJ-a, temelj buduće jugoslavenske federacije. Grad je bio teško oštećen bombardiranjima, osobito 1943. godine, kada je uništena i crkva sv. Ante. Taj dio povijesti prikazan je u Muzeju Unsko-sanskog kantona."
+ },
+ {
+  "q": "Koliko vremena treba za obilazak znamenitosti u Bihaću?",
+  "a": "Za središte Bihaća s Kapetanovom kulom, Fethijom i šetnjom uz Unu dovoljno je pola dana. Ako dodate Sokolac i Japodske otoke, treba vam cijeli dan, a s Ostrošcem i Štrbačkim bukom dva dana. Zato većina gostiju ostaje dva do tri noćenja, a na apartmanibihac.com cijeli apartman dobijete već od 25 € (50 KM) po noći, po cijeni sobe."
+ },
+ {
+  "q": "Postoji li vođeni obilazak Bihaća?",
+  "a": "Vođeni obilasci Bihaća povremeno se organiziraju preko lokalnih turističkih agencija i turističke zajednice, posebno u sezoni. Ponuda i cijene se mijenjaju, pa ih treba provjeriti unaprijed. Ako želite, javite nam se na WhatsApp/Viber +387 61 591 320 i pomoći ćemo vam pronaći aktualnu ponudu."
+ },
+ {
+  "q": "Šta je Bihaćka pivovara?",
+  "a": "Bihaćka pivovara je lokalna pivovara poznata po pivu Preminger, koje se toči u većini kafića i restorana u gradu. Industrijska proizvodnja piva u Bihaću ima dugu tradiciju i dio je identiteta grada. Pivo je najlakše probati u bilo kojem kafiću uz Unu."
+ },
+ {
+  "q": "Je li stari grad Ostrožac otvoren za posjetitelje?",
+  "a": "Ostrožac je moguće posjetiti, a dvorište s parkom skulptura najčešće je otvoreno za razgled, dok su pojedini dijelovi dvorca u obnovi. Grad Cazin osigurao je sredstva za obnovu dvorca Lothara von Berksa, pa se uvjeti posjete mogu mijenjati. Prije polaska provjerite aktualno stanje kod Turističke zajednice ili Grada Cazina."
+ }
 ]

@@ -24,3 +24,10 @@
 - Ulaznice samo gotovinom u KM? (blog izvor).
 - Rafting kod Štrbačkog buka od 12 god. (jedan organizator) — uskladiti s temom 11 i 20.
 - Bazen ima samo Vila Enio; klima samo kod nekih apartmana.
+
+## 16–20
+- Udaljenosti procjene: Drvar ~90, Bos. Petrovac 50–55, V. Kladuša ~55, Štrbački buk ~30 km/45 min (tema 09 kaže 30–40 km), Izačić ~15 min.
+- Restorani na splavu u Ripču (River Dock) — rade li.
+- Japodske urne: Zemaljski ili Historijski muzej.
+- Bolt/Uber, dostava, pedijatri, hotelski bazeni, turistički vlak: nepotvrđeno.
+- Pitati Jasmina: dječji krevetić, ljubimci, ograđena dvorišta, roštilj po objektima; opis Japodske kućice.
