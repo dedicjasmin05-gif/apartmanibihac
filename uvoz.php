@@ -213,3 +213,17 @@ add_action('init', function () {
     update_option('abu_mig_placanje', 1);
     delete_transient('abu_mig_placanje_lock');
 }, 31);
+
+/* ---------- llms.txt: isključi Hostingerov generator (pokvarena slova) i obriši njegovu statičnu datoteku ---------- */
+function abu_llms_ocisti() {
+    $o = get_option('hostinger_tools');
+    if (is_array($o) && !empty($o['enable_llms_txt'])) { $o['enable_llms_txt'] = false; update_option('hostinger_tools', $o); }
+    $f = ABSPATH . 'llms.txt';
+    if (is_file($f) && strpos((string) file_get_contents($f, false, null, 0, 300), '(apartmanibihac.com)') === false) { @unlink($f); }
+}
+add_action('init', function () {
+    if (get_option('abu_mig_llms') === ABU_VER) { return; }
+    abu_llms_ocisti();
+    update_option('abu_mig_llms', ABU_VER);
+}, 32);
+add_action('save_post', function () { if (is_file(ABSPATH . 'llms.txt')) { abu_llms_ocisti(); } }, 999);
