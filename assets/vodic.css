@@ -74,8 +74,10 @@
 .tb-why span{color:#4A5E5C;font-size:.95rem}
 .tbf{background:#fff;border-radius:22px;padding:28px;box-shadow:0 1px 2px #0b2a2814,0 20px 50px -20px #0b2a2855;margin:20px 0 40px}
 .tbf h2{margin:0 0 4px}
-.tbf__step{border-top:1px solid #E3E8E2;padding:22px 0 6px}
-.tbf__step:first-of-type{border-top:0}
+.tbf__step{border:0;margin:0;min-width:0;padding:24px 0 8px;box-shadow:inset 0 1px 0 #E3E8E2}
+.tbf__step:first-of-type{box-shadow:none}
+.tbf__step>legend{float:left;width:100%;padding:0}
+.tbf__step>legend+*{clear:both}
 .tbf__h{display:flex;align-items:baseline;gap:10px;margin:0 0 4px;font:800 1.25rem/1.2 var(--display,system-ui)}
 .tbf__h i{font-style:normal;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#0E4F4C;color:#fff;font-size:.9rem;flex:none}
 .tbf__p{margin:0 0 14px;color:#4A5E5C}
@@ -100,3 +102,4 @@
 .tbf__err{background:#FBE7E4;border-radius:12px;padding:12px 16px;color:#8B2C1E;font-weight:600}
 .tb-hp{position:absolute;left:-9999px}
 @media(max-width:900px){.tb-why{grid-template-columns:1fr 1fr}.tbf{padding:18px;border-radius:16px}.tbf__row{grid-template-columns:1fr 1fr}.tbf__grid{grid-template-columns:1fr}}
+@media(max-width:720px){.tbf__sum{bottom:80px;flex-wrap:nowrap;padding:10px 10px 10px 14px}.tbf__sum .btn{min-height:42px;padding:.5em .9em;font-size:.92rem;white-space:nowrap}}
