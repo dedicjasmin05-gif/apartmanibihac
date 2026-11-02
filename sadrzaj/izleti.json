@@ -402,7 +402,20 @@
   "lat": 44.7667,
   "lng": 15.95,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Ripa%C4%8D.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Ripa%C4%8D.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Ripa%C4%8D_%28%C5%BDeljezni%C4%8Dki_kolodvor%29.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Ripa%C4%8D_%28%C5%BDeljezni%C4%8Dki_kolodvor%29.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://npuna.com/en/the-iapydes/",
    "https://en.wikipedia.org/wiki/Biha%c4%87",
@@ -460,7 +473,26 @@
   "lat": 44.7869,
   "lng": 15.9206,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una_Golubi%C4%87_-_panoramio.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_Golubi%C4%87_-_panoramio.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Golubic_RG22_%2810%29_%28cropped_twice%29.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Golubic_RG22_%2810%29_%28cropped_twice%29.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Kudin_most_Golubi%C4%87_Z-5972_1.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Kudin_most_Golubi%C4%87_Z-5972_1.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Golubi%C4%87_Mithraeum",
    "https://npuna.com/en/the-iapydes/"
@@ -514,7 +546,20 @@
   "lat": 44.786,
   "lng": 15.895,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Sokolac_-_kula_-_panoramio.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Sokolac_-_kula_-_panoramio.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Sokola%C4%8Dka_kula.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Sokola%C4%8Dka_kula.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://en.wikipedia.org/wiki/Sokolac_(fortress_near_Biha%C4%87)"
   ],
@@ -604,7 +649,14 @@
   "lat": 44.8147,
   "lng": 15.8692,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Most_Alije_Izetbegovica%2C_Bihac.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Most_Alije_Izetbegovica%2C_Bihac.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://en.wikipedia.org/wiki/Una_(Sava)",
    "https://www.panacomp.net/bihac/"
@@ -752,7 +804,20 @@
   "lat": 44.8134,
   "lng": 15.8699,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Bihac_turbe_interior_1.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Bihac_turbe_interior_1.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Biha%C4%87_%E2%80%93_Kapetanova_kula.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Biha%C4%87_%E2%80%93_Kapetanova_kula.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://en.wikipedia.org/wiki/Turbe_Mausoleum_(Biha%C4%87)",
    "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/",
@@ -869,7 +934,14 @@
   "lat": null,
   "lng": null,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Muslimske_nahrobni_kameny_u_Pecigradu%2C_Krajina.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Muslimske_nahrobni_kameny_u_Pecigradu%2C_Krajina.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.kulturnonaslijedjeusk.com/files/Cazin/Pecigrad.pdf",
    "https://www.johnbills.com/una-sana/cazin"
@@ -989,7 +1061,26 @@
   "lat": 44.8445,
   "lng": 16.1683,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Kru%C5%A1nica_01.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Kru%C5%A1nica_01.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Kru%C5%A1nica_03.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Kru%C5%A1nica_03.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Kru%C5%A1nica_04.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Kru%C5%A1nica_04.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://en.wikipedia.org/wiki/Vrelo_Kru%C5%A1nice",
    "https://johnbills.com/una-sana/bosanska-krupa",
@@ -1058,7 +1149,20 @@
   "lat": 44.657765,
   "lng": 16.00467,
   "web": "https://una-aquarius.com/rafting-on-una-river/",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/RAFTING.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:RAFTING.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/%C5%A0trba%C4%8Dki_Buk_-_panoramio.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:%C5%A0trba%C4%8Dki_Buk_-_panoramio.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://una-aquarius.com/rafting-on-una-river/",
    "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-za-2026.god_.-ENG.pdf",
@@ -1088,7 +1192,20 @@
   "lat": 44.4888,
   "lng": 16.1419,
   "web": "https://npuna.com",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una_Unac_Confluence.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_Unac_Confluence.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Martin_Brod_Bridge_1.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Martin_Brod_Bridge_1.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://npuna.com/wp-content/uploads/2020/03/RIBOLOV-ODLUKA-I-PRAVILA_2026_Ured-direktora.pdf",
    "https://en.wikipedia.org/wiki/Una_(Sava)",
@@ -1427,7 +1544,14 @@
   "lat": null,
   "lng": null,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Vrelo_Une.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Vrelo_Une.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.novilist.hr/?p=1048243",
    "https://en.wikipedia.org/wiki/Una_(Sava)"
