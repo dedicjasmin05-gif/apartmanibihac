@@ -1166,6 +1166,33 @@
    "kratko_de": "Zulfikar Handukić Zosko und Band aus Bihać für Feiern"
   },
   {
+   "slug": "tamburaski-sastav-bedem",
+   "ime": "Tamburaški sastav Bedem",
+   "grupa": "tamburaši",
+   "kratko_bs": "Tamburaši iz Bihaća (KUD Bedem), za ručak, večeru i proslavu",
+   "kratko_en": "Tamburica band from Bihać (KUD Bedem) for lunch, dinner and parties",
+   "kratko_de": "Tamburica-Band aus Bihać (KUD Bedem) für Essen und Feiern",
+   "youtube": "https://www.youtube.com/channel/UCtxOvriDc1OtpgGi4ej5TMA",
+   "slike": [],
+   "izvori": [
+    "https://www.rtvusk.ba/clanak/pobjeda-humanosti-koncert-tamburaskog-sastava-bedem-u-bihacu-za-djecu-centra-duga/14621"
+   ],
+   "provjeriti": ""
+  },
+  {
+   "slug": "dj-desh",
+   "ime": "DJ Desh",
+   "grupa": "DJ",
+   "kratko_bs": "DJ iz Bihaća, nastupa i na gradskom dočeku Nove godine",
+   "kratko_en": "DJ from Bihać, also plays the city New Year's Eve party",
+   "kratko_de": "DJ aus Bihać, auch beim städtischen Silvester",
+   "slike": [],
+   "izvori": [
+    "https://krajina.ba/bihac-priprema-novogodisnji-spektakl-kakav-regija-rijetko-vidja-devet-dana-besplatnih-koncerata-najvecih-muzickih-zvijezda/"
+   ],
+   "provjeriti": ""
+  },
+  {
    "slug": "dj-inis",
    "ime": "DJ Inis",
    "grupa": "DJ",
