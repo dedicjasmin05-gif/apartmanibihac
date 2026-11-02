@@ -151,6 +151,7 @@ add_action('init', function () {
     if (get_option('abu_vodic_ver') === $ver || get_transient('abu_vodic_lock')) { return; }
     set_transient('abu_vodic_lock', 1, 120);
     foreach (abu_vodic_def() as $k => $d) {
+        if (!abu_vodic_podaci($k)) { continue; }
         foreach ($d['put'] as $l => $put) { abu_vodic_stranica($put, $d['h1'][$l], $d['uvod'][$l], array('_abu_vodic' => $k, '_abu_vodic_lang' => $l)); }
     }
     update_option('abu_vodic_ver', $ver);
