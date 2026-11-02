@@ -175,7 +175,7 @@ function abu_vodic_tekuci() {
     if (!is_page()) { return null; }
     $id = get_queried_object_id();
     $k = get_post_meta($id, '_abu_vodic', true);
-    if (!$k || !isset(abu_vodic_def()[$k])) { return null; }
+    if (!$k || !isset(abu_vodic_def()[$k]) || !abu_vodic_podaci($k)) { return null; }
     return array($k, get_post_meta($id, '_abu_vodic_lang', true) ?: 'bs');
 }
 
