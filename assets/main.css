@@ -536,3 +536,9 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
 }
 .card__media, .ptiles a, .post-card a, .split__media, .promo__media { overflow: hidden; contain: paint; }
 img[sizes^="auto"] { contain-intrinsic-size: auto 300px; }
+/* 1.1.5: fade — slika se na desnom rubu stapa u bijelu karticu, tekst nikad ne dira sliku */
+@media (max-width: 720px) {
+  .news__item:not(:first-child) .news__img::after { content: ""; position: absolute; top: 0; bottom: 0; right: 0; width: 34px; background: linear-gradient(90deg, rgba(255,255,255,0), #fff 92%); pointer-events: none; z-index: 1; }
+  .news__item:not(:first-child) .news__b { padding-left: 18px; }
+}
+.news__item:first-child .news__img::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 40px; background: linear-gradient(180deg, rgba(255,255,255,0), #fff); pointer-events: none; }
