@@ -32,3 +32,7 @@ global $wpdb;
 echo 'objava s "kapar": ' . (int) $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_status='publish' AND post_content LIKE '%kapar%'") . PHP_EOL;
 $kc = wp_count_comments();
 echo 'komentari: na cekanju ' . $kc->moderated . ', spam ' . $kc->spam . ', odobreno ' . $kc->approved . ' | otvoreni postovi: ' . (int) $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE comment_status='open'") . ' | default ' . get_option('default_comment_status') . PHP_EOL;
+foreach (array('bihac', 'team-building', 'restorani', 'izlasci', 'izleti', 'smjestaj') as $k) { $t = get_term_by('slug', 'vijesti-' . $k, 'category'); echo 'vijesti-' . $k . ': ' . ($t ? $t->count : 'nema') . ' | '; }
+echo PHP_EOL . 'članci bez naslovne slike: ' . count(get_posts(array('post_type' => 'post', 'numberposts' => -1, 'fields' => 'ids', 'meta_query' => array(array('key' => '_thumbnail_id', 'compare' => 'NOT EXISTS'))))) . PHP_EOL;
+foreach (array('restorani-bihac', 'en/restaurants-bihac', 'de/restaurants-bihac', 'nocni-zivot-bihac', 'izleti-bihac', 'en/day-trips-bihac', 'rafting-na-uni', 'team-building-bihac', 'en/team-building-bihac', 'de/teambuilding-bihac') as $s) { $p = get_page_by_path($s); echo $s . ': ' . ($p ? $p->post_status : 'NEMA') . ' | '; }
+echo PHP_EOL;
