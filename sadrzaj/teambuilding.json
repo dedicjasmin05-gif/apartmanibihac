@@ -1112,7 +1112,14 @@
    "youtube": "",
    "telefon": "+387 61 137 581",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "lokalno:sadrzaj/slike/daj-krug-bike-club-1.jpg",
+     "izvor": "https://www.facebook.com/dajkrug/",
+     "licenca": "službena Facebook stranica",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/daj-krug-bike-club"
    ],

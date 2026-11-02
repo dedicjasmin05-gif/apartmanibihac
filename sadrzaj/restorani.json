@@ -1297,7 +1297,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "lokalno:sadrzaj/slike/slasticarna-sweets-1.jpg",
+    "izvor": "https://www.facebook.com/slasticarnasweets/",
+    "licenca": "službena Facebook stranica",
+    "autor": ""
+   },
+   {
+    "url": "lokalno:sadrzaj/slike/slasticarna-sweets-2.jpg",
+    "izvor": "https://www.facebook.com/slasticarnasweets/",
+    "licenca": "službena Facebook stranica",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.tourismbih.com/location/slasticarna-sweets/"
   ],

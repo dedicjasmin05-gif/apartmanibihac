@@ -497,7 +497,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "pon–sub 08:00–23:00, nedjeljom zatvoreno (prema In Your Pocket)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "lokalno:sadrzaj/slike/kafeterija-1.jpg",
+    "izvor": "https://www.facebook.com/Kafeterijabihac/",
+    "licenca": "službena Facebook stranica",
+    "autor": ""
+   },
+   {
+    "url": "lokalno:sadrzaj/slike/kafeterija-2.jpg",
+    "izvor": "https://www.facebook.com/Kafeterijabihac/",
+    "licenca": "službena Facebook stranica",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/kafeterija",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -598,12 +611,19 @@
   "lng": 15.870111,
   "telefon": "",
   "web": "",
-  "facebook": "https://www.facebook.com/FLASH-ART-124535748940769/",
+  "facebook": "https://www.facebook.com/profile.php?id=100063540303886",
   "instagram": "",
   "tripadvisor": "",
   "radno_vrijeme": "07:00–22:00 (prema In Your Pocket)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "lokalno:sadrzaj/slike/flash-art-bar-1.jpg",
+    "izvor": "https://www.facebook.com/profile.php?id=100063540303886",
+    "licenca": "službena Facebook stranica",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/flash-art-bar",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -744,7 +764,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "lokalno:sadrzaj/slike/caffe-bar-vuk-1.jpg",
+    "izvor": "https://www.facebook.com/VUKBihac/",
+    "licenca": "službena Facebook stranica",
+    "autor": ""
+   },
+   {
+    "url": "lokalno:sadrzaj/slike/caffe-bar-vuk-2.jpg",
+    "izvor": "https://www.facebook.com/VUKBihac/",
+    "licenca": "službena Facebook stranica",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/vuk",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"

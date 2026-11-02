@@ -40,7 +40,15 @@ foreach ($sve as $url => $info) {
         $lic = (isset($m['LicenseShortName']['value']) ? $m['LicenseShortName']['value'] : $lic) . ', Wikimedia Commons';
         $izvor = isset($ii['descriptionurl']) ? $ii['descriptionurl'] : $izvor;
     }
-    $tmp = download_url($dl);
+    if (strpos($url, 'lokalno:') === 0) {
+        // fotografija spremljena u dodatak (sadrzaj/slike/...), npr. s Facebook stranice objekta
+        $src = dirname(__DIR__) . '/' . substr($url, 8);
+        $tmp = wp_tempnam(basename($src));
+        if (!is_readable($src) || !copy($src, $tmp)) { $tmp = new WP_Error('nema', 'nema datoteke ' . $src); }
+        $dl = $src;
+    } else {
+        $tmp = download_url($dl);
+    }
     if (is_wp_error($tmp)) {
         $pokusaji[$url] = (isset($pokusaji[$url]) ? $pokusaji[$url] : 0) + 1; $greske++;
         echo 'GREŠKA ' . $url . ' ' . $tmp->get_error_message() . PHP_EOL;
