@@ -1,697 +1,636 @@
 [
-  {
-    "slug": "gig-bar",
-    "ime": "Gig Bar",
-    "tip": "caffe na rijeci",
-    "kratko_bs": "Najpopularniji bar uz Unu: jutarnja kafa, večernji kokteli i svirke",
-    "opis_bs": "Gig Bar je kafić i bar u Ulici Husrefa Redžića, uz samu Unu u centru Bihaća, i jedno je od najpopularnijih mjesta u gradu – na Googleu ima ocjenu 4,7 uz više od 570 recenzija. Danju se ovdje pije kafa na terasi uz rijeku, a navečer se mjesto pretvara u živahan bar s koktelima, domaćim pivima i povremenim svirkama. Vodiči ga opisuju kao najkosmopolitskije mjesto u Bihaću, s modernim, opuštenim ambijentom koji privlači i domaće i strance. Vikendom radi do ponoći.",
-    "opis_en": "Gig Bar is a café and bar on Husrefa Redžića Street, right by the Una in central Bihać, and one of the most popular places in town, with a 4.7 Google rating from more than 570 reviews. By day people drink coffee on the riverside terrace, and in the evening it turns into a lively bar with cocktails, local beers and occasional live music. Guides describe it as the most cosmopolitan spot in Bihać, with a modern, relaxed atmosphere that draws locals and visitors alike. At weekends it stays open until midnight.",
-    "opis_de": "Gig Bar ist Café und Bar in der Straße Husrefa Redžića direkt an der Una im Zentrum von Bihać und einer der beliebtesten Treffpunkte der Stadt – auf Google mit 4,7 Sternen aus über 570 Bewertungen. Tagsüber trinkt man Kaffee auf der Terrasse am Fluss, abends wird daraus eine lebhafte Bar mit Cocktails, lokalen Bieren und gelegentlicher Live-Musik. Reiseführer nennen es den kosmopolitischsten Ort in Bihać, mit modernem, entspanntem Ambiente, das Einheimische und Besucher gleichermaßen anzieht. Am Wochenende ist bis Mitternacht geöffnet.",
-    "specijaliteti": [
-      "kafa na terasi uz rijeku",
-      "kokteli",
-      "domaće pivo",
-      "svirke"
-    ],
-    "cijene": "",
-    "adresa": "Husrefa Redžića 3, 77000 Bihać",
-    "lat": 44.815259,
-    "lng": 15.873229,
-    "telefon": "+387 61 100 360",
-    "web": "",
-    "facebook": "https://www.facebook.com/gigbarbihac/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "pon–čet 07:00–23:00, pet–sub 07:00–24:00, ned 07:30–23:00",
-    "uz_rijeku": true,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/gig-bar",
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/gig-bar",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs",
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/articles/where-to-drink-coffee-in-bihac"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Telefon iz In Your Pocket (stariji). Slike na evendo.com nemaju ekstenziju datoteke pa nisu uključene."
-  },
-  {
-    "slug": "pinthouse-city-pub",
-    "ime": "Pinthouse City Pub",
-    "tip": "pivnica",
-    "kratko_bs": "Gradska pivnica na glavnom trgu s ljetnom terasom i rock svirkama",
-    "opis_bs": "Pinthouse City Pub je stara gradska pivnica na Trgu maršala Tita, u samom centru Bihaća, koja je prije nekoliko godina obnovljena. Poznata je po pažljivo točenom pivu, a vodiči posebno spominju lokalni Unski biser. Ljetna terasa smatra se jednim od najboljih mjesta u gradu za pivo po lijepom vremenu, a vikendom se održavaju svirke uživo, uglavnom rock. Na Googleu ima ocjenu 4,7. Zbog popularnosti zna biti gužva, pa je bolje doći ranije.",
-    "opis_en": "Pinthouse City Pub is the town's old beer hall on Trg maršala Tita in the very centre of Bihać, refurbished a few years ago. It is known for carefully poured beer, and guides especially mention the local Unski Biser. The summer terrace is considered one of the best places in town for a beer in good weather, and at weekends there is live music, mostly rock. It has a 4.7 rating on Google. It can get busy, so it pays to arrive early.",
-    "opis_de": "Der Pinthouse City Pub ist die alte Bierhalle der Stadt am Trg maršala Tita im Zentrum von Bihać und wurde vor einigen Jahren renoviert. Bekannt ist er für sorgfältig gezapftes Bier; Reiseführer nennen besonders das lokale Unski Biser. Die Sommerterrasse gilt als einer der besten Orte der Stadt für ein Bier bei schönem Wetter, am Wochenende gibt es Live-Musik, meist Rock. Auf Google hat er 4,7 Sterne. Da es voll werden kann, lohnt es sich, früh zu kommen.",
-    "specijaliteti": [
-      "točeno pivo",
-      "Unski biser",
-      "ljetna terasa",
-      "rock svirke vikendom"
-    ],
-    "cijene": "",
-    "adresa": "Trg maršala Tita, 77000 Bihać",
-    "lat": 44.813828,
-    "lng": 15.871123,
-    "telefon": "+387 61 756 844",
-    "web": "",
-    "facebook": "https://www.facebook.com/pinthouse.bihac/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "svaki dan 08:00–23:00 (prema In Your Pocket)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/pinthouse-city-pub",
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/pinthouse-city-pub",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "IYP navodi adresu 'Bosanske državnosti bb', tourismbih i evendo 'Trg maršala Tita'. 'Obnovljena prije nekoliko godina' – IYP ne navodi godinu. Radno vrijeme iz IYP (stariji)."
-  },
-  {
-    "slug": "mint-bar-cocktail-cafe",
-    "ime": "Mint Bar | Cocktail | Cafe",
-    "tip": "koktel bar",
-    "kratko_bs": "Koktel bar i kafe u centru: kafa i brunch danju, kokteli navečer",
-    "opis_bs": "Mint Bar je koktel bar i kafe u Ulici bosanskih banova u centru Bihaća, s jednom od najviših Google ocjena među gradskim barovima (4,8 uz oko 180 recenzija). Radnim danima otvara se rano, pa je dobar za jutarnju kafu, a navečer postaje mjesto za klasične i autorske koktele. U toplijim mjesecima radi i vanjska terasa. Nedjeljom je zatvoren, što je korisno znati pri planiranju vikend izlaska.",
-    "opis_en": "Mint Bar is a cocktail bar and café on Bosanskih banova Street in central Bihać, with one of the highest Google ratings among the town's bars (4.8 from around 180 reviews). On weekdays it opens early, so it works for a morning coffee, and in the evening it becomes a spot for classic and signature cocktails. There is outdoor seating in the warmer months. It is closed on Sundays, which is worth knowing when planning a weekend night out.",
-    "opis_de": "Die Mint Bar ist Cocktailbar und Café in der Straße Bosanskih banova im Zentrum von Bihać und hat eine der höchsten Google-Bewertungen unter den Bars der Stadt (4,8 bei rund 180 Bewertungen). Werktags öffnet sie früh und eignet sich für den Morgenkaffee, abends gibt es klassische und eigene Cocktails. In den wärmeren Monaten sitzt man auch draußen. Sonntags ist geschlossen – gut zu wissen bei der Planung eines Wochenendabends.",
-    "specijaliteti": [
-      "kokteli",
-      "kafa",
-      "terasa"
-    ],
-    "cijene": "",
-    "adresa": "Bosanskih banova 35, 77000 Bihać",
-    "lat": 44.81676,
-    "lng": 15.868023,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "pon–pet 08:00–24:00, sub 09:00–24:00, ned zatvoreno",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/mint-bar-cocktail-cafe",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs",
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/libar-book-bar"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate preuzete od nekadašnjeg Libar Book & Bar na istoj adresi (IYP) – približne. Moguće je da je Mint zamijenio Libar; Libar nije uvršten. Opis koktela/brunča iz evendo opisa (automatski generisan tekst)."
-  },
-  {
-    "slug": "friends-pub",
-    "ime": "Friends Pub",
-    "tip": "pub",
-    "kratko_bs": "Opušteni pub kod autobuske stanice s povoljnim pivom i koktelima",
-    "opis_bs": "Friends Pub je mali, opušteni pub u Hošića mahali, blizu autobuske stanice u Bihaću, uređen starim posterima i opremljen projektorom za utakmice. Gosti ga hvale zbog povoljnog piva, velikih i dobro napravljenih koktela te ljubaznog osoblja, a povremeno, uglavnom vikendom, bude i svirke uživo. Na TripAdvisoru ima maksimalnu ocjenu, a na Googleu 4,8 uz više od 260 recenzija. Hrana je sporedna, pa je mjesto prije svega za piće i druženje.",
-    "opis_en": "Friends Pub is a small, laid-back pub in Hošića mahala near the bus station in Bihać, decorated with old posters and equipped with a projector for matches. Guests praise the cheap beer, large and well-made cocktails and friendly staff, and there is occasional live music, mostly at weekends. It has a perfect score on TripAdvisor and 4.8 on Google from more than 260 reviews. Food is secondary, so this is primarily a place for drinks and socialising.",
-    "opis_de": "Der Friends Pub ist ein kleiner, entspannter Pub in der Hošića mahala nahe dem Busbahnhof von Bihać, dekoriert mit alten Postern und mit Projektor für Fußballspiele. Gäste loben das günstige Bier, große und gut gemixte Cocktails und das freundliche Personal; gelegentlich, meist am Wochenende, gibt es Live-Musik. Auf TripAdvisor hat er die Höchstnote, auf Google 4,8 bei über 260 Bewertungen. Das Essen ist Nebensache – hier geht es vor allem um Getränke und Geselligkeit.",
-    "specijaliteti": [
-      "pivo",
-      "kokteli",
-      "prenos utakmica"
-    ],
-    "cijene": "povoljno (TripAdvisor: $)",
-    "adresa": "Hošića mahala 2, 77000 Bihać",
-    "lat": 44.814958,
-    "lng": 15.877476,
-    "telefon": "",
-    "web": "",
-    "facebook": "https://www.facebook.com/Friends-Pub-145262938862721/",
-    "instagram": "",
-    "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d10721665-Reviews-Friends_Pub-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
-    "radno_vrijeme": "svaki dan 07:00–23:00",
-    "uz_rijeku": false,
-    "slike": [
-      {
-        "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/98/a5/d9/interior.jpg?w=1200&h=-1&s=1",
-        "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d10721665-Reviews-Friends_Pub-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
-        "licenca": "TripAdvisor – fotografija korisnika/objekta; autorska prava zadržana, za objavu potrebna dozvola",
-        "autor": "korisnik TripAdvisora"
-      },
-      {
-        "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/98/a5/cf/often-atmosphere.jpg?w=1200&h=-1&s=1",
-        "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d10721665-Reviews-Friends_Pub-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
-        "licenca": "TripAdvisor – fotografija korisnika/objekta; autorska prava zadržana, za objavu potrebna dozvola",
-        "autor": "korisnik TripAdvisora"
-      }
-    ],
-    "izvori": [
-      "https://www.tripadvisor.com/Restaurant_Review-g295389-d10721665-Reviews-Friends_Pub-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/friends-pub",
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/friends-pub",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. TripAdvisor navodi neispravan telefon (indijski broj) – telefon izostavljen. Fotografija 'often-atmosphere' možda prikazuje ljude – vizuelno provjeriti."
-  },
-  {
-    "slug": "fly-bar",
-    "ime": "Fly Bar",
-    "tip": "bar",
-    "kratko_bs": "Živahan bar kod Kapetanove kule, omiljen među mladima, radi do ponoći",
-    "opis_bs": "Fly Bar nalazi se u Ulici Gazi Husrev-begova, u starom dijelu centra Bihaća, nedaleko od Kapetanove kule. Spolja izgleda kao klasičan balkanski kafić, ali unutra je obično puno mladih koji se zadržavaju do kasno uz piće i razgovor, pa zna biti i prilično glasno. Pića su povoljna, a ima i mjesta za sjedenje napolju. Na Googleu ima ocjenu 4,6 uz više od 250 recenzija. Radnim danima i subotom radi do ponoći.",
-    "opis_en": "Fly Bar is on Gazi Husrev-begova Street in the old part of central Bihać, not far from the Captain's Tower. From outside it looks like a typical Balkan café bar, but inside it is usually full of young people who stay late over drinks and conversation, so it can get fairly loud. Drinks are affordable and there is outdoor seating. It has a 4.6 Google rating from more than 250 reviews. On weekdays and Saturdays it is open until midnight.",
-    "opis_de": "Die Fly Bar liegt in der Straße Gazi Husrev-begova im alten Teil des Zentrums von Bihać, nicht weit vom Kapitänsturm. Von außen wirkt sie wie ein typisches Balkan-Café, drinnen ist es meist voll mit jungen Leuten, die bis spät bei Drinks und Gesprächen bleiben – es kann ziemlich laut werden. Die Getränke sind günstig, draußen gibt es Sitzplätze. Auf Google hat sie 4,6 Sterne bei über 250 Bewertungen. Werktags und samstags ist bis Mitternacht geöffnet.",
-    "specijaliteti": [
-      "povoljna pića",
-      "večernji izlazak"
-    ],
-    "cijene": "",
-    "adresa": "Gazi Husrev-begova 6, 77000 Bihać",
-    "lat": 44.815447,
-    "lng": 15.870091,
-    "telefon": "+387 61 718 517",
-    "web": "",
-    "facebook": "https://www.facebook.com/Fly-Bar-Bihac-370474756416014/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "pon–pet 07:00–24:00, sub 08:00–24:00, ned 08:00–23:00",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/fly-bar",
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/fly-bar",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Telefon iz In Your Pocket (stariji)."
-  },
-  {
-    "slug": "irish-pub-kod-sose",
-    "ime": "Irish Pub – Kod Šoše",
-    "tip": "pub",
-    "kratko_bs": "Pub u irskom stilu na rubu centra, dobar za utakmice i večernje piće",
-    "opis_bs": "Irish Pub, poznat i kao Kod Šoše, nalazi se u Ulici Vazduhoplovne grupe, na rubu centra Bihaća. Uređen je u irskom stilu, iako ne slijedi strogo model tradicionalnog irskog puba. Dobro je mjesto za večernje piće, a posebno je posjećen kada se prenose sportski događaji. Na Googleu ima ocjenu 4,7 uz gotovo 200 recenzija, a gosti ga opisuju kao ugodan pub sa širokim izborom pića. Radi svaki dan do 23 sata.",
-    "opis_en": "The Irish Pub, also known as Kod Šoše, is on Vazduhoplovne grupe Street at the edge of central Bihać. It is decorated in an Irish style, although it does not strictly follow the traditional Irish pub model. It is a good place for an evening drink and gets especially busy when sports are on TV. It has a 4.7 Google rating from nearly 200 reviews, and guests describe it as a cosy pub with a wide choice of drinks. It is open daily until 11 pm.",
-    "opis_de": "Der Irish Pub, auch Kod Šoše genannt, liegt in der Straße Vazduhoplovne grupe am Rand des Zentrums von Bihać. Er ist im irischen Stil eingerichtet, folgt aber nicht streng dem Modell des traditionellen Irish Pubs. Ein guter Ort für einen Drink am Abend, besonders voll wird es bei Sportübertragungen. Auf Google hat er 4,7 Sterne bei fast 200 Bewertungen; Gäste beschreiben ihn als gemütlichen Pub mit großer Getränkeauswahl. Täglich bis 23 Uhr geöffnet.",
-    "specijaliteti": [
-      "pivo",
-      "prenos sportskih događaja"
-    ],
-    "cijene": "",
-    "adresa": "Vazduhoplovne grupe 6, 77000 Bihać",
-    "lat": 44.812546,
-    "lng": 15.865994,
-    "telefon": "",
-    "web": "",
-    "facebook": "https://www.facebook.com/Irish-Pub-Biha%C4%87-226313900862533/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "pon–sub 07:00–23:00, ned 08:00–23:00",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/irish-pub",
-      "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/irish-pub-kod-sose"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati."
-  },
-  {
-    "slug": "caffe-bar-imperial",
-    "ime": "Caffe bar Imperial",
-    "tip": "kafić",
-    "kratko_bs": "Povoljan kafić u centru, otvoren od 6:30, s više od 200 Google recenzija",
-    "opis_bs": "Caffe bar Imperial nalazi se u Ulici Murat-bega Ibrahimpašića u centru Bihaća i jedan je od najposjećenijih kafića u gradu – na Googleu ima ocjenu 4,6 uz više od 200 recenzija. Opisuje se kao ugodan i povoljan kafić u kojem se uz kafu, čaj i peciva može opustiti ili sresti s prijateljima. Otvara se već u 6:30, pa je zgodan za ranu kafu prije polaska na izlet, a radi do 23 sata.",
-    "opis_en": "Caffe bar Imperial is on Murat-bega Ibrahimpašića Street in central Bihać and is one of the busiest cafés in town, with a 4.6 Google rating from more than 200 reviews. It is described as a cosy, budget-friendly café where you can relax or meet friends over coffee, tea and pastries. It opens as early as 6:30 am, which makes it handy for an early coffee before a day trip, and closes at 11 pm.",
-    "opis_de": "Caffe bar Imperial liegt in der Straße Murat-bega Ibrahimpašića im Zentrum von Bihać und ist eines der meistbesuchten Cafés der Stadt – 4,6 Sterne bei über 200 Google-Bewertungen. Beschrieben wird es als gemütliches, preiswertes Café, in dem man bei Kaffee, Tee und Gebäck entspannen oder Freunde treffen kann. Es öffnet schon um 6:30 Uhr – praktisch für einen frühen Kaffee vor dem Ausflug – und schließt um 23 Uhr.",
-    "specijaliteti": [
-      "kafa",
-      "čaj",
-      "peciva"
-    ],
-    "cijene": "povoljno (prema opisu)",
-    "adresa": "Murat-bega Ibrahimpašića 10, 77000 Bihać",
-    "lat": 44.81674,
-    "lng": 15.86502,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "svaki dan 06:30–23:00 (Google)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-imperial",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate dekodirane iz Plus Code RV88+M2R (evendo)."
-  },
-  {
-    "slug": "caffe-bar-bihac",
-    "ime": "Caffe Bar Bihać",
-    "tip": "kafić",
-    "kratko_bs": "Moderan kafić u Ulici dr. Irfana Ljubijankića, ocjena 4,6 na Googleu",
-    "opis_bs": "Caffe Bar Bihać nalazi se u Ulici dr. Irfana Ljubijankića i jedan je od bolje ocijenjenih kafića u gradu – na Googleu ima ocjenu 4,6 uz oko 170 recenzija. Opisuje se kao moderno uređen kafić s udobnim sjedenjem, u kojem se služe kafa, čajevi i peciva, uz besplatan Wi-Fi. Radnim danima i subotom radi od 7 do 22 sata, a nedjeljom od 8. Pogodan je za jutarnju kafu ili mirno popodne.",
-    "opis_en": "Caffe Bar Bihać is on Dr. Irfana Ljubijankića Street and is one of the better-rated cafés in town, with a 4.6 Google rating from around 170 reviews. It is described as a modern café with comfortable seating, serving coffee, teas and pastries, with free Wi-Fi. From Monday to Saturday it is open from 7 am to 10 pm, and on Sundays from 8 am. It suits a morning coffee or a quiet afternoon.",
-    "opis_de": "Caffe Bar Bihać liegt an der Straße Dr. Irfana Ljubijankića und gehört zu den besser bewerteten Cafés der Stadt – 4,6 Sterne bei rund 170 Google-Bewertungen. Beschrieben wird es als modern eingerichtetes Café mit bequemen Sitzplätzen, Kaffee, Tee und Gebäck sowie kostenlosem WLAN. Montag bis Samstag 7 bis 22 Uhr, sonntags ab 8 Uhr geöffnet. Gut für den Morgenkaffee oder einen ruhigen Nachmittag.",
-    "specijaliteti": [
-      "kafa",
-      "čaj",
-      "peciva"
-    ],
-    "cijene": "",
-    "adresa": "Dr. Irfana Ljubijankića 76, 77000 Bihać",
-    "lat": null,
-    "lng": null,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "pon–sub 07:00–22:00, ned 08:00–22:00 (Google)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-bihac",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate nepoznate. Opis enterijera iz evendo opisa (automatski generisan)."
-  },
-  {
-    "slug": "h2o-bihac",
-    "ime": "H2O (H20)",
-    "tip": "caffe bar",
-    "kratko_bs": "Bar s terasom u Ulici Džemala Bijedića, otvoren od jutra do ponoći",
-    "opis_bs": "H2O je caffe bar s terasom u Ulici Džemala Bijedića, ulici uz Unu u centru Bihaća, u kojoj se nalazi i nekoliko restorana na rijeci. Radi svaki dan od jutra do ponoći, pa je pogodan i za kafu i za večernje piće. Na Googleu ima ocjenu 4,5 uz više od 120 recenzija. U ponudi su kokteli i domaća piva, a povremeno se organizuju tematske večeri i svirke. Zbog duge terase ljeti je jedno od mjesta gdje se okuplja mlađa publika.",
-    "opis_en": "H2O is a café bar with a terrace on Džemala Bijedića Street, the street along the Una in central Bihać that is also home to several riverside restaurants. It is open daily from morning until midnight, so it works for both coffee and an evening drink. It has a 4.5 Google rating from over 120 reviews. Cocktails and local beers are on offer, with occasional themed nights and live music. Thanks to its terrace it is one of the summer meeting points for a younger crowd.",
-    "opis_de": "H2O ist eine Café-Bar mit Terrasse in der Straße Džemala Bijedića, der Straße entlang der Una im Zentrum von Bihać, an der auch mehrere Flussrestaurants liegen. Sie ist täglich von morgens bis Mitternacht geöffnet und eignet sich für Kaffee ebenso wie für einen Drink am Abend. Auf Google hat sie 4,5 Sterne bei über 120 Bewertungen. Es gibt Cocktails und lokale Biere, gelegentlich Themenabende und Live-Musik. Dank der Terrasse ist sie im Sommer ein Treffpunkt für ein jüngeres Publikum.",
-    "specijaliteti": [
-      "kokteli",
-      "domaće pivo",
-      "terasa"
-    ],
-    "cijene": "",
-    "adresa": "Džemala Bijedića, 77000 Bihać",
-    "lat": 44.8131,
-    "lng": 15.8738,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "svaki dan 09:00–24:00",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/h20",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate PRIBLIŽNE (sredina Ulice Džemala Bijedića kod River Une) – tačnu lokaciju i da li je terasa na rijeci treba potvrditi. Tvrdnja o 'mlađoj publici' i svirkama iz evendo opisa (automatski generisan tekst)."
-  },
-  {
-    "slug": "caffe-bar-night-club-borik",
-    "ime": "Caffe Bar & Night Club Borik",
-    "tip": "klub",
-    "kratko_bs": "Caffe bar i noćni klub s DJ i živim svirkama",
-    "opis_bs": "Borik je caffe bar i noćni klub u Ulici Velikog korpusa u Bihaću. Danju radi kao klasičan kafić, od ranog jutra, a predstavlja se kao mjesto za večernje izlaske, s DJ večerima i svirkama uživo te širokom ponudom pića, od domaćih piva do koktela. Na Googleu ima ocjenu 4,5 uz oko 135 recenzija. Prema Google profilu svaki dan radi do 23 sata, pa je za klupske večeri i događaje najbolje provjeriti najave na društvenim mrežama.",
-    "opis_en": "Borik is a café bar and nightclub on Velikog korpusa Street in Bihać. By day it works as a regular café, opening early in the morning, and it presents itself as a venue for nights out with DJ evenings, live music and a wide drinks list, from local beers to cocktails. It has a 4.5 Google rating from around 135 reviews. According to its Google profile it closes at 11 pm daily, so for club nights and events it is best to check announcements on social media.",
-    "opis_de": "Borik ist Café-Bar und Nachtclub in der Straße Velikog korpusa in Bihać. Tagsüber ist es ein normales Café, das früh öffnet; abends versteht es sich als Ort zum Ausgehen mit DJ-Abenden, Live-Musik und großer Getränkeauswahl von lokalem Bier bis Cocktails. Auf Google hat es 4,5 Sterne bei rund 135 Bewertungen. Laut Google-Profil schließt es täglich um 23 Uhr; für Clubnächte und Events sollte man die Ankündigungen in den sozialen Medien prüfen.",
-    "specijaliteti": [
-      "DJ večeri",
-      "svirke",
-      "kokteli"
-    ],
-    "cijene": "",
-    "adresa": "Velikog korpusa 5, 77000 Bihać",
-    "lat": null,
-    "lng": null,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "svaki dan 06:00–23:00 (Google)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-night-club-borik",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate nepoznate. Opis DJ večeri iz evendo opisa (automatski generisan) – potvrditi."
-  },
-  {
-    "slug": "caffe-bar-centar",
-    "ime": "Caffe bar Centar",
-    "tip": "kafić",
-    "kratko_bs": "Kafić u Ulici Petog korpusa s kafom, kolačima i Wi-Fi-jem",
-    "opis_bs": "Caffe bar Centar nalazi se u Ulici Petog korpusa, u samom središtu Bihaća, i omiljen je i među domaćima i među putnicima. Nudi kafu, kolače i lagane zalogaje, a dobar Wi-Fi čini ga pogodnim i za rad na laptopu, kako ističu vodiči za digitalne nomade. Na Googleu ima ocjenu 4,5 uz gotovo 90 recenzija. Radi svaki dan od 7 do 23 sata.",
-    "opis_en": "Caffe bar Centar is on Petog korpusa Street in the very heart of Bihać and is popular with locals and travellers alike. It serves coffee, cakes and light snacks, and good Wi-Fi makes it suitable for working on a laptop, as digital-nomad guides point out. It has a 4.5 Google rating from nearly 90 reviews. It is open daily from 7 am to 11 pm.",
-    "opis_de": "Caffe bar Centar liegt in der Straße Petog korpusa im Herzen von Bihać und ist bei Einheimischen wie Reisenden beliebt. Es gibt Kaffee, Kuchen und kleine Snacks; das gute WLAN macht es laut Ratgebern für digitale Nomaden auch zum Arbeiten am Laptop geeignet. Auf Google hat es 4,5 Sterne bei fast 90 Bewertungen. Täglich von 7 bis 23 Uhr geöffnet.",
-    "specijaliteti": [
-      "kafa",
-      "kolači",
-      "Wi-Fi"
-    ],
-    "cijene": "",
-    "adresa": "Petog korpusa, 77000 Bihać",
-    "lat": null,
-    "lng": null,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "svaki dan 07:00–23:00 (Google)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-centar",
-      "https://nomadlio.com/bihac/city-guide/",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate nepoznate."
-  },
-  {
-    "slug": "kafeterija-bihac",
-    "ime": "Kafeterija",
-    "tip": "kafić",
-    "kratko_bs": "Specijalizirana kafa uz Fethija džamiju, na vrhu pješačke zone",
-    "opis_bs": "Kafeterija se nalazi u Bosanskoj ulici, odmah uz Fethija džamiju, na vrhu glavne pješačke zone u Bihaću. Vodič In Your Pocket opisuje je kao prvi kafić u gradu koji je donio modernu kulturu specijalizirane kafe, pa je pravo mjesto za espresso, cappuccino ili filter kafu pripremljenu s više pažnje nego u klasičnom kafiću. Lokacija je idealna za predah između obilaska džamije, Kapetanove kule i šetnje uz Unu. Nedjeljom ne radi.",
-    "opis_en": "Kafeterija is on Bosanska Street, right next to the Fethija Mosque at the top of Bihać's main pedestrian zone. The In Your Pocket guide describes it as the first café in town to bring modern speciality-coffee culture, so it is the place for an espresso, cappuccino or filter coffee made with more care than in a classic café. The location is ideal for a break between visiting the mosque, the Captain's Tower and a walk along the Una. It is closed on Sundays.",
-    "opis_de": "Die Kafeterija liegt in der Bosanska-Straße direkt neben der Fethija-Moschee am oberen Ende der Fußgängerzone von Bihać. Der Führer In Your Pocket beschreibt sie als erstes Café der Stadt mit moderner Specialty-Coffee-Kultur – der richtige Ort für Espresso, Cappuccino oder Filterkaffee, sorgfältiger zubereitet als im klassischen Café. Ideal für eine Pause zwischen Moschee, Kapitänsturm und einem Spaziergang an der Una. Sonntags geschlossen.",
-    "specijaliteti": [
-      "specijalizirana kafa",
-      "espresso",
-      "filter kafa"
-    ],
-    "cijene": "",
-    "adresa": "Bosanska bb (uz Fethija džamiju), 77000 Bihać",
-    "lat": 44.816373,
-    "lng": 15.869843,
-    "telefon": "",
-    "web": "",
-    "facebook": "https://www.facebook.com/Kafeterijabihac/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "pon–sub 08:00–23:00, nedjeljom zatvoreno (prema In Your Pocket)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/kafeterija",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme iz In Your Pocket (stariji). Vrste kafe (espresso, filter) su opšti primjer, nisu potvrđene u izvoru."
-  },
-  {
-    "slug": "my-bar",
-    "ime": "MY bar",
-    "tip": "bar",
-    "kratko_bs": "Mali, prijatan bar u Harmanskom sokaku s pivom, vinom i koktelima",
-    "opis_bs": "MY bar je mali i prijatan bar u Harmanskom sokaku, u centralnom dijelu Bihaća. Na Googleu ima ocjenu 4,7, a gosti ga opisuju kao ugodno mjesto s ljubaznim osobljem i raznovrsnom kartom pića – od domaćih piva do vina i koktela. Radi svaki dan od 7 ujutro do ponoći, pa se može svratiti i na jutarnju kafu i na večernje piće. Pogodan je za mirniji izlazak u manjem društvu.",
-    "opis_en": "MY bar is a small, friendly bar on Harmanski sokak in the central part of Bihać. It has a 4.7 Google rating, and guests describe it as a pleasant place with friendly staff and a varied drinks list – from local beers to wine and cocktails. It is open every day from 7 am to midnight, so you can drop in for a morning coffee or an evening drink. It suits a quieter night out with a few friends.",
-    "opis_de": "MY bar ist eine kleine, freundliche Bar im Harmanski sokak im zentralen Teil von Bihać. Auf Google hat sie 4,7 Sterne; Gäste beschreiben sie als angenehmen Ort mit freundlichem Personal und vielfältiger Getränkekarte – von lokalem Bier bis zu Wein und Cocktails. Täglich von 7 Uhr bis Mitternacht geöffnet, also für den Morgenkaffee ebenso wie für den Abenddrink. Ideal für einen ruhigeren Abend in kleiner Runde.",
-    "specijaliteti": [
-      "domaće pivo",
-      "vino",
-      "kokteli"
-    ],
-    "cijene": "",
-    "adresa": "Harmanski sokak 5, 77000 Bihać",
-    "lat": null,
-    "lng": null,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "svaki dan 07:00–24:00 (Google)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/my-bar",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Samo 25 Google recenzija. Koordinate nepoznate."
-  },
-  {
-    "slug": "balance-caffe-bar",
-    "ime": "Balance caffe bar",
-    "tip": "kafić",
-    "kratko_bs": "Ugodan caffe bar u Ozimicama s kafom, vinom i povremenim svirkama",
-    "opis_bs": "Balance caffe bar nalazi se u Ulici Hasana Kjafije Pruščaka u naselju Ozimice, nekoliko vrata od pizzerije Bella Italia. Na Googleu ima ocjenu 4,7, a opisuje se kao ugodan i gostoljubiv kafić u kojem se služe kafa, čajevi te domaća vina i žestoka pića, uz povremene svirke i lokalne događaje. Dobar je izbor za kafu prije ili piće poslije večere u ovom dijelu grada.",
-    "opis_en": "Balance caffe bar is on Hasana Kjafije Pruščaka Street in the Ozimice neighbourhood, a few doors from Pizzeria Bella Italia. It has a 4.7 Google rating and is described as a cosy, welcoming café serving coffee, teas and local wines and spirits, with occasional live music and local events. It is a good choice for a coffee before, or a drink after, dinner in this part of town.",
-    "opis_de": "Balance caffe bar liegt in der Straße Hasana Kjafije Pruščaka im Viertel Ozimice, wenige Häuser von der Pizzeria Bella Italia entfernt. Auf Google hat es 4,7 Sterne und wird als gemütliches, gastfreundliches Café beschrieben, in dem Kaffee, Tee sowie heimische Weine und Spirituosen serviert werden, gelegentlich mit Live-Musik und lokalen Veranstaltungen. Gut für einen Kaffee vor oder einen Drink nach dem Abendessen in diesem Stadtteil.",
-    "specijaliteti": [
-      "kafa",
-      "domaće vino",
-      "svirke"
-    ],
-    "cijene": "",
-    "adresa": "Hasana Kjafije Pruščaka 13, 77000 Bihać",
-    "lat": 44.8162,
-    "lng": 15.8638,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/balance-caffe-bar",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Koordinate PRIBLIŽNE (prema susjednom broju 15 – Bella Italia). Samo 24 Google recenzije. Svirke iz evendo opisa (automatski generisan). Radno vrijeme nije navedeno."
-  },
-  {
-    "slug": "flash-art-bar",
-    "ime": "Flash Art Bar",
-    "tip": "bar",
-    "kratko_bs": "Bar s karakterom uz ruševine crkve sv. Ante i Kapetanovu kulu",
-    "opis_bs": "Flash Art Bar nalazi se u Ulici Gazi Husrev-begova, u najstarijem dijelu Bihaća, tik uz ruševine crkve svetog Ante i Kapetanovu kulu, gdje se odvijaju arheološki radovi. Omiljen je među domaćima i poznat po posebnoj atmosferi, pićima i šarmu, pa je dobar izbor za one koji žele sjesti tamo gdje sjede Bišćani, a ne samo turisti. Lokacija je pogodna za piće nakon obilaska povijesne jezgre grada.",
-    "opis_en": "Flash Art Bar is on Gazi Husrev-begova Street in the oldest part of Bihać, right beside the ruins of St Anthony's Church and the Captain's Tower, where archaeological work is under way. It is popular with locals and known for its particular atmosphere, drinks and charm, so it is a good choice if you want to sit where Bihać residents sit rather than only tourists. The location is handy for a drink after exploring the historic core of the town.",
-    "opis_de": "Die Flash Art Bar liegt in der Straße Gazi Husrev-begova im ältesten Teil von Bihać, direkt neben den Ruinen der Antoniuskirche und dem Kapitänsturm, wo archäologische Arbeiten laufen. Sie ist bei Einheimischen beliebt und bekannt für ihre besondere Atmosphäre, die Getränke und ihren Charme – gut für alle, die dort sitzen möchten, wo die Bewohner von Bihać sitzen, nicht nur Touristen. Ideal für einen Drink nach der Besichtigung des historischen Stadtkerns.",
-    "specijaliteti": [
-      "piće",
-      "lokalna atmosfera"
-    ],
-    "cijene": "",
-    "adresa": "Gazi Husrev-begova 2, 77000 Bihać",
-    "lat": 44.814482,
-    "lng": 15.870111,
-    "telefon": "",
-    "web": "",
-    "facebook": "https://www.facebook.com/FLASH-ART-124535748940769/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "07:00–22:00 (prema In Your Pocket)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/flash-art-bar",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Glavni izvor In Your Pocket (stariji); tourismbih i dalje navodi 'Flash Art' na Gazi Husrev-begova 2."
-  },
-  {
-    "slug": "cafe-mustang",
-    "ime": "Cafe Mustang",
-    "tip": "kafić",
-    "kratko_bs": "Kafić s vanjskom terasom u centru, za kafu ili piće nakon razgledanja",
-    "opis_bs": "Cafe Mustang je kafić u centru Bihaća, u blizini Ulice Gazi Husrev-begova i Kapetanove kule. Ima vanjsku terasu, a opisuje se kao opušteno mjesto za bosansku kafu, piće ili koktel nakon dana razgledanja, uz lagane zalogaje i peciva. Na Googleu ima ocjenu 4,1 uz pedesetak recenzija. Otvara se u 6 ujutro i radi do 23 sata svaki dan.",
-    "opis_en": "Cafe Mustang is a café in central Bihać, near Gazi Husrev-begova Street and the Captain's Tower. It has an outdoor terrace and is described as a relaxed place for a Bosnian coffee, a drink or a cocktail after a day of sightseeing, with light snacks and pastries. It has a 4.1 Google rating from about fifty reviews. It opens at 6 am and closes at 11 pm every day.",
-    "opis_de": "Cafe Mustang ist ein Café im Zentrum von Bihać, nahe der Straße Gazi Husrev-begova und dem Kapitänsturm. Es hat eine Außenterrasse und wird als entspannter Ort für bosnischen Kaffee, einen Drink oder Cocktail nach einem Tag Sightseeing beschrieben, dazu kleine Snacks und Gebäck. Auf Google hat es 4,1 Sterne bei rund fünfzig Bewertungen. Täglich von 6 bis 23 Uhr geöffnet.",
-    "specijaliteti": [
-      "bosanska kafa",
-      "terasa"
-    ],
-    "cijene": "",
-    "adresa": "Centar (Plus Code RV8C+536), 77000 Bihać",
-    "lat": 44.81541,
-    "lng": 15.87014,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "svaki dan 06:00–23:00 (Google)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/cafe-mustang",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Ulica nije navedena – koordinate dekodirane iz Plus Code; blizina Kapetanove kule procijenjena prema koordinatama."
-  },
-  {
-    "slug": "havana-lounge-bar",
-    "ime": "Havana Lounge Bar",
-    "tip": "lounge bar",
-    "kratko_bs": "Lounge bar u Sarajevskoj ulici koji radi do 3 ujutro",
-    "opis_bs": "Havana Lounge Bar nalazi se u Sarajevskoj ulici u Bihaću i izdvaja se radnim vremenom: prema Google profilu otvoren je svaki dan od 7 ujutro do 3 sata nakon ponoći, što ga čini jednim od rijetkih mjesta u gradu za kasni izlazak. Opisuje se kao lounge s raznovrsnom kartom pića i opuštenom atmosferom, uz povremene tematske večeri i muziku uživo. Na Googleu ima ocjenu 4,3, ali uz manji broj recenzija.",
-    "opis_en": "Havana Lounge Bar is on Sarajevska Street in Bihać and stands out for its hours: according to its Google profile it is open every day from 7 am until 3 am, making it one of the few places in town for a late night out. It is described as a lounge with a varied drinks menu and a relaxed atmosphere, with occasional themed nights and live music. It has a 4.3 Google rating, though from a small number of reviews.",
-    "opis_de": "Die Havana Lounge Bar liegt in der Sarajevska-Straße in Bihać und fällt durch ihre Öffnungszeiten auf: Laut Google-Profil ist sie täglich von 7 Uhr morgens bis 3 Uhr nachts geöffnet und damit einer der wenigen Orte in der Stadt für eine lange Nacht. Beschrieben wird sie als Lounge mit vielfältiger Getränkekarte und entspannter Atmosphäre, gelegentlich mit Themenabenden und Live-Musik. Auf Google hat sie 4,3 Sterne, allerdings bei wenigen Bewertungen.",
-    "specijaliteti": [
-      "kasni izlazak",
-      "kokteli"
-    ],
-    "cijene": "",
-    "adresa": "Sarajevska 36, 77000 Bihać",
-    "lat": null,
-    "lng": null,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "svaki dan 07:00–03:00 (Google)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/havana-lounge-bar",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Samo 16 Google recenzija. Koordinate nepoznate. Tematske večeri iz evendo opisa (automatski generisan)."
-  },
-  {
-    "slug": "bistro-club-bihac",
-    "ime": "Bistro (klub)",
-    "tip": "klub",
-    "kratko_bs": "Ljetni klub kod mosta Alije Izetbegovića, za ples do kasno u noć",
-    "opis_bs": "Bistro je klub kod mosta Alije Izetbegovića, u samom centru Bihaća, koji vodič In Your Pocket opisuje kao glavno mjesto za ljetne zabave u gradu. Ovo nije kafić za miran razgovor – dolazi se zbog muzike, plesa i pića, a otvoren je do 3 sata nakon ponoći. Zbog položaja uz most i rijeku posebno je živ u toplim mjesecima, kada se ovdje okupljaju mladi i turisti. Prije dolaska vrijedi provjeriti najave na Facebook stranici kluba.",
-    "opis_en": "Bistro is a club by the Alija Izetbegović Bridge in the centre of Bihać, described by the In Your Pocket guide as the town's main summer party spot. It is not a café for quiet conversation – people come for the music, dancing and drinks, and it stays open until 3 am. Thanks to its position by the bridge and the river it is especially lively in the warm months, when young locals and tourists gather here. Check the club's Facebook page for event announcements before you go.",
-    "opis_de": "Bistro ist ein Club an der Alija-Izetbegović-Brücke im Zentrum von Bihać, den der Führer In Your Pocket als wichtigsten Ort für Sommerpartys der Stadt beschreibt. Kein Café für ruhige Gespräche – man kommt wegen Musik, Tanz und Drinks, geöffnet ist bis 3 Uhr nachts. Dank der Lage an Brücke und Fluss ist es in den warmen Monaten besonders lebhaft, wenn sich hier junge Einheimische und Touristen treffen. Vor dem Besuch lohnt ein Blick auf die Facebook-Seite des Clubs.",
-    "specijaliteti": [
-      "ljetne zabave",
-      "ples",
-      "DJ"
-    ],
-    "cijene": "",
-    "adresa": "Most Alije Izetbegovića bb, 77000 Bihać",
-    "lat": 44.813654,
-    "lng": 15.873345,
-    "telefon": "+387 37 228 328",
-    "web": "",
-    "facebook": "https://www.facebook.com/Bistrobihac/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "08:00–03:00 (prema In Your Pocket)",
-    "uz_rijeku": true,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Bistro",
-      "https://www.inyourpocket.com/bihac/Nightlife/Clubs"
-    ],
-    "provjeriti": "Jedini izvor In Your Pocket (stariji podaci) – potvrditi da klub i dalje radi. Položaj uz rijeku zaključen iz adrese (most) i koordinata."
-  },
-  {
-    "slug": "svarog-winter-house",
-    "ime": "Svarog Winter House",
-    "tip": "klub",
-    "kratko_bs": "Noćni klub s vikend zabavama i gostujućim regionalnim DJ-ima",
-    "opis_bs": "Svarog Winter House je noćni klub u Ulici 502. viteške brigade u Bihaću, nedaleko od restorana Čardak na Uni. Vodič In Your Pocket ga svrstava među vodeće gradske klubove, s prepunim vikend zabavama na kojima nastupaju poznati DJ-i iz regije, uz različite akcije na pića. Kako ime sugeriše, riječ je prije svega o zimskom klubu, pa raspored zabava i radno vrijeme treba provjeriti na Facebook stranici prije izlaska.",
-    "opis_en": "Svarog Winter House is a nightclub on 502. Viteške brigade Street in Bihać, not far from the Čardak na Uni restaurant. The In Your Pocket guide lists it among the town's leading clubs, with packed weekend parties featuring well-known DJs from the region and various drinks offers. As the name suggests, it is mainly a winter venue, so check the party schedule and opening hours on its Facebook page before going out.",
-    "opis_de": "Svarog Winter House ist ein Nachtclub in der Straße 502. Viteške brigade in Bihać, nicht weit vom Restaurant Čardak na Uni. Der Führer In Your Pocket zählt ihn zu den führenden Clubs der Stadt, mit vollen Wochenendpartys, bekannten DJs aus der Region und verschiedenen Getränkeaktionen. Wie der Name andeutet, ist es vor allem ein Winterclub – Partyprogramm und Öffnungszeiten daher vorab auf der Facebook-Seite prüfen.",
-    "specijaliteti": [
-      "vikend zabave",
-      "regionalni DJ-i"
-    ],
-    "cijene": "",
-    "adresa": "Ulica 502. viteške brigade, 77000 Bihać",
-    "lat": 44.811773,
-    "lng": 15.872104,
-    "telefon": "+387 60 33 50 527",
-    "web": "",
-    "facebook": "https://www.facebook.com/SvarogWinterHouse/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/svarog",
-      "https://www.inyourpocket.com/bihac/Nightlife/Clubs"
-    ],
-    "provjeriti": "Glavni izvor In Your Pocket (stariji). tourismbih ima listing 'Svarog Winter House Club' (vidljiv samo naslov u pretrazi). Potvrditi da radi. 'Zimski klub' je tumačenje imena."
-  },
-  {
-    "slug": "club-van-gogh",
-    "ime": "Club Van Gogh",
-    "tip": "klub",
-    "kratko_bs": "Noćni klub u Ulici darivalaca krvi, popularan za vikend ples",
-    "opis_bs": "Club Van Gogh je noćni klub u Ulici darivalaca krvi u Bihaću, malo izvan užeg centra. Vodič In Your Pocket opisuje ga kao noviji klub živog karaktera i popularno mjesto za ples vikendom. Namijenjen je onima koji nakon večere ili kafića žele nastaviti izlazak uz muziku do kasno. Kako se programi i radno vrijeme klubova često mijenjaju, prije dolaska je najbolje provjeriti aktuelne najave na Facebook stranici kluba ili nazvati.",
-    "opis_en": "Club Van Gogh is a nightclub on Darivalaca krvi Street in Bihać, a little outside the inner centre. The In Your Pocket guide describes it as a newer club with a lively character and a popular spot for weekend dancing. It is aimed at those who want to carry on after dinner or a café with music until late. Since club programmes and hours change often, it is best to check current announcements on the club's Facebook page or call before going.",
-    "opis_de": "Der Club Van Gogh ist ein Nachtclub in der Straße Darivalaca krvi in Bihać, etwas außerhalb des engeren Zentrums. Der Führer In Your Pocket beschreibt ihn als neueren Club mit lebhaftem Charakter und beliebten Ort zum Tanzen am Wochenende. Er richtet sich an alle, die nach dem Abendessen oder Café mit Musik bis spät weiterfeiern möchten. Da sich Programme und Öffnungszeiten oft ändern, vorher die aktuellen Ankündigungen auf Facebook prüfen oder anrufen.",
-    "specijaliteti": [
-      "vikend ples",
-      "DJ"
-    ],
-    "cijene": "",
-    "adresa": "Darivalaca krvi 51, 77000 Bihać",
-    "lat": 44.809628,
-    "lng": 15.859146,
-    "telefon": "+387 60 31 31 328",
-    "web": "",
-    "facebook": "https://www.facebook.com/ClubVanGoghBihac/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://inyourpocket.com/bosnia-herzegovina/bihac/venues/van-gogh",
-      "https://www.inyourpocket.com/bihac/Nightlife/Clubs"
-    ],
-    "provjeriti": "Jedini izvor In Your Pocket (stariji; 'noviji' se odnosi na vrijeme pisanja vodiča). Potvrditi da klub radi."
-  },
-  {
-    "slug": "caffe-bar-vuk",
-    "ime": "Caffe Bar Vuk",
-    "tip": "kafić",
-    "kratko_bs": "Moderan kafić s točenim Estrella pivom, omiljen među mladima",
-    "opis_bs": "Caffe Bar Vuk je moderan kafić u centru Bihaća koji se, prema vodiču In Your Pocket, odmiče od tradicionalne balkanske kafanske kulture i privlači uglavnom mlađu publiku. Uz kafu i bezalkoholna pića nudi žestoka pića i točeno pivo Estrella. Dobar je izbor za opušteno popodne ili početak večernjeg izlaska. Lokal je i danas naveden u imeniku Tourism BiH, u Ulici Petog korpusa.",
-    "opis_en": "Caffe Bar Vuk is a modern café in central Bihać which, according to the In Your Pocket guide, moves away from traditional Balkan café culture and attracts a mostly younger crowd. Alongside coffee and soft drinks it serves spirits and Estrella on tap. It is a good choice for a relaxed afternoon or the start of a night out. It is still listed in the Tourism BiH directory, on Petog korpusa Street.",
-    "opis_de": "Caffe Bar Vuk ist ein modernes Café im Zentrum von Bihać, das sich laut In Your Pocket von der traditionellen Balkan-Kaffeehauskultur abhebt und vor allem jüngeres Publikum anzieht. Neben Kaffee und Softdrinks gibt es Spirituosen und Estrella vom Fass. Gut für einen entspannten Nachmittag oder den Start in den Abend. Das Lokal ist weiterhin im Verzeichnis Tourism BiH aufgeführt, in der Straße Petog korpusa.",
-    "specijaliteti": [
-      "točeno pivo Estrella",
-      "kafa"
-    ],
-    "cijene": "",
-    "adresa": "Petog korpusa, 77000 Bihać",
-    "lat": 44.811788,
-    "lng": 15.868511,
-    "telefon": "+387 60 31 10 403",
-    "web": "",
-    "facebook": "https://www.facebook.com/VUKBihac/",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/vuk",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Adresa: tourismbih 'Petog korpusa', IYP '502. viteška brigada' (koordinate iz IYP) – provjeriti tačnu lokaciju."
-  },
-  {
-    "slug": "cafe-10",
-    "ime": "Cafe 10",
-    "tip": "kafić",
-    "kratko_bs": "Jednostavan gradski kafić u Harmanskoj ulici, poznat po dobroj kafi",
-    "opis_bs": "Cafe 10 je jednostavan gradski kafić u Harmanskoj ulici, bez pretencioznog uređenja, ali s dobrom kafom i živim žamorom razgovora gotovo u svako doba dana. Vodič In Your Pocket preporučuje ga za jutarnju kafu, uz napomenu da zna biti zadimljeno. Ovo je mjesto na kojem se vidi svakodnevni život Bihaća: komšije, poznanici i duge kafe, bez žurbe. Radi od 7 do 23 sata.",
-    "opis_en": "Cafe 10 is a simple neighbourhood café on Harmanska Street, with no fancy decor but good coffee and a lively buzz of conversation at almost any time of day. The In Your Pocket guide recommends it for a morning coffee, while noting that it can be smoky. It is a place to see everyday life in Bihać: neighbours, acquaintances and long, unhurried coffees. It is open from 7 am to 11 pm.",
-    "opis_de": "Cafe 10 ist ein schlichtes Stadtteilcafé in der Harmanska-Straße, ohne aufwendige Einrichtung, aber mit gutem Kaffee und lebhaftem Stimmengewirr zu fast jeder Tageszeit. Der Führer In Your Pocket empfiehlt es für den Morgenkaffee und weist darauf hin, dass es verraucht sein kann. Hier sieht man den Alltag von Bihać: Nachbarn, Bekannte und lange Kaffeepausen ohne Eile. Geöffnet von 7 bis 23 Uhr.",
-    "specijaliteti": [
-      "kafa"
-    ],
-    "cijene": "",
-    "adresa": "Harmanska 10, 77000 Bihać",
-    "lat": 44.813374,
-    "lng": 15.867581,
-    "telefon": "",
-    "web": "",
-    "facebook": "",
-    "instagram": "",
-    "tripadvisor": "",
-    "radno_vrijeme": "07:00–23:00 (prema In Your Pocket)",
-    "uz_rijeku": false,
-    "slike": [],
-    "izvori": [
-      "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/cafe-10",
-      "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
-    ],
-    "provjeriti": "Glavni izvor In Your Pocket (stariji); tourismbih i dalje navodi Cafe 10."
-  }
+ {
+  "slug": "gig-bar",
+  "ime": "Gig Bar",
+  "tip": "caffe na rijeci",
+  "kratko_bs": "Najpopularniji bar uz Unu: jutarnja kafa, večernji kokteli i svirke",
+  "opis_bs": "Gig Bar je kafić i bar u Ulici Husrefa Redžića, uz samu Unu u centru Bihaća, i jedno je od najpopularnijih mjesta u gradu – na Googleu ima ocjenu 4,7 uz više od 570 recenzija. Danju se ovdje pije kafa na terasi uz rijeku, a navečer se mjesto pretvara u živahan bar s koktelima, domaćim pivima i povremenim svirkama. Vodiči ga opisuju kao najkosmopolitskije mjesto u Bihaću, s modernim, opuštenim ambijentom koji privlači i domaće i strance. Vikendom radi do ponoći.",
+  "opis_en": "Gig Bar is a café and bar on Husrefa Redžića Street, right by the Una in central Bihać, and one of the most popular places in town, with a 4.7 Google rating from more than 570 reviews. By day people drink coffee on the riverside terrace, and in the evening it turns into a lively bar with cocktails, local beers and occasional live music. Guides describe it as the most cosmopolitan spot in Bihać, with a modern, relaxed atmosphere that draws locals and visitors alike. At weekends it stays open until midnight.",
+  "opis_de": "Gig Bar ist Café und Bar in der Straße Husrefa Redžića direkt an der Una im Zentrum von Bihać und einer der beliebtesten Treffpunkte der Stadt – auf Google mit 4,7 Sternen aus über 570 Bewertungen. Tagsüber trinkt man Kaffee auf der Terrasse am Fluss, abends wird daraus eine lebhafte Bar mit Cocktails, lokalen Bieren und gelegentlicher Live-Musik. Reiseführer nennen es den kosmopolitischsten Ort in Bihać, mit modernem, entspanntem Ambiente, das Einheimische und Besucher gleichermaßen anzieht. Am Wochenende ist bis Mitternacht geöffnet.",
+  "specijaliteti": [
+   "kafa na terasi uz rijeku",
+   "kokteli",
+   "domaće pivo",
+   "svirke"
+  ],
+  "cijene": "",
+  "adresa": "Husrefa Redžića 3, 77000 Bihać",
+  "lat": 44.815259,
+  "lng": 15.873229,
+  "telefon": "+387 61 100 360",
+  "web": "",
+  "facebook": "https://www.facebook.com/gigbarbihac/",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "pon–čet 07:00–23:00, pet–sub 07:00–24:00, ned 07:30–23:00",
+  "uz_rijeku": true,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/gig-bar",
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/gig-bar",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs",
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/articles/where-to-drink-coffee-in-bihac"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Telefon iz In Your Pocket (stariji). Slike na evendo.com nemaju ekstenziju datoteke pa nisu uključene."
+ },
+ {
+  "slug": "pinthouse-city-pub",
+  "ime": "Pinthouse City Pub",
+  "tip": "pivnica",
+  "kratko_bs": "Gradska pivnica na glavnom trgu s ljetnom terasom i rock svirkama",
+  "opis_bs": "Pinthouse City Pub je stara gradska pivnica na Trgu maršala Tita, u samom centru Bihaća, koja je prije nekoliko godina obnovljena. Poznata je po pažljivo točenom pivu, a vodiči posebno spominju lokalni Unski biser. Ljetna terasa smatra se jednim od najboljih mjesta u gradu za pivo po lijepom vremenu, a vikendom se održavaju svirke uživo, uglavnom rock. Na Googleu ima ocjenu 4,7. Zbog popularnosti zna biti gužva, pa je bolje doći ranije. Do Une i gradskog parka ima tek nekoliko minuta hoda, pa je zgodna stanica tokom večernje šetnje.",
+  "opis_en": "Pinthouse City Pub is the town's old beer hall on Trg maršala Tita in the very centre of Bihać, refurbished a few years ago. It is known for carefully poured beer, and guides especially mention the local Unski Biser. The summer terrace is considered one of the best places in town for a beer in good weather, and at weekends there is live music, mostly rock. It has a 4.7 rating on Google. It can get busy, so it pays to arrive early. The Una and the city park are only a few minutes' walk away, making it a handy stop on an evening stroll.",
+  "opis_de": "Der Pinthouse City Pub ist die alte Bierhalle der Stadt am Trg maršala Tita im Zentrum von Bihać und wurde vor einigen Jahren renoviert. Bekannt ist er für sorgfältig gezapftes Bier; Reiseführer nennen besonders das lokale Unski Biser. Die Sommerterrasse gilt als einer der besten Orte der Stadt für ein Bier bei schönem Wetter, am Wochenende gibt es Live-Musik, meist Rock. Auf Google hat er 4,7 Sterne. Da es voll werden kann, lohnt es sich, früh zu kommen. Una und Stadtpark sind nur wenige Gehminuten entfernt – ein praktischer Halt beim Abendspaziergang.",
+  "specijaliteti": [
+   "točeno pivo",
+   "Unski biser",
+   "ljetna terasa",
+   "rock svirke vikendom"
+  ],
+  "cijene": "",
+  "adresa": "Trg maršala Tita, 77000 Bihać",
+  "lat": 44.813828,
+  "lng": 15.871123,
+  "telefon": "+387 61 756 844",
+  "web": "",
+  "facebook": "https://www.facebook.com/pinthouse.bihac/",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "svaki dan 08:00–23:00 (prema In Your Pocket)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/pinthouse-city-pub",
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/pinthouse-city-pub",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "IYP navodi adresu 'Bosanske državnosti bb', tourismbih i evendo 'Trg maršala Tita'. 'Obnovljena prije nekoliko godina' – IYP ne navodi godinu. Radno vrijeme iz IYP (stariji)."
+ },
+ {
+  "slug": "mint-bar-cocktail-cafe",
+  "ime": "Mint Bar | Cocktail | Cafe",
+  "tip": "koktel bar",
+  "kratko_bs": "Koktel bar i kafe u centru: kafa i brunch danju, kokteli navečer",
+  "opis_bs": "Mint Bar je koktel bar i kafe u Ulici bosanskih banova u centru Bihaća, s jednom od najviših Google ocjena među gradskim barovima (4,8 uz oko 180 recenzija). Radnim danima otvara se rano, pa je dobar za jutarnju kafu, a navečer postaje mjesto za klasične i autorske koktele. U toplijim mjesecima radi i vanjska terasa. Nedjeljom je zatvoren, što je korisno znati pri planiranju vikend izlaska. Nalazi se u pješačkom dijelu centra, nekoliko minuta od Fethija džamije i Une, pa je dobar izbor za prvo ili posljednje piće večeri.",
+  "opis_en": "Mint Bar is a cocktail bar and café on Bosanskih banova Street in central Bihać, with one of the highest Google ratings among the town's bars (4.8 from around 180 reviews). On weekdays it opens early, so it works for a morning coffee, and in the evening it becomes a spot for classic and signature cocktails. There is outdoor seating in the warmer months. It is closed on Sundays, which is worth knowing when planning a weekend night out. It is in the walkable heart of town, a few minutes from the Fethija Mosque and the Una, so it makes a good first or last stop of the evening.",
+  "opis_de": "Die Mint Bar ist Cocktailbar und Café in der Straße Bosanskih banova im Zentrum von Bihać und hat eine der höchsten Google-Bewertungen unter den Bars der Stadt (4,8 bei rund 180 Bewertungen). Werktags öffnet sie früh und eignet sich für den Morgenkaffee, abends gibt es klassische und eigene Cocktails. In den wärmeren Monaten sitzt man auch draußen. Sonntags ist geschlossen – gut zu wissen bei der Planung eines Wochenendabends. Sie liegt im fußläufigen Zentrum, wenige Minuten von der Fethija-Moschee und der Una entfernt – gut für den ersten oder letzten Drink des Abends.",
+  "specijaliteti": [
+   "kokteli",
+   "kafa",
+   "terasa"
+  ],
+  "cijene": "",
+  "adresa": "Bosanskih banova 35, 77000 Bihać",
+  "lat": 44.81676,
+  "lng": 15.868023,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "pon–pet 08:00–24:00, sub 09:00–24:00, ned zatvoreno",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/mint-bar-cocktail-cafe",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs",
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/libar-book-bar"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate preuzete od nekadašnjeg Libar Book & Bar na istoj adresi (IYP) – približne. Moguće je da je Mint zamijenio Libar; Libar nije uvršten. Opis koktela/brunča iz evendo opisa (automatski generisan tekst)."
+ },
+ {
+  "slug": "friends-pub",
+  "ime": "Friends Pub",
+  "tip": "pub",
+  "kratko_bs": "Opušteni pub kod autobuske stanice s povoljnim pivom i koktelima",
+  "opis_bs": "Friends Pub je mali, opušteni pub u Hošića mahali, blizu autobuske stanice u Bihaću, uređen starim posterima i opremljen projektorom za utakmice. Gosti ga hvale zbog povoljnog piva, velikih i dobro napravljenih koktela te ljubaznog osoblja, a povremeno, uglavnom vikendom, bude i svirke uživo. Na TripAdvisoru ima maksimalnu ocjenu, a na Googleu 4,8 uz više od 260 recenzija. Hrana je sporedna, pa je mjesto prije svega za piće i druženje. Zbog blizine autobuske stanice zgodan je i za piće prije polaska ili po dolasku u grad.",
+  "opis_en": "Friends Pub is a small, laid-back pub in Hošića mahala near the bus station in Bihać, decorated with old posters and equipped with a projector for matches. Guests praise the cheap beer, large and well-made cocktails and friendly staff, and there is occasional live music, mostly at weekends. It has a perfect score on TripAdvisor and 4.8 on Google from more than 260 reviews. Food is secondary, so this is primarily a place for drinks and socialising. Being close to the bus station, it is also handy for a drink before leaving or just after arriving in town.",
+  "opis_de": "Der Friends Pub ist ein kleiner, entspannter Pub in der Hošića mahala nahe dem Busbahnhof von Bihać, dekoriert mit alten Postern und mit Projektor für Fußballspiele. Gäste loben das günstige Bier, große und gut gemixte Cocktails und das freundliche Personal; gelegentlich, meist am Wochenende, gibt es Live-Musik. Auf TripAdvisor hat er die Höchstnote, auf Google 4,8 bei über 260 Bewertungen. Das Essen ist Nebensache – hier geht es vor allem um Getränke und Geselligkeit. Durch die Nähe zum Busbahnhof eignet er sich auch für einen Drink vor der Abfahrt oder direkt nach der Ankunft.",
+  "specijaliteti": [
+   "pivo",
+   "kokteli",
+   "prenos utakmica"
+  ],
+  "cijene": "povoljno (TripAdvisor: $)",
+  "adresa": "Hošića mahala 2, 77000 Bihać",
+  "lat": 44.814958,
+  "lng": 15.877476,
+  "telefon": "",
+  "web": "",
+  "facebook": "https://www.facebook.com/Friends-Pub-145262938862721/",
+  "instagram": "",
+  "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d10721665-Reviews-Friends_Pub-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+  "radno_vrijeme": "svaki dan 07:00–23:00",
+  "uz_rijeku": false,
+  "slike": [
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/98/a5/d9/interior.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d10721665-Reviews-Friends_Pub-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "TripAdvisor – fotografija korisnika/objekta; autorska prava zadržana, za objavu potrebna dozvola",
+    "autor": "korisnik TripAdvisora"
+   },
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/98/a5/cf/often-atmosphere.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d10721665-Reviews-Friends_Pub-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "TripAdvisor – fotografija korisnika/objekta; autorska prava zadržana, za objavu potrebna dozvola",
+    "autor": "korisnik TripAdvisora"
+   }
+  ],
+  "izvori": [
+   "https://www.tripadvisor.com/Restaurant_Review-g295389-d10721665-Reviews-Friends_Pub-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/friends-pub",
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/friends-pub",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. TripAdvisor navodi neispravan telefon (indijski broj) – telefon izostavljen. Fotografija 'often-atmosphere' možda prikazuje ljude – vizuelno provjeriti."
+ },
+ {
+  "slug": "fly-bar",
+  "ime": "Fly Bar",
+  "tip": "bar",
+  "kratko_bs": "Živahan bar kod Kapetanove kule, omiljen među mladima, radi do ponoći",
+  "opis_bs": "Fly Bar nalazi se u Ulici Gazi Husrev-begova, u starom dijelu centra Bihaća, nedaleko od Kapetanove kule. Spolja izgleda kao klasičan balkanski kafić, ali unutra je obično puno mladih koji se zadržavaju do kasno uz piće i razgovor, pa zna biti i prilično glasno. Pića su povoljna, a ima i mjesta za sjedenje napolju. Na Googleu ima ocjenu 4,6 uz više od 250 recenzija. Radnim danima i subotom radi do ponoći. Nedjeljom radi do 23 sata, a do rijeke i glavnog trga ima tek nekoliko minuta hoda.",
+  "opis_en": "Fly Bar is on Gazi Husrev-begova Street in the old part of central Bihać, not far from the Captain's Tower. From outside it looks like a typical Balkan café bar, but inside it is usually full of young people who stay late over drinks and conversation, so it can get fairly loud. Drinks are affordable and there is outdoor seating. It has a 4.6 Google rating from more than 250 reviews. On weekdays and Saturdays it is open until midnight. On Sundays it closes at 11 pm, and the river and main square are only a few minutes' walk away.",
+  "opis_de": "Die Fly Bar liegt in der Straße Gazi Husrev-begova im alten Teil des Zentrums von Bihać, nicht weit vom Kapitänsturm. Von außen wirkt sie wie ein typisches Balkan-Café, drinnen ist es meist voll mit jungen Leuten, die bis spät bei Drinks und Gesprächen bleiben – es kann ziemlich laut werden. Die Getränke sind günstig, draußen gibt es Sitzplätze. Auf Google hat sie 4,6 Sterne bei über 250 Bewertungen. Werktags und samstags ist bis Mitternacht geöffnet. Sonntags schließt sie um 23 Uhr; Fluss und Hauptplatz sind nur wenige Gehminuten entfernt.",
+  "specijaliteti": [
+   "povoljna pića",
+   "večernji izlazak"
+  ],
+  "cijene": "",
+  "adresa": "Gazi Husrev-begova 6, 77000 Bihać",
+  "lat": 44.815447,
+  "lng": 15.870091,
+  "telefon": "+387 61 718 517",
+  "web": "",
+  "facebook": "https://www.facebook.com/Fly-Bar-Bihac-370474756416014/",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "pon–pet 07:00–24:00, sub 08:00–24:00, ned 08:00–23:00",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/fly-bar",
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/fly-bar",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Telefon iz In Your Pocket (stariji)."
+ },
+ {
+  "slug": "irish-pub-kod-sose",
+  "ime": "Irish Pub – Kod Šoše",
+  "tip": "pub",
+  "kratko_bs": "Pub u irskom stilu na rubu centra, dobar za utakmice i večernje piće",
+  "opis_bs": "Irish Pub, poznat i kao Kod Šoše, nalazi se u Ulici Vazduhoplovne grupe, na rubu centra Bihaća. Uređen je u irskom stilu, iako ne slijedi strogo model tradicionalnog irskog puba. Dobro je mjesto za večernje piće, a posebno je posjećen kada se prenose sportski događaji. Na Googleu ima ocjenu 4,7 uz gotovo 200 recenzija, a gosti ga opisuju kao ugodan pub sa širokim izborom pića. Radi svaki dan do 23 sata. Do centra i rijeke stiže se za nekoliko minuta hoda, pa se lako kombinuje s večerom u gradu.",
+  "opis_en": "The Irish Pub, also known as Kod Šoše, is on Vazduhoplovne grupe Street at the edge of central Bihać. It is decorated in an Irish style, although it does not strictly follow the traditional Irish pub model. It is a good place for an evening drink and gets especially busy when sports are on TV. It has a 4.7 Google rating from nearly 200 reviews, and guests describe it as a cosy pub with a wide choice of drinks. It is open daily until 11 pm. The centre and the river are a few minutes' walk away, so it is easy to combine with dinner in town.",
+  "opis_de": "Der Irish Pub, auch Kod Šoše genannt, liegt in der Straße Vazduhoplovne grupe am Rand des Zentrums von Bihać. Er ist im irischen Stil eingerichtet, folgt aber nicht streng dem Modell des traditionellen Irish Pubs. Ein guter Ort für einen Drink am Abend, besonders voll wird es bei Sportübertragungen. Auf Google hat er 4,7 Sterne bei fast 200 Bewertungen; Gäste beschreiben ihn als gemütlichen Pub mit großer Getränkeauswahl. Täglich bis 23 Uhr geöffnet. Zentrum und Fluss sind wenige Gehminuten entfernt, daher lässt er sich gut mit einem Abendessen in der Stadt verbinden.",
+  "specijaliteti": [
+   "pivo",
+   "prenos sportskih događaja"
+  ],
+  "cijene": "",
+  "adresa": "Vazduhoplovne grupe 6, 77000 Bihać",
+  "lat": 44.812546,
+  "lng": 15.865994,
+  "telefon": "",
+  "web": "",
+  "facebook": "https://www.facebook.com/Irish-Pub-Biha%C4%87-226313900862533/",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "pon–sub 07:00–23:00, ned 08:00–23:00",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/irish-pub",
+   "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/irish-pub-kod-sose"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati."
+ },
+ {
+  "slug": "caffe-bar-imperial",
+  "ime": "Caffe bar Imperial",
+  "tip": "kafić",
+  "kratko_bs": "Povoljan kafić u centru, otvoren od 6:30, s više od 200 Google recenzija",
+  "opis_bs": "Caffe bar Imperial nalazi se u Ulici Murat-bega Ibrahimpašića u centru Bihaća i jedan je od najposjećenijih kafića u gradu – na Googleu ima ocjenu 4,6 uz više od 200 recenzija. Opisuje se kao ugodan i povoljan kafić u kojem se uz kafu, čaj i peciva može opustiti ili sresti s prijateljima. Otvara se već u 6:30, pa je zgodan za ranu kafu prije polaska na izlet, a radi do 23 sata. Ulica Murat-bega Ibrahimpašića nalazi se blizu pješačke zone, pa je kafić lako uklopiti u šetnju gradom.",
+  "opis_en": "Caffe bar Imperial is on Murat-bega Ibrahimpašića Street in central Bihać and is one of the busiest cafés in town, with a 4.6 Google rating from more than 200 reviews. It is described as a cosy, budget-friendly café where you can relax or meet friends over coffee, tea and pastries. It opens as early as 6:30 am, which makes it handy for an early coffee before a day trip, and closes at 11 pm. Murat-bega Ibrahimpašića Street is close to the pedestrian zone, so the café is easy to fit into a walk around town.",
+  "opis_de": "Caffe bar Imperial liegt in der Straße Murat-bega Ibrahimpašića im Zentrum von Bihać und ist eines der meistbesuchten Cafés der Stadt – 4,6 Sterne bei über 200 Google-Bewertungen. Beschrieben wird es als gemütliches, preiswertes Café, in dem man bei Kaffee, Tee und Gebäck entspannen oder Freunde treffen kann. Es öffnet schon um 6:30 Uhr – praktisch für einen frühen Kaffee vor dem Ausflug – und schließt um 23 Uhr. Die Straße Murat-bega Ibrahimpašića liegt nahe der Fußgängerzone, daher lässt sich das Café gut in einen Stadtbummel einbauen.",
+  "specijaliteti": [
+   "kafa",
+   "čaj",
+   "peciva"
+  ],
+  "cijene": "povoljno (prema opisu)",
+  "adresa": "Murat-bega Ibrahimpašića 10, 77000 Bihać",
+  "lat": 44.81674,
+  "lng": 15.86502,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "svaki dan 06:30–23:00 (Google)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-imperial",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate dekodirane iz Plus Code RV88+M2R (evendo)."
+ },
+ {
+  "slug": "caffe-bar-bihac",
+  "ime": "Caffe Bar Bihać",
+  "tip": "kafić",
+  "kratko_bs": "Moderan kafić u Ulici dr. Irfana Ljubijankića, ocjena 4,6 na Googleu",
+  "opis_bs": "Caffe Bar Bihać nalazi se u Ulici dr. Irfana Ljubijankića i jedan je od bolje ocijenjenih kafića u gradu – na Googleu ima ocjenu 4,6 uz oko 170 recenzija. Opisuje se kao moderno uređen kafić s udobnim sjedenjem, u kojem se služe kafa, čajevi i peciva, uz besplatan Wi-Fi. Radnim danima i subotom radi od 7 do 22 sata, a nedjeljom od 8. Pogodan je za jutarnju kafu ili mirno popodne. Ulica dr. Irfana Ljubijankića jedna je od glavnih gradskih saobraćajnica, pa je kafić lako pronaći i automobilom.",
+  "opis_en": "Caffe Bar Bihać is on Dr. Irfana Ljubijankića Street and is one of the better-rated cafés in town, with a 4.6 Google rating from around 170 reviews. It is described as a modern café with comfortable seating, serving coffee, teas and pastries, with free Wi-Fi. From Monday to Saturday it is open from 7 am to 10 pm, and on Sundays from 8 am. It suits a morning coffee or a quiet afternoon. Dr. Irfana Ljubijankića Street is one of the town's main roads, so the café is easy to find by car as well.",
+  "opis_de": "Caffe Bar Bihać liegt an der Straße Dr. Irfana Ljubijankića und gehört zu den besser bewerteten Cafés der Stadt – 4,6 Sterne bei rund 170 Google-Bewertungen. Beschrieben wird es als modern eingerichtetes Café mit bequemen Sitzplätzen, Kaffee, Tee und Gebäck sowie kostenlosem WLAN. Montag bis Samstag 7 bis 22 Uhr, sonntags ab 8 Uhr geöffnet. Gut für den Morgenkaffee oder einen ruhigen Nachmittag. Die Straße Dr. Irfana Ljubijankića ist eine der Hauptverkehrsachsen der Stadt; das Café ist daher auch mit dem Auto leicht zu finden. Sonntags öffnet es eine Stunde später.",
+  "specijaliteti": [
+   "kafa",
+   "čaj",
+   "peciva"
+  ],
+  "cijene": "",
+  "adresa": "Dr. Irfana Ljubijankića 76, 77000 Bihać",
+  "lat": null,
+  "lng": null,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "pon–sub 07:00–22:00, ned 08:00–22:00 (Google)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-bihac",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate nepoznate. Opis enterijera iz evendo opisa (automatski generisan)."
+ },
+ {
+  "slug": "h2o-bihac",
+  "ime": "H2O (H20)",
+  "tip": "caffe bar",
+  "kratko_bs": "Bar s terasom u Ulici Džemala Bijedića, otvoren od jutra do ponoći",
+  "opis_bs": "H2O je caffe bar s terasom u Ulici Džemala Bijedića, ulici uz Unu u centru Bihaća, u kojoj se nalazi i nekoliko restorana na rijeci. Radi svaki dan od jutra do ponoći, pa je pogodan i za kafu i za večernje piće. Na Googleu ima ocjenu 4,5 uz više od 120 recenzija. U ponudi su kokteli i domaća piva, a povremeno se organizuju tematske večeri i svirke. Zbog duge terase ljeti je jedno od mjesta gdje se okuplja mlađa publika. Lokal je naveden i u nacionalnom imeniku Tourism BiH.",
+  "opis_en": "H2O is a café bar with a terrace on Džemala Bijedića Street, the street along the Una in central Bihać that is also home to several riverside restaurants. It is open daily from morning until midnight, so it works for both coffee and an evening drink. It has a 4.5 Google rating from over 120 reviews. Cocktails and local beers are on offer, with occasional themed nights and live music. Thanks to its terrace it is one of the summer meeting points for a younger crowd. It is also listed in the national Tourism BiH directory.",
+  "opis_de": "H2O ist eine Café-Bar mit Terrasse in der Straße Džemala Bijedića, der Straße entlang der Una im Zentrum von Bihać, an der auch mehrere Flussrestaurants liegen. Sie ist täglich von morgens bis Mitternacht geöffnet und eignet sich für Kaffee ebenso wie für einen Drink am Abend. Auf Google hat sie 4,5 Sterne bei über 120 Bewertungen. Es gibt Cocktails und lokale Biere, gelegentlich Themenabende und Live-Musik. Dank der Terrasse ist sie im Sommer ein Treffpunkt für ein jüngeres Publikum. Es ist auch im nationalen Verzeichnis Tourism BiH aufgeführt.",
+  "specijaliteti": [
+   "kokteli",
+   "domaće pivo",
+   "terasa"
+  ],
+  "cijene": "",
+  "adresa": "Džemala Bijedića, 77000 Bihać",
+  "lat": 44.8131,
+  "lng": 15.8738,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "svaki dan 09:00–24:00",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/h20",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate PRIBLIŽNE (sredina Ulice Džemala Bijedića kod River Une) – tačnu lokaciju i da li je terasa na rijeci treba potvrditi. Tvrdnja o 'mlađoj publici' i svirkama iz evendo opisa (automatski generisan tekst)."
+ },
+ {
+  "slug": "caffe-bar-night-club-borik",
+  "ime": "Caffe Bar & Night Club Borik",
+  "tip": "klub",
+  "kratko_bs": "Caffe bar i noćni klub s DJ i živim svirkama",
+  "opis_bs": "Borik je caffe bar i noćni klub u Ulici Velikog korpusa u Bihaću. Danju radi kao klasičan kafić, od ranog jutra, a predstavlja se kao mjesto za večernje izlaske, s DJ večerima i svirkama uživo te širokom ponudom pića, od domaćih piva do koktela. Na Googleu ima ocjenu 4,5 uz oko 135 recenzija. Prema Google profilu svaki dan radi do 23 sata, pa je za klupske večeri i događaje najbolje provjeriti najave na društvenim mrežama. Lokal je naveden i u nacionalnom imeniku Tourism BiH.",
+  "opis_en": "Borik is a café bar and nightclub on Velikog korpusa Street in Bihać. By day it works as a regular café, opening early in the morning, and it presents itself as a venue for nights out with DJ evenings, live music and a wide drinks list, from local beers to cocktails. It has a 4.5 Google rating from around 135 reviews. According to its Google profile it closes at 11 pm daily, so for club nights and events it is best to check announcements on social media. It is also listed in the national Tourism BiH directory.",
+  "opis_de": "Borik ist Café-Bar und Nachtclub in der Straße Velikog korpusa in Bihać. Tagsüber ist es ein normales Café, das früh öffnet; abends versteht es sich als Ort zum Ausgehen mit DJ-Abenden, Live-Musik und großer Getränkeauswahl von lokalem Bier bis Cocktails. Auf Google hat es 4,5 Sterne bei rund 135 Bewertungen. Laut Google-Profil schließt es täglich um 23 Uhr; für Clubnächte und Events sollte man die Ankündigungen in den sozialen Medien prüfen. Es ist auch im nationalen Verzeichnis Tourism BiH aufgeführt.",
+  "specijaliteti": [
+   "DJ večeri",
+   "svirke",
+   "kokteli"
+  ],
+  "cijene": "",
+  "adresa": "Velikog korpusa 5, 77000 Bihać",
+  "lat": null,
+  "lng": null,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "svaki dan 06:00–23:00 (Google)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-night-club-borik",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate nepoznate. Opis DJ večeri iz evendo opisa (automatski generisan) – potvrditi."
+ },
+ {
+  "slug": "caffe-bar-centar",
+  "ime": "Caffe bar Centar",
+  "tip": "kafić",
+  "kratko_bs": "Kafić u Ulici Petog korpusa s kafom, kolačima i Wi-Fi-jem",
+  "opis_bs": "Caffe bar Centar nalazi se u Ulici Petog korpusa, u samom središtu Bihaća, i omiljen je i među domaćima i među putnicima. Nudi kafu, kolače i lagane zalogaje, a dobar Wi-Fi čini ga pogodnim i za rad na laptopu, kako ističu vodiči za digitalne nomade. Na Googleu ima ocjenu 4,5 uz gotovo 90 recenzija. Radi svaki dan od 7 do 23 sata. Ulica Petog korpusa jedna je od glavnih gradskih ulica, pa je kafić zgodna tačka za sastanak prije šetnje do Une ili Kapetanove kule. Mjesto je mirnije od večernjih barova.",
+  "opis_en": "Caffe bar Centar is on Petog korpusa Street in the very heart of Bihać and is popular with locals and travellers alike. It serves coffee, cakes and light snacks, and good Wi-Fi makes it suitable for working on a laptop, as digital-nomad guides point out. It has a 4.5 Google rating from nearly 90 reviews. It is open daily from 7 am to 11 pm. Petog korpusa is one of the town's main streets, so the café is a convenient meeting point before a walk to the Una or the Captain's Tower. It is calmer than the evening bars.",
+  "opis_de": "Caffe bar Centar liegt in der Straße Petog korpusa im Herzen von Bihać und ist bei Einheimischen wie Reisenden beliebt. Es gibt Kaffee, Kuchen und kleine Snacks; das gute WLAN macht es laut Ratgebern für digitale Nomaden auch zum Arbeiten am Laptop geeignet. Auf Google hat es 4,5 Sterne bei fast 90 Bewertungen. Täglich von 7 bis 23 Uhr geöffnet. Die Petog korpusa ist eine der Hauptstraßen der Stadt, das Café ist daher ein praktischer Treffpunkt vor einem Spaziergang zur Una oder zum Kapitänsturm. Es geht hier ruhiger zu als in den Abendbars.",
+  "specijaliteti": [
+   "kafa",
+   "kolači",
+   "Wi-Fi"
+  ],
+  "cijene": "",
+  "adresa": "Petog korpusa, 77000 Bihać",
+  "lat": null,
+  "lng": null,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "svaki dan 07:00–23:00 (Google)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-centar",
+   "https://nomadlio.com/bihac/city-guide/",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Koordinate nepoznate."
+ },
+ {
+  "slug": "kafeterija-bihac",
+  "ime": "Kafeterija",
+  "tip": "kafić",
+  "kratko_bs": "Specijalizirana kafa uz Fethija džamiju, na vrhu pješačke zone",
+  "opis_bs": "Kafeterija se nalazi u Bosanskoj ulici, odmah uz Fethija džamiju, na vrhu glavne pješačke zone u Bihaću. Vodič In Your Pocket opisuje je kao prvi kafić u gradu koji je donio modernu kulturu specijalizirane kafe, pa je pravo mjesto za espresso, cappuccino ili filter kafu pripremljenu s više pažnje nego u klasičnom kafiću. Lokacija je idealna za predah između obilaska džamije, Kapetanove kule i šetnje uz Unu. Nedjeljom ne radi. Dobra je adresa i za kafu za ponijeti prije šetnje centrom.",
+  "opis_en": "Kafeterija is on Bosanska Street, right next to the Fethija Mosque at the top of Bihać's main pedestrian zone. The In Your Pocket guide describes it as the first café in town to bring modern speciality-coffee culture, so it is the place for an espresso, cappuccino or filter coffee made with more care than in a classic café. The location is ideal for a break between visiting the mosque, the Captain's Tower and a walk along the Una. It is closed on Sundays. It is also a good stop for a coffee to go before a stroll through the centre.",
+  "opis_de": "Die Kafeterija liegt in der Bosanska-Straße direkt neben der Fethija-Moschee am oberen Ende der Fußgängerzone von Bihać. Der Führer In Your Pocket beschreibt sie als erstes Café der Stadt mit moderner Specialty-Coffee-Kultur – der richtige Ort für Espresso, Cappuccino oder Filterkaffee, sorgfältiger zubereitet als im klassischen Café. Ideal für eine Pause zwischen Moschee, Kapitänsturm und einem Spaziergang an der Una. Sonntags geschlossen. Auch für einen Kaffee zum Mitnehmen vor dem Bummel durchs Zentrum ist sie eine gute Adresse. Sie liegt nur wenige Gehminuten von der Una entfernt.",
+  "specijaliteti": [
+   "specijalizirana kafa",
+   "espresso",
+   "filter kafa"
+  ],
+  "cijene": "",
+  "adresa": "Bosanska bb (uz Fethija džamiju), 77000 Bihać",
+  "lat": 44.816373,
+  "lng": 15.869843,
+  "telefon": "",
+  "web": "",
+  "facebook": "https://www.facebook.com/Kafeterijabihac/",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "pon–sub 08:00–23:00, nedjeljom zatvoreno (prema In Your Pocket)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/kafeterija",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme iz In Your Pocket (stariji). Vrste kafe (espresso, filter) su opšti primjer, nisu potvrđene u izvoru."
+ },
+ {
+  "slug": "my-bar",
+  "ime": "MY bar",
+  "tip": "bar",
+  "kratko_bs": "Mali, prijatan bar u Harmanskom sokaku s pivom, vinom i koktelima",
+  "opis_bs": "MY bar je mali i prijatan bar u Harmanskom sokaku, u centralnom dijelu Bihaća. Na Googleu ima ocjenu 4,7, a gosti ga opisuju kao ugodno mjesto s ljubaznim osobljem i raznovrsnom kartom pića – od domaćih piva do vina i koktela. Radi svaki dan od 7 ujutro do ponoći, pa se može svratiti i na jutarnju kafu i na večernje piće. Pogodan je za mirniji izlazak u manjem društvu. Harmanski sokak nalazi se nedaleko od pješačke zone, pa je bar lako uklopiti u večernju šetnju.",
+  "opis_en": "MY bar is a small, friendly bar on Harmanski sokak in the central part of Bihać. It has a 4.7 Google rating, and guests describe it as a pleasant place with friendly staff and a varied drinks list – from local beers to wine and cocktails. It is open every day from 7 am to midnight, so you can drop in for a morning coffee or an evening drink. It suits a quieter night out with a few friends. Harmanski sokak is not far from the pedestrian zone, so the bar is easy to fit into an evening stroll.",
+  "opis_de": "MY bar ist eine kleine, freundliche Bar im Harmanski sokak im zentralen Teil von Bihać. Auf Google hat sie 4,7 Sterne; Gäste beschreiben sie als angenehmen Ort mit freundlichem Personal und vielfältiger Getränkekarte – von lokalem Bier bis zu Wein und Cocktails. Täglich von 7 Uhr bis Mitternacht geöffnet, also für den Morgenkaffee ebenso wie für den Abenddrink. Ideal für einen ruhigeren Abend in kleiner Runde. Der Harmanski sokak liegt nicht weit von der Fußgängerzone, daher lässt sich die Bar gut in einen Abendspaziergang einbauen.",
+  "specijaliteti": [
+   "domaće pivo",
+   "vino",
+   "kokteli"
+  ],
+  "cijene": "",
+  "adresa": "Harmanski sokak 5, 77000 Bihać",
+  "lat": null,
+  "lng": null,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "svaki dan 07:00–24:00 (Google)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/my-bar",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Samo 25 Google recenzija. Koordinate nepoznate."
+ },
+ {
+  "slug": "balance-caffe-bar",
+  "ime": "Balance caffe bar",
+  "tip": "kafić",
+  "kratko_bs": "Ugodan caffe bar u Ozimicama s kafom, vinom i povremenim svirkama",
+  "opis_bs": "Balance caffe bar nalazi se u Ulici Hasana Kjafije Pruščaka u naselju Ozimice, nekoliko vrata od pizzerije Bella Italia. Na Googleu ima ocjenu 4,7, a opisuje se kao ugodan i gostoljubiv kafić u kojem se služe kafa, čajevi te domaća vina i žestoka pića, uz povremene svirke i lokalne događaje. Dobar je izbor za kafu prije ili piće poslije večere u ovom dijelu grada. Do centra i rijeke ima desetak minuta hoda, a za radno vrijeme i najave događaja najbolje je pitati osoblje ili pratiti društvene mreže.",
+  "opis_en": "Balance caffe bar is on Hasana Kjafije Pruščaka Street in the Ozimice neighbourhood, a few doors from Pizzeria Bella Italia. It has a 4.7 Google rating and is described as a cosy, welcoming café serving coffee, teas and local wines and spirits, with occasional live music and local events. It is a good choice for a coffee before, or a drink after, dinner in this part of town. The centre and the river are about ten minutes' walk away; for opening hours and event announcements, ask the staff or follow its social media.",
+  "opis_de": "Balance caffe bar liegt in der Straße Hasana Kjafije Pruščaka im Viertel Ozimice, wenige Häuser von der Pizzeria Bella Italia entfernt. Auf Google hat es 4,7 Sterne und wird als gemütliches, gastfreundliches Café beschrieben, in dem Kaffee, Tee sowie heimische Weine und Spirituosen serviert werden, gelegentlich mit Live-Musik und lokalen Veranstaltungen. Gut für einen Kaffee vor oder einen Drink nach dem Abendessen in diesem Stadtteil. Zentrum und Fluss sind etwa zehn Gehminuten entfernt; Öffnungszeiten und Veranstaltungen erfährt man beim Personal oder in den sozialen Medien.",
+  "specijaliteti": [
+   "kafa",
+   "domaće vino",
+   "svirke"
+  ],
+  "cijene": "",
+  "adresa": "Hasana Kjafije Pruščaka 13, 77000 Bihać",
+  "lat": 44.8162,
+  "lng": 15.8638,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/balance-caffe-bar",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Koordinate PRIBLIŽNE (prema susjednom broju 15 – Bella Italia). Samo 24 Google recenzije. Svirke iz evendo opisa (automatski generisan). Radno vrijeme nije navedeno."
+ },
+ {
+  "slug": "flash-art-bar",
+  "ime": "Flash Art Bar",
+  "tip": "bar",
+  "kratko_bs": "Bar s karakterom uz ruševine crkve sv. Ante i Kapetanovu kulu",
+  "opis_bs": "Flash Art Bar nalazi se u Ulici Gazi Husrev-begova, u najstarijem dijelu Bihaća, tik uz ruševine crkve svetog Ante i Kapetanovu kulu, gdje se odvijaju arheološki radovi. Omiljen je među domaćima i poznat po posebnoj atmosferi, pićima i šarmu, pa je dobar izbor za one koji žele sjesti tamo gdje sjede Bišćani, a ne samo turisti. Lokacija je pogodna za piće nakon obilaska povijesne jezgre grada. Do Une i glavnog trga ima samo nekoliko minuta hoda, pa je zgodan za početak večeri u centru.",
+  "opis_en": "Flash Art Bar is on Gazi Husrev-begova Street in the oldest part of Bihać, right beside the ruins of St Anthony's Church and the Captain's Tower, where archaeological work is under way. It is popular with locals and known for its particular atmosphere, drinks and charm, so it is a good choice if you want to sit where Bihać residents sit rather than only tourists. The location is handy for a drink after exploring the historic core of the town. The Una and the main square are only a few minutes' walk away, making it a good place to start an evening in the centre.",
+  "opis_de": "Die Flash Art Bar liegt in der Straße Gazi Husrev-begova im ältesten Teil von Bihać, direkt neben den Ruinen der Antoniuskirche und dem Kapitänsturm, wo archäologische Arbeiten laufen. Sie ist bei Einheimischen beliebt und bekannt für ihre besondere Atmosphäre, die Getränke und ihren Charme – gut für alle, die dort sitzen möchten, wo die Bewohner von Bihać sitzen, nicht nur Touristen. Ideal für einen Drink nach der Besichtigung des historischen Stadtkerns. Una und Hauptplatz sind nur wenige Gehminuten entfernt – ein guter Ausgangspunkt für einen Abend im Zentrum.",
+  "specijaliteti": [
+   "piće",
+   "lokalna atmosfera"
+  ],
+  "cijene": "",
+  "adresa": "Gazi Husrev-begova 2, 77000 Bihać",
+  "lat": 44.814482,
+  "lng": 15.870111,
+  "telefon": "",
+  "web": "",
+  "facebook": "https://www.facebook.com/FLASH-ART-124535748940769/",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "07:00–22:00 (prema In Your Pocket)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/flash-art-bar",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Glavni izvor In Your Pocket (stariji); tourismbih i dalje navodi 'Flash Art' na Gazi Husrev-begova 2."
+ },
+ {
+  "slug": "cafe-mustang",
+  "ime": "Cafe Mustang",
+  "tip": "kafić",
+  "kratko_bs": "Kafić s vanjskom terasom u centru, za kafu ili piće nakon razgledanja",
+  "opis_bs": "Cafe Mustang je kafić u centru Bihaća, u blizini Ulice Gazi Husrev-begova i Kapetanove kule. Ima vanjsku terasu, a opisuje se kao opušteno mjesto za bosansku kafu, piće ili koktel nakon dana razgledanja, uz lagane zalogaje i peciva. Na Googleu ima ocjenu 4,1 uz pedesetak recenzija. Otvara se u 6 ujutro i radi do 23 sata svaki dan. Zbog ranog otvaranja zgodan je za kafu prije polaska na izlet u Nacionalni park Una, a navečer za opušteno piće u centru, nekoliko minuta od rijeke.",
+  "opis_en": "Cafe Mustang is a café in central Bihać, near Gazi Husrev-begova Street and the Captain's Tower. It has an outdoor terrace and is described as a relaxed place for a Bosnian coffee, a drink or a cocktail after a day of sightseeing, with light snacks and pastries. It has a 4.1 Google rating from about fifty reviews. It opens at 6 am and closes at 11 pm every day. Thanks to its early opening it is handy for a coffee before a trip to Una National Park, and in the evening for a relaxed drink in the centre, a few minutes from the river.",
+  "opis_de": "Cafe Mustang ist ein Café im Zentrum von Bihać, nahe der Straße Gazi Husrev-begova und dem Kapitänsturm. Es hat eine Außenterrasse und wird als entspannter Ort für bosnischen Kaffee, einen Drink oder Cocktail nach einem Tag Sightseeing beschrieben, dazu kleine Snacks und Gebäck. Auf Google hat es 4,1 Sterne bei rund fünfzig Bewertungen. Täglich von 6 bis 23 Uhr geöffnet. Dank der frühen Öffnung eignet es sich für einen Kaffee vor dem Ausflug in den Nationalpark Una und abends für einen entspannten Drink im Zentrum, wenige Minuten vom Fluss.",
+  "specijaliteti": [
+   "bosanska kafa",
+   "terasa"
+  ],
+  "cijene": "",
+  "adresa": "Centar (Plus Code RV8C+536), 77000 Bihać",
+  "lat": 44.81541,
+  "lng": 15.87014,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "svaki dan 06:00–23:00 (Google)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/cafe-mustang",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Ulica nije navedena – koordinate dekodirane iz Plus Code; blizina Kapetanove kule procijenjena prema koordinatama."
+ },
+ {
+  "slug": "havana-lounge-bar",
+  "ime": "Havana Lounge Bar",
+  "tip": "lounge bar",
+  "kratko_bs": "Lounge bar u Sarajevskoj ulici koji radi do 3 ujutro",
+  "opis_bs": "Havana Lounge Bar nalazi se u Sarajevskoj ulici u Bihaću i izdvaja se radnim vremenom: prema Google profilu otvoren je svaki dan od 7 ujutro do 3 sata nakon ponoći, što ga čini jednim od rijetkih mjesta u gradu za kasni izlazak. Opisuje se kao lounge s raznovrsnom kartom pića i opuštenom atmosferom, uz povremene tematske večeri i muziku uživo. Na Googleu ima ocjenu 4,3, ali uz manji broj recenzija. Za aktuelne događaje najbolje je provjeriti društvene mreže ili pitati osoblje.",
+  "opis_en": "Havana Lounge Bar is on Sarajevska Street in Bihać and stands out for its hours: according to its Google profile it is open every day from 7 am until 3 am, making it one of the few places in town for a late night out. It is described as a lounge with a varied drinks menu and a relaxed atmosphere, with occasional themed nights and live music. It has a 4.3 Google rating, though from a small number of reviews. For current events, check its social media or ask the staff.",
+  "opis_de": "Die Havana Lounge Bar liegt in der Sarajevska-Straße in Bihać und fällt durch ihre Öffnungszeiten auf: Laut Google-Profil ist sie täglich von 7 Uhr morgens bis 3 Uhr nachts geöffnet und damit einer der wenigen Orte in der Stadt für eine lange Nacht. Beschrieben wird sie als Lounge mit vielfältiger Getränkekarte und entspannter Atmosphäre, gelegentlich mit Themenabenden und Live-Musik. Auf Google hat sie 4,3 Sterne, allerdings bei wenigen Bewertungen. Aktuelle Veranstaltungen erfährt man am besten über soziale Medien oder beim Personal.",
+  "specijaliteti": [
+   "kasni izlazak",
+   "kokteli"
+  ],
+  "cijene": "",
+  "adresa": "Sarajevska 36, 77000 Bihać",
+  "lat": null,
+  "lng": null,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "svaki dan 07:00–03:00 (Google)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/havana-lounge-bar",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Radno vrijeme i Google ocjena preuzeti s evendo.com (prenosi Google Business Profile) – mogu se mijenjati. Samo 16 Google recenzija. Koordinate nepoznate. Tematske večeri iz evendo opisa (automatski generisan)."
+ },
+ {
+  "slug": "svarog-winter-house",
+  "ime": "Svarog Winter House",
+  "tip": "klub",
+  "kratko_bs": "Noćni klub s vikend zabavama i gostujućim regionalnim DJ-ima",
+  "opis_bs": "Svarog Winter House je noćni klub u Ulici 502. viteške brigade u Bihaću, nedaleko od restorana Čardak na Uni. Vodič In Your Pocket ga svrstava među vodeće gradske klubove, s prepunim vikend zabavama na kojima nastupaju poznati DJ-i iz regije, uz različite akcije na pića. Kako ime sugeriše, riječ je prije svega o zimskom klubu, pa raspored zabava i radno vrijeme treba provjeriti na Facebook stranici prije izlaska. Klub je u centru grada, pa se do njega lako stiže pješice nakon večere u nekom od restorana uz Unu.",
+  "opis_en": "Svarog Winter House is a nightclub on 502. Viteške brigade Street in Bihać, not far from the Čardak na Uni restaurant. The In Your Pocket guide lists it among the town's leading clubs, with packed weekend parties featuring well-known DJs from the region and various drinks offers. As the name suggests, it is mainly a winter venue, so check the party schedule and opening hours on its Facebook page before going out. The club is in the town centre, so it is easy to walk there after dinner at one of the riverside restaurants.",
+  "opis_de": "Svarog Winter House ist ein Nachtclub in der Straße 502. Viteške brigade in Bihać, nicht weit vom Restaurant Čardak na Uni. Der Führer In Your Pocket zählt ihn zu den führenden Clubs der Stadt, mit vollen Wochenendpartys, bekannten DJs aus der Region und verschiedenen Getränkeaktionen. Wie der Name andeutet, ist es vor allem ein Winterclub – Partyprogramm und Öffnungszeiten daher vorab auf der Facebook-Seite prüfen. Der Club liegt im Stadtzentrum und ist nach dem Abendessen in einem der Restaurants an der Una bequem zu Fuß erreichbar.",
+  "specijaliteti": [
+   "vikend zabave",
+   "regionalni DJ-i"
+  ],
+  "cijene": "",
+  "adresa": "Ulica 502. viteške brigade, 77000 Bihać",
+  "lat": 44.811773,
+  "lng": 15.872104,
+  "telefon": "+387 60 33 50 527",
+  "web": "",
+  "facebook": "https://www.facebook.com/SvarogWinterHouse/",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/svarog",
+   "https://www.inyourpocket.com/bihac/Nightlife/Clubs"
+  ],
+  "provjeriti": "Glavni izvor In Your Pocket (stariji). tourismbih ima listing 'Svarog Winter House Club' (vidljiv samo naslov u pretrazi). Potvrditi da radi. 'Zimski klub' je tumačenje imena."
+ },
+ {
+  "slug": "caffe-bar-vuk",
+  "ime": "Caffe Bar Vuk",
+  "tip": "kafić",
+  "kratko_bs": "Moderan kafić s točenim Estrella pivom, omiljen među mladima",
+  "opis_bs": "Caffe Bar Vuk je moderan kafić u centru Bihaća koji se, prema vodiču In Your Pocket, odmiče od tradicionalne balkanske kafanske kulture i privlači uglavnom mlađu publiku. Uz kafu i bezalkoholna pića nudi žestoka pića i točeno pivo Estrella. Dobar je izbor za opušteno popodne ili početak večernjeg izlaska. Lokal je i danas naveden u imeniku Tourism BiH, u Ulici Petog korpusa. Za radno vrijeme i eventualne događaje najbolje je pogledati Facebook stranicu kafića, a do rijeke i glavnog trga ima nekoliko minuta hoda.",
+  "opis_en": "Caffe Bar Vuk is a modern café in central Bihać which, according to the In Your Pocket guide, moves away from traditional Balkan café culture and attracts a mostly younger crowd. Alongside coffee and soft drinks it serves spirits and Estrella on tap. It is a good choice for a relaxed afternoon or the start of a night out. It is still listed in the Tourism BiH directory, on Petog korpusa Street. For opening hours and any events, check the café's Facebook page; the river and main square are a few minutes' walk away.",
+  "opis_de": "Caffe Bar Vuk ist ein modernes Café im Zentrum von Bihać, das sich laut In Your Pocket von der traditionellen Balkan-Kaffeehauskultur abhebt und vor allem jüngeres Publikum anzieht. Neben Kaffee und Softdrinks gibt es Spirituosen und Estrella vom Fass. Gut für einen entspannten Nachmittag oder den Start in den Abend. Das Lokal ist weiterhin im Verzeichnis Tourism BiH aufgeführt, in der Straße Petog korpusa. Öffnungszeiten und Veranstaltungen findet man auf der Facebook-Seite des Cafés; Fluss und Hauptplatz sind wenige Gehminuten entfernt.",
+  "specijaliteti": [
+   "točeno pivo Estrella",
+   "kafa"
+  ],
+  "cijene": "",
+  "adresa": "Petog korpusa, 77000 Bihać",
+  "lat": 44.811788,
+  "lng": 15.868511,
+  "telefon": "+387 60 31 10 403",
+  "web": "",
+  "facebook": "https://www.facebook.com/VUKBihac/",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/vuk",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Adresa: tourismbih 'Petog korpusa', IYP '502. viteška brigada' (koordinate iz IYP) – provjeriti tačnu lokaciju."
+ },
+ {
+  "slug": "cafe-10",
+  "ime": "Cafe 10",
+  "tip": "kafić",
+  "kratko_bs": "Jednostavan gradski kafić u Harmanskoj ulici, poznat po dobroj kafi",
+  "opis_bs": "Cafe 10 je jednostavan gradski kafić u Harmanskoj ulici, bez pretencioznog uređenja, ali s dobrom kafom i živim žamorom razgovora gotovo u svako doba dana. Vodič In Your Pocket preporučuje ga za jutarnju kafu, uz napomenu da zna biti zadimljeno. Ovo je mjesto na kojem se vidi svakodnevni život Bihaća: komšije, poznanici i duge kafe, bez žurbe. Radi od 7 do 23 sata. Harmanska ulica je nadomak pješačke zone, pa je kafić dobar za kratku pauzu tokom razgledanja ili za kafu prije polaska na izlet uz Unu.",
+  "opis_en": "Cafe 10 is a simple neighbourhood café on Harmanska Street, with no fancy decor but good coffee and a lively buzz of conversation at almost any time of day. The In Your Pocket guide recommends it for a morning coffee, while noting that it can be smoky. It is a place to see everyday life in Bihać: neighbours, acquaintances and long, unhurried coffees. It is open from 7 am to 11 pm. Harmanska Street is close to the pedestrian zone, so the café is a good short stop during sightseeing.",
+  "opis_de": "Cafe 10 ist ein schlichtes Stadtteilcafé in der Harmanska-Straße, ohne aufwendige Einrichtung, aber mit gutem Kaffee und lebhaftem Stimmengewirr zu fast jeder Tageszeit. Der Führer In Your Pocket empfiehlt es für den Morgenkaffee und weist darauf hin, dass es verraucht sein kann. Hier sieht man den Alltag von Bihać: Nachbarn, Bekannte und lange Kaffeepausen ohne Eile. Geöffnet von 7 bis 23 Uhr. Die Harmanska-Straße liegt nahe der Fußgängerzone, daher ist das Café eine gute kurze Pause beim Sightseeing oder vor einem Ausflug an die Una.",
+  "specijaliteti": [
+   "kafa"
+  ],
+  "cijene": "",
+  "adresa": "Harmanska 10, 77000 Bihać",
+  "lat": 44.813374,
+  "lng": 15.867581,
+  "telefon": "",
+  "web": "",
+  "facebook": "",
+  "instagram": "",
+  "tripadvisor": "",
+  "radno_vrijeme": "07:00–23:00 (prema In Your Pocket)",
+  "uz_rijeku": false,
+  "slike": [],
+  "izvori": [
+   "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/cafe-10",
+   "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
+  ],
+  "provjeriti": "Glavni izvor In Your Pocket (stariji); tourismbih i dalje navodi Cafe 10."
+ }
 ]
