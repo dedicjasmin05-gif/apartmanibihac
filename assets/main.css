@@ -514,3 +514,14 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
 .post-hero img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .post-card img, .news__img img { object-fit: cover; }
 .prose img { max-height: 70vh; width: auto; margin-inline: auto; }
+/* 1.1.3: male vijesti na mobitelu — slika i tekst jedno do drugog bez preklapanja */
+.news__item, .news__b, .post-card, .card, .ptiles li { min-width: 0; }
+.news__img img, .post-card img, .card__img { display: block; max-width: 100%; }
+@media (max-width: 720px) {
+  .news__item:not(:first-child) { display: flex; align-items: stretch; gap: 0; }
+  .news__item:not(:first-child) .news__img { flex: 0 0 108px; width: 108px; aspect-ratio: auto; height: auto; min-height: 96px; overflow: hidden; border-radius: 14px 0 0 14px; }
+  .news__item:not(:first-child) .news__img img { width: 100%; height: 100%; object-fit: cover; }
+  .news__item:not(:first-child) .news__b { flex: 1 1 auto; min-width: 0; padding: 12px 14px 12px 16px; align-self: center; }
+  .news__item:not(:first-child) .news__img:empty { display: none; }
+  .news__t { overflow-wrap: anywhere; }
+}
