@@ -1,13 +1,14 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
-define('AB_VER', '1.0.0');
+define('AB_VER', '1.1.0');
 
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('html5', array('search-form', 'gallery', 'caption', 'style', 'script'));
-    add_theme_support('custom-logo');
+    add_theme_support('custom-logo', array('flex-width' => true, 'flex-height' => true));
+    add_theme_support('abu-kontakt'); // tema sama prikazuje kontakt traku; dodatak je ne ispisuje
     add_image_size('ab-card', 720, 540, true);
     add_image_size('ab-wide', 1600, 900, true);
     register_nav_menus(array('glavni' => 'Glavni izbornik', 'podnozje' => 'Podnožje'));
@@ -201,7 +202,7 @@ add_action('wp_head', function () {
 function ab_faq() {
     return array(
         array('Koliko košta smještaj u Bihaću?', 'Apartmani i kuće za odmor u našoj ponudi kreću od ' . ab_mod('ab_cijena_od', '25') . ' € po noći za cijeli objekt. Cijena ovisi o objektu, sezoni i broju gostiju, a točan iznos vidite u potvrdi upita.'),
-        array('Kako rezervirati?', 'Odaberite objekt i datume i pošaljite upit. Vlasnik potvrđuje u roku od 12 sati. Nakon potvrde uplaćujete kaparu od 30 %, a ostatak plaćate pri dolasku.'),
+        array('Kako rezervirati?', 'Odaberite objekt i datume i pošaljite upit. Vlasnik potvrđuje u roku od 12 sati. Većinu smještaja plaćate gotovinom pri dolasku. Avansno plaćanje kod pojedinih objekata ovisi o pravilima tog objekta, i to vidite u potvrdi.'),
         array('Ima li smještaj uz samu rijeku Unu?', 'Da. U Lohovu, Pritoci i Grmuši nudimo kuće s izlazom na Unu, neke s terasom iznad rijeke ili bazenom.'),
         array('Koliko je Bihać udaljen od Plitvičkih jezera?', 'Do ulaza u Nacionalni park Plitvička jezera ima oko 35 km, otprilike 40 minuta vožnje.'),
         array('Mogu li uz smještaj rezervirati rafting?', 'Da. Rafting na Uni, team building i ručak uz rijeku organizira Una Olympic Rafting, a paket smještaja i raftinga dogovaramo u istom upitu.'),
@@ -227,3 +228,65 @@ add_filter('pre_get_document_title', function ($t) {
     return $t;
 });
 add_action('after_switch_theme', function () { flush_rewrite_rules(); });
+
+/* ---------- Jezik, prijevodi, ikone, izbornik (1.1) ---------- */
+function ab_jezik() {
+    if (function_exists('abu_jezik_stranice') && did_action('wp') && ($j = abu_jezik_stranice())) { return $j; }
+    return 'bs';
+}
+function ab_t($k) {
+    $t = array(
+        'bs' => array('recenzija' => 'recenzija', 'pratitelja' => 'pratitelja', 'preporuka' => 'preporuka', 'rezerviraj' => 'Pronađi smještaj',
+            'smjestaj' => 'Smještaj', 'restorani' => 'Restorani', 'izlasci' => 'Izlasci', 'izleti' => 'Izleti', 'rafting' => 'Rafting', 'tb' => 'Team building', 'vodic' => 'Vodič',
+            'nazovi' => 'Nazovi', 'upit' => 'Upit'),
+        'en' => array('recenzija' => 'reviews', 'pratitelja' => 'followers', 'preporuka' => 'recommend', 'rezerviraj' => 'Find a stay',
+            'smjestaj' => 'Stays', 'restorani' => 'Restaurants', 'izlasci' => 'Nightlife', 'izleti' => 'Day trips', 'rafting' => 'Rafting', 'tb' => 'Team building', 'vodic' => 'Guide',
+            'nazovi' => 'Call', 'upit' => 'Enquire'),
+        'de' => array('recenzija' => 'Bewertungen', 'pratitelja' => 'Follower', 'preporuka' => 'Empfehlung', 'rezerviraj' => 'Unterkunft finden',
+            'smjestaj' => 'Unterkünfte', 'restorani' => 'Restaurants', 'izlasci' => 'Ausgehen', 'izleti' => 'Ausflüge', 'rafting' => 'Rafting', 'tb' => 'Teambuilding', 'vodic' => 'Reiseführer',
+            'nazovi' => 'Anrufen', 'upit' => 'Anfrage'),
+    );
+    $l = ab_jezik();
+    return isset($t[$l][$k]) ? $t[$l][$k] : $t['bs'][$k];
+}
+function ab_fb() { $u = ab_mod('ab_facebook'); return ($u && strlen($u) > 26) ? $u : 'https://www.facebook.com/ApartmaniVikendice'; }
+function ab_ig() { $u = ab_mod('ab_instagram'); return ($u && strlen($u) > 27) ? $u : 'https://www.instagram.com/apartmaniivikendice/'; }
+/** Adresa vodiča na jeziku stranice (ako postoji prijevod). */
+function ab_url($bs, $en = '', $de = '') {
+    $l = ab_jezik();
+    $p = $l === 'en' && $en ? $en : ($l === 'de' && $de ? $de : $bs);
+    return home_url('/' . trim($p, '/') . '/');
+}
+function ab_izbornik() {
+    return array(
+        array(ab_t('smjestaj'), home_url('/smjestaj/')),
+        array(ab_t('restorani'), ab_url('restorani-bihac', 'en/restaurants-bihac', 'de/restaurants-bihac')),
+        array(ab_t('izlasci'), ab_url('nocni-zivot-bihac', 'en/nightlife-bihac', 'de/nachtleben-bihac')),
+        array(ab_t('izleti'), ab_url('izleti-bihac', 'en/day-trips-bihac', 'de/ausfluege-bihac')),
+        array(ab_t('rafting'), ab_url('rafting-na-uni', 'en/rafting-una', 'de/rafting-una')),
+        array(ab_t('tb'), ab_url('team-building-bihac', 'en/team-building-bihac', 'de/teambuilding-bihac')),
+        array(ab_t('vodic'), home_url('/vodic/')),
+    );
+}
+function ab_ikona($m) {
+    $p = array(
+        'tel' => 'M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z',
+        'mail' => 'M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z',
+        'fb' => 'M14 8.5V6.8c0-.8.5-1 .9-1H17V2.2L14.1 2C11 2 10.2 4.3 10.2 6v2.5H8V12h2.2v10H14V12h2.8l.4-3.5z',
+        'wa' => 'M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-5-4.3-5.1-4.5-.2-.2-1.2-1.6-1.2-3.1s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.7-.1 1.3z',
+        'vb' => 'M11.4 1C8.6 1 3 1.6 3 9.2v2.6c0 3.4 1.1 5.6 3.5 6.6v3.3c0 .5.6.8 1 .4l2.7-2.9h1.3c2.8 0 9.5-.6 9.5-8.2V9.2C21 1.6 14.3 1 11.4 1zm4.7 13.8c-.3.6-1 1.2-1.6 1.1-.9-.2-3.8-1.6-5.6-3.7-1.8-2.1-2.4-4.3-2.4-4.9.1-.7.7-1.2 1.2-1.4.4-.1.7 0 .9.3l1 1.5c.2.4.1.8-.2 1l-.5.4c.4 1.2 1.6 2.7 3 3.2l.4-.5c.3-.3.7-.4 1-.2l1.6.9c.4.2.5.7.2 1.1z',
+        'ig' => 'M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM16 1.2C14.3 1.1 9.7 1.1 8 1.2 4.3 1.4 1.4 4.3 1.2 8c-.1 1.7-.1 6.3 0 8 .2 3.7 3.1 6.6 6.8 6.8 1.7.1 6.3.1 8 0 3.7-.2 6.6-3.1 6.8-6.8.1-1.7.1-6.3 0-8C22.6 4.3 19.7 1.4 16 1.2zm4.9 14.6c-.1 2.8-2.3 5-5.1 5.1-1.6.1-6 .1-7.6 0-2.8-.1-5-2.3-5.1-5.1-.1-1.6-.1-6 0-7.6.1-2.8 2.3-5 5.1-5.1 1.6-.1 6-.1 7.6 0 2.8.1 5 2.3 5.1 5.1.1 1.6.1 6 0 7.6z',
+        'pin' => 'M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z',
+        'star' => 'M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z',
+    );
+    return isset($p[$m]) ? '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="' . $p[$m] . '"/></svg>' : '';
+}
+/** Blok povjerenja (Facebook): 139.000 pratitelja, 9.362 recenzije, 100 % preporuka. */
+function ab_povjerenje($klasa = '') {
+    ob_start(); ?>
+    <a class="trust <?php echo esc_attr($klasa); ?>" href="<?php echo esc_url(ab_fb()); ?>" target="_blank" rel="noopener">
+      <span class="trust__fb"><?php echo ab_ikona('fb'); // phpcs:ignore ?></span>
+      <span class="trust__txt"><span class="stars" aria-label="5/5">★★★★★</span><b>9.362 <?php echo esc_html(ab_t('recenzija')); ?> · 100 % <?php echo esc_html(ab_t('preporuka')); ?></b><small>139.000 <?php echo esc_html(ab_t('pratitelja')); ?> · Apartmani &amp; Vikendice</small></span>
+    </a>
+    <?php return ob_get_clean();
+}
