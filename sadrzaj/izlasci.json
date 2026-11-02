@@ -24,7 +24,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "pon–čet 07:00–23:00, pet–sub 07:00–24:00, ned 07:30–23:00",
   "uz_rijeku": true,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/bc2b6da9-c1a3-473b-be34-a030f451446a",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/gig-bar",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   },
+   {
+    "url": "https://media.evendo.com/locations-resized/NightClubImages/1440x800/51356607-1ba5-4dd8-858a-edbd4fa24369",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/nightclub/gig-bar",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/gig-bar",
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/gig-bar",
@@ -58,7 +71,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "svaki dan 08:00–23:00 (prema In Your Pocket)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/d5af8493-6f5d-43e4-b76f-a66defe2108b",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/pinthouse-city-pub",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   },
+   {
+    "url": "https://media.evendo.com/locations-resized/NightClubImages/1440x800/2dabe368-67a8-4a34-a166-37fb0b2dd604",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/best-nightclubs",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/pinthouse-city-pub",
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/pinthouse-city-pub",
@@ -90,7 +116,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "pon–pet 08:00–24:00, sub 09:00–24:00, ned zatvoreno",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/3e2949c8-7831-420a-ae8f-d2bbc530ae1a",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/mint-bar-cocktail-cafe",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   },
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/8bc0b9c9-8552-4a2f-bf55-52769342c0fb",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/best-bars",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/mint-bar-cocktail-cafe",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs",
@@ -167,7 +206,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "pon–pet 07:00–24:00, sub 08:00–24:00, ned 08:00–23:00",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/62c97391-ba1c-41ef-83bb-7f44a2b46d9d",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/fly-bar",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   },
+   {
+    "url": "https://media.evendo.com/locations-resized/NightClubImages/1440x800/89046891-d493-42ee-9d19-e9fb7e766f1d",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/nightclub/fly-bar",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/fly-bar",
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/fly-bar",
@@ -198,7 +250,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "pon–sub 07:00–23:00, ned 08:00–23:00",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/3bf1f7a9-bb42-4a44-9fc4-8c93d94fd98b",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/irish-pub-kod-sose",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   },
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/2fa8e19a-cfdd-4c35-94cf-972d34d5c51d",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/best-bars",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/irish-pub",
    "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/irish-pub-kod-sose"
@@ -229,7 +294,14 @@
   "tripadvisor": "",
   "radno_vrijeme": "svaki dan 06:30–23:00 (Google)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/baefbb1a-98cd-4a55-acba-8a7b757fa4dd",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-imperial",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-imperial",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -260,7 +332,14 @@
   "tripadvisor": "",
   "radno_vrijeme": "pon–sub 07:00–22:00, ned 08:00–22:00 (Google)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/1fd83b09-1835-4a3c-9cf0-80e1cc58880d",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-bihac",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-bihac",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -291,7 +370,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "svaki dan 09:00–24:00",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/00d2a971-61e3-4481-814d-0fb9fec4f663",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/h20",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   },
+   {
+    "url": "https://media.evendo.com/locations-resized/NightClubImages/1440x800/c2b170a4-9b4a-4165-ba04-97a76bcd73a0",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/nightclub/h20",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/h20",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -322,7 +414,20 @@
   "tripadvisor": "",
   "radno_vrijeme": "svaki dan 06:00–23:00 (Google)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/619b4bae-19d8-49bf-8750-9d3b6d04fc83",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-night-club-borik",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   },
+   {
+    "url": "https://media.evendo.com/locations-resized/NightClubImages/1440x800/cdb2344a-ca11-47d2-ab99-5c2245b5f290",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/nightclub/caffe-bar-night-club-borik",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-night-club-borik",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -353,7 +458,14 @@
   "tripadvisor": "",
   "radno_vrijeme": "svaki dan 07:00–23:00 (Google)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/9aee8650-5a00-4959-bc62-fd78e3d4f149",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-centar",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/caffe-bar-centar",
    "https://nomadlio.com/bihac/city-guide/",
@@ -416,7 +528,14 @@
   "tripadvisor": "",
   "radno_vrijeme": "svaki dan 07:00–24:00 (Google)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/2b8245f1-5d05-421d-92fb-0eda8b0017b7",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/my-bar",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/my-bar",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -447,7 +566,14 @@
   "tripadvisor": "",
   "radno_vrijeme": "",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/1d401656-9a52-429a-b62e-3a1173f005f9",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/balance-caffe-bar",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/una-sana-canton/bar/balance-caffe-bar",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -507,7 +633,14 @@
   "tripadvisor": "",
   "radno_vrijeme": "svaki dan 06:00–23:00 (Google)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/00d8ea47-6264-493a-9847-6a993ba3f6e6",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/cafe-mustang",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/cafe-mustang",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -537,7 +670,14 @@
   "tripadvisor": "",
   "radno_vrijeme": "svaki dan 07:00–03:00 (Google)",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/BarImages/1440x800/37a85b3c-db7c-451c-8746-6f1146160c18",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/havana-lounge-bar",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://evendo.com/locations/bosnia-and-herzegovina/bihac/bar/havana-lounge-bar",
    "https://www.tourismbih.com/location/bihac/?cat=bars-cafes-pubs"
@@ -567,7 +707,14 @@
   "tripadvisor": "",
   "radno_vrijeme": "",
   "uz_rijeku": false,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://media.evendo.com/locations-resized/NightClubImages/1440x800/868ca7b2-36df-4fbd-9a0a-ca875f6ca133",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/nightclub/svarog-winter-house-club",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/svarog",
    "https://www.inyourpocket.com/bihac/Nightlife/Clubs"

@@ -22,7 +22,32 @@
    "youtube": "",
    "telefon": "+387 37 302 340",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://images.trvl-media.com/lodging/16000000/15280000/15270600/15270590/239022e4.jpg",
+     "izvor": "https://www.travelocity.com/es/Bihac-Hoteles-Kostelski-Buk-Hotel.h15270590.Informacion-Hotel",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.bh-meetings.com/resources/files/poslovniturizam.ba/images/venues/galleries/24/1168/medium_kostelski-buk-bihac-eksterijer-exterior-17101173873551.jpg",
+     "izvor": "https://www.bh-meetings.com/venue/kostelski-buk/24",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.bh-meetings.com/resources/files/poslovniturizam.ba/images/venues/galleries/24/1169/medium_kostelski-buk-bihac-eksterijer-exterior-17101173874913.jpg",
+     "izvor": "https://www.bh-meetings.com/venue/kostelski-buk/24",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.bh-meetings.com/resources/files/poslovniturizam.ba/images/venues/galleries/24/1175/medium_kostelski-buk-bihac-sobe-apartmani-rooms-suites-17101174105305.jpg",
+     "izvor": "https://www.bh-meetings.com/venue/kostelski-buk/24",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.bh-meetings.com/venue/kostelski-buk/24",
     "https://www.inyourpocket.com/bihac/Kostelski-Buk_65789v",
@@ -40,15 +65,40 @@
    "opis_de": "Das Vier-Sterne-Hotel Opal Exclusive liegt direkt an der Una, nahe dem Zentrum und der Altstadt von Bihać. Es wurde Ende 2008 eröffnet und hat 27 Zimmer, ein Restaurant mit 120 Plätzen sowie eine Flussterrasse mit 100 Plätzen. Dazu kommen Wellness mit Sauna und Massagen, Fitnessraum, Fahrradverleih und Hilfe bei Ausflügen – ideal für Rafting- und Kanugäste.",
    "kapacitet": "27 soba (1 apartman, 3 trokrevetne, 20 dvokrevetnih/twin, 3 jednokrevetne); restoran 120 mjesta, terasa 100 mjesta",
    "lokacija": "Krupska bb, 77000 Bihać",
-   "lat": null,
-   "lng": null,
+   "lat": 44.81808,
+   "lng": 15.86971,
    "web": "http://www.hotelopalexclusive.net",
    "facebook": "",
    "instagram": "",
    "youtube": "",
    "telefon": "+387 37 224 183",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://cdn.worldota.net/t/1024x768/content/7b/9a/7b9aa95d4ad807eba5a9025bace3c8be83d2f55a.jpeg",
+     "izvor": "https://exploreo.com/accommodation/r/opal_exclusive_hotel",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn.worldota.net/t/1024x768/content/74/c3/74c3523f3931b154563fc894e8518ba00fee5816.JPEG",
+     "izvor": "https://exploreo.com/accommodation/r/opal_exclusive_hotel",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn.worldota.net/t/1024x768/content/dd/fd/ddfdae620a38313d861b4da135c77e64db60b048.JPEG",
+     "izvor": "https://exploreo.com/accommodation/r/opal_exclusive_hotel",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn.worldota.net/t/1024x768/content/b0/bc/b0bc45055f062b21e4403f799540b5f1be21c879.JPEG",
+     "izvor": "https://exploreo.com/accommodation/r/opal_exclusive_hotel",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.panacomp.net/opal-exclusive-hotel-bihac/",
     "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Opal-Exclusive",
@@ -74,7 +124,32 @@
    "youtube": "",
    "telefon": "",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://q-xx.bstatic.com/xdata/images/hotel/max1280/609003411.jpg?k=3d10ebf36f85b3ca5bbf1efb934c06ff248cccb951b7d7fe0857daa245a8bdcb&o=&a=2325679",
+     "izvor": "https://www.priceline.com/hotel-deals/en-us/P5000144074/H67591803/swiss-plus-hotel.ssp",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://q-xx.bstatic.com/xdata/images/hotel/max1280/548783931.jpg?k=08e69625db468d2de335c1b587952d51065914f9d09ceb180eae5512dd8a8a98&o=&a=2325679",
+     "izvor": "https://www.priceline.com/hotel-deals/en-us/P5000144074/H67591803/swiss-plus-hotel.ssp",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://q-xx.bstatic.com/xdata/images/hotel/max1280/439794090.jpg?k=af08084d0ff84436ef1102ee248a380be2d1fcd97ee792778ab9aed936c815bc&o=&a=2325679",
+     "izvor": "https://www.priceline.com/hotel-deals/en-us/P5000144074/H67591803/swiss-plus-hotel.ssp",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://photos.travelmyth.com/hotels/480/18/m-1800456.jpg",
+     "izvor": "https://www.travelmyth.com/Una-Sana/Hotels",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.cvent.com/venues/th-TH/bihac/hotel/swiss-plus-hotel/venue-1d69dc8e-69d8-4270-8531-040db558138f",
     "https://www.priceline.com/hotel-deals/en-us/P5000144074/H67591803/swiss-plus-hotel.ssp"
@@ -91,15 +166,40 @@
    "opis_de": "Das Hotel Emporium in der Irfana-Ljubijankića-Straße hat 28 Zimmer und einige der größten Veranstaltungsräume in Bihać: einen Saal für bis zu 300 Personen (ca. 200 beim Bankett) und einen Raum für bis zu 50. Dazu kommen Restaurant mit internationaler Küche, Bar, Café und Außenbereich – gut für Präsentationen, Galadinner und Abendfeiern.",
    "kapacitet": "28 soba; sala do 300 osoba (banket 200), druga sala do 50",
    "lokacija": "Irfana Ljubijankića 90, 77000 Bihać",
-   "lat": null,
-   "lng": null,
+   "lat": 44.82099,
+   "lng": 15.85802,
    "web": "",
    "facebook": "",
    "instagram": "",
    "youtube": "",
    "telefon": "",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://www.panacomp.net/wp-content/uploads/2018/09/featured-_DSC8888-1.jpg",
+     "izvor": "https://www.panacomp.net/emporium-hotel-bihac/",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.panacomp.net/wp-content/uploads/2018/09/DSC9331.jpg",
+     "izvor": "https://www.panacomp.net/emporium-hotel-bihac/",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.panacomp.net/wp-content/uploads/2018/09/DSC8828.jpg",
+     "izvor": "https://www.panacomp.net/emporium-hotel-bihac/",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.panacomp.net/wp-content/uploads/2018/09/DSC8985.jpg",
+     "izvor": "https://www.panacomp.net/emporium-hotel-bihac/",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://conference-hotel.com/hotel_EN_1443919551.htm",
     "https://www.amimagazine.global/Meeting-Event-Venues/Bihac-Bosnia-and-Herzegovina/Hotels"
@@ -116,15 +216,40 @@
    "opis_de": "Das Hotel Park ist ein Drei-Sterne-Haus in der Straße 5. korpusa im Zentrum von Bihać; die meisten Ziele sind zu Fuß erreichbar. Das Gebäude wirkt älter, der Service gilt als sehr freundlich. Es gibt Restaurant und Zimmerservice, Garten, Terrasse, Spielplatz, Business-Center, Aufzug sowie kostenloses Parken und WLAN.",
    "kapacitet": "",
    "lokacija": "Put 5. korpusa, 77000 Bihać",
-   "lat": null,
-   "lng": null,
+   "lat": 44.8124,
+   "lng": 15.86897,
    "web": "http://www.aduna.ba",
    "facebook": "",
    "instagram": "",
    "youtube": "",
    "telefon": "+387 37 226 394",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://images.stayforlong.com/eyJidWNrZXQiOiJob3RlbG1lZGlhLnN0YXlmb3Jsb25nLmNvbSIsImtleSI6InJhdy83ZTc4LzdlNzg3ODc4NzhiOGI4ZjgtMTQ3NzUxLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6NzY3LCJmaXQiOiJjb3ZlciJ9fX0=",
+     "izvor": "https://www.stayforlong.com/xg-en/hotel/ba/park_bihac",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://content.skyscnr.com/available/2739294704/2739294704_WxH.jpg",
+     "izvor": "https://www.skyscanner.pk/hotels/bosnia-and-herzegovina/bihac-hotels/park-hotel/ht-82026302",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://content.skyscnr.com/available/2804764691/2804764691_WxH.jpg",
+     "izvor": "https://www.skyscanner.pk/hotels/bosnia-and-herzegovina/bihac-hotels/park-hotel/ht-82026302",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://content.skyscnr.com/available/2807093230/2807093230_WxH.jpg",
+     "izvor": "https://www.skyscanner.pk/hotels/bosnia-and-herzegovina/bihac-hotels/park-hotel/ht-82026302",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.kayak.com/Bihac-Hotels-Park-Hotel.462480.ksp",
     "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Park"
@@ -141,15 +266,40 @@
    "opis_de": "Das Hotel Ada ist ein Drei-Sterne-Hotel in der Straße 5. korpusa und eines der größeren Hotels in Bihać, bekannt für seine Mischung aus alpinem und futuristischem Baustil. Alle hellen Zimmer haben Balkone, viele mit Blick auf den nahen Una-Wasserfall – gut geeignet für größere Gruppen.",
    "kapacitet": "",
    "lokacija": "Put 5. korpusa, 77000 Bihać",
-   "lat": null,
-   "lng": null,
+   "lat": 44.80086,
+   "lng": 15.90598,
    "web": "http://www.aduna.ba",
    "facebook": "",
    "instagram": "",
    "youtube": "",
    "telefon": "+387 37 318 100",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://content.skyscnr.com/available/2673341174/2673341174_WxH.jpg",
+     "izvor": "https://www.espanol.skyscanner.com/hoteles/bosnia-y-herzegovina/orljani-hoteles/hotel-ada/ht-128473273",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://content.skyscnr.com/available/2673341063/2673341063_WxH.jpg",
+     "izvor": "https://www.espanol.skyscanner.com/hoteles/bosnia-y-herzegovina/orljani-hoteles/hotel-ada/ht-128473273",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://content.skyscnr.com/available/2657364950/2657364950_WxH.jpg",
+     "izvor": "https://www.espanol.skyscanner.com/hoteles/bosnia-y-herzegovina/orljani-hoteles/hotel-ada/ht-128473273",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.hostelscentral.com/pics/29726/029726-1385379445.jpg",
+     "izvor": "https://www.hostelscentral.com/en/hostels/bosnia-and-herzegovina/bihac/ada-hotel",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Ada",
     "https://www.kayak.com/Bihac-Hotels-Ada-Hotel.2300234.ksp",
@@ -175,7 +325,32 @@
    "youtube": "",
    "telefon": "+387 37 224 194",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://cdn.worldota.net/t/1024x768/content/95/cb/95cb02bf0078b81c1ba83e5ab56042db20f88a4e.JPEG",
+     "izvor": "https://exploreo.com/accommodation/r/paviljon_hotel",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn.worldota.net/t/1024x768/content/c6/5f/c65f866aed056a81af2cd81764b25266ac2dfb17.jpeg",
+     "izvor": "https://exploreo.com/accommodation/r/paviljon_hotel",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn.worldota.net/t/1024x768/content/72/90/72901a9681ad89216348477b45b24aeb8020b362.jpeg",
+     "izvor": "https://exploreo.com/accommodation/r/paviljon_hotel",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn.worldota.net/t/1024x768/content/79/ae/79ae03c4e9236202363161cb42664d75dca660f5.JPEG",
+     "izvor": "https://exploreo.com/accommodation/r/paviljon_hotel",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Paviljon",
     "https://seesrpska.com/en/svjetsko/unska-lada-po-uzoru-na-venecijansku-gondolu-27-8-2025"
@@ -223,15 +398,40 @@
    "opis_de": "Die Villa Una ist eine kleine Familienpension in der Straße Bihaćkih branilaca, an der Hauptstraße vom Busbahnhof ins Zentrum. Sie hat zehn rustikal eingerichtete Zimmer mit Sat-TV und Klimaanlage – gut für kleine Teams oder als Zusatzunterkunft.",
    "kapacitet": "10 soba",
    "lokacija": "Bihaćkih branilaca 20, 77000 Bihać",
-   "lat": null,
-   "lng": null,
+   "lat": 44.81412,
+   "lng": 15.87624,
    "web": "",
    "facebook": "",
    "instagram": "",
    "youtube": "",
    "telefon": "+387 37 311 393",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://content.skyscnr.com/available/2784116745/2784116745_WxH.jpg",
+     "izvor": "https://www.skyscanner.fr/hotels-a/bosnie-herzegovine/bihac-hotels/villa-una/ht-136308988",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://content.skyscnr.com/available/2784116720/2784116720_WxH.jpg",
+     "izvor": "https://www.skyscanner.fr/hotels-a/bosnie-herzegovine/bihac-hotels/villa-una/ht-136308988",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://content.skyscnr.com/available/2784116725/2784116725_WxH.jpg",
+     "izvor": "https://www.skyscanner.fr/hotels-a/bosnie-herzegovine/bihac-hotels/villa-una/ht-136308988",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://content.skyscnr.com/available/2784116733/2784116733_WxH.jpg",
+     "izvor": "https://www.skyscanner.fr/hotels-a/bosnie-herzegovine/bihac-hotels/villa-una/ht-136308988",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Prenociste-Villa-Una"
    ],
@@ -416,7 +616,26 @@
    "youtube": "",
    "telefon": "+387 61 192 338; +387 61 687 421",
    "email": "extreme@una-kiro-rafting.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://cdn.acsi.eu/6/9/3/a/693a5f998410a.jpg",
+     "izvor": "https://www.eurocampings.co.uk/bosnia-and-herzegovina/bihac/camping-una-rc-kiro-rafting-121294",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn3.park4night.com/lieu/1224701_1224800/1224757_gd.jpg",
+     "izvor": "https://park4night.com/en/place/54275",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn3.park4night.com/lieu/1855301_1855400/1855337_gd.jpg",
+     "izvor": "https://park4night.com/en/place/54275",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://inyourpocket.com/kiro-rafting_161536v",
     "https://www.eurocampings.co.uk/bosnia-and-herzegovina/bihac/una-rc-kiro-rafting-121294/",
@@ -493,6 +712,24 @@
      "izvor": "https://www.raftingbihac.ba/blog/rafting-bihac/",
      "licenca": "službena stranica",
      "autor": "Una Avant"
+    },
+    {
+     "url": "https://raftingbihac.ba/assets/images/galerija/slika1.webp",
+     "izvor": "https://raftingbihac.ba/",
+     "licenca": "službena stranica",
+     "autor": "Rafting Una Avant"
+    },
+    {
+     "url": "https://raftingbihac.ba/assets/images/galerija/slika6.webp",
+     "izvor": "https://raftingbihac.ba/",
+     "licenca": "službena stranica",
+     "autor": "Rafting Una Avant"
+    },
+    {
+     "url": "https://raftingbihac.ba/assets/images/rute/R1/slika2.webp",
+     "izvor": "https://raftingbihac.ba/",
+     "licenca": "službena stranica",
+     "autor": "Rafting Una Avant"
     }
    ],
    "izvori": [
@@ -518,7 +755,14 @@
    "youtube": "",
    "telefon": "+387 61 354 544",
    "email": "info@una-aquarius.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://una-aquarius.com/wp-content/uploads/2016/09/Una-Raft3.jpg",
+     "izvor": "https://una-aquarius.com/rafting-on-una-riveri/",
+     "licenca": "službena stranica",
+     "autor": "Una Aquarius"
+    }
+   ],
    "izvori": [
     "https://una-aquarius.com/about-us",
     "https://una-aquarius.com",
@@ -582,7 +826,32 @@
    "youtube": "",
    "telefon": "+387 61 138 658",
    "email": "senad1991.v@gmail.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://unasenirafting.com/wp-content/uploads/2025/05/20240822_110645-1-903x1024.jpg",
+     "izvor": "https://unasenirafting.com/galerija/",
+     "licenca": "službena stranica",
+     "autor": "Una Seni Rafting"
+    },
+    {
+     "url": "https://unasenirafting.com/wp-content/uploads/2025/05/20240823_125746-770x1024.jpg",
+     "izvor": "https://unasenirafting.com/galerija/",
+     "licenca": "službena stranica",
+     "autor": "Una Seni Rafting"
+    },
+    {
+     "url": "https://unasenirafting.com/wp-content/uploads/2025/05/67439238_894687667543334_7316977380059250688_n-1024x768.jpg",
+     "izvor": "https://unasenirafting.com/galerija/",
+     "licenca": "službena stranica",
+     "autor": "Una Seni Rafting"
+    },
+    {
+     "url": "https://unasenirafting.com/wp-content/uploads/2025/05/65008117_874135632931871_8159180278795862016_n-1024x768.jpg",
+     "izvor": "https://unasenirafting.com/galerija/",
+     "licenca": "službena stranica",
+     "autor": "Una Seni Rafting"
+    }
+   ],
    "izvori": [
     "https://unasenirafting.com/kontakt/",
     "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
@@ -607,36 +876,25 @@
    "youtube": "",
    "telefon": "+387 63 141 414; +387 61 604 313",
    "email": "info@una-aqua.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://res.cloudinary.com/manawa/image/private/f_auto,c_fill,w_1600,h_900,q_auto/5f2288012c8e18ee71e62906aa5fd621",
+     "izvor": "https://boldtrip-rush.pages.dev/en/rafting/racic/",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://res.cloudinary.com/manawa/image/private/f_auto,c_fill,w_600,h_400,q_auto/2d570f750f4308a3c3624520522a168e",
+     "izvor": "https://boldtrip-rush.pages.dev/en/rafting/racic/",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://inyourpocket.com/Una-Aqua-Centar_53859v",
     "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
    ],
    "provjeriti": "Veza Una Aqua Centar = 'Srce prirode' izvedena iz istog e-maila (info@una-aqua.com). Službeni sajt nije otvoren."
-  },
-  {
-   "slug": "green-river-rafting",
-   "ime": "Green River Rafting",
-   "grupa": "rafting",
-   "kratko_bs": "Rafting iz Lohova, cjelodnevni i višednevni izleti, ture i u Hrvatskoj",
-   "opis_bs": "Green River Rafting je rafting agencija sa sjedištem u Lohovu kod Bihaća. Prema vodiču In Your Pocket organizira spustove Unom koji mogu trajati cijeli dan ili duže, uz kompletnu opremu, a može dogovoriti i slične ture preko granice u Hrvatskoj. Višednevni program može biti zanimljiv timovima koji žele izlet od dva ili više dana na rijeci. Agencija se ne nalazi na popisu NP Una za 2026. godinu, pa prije uključivanja u ponudu treba provjeriti da li još radi.",
-   "opis_en": "Green River Rafting is based in Lohovo near Bihać. According to In Your Pocket it runs full-day or longer Una trips with all equipment and can arrange similar tours across the border in Croatia. It is not on the national park's 2026 list, so its current status needs checking.",
-   "opis_de": "Green River Rafting hat seinen Sitz in Lohovo bei Bihać. Laut In Your Pocket bietet es ganztägige oder längere Una-Touren mit kompletter Ausrüstung und organisiert auch Touren in Kroatien. Es steht nicht auf der Nationalpark-Liste 2026; der aktuelle Betrieb ist zu prüfen.",
-   "kapacitet": "",
-   "lokacija": "Lohovo bb, Bihać",
-   "lat": 44.750457,
-   "lng": 15.928151,
-   "web": "http://unarafting.com",
-   "facebook": "https://www.facebook.com/Green-River-Rafting-196278084099452/",
-   "instagram": "",
-   "youtube": "",
-   "telefon": "",
-   "email": "",
-   "slike": [],
-   "izvori": [
-    "https://www.inyourpocket.com/bihac/green-river-rafting_161537v"
-   ],
-   "provjeriti": "Nije na popisu NP Una 2026 – moguće neaktivna. Telefon nije pronađen."
   }
  ],
  "ostale_agencije_np_una_2026": {
@@ -716,15 +974,34 @@
    "opis_de": "Una Kayak Safari ist eine Agentur aus Bihać für geführte Kajaktouren auf der Una – mehrere Varianten für alle Altersstufen, erfahrene Guides, professionelle Ausrüstung. Auch Rafting wird angeboten. Kajak ist eine ruhigere Alternative oder Ergänzung zum Rafting. Vom Nationalpark Una für 2026 gelistet.",
    "kapacitet": "",
    "lokacija": "Bihać",
-   "lat": null,
-   "lng": null,
+   "lat": 44.9011,
+   "lng": 16.0051,
    "web": "http://www.unakayaksafari.com/",
    "facebook": "https://www.facebook.com/unakajaksafari/",
    "instagram": "",
    "youtube": "",
    "telefon": "+387 62 198 497",
    "email": "unakayaksafari@gmail.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://cdn3.park4night.com/lieu/1305901_1306000/1305901_gd.jpg",
+     "izvor": "https://park4night.com/fr/place/432042",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn3.park4night.com/lieu/1305901_1306000/1305903_gd.jpg",
+     "izvor": "https://park4night.com/fr/place/432042",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://cdn3.park4night.com/lieu/1609101_1609200/1609163_gd.jpg",
+     "izvor": "https://park4night.com/fr/place/432042",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://inyourpocket.com/bihac/una-kajak-safari_167627v",
     "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
@@ -749,35 +1026,30 @@
    "youtube": "https://www.youtube.com/@UNAPIRATES",
    "telefon": "+387 61 782 339",
    "email": "unapirates@gmail.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://unapiratesrafting.com/assets/images/usluge/aerodrom.webp",
+     "izvor": "https://unapiratesrafting.com/",
+     "licenca": "službena stranica",
+     "autor": "Una Pirates"
+    },
+    {
+     "url": "https://unapiratesrafting.com/assets/images/usluge/usluga-kayak.webp",
+     "izvor": "https://unapiratesrafting.com/",
+     "licenca": "službena stranica",
+     "autor": "Una Pirates"
+    },
+    {
+     "url": "https://unapiratesrafting.com/assets/images/rute/kayak/kartice/kayak1.webp",
+     "izvor": "https://unapiratesrafting.com/",
+     "licenca": "službena stranica",
+     "autor": "Una Pirates"
+    }
+   ],
    "izvori": [
     "https://unapiratesrafting.com/"
    ],
    "provjeriti": "Jedini pronađeni ponuđač paintballa u okolini Bihaća. Lokacija terena i kapacitet nepoznati."
-  },
-  {
-   "slug": "quadrent-adventure",
-   "ime": "Quadrent Adventure",
-   "grupa": "kvad",
-   "kratko_bs": "Najam kvadova u Bihaću",
-   "opis_bs": "Quadrent Adventure je bihaćka firma za iznajmljivanje kvadova, koja prema vodiču In Your Pocket ima veći broj vozila na raspolaganju. Kvad ture su popularan dodatak team buildingu jer omogućavaju vožnju makadamskim i šumskim putevima oko grada u manjim grupama. Prema istom izvoru, firma se kontaktira preko društvenih mreža, gdje objavljuje raspoloživost vozila. Prije uvrštavanja u ponudu treba provjeriti trenutne kontakte, uslove za vozače i maksimalnu veličinu grupe.",
-   "opis_en": "Quadrent Adventure rents quad bikes in Bihać and, according to In Your Pocket, has a sizeable fleet. Quad tours on gravel and forest roads around town are a popular team-building add-on. Contact is via social media; current details, driver requirements and group size need confirming.",
-   "opis_de": "Quadrent Adventure vermietet Quads in Bihać und verfügt laut In Your Pocket über viele Fahrzeuge. Quad-Touren auf Schotter- und Waldwegen sind eine beliebte Teambuilding-Ergänzung. Kontakt über soziale Medien; aktuelle Daten, Fahrervoraussetzungen und Gruppengröße sind zu prüfen.",
-   "kapacitet": "",
-   "lokacija": "Bihać",
-   "lat": null,
-   "lng": null,
-   "web": "",
-   "facebook": "",
-   "instagram": "",
-   "youtube": "",
-   "telefon": "",
-   "email": "",
-   "slike": [],
-   "izvori": [
-    "https://inyourpocket.com/quadrent-adventure_167625v"
-   ],
-   "provjeriti": "Nema kontakata u izvoru; pronaći FB/IG profil. Na tourismbih.com postoji i 'Rent a Quad Ibrišimović Spahići' (stranica nije mogla biti otvorena)."
   },
   {
    "slug": "amir-fly-fishing",
@@ -797,7 +1069,26 @@
    "youtube": "",
    "telefon": "+387 62 067 088",
    "email": "amirflyfishing@gmail.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://media.baityourhook.com/fill/600/400/images/listings/096934a051de4ffe962ac5e53724fcd2/img-20191006-103101.jpg",
+     "izvor": "https://baityourhook.com/listing/832",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://media.baityourhook.com/fill/600/400/images/listings/ce45814fa6c94a33a8252ee208438f72/img-20180801-104816.jpg",
+     "izvor": "https://baityourhook.com/listing/832",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://media.baityourhook.com/fill/600/400/images/listings/159b3887e7fc425e895e607fe8dab1c7/20211004-165510.jpg",
+     "izvor": "https://baityourhook.com/listing/832",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/amir-fly-fishing"
    ],
@@ -837,15 +1128,40 @@
    "opis_de": "Čardaklije ist ein Ethno-Bauernhof in Vrtoče bei Bosanski Petrovac an der Straße Bihać–Sarajevo, etwa 30 km von Bihać. Angeboten werden Reiten, E-Bike-Verleih und hausgemachte Mahlzeiten – ein guter Halbtagesausflug mit ländlichem Mittagessen. Der einzige gefundene Reitanbieter in der Nähe von Bihać.",
    "kapacitet": "",
    "lokacija": "Vrtoče, Bosanski Petrovac (magistrala Bihać – Sarajevo, ~30. km)",
-   "lat": null,
-   "lng": null,
+   "lat": 44.63843,
+   "lng": 16.18266,
    "web": "",
    "facebook": "",
    "instagram": "https://www.instagram.com/seosko_domacinstvo_cardaklije/",
    "youtube": "",
    "telefon": "",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://images.trvl-media.com/lodging/59000000/58060000/58057000/58056906/e633080e.jpg",
+     "izvor": "https://www.expedia.com/Bosanski-Petrovac-Hotels-Farm-Stay-Cardaklije.h58056906.Hotel-Information",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://images.trvl-media.com/lodging/59000000/58060000/58057000/58056906/43fa0639.jpg",
+     "izvor": "https://www.expedia.com/Bosanski-Petrovac-Hotels-Farm-Stay-Cardaklije.h58056906.Hotel-Information",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://images.trvl-media.com/lodging/59000000/58060000/58057000/58056906/82bce495.jpg",
+     "izvor": "https://www.expedia.com/Bosanski-Petrovac-Hotels-Farm-Stay-Cardaklije.h58056906.Hotel-Information",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://i0.wp.com/sarajevotimes.com/wp-content/uploads/2017/11/CARDAKLIJE.jpg?fit=1000%2C749&ssl=1",
+     "izvor": "https://www.sarajevotimes.com/rural-household-cardaklije-bih-paradise-eyes-soul/",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://lll.ba/what-to-do-in-bihac"
    ],
@@ -869,7 +1185,26 @@
    "youtube": "",
    "telefon": "",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://seesrpska.com/storage/2026-04/zip%20line%201.jpg",
+     "izvor": "https://seesrpska.com/en/avantura/adrenalin-i-pogled-na-unu-iz-vazduha-5-4-2026",
+     "licenca": "portal",
+     "autor": "Pixel (SeeSrpska)"
+    },
+    {
+     "url": "https://cdn.travelpal.ai/prod/places/3Crlr9Lyqr2vX_5RmqFyuD8bShs/photos/google/webp/2b85e7074fca018d05031431.webp",
+     "izvor": "https://travelpal.ai/destinations/europe/bosnia-and-herzegovina/federation-of-bh/bosanska-krupa/zip-line-bosanska-krupa-511-sbbr-bb",
+     "licenca": "portal",
+     "autor": "Yann (Google Places)"
+    },
+    {
+     "url": "https://cdn.travelpal.ai/prod/places/3Crlr9Lyqr2vX_5RmqFyuD8bShs/photos/google/webp/02f1f6939b2eaac3147b5cc6.webp",
+     "izvor": "https://travelpal.ai/destinations/europe/bosnia-and-herzegovina/federation-of-bh/bosanska-krupa/zip-line-bosanska-krupa-511-sbbr-bb",
+     "licenca": "portal",
+     "autor": "Denis Dzajic (Google Places)"
+    }
+   ],
    "izvori": [
     "https://seesrpska.com/en/avantura/adrenalin-i-pogled-na-unu-iz-vazduha-5-4-2026"
    ],
@@ -893,7 +1228,26 @@
    "youtube": "",
    "telefon": "+387 61 138 853",
    "email": "raftingbijeli@gmail.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_b3dfa092c7724b0a9f38db2b21347dc5~mv2.jpeg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    },
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_4936f27f4ff94db981e4d8fb78ae6996~mv2.jpg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    },
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_e4e4dfbc3bff4f7aa137ff6d638218aa~mv2.jpeg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    }
+   ],
    "izvori": [
     "https://www.bijeli-una-rafting.com/en"
    ],
@@ -917,7 +1271,14 @@
    "youtube": "",
    "telefon": "",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://seesrpska.com/storage/2025-08/51272885_350757712180170_9097491591995588608_n.jpg",
+     "izvor": "https://seesrpska.com/en/svjetsko/unska-lada-po-uzoru-na-venecijansku-gondolu-27-8-2025",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://seesrpska.com/en/svjetsko/unska-lada-po-uzoru-na-venecijansku-gondolu-27-8-2025"
    ],
@@ -980,7 +1341,26 @@
    "youtube": "",
    "telefon": "+387 37 302 340",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://images.trvl-media.com/lodging/16000000/15280000/15270600/15270590/1e5199c3.jpg",
+     "izvor": "https://www.expedia.co.id/Bihac-Hotels-Emporium-Hotel.h15251612.Hotel-Information",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.bh-meetings.com/resources/files/poslovniturizam.ba/images/venues/galleries/24/1186/medium_kostelski-buk-bihac-odrzana-dogadanja-events-17101174767045.jpg",
+     "izvor": "https://www.bh-meetings.com/venue/kostelski-buk/24",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://www.bh-meetings.com/resources/files/poslovniturizam.ba/images/venues/galleries/24/1185/medium_kostelski-buk-bihac-odrzana-dogadanja-events-17101174765082.jpg",
+     "izvor": "https://www.bh-meetings.com/venue/kostelski-buk/24",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.inyourpocket.com/bihac/Kostelski-Buk_65789v",
     "https://www.bh-meetings.com/venue/kostelski-buk/24",
@@ -1006,7 +1386,32 @@
    "youtube": "",
    "telefon": "+387 63 797 833",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://i0.wp.com/lll.ba/wp-content/uploads/2024/05/Restoran-River-Dock-Bihac-Bosnia-Herzegovina-lll.ba-%40riverdockbihac.jpg?resize=1024%2C1024&ssl=1",
+     "izvor": "https://lll.ba/?p=4738",
+     "licenca": "portal",
+     "autor": "@riverdockbihac"
+    },
+    {
+     "url": "https://cdn.prod.rexby.com/image/f60b2b5ea659403ca1d04f35f7cb47ff?format=webp&width=1080&height=1350&quality=80",
+     "izvor": "https://www.rexby.com/balkatinos/ttd/tasty-arabic-cuisine-with-great-service",
+     "licenca": "portal",
+     "autor": "Balkatinos (rexby.com)"
+    },
+    {
+     "url": "https://cdn.prod.rexby.com/image/6d519d9cc9ab47b39697246cee5ba7db?format=webp&width=1080&height=1350&quality=80",
+     "izvor": "https://www.rexby.com/balkatinos/ttd/tasty-arabic-cuisine-with-great-service",
+     "licenca": "portal",
+     "autor": "Balkatinos (rexby.com)"
+    },
+    {
+     "url": "https://cdn.prod.rexby.com/image/a9b8d55a2c5842a390bcdc126522c2d4?format=webp&width=1080&height=1350&quality=80",
+     "izvor": "https://www.rexby.com/balkatinos/ttd/tasty-arabic-cuisine-with-great-service",
+     "licenca": "portal",
+     "autor": "Balkatinos (rexby.com)"
+    }
+   ],
    "izvori": [
     "https://www.inyourpocket.com/bihac/river-dock_161495v",
     "https://lll.ba/what-to-do-in-bihac",
@@ -1024,15 +1429,28 @@
    "opis_de": "Das Restaurant des Hotels Opal Exclusive bietet 120 Plätze innen und 100 auf einer sonnigen Terrasse mit Blick auf die Una; serviert werden bosnische, internationale und mediterrane Gerichte, dazu gibt es eine Bar. Zentrumsnah und groß genug für Gruppendinner nach einem Tag auf dem Fluss.",
    "kapacitet": "restoran 120 mjesta, terasa 100 mjesta",
    "lokacija": "Krupska bb, 77000 Bihać",
-   "lat": null,
-   "lng": null,
+   "lat": 44.81808,
+   "lng": 15.86971,
    "web": "http://www.hotelopalexclusive.net",
    "facebook": "",
    "instagram": "",
    "youtube": "",
    "telefon": "+387 37 224 183",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://q-xx.bstatic.com/xdata/images/hotel/max1280/258415204.jpg?k=f7985d08a1132ff1a0f5060c2b598125ced9644626a74f66a6d011d8f867cf4d&o=&a=2325679",
+     "izvor": "https://www.priceline.com/hotel-deals/en-us/P5000144074/H51826104/hotel-opal-exclusive-bihac.ssp",
+     "licenca": "portal",
+     "autor": ""
+    },
+    {
+     "url": "https://q-xx.bstatic.com/xdata/images/hotel/max1280/258415150.jpg?k=a2290c2832caaf2fde22219413236749cb0b6f65c510bc1846b93e3bec94b9bf&o=&a=2325679",
+     "izvor": "https://www.priceline.com/hotel-deals/en-us/P5000144074/H51826104/hotel-opal-exclusive-bihac.ssp",
+     "licenca": "portal",
+     "autor": ""
+    }
+   ],
    "izvori": [
     "https://www.panacomp.net/opal-exclusive-hotel-bihac/",
     "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Opal-Exclusive"
@@ -1057,7 +1475,26 @@
    "youtube": "",
    "telefon": "+387 61 138 853",
    "email": "raftingbijeli@gmail.com",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_b3dfa092c7724b0a9f38db2b21347dc5~mv2.jpeg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    },
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_4936f27f4ff94db981e4d8fb78ae6996~mv2.jpg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    },
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_e4e4dfbc3bff4f7aa137ff6d638218aa~mv2.jpeg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    }
+   ],
    "izvori": [
     "https://www.bijeli-una-rafting.com/en"
    ],
@@ -1081,7 +1518,20 @@
    "youtube": "",
    "telefon": "+387 37 221 238",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://cdn.prod.rexby.com/image/d81428a8e32245a3a5b37078ca7ce77b?format=webp&width=1080&height=1350&quality=80",
+     "izvor": "https://www.rexby.com/balkatinos/ttd/charming-riverside-retreat-in-bosnia",
+     "licenca": "portal",
+     "autor": "Balkatinos (rexby.com)"
+    },
+    {
+     "url": "https://cdn.prod.rexby.com/image/22fede04202d4744b5e9512485820bd8?format=webp&width=1080&height=1350&quality=80",
+     "izvor": "https://www.rexby.com/balkatinos/ttd/charming-riverside-retreat-in-bosnia",
+     "licenca": "portal",
+     "autor": "Balkatinos (rexby.com)"
+    }
+   ],
    "izvori": [
     "https://www-lonelyplanet-com-57e2.imagizer.com/bosnia-hercegovina/una-river-valley/restaurants/cardak-na-uni/a/poi-eat/1547400/1336256",
     "https://ardalyspoolhouse.lodgify.com/en/4508827/about-bihac-restaurants-cafes"
@@ -1098,15 +1548,34 @@
    "opis_de": "Das Restoran River Una hat eine Terrasse so nah an der klaren Una, dass man beim Trinken Fische beobachten kann. Innen wirkt es eher wie ein Pub, dekoriert mit Angeltrophäen – ein entspannter Ort für Gruppen nach dem Tagesprogramm.",
    "kapacitet": "",
    "lokacija": "Bihać",
-   "lat": null,
-   "lng": null,
+   "lat": 44.813045,
+   "lng": 15.87399,
    "web": "",
    "facebook": "",
    "instagram": "",
    "youtube": "",
    "telefon": "",
    "email": "",
-   "slike": [],
+   "slike": [
+    {
+     "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/e4/a3/5a/the-outdoor-seating-area.jpg?w=1200&h=-1&s=1",
+     "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d4223184-Reviews-Bistro_River_Una-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+     "licenca": "TripAdvisor – fotografija korisnika/objekta; autorska prava zadržana, za objavu potrebna dozvola",
+     "autor": "korisnik TripAdvisora"
+    },
+    {
+     "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/7a/f6/59/river-una-restaurant.jpg?w=1200&h=-1&s=1",
+     "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d4223184-Reviews-Bistro_River_Una-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+     "licenca": "TripAdvisor – fotografija korisnika/objekta; autorska prava zadržana, za objavu potrebna dozvola",
+     "autor": "korisnik TripAdvisora"
+    },
+    {
+     "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/64/3f/aa/medaljoni-sa-kajmakom.jpg?w=1200&h=-1&s=1",
+     "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d4223184-Reviews-Bistro_River_Una-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+     "licenca": "TripAdvisor – fotografija korisnika/objekta; autorska prava zadržana, za objavu potrebna dozvola",
+     "autor": "korisnik TripAdvisora"
+    }
+   ],
    "izvori": [
     "https://www-lonelyplanet-com-57e2.imagizer.com/bosnia-hercegovina/una-river-valley/nightlife/restoran-river-una/a/poi-dri/1546852/1336256"
    ],

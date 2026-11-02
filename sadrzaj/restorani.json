@@ -775,7 +775,32 @@
   "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d17735320-Reviews-Slap_na_Uni-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
   "radno_vrijeme": "",
   "uz_rijeku": true,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/4c/df/05/slap-na-uni.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d17735320-Reviews-Slap_na_Uni-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "portal (TripAdvisor – fotografija objekta/korisnika)",
+    "autor": "korisnik TripAdvisora"
+   },
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/f8/6f/67/caption.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d17735320-Reviews-Slap_na_Uni-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "portal (TripAdvisor – fotografija objekta/korisnika)",
+    "autor": "korisnik TripAdvisora"
+   },
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/21/a1/51/slap-na-uni.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g295389-d17735320-Reviews-Slap_na_Uni-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "portal (TripAdvisor – fotografija objekta/korisnika)",
+    "autor": "korisnik TripAdvisora"
+   },
+   {
+    "url": "https://media.evendo.com/locations-resized/RestaurantImages/1440x800/ac2f0719-94b4-4f73-984a-30a6a9504f6b",
+    "izvor": "https://evendo.com/locations/bosnia-and-herzegovina/bihac/restaurant/restoran-slap-na-uni",
+    "licenca": "portal (evendo.com)",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.tripadvisor.com/Restaurant_Review-g295389-d17735320-Reviews-Slap_na_Uni-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
    "https://www.tripadvisor.com/Restaurants-g295389-Bihac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html"
@@ -806,7 +831,32 @@
   "tripadvisor": "https://www.tripadvisor.ca/Restaurant_Review-g15274471-d18721128-Reviews-Restoran_Emerald-Ripac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
   "radno_vrijeme": "08:00–23:00 (prema In Your Pocket)",
   "uz_rijeku": true,
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/17/79/cf/emerald-platter.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g15274471-d18721128-Reviews-Restoran_Emerald-Ripac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "portal (TripAdvisor – fotografija objekta/korisnika)",
+    "autor": "korisnik TripAdvisora"
+   },
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/ea/6a/fe/caption.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g15274471-d18721128-Reviews-Restoran_Emerald-Ripac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "portal (TripAdvisor – fotografija objekta/korisnika)",
+    "autor": "korisnik TripAdvisora"
+   },
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/ea/6a/fd/caption.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g15274471-d18721128-Reviews-Restoran_Emerald-Ripac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "portal (TripAdvisor – fotografija objekta/korisnika)",
+    "autor": "korisnik TripAdvisora"
+   },
+   {
+    "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/9a/91/55/caption.jpg?w=1200&h=-1&s=1",
+    "izvor": "https://www.tripadvisor.com/Restaurant_Review-g15274471-d18721128-Reviews-Restoran_Emerald-Ripac_Una_Sana_Canton_Federation_of_Bosnia_and_Herzegovina.html",
+    "licenca": "portal (TripAdvisor – fotografija objekta/korisnika)",
+    "autor": "korisnik TripAdvisora"
+   }
+  ],
   "izvori": [
    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/emerald",
    "https://inyourpocket.com/bihac/emerald_161502v",
