@@ -1,0 +1,1471 @@
+[
+ {
+  "slug": "np-una-posjeta",
+  "ime": "Nacionalni park Una – praktične informacije",
+  "kategorija": "NP Una",
+  "kratko_bs": "Šest ulaza, cijene 2026, radno vrijeme i savjeti prije posjete parku",
+  "opis_bs": "Nacionalni park Una osnovan je 29. maja 2008. i obuhvata dolinu gornjeg toka Une i Unca, uglavnom na području Grada Bihaća, s dijelovima u Bosanskom Petrovcu i Drvaru. Park se graniči s Hrvatskom, a od Plitvičkih jezera udaljen je tridesetak kilometara. Najveći magnet je Štrbački buk, a slijede slapovi i sedrene kaskade u Martin Brodu, tvrđava Ostrovica iznad Kulen Vakufa i manastir Rmanj. Park ima šest ulaza: Gorjevac (1), Ćukovi (2, samo pješaci i biciklisti), Ćelije (3, iz Orašca prema Štrbačkom buku), Račić (4, trenutno ne radi), Martin Brod (5) i Lohovo (6, najbliže Bihaću). Ulaznice se plaćaju po sezonama, djeca do sedme godine ulaze besplatno, a osiguranje posjetilaca je uračunato u cijenu. Za rafting, kajak, ronjenje i ribolov potrebne su posebne dozvole i lokalni vodiči. Planirajte cijeli dan i ponesite gotovinu, vodu i udobnu obuću.",
+  "opis_en": "Una National Park was founded on 29 May 2008 and protects the upper valleys of the Una and Unac rivers, mostly within the City of Bihać with smaller parts in Bosanski Petrovac and Drvar. It borders Croatia and lies roughly 30 km from Plitvice Lakes. The headline sight is Štrbački buk, followed by the waterfalls and travertine cascades of Martin Brod, Ostrovica fortress above Kulen Vakuf and Rmanj Monastery. There are six entrances: Gorjevac (1), Ćukovi (2, walkers and cyclists only), Ćelije (3, from Orašac towards Štrbački buk), Račić (4, currently closed), Martin Brod (5) and Lohovo (6, closest to Bihać). Tickets are priced by season, children under seven enter free and visitor insurance is included. Rafting, kayaking, diving and fishing need separate permits and local operators. Allow a full day and bring cash, water and good shoes.",
+  "opis_de": "Der Nationalpark Una wurde am 29. Mai 2008 gegründet und schützt die oberen Täler von Una und Unac, größtenteils auf dem Gebiet der Stadt Bihać, kleinere Teile liegen in Bosanski Petrovac und Drvar. Er grenzt an Kroatien und liegt etwa 30 km von den Plitvicer Seen entfernt. Hauptattraktion ist der Štrbački buk, dazu kommen die Wasserfälle und Kalktuffkaskaden von Martin Brod, die Festung Ostrovica über Kulen Vakuf und das Kloster Rmanj. Es gibt sechs Eingänge: Gorjevac (1), Ćukovi (2, nur zu Fuß und mit dem Rad), Ćelije (3, von Orašac Richtung Štrbački buk), Račić (4, derzeit geschlossen), Martin Brod (5) und Lohovo (6, am nächsten zu Bihać). Die Preise richten sich nach der Saison, Kinder unter sieben Jahren sind frei, eine Besucherversicherung ist inbegriffen. Rafting, Kajak, Tauchen und Angeln erfordern eigene Genehmigungen und lokale Anbieter. Planen Sie einen ganzen Tag ein und nehmen Sie Bargeld, Wasser und feste Schuhe mit.",
+  "udaljenost_km": 14,
+  "voznja_min": 15,
+  "kako_doci_bs": "Ulaz 1 Gorjevac je na magistralnom putu M-5 prema Bosanskom Petrovcu, 14 km od centra Bihaća (ograničenje 30 km/h na tom dijelu). Ulaz 6 Lohovo je najbliži gradu. Za Martin Brod (ulaz 5) računajte oko 50 km.",
+  "kako_doci_en": "Entrance 1 Gorjevac is on the M-5 road towards Bosanski Petrovac, 14 km from central Bihać (30 km/h limit on that stretch). Entrance 6 Lohovo is the closest to town. Martin Brod (entrance 5) is about 50 km away.",
+  "kako_doci_de": "Eingang 1 Gorjevac liegt an der Straße M-5 Richtung Bosanski Petrovac, 14 km vom Zentrum Bihać (dort Tempo 30). Eingang 6 Lohovo ist der stadtnächste. Bis Martin Brod (Eingang 5) sind es etwa 50 km.",
+  "ulaznica": "Cjenovnik NP Una 2026: odrasli 8 / 12 / 16 / 20 KM (jan-feb-dec / mar-apr-nov / maj-jun-sep-okt / jul-avg); djeca 7–14 god. 6 / 7,5 / 9 / 12 KM; djeca do 7 god. besplatno; penzioneri 65+ 2 / 4 / 6 / 8 KM. Paket Štrbački buk + Milančev buk (odrasli) 10 / 15 / 20 / 25 KM. Niže 'loyalty' cijene za rezidente BiH.",
+  "radno_vrijeme_sezona": "NP Una (prema johnbills.com, godina nije navedena): nov–feb 10–15, mar 10–16, apr–maj 9–18, jun–avg 9–20, sep 9–19, 1.–15. okt 9–18, 16.–31. okt 9–17 h.",
+  "trajanje": "cijeli dan",
+  "za_djecu": true,
+  "lat": 44.495,
+  "lng": 16.135,
+  "web": "https://npuna.com",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/%C5%A0trba%C4%8Dki_buk_1.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%C5%A0trba%C4%8Dki_buk_1.jpg/1280px-%C5%A0trba%C4%8Dki_buk_1.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:%C5%A0trba%C4%8Dki_buk_1.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/MILAN%C4%8CEV_BUK.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/MILAN%C4%8CEV_BUK.jpg/1280px-MILAN%C4%8CEV_BUK.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:MILAN%C4%8CEV_BUK.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Una_National_Park",
+   "https://npuna.com/en/?p=6397",
+   "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-za-2026.god_.-ENG.pdf",
+   "https://johnbills.com/una-sana/una-national-park",
+   "https://drifterplanet.com/una-national-park-bosnia-herzegovina/",
+   "https://getbybus.com/en/blog/?p=1251"
+  ],
+  "provjeriti": "Radno vrijeme je s johnbills.com (godina nepoznata) – potvrditi s parkom (+387 37 221 528, info@npuna.com). Koordinate su opće koordinate parka s Wikipedije; udaljenost se odnosi na to središte. Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "strbacki-buk",
+  "ime": "Štrbački buk",
+  "kategorija": "NP Una",
+  "kratko_bs": "Najveći slap na Uni: 25 m kaskada na granici BiH i Hrvatske, drvene staze i vidikovci",
+  "opis_bs": "Štrbački buk je najviši i najpoznatiji slap Nacionalnog parka Una. Rijeka se ovdje preko sedrenih stepenica obrušava oko 25 metara, a slap leži tačno na granici Bosne i Hercegovine i Hrvatske, južno od Doljana. Lonely Planet ga opisuje kao ozbiljnog kandidata za najimpresivniji vodopad u zemlji. Oko slapa vodi drvena staza s nekoliko vidikovaca, pa se buk može razgledati iz više uglova bez da se pokisne. Uz ulaz su klupe, prostor za piknik i ugostiteljski objekti, a ispod slapa počinje najpopularnija rafting dionica prema Lohovu. Najviše vode ima u proljeće, kada je slap najglasniji, dok je ljeti gužva veća, ali je zelenilo najbogatije. Za sam obilazak dovoljno je sat-dva, ali se posjeta lako spoji s Ostrovicom ili Martin Brodom u cjelodnevni izlet. Na ulaz uzmite gotovinu, a za kišnih dana obuću koja ne kliže.",
+  "opis_en": "Štrbački buk is the tallest and best-known waterfall in Una National Park. The river drops about 25 metres over travertine steps, right on the border between Bosnia and Herzegovina and Croatia, south of Doljani. Lonely Planet calls it a strong contender for the country's most impressive waterfall. A wooden boardwalk with several viewpoints circles the falls, so you can see them from different angles without getting soaked. Near the entrance there are benches, a picnic area and places to eat, and the most popular rafting section, down to Lohovo, starts just below the falls. Water levels peak in spring, when the roar is loudest; summer brings bigger crowds but the lushest scenery. One to two hours is enough for the falls themselves, but it combines easily with Ostrovica or Martin Brod for a full day. Bring cash for tickets and non-slip shoes on wet days.",
+  "opis_de": "Der Štrbački buk ist der höchste und bekannteste Wasserfall im Nationalpark Una. Der Fluss stürzt hier rund 25 Meter über Kalktuffstufen hinab, genau an der Grenze zwischen Bosnien und Herzegowina und Kroatien, südlich von Doljani. Lonely Planet nennt ihn einen ernsthaften Anwärter auf den eindrucksvollsten Wasserfall des Landes. Ein Holzsteg mit mehreren Aussichtspunkten führt rund um die Kaskaden, sodass man sie aus verschiedenen Blickwinkeln sieht, ohne nass zu werden. Am Eingang gibt es Bänke, einen Picknickplatz und Gastronomie, und unterhalb des Falls beginnt die beliebteste Raftingstrecke nach Lohovo. Am meisten Wasser führt die Una im Frühling; im Sommer ist es voller, aber besonders grün. Für den Wasserfall genügen ein bis zwei Stunden, doch er lässt sich gut mit Ostrovica oder Martin Brod zu einem Tagesausflug verbinden. Bargeld für die Tickets und rutschfeste Schuhe mitnehmen.",
+  "udaljenost_km": 28,
+  "voznja_min": 35,
+  "kako_doci_bs": "Iz Bihaća magistralom M-5 prema Bosanskom Petrovcu do ulaza Gorjevac (14 km), zatim prema slapu. Preporučuje se pristup kroz selo Orašac (ulaz 3 Ćelije); put iz pravca Martin Broda je u lošem stanju. Posljednji kilometri mogu biti u radovima. Pješice ili biciklom: od ulaza Ćukovi 4,5 km.",
+  "kako_doci_en": "From Bihać take the M-5 towards Bosanski Petrovac to the Gorjevac entrance (14 km), then follow signs to the falls. Access via Orašac village (entrance 3, Ćelije) is recommended; the road from Martin Brod is in poor condition. The last few kilometres may be under construction. On foot or by bike: 4.5 km from the Ćukovi entrance.",
+  "kako_doci_de": "Von Bihać über die M-5 Richtung Bosanski Petrovac bis zum Eingang Gorjevac (14 km), dann der Beschilderung folgen. Empfohlen ist die Zufahrt über das Dorf Orašac (Eingang 3, Ćelije); die Straße von Martin Brod ist schlecht. Auf den letzten Kilometern kann gebaut werden. Zu Fuß oder per Rad: 4,5 km ab Eingang Ćukovi.",
+  "ulaznica": "Cjenovnik NP Una 2026: odrasli 8 / 12 / 16 / 20 KM (jan-feb-dec / mar-apr-nov / maj-jun-sep-okt / jul-avg); djeca 7–14 god. 6 / 7,5 / 9 / 12 KM; djeca do 7 god. besplatno; penzioneri 65+ 2 / 4 / 6 / 8 KM. Paket Štrbački buk + Milančev buk (odrasli) 10 / 15 / 20 / 25 KM. Niže 'loyalty' cijene za rezidente BiH.",
+  "radno_vrijeme_sezona": "NP Una (prema johnbills.com, godina nije navedena): nov–feb 10–15, mar 10–16, apr–maj 9–18, jun–avg 9–20, sep 9–19, 1.–15. okt 9–18, 16.–31. okt 9–17 h.",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 44.657765,
+  "lng": 16.00467,
+  "web": "https://npuna.com",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/%C5%A0trba%C4%8Dki_buk_1.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%C5%A0trba%C4%8Dki_buk_1.jpg/1280px-%C5%A0trba%C4%8Dki_buk_1.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:%C5%A0trba%C4%8Dki_buk_1.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Strbacki_buk_-_spodni_stupne.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Strbacki_buk_-_spodni_stupne.jpg/1280px-Strbacki_buk_-_spodni_stupne.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Strbacki_buk_-_spodni_stupne.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%C5%A0TRBA%C4%8CKI_BUK_2.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/%C5%A0TRBA%C4%8CKI_BUK_2.JPG/1280px-%C5%A0TRBA%C4%8CKI_BUK_2.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:%C5%A0TRBA%C4%8CKI_BUK_2.JPG",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/%C5%A0trba%C4%8Dki_buk",
+   "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-za-2026.god_.-ENG.pdf",
+   "https://npuna.com/en/?p=6397",
+   "https://johnbills.com/una-sana/una-national-park",
+   "https://drifterplanet.com/una-national-park-bosnia-herzegovina/",
+   "https://getbybus.com/en/blog/?p=1251",
+   "https://www.lonelyplanet.com/bosnia-hercegovina/attractions/strbacki-buk/a/poi-sig/1331439/1336256"
+  ],
+  "provjeriti": "Tačna udaljenost cestom do samog slapa nije nađena u izvorima. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "martin-brod",
+  "ime": "Slapovi Martin Broda",
+  "kategorija": "NP Una",
+  "kratko_bs": "Sedrene kaskade na ušću Unca u Unu, stari mlinovi i šetnice",
+  "opis_bs": "Martin Brod je selo na jugu Nacionalnog parka Una, na mjestu gdje Unac utiče u Unu. Rijeka ovdje stvara splet sedrenih barijera, kaskada i malih slapova s ukupnim padom od oko 54 metra, pa se voda u desetinama krakova razlijeva između kuća, mlinova i drveća. Kroz područje vode šetnice, mostići i klupe za piknik, a uz vodu se još vide stari mlinovi. Martin Brod je poznat i po mušičarenju, a u neposrednoj blizini su ostaci srednjovjekovne tvrđave Rmanj i manastir Rmanj. Za ljubitelje laganih šetnji tu je staza do tunela na Uncu, oko dva kilometra od mosta kod manastira, gdje žive šišmiši. Najljepše je u kasno proljeće i ljeti, kada je voda tirkizna, a zelenilo puno. Ovo je mirnija alternativa Štrbačkom buku i odlično mjesto za cijeli dan uz rijeku.",
+  "opis_en": "Martin Brod is a village in the south of Una National Park where the Unac flows into the Una. Here the river forms a maze of travertine barriers, cascades and small waterfalls with a total drop of about 54 metres, spreading into dozens of channels between houses, mills and trees. Footpaths, small bridges and picnic benches run through the area and old watermills still stand by the water. Martin Brod is also known for fly fishing, and the remains of medieval Rmanj fortress and Rmanj Monastery are close by. For an easy walk, a path of about 2 km from the bridge near the monastery leads to the Unac tunnel, home to bats. It is loveliest in late spring and summer, when the water turns turquoise. A quieter alternative to Štrbački buk and a great place for a whole day by the river.",
+  "opis_de": "Martin Brod ist ein Dorf im Süden des Nationalparks Una, wo der Unac in die Una mündet. Der Fluss bildet hier ein Gewirr aus Kalktuffbarrieren, Kaskaden und kleinen Wasserfällen mit insgesamt rund 54 Metern Gefälle und verteilt sich in Dutzende Arme zwischen Häusern, Mühlen und Bäumen. Wege, kleine Brücken und Picknickbänke führen durch das Gebiet, am Wasser stehen noch alte Mühlen. Martin Brod ist bekannt für Fliegenfischen; in der Nähe liegen die Reste der mittelalterlichen Festung Rmanj und das Kloster Rmanj. Ein leichter Spaziergang von etwa 2 km ab der Brücke beim Kloster führt zum Unac-Tunnel, in dem Fledermäuse leben. Am schönsten ist es im späten Frühling und Sommer, wenn das Wasser türkis leuchtet. Eine ruhigere Alternative zum Štrbački buk und ideal für einen ganzen Tag am Fluss.",
+  "udaljenost_km": 50,
+  "voznja_min": 60,
+  "kako_doci_bs": "Iz Bihaća magistralom M-5 prema Bosanskom Petrovcu, zatim skretanje prema Kulen Vakufu i dalje uz Unu do Martin Broda (oko 50 km). Postoje i direktni autobusi s autobuske stanice Bihać.",
+  "kako_doci_en": "From Bihać take the M-5 towards Bosanski Petrovac, turn off towards Kulen Vakuf and follow the Una to Martin Brod (about 50 km). Direct buses also run from Bihać bus station.",
+  "kako_doci_de": "Von Bihać über die M-5 Richtung Bosanski Petrovac, dann Abzweig nach Kulen Vakuf und entlang der Una bis Martin Brod (ca. 50 km). Es gibt auch Direktbusse ab dem Busbahnhof Bihać.",
+  "ulaznica": "Ulaz br. 5 (Milančev buk) – vidi posebnu stavku; paket Štrbački buk + Milančev buk odrasli 10–25 KM po sezoni (cjenovnik NP Una 2026).",
+  "radno_vrijeme_sezona": "NP Una (prema johnbills.com, godina nije navedena): nov–feb 10–15, mar 10–16, apr–maj 9–18, jun–avg 9–20, sep 9–19, 1.–15. okt 9–18, 16.–31. okt 9–17 h.",
+  "trajanje": "cijeli dan",
+  "za_djecu": true,
+  "lat": 44.4888,
+  "lng": 16.1419,
+  "web": "https://npuna.com",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Martin_Brod_%E2%80%93_Veliki_slap.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Martin_Brod_%E2%80%93_Veliki_slap.jpg/1280px-Martin_Brod_%E2%80%93_Veliki_slap.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Martin_Brod_%E2%80%93_Veliki_slap.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Martin_Brod_View_1.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Martin_Brod_View_1.JPG/1280px-Martin_Brod_View_1.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Martin_Brod_View_1.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Una_Unac_Confluence.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Una_Unac_Confluence.jpg/1280px-Una_Unac_Confluence.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_Unac_Confluence.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Martin_Brod",
+   "https://en.wikipedia.org/wiki/Una_(Sava)",
+   "https://johnbills.com/una-sana/una-national-park",
+   "https://drifterplanet.com/una-national-park-bosnia-herzegovina/",
+   "https://npuna.com/en/?p=6397",
+   "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-za-2026.god_.-ENG.pdf",
+   "https://getbybus.com/en/blog/?p=1251"
+  ],
+  "provjeriti": "Tačan detaljni opis rute M-5 → Kulen Vakuf → Martin Brod složen je iz više izvora; provjeriti na karti. Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "milancev-buk",
+  "ime": "Milančev buk (Martin Brod)",
+  "kategorija": "NP Una",
+  "kratko_bs": "Slap u Martin Brodu s drvenom stazom iznad bazena, ulaz br. 5 NP Una",
+  "opis_bs": "Milančev buk je slap u samom Martin Brodu i glavna tačka ulaza br. 5 Nacionalnog parka Una, koji pokriva i susjedni Jalački buk. Manji je od Štrbačkog buka, ali mnogi ga smatraju jednako lijepim: voda se preko sedrenih stepenica razlijeva u mirne, zelenkasto-plave bazene, a preko njih vodi drvena rampa s koje se sve vidi izbliza. Uz ulaz postoji restoran, a u blizini je i prostor za piknik. Posjetioci ga često obilaze poslijepodne, kada je, prema iskustvima putnika, i u augustu znatno mirnije nego kod Štrbačkog buka. Obilazak traje oko sat vremena, pa se lako kombinuje s manastirom Rmanj, šetnjom do ušća Unca i ručkom uz rijeku. Ako planirate oba velika slapa isti dan, isplati se kombinovana ulaznica. Ponesite fotoaparat – svjetlo kasno poslijepodne lijepo naglašava boje vode.",
+  "opis_en": "Milančev buk is the waterfall in the heart of Martin Brod and the focus of Una National Park's entrance no. 5, which also covers nearby Jalački buk. It is smaller than Štrbački buk, but many find it just as beautiful: water spills over travertine steps into calm green-blue pools, crossed by a wooden ramp that lets you see everything up close. There is a restaurant by the entrance and a picnic area nearby. Travellers report that even in August it can be much quieter than Štrbački buk in the afternoon. A visit takes about an hour, so it pairs easily with Rmanj Monastery, a walk to the Unac confluence and lunch by the river. If you plan both big waterfalls in one day, the combined ticket is worth it. Bring a camera – late afternoon light brings out the colour of the water.",
+  "opis_de": "Der Milančev buk ist der Wasserfall mitten in Martin Brod und Mittelpunkt von Eingang Nr. 5 des Nationalparks Una, der auch den nahen Jalački buk umfasst. Er ist kleiner als der Štrbački buk, aber für viele ebenso schön: Das Wasser ergießt sich über Kalktuffstufen in ruhige, grünblaue Becken, über die eine Holzrampe führt, von der aus man alles aus der Nähe sieht. Am Eingang gibt es ein Restaurant, in der Nähe einen Picknickplatz. Reisende berichten, dass es hier selbst im August nachmittags deutlich ruhiger ist als am Štrbački buk. Der Besuch dauert etwa eine Stunde und lässt sich gut mit dem Kloster Rmanj, einem Spaziergang zur Unac-Mündung und einem Mittagessen am Fluss verbinden. Wer beide großen Wasserfälle an einem Tag besucht, spart mit dem Kombiticket. Am späten Nachmittag leuchten die Farben besonders schön.",
+  "udaljenost_km": 50,
+  "voznja_min": 60,
+  "kako_doci_bs": "Kao za Martin Brod (oko 50 km iz Bihaća); ulaz br. 5 je u selu, uz rijeku.",
+  "kako_doci_en": "As for Martin Brod (about 50 km from Bihać); entrance no. 5 is in the village by the river.",
+  "kako_doci_de": "Wie nach Martin Brod (ca. 50 km ab Bihać); Eingang Nr. 5 liegt im Dorf am Fluss.",
+  "ulaznica": "Samostalna cijena za ulaz br. 5 nije navedena u cjenovniku 2026; paket Štrbački buk + Milančev buk: odrasli 10 / 15 / 20 / 25 KM, djeca 7–14 god. 8 / 10 / 12 / 15 KM po sezoni; djeca do 7 god. besplatno (NP Una 2026).",
+  "radno_vrijeme_sezona": "NP Una (prema johnbills.com, godina nije navedena): nov–feb 10–15, mar 10–16, apr–maj 9–18, jun–avg 9–20, sep 9–19, 1.–15. okt 9–18, 16.–31. okt 9–17 h.",
+  "trajanje": "1–2 sata",
+  "za_djecu": true,
+  "lat": 44.4888,
+  "lng": 16.1419,
+  "web": "https://npuna.com",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/MILAN%C4%8CEV_BUK.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/MILAN%C4%8CEV_BUK.jpg/1280px-MILAN%C4%8CEV_BUK.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:MILAN%C4%8CEV_BUK.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-za-2026.god_.-ENG.pdf",
+   "https://npuna.com/en/?p=6397",
+   "https://drifterplanet.com/una-national-park-bosnia-herzegovina/",
+   "https://www.gigaplaces.com/en/article-waterfalls-in-una-national-park/",
+   "https://en.wikipedia.org/wiki/Martin_Brod"
+  ],
+  "provjeriti": "Koordinate su koordinate sela Martin Brod (slap je u selu). Pojedinačna ulaznica za Milančev buk nije u cjenovniku 2026 – pitati park; stariji blog (drifterplanet) navodi ~1 EUR. Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "manastir-rmanj",
+  "ime": "Manastir Rmanj",
+  "kategorija": "vjerski objekti",
+  "kratko_bs": "Pravoslavni manastir s kraja 15. st. na ušću Unca u Unu, nacionalni spomenik",
+  "opis_bs": "Manastir Rmanj stoji na lijevoj obali Unca, kod njegovog ušća u Unu, u Martin Brodu. Tačna godina osnivanja nije poznata, ali se manastir prvi put pominje 1498. godine. Krajem 16. i početkom 17. stoljeća bio je sjedište Dabrobosanske mitropolije, a kroz burnu historiju više je puta paljen, obnavljan i ponovo stradao – u Drugom svjetskom ratu potpuno je razoren 1944. Obnova je odobrena 1974., crkva je završena osamdesetih, a konak 2006. Danas je Rmanj nacionalni spomenik Bosne i Hercegovine, a sačuvani su ostaci izvornih fresaka. Iznad ušća su i ruševine srednjovjekovne tvrđave Rmanj. Prilikom posjete poštujte pravila odijevanja i mir zajednice koja ovdje živi. Posjetu je najlakše spojiti s Milančevim bukom i šetnjom do tunela na Uncu. Manastir je od Bihaća udaljen oko 50 km, pa ga planirajte kao dio dana u Martin Brodu.",
+  "opis_en": "Rmanj Monastery stands on the left bank of the Unac, where it meets the Una at Martin Brod. Its exact founding date is unknown, but the first written mention dates from 1498. In the late 16th and early 17th centuries it was the seat of the Metropolitanate of Dabro-Bosnia, and over its turbulent history it was burned, rebuilt and damaged several times – in the Second World War it was completely destroyed in 1944. Rebuilding was permitted in 1974, the church was finished in the 1980s and the monks' quarters in 2006. Today Rmanj is a National Monument of Bosnia and Herzegovina, and remains of its original frescoes survive. The ruins of medieval Rmanj fortress overlook the confluence. Dress modestly and respect the community living here. Combine it with Milančev buk and the walk to the Unac tunnel.",
+  "opis_de": "Das Kloster Rmanj liegt am linken Ufer des Unac bei seiner Mündung in die Una in Martin Brod. Das genaue Gründungsjahr ist unbekannt, die erste schriftliche Erwähnung stammt von 1498. Ende des 16. und Anfang des 17. Jahrhunderts war es Sitz der Metropolie Dabar-Bosnien; in seiner bewegten Geschichte wurde es mehrfach niedergebrannt, wieder aufgebaut und erneut beschädigt – im Zweiten Weltkrieg 1944 vollständig zerstört. Der Wiederaufbau wurde 1974 genehmigt, die Kirche in den 1980er-Jahren und das Wohngebäude 2006 fertiggestellt. Heute ist Rmanj Nationaldenkmal von Bosnien und Herzegowina, Reste der ursprünglichen Fresken sind erhalten. Über der Mündung liegen die Ruinen der mittelalterlichen Festung Rmanj. Bitte angemessene Kleidung tragen und die Ruhe der Gemeinschaft respektieren. Gut kombinierbar mit dem Milančev buk. Das Kloster liegt rund 50 km von Bihać entfernt.",
+  "udaljenost_km": 50,
+  "voznja_min": 60,
+  "kako_doci_bs": "Kao za Martin Brod (oko 50 km); manastir je kod mosta na Uncu, na rubu sela.",
+  "kako_doci_en": "As for Martin Brod (about 50 km); the monastery is by the bridge over the Unac at the edge of the village.",
+  "kako_doci_de": "Wie nach Martin Brod (ca. 50 km); das Kloster liegt an der Unac-Brücke am Ortsrand.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "1 sat",
+  "za_djecu": true,
+  "lat": 44.492757,
+  "lng": 16.143304,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/MANASTIR_RMANJ.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/MANASTIR_RMANJ.JPG/1280px-MANASTIR_RMANJ.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:MANASTIR_RMANJ.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Martin_Brod_Monastery.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Martin_Brod_Monastery.jpg/1280px-Martin_Brod_Monastery.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Martin_Brod_Monastery.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Rmanj_Monastery",
+   "https://en.wikipedia.org/wiki/Martin_Brod",
+   "https://johnbills.com/una-sana/una-national-park",
+   "https://drifterplanet.com/una-national-park-bosnia-herzegovina/"
+  ],
+  "provjeriti": "Telefon manastira prema johnbills.com: +387 37 366 047. Radno vrijeme za posjetioce nije nađeno. Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "kulen-vakuf",
+  "ime": "Kulen Vakuf",
+  "kategorija": "NP Una",
+  "kratko_bs": "Upravni centar NP Una uz Unu, polazište za Ostrovicu i rafting do Martin Broda",
+  "opis_bs": "Kulen Vakuf je malo naselje uz Unu na jugu Grada Bihaća i najveće izgrađeno mjesto unutar Nacionalnog parka Una, u kojem se nalazi i njegovo upravno središte. Iznad sela, na šumovitom grebenu, stoji tvrđava Ostrovica, a staza do nje kreće upravo odavde. U mjestu je džamija sultana Ahmeda I, nekoliko lokala i smještajnih objekata, a na obali Une i kampovi. Kulen Vakuf je dobra baza za istraživanje južnog dijela parka: odavde je kratko do Martin Broda, a dionica Martin Brod – Kulen Vakuf jedna je od zvaničnih ruta za rafting, kajak i kanu. Ribolovna zona 1B Kulen Vakuf rezervisana je za mušičarenje po principu uhvati-i-pusti. U Kulen Vakufu (Unska bb) postoji i info-tačka parka gdje se kupuju ribolovne dozvole. Mjesto je rodno selo porodice Kulenović, kapetana Ostrovice.",
+  "opis_en": "Kulen Vakuf is a small settlement on the Una in the south of the City of Bihać and the largest built-up place inside Una National Park, where the park's administrative centre is based. Ostrovica fortress stands on a wooded ridge above the village, and the hiking path up starts here. The village has the Sultan Ahmed I Mosque, a few cafés and places to stay, plus campsites on the riverbank. It makes a good base for the southern part of the park: Martin Brod is close, and the Martin Brod – Kulen Vakuf stretch is one of the official routes for rafting, kayaking and canoeing. Fishing zone 1B Kulen Vakuf is reserved for catch-and-release fly fishing, and the park's info point (Unska bb) sells fishing permits. The village is the home of the Kulenović family, historic captains of Ostrovica.",
+  "opis_de": "Kulen Vakuf ist ein kleiner Ort an der Una im Süden der Stadt Bihać und die größte Siedlung im Nationalpark Una, in der sich auch die Parkverwaltung befindet. Auf einem bewaldeten Grat über dem Dorf thront die Festung Ostrovica; der Wanderweg hinauf beginnt hier. Im Ort stehen die Moschee Sultan Ahmeds I., einige Lokale und Unterkünfte, am Ufer gibt es Campingplätze. Kulen Vakuf ist eine gute Basis für den Süden des Parks: Martin Brod ist nah, und die Strecke Martin Brod – Kulen Vakuf ist eine der offiziellen Routen für Rafting, Kajak und Kanu. Die Angelzone 1B Kulen Vakuf ist dem Fliegenfischen nach dem Prinzip Fangen und Freilassen vorbehalten; Angelscheine gibt es am Infopunkt des Parks (Unska bb). Der Ort ist die Heimat der Familie Kulenović, der historischen Kapitäne von Ostrovica.",
+  "udaljenost_km": 44,
+  "voznja_min": 55,
+  "kako_doci_bs": "Iz Bihaća magistralom M-5 prema Bosanskom Petrovcu, zatim skretanje za Kulen Vakuf. Šest autobusa dnevno vozi direktno iz Bihaća.",
+  "kako_doci_en": "From Bihać take the M-5 towards Bosanski Petrovac and turn off for Kulen Vakuf. Six direct buses a day run from Bihać.",
+  "kako_doci_de": "Von Bihać über die M-5 Richtung Bosanski Petrovac, dann Abzweig nach Kulen Vakuf. Täglich fahren sechs Direktbusse ab Bihać.",
+  "ulaznica": "Mjesto bez ulaznice; rafting/kajak Martin Brod – Kulen Vakuf (naknada parka, bez opreme): 6 / 8 / 10 / 12 KM po sezoni (NP Una 2026).",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 44.567,
+  "lng": 16.083,
+  "web": "https://npuna.com",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Kulen_Vakuf_2.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Kulen_Vakuf_2.JPG/1280px-Kulen_Vakuf_2.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Kulen_Vakuf_2.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kulen_Vakuf_3.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kulen_Vakuf_3.jpg/1280px-Kulen_Vakuf_3.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Kulen_Vakuf_3.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Kulen_Vakuf",
+   "https://johnbills.com/una-sana/una-national-park",
+   "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-za-2026.god_.-ENG.pdf",
+   "https://npuna.com/wp-content/uploads/2020/03/RIBOLOV-ODLUKA-I-PRAVILA_2026_Ured-direktora.pdf",
+   "https://en.wikipedia.org/wiki/Ostrovica_Castle"
+  ],
+  "provjeriti": "Ruta (M-5 pa skretanje) sažeta je iz opisa parka; provjeriti na karti. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "tvrdjava-ostrovica",
+  "ime": "Tvrđava Ostrovica",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Srednjovjekovna tvrđava iznad Kulen Vakufa s pogledom na dolinu Une",
+  "opis_bs": "Ostrovica je srednjovjekovna utvrda na šumovitom grebenu iznad Kulen Vakufa, s pogledom na lijevu obalu Une. Kontrolisala je put između sjevernog i južnog dijela doline, a vjerovatno je podignuta u 15. stoljeću na temeljima starijih utvrđenja. Prvi put se pominje 1407. kao posjed bosanskog velmože Sandalja Hranića, koji ju je oko 1409–1410. prodao Veneciji. Kasnije su je držali Kurjakovići, Frankopani i drugi, a Osmanlije je preuzimaju 1523. Pod osmanskom vlašću proširena je i bila sjedište kapetanije, koju su često držali Kulenovići; opsjedana je više puta, a napuštena 1878. Danas je nacionalni spomenik i dio NP Una, djelimično obnovljena. Uspon iz Kulen Vakufa nagrađuje se jednim od najljepših pogleda na dolinu Une. Krenite rano ljeti, ponesite vodu i čvrstu obuću. Pogled seže do Kulen Vakufa i doline Une.",
+  "opis_en": "Ostrovica is a medieval fortress on a wooded ridge above Kulen Vakuf, overlooking the left bank of the Una. It controlled the route between the northern and southern parts of the valley and was probably built in the 15th century on older foundations. It is first recorded in 1407 as the property of Bosnian magnate Sandalj Hranić, who sold it to Venice around 1409–1410. Later owners included the Kurjaković family and the Frankopans, and the Ottomans took it in 1523. Under Ottoman rule it was enlarged and became the seat of a captaincy, often held by the Kulenović family; it withstood several sieges and was abandoned in 1878. Today it is a national monument within Una National Park, partly restored. The climb from Kulen Vakuf rewards you with one of the finest views of the Una valley. Start early in summer and bring water and sturdy shoes.",
+  "opis_de": "Ostrovica ist eine mittelalterliche Festung auf einem bewaldeten Grat über Kulen Vakuf mit Blick auf das linke Una-Ufer. Sie kontrollierte den Weg zwischen nördlichem und südlichem Teil des Tals und wurde wohl im 15. Jahrhundert auf älteren Fundamenten errichtet. Erstmals erwähnt wird sie 1407 als Besitz des bosnischen Magnaten Sandalj Hranić, der sie um 1409–1410 an Venedig verkaufte. Später gehörte sie u. a. den Kurjakovići und den Frankopanen, 1523 übernahmen die Osmanen. Unter osmanischer Herrschaft wurde sie ausgebaut und Sitz einer Kapitanie, oft in Händen der Familie Kulenović; sie überstand mehrere Belagerungen und wurde 1878 aufgegeben. Heute ist sie Nationaldenkmal im Nationalpark Una und teilweise restauriert. Der Aufstieg von Kulen Vakuf belohnt mit einem der schönsten Blicke über das Una-Tal. Im Sommer früh starten, Wasser und feste Schuhe mitnehmen.",
+  "udaljenost_km": 45,
+  "voznja_min": 55,
+  "kako_doci_bs": "Autom do Kulen Vakufa (vidi Kulen Vakuf), zatim pješačka staza od sela do tvrđave.",
+  "kako_doci_en": "Drive to Kulen Vakuf (see Kulen Vakuf), then follow the footpath from the village up to the fortress.",
+  "kako_doci_de": "Mit dem Auto nach Kulen Vakuf (siehe dort), dann zu Fuß auf dem Weg vom Dorf hinauf zur Festung.",
+  "ulaznica": "Cijena nije navedena u cjenovniku NP Una 2026.",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 44.5581,
+  "lng": 16.0811,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Kulen_Vakuf_Ostrovica_1.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Kulen_Vakuf_Ostrovica_1.JPG/1280px-Kulen_Vakuf_Ostrovica_1.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Kulen_Vakuf_Ostrovica_1.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kulen_Vakuf_Ostrovica_2.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Kulen_Vakuf_Ostrovica_2.JPG/1280px-Kulen_Vakuf_Ostrovica_2.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Kulen_Vakuf_Ostrovica_2.JPG",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Ostrovica_Castle",
+   "https://johnbills.com/una-sana/una-national-park",
+   "https://www.gigaplaces.com/en/article-waterfalls-in-una-national-park/",
+   "https://en.wikipedia.org/wiki/Una_National_Park"
+  ],
+  "provjeriti": "Dužina i težina pješačke staze nisu pronađene u izvorima. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "lohovo-troslap-dvoslap",
+  "ime": "Lohovo, Troslap i Dvoslap",
+  "kategorija": "NP Una",
+  "kratko_bs": "Najbliži ulaz NP Una gradu: šumska staza 2 km uz slapove, čamci i rafting baze",
+  "opis_bs": "Lohovo je ulaz br. 6 Nacionalnog parka Una i najbliža tačka parka samom Bihaću. Ovdje Una teče kroz niz slapova i rukavaca među vrbama, a najpoznatiji su Troslap i Dvoslap, nizvodno od Štrbačkog buka. Između njih vodi šumska pješačka staza duga oko dva kilometra, idealna za laganu šetnju s porodicom. Lohovo je i središte riječnih aktivnosti: većina rafting agencija ima baze u blizini ulaza, a dionica Štrbački buk – Lohovo smatra se najatraktivnijom za rafting i kajak. Mogu se iznajmiti čamci i bicikli, a postoje restorani, apartmani, mali kamp, eko-selo i igraonica za djecu. Ulaznica je ovdje najjeftinija u parku. Najbolje je doći ujutro ili predvečer, kada je svjetlo nad vodom najmekše, a za vruća ljetna popodneva hlad uz rijeku je pravo osvježenje.",
+  "opis_en": "Lohovo is entrance no. 6 of Una National Park and the park's closest point to Bihać. Here the Una flows through a series of waterfalls and willow-lined channels, best known among them Troslap and Dvoslap, downstream of Štrbački buk. A forest footpath of about 2 km links the two – an easy family walk. Lohovo is also the hub for river activities: most rafting agencies have their bases near the entrance, and the Štrbački buk – Lohovo stretch is considered the most attractive for rafting and kayaking. You can rent boats and bikes, and there are restaurants, apartments, a small campsite, an eco-village and a children's play area. Tickets here are the cheapest in the park. Come in the morning or early evening for the softest light on the water; on hot summer afternoons the shade by the river is a welcome relief.",
+  "opis_de": "Lohovo ist Eingang Nr. 6 des Nationalparks Una und der Bihać am nächsten gelegene Punkt des Parks. Hier fließt die Una durch eine Reihe von Wasserfällen und von Weiden gesäumten Seitenarmen; am bekanntesten sind Troslap und Dvoslap unterhalb des Štrbački buk. Ein rund 2 km langer Waldweg verbindet beide – ein leichter Familienspaziergang. Lohovo ist auch das Zentrum für Wasseraktivitäten: Die meisten Raftinganbieter haben ihre Basen am Eingang, und die Strecke Štrbački buk – Lohovo gilt als die attraktivste für Rafting und Kajak. Boote und Fahrräder kann man leihen; es gibt Restaurants, Apartments, einen kleinen Campingplatz, ein Ökodorf und einen Kinderspielbereich. Der Eintritt ist hier am günstigsten. Am schönsten ist das Licht morgens oder abends; an heißen Sommernachmittagen bietet der Schatten am Fluss Erfrischung.",
+  "udaljenost_km": null,
+  "voznja_min": null,
+  "kako_doci_bs": "Iz Bihaća prema jugu, dolinom Une preko Ripča prema Lohovu (ulaz br. 6, najbliži gradu).",
+  "kako_doci_en": "From Bihać head south along the Una valley via Ripač to Lohovo (entrance no. 6, closest to town).",
+  "kako_doci_de": "Von Bihać nach Süden durch das Una-Tal über Ripač nach Lohovo (Eingang Nr. 6, stadtnächster Eingang).",
+  "ulaznica": "Najjeftiniji ulaz u park – stariji izvor (getbybus) navodi 2 KM; rafting/kajak Troslap – Dvoslap (naknada parka): 5 / 6 / 7 / 8 KM po sezoni (NP Una 2026).",
+  "radno_vrijeme_sezona": "NP Una (prema johnbills.com, godina nije navedena): nov–feb 10–15, mar 10–16, apr–maj 9–18, jun–avg 9–20, sep 9–19, 1.–15. okt 9–18, 16.–31. okt 9–17 h.",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": null,
+  "lng": null,
+  "web": "https://npuna.com/en/lohovo",
+  "slike": [],
+  "izvori": [
+   "https://npuna.com/en/lohovo",
+   "https://npuna.com/en/?p=6397",
+   "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-za-2026.god_.-ENG.pdf",
+   "https://getbybus.com/en/blog/?p=1251",
+   "https://johnbills.com/una-sana/una-national-park"
+  ],
+  "provjeriti": "Ruta preko Ripča nije eksplicitno u izvorima; ulaznica 2 KM je iz starijeg bloga – provjeriti aktuelni cjenovnik. Udaljenost nije nađena. Koordinate nisu pronađene u otvorenim izvorima – dodati ručno (lat/lng = null). Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "cukovi",
+  "ime": "Ćukovi – pješački i biciklistički ulaz",
+  "kategorija": "aktivnosti",
+  "kratko_bs": "Ulaz br. 2 bez automobila: 4,5 km pješice ili biciklom do Štrbačkog buka",
+  "opis_bs": "Ćukovi su selo na putu prema Kulen Vakufu i mjesto ulaza br. 2 Nacionalnog parka Una, koji je namijenjen isključivo pješacima i biciklistima. Motorna vozila ovdje ne smiju ući, pa je ovo najmirniji način da se stigne do Štrbačkog buka: od ulaza do slapa ima oko 4,5 kilometara kroz šumu i uz rijeku. Staza vodi i dalje prema Kulen Vakufu i Martin Brodu, pa je zanimljiva i za duže biciklističke ture. Do Ćukova se može i lokalnim autobusom iz Bihaća koji ide prema Kulen Vakufu, s polaskom sa stajališta \"Bedem\", a ne s autobuske stanice. To je odlična opcija za goste bez automobila. Ponesite dovoljno vode, jer usput nema mnogo ugostiteljskih objekata, i računajte na povratak istim putem ili dogovorite prevoz unaprijed.",
+  "opis_en": "Ćukovi is a village on the road to Kulen Vakuf and the site of Una National Park's entrance no. 2, which is reserved for walkers and cyclists. No motor vehicles are allowed, making it the calmest way to reach Štrbački buk: about 4.5 km through forest and along the river. The route continues towards Kulen Vakuf and Martin Brod, so it also suits longer bike rides. You can get to Ćukovi by the local bus from Bihać towards Kulen Vakuf, which leaves from the \"Bedem\" stop rather than the bus station – a good option for guests without a car. Carry enough water, as there are few places to eat along the way, and plan to return the same way or arrange transport in advance.",
+  "opis_de": "Ćukovi ist ein Dorf an der Straße nach Kulen Vakuf und Standort von Eingang Nr. 2 des Nationalparks Una, der nur Fußgängern und Radfahrern offensteht. Motorfahrzeuge sind nicht erlaubt – der ruhigste Weg zum Štrbački buk: rund 4,5 km durch Wald und entlang des Flusses. Die Strecke führt weiter Richtung Kulen Vakuf und Martin Brod und eignet sich auch für längere Radtouren. Nach Ćukovi kommt man mit dem Lokalbus aus Bihać Richtung Kulen Vakuf, der an der Haltestelle „Bedem“ abfährt, nicht am Busbahnhof – ideal für Gäste ohne Auto. Genug Wasser mitnehmen, da es unterwegs kaum Gastronomie gibt, und den Rückweg oder einen Transfer vorher planen. Die Strecke eignet sich auch gut für Familien mit älteren Kindern, die gern wandern oder Rad fahren, und ist eine ruhige Alternative zur Anfahrt mit dem Auto.",
+  "udaljenost_km": null,
+  "voznja_min": null,
+  "kako_doci_bs": "Iz Bihaća prema Kulen Vakufu; lokalni autobus sa stajališta Bedem staje u Ćukovima (oko 5 polazaka dnevno, provjeriti red vožnje).",
+  "kako_doci_en": "From Bihać towards Kulen Vakuf; the local bus from the Bedem stop calls at Ćukovi (about five departures a day – check the timetable).",
+  "kako_doci_de": "Von Bihać Richtung Kulen Vakuf; der Lokalbus ab Haltestelle Bedem hält in Ćukovi (ca. fünf Abfahrten täglich – Fahrplan prüfen).",
+  "ulaznica": "Ulaz u zonu Štrbačkog buka – vidi cjenovnik NP Una 2026.",
+  "radno_vrijeme_sezona": "NP Una (prema johnbills.com, godina nije navedena): nov–feb 10–15, mar 10–16, apr–maj 9–18, jun–avg 9–20, sep 9–19, 1.–15. okt 9–18, 16.–31. okt 9–17 h.",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": null,
+  "lng": null,
+  "web": "https://npuna.com",
+  "slike": [],
+  "izvori": [
+   "https://npuna.com/en/?p=6397",
+   "https://getbybus.com/en/blog/?p=1251",
+   "https://drifterplanet.com/una-national-park-bosnia-herzegovina/"
+  ],
+  "provjeriti": "Udaljenost Ćukova od Bihaća nije nađena u izvorima. Koordinate nisu pronađene u otvorenim izvorima – dodati ručno (lat/lng = null). Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "ripac",
+  "ime": "Ripač – japodsko naselje na Uni",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Selo 5 km od Bihaća, centar japodske kulture i nalazište sojenica",
+  "opis_bs": "Ripač je selo oko pet kilometara od Bihaća, u dolini Une, i središte japodske kulture na ovom području. Japodi su ilirsko pleme koje je u posljednjem milenijumu stare ere naseljavalo širi tok srednje Une, dijelove Like, Gorskog kotara i Bele krajine. U Ripču su pronađena rijetka naselja sojenica – drvene kuće podignute nad vodom na hrastovim stubovima – kakvih je na Balkanu vrlo malo. Na lokalitetu Gradina nađeni su i terakotni predmeti, gravura jelenje glave i zmija na ulomku posude. Ripač se u izvorima javlja i kao austrijsko uporište 1530. godine, a na ulazu u stari dio sela nalazi se mezarje s tri velika nišana iz 18. stoljeća. Danas je Ripač mirno mjesto uz rijeku, s graničnim prelazom prema Hrvatskoj i restoranima na vodi. Odlično je za kratak izlet, kupanje i večeru uz Unu.",
+  "opis_en": "Ripač is a village about 5 km from Bihać in the Una valley and the centre of Iapydian (Japod) culture in the area. The Iapydes were an Illyrian people who, in the last millennium BC, lived along the middle Una and in parts of Lika, Gorski Kotar and Bela Krajina. Rare pile-dwelling settlements were found at Ripač – wooden houses raised over water on oak posts – a type seldom seen in the Balkans. The Gradina site yielded terracotta figures, an engraved deer head and a snake on a pottery fragment. Ripač also appears as an Austrian stronghold in 1530, and at the entrance to the old village stands a graveyard with three large 18th-century tombstones. Today it is a quiet riverside village with a border crossing to Croatia and restaurants on the water – ideal for a short trip, a swim and dinner by the Una.",
+  "opis_de": "Ripač ist ein Dorf etwa 5 km von Bihać im Una-Tal und Zentrum der japodischen Kultur in der Region. Die Japoden waren ein illyrisches Volk, das im letzten Jahrtausend v. Chr. an der mittleren Una sowie in Teilen von Lika, Gorski Kotar und Bela Krajina lebte. In Ripač wurden seltene Pfahlbausiedlungen gefunden – Holzhäuser auf Eichenpfählen über dem Wasser –, wie es sie auf dem Balkan kaum gibt. Am Fundort Gradina kamen Terrakotten, ein eingravierter Hirschkopf und eine Schlange auf einer Gefäßscherbe zutage. 1530 wird Ripač als österreichischer Stützpunkt erwähnt; am Eingang des alten Dorfes liegt ein Friedhof mit drei großen Grabsteinen aus dem 18. Jahrhundert. Heute ist Ripač ein ruhiges Flussdorf mit Grenzübergang nach Kroatien und Restaurants am Wasser – ideal für einen kurzen Ausflug, Baden und ein Abendessen an der Una.",
+  "udaljenost_km": 5,
+  "voznja_min": 5,
+  "kako_doci_bs": "Iz Bihaća prema jugu uz Unu, oko 5 km.",
+  "kako_doci_en": "From Bihać head south along the Una, about 5 km.",
+  "kako_doci_de": "Von Bihać nach Süden entlang der Una, etwa 5 km.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "2–3 sata",
+  "za_djecu": true,
+  "lat": 44.7667,
+  "lng": 15.95,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://npuna.com/en/the-iapydes/",
+   "https://en.wikipedia.org/wiki/Biha%c4%87",
+   "https://wikiwand.com/en/articles/Ripa%C4%8D",
+   "https://www.sarajevotimes.com/ripac-near-bihac-little-paradise-bh-krajina/",
+   "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/"
+  ],
+  "provjeriti": "Arheološki lokaliteti nisu uređeni kao muzej na otvorenom (izvori ne navode šta se može vidjeti na terenu) – nalazi su izloženi u Kapetanovoj kuli. Koordinate su zaokružene (44°46′N 15°57′E). Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "japodski-otoci",
+  "ime": "Japodski otoci",
+  "kategorija": "priroda",
+  "kratko_bs": "Pet otoka među brzacima Une u Račiću: kamp, restoran, igralište, rafting",
+  "opis_bs": "Japodski otoci su skupina od pet otoka među brzacima i slapićima Une u Račiću, jugoistočno od Bihaća, u području Nacionalnog parka Una. Otoci su povezani rukavcima i malim vodopadima, a na njima djeluje porodični kamp s mjestima za šatore, kamp-kućice i drvenim kućicama, uz restoran s tradicionalnom bosanskom kuhinjom. Ovo je jedno od najomiljenijih mjesta za porodice: ima otvorenog prostora za djecu, viseće mreže, a organizuju se rafting, ribolov, planinarenje, biciklizam i vožnja čamcem. Čak i ako ne noćite ovdje, vrijedi doći na ručak ili kafu uz šum vode i prošetati otocima. Za vruća ljetna popodneva ovo je savršen bijeg od gradske vrućine. Navečer je atmosfera posebno opuštena, a u sezoni ima i zabavnog programa. Rezervacija smještaja preporučuje se ljeti.",
+  "opis_en": "Japodski otoci (the Iapydian Islands) are a group of five islands among the rapids and small falls of the Una at Račić, south-east of Bihać, within the Una National Park area. The islands are linked by side channels and little waterfalls and host a family campsite with tent and caravan pitches and wooden cabins, plus a restaurant serving traditional Bosnian food. It is a family favourite: there is open space for children, hammocks, and organised rafting, fishing, hiking, cycling and boating. Even if you don't stay overnight, come for lunch or coffee by the rushing water and a walk across the islands. On hot summer afternoons it is the perfect escape from the heat of town. Evenings are relaxed, with entertainment in season. Booking ahead is recommended in summer.",
+  "opis_de": "Die Japodski otoci (Japodische Inseln) sind eine Gruppe von fünf Inseln zwischen Stromschnellen und kleinen Fällen der Una in Račić, südöstlich von Bihać, im Bereich des Nationalparks Una. Die Inseln sind durch Seitenarme und kleine Wasserfälle verbunden; es gibt einen Familiencampingplatz mit Zelt- und Wohnmobilplätzen, Holzhütten und ein Restaurant mit traditioneller bosnischer Küche. Ein Lieblingsort für Familien: viel Freifläche für Kinder, Hängematten sowie organisiertes Rafting, Angeln, Wandern, Radfahren und Bootsfahrten. Auch ohne Übernachtung lohnt sich ein Mittagessen oder Kaffee am rauschenden Wasser und ein Spaziergang über die Inseln. An heißen Sommernachmittagen die perfekte Flucht vor der Stadthitze. Abends herrscht entspannte Stimmung, in der Saison mit Programm. Im Sommer frühzeitig reservieren. Bis Bihać sind es nur etwa 25 Minuten Fahrt, daher auch für einen spontanen Nachmittag geeignet.",
+  "udaljenost_km": 13,
+  "voznja_min": 25,
+  "kako_doci_bs": "Iz Bihaća prema jugu dolinom Une do Račića; oko 25 minuta vožnje.",
+  "kako_doci_en": "From Bihać head south along the Una valley to Račić; about 25 minutes' drive.",
+  "kako_doci_de": "Von Bihać nach Süden durch das Una-Tal nach Račić; ca. 25 Minuten Fahrt.",
+  "ulaznica": "Ulaz na otoke nije naveden; kamp i restoran po cjenovniku objekta.",
+  "radno_vrijeme_sezona": "Check-in kampa od 14 h, check-out do 10 h.",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 44.74615,
+  "lng": 15.93636,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://www.pitchup.com/campsites/bosnia_and_herzegovina/federation-bosnia-and-herzegovina/una-sana/bihac/japodski_otoci",
+   "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/",
+   "https://johnbills.com/una-sana/una-national-park"
+  ],
+  "provjeriti": "Kontakt prema johnbills.com: Račić bb, +387 63 141 414, japodskiotoci@gmail.com. Sezona otvaranja nije navedena. Udaljenost procijenjena iz koordinata (zračna linija × 1,35); vrijeme vožnje 25 min prema pitchup.com. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "golubic",
+  "ime": "Golubić – rimski Mitrin hram",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Selo uz Unu kod Bihaća gdje je nađen rimski reljef boga Mitre iz 4. st.",
+  "opis_bs": "Golubić je selo u blizini Bihaća, uz Unu, poznato po jednom od zanimljivijih rimskih nalaza u regiji. Ovdje je otkriveno svetište boga Mitre iz ranog 4. stoljeća nove ere, a iz njega potiče dvostrani reljef isklesan u žutom krečnjaku: na jednoj strani prikazan je Mitra koji ubija bika, a na drugoj ritualna gozba. Sam reljef danas se čuva u Arheološkom muzeju u Zagrebu, pa na licu mjesta nema izložbe, ali Golubić je dobar primjer koliko je dolina Une bila naseljena i važna kroz cijelu antiku – od Japoda do Rimljana. Posjetu možete spojiti s obližnjom tvrđavom Sokolac, Pritokom i Ripčem u lagani poludnevni krug uz rijeku. Za ljubitelje historije preporučujemo da prije toga posjete Kapetanovu kulu u Bihaću, gdje je izložena arheološka građa iz ovog kraja.",
+  "opis_en": "Golubić is a village near Bihać on the Una, known for one of the region's more intriguing Roman finds. A sanctuary of the god Mithras from the early 4th century AD was discovered here, and from it comes a two-sided relief carved in yellow limestone: one side shows Mithras slaying the bull, the other a ritual banquet. The relief itself is now kept in the Archaeological Museum in Zagreb, so there is no display on site, but Golubić shows how settled and important the Una valley was throughout antiquity – from the Iapydes to the Romans. Combine it with nearby Sokolac fortress, Pritoka and Ripač for an easy half-day loop by the river. History lovers should first visit the Captain's Tower museum in Bihać, which displays archaeological finds from the area.",
+  "opis_de": "Golubić ist ein Dorf bei Bihać an der Una, bekannt für einen der interessanteren römischen Funde der Region. Hier wurde ein Heiligtum des Gottes Mithras aus dem frühen 4. Jahrhundert n. Chr. entdeckt; daraus stammt ein beidseitiges Relief aus gelbem Kalkstein: Auf einer Seite tötet Mithras den Stier, auf der anderen ist ein Kultmahl dargestellt. Das Relief befindet sich heute im Archäologischen Museum Zagreb, vor Ort gibt es also keine Ausstellung – doch Golubić zeigt, wie besiedelt und bedeutend das Una-Tal in der gesamten Antike war, von den Japoden bis zu den Römern. Gut kombinierbar mit der nahen Festung Sokolac, Pritoka und Ripač zu einer gemütlichen Halbtagesrunde am Fluss. Geschichtsinteressierte besuchen vorher das Museum im Kapitänsturm in Bihać. Die Route ist ruhig und eignet sich auch für eine Radtour.",
+  "udaljenost_km": 7,
+  "voznja_min": 10,
+  "kako_doci_bs": "Iz Bihaća nekoliko kilometara jugoistočno, uz Unu.",
+  "kako_doci_en": "A few kilometres south-east of Bihać along the Una.",
+  "kako_doci_de": "Einige Kilometer südöstlich von Bihać an der Una.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "1–2 sata",
+  "za_djecu": false,
+  "lat": 44.7869,
+  "lng": 15.9206,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Golubi%C4%87_Mithraeum",
+   "https://npuna.com/en/the-iapydes/"
+  ],
+  "provjeriti": "Koordinate su koordinate Mitreja (Wikipedia). Na terenu nema označenog lokaliteta prema izvorima – provjeriti prije uvrštavanja kao 'izlet'. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "pritoka",
+  "ime": "Pritoka",
+  "kategorija": "gradovi u okolici",
+  "kratko_bs": "Selo istočno od Bihaća, u blizini tvrđave Sokolac i Golubića",
+  "opis_bs": "Pritoka je selo u sastavu Grada Bihaća, smješteno istočno od centra, u blizini tvrđave Sokolac i sela Golubić s nalazištem rimskog Mitrinog hrama. Prema popisu iz 2013. imalo je oko 680 stanovnika. Pritoka nije klasična turistička atrakcija, ali je zgodna tačka za kratak izlet automobilom ili biciklom iz grada: odavde se lako nastavlja do Sokolca, odakle se pruža pogled na Bihaćko polje, te dalje prema Golubiću i Ripču. Za goste koji vole mirne seoske puteve, ovo je dobar početak poludnevnog kruga kroz bihaćku okolinu, daleko od gužve. Preporučujemo kombinaciju sa šetnjom do Sokolca i ručkom uz Unu u Ripču ili na Japodskim otocima. Ovaj kraj nije u turističkim vodičima, pa je idealan za goste koji žele upoznati svakodnevni život sela oko Bihaća, uz kratke vožnje i šetnje seoskim putevima. Za sada nema označenih staza, pa se orijentišite po karti.",
+  "opis_en": "Pritoka is a village within the City of Bihać, east of the centre, close to Sokolac fortress and Golubić with its Roman Mithraeum site. The 2013 census counted about 680 residents. Pritoka is not a classic tourist attraction, but it is a handy stop on a short drive or bike ride from town: from here it is easy to continue to Sokolac and on towards Golubić and Ripač. For guests who like quiet country roads, it is a good start to a half-day loop through the Bihać countryside, away from the crowds. Combine it with a walk up to Sokolac and lunch by the Una in Ripač or at Japodski otoci. This area isn't in the guidebooks, which makes it ideal for guests who want to see everyday village life around Bihać on short drives and walks along country lanes. There are no marked trails yet, so use a map.",
+  "opis_de": "Pritoka ist ein Dorf der Stadt Bihać östlich des Zentrums, nahe der Festung Sokolac und Golubić mit seinem römischen Mithräum. Laut Volkszählung 2013 hatte es rund 680 Einwohner. Pritoka ist keine klassische Sehenswürdigkeit, aber ein praktischer Halt bei einer kurzen Auto- oder Radtour aus der Stadt: Von hier geht es leicht weiter nach Sokolac und Richtung Golubić und Ripač. Für Gäste, die ruhige Landstraßen mögen, ein guter Start für eine Halbtagesrunde durch die Umgebung von Bihać, abseits des Trubels. Am besten mit einem Abstecher nach Sokolac und einem Mittagessen an der Una in Ripač oder auf den Japodski otoci verbinden. Die Gegend steht in keinem Reiseführer und ist daher ideal für Gäste, die bei kurzen Fahrten und Spaziergängen auf Landwegen das Dorfleben rund um Bihać kennenlernen möchten. Markierte Wege gibt es noch nicht – am besten mit Karte.",
+  "udaljenost_km": 7,
+  "voznja_min": 10,
+  "kako_doci_bs": "Iz Bihaća istočno/jugoistočno, nekoliko kilometara.",
+  "kako_doci_en": "A few kilometres east/south-east of Bihać.",
+  "kako_doci_de": "Wenige Kilometer östlich/südöstlich von Bihać.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "1–2 sata",
+  "za_djecu": true,
+  "lat": 44.7972,
+  "lng": 15.9272,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Pritoka",
+   "https://en.wikipedia.org/wiki/Sokolac_(fortress_near_Biha%C4%87)"
+  ],
+  "provjeriti": "Izvori ne navode konkretne atrakcije u samoj Pritoci (npr. uz Unu/Klokot) – lokalno provjeriti šta vrijedi istaknuti ili spojiti sa Sokolcem. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "tvrdjava-sokolac",
+  "ime": "Tvrđava Sokolac",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Srednjovjekovni grad iznad Bihaća iz 1395., nacionalni spomenik",
+  "opis_bs": "Sokolac, poznat i kao Sokol ili Sokol-grad, srednjovjekovna je tvrđava kod istoimenog sela nadomak Bihaća. Najstariji poznati dokument o njoj potiče iz 1395. godine. U 15. stoljeću bila je poprište dinastičkih borbi u Ugarskom kraljevstvu, a nakon niza bitaka u vrijeme osmanskog prodora pala je zajedno s Bihaćem 1592. godine. Kasnije se rijetko spominje i imala je manju posadu od obližnjeg Ripča; korištena je od 14. do 19. stoljeća. Tvrđava je 2008. proglašena nacionalnim spomenikom, ali je procjena iz 2010. njeno stanje ocijenila lošim. Upravo zato je mjesto romantično i divlje – ruševine s pogledom na okolinu Bihaća. Obilazak je kratak, ali obavezno ponesite čvrstu obuću i pazite na nestabilne zidove. Najljepše je u proljeće i jesen, uz blago svjetlo i manje vrućine.",
+  "opis_en": "Sokolac, also called Sokol or Sokol-grad, is a medieval fortress by the village of the same name just outside Bihać. The oldest known document about it dates from 1395. In the 15th century it featured in dynastic struggles in the Kingdom of Hungary, and after a series of battles during the Ottoman advance it fell together with Bihać in 1592. It is rarely mentioned afterwards and had a smaller garrison than nearby Ripač; it was in use from the 14th to the 19th century. The fortress was declared a national monument in 2008, but a 2010 assessment rated its condition as poor. That is exactly what makes it romantic and wild – ruins with views over the Bihać countryside. The visit is short; wear sturdy shoes and keep away from unstable walls. Spring and autumn are best, with soft light and milder heat.",
+  "opis_de": "Sokolac, auch Sokol oder Sokol-grad genannt, ist eine mittelalterliche Festung beim gleichnamigen Dorf vor den Toren von Bihać. Das älteste bekannte Dokument stammt von 1395. Im 15. Jahrhundert war sie Schauplatz dynastischer Kämpfe im Königreich Ungarn und fiel nach mehreren Gefechten während des osmanischen Vormarschs 1592 zusammen mit Bihać. Danach wird sie selten erwähnt und hatte eine kleinere Besatzung als das nahe Ripač; genutzt wurde sie vom 14. bis zum 19. Jahrhundert. 2008 wurde sie zum Nationaldenkmal erklärt, eine Bewertung von 2010 stufte ihren Zustand jedoch als schlecht ein. Gerade das macht den Ort romantisch und wild – Ruinen mit Blick über die Umgebung von Bihać. Der Besuch ist kurz; feste Schuhe tragen und Abstand zu instabilen Mauern halten. Am schönsten im Frühling und Herbst.",
+  "udaljenost_km": 5,
+  "voznja_min": 5,
+  "kako_doci_bs": "Iz Bihaća jugoistočno prema selu Sokolac, nekoliko kilometara.",
+  "kako_doci_en": "A few kilometres south-east of Bihać towards Sokolac village.",
+  "kako_doci_de": "Einige Kilometer südöstlich von Bihać Richtung Dorf Sokolac.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "1–2 sata",
+  "za_djecu": true,
+  "lat": 44.786,
+  "lng": 15.895,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Sokolac_(fortress_near_Biha%C4%87)"
+  ],
+  "provjeriti": "Pristup (put/staza do tvrđave) nije opisan u izvorima. Na Commonsu postoji kategorija 'Sokolac (Bihać)', ali konkretne datoteke nisu identifikovane. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "kostela-kostelski-buk",
+  "ime": "Kostela i Kostelski buk",
+  "kategorija": "priroda",
+  "kratko_bs": "Slap na Uni 9 km nizvodno od Bihaća, početak rafting dionice prema Salihovcu",
+  "opis_bs": "Kostela je naselje nizvodno od Bihaća, gdje Una preko stijena stvara Kostelski buk – slap poznat po bistroj vodi i zelenom, šumovitom okruženju. Oko devet kilometara od grada Una prolazi i pored hidroelektrane Kostela, izgrađene 1952. Područje je pogodno za šetnje i odmor u prirodi, a fotografi ga posebno vole u proljeće i ljeto, kada je protok vode najjači. Kostela je i polazište druge popularne rafting dionice na Uni: od Kostele do Salihovca, kraj puta Bihać – Bosanska Krupa, 12 kilometara i oko dva sata na vodi. Ova ruta važi za pogodnu za početnike i porodice s djecom, za razliku od zahtjevnije dionice ispod Štrbačkog buka. Uz slap postoji i hotel s restoranom, pa je Kostela dobar izbor za ručak uz šum vode na samom ulasku u kanjon Une prema Bosanskoj Krupi.",
+  "opis_en": "Kostela is a settlement downstream of Bihać where the Una tumbles over rocks to form Kostelski buk – a waterfall known for its clear water and green, wooded setting. About 9 km from town the river also passes the Kostela hydroelectric plant, built in 1952. The area is good for walks and relaxing in nature, and photographers like it most in spring and summer, when the flow is strongest. Kostela is also the start of the Una's second popular rafting section: Kostela to Salihovac, by the Bihać – Bosanska Krupa road, 12 km and around two hours on the water. Unlike the tougher stretch below Štrbački buk, this route suits beginners and families with children. There is a hotel with a restaurant by the falls, making Kostela a good lunch stop at the gateway to the Una canyon towards Bosanska Krupa.",
+  "opis_de": "Kostela ist ein Ort flussabwärts von Bihać, an dem die Una über Felsen den Kostelski buk bildet – einen Wasserfall mit klarem Wasser in grüner, bewaldeter Umgebung. Etwa 9 km von der Stadt passiert der Fluss auch das 1952 gebaute Wasserkraftwerk Kostela. Die Gegend eignet sich für Spaziergänge und Erholung; Fotografen schätzen sie besonders im Frühling und Sommer, wenn die Wasserführung am stärksten ist. Kostela ist zudem Startpunkt der zweiten beliebten Raftingstrecke: von Kostela bis Salihovac an der Straße Bihać – Bosanska Krupa, 12 km und rund zwei Stunden auf dem Wasser. Anders als die anspruchsvollere Strecke unterhalb des Štrbački buk ist sie für Anfänger und Familien mit Kindern geeignet. Am Wasserfall gibt es ein Hotel mit Restaurant – ein guter Mittagsstopp am Eingang zum Una-Canyon Richtung Bosanska Krupa.",
+  "udaljenost_km": 9,
+  "voznja_min": 10,
+  "kako_doci_bs": "Iz Bihaća putem prema Bosanskoj Krupi, nizvodno uz Unu, oko 8–9 km.",
+  "kako_doci_en": "From Bihać take the road towards Bosanska Krupa, downstream along the Una, about 8–9 km.",
+  "kako_doci_de": "Von Bihać auf der Straße Richtung Bosanska Krupa flussabwärts an der Una, etwa 8–9 km.",
+  "ulaznica": "Bez ulaznice za slap; rafting Kostela – Salihovac po cjenovniku agencije (Una Aquarius: uključuje vodiča, opremu, prevoz, osiguranje).",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "2–3 sata",
+  "za_djecu": true,
+  "lat": null,
+  "lng": null,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://visitbih.ba/en/kostelski-buk-an-unforgettable-experience-of-natural-beauty-and-peace/",
+   "https://en.wikipedia.org/wiki/Una_(Sava)",
+   "https://una-aquarius.com/rafting-on-una-river/",
+   "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/"
+  ],
+  "provjeriti": "Udaljenost 9 km odnosi se na HE Kostela (Wikipedia); hotel Kostelski buk je 8 km od centra prema chasingthedonkey.com. Koordinate nisu nađene. Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Koordinate nisu pronađene u otvorenim izvorima – dodati ručno (lat/lng = null). Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "kanjon-une-bihac-krupa",
+  "ime": "Kanjon Une (Bihać – Bosanska Krupa)",
+  "kategorija": "priroda",
+  "kratko_bs": "27 km dug i do 150 m dubok kanjon; cesta prati rijeku, rafting i vidikovci",
+  "opis_bs": "Između Bihaća i Bosanske Krupe Una prolazi kroz kanjon dug oko 27 kilometara i dubok oko 150 metara. Cesta prati rijeku cijelim tokom, pa je vožnja sama po sebi izlet: zelene strme padine, brzaci, mali otoci i povremena mjesta za zaustavljanje i kupanje. Na početku kanjona je Kostela sa svojim slapom, a nizvodno vodi popularna rafting dionica od Kostele do Salihovca, pogodna za početnike i porodice. Na kraju kanjona Una izlazi u Bosansku Krupu, gdje se razlijeva u kaskade i otočiće povezane mostovima. Kanjon je lijep tokom cijele godine – u proljeće zbog snažne vode, ljeti zbog kupanja i hlada, a u jesen zbog boja šume. Planirajte nekoliko kratkih stanica i ručak u Bosanskoj Krupi, pa se vratite istim putem ili nastavite prema Bužimu ili Bosanskoj Otoci.",
+  "opis_en": "Between Bihać and Bosanska Krupa the Una runs through a canyon about 27 km long and around 150 m deep. A road follows the river the whole way, so the drive is an outing in itself: steep green slopes, rapids, small islands and occasional spots to stop and swim. Kostela and its waterfall mark the start of the canyon, and the popular Kostela – Salihovac rafting section, suitable for beginners and families, runs downstream. At the end of the canyon the Una enters Bosanska Krupa, where it spreads into cascades and islets linked by bridges. The canyon is lovely all year – in spring for the powerful water, in summer for swimming and shade, in autumn for the forest colours. Plan a few short stops and lunch in Bosanska Krupa, then return the same way or continue towards Bužim or Bosanska Otoka.",
+  "opis_de": "Zwischen Bihać und Bosanska Krupa fließt die Una durch einen etwa 27 km langen und rund 150 m tiefen Canyon. Eine Straße folgt dem Fluss auf ganzer Länge, sodass schon die Fahrt ein Ausflug ist: steile grüne Hänge, Stromschnellen, kleine Inseln und immer wieder Stellen zum Anhalten und Baden. Kostela mit seinem Wasserfall markiert den Beginn des Canyons; flussabwärts verläuft die beliebte Raftingstrecke Kostela – Salihovac, geeignet für Anfänger und Familien. Am Ende tritt die Una in Bosanska Krupa aus, wo sie sich in Kaskaden und durch Brücken verbundene Inselchen verzweigt. Der Canyon ist das ganze Jahr schön – im Frühling wegen des kräftigen Wassers, im Sommer zum Baden, im Herbst wegen der Laubfarben. Einige kurze Stopps und ein Mittagessen in Bosanska Krupa einplanen, dann zurück oder weiter nach Bužim oder Bosanska Otoka.",
+  "udaljenost_km": 32,
+  "voznja_min": 40,
+  "kako_doci_bs": "Iz Bihaća putem prema Bosanskoj Krupi; cesta ide kanjonom uz Unu.",
+  "kako_doci_en": "From Bihać take the road to Bosanska Krupa; it runs through the canyon along the Una.",
+  "kako_doci_de": "Von Bihać auf der Straße nach Bosanska Krupa; sie führt durch den Canyon an der Una entlang.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 44.883,
+  "lng": 16.15,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/River_Una_in_Bosanska_Krupa.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/River_Una_in_Bosanska_Krupa.JPG/1280px-River_Una_in_Bosanska_Krupa.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:River_Una_in_Bosanska_Krupa.JPG",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Una_(Sava)",
+   "https://una-aquarius.com/rafting-on-una-river/"
+  ],
+  "provjeriti": "Koordinate su koordinate Bosanske Krupe (kraj kanjona); udaljenost se odnosi na Krupu. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "bihac-una-otoci",
+  "ime": "Una u Bihaću – otoci i šetnja uz rijeku",
+  "kategorija": "priroda",
+  "kratko_bs": "Gradski otoci, kaskade i kupališta na Uni usred Bihaća",
+  "opis_bs": "Una protiče kroz sam Bihać i stvara niz otoka i kaskada usred grada: Gradsku otoku, Ribićku otoku, otok Bakšaš i skupinu Jotanovih otoka. Neki su privatni, a drugi služe kao javna kupališta. Gradska brana \"Beton\" pri niskom vodostaju služi i kao šetnica i mjesto za kupanje. Šetnja uz Unu kroz centar najbolji je uvod u boravak u Bihaću: za sat-dva vidjet ćete rijeku koja je ovdje bistra i brza, a usput i Fethiju, Kapetanovu kulu i turbe, koji su svega nekoliko minuta od obale. Ljeti se ovdje kupa, ribari i odmara na travi, a predvečer su terase kafića uz vodu najljepše mjesto u gradu. Ova šetnja ne košta ništa, pogodna je za sve uzraste i savršena za prvi ili posljednji dan boravka. U proljeće je vode najviše i rijeka je najglasnija.",
+  "opis_en": "The Una flows right through Bihać, forming a string of islands and cascades in the middle of town: Gradska otoka, Ribićka otoka, Bakšaš island and the Jotanovi otoci group. Some are private, others serve as public bathing spots. The town dam known as \"Beton\" doubles as a walkway and a swimming spot when the water is low. A walk along the Una through the centre is the best introduction to Bihać: in an hour or two you'll see the clear, fast river and, on the way, the Fethija mosque, the Captain's Tower and the turbe, all a few minutes from the bank. In summer people swim, fish and relax on the grass, and in the evening the riverside café terraces are the nicest place in town. It's free, suits all ages and is perfect for your first or last day. In spring the river is at its fullest and loudest.",
+  "opis_de": "Die Una fließt mitten durch Bihać und bildet im Stadtzentrum eine Reihe von Inseln und Kaskaden: Gradska otoka, Ribićka otoka, die Insel Bakšaš und die Gruppe der Jotanovi otoci. Einige sind privat, andere dienen als öffentliche Badeplätze. Das Stadtwehr „Beton“ ist bei Niedrigwasser zugleich Promenade und Badestelle. Ein Spaziergang an der Una durchs Zentrum ist die beste Einführung in Bihać: In ein, zwei Stunden sehen Sie den klaren, schnellen Fluss und unterwegs die Fethija-Moschee, den Kapitänsturm und die Turbe, alle wenige Minuten vom Ufer. Im Sommer wird gebadet, geangelt und im Gras entspannt, abends sind die Café-Terrassen am Wasser der schönste Ort der Stadt. Kostenlos, für alle Altersgruppen und perfekt für den ersten oder letzten Tag. Im Frühling führt der Fluss am meisten Wasser.",
+  "udaljenost_km": 0,
+  "voznja_min": 0,
+  "kako_doci_bs": "U centru grada – pješice.",
+  "kako_doci_en": "In the town centre – on foot.",
+  "kako_doci_de": "Im Stadtzentrum – zu Fuß.",
+  "ulaznica": "Besplatno.",
+  "radno_vrijeme_sezona": "Cijele godine; kupanje ljeti.",
+  "trajanje": "1–2 sata",
+  "za_djecu": true,
+  "lat": 44.8147,
+  "lng": 15.8692,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Una_(Sava)",
+   "https://www.panacomp.net/bihac/"
+  ],
+  "provjeriti": "Lokacije pojedinih otoka i kupališta nisu precizno navedene u izvorima – označiti na karti lokalno. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "kapetanova-kula",
+  "ime": "Kapetanova kula i muzej",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Kamena kula u centru Bihaća s muzejom: od Japoda do Austro-Ugarske",
+  "opis_bs": "Kapetanova kula je kamena kula kvadratne osnove, oko 10 × 10 metara, u samom centru Bihaća, na lijevoj obali Une, unutar nekadašnjih gradskih zidina. Datum gradnje je sporan – jedni je smještaju u 13., drugi u početak 17. stoljeća – a kroz historiju je služila kao utvrda, zatvor u austrougarsko doba i zatočište u Drugom svjetskom ratu. Od 1972. je muzej, a posljednja obnova završena je 2021. godine. Stalne postavke pokrivaju period od prahistorije do Austro-Ugarske: prvi sprat posvećen je duhovnoj i materijalnoj kulturi Japoda, drugi antičkim gradovima Unsko-sanskog kantona, a na četvrtom je rekonstruisana kapetanova divanhana iz osmanskog perioda. Kula je dio kompleksa s tornjem crkve sv. Ante i turbetom, a u blizini je i Fethija. Muzej je otvoren šest dana u sedmici – idealan za kišni dan ili kao uvod prije izleta u Ripač i NP Una.",
+  "opis_en": "The Captain's Tower (Kapetanova kula) is a square stone tower, about 10 × 10 m, in the heart of Bihać on the left bank of the Una, within the former town walls. Its construction date is disputed – some place it in the 13th century, others in the early 17th – and over the centuries it has served as a fortification, an Austro-Hungarian prison and a detention centre in the Second World War. It has been a museum since 1972, last restored in 2021. Permanent exhibitions run from prehistory to the Austro-Hungarian era: the first floor covers the spiritual and material culture of the Iapydes, the second the ancient towns of Una-Sana Canton, and the fourth recreates the Ottoman captain's divanhana (reception room). The tower forms a complex with the St Anthony church tower and the turbe, with Fethija nearby. Open six days a week – ideal for a rainy day or as an introduction before visiting Ripač and Una National Park.",
+  "opis_de": "Der Kapitänsturm (Kapetanova kula) ist ein quadratischer Steinturm von etwa 10 × 10 m im Herzen von Bihać am linken Una-Ufer, innerhalb der einstigen Stadtmauern. Sein Baujahr ist umstritten – manche datieren ihn ins 13., andere ins frühe 17. Jahrhundert. Er diente als Befestigung, als Gefängnis zur Zeit Österreich-Ungarns und als Haftort im Zweiten Weltkrieg. Seit 1972 ist er Museum, zuletzt 2021 renoviert. Die Dauerausstellungen reichen von der Vorgeschichte bis zur k.u.k.-Zeit: Im ersten Stock geht es um die geistige und materielle Kultur der Japoden, im zweiten um die antiken Städte des Kantons Una-Sana, im vierten ist die Divanhana (Empfangsraum) des osmanischen Kapitäns nachgebaut. Der Turm bildet ein Ensemble mit dem Turm der Antoniuskirche und der Turbe, die Fethija liegt nahebei. Sechs Tage pro Woche geöffnet – ideal an Regentagen oder als Einstimmung auf Ripač und den Nationalpark.",
+  "udaljenost_km": 0,
+  "voznja_min": 0,
+  "kako_doci_bs": "Centar Bihaća, ulica Gazi Husrev-begova, lijeva obala Une – pješice.",
+  "kako_doci_en": "Bihać centre, Gazi Husrev-begova street, left bank of the Una – on foot.",
+  "kako_doci_de": "Zentrum von Bihać, Straße Gazi Husrev-begova, linkes Una-Ufer – zu Fuß.",
+  "ulaznica": "Cijena ulaznice nije pronađena.",
+  "radno_vrijeme_sezona": "Otvoreno šest dana u sedmici (dani i sati nisu navedeni).",
+  "trajanje": "1 sat",
+  "za_djecu": true,
+  "lat": 44.8134,
+  "lng": 15.8699,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Biha%C4%87_%E2%80%93_Kapetanova_kula.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Biha%C4%87_%E2%80%93_Kapetanova_kula.jpg/1280px-Biha%C4%87_%E2%80%93_Kapetanova_kula.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Biha%C4%87_%E2%80%93_Kapetanova_kula.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Bihac_Captains_Tower.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bihac_Captains_Tower.jpg/1280px-Bihac_Captains_Tower.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Bihac_Captains_Tower.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://lll.ba/kapetanova-kula-in-bihac",
+   "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/",
+   "https://www.panacomp.net/bihac/",
+   "https://en.wikipedia.org/wiki/Biha%c4%87"
+  ],
+  "provjeriti": "Koordinate su preuzete od obližnje Fethije (isti kompleks u centru) – precizirati. Ulaznica i tačno radno vrijeme muzeja nisu nađeni. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "fethija-dzamija",
+  "ime": "Fethija džamija",
+  "kategorija": "vjerski objekti",
+  "kratko_bs": "Gotička crkva iz 1266., od 1592. džamija – najstarija gotička građevina u BiH",
+  "opis_bs": "Fethija je jedna od najneobičnijih džamija u Bosni i Hercegovini. Sagrađena je 1266. kao katolička crkva posvećena svetom Anti Padovanskom, u sklopu dominikanskog samostana, i smatra se najstarijom gotičkom građevinom u zemlji. Nakon osmanskog osvajanja Bihaća 1592. pretvorena je u džamiju i u toj funkciji je i danas. Gotički zvonik služio je kao munara sve do 1863., kada je zbog dotrajalosti zamijenjen novom. U Drugom svjetskom ratu izgorjeli su krov i drveni dijelovi unutrašnjosti, a nakon rata počeli su konzervatorski radovi. Zgrada je duga oko 22 i široka 11,5 metara, zidana kamenom i bihacitom. Već sama fasada s gotičkim prozorima i portalom priča priču o smjeni carstava na Uni. Džamija je aktivna, pa posjetu uskladite s vremenima namaza i poštujte pravila oblačenja.",
+  "opis_en": "Fethija is one of the most unusual mosques in Bosnia and Herzegovina. It was built in 1266 as a Catholic church dedicated to St Anthony of Padua, part of a Dominican monastery, and is considered the oldest Gothic building in the country. After the Ottoman conquest of Bihać in 1592 it was converted into a mosque, which it remains today. The Gothic bell tower served as the minaret until 1863, when it was replaced because of its poor condition. In the Second World War the roof and wooden interior burned, and conservation work began after the war. The building is about 22 m long and 11.5 m wide, built of stone and bihacite. The façade, with its Gothic windows and portal, tells the story of empires changing along the Una. It is an active mosque, so time your visit around prayer times and dress modestly.",
+  "opis_de": "Die Fethija gehört zu den ungewöhnlichsten Moscheen Bosnien und Herzegowinas. Sie wurde 1266 als katholische Kirche des heiligen Antonius von Padua innerhalb eines Dominikanerklosters errichtet und gilt als ältestes gotisches Bauwerk des Landes. Nach der osmanischen Eroberung von Bihać 1592 wurde sie zur Moschee umgewandelt und ist es bis heute. Der gotische Glockenturm diente bis 1863 als Minarett und wurde dann wegen Baufälligkeit ersetzt. Im Zweiten Weltkrieg brannten Dach und Holzinnenraum ab; nach dem Krieg begannen Restaurierungsarbeiten. Das Gebäude ist rund 22 m lang und 11,5 m breit, aus Stein und Bihacit errichtet. Schon die Fassade mit gotischen Fenstern und Portal erzählt vom Wechsel der Reiche an der Una. Die Moschee ist in Betrieb – Besuch an die Gebetszeiten anpassen und angemessene Kleidung tragen.",
+  "udaljenost_km": 0,
+  "voznja_min": 0,
+  "kako_doci_bs": "Centar Bihaća, uz Kapetanovu kulu – pješice.",
+  "kako_doci_en": "Bihać centre, next to the Captain's Tower – on foot.",
+  "kako_doci_de": "Zentrum von Bihać, neben dem Kapitänsturm – zu Fuß.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "30 min",
+  "za_djecu": true,
+  "lat": 44.8134,
+  "lng": 15.8699,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Biha%C4%87_%E2%80%93_Fethija_d%C5%BEamija_1.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Biha%C4%87_%E2%80%93_Fethija_d%C5%BEamija_1.jpg/1280px-Biha%C4%87_%E2%80%93_Fethija_d%C5%BEamija_1.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Biha%C4%87_%E2%80%93_Fethija_d%C5%BEamija_1.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Biha%C4%87_%E2%80%93_Fethija_d%C5%BEamija_2.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Biha%C4%87_%E2%80%93_Fethija_d%C5%BEamija_2.jpg/1280px-Biha%C4%87_%E2%80%93_Fethija_d%C5%BEamija_2.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Biha%C4%87_%E2%80%93_Fethija_d%C5%BEamija_2.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/BiHac_Fethija_mosque.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/BiHac_Fethija_mosque.JPG/1280px-BiHac_Fethija_mosque.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:BiHac_Fethija_mosque.JPG",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Fethija_Mosque_(Biha%C4%87)",
+   "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/",
+   "https://www.panacomp.net/bihac/"
+  ],
+  "provjeriti": "Vrijeme posjeta za turiste nije navedeno. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "crkva-sv-ante-zvonik",
+  "ime": "Ruševine crkve sv. Ante i zvonik",
+  "kategorija": "vjerski objekti",
+  "kratko_bs": "Ostaci nekad jedne od najvećih katoličkih crkava u Bihaću, uz Kapetanovu kulu",
+  "opis_bs": "U centru Bihaća, uz Kapetanovu kulu i turbe, stoje ostaci crkve svetog Ante Padovanskog – nekada jednog od najvećih katoličkih bogomolja u gradu, uz koje je bilo i groblje bihaćkih plemića. Danas je najuočljiviji njen visoki zvonik, koji s kulom i turbetom čini prepoznatljiv spomenički kompleks na lijevoj obali Une. Ovu crkvu ne treba miješati s Fethijom, srednjovjekovnom gotičkom crkvom sv. Ante koja je 1592. pretvorena u džamiju. Ruševine su posebno fotogenične predvečer, a kontrast kamena zvonika i zelenila uz rijeku izvrstan je motiv. Mjesto je u šetnji od nekoliko minuta od svih drugih znamenitosti centra, pa ga vrijedi uključiti u obilazak starog dijela grada uz Kapetanovu kulu i muzej. Ulaz nije potreban – zvonik se razgleda izvana, a uz njega su klupe i hlad drveća.",
+  "opis_en": "In central Bihać, next to the Captain's Tower and the turbe, stand the remains of the Church of St Anthony of Padua – once one of the largest Catholic places of worship in town, with a graveyard of Bihać nobility. Today its tall bell tower is the most striking part, forming with the tower and the turbe a recognisable monument complex on the left bank of the Una. Don't confuse it with Fethija, the medieval Gothic church of St Anthony converted into a mosque in 1592. The ruins are especially photogenic in the evening, and the contrast between the stone tower and the riverside greenery makes a great subject. It is a few minutes' walk from all the other sights in the centre, so include it in a stroll through the old town with the Captain's Tower museum.",
+  "opis_de": "Im Zentrum von Bihać, neben dem Kapitänsturm und der Turbe, stehen die Reste der Kirche des heiligen Antonius von Padua – einst eines der größten katholischen Gotteshäuser der Stadt, mit einem Friedhof des Bihaćer Adels. Am auffälligsten ist heute der hohe Glockenturm, der mit Kapitänsturm und Turbe ein markantes Denkmal-Ensemble am linken Una-Ufer bildet. Nicht zu verwechseln mit der Fethija, der mittelalterlichen gotischen Antoniuskirche, die 1592 zur Moschee wurde. Die Ruinen sind abends besonders fotogen; der Kontrast zwischen Steinturm und dem Grün am Fluss ist ein schönes Motiv. Nur wenige Gehminuten von allen anderen Sehenswürdigkeiten entfernt – ideal für einen Altstadtbummel mit dem Museum im Kapitänsturm. Ein Eintritt ist nicht nötig – der Glockenturm wird von außen besichtigt; daneben gibt es Bänke im Schatten der Bäume, und alle anderen Sehenswürdigkeiten der Altstadt liegen in Gehweite.",
+  "udaljenost_km": 0,
+  "voznja_min": 0,
+  "kako_doci_bs": "Centar Bihaća, uz Kapetanovu kulu – pješice.",
+  "kako_doci_en": "Bihać centre, next to the Captain's Tower – on foot.",
+  "kako_doci_de": "Zentrum von Bihać, neben dem Kapitänsturm – zu Fuß.",
+  "ulaznica": "Besplatno (izvana).",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "15–30 min",
+  "za_djecu": true,
+  "lat": 44.8134,
+  "lng": 15.8699,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://www.panacomp.net/bihac/",
+   "https://en.wikipedia.org/wiki/Biha%c4%87"
+  ],
+  "provjeriti": "Godine gradnje i rušenja crkve NISU potvrđene u otvorenim izvorima (tourismbih.com je blokirao pristup) – dopuniti. Koordinate uzete od Fethije. Na Commonsu postoji kategorija 'St. Anthony Church (Bihać)' – odabrati slike ručno. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "turbe-bihac",
+  "ime": "Turbe u Bihaću",
+  "kategorija": "vjerski objekti",
+  "kratko_bs": "Osmougaono turbe palim braniocima Bihaća iz 1878., nacionalni spomenik",
+  "opis_bs": "Bihaćko turbe je mali, ali vrlo upečatljiv spomenik u centru grada, uz Kapetanovu kulu i zvonik crkve sv. Ante. Podignuto je u čast branilaca Bihaća poginulih 1878. u borbama protiv austrougarske vojske. Današnje kameno turbe sagradila je austrougarska vlast o svom trošku, na mjestu ranijeg drvenog, iako neki izvori njegov nastanak vežu za osmanski period. Ima osmougaonu osnovu sa zidovima dužine 2,6 metara, nadsvođeno je kupolom pokrivenom pocinčanim limom, a fasada je obložena bihacitom. Unutra su dva drvena sanduka sa sarkofazima i nišanima ukrašenim motivom upletene trake, bez natpisa. Turbe je proglašeno nacionalnim spomenikom Bosne i Hercegovine. Okruženo je drvećem i starim kamenim zidovima, pa je ugodno mjesto za kratak predah tokom šetnje centrom. Turbe se razgleda izvana, bez ulaznice, i lako se uklapa u šetnju između Fethije i Kapetanove kule.",
+  "opis_en": "Bihać's turbe is a small but striking monument in the town centre, next to the Captain's Tower and the St Anthony bell tower. It honours the defenders of Bihać who fell fighting Austro-Hungarian troops in 1878. The present stone turbe was built by the Austro-Hungarian authorities at their own expense, replacing an earlier wooden one, though some sources date it to the Ottoman period. It has an octagonal plan with 2.6 m walls, a dome covered in galvanised sheet metal and a façade clad in bihacite. Inside are two wooden coffins with sarcophagi and nišan tombstones decorated with a twisted-ribbon motif, without inscriptions. The turbe is a National Monument of Bosnia and Herzegovina. Surrounded by trees and old stone walls, it is a pleasant spot for a short pause on a walk through the centre.",
+  "opis_de": "Die Turbe von Bihać ist ein kleines, aber eindrucksvolles Denkmal im Stadtzentrum neben dem Kapitänsturm und dem Turm der Antoniuskirche. Sie ehrt die Verteidiger von Bihać, die 1878 im Kampf gegen österreichisch-ungarische Truppen fielen. Die heutige Steinturbe ließ die k.u.k.-Verwaltung auf eigene Kosten anstelle einer früheren Holzturbe errichten, wobei manche Quellen sie in osmanische Zeit datieren. Sie hat einen achteckigen Grundriss mit 2,6 m langen Wänden, eine mit verzinktem Blech gedeckte Kuppel und eine Fassade aus Bihacit. Im Inneren stehen zwei Holzsärge mit Sarkophagen und Nišan-Grabsteinen mit geflochtenem Bandornament, ohne Inschriften. Die Turbe ist Nationaldenkmal von Bosnien und Herzegowina. Umgeben von Bäumen und alten Steinmauern, ein angenehmer Ort für eine kurze Pause beim Stadtbummel. Die Turbe wird von außen besichtigt, ohne Eintritt, und passt gut in einen Spaziergang zwischen Fethija und Kapitänsturm.",
+  "udaljenost_km": 0,
+  "voznja_min": 0,
+  "kako_doci_bs": "Centar Bihaća, uz Kapetanovu kulu – pješice.",
+  "kako_doci_en": "Bihać centre, next to the Captain's Tower – on foot.",
+  "kako_doci_de": "Zentrum von Bihać, neben dem Kapitänsturm – zu Fuß.",
+  "ulaznica": "Besplatno (izvana).",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "15 min",
+  "za_djecu": true,
+  "lat": 44.8134,
+  "lng": 15.8699,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Turbe_Mausoleum_(Biha%C4%87)",
+   "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/",
+   "https://www.panacomp.net/bihac/"
+  ],
+  "provjeriti": "Koordinate uzete od Fethije (isti kompleks). Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "ostrozac",
+  "ime": "Dvorac Ostrožac",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Srednjovjekovna utvrda obnovljena kao dvorac 1900–1906, park skulptura od bihacita",
+  "opis_bs": "Ostrožac je jedan od najfotogeničnijih dvoraca u Bosni i Hercegovini, smješten u istoimenom selu na rubu Cazina, iznad doline Une. Utvrda potiče iz 13. stoljeća, kada je pripadala hrvatskim velikašima Babonićima, a Osmanlije su je zauzele 1592. Današnji romantični izgled dobila je između 1900. i 1906., kada ju je tadašnji gradonačelnik Bihaća Lothar von Berks obnovio kao rođendanski poklon supruzi iz porodice Habsburg. U dvorištu se nalazi park skulptura: više od 150 monumentalnih djela isklesanih u bihacitu, nastalih na dugogodišnjoj Koloniji kipara Ostrožac. Godine 2013. dvorac je proglašen nacionalnim spomenikom. Unutrašnjost je uglavnom školjka i obnova napreduje sporo, ali pogledi s bedema i dvorište sa skulpturama vrijede izleta. Ljeti se ovdje održavaju koncerti i priredbe. Kombinujte s Cazinom ili ručkom u Ostrošcu.",
+  "opis_en": "Ostrožac is one of the most photogenic castles in Bosnia and Herzegovina, set in the village of the same name on the edge of Cazin, above the Una valley. The fortress dates from the 13th century, when it belonged to the Croatian noble Babonić family, and the Ottomans captured it in 1592. Its romantic look comes from 1900–1906, when Bihać's mayor Lothar von Berks rebuilt it as a birthday present for his wife, a member of the Habsburg family. The courtyard is an open-air sculpture park: more than 150 monumental works carved from bihacite stone at the long-running Ostrožac Sculptors' Colony. The castle was declared a national monument in 2013. The interior is largely a shell and restoration is slow, but the views from the walls and the sculpture courtyard are well worth the trip. Concerts and events are held here in summer. Combine it with Cazin or lunch in Ostrožac.",
+  "opis_de": "Ostrožac zählt zu den fotogensten Burgen Bosnien und Herzegowinas und liegt im gleichnamigen Dorf am Rand von Cazin über dem Una-Tal. Die Festung stammt aus dem 13. Jahrhundert, als sie der kroatischen Adelsfamilie Babonić gehörte; 1592 eroberten sie die Osmanen. Ihr romantisches Aussehen erhielt sie 1900–1906, als der Bürgermeister von Bihać, Lothar von Berks, sie als Geburtstagsgeschenk für seine Frau aus dem Hause Habsburg umbauen ließ. Im Hof liegt ein Skulpturenpark: über 150 monumentale Werke aus Bihacit-Stein, entstanden in der langjährigen Bildhauerkolonie Ostrožac. 2013 wurde die Burg zum Nationaldenkmal erklärt. Das Innere ist größtenteils eine Hülle und die Restaurierung schreitet langsam voran, doch die Aussicht von den Mauern und der Skulpturenhof lohnen den Ausflug. Im Sommer finden Konzerte und Veranstaltungen statt. Gut mit Cazin oder einem Mittagessen in Ostrožac kombinierbar.",
+  "udaljenost_km": 15,
+  "voznja_min": 20,
+  "kako_doci_bs": "Iz Bihaća prema Cazinu, zatim skretanje za Ostrožac na Uni.",
+  "kako_doci_en": "From Bihać drive towards Cazin, then turn off for Ostrožac na Uni.",
+  "kako_doci_de": "Von Bihać Richtung Cazin, dann Abzweig nach Ostrožac na Uni.",
+  "ulaznica": "Nije navedena.",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "1–2 sata",
+  "za_djecu": true,
+  "lat": 44.904,
+  "lng": 15.937,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Utvrda_Ostrozac01.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Utvrda_Ostrozac01.JPG/1280px-Utvrda_Ostrozac01.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Utvrda_Ostrozac01.JPG",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Ostro%C5%BEac_Castle",
+   "https://www.johnbills.com/una-sana/cazin"
+  ],
+  "provjeriti": "Kontakt prema johnbills.com: +387 62 642 767. Ruta je opisna – provjeriti na karti. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "cazin",
+  "ime": "Cazin – stari grad i čaršija",
+  "kategorija": "gradovi u okolici",
+  "kratko_bs": "Tvrđava iz 16. st. iznad grada, gradska džamija i tradicionalne kuće",
+  "opis_bs": "Cazin je živahan grad sjeverno od Bihaća i središte Cazinske krajine. Iznad centra se uzdiže stari grad, tvrđava iz 16. stoljeća do koje vodi strm uspon, a unutar njenih zidina je Gradska džamija, za koju se smatra da je podignuta na mjestu stare crkve. U gradu se može vidjeti i kuća Ibre Alagića, tradicionalna dvospratnica stotinjak metara od tvrđave, te kuća Nurije Pozderca iz 1820. Gradska biblioteka počela je kao čitaonica 1931., a ispred nje je bista Nurije Pozderca. Centar za kulturu i turizam organizuje predstave i književne večeri. Cazin je dobra baza za obilazak dvorca Ostrožac, Šturlića i Pećigrada, a na putu prema Velikoj Kladuši, u Donjoj Lučkoj, nalaze se nišani Kajtezovića – 16 nišana visokih skoro tri metra s početka 20. stoljeća. Za uspon na tvrđavu računajte na strmu stazu i ponesite vodu.",
+  "opis_en": "Cazin is a lively town north of Bihać and the centre of the Cazinska krajina region. Above the centre rises the old town, a 16th-century fortress reached by a steep climb, and within its walls stands the Town Mosque, thought to have been built on the site of an old church. In town you can also see the Ibro Alagić House, a traditional two-storey home about 100 m from the fortress, and the Nurija Pozderac House from 1820. The town library began as a reading room in 1931, with a bust of Nurija Pozderac outside. The Centre for Culture and Tourism hosts shows and readings. Cazin is a good base for Ostrožac castle, Šturlić and Pećigrad, and on the road to Velika Kladuša, in Donja Lučka, are the Kajtezović tombstones – 16 nišans almost 3 m tall from the early 20th century. The climb to the fortress is steep, so bring water.",
+  "opis_de": "Cazin ist eine lebhafte Stadt nördlich von Bihać und Zentrum der Region Cazinska krajina. Über dem Zentrum erhebt sich die Altstadt, eine Festung aus dem 16. Jahrhundert, zu der ein steiler Aufstieg führt; innerhalb der Mauern steht die Stadtmoschee, die vermutlich an der Stelle einer alten Kirche errichtet wurde. Sehenswert sind auch das Haus von Ibro Alagić, ein traditionelles zweistöckiges Haus etwa 100 m von der Festung, und das Haus von Nurija Pozderac von 1820. Die Stadtbibliothek begann 1931 als Lesesaal, davor steht eine Büste von Nurija Pozderac. Das Kultur- und Tourismuszentrum veranstaltet Aufführungen und Lesungen. Cazin ist eine gute Basis für Burg Ostrožac, Šturlić und Pećigrad; an der Straße nach Velika Kladuša, in Donja Lučka, stehen die Kajtezović-Grabsteine – 16 fast 3 m hohe Nišane aus dem frühen 20. Jahrhundert. Der Aufstieg zur Festung ist steil, Wasser mitnehmen.",
+  "udaljenost_km": 24,
+  "voznja_min": 30,
+  "kako_doci_bs": "Iz Bihaća magistralnim putem prema sjeveru, prema Cazinu.",
+  "kako_doci_en": "From Bihać take the main road north to Cazin.",
+  "kako_doci_de": "Von Bihać auf der Hauptstraße nach Norden Richtung Cazin.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "Centar za kulturu i turizam Cazin: +387 37 539 069.",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 44.967,
+  "lng": 15.933,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://www.johnbills.com/una-sana/cazin",
+   "https://en.wikipedia.org/wiki/Cazin"
+  ],
+  "provjeriti": "Gradska džamija bila je u obnovi kada je autor johnbills.com posjetio – provjeriti stanje. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "sturlic",
+  "ime": "Šturlić",
+  "kategorija": "gradovi u okolici",
+  "kratko_bs": "Selo na krajnjem zapadu Cazina, na brdu iznad Korane uz granicu s Hrvatskom",
+  "opis_bs": "Šturlić je selo na krajnjem zapadu općine Cazin, smješteno na brdu iznad rijeke Korane, uz samu granicu s Hrvatskom. Prema popisu iz 2013. imalo je oko 2.450 stanovnika. Kraj je poznat po mirnom seoskom pejzažu Cazinske krajine i pogledu na dolinu Korane, a lokalni turistički vodiči ističu ga kao jedan od izleta u okolici Cazina. Šturlić je dobar cilj za vožnju sporednim putevima kroz brežuljke, uz kombinaciju s Pećigradom ili dvorcem Ostrožac istog dana. Ako tražite autentičan seoski ambijent, domaću hranu i tišinu, ovo je pravi pravac. Prije polaska provjerite lokalno koje su znamenitosti trenutno uređene i otvorene za posjetioce. Uz Koranu je kraj miran i zelen, a vožnja kroz brežuljkasta sela Cazinske krajine sama je po sebi lijep doživljaj. Računajte na uske lokalne puteve i vozite polako.",
+  "opis_en": "Šturlić is a village in the far west of Cazin municipality, set on a hill above the Korana river right by the Croatian border. The 2013 census counted around 2,450 residents. The area is known for the quiet rural landscape of Cazinska krajina and views over the Korana valley, and local heritage guides list it among the excursions around Cazin. It makes a good goal for a drive along back roads through the hills, combined with Pećigrad or Ostrožac castle on the same day. If you're after authentic village atmosphere, home cooking and peace, this is the direction to take. Check locally before you go which sights are currently open to visitors. Along the Korana the area is calm and green, and the drive through the hilly villages of Cazinska krajina is an experience in itself. Expect narrow local roads and drive slowly.",
+  "opis_de": "Šturlić ist ein Dorf im äußersten Westen der Gemeinde Cazin, auf einem Hügel über der Korana direkt an der kroatischen Grenze. Laut Volkszählung 2013 lebten hier rund 2.450 Menschen. Die Gegend ist bekannt für die ruhige ländliche Landschaft der Cazinska krajina und den Blick ins Korana-Tal; lokale Kulturführer nennen sie als Ausflugsziel rund um Cazin. Ein schönes Ziel für eine Fahrt über Nebenstraßen durch die Hügel, kombinierbar mit Pećigrad oder Burg Ostrožac am selben Tag. Wer authentische Dorfatmosphäre, Hausmannskost und Ruhe sucht, ist hier richtig. Vor der Fahrt vor Ort erfragen, welche Sehenswürdigkeiten aktuell zugänglich sind. Entlang der Korana ist die Gegend ruhig und grün, und schon die Fahrt durch die hügeligen Dörfer der Cazinska krajina ist ein Erlebnis. Mit schmalen Nebenstraßen rechnen und langsam fahren.",
+  "udaljenost_km": 39,
+  "voznja_min": 45,
+  "kako_doci_bs": "Iz Bihaća prema Cazinu, zatim zapadno prema granici i Korani.",
+  "kako_doci_en": "From Bihać towards Cazin, then west towards the border and the Korana.",
+  "kako_doci_de": "Von Bihać Richtung Cazin, dann westlich zur Grenze und zur Korana.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 45.06389,
+  "lng": 15.77806,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/%C5%A0turli%C4%87",
+   "https://www.kulturnonaslijedjeusk.com/files/Cazin/Pecigrad.pdf"
+  ],
+  "provjeriti": "Izvori ne potvrđuju konkretne atrakcije (slapove/mlinice/stari grad) u Šturliću – dopuniti iz lokalnog izvora (npr. kulturnonaslijedjeusk.com). Udaljenost od 27 km iz PDF-a nije jasno na šta se odnosi. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "pecigrad",
+  "ime": "Pećigrad – stari grad",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Tvrđava bana Ivana Tuza iz 1470. s osmanskim 'novim gradom' iz 1786.",
+  "opis_bs": "Pećigrad je srednjovjekovna tvrđava u Cazinskoj krajini koju je 1470. podigao ban Ivan Tuz. Njegovi sinovi prodali su je braći Šubić Peranskim, a 1519. prešla je u ruke Jurčeca Gusića. Nakon što su Osmanlije zarobile Gusićevog sina, njegova udovica je 1520. posinila krupskog kaštelana Mihajla Turka, pa se grad neko vrijeme zvao Peći Mihajla Turka. Posada je smanjena i grad napušten 1577., a od 1635. ovdje je mala osmanska granična posada. Početkom 18. stoljeća Pećigrad je bio veća pogranična tvrđava s topovima i oko 250 vojnika. Godine 1786. kapetan Ostrošca Bešir-beg Beširević podigao je, po naredbi bosanskog vezira, novi grad uz srednjovjekovni, koji je djelimično očuvan. Pećigrad je zanimljiv za ljubitelje historije i lako se uklapa u izlet Cazin – Ostrožac ili na putu prema Velikoj Kladuši.",
+  "opis_en": "Pećigrad is a medieval fortress in Cazinska krajina built in 1470 by Ban Ivan Tuz. His sons sold it to the Šubić Peranski brothers, and in 1519 it passed to Jurčec Gusić. After the Ottomans captured Gusić's son, his widow adopted the Krupa castellan Mihajlo Turk in 1520, and for a time the town was known as Peći Mihajla Turka. The garrison was reduced and the town abandoned in 1577; from 1635 a small Ottoman border garrison was stationed here. By the early 18th century Pećigrad was a larger border fortress with cannons and about 250 soldiers. In 1786 Bešir-beg Beširević, captain of Ostrožac, built a new town next to the medieval one on the Bosnian vizier's orders, and it is partly preserved. Pećigrad will appeal to history lovers and fits easily into a Cazin – Ostrožac trip or a drive towards Velika Kladuša.",
+  "opis_de": "Pećigrad ist eine mittelalterliche Festung in der Cazinska krajina, 1470 von Ban Ivan Tuz erbaut. Seine Söhne verkauften sie an die Brüder Šubić Peranski, 1519 ging sie an Jurčec Gusić. Nachdem die Osmanen Gusićs Sohn gefangen genommen hatten, adoptierte seine Witwe 1520 den Kastellan von Krupa, Mihajlo Turk; eine Zeit lang hieß der Ort daher Peći Mihajla Turka. 1577 wurde die Besatzung verkleinert und die Burg aufgegeben, ab 1635 lag hier eine kleine osmanische Grenzbesatzung. Anfang des 18. Jahrhunderts war Pećigrad eine größere Grenzfestung mit Kanonen und rund 250 Soldaten. 1786 ließ Bešir-beg Beširević, Kapitän von Ostrožac, auf Befehl des bosnischen Wesirs neben der mittelalterlichen eine neue Burg errichten, die teilweise erhalten ist. Für Geschichtsfreunde interessant und gut mit Cazin – Ostrožac oder der Fahrt nach Velika Kladuša kombinierbar.",
+  "udaljenost_km": null,
+  "voznja_min": null,
+  "kako_doci_bs": "Iz Cazina prema sjeveru (put prema Velikoj Kladuši).",
+  "kako_doci_en": "From Cazin head north (road towards Velika Kladuša).",
+  "kako_doci_de": "Von Cazin nach Norden (Straße Richtung Velika Kladuša).",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "1–2 sata",
+  "za_djecu": false,
+  "lat": null,
+  "lng": null,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://www.kulturnonaslijedjeusk.com/files/Cazin/Pecigrad.pdf",
+   "https://www.johnbills.com/una-sana/cazin"
+  ],
+  "provjeriti": "Lokacija Pećigrada nije precizno navedena u izvoru (johnbills ga spominje kao usputnu stanicu na putu prema Donjoj Lučkoj/Velikoj Kladuši). Pristup i stanje terena provjeriti. Koordinate nisu pronađene u otvorenim izvorima – dodati ručno (lat/lng = null). Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "buzim",
+  "ime": "Stari grad Bužim",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Renesansna tvrđava iz 14. st. s okruglim kulama, nacionalni spomenik",
+  "opis_bs": "Stari grad Bužim dominira istoimenim gradićem na sjeverozapadu Bosne i Hercegovine i bio je druga po veličini tvrđava Cazinske krajine, odmah nakon Bihaća. Bužim se prvi put spominje 1334., unutrašnji dio grada nastao je najkasnije u prvoj polovini 14. stoljeća, a tvrđava je proširena 1484. Godine 1494. kralj Vladislav II. dodijelio je grad Ivanu Kegleviću, a porodica Keglević je po njemu dobila ime. Osmanlije su Bužim zauzele 1576. i postavile posadu od 50 konjanika i 130 pješaka; kršćanske vojske su ga kasnije više puta osvajale, ali ga nisu zadržale. Starija unutrašnja tvrđava je kvadratna s okruglim kulama na uglovima, a kasnije su dodani vanjski zidovi s poligonalnim kulama, pa se navodi kao primjer renesansne fortifikacije. Zidovi su visoki 5–8 m. Tvrđava i obližnja stara džamija su nacionalni spomenici. Pogled s bedema na Bužim je sjajan.",
+  "opis_en": "Bužim old town dominates the small town of the same name in north-western Bosnia and Herzegovina and was once the second-largest fortress of Cazinska krajina after Bihać. Bužim is first mentioned in 1334, the inner fort was built no later than the first half of the 14th century and the fortress was enlarged in 1484. In 1494 King Vladislaus II granted it to Ivan Keglević, and the Keglević family took its name from it. The Ottomans took Bužim in 1576 and stationed 50 horsemen and 130 infantry there; Christian armies later captured it several times but could not hold it. The older inner fort is square with round corner towers, later surrounded by outer walls with polygonal towers, and it is cited as an example of Renaissance fortification. The walls stand 5–8 m high. The fortress and a nearby old mosque are national monuments. The view of Bužim from the ramparts is superb.",
+  "opis_de": "Die Altstadt Bužim beherrscht den gleichnamigen Ort im Nordwesten Bosnien und Herzegowinas und war einst nach Bihać die zweitgrößte Festung der Cazinska krajina. Bužim wird 1334 erstmals erwähnt, die innere Burg entstand spätestens in der ersten Hälfte des 14. Jahrhunderts, 1484 wurde sie erweitert. 1494 verlieh König Wladislaw II. sie Ivan Keglević; die Familie Keglević erhielt danach ihren Namen. 1576 nahmen die Osmanen Bužim ein und stationierten 50 Reiter und 130 Fußsoldaten; christliche Heere eroberten die Burg später mehrmals, konnten sie aber nicht halten. Die ältere innere Burg ist quadratisch mit runden Ecktürmen, später kamen Außenmauern mit polygonalen Türmen hinzu – ein Beispiel für Renaissance-Festungsbau. Die Mauern sind 5–8 m hoch. Festung und eine nahe alte Moschee sind Nationaldenkmäler. Der Blick von den Mauern über Bužim ist großartig.",
+  "udaljenost_km": null,
+  "voznja_min": null,
+  "kako_doci_bs": "Iz Bihaća prema Cazinu, zatim dalje sjeverno prema Bužimu; alternativno preko Bosanske Krupe.",
+  "kako_doci_en": "From Bihać drive to Cazin and continue north to Bužim; alternatively via Bosanska Krupa.",
+  "kako_doci_de": "Von Bihać nach Cazin und weiter nördlich nach Bužim; alternativ über Bosanska Krupa.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": null,
+  "lng": null,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Buzim_Castle_seen_from_Buzim,_Bosnia-Herzegovina.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buzim_Castle_seen_from_Buzim,_Bosnia-Herzegovina.JPG/1280px-Buzim_Castle_seen_from_Buzim,_Bosnia-Herzegovina.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Buzim_Castle_seen_from_Buzim,_Bosnia-Herzegovina.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Buzim_Castle,_Bosnia-Herzegovina.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Buzim_Castle,_Bosnia-Herzegovina.JPG/1280px-Buzim_Castle,_Bosnia-Herzegovina.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Buzim_Castle,_Bosnia-Herzegovina.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Pogled_na_Bu%C5%BEim_sa_starog_grada_(29._4._2017._-_14-15).jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Pogled_na_Bu%C5%BEim_sa_starog_grada_(29._4._2017._-_14-15).jpg/1280px-Pogled_na_Bu%C5%BEim_sa_starog_grada_(29._4._2017._-_14-15).jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Pogled_na_Bu%C5%BEim_sa_starog_grada_(29._4._2017._-_14-15).jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Bu%C5%BEim_Fort",
+   "https://en.wikipedia.org/wiki/Buzim",
+   "https://www.johnbills.com/una-sana/bosanska-krupa"
+  ],
+  "provjeriti": "Ruta je opisna (Bužim graniči s Cazinom na jugu i Bosanskom Krupom na istoku prema Wikipediji). Ime Ivan Keglević ovdje je bosanski oblik imena 'Johannes Keglewyth' iz izvora. Koordinate nisu pronađene u otvorenim izvorima – dodati ručno (lat/lng = null). Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "bosanska-krupa",
+  "ime": "Bosanska Krupa – Una, otoci i tvrđava",
+  "kategorija": "gradovi u okolici",
+  "kratko_bs": "Una izlazi iz kanjona u kaskade i otoke s mostovima; tvrđava iz 13. st. iznad čaršije",
+  "opis_bs": "Bosanska Krupa je gradić na Uni, oko 27 kilometara kanjonom nizvodno od Bihaća. Ovdje rijeka izlazi iz kanjona i razlijeva se u kaskade i male otoke povezane mostovima – prizor zbog kojeg se Krupa često naziva jednim od najljepših gradova na Uni. U centru je park Zeleni otoci s klupama i kafićima, a iznad čaršije, na stjenovitom brežuljku, ruševine su tvrđave iz 13. stoljeća koju su Osmanlije zauzele u 16. stoljeću i oko nje razvile grad. Pogled s tvrđave na rijeku i kuće na stubovima glavni je razlog dolaska. U gradu su i spomenik četvorici mještana stradalih na Titanicu, pravoslavni hram, katolička crkva i gradska džamija. Krušnica se ulijeva u Unu nizvodno od grada, a njeno vrelo udaljeno je oko 6 km. Izlet je odličan za pola dana, s ručkom uz vodu.",
+  "opis_en": "Bosanska Krupa is a small town on the Una, about 27 km downstream of Bihać through the canyon. Here the river leaves the canyon and spreads into cascades and small islands linked by bridges – a scene that makes Krupa one of the prettiest towns on the Una. In the centre is the Zeleni otoci (Green Islands) park with benches and cafés, and above the old bazaar, on a rocky hill, stand the ruins of a 13th-century fortress that the Ottomans took in the 16th century and built the town around. The view from the fortress over the river and houses on stilts is the main reason to come. The town also has a memorial to four local men lost on the Titanic, an Orthodox church, a Catholic church and the town mosque. The Krušnica joins the Una downstream, and its spring is about 6 km away. Ideal for half a day with lunch by the water.",
+  "opis_de": "Bosanska Krupa ist eine Kleinstadt an der Una, etwa 27 km flussabwärts von Bihać durch den Canyon. Hier verlässt der Fluss den Canyon und verzweigt sich in Kaskaden und kleine, durch Brücken verbundene Inseln – ein Bild, das Krupa zu einer der schönsten Städte an der Una macht. Im Zentrum liegt der Park Zeleni otoci (Grüne Inseln) mit Bänken und Cafés; über der Čaršija stehen auf einem Felshügel die Ruinen einer Festung aus dem 13. Jahrhundert, die die Osmanen im 16. Jahrhundert einnahmen und um die sie die Stadt bauten. Der Blick von der Festung auf Fluss und Pfahlhäuser ist der Hauptgrund für den Besuch. Es gibt auch ein Denkmal für vier Einheimische, die auf der Titanic starben, eine orthodoxe und eine katholische Kirche sowie die Stadtmoschee. Die Krušnica mündet flussabwärts in die Una, ihre Quelle liegt etwa 6 km entfernt. Ideal für einen halben Tag mit Mittagessen am Wasser.",
+  "udaljenost_km": 32,
+  "voznja_min": 40,
+  "kako_doci_bs": "Iz Bihaća cestom kroz kanjon Une prema Bosanskoj Krupi. Česti autobusi iz Bihaća.",
+  "kako_doci_en": "From Bihać take the road through the Una canyon to Bosanska Krupa. Frequent buses from Bihać.",
+  "kako_doci_de": "Von Bihać auf der Straße durch den Una-Canyon nach Bosanska Krupa. Häufige Busse ab Bihać.",
+  "ulaznica": "Bez ulaznice.",
+  "radno_vrijeme_sezona": "Kulturni centar: 7:30–16 h, vikendom zatvoreno (johnbills.com).",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 44.883,
+  "lng": 16.15,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/River_Una_in_Bosanska_Krupa.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/River_Una_in_Bosanska_Krupa.JPG/1280px-River_Una_in_Bosanska_Krupa.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:River_Una_in_Bosanska_Krupa.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Bos.krupa.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bos.krupa.jpg/1280px-Bos.krupa.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Bos.krupa.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Bosanska_Krupa",
+   "https://johnbills.com/una-sana/bosanska-krupa",
+   "https://en.wikipedia.org/wiki/Una_(Sava)"
+  ],
+  "provjeriti": "'Krupa na Uni slapovi' iz zadatka: izvori ne potvrđuju zasebne slapove 'Krupe na Uni'; kaskade u samoj Bosanskoj Krupi opisane su ovdje. (Poznati 'Krupski slapovi' su Krupa na Vrbasu kod Banje Luke – daleko izvan 1,5 h.) 'Pecka' iz zadatka nije potvrđena kao lokalitet kod Krupe – izvori vode na Pecku kod Mrkonjić Grada (izvan radijusa); provjeriti s vlasnikom šta se mislilo. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "vrelo-krusnice",
+  "ime": "Vrelo Krušnice",
+  "kategorija": "priroda",
+  "kratko_bs": "Krško vrelo rijeke Krušnice u šumi kod Bosanske Krupe, slapovi i hlad",
+  "opis_bs": "Vrelo Krušnice je veliko krško vrelo koje daje život rijeci Krušnici, a nalazi se između sela Gudavac i Vranjska u općini Bosanska Krupa. Rijeka izvire iz stijene i odmah se razlijeva kroz gustu šumu, brzace i male slapove, pa je okolina vrela jedno od najomiljenijih izletišta u Krajini – posebno ljeti, kada je hlad uz hladnu vodu pravo olakšanje. Krušnica je kratka rijeka koja se nizvodno od Bosanske Krupe ulijeva u Unu. Vrelo je udaljeno oko šest kilometara južno od centra Krupe; može se i pješice, ali je put strm, pa se preporučuje automobil ili taksi. Ponesite deku za piknik i obuću za mokre stijene. Najljepše je u proljeće, kada je izdašnost vrela najveća, i u rano ljeto. Izlet se odlično kombinuje s obilaskom Bosanske Krupe.",
+  "opis_en": "Vrelo Krušnice is a large karst spring that gives rise to the Krušnica river, located between the villages of Gudavac and Vranjska in Bosanska Krupa municipality. The river bursts from the rock and immediately spreads through dense forest, rapids and small waterfalls, making the spring one of the region's favourite picnic spots – especially in summer, when the shade by the cold water is a real relief. The Krušnica is a short river that joins the Una downstream of Bosanska Krupa. The spring is about 6 km south of central Krupa; you can walk, but the route is steep, so a car or taxi is recommended. Bring a picnic blanket and shoes for wet rocks. It is at its best in spring, when the flow is strongest, and in early summer. Combine it with a visit to Bosanska Krupa.",
+  "opis_de": "Vrelo Krušnice ist eine große Karstquelle, aus der die Krušnica entspringt, gelegen zwischen den Dörfern Gudavac und Vranjska in der Gemeinde Bosanska Krupa. Der Fluss tritt aus dem Fels und verteilt sich sofort über Stromschnellen und kleine Wasserfälle im dichten Wald – einer der beliebtesten Picknickplätze der Region, besonders im Sommer, wenn der Schatten am kalten Wasser eine Wohltat ist. Die Krušnica ist ein kurzer Fluss, der flussabwärts von Bosanska Krupa in die Una mündet. Die Quelle liegt etwa 6 km südlich des Zentrums von Krupa; zu Fuß ist es möglich, aber steil, daher besser mit Auto oder Taxi. Picknickdecke und Schuhe für nasse Steine mitnehmen. Am schönsten im Frühling, wenn die Schüttung am größten ist, und im Frühsommer. Gut mit Bosanska Krupa kombinierbar.",
+  "udaljenost_km": 32,
+  "voznja_min": 40,
+  "kako_doci_bs": "Do Bosanske Krupe (kanjonom Une), zatim oko 6 km južno do vrela.",
+  "kako_doci_en": "To Bosanska Krupa (through the Una canyon), then about 6 km south to the spring.",
+  "kako_doci_de": "Nach Bosanska Krupa (durch den Una-Canyon), dann etwa 6 km südlich zur Quelle.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 44.8445,
+  "lng": 16.1683,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Vrelo_Kru%C5%A1nice",
+   "https://johnbills.com/una-sana/bosanska-krupa",
+   "https://en.wikipedia.org/wiki/Una_(Sava)"
+  ],
+  "provjeriti": "Na Commonsu postoji kategorija 'Vrelo Krušnice' – odabrati slike ručno. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "bosanska-otoka",
+  "ime": "Bosanska Otoka",
+  "kategorija": "gradovi u okolici",
+  "kratko_bs": "Gradić na Uni s džamijom na otoku i munarom sa 153 stepenice",
+  "opis_bs": "Bosanska Otoka je gradić na Uni, oko 11 kilometara nizvodno od Bosanske Krupe. Ime je dobio po otocima koje rijeka ovdje stvara, a najpoznatiji prizor je Gradska džamija koja stoji na malom otoku usred Une; njena munara ima 153 stepenice. Kuće uz samu vodu i mirni rukavci daju mjestu slikovit izgled, posebno u kasno poslijepodne. Bosanska Otoka nije mjesto za cijeli dan, ali je odličan nastavak izleta u Bosansku Krupu – nakon ručka u Krupi produžite do Otoke, prošetajte uz rijeku i vratite se kanjonom Une u Bihać. Danju saobraćaju česti autobusi iz Krupe, pa se izlet može izvesti i bez automobila. Najljepši pogled na džamiju je s mosta i obale, a za kratku šetnju dovoljno je pola sata do sat. Mjesto je mirno i rijetko gužvovito, pa je ugodno i za porodice s djecom.",
+  "opis_en": "Bosanska Otoka is a small town on the Una about 11 km downstream of Bosanska Krupa. It takes its name from the islands the river forms here, and the best-known sight is the Town Mosque standing on a small island in the middle of the Una; its minaret has 153 steps. Houses right on the water and calm side channels make the place picturesque, especially in late afternoon. Otoka isn't a full-day destination, but it's a great extension to a Bosanska Krupa trip – after lunch in Krupa continue to Otoka, stroll along the river and return through the Una canyon to Bihać. Frequent daytime buses run from Krupa, so it's doable without a car. The best view of the mosque is from the bridge and riverbank, and half an hour to an hour is enough for a stroll. It is quiet and rarely crowded, pleasant for families.",
+  "opis_de": "Bosanska Otoka ist eine Kleinstadt an der Una, etwa 11 km flussabwärts von Bosanska Krupa. Ihren Namen verdankt sie den Inseln, die der Fluss hier bildet; bekanntestes Motiv ist die Stadtmoschee auf einer kleinen Insel mitten in der Una, deren Minarett 153 Stufen hat. Häuser direkt am Wasser und ruhige Seitenarme machen den Ort malerisch, besonders am späten Nachmittag. Kein Ziel für einen ganzen Tag, aber eine schöne Verlängerung des Ausflugs nach Bosanska Krupa – nach dem Mittagessen in Krupa weiter nach Otoka, am Fluss spazieren und durch den Una-Canyon zurück nach Bihać. Tagsüber fahren häufig Busse ab Krupa, also auch ohne Auto machbar. Den schönsten Blick auf die Moschee hat man von Brücke und Ufer; für einen Spaziergang genügen eine halbe bis eine Stunde. Ruhig und selten überlaufen, angenehm auch für Familien.",
+  "udaljenost_km": 38,
+  "voznja_min": 45,
+  "kako_doci_bs": "Iz Bihaća do Bosanske Krupe, pa još oko 11 km nizvodno uz Unu.",
+  "kako_doci_en": "From Bihać to Bosanska Krupa, then about 11 km further downstream along the Una.",
+  "kako_doci_de": "Von Bihać nach Bosanska Krupa, dann etwa 11 km weiter flussabwärts an der Una.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "1–2 sata",
+  "za_djecu": true,
+  "lat": null,
+  "lng": null,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Bosanska_Otoka_-_houses_at_the_river.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Bosanska_Otoka_-_houses_at_the_river.jpg/1280px-Bosanska_Otoka_-_houses_at_the_river.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Bosanska_Otoka_-_houses_at_the_river.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bosanska_Otoka,_Bosnia_and_Herzegovina.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Bosanska_Otoka,_Bosnia_and_Herzegovina.jpg/1280px-Bosanska_Otoka,_Bosnia_and_Herzegovina.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Bosanska_Otoka,_Bosnia_and_Herzegovina.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://johnbills.com/una-sana/bosanska-krupa"
+  ],
+  "provjeriti": "Udaljenost od Bihaća = ~27 km (kanjon) + 11 km, okvirno. Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Koordinate nisu pronađene u otvorenim izvorima – dodati ručno (lat/lng = null). Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "una-rafting",
+  "ime": "Rafting na Uni – polazišta",
+  "kategorija": "aktivnosti",
+  "kratko_bs": "Dvije glavne rute: Štrbački buk – Loskun/Lohovo (III–IV) i Kostela – Salihovac (porodična)",
+  "opis_bs": "Rafting je jedna od najpopularnijih aktivnosti u Bosni i Hercegovini, a Una je jedna od najljepših rijeka za njega. Postoje dvije glavne rute. Prva počinje ispod Štrbačkog buka i vodi kroz Nacionalni park Una prema Loskunu i Lohovu: oko 7,5 km, dva do dva i po sata na vodi, težine III–IV, a operateri je ne preporučuju djeci mlađoj od 12 godina i traže dobre plivače. Druga ruta kreće iz Kostele nizvodno od Bihaća i ide do Salihovca kraj puta za Bosansku Krupu: 12 km, također oko dva sata, i pogodna je za početnike i porodice. U parku su dozvoljene i dionice Martin Brod – Kulen Vakuf te Troslap – Dvoslap za kajak i kanu. Za sve aktivnosti u NP Una potreban je lokalni vodič, a park naplaćuje posebnu naknadu. Proljeće donosi višu i bržu vodu, dok je septembar mirniji – prema iskustvima gostiju.",
+  "opis_en": "Rafting is one of the most popular activities in Bosnia and Herzegovina, and the Una is among the finest rivers for it. There are two main routes. The first starts below Štrbački buk and runs through Una National Park towards Loskun and Lohovo: about 7.5 km, two to two and a half hours on the water, grade III–IV, not recommended by operators for children under 12 and best for confident swimmers. The second starts at Kostela downstream of Bihać and runs to Salihovac by the Bosanska Krupa road: 12 km, also about two hours, and suitable for beginners and families. Within the park, the Martin Brod – Kulen Vakuf and Troslap – Dvoslap sections are also open to kayaks and canoes. All activities in the park require a local guide, and the park charges a separate fee. Spring brings higher, faster water; September is calmer, according to guests.",
+  "opis_de": "Rafting gehört zu den beliebtesten Aktivitäten in Bosnien und Herzegowina, und die Una zählt zu den schönsten Flüssen dafür. Es gibt zwei Hauptrouten. Die erste beginnt unterhalb des Štrbački buk und führt durch den Nationalpark Una Richtung Loskun und Lohovo: rund 7,5 km, zwei bis zweieinhalb Stunden auf dem Wasser, Schwierigkeit III–IV, von Anbietern nicht für Kinder unter 12 empfohlen und für sichere Schwimmer gedacht. Die zweite startet in Kostela flussabwärts von Bihać und endet in Salihovac an der Straße nach Bosanska Krupa: 12 km, ebenfalls etwa zwei Stunden, geeignet für Anfänger und Familien. Im Park sind zudem die Abschnitte Martin Brod – Kulen Vakuf und Troslap – Dvoslap für Kajak und Kanu freigegeben. Alle Aktivitäten im Park erfordern einen lokalen Guide; der Park erhebt eine eigene Gebühr. Im Frühling ist das Wasser höher und schneller, im September ruhiger – laut Gästen.",
+  "udaljenost_km": 28,
+  "voznja_min": 35,
+  "kako_doci_bs": "Polazište 1: ispod Štrbačkog buka (prevoz organizuje agencija, baze kod Lohova/Loskuna). Polazište 2: Kostela, 8–9 km od Bihaća prema Bosanskoj Krupi.",
+  "kako_doci_en": "Start 1: below Štrbački buk (operators provide transfers; bases near Lohovo/Loskun). Start 2: Kostela, 8–9 km from Bihać towards Bosanska Krupa.",
+  "kako_doci_de": "Start 1: unterhalb des Štrbački buk (Transfer durch Anbieter; Basen bei Lohovo/Loskun). Start 2: Kostela, 8–9 km von Bihać Richtung Bosanska Krupa.",
+  "ulaznica": "Naknada NP Una 2026 (bez opreme): Štrbački buk – Lohovo 12 / 14 / 17 / 20 KM; Martin Brod – Kulen Vakuf 6 / 8 / 10 / 12 KM; Troslap – Dvoslap 5 / 6 / 7 / 8 KM (jan-feb-dec / mar-apr-nov / maj-jun-sep-okt / jul-avg). Cijena ture po cjenovniku agencije.",
+  "radno_vrijeme_sezona": "Ture svakodnevno za grupe od min. 4 osobe (Una Aquarius).",
+  "trajanje": "pola dana",
+  "za_djecu": false,
+  "lat": 44.657765,
+  "lng": 16.00467,
+  "web": "https://una-aquarius.com/rafting-on-una-river/",
+  "slike": [],
+  "izvori": [
+   "https://una-aquarius.com/rafting-on-una-river/",
+   "https://npuna.com/wp-content/uploads/2020/03/Cjenovnik-za-2026.god_.-ENG.pdf",
+   "https://npuna.com/en/lohovo",
+   "https://en.wikipedia.org/wiki/Una_(Sava)",
+   "https://johnbills.com/una-sana/una-national-park"
+  ],
+  "provjeriti": "Koordinate su koordinate Štrbačkog buka (polazište rute 1). 'za_djecu' = false zbog rute 1; ruta Kostela–Salihovac je porodična. Fotografije raftinga sa Commonsa uglavnom prikazuju ljude – dodati vlastite (s dozvolom). Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "ribolov-una",
+  "ime": "Ribolov na Uni i Uncu",
+  "kategorija": "aktivnosti",
+  "kratko_bs": "Mušičarenje u Martin Brodu i Kulen Vakufu (uhvati-i-pusti); pastrmka i lipljen",
+  "opis_bs": "Una i Unac spadaju među poznatija mušičarska područja Evrope, a glavne vrste su lipljen i potočna pastrmka; Una je poznata i po mladici, najvećoj ribi u rijeci. U Nacionalnom parku Una ribolov je dozvoljen samo u određenim revirima i uz pravila parka. Za 2026. godinu revir 1 Martin Brod (uključujući posebnu dionicu Unac) i revir 1B Kulen Vakuf rezervisani su za mušičarenje po principu uhvati-i-pusti, s jednim štapom i bez kontrakuke. Revir 1A Gečet je kombinovani: mušica od ponedjeljka do četvrtka, vaserkugla i spinning od petka do nedjelje. U revirima Klisa – Ćelije, Dvoslap i Očigrije dozvoljeni su vaserkugla i spinning samo vikendom, uz najviše dvije ribe dnevno. Svugdje su zabranjeni živi mamac, noćni ribolov i ribolov s čamaca ili mostova. Sezona u mušičarskim revirima traje od 1. maja do 31. oktobra.",
+  "opis_en": "The Una and Unac rank among Europe's well-known fly-fishing waters; grayling and brown trout are the main species, and the Una is also famous for huchen, the largest fish in the river. In Una National Park fishing is allowed only in designated zones under park rules. For 2026, zone 1 Martin Brod (including the special Unac section) and zone 1B Kulen Vakuf are reserved for catch-and-release fly fishing with a single rod and barbless hooks. Zone 1A Gečet is mixed: fly fishing Monday to Thursday, bubble float and spinning Friday to Sunday. In the Klisa – Ćelije, Dvoslap and Očigrije zones, bubble float and spinning are allowed at weekends only, with a maximum of two fish a day. Live bait, night fishing and fishing from boats or bridges are banned everywhere. The fly-zone season runs from 1 May to 31 October.",
+  "opis_de": "Una und Unac gehören zu den bekannteren Fliegenfischerrevieren Europas; Hauptarten sind Äsche und Bachforelle, und die Una ist zudem für den Huchen bekannt, den größten Fisch des Flusses. Im Nationalpark Una ist Angeln nur in ausgewiesenen Revieren nach Parkregeln erlaubt. 2026 sind Revier 1 Martin Brod (inkl. Sonderstrecke Unac) und Revier 1B Kulen Vakuf dem Fliegenfischen mit Fangen und Freilassen vorbehalten – eine Rute, Haken ohne Widerhaken. Revier 1A Gečet ist gemischt: Fliege Montag bis Donnerstag, Wasserkugel und Spinnfischen Freitag bis Sonntag. In den Revieren Klisa – Ćelije, Dvoslap und Očigrije sind Wasserkugel und Spinnfischen nur am Wochenende erlaubt, höchstens zwei Fische pro Tag. Lebendköder, Nachtangeln sowie Angeln von Booten oder Brücken sind überall verboten. Die Saison in den Fliegenrevieren läuft vom 1. Mai bis 31. Oktober.",
+  "udaljenost_km": 50,
+  "voznja_min": 60,
+  "kako_doci_bs": "Martin Brod (oko 50 km) i Kulen Vakuf – vidi te stavke.",
+  "kako_doci_en": "Martin Brod (about 50 km) and Kulen Vakuf – see those entries.",
+  "kako_doci_de": "Martin Brod (ca. 50 km) und Kulen Vakuf – siehe dort.",
+  "ulaznica": "Dnevne, 3-dnevne i 5-dnevne dozvole; iznosi su u cjenovniku NP Una 2026 (nisu izvučeni). Prodaja: info-tačka Kulen Vakuf (Unska bb), ulaz br. 5 Milančev buk (Martin Brod), Turistički info-centar Bihać (ul. 5. korpusa, preko puta pošte).",
+  "radno_vrijeme_sezona": "Mušičarski reviri 1. 5. – 31. 10.; Unac 1. 3. – 31. 10.; ribolov od 7 h (kraj 18, 19 ili 21 h ovisno o periodu).",
+  "trajanje": "cijeli dan",
+  "za_djecu": false,
+  "lat": 44.4888,
+  "lng": 16.1419,
+  "web": "https://npuna.com",
+  "slike": [],
+  "izvori": [
+   "https://npuna.com/wp-content/uploads/2020/03/RIBOLOV-ODLUKA-I-PRAVILA_2026_Ured-direktora.pdf",
+   "https://en.wikipedia.org/wiki/Una_(Sava)",
+   "https://flyfishinguna.blogspot.com/p/rivers.html"
+  ],
+  "provjeriti": "Cijene ribolovnih dozvola nisu bile u dostupnom dijelu cjenovnika – dopuniti. Koordinate = Martin Brod (revir 1). Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "biciklizam-una",
+  "ime": "Biciklizam: Bihać – NP Una – Kulen Vakuf",
+  "kategorija": "aktivnosti",
+  "kratko_bs": "Biciklističke rute dolinom Une; ulaz Ćukovi samo za bicikliste i pješake",
+  "opis_bs": "Dolina Une je izvrsna za biciklizam: rijeka, sela, slapovi i tvrđave nižu se jedno za drugim, a Nacionalni park Una ima ulaz Ćukovi (br. 2) namijenjen isključivo biciklistima i pješacima, odakle vodi oko 4,5 km do Štrbačkog buka i dalje prema Kulen Vakufu i Martin Brodu. Ljubitelji dužih tura voze rute poput Kulen Vakuf – Bihać ili Martin Brod – Kulen Vakuf, koje su objavljene na platformama za planiranje ruta, a jedna od popularnih je i vožnja od Bihaća do Plitvica – oko 39 km uz oko 600 m uspona. Kroz park prolazi i Via Dinarica Zelena staza. Bicikli se mogu iznajmiti u Lohovu. Za vruće ljetne dane krenite rano, ponesite dovoljno vode i rezervne dijelove, jer servisa na trasi praktično nema. Proljeće i rana jesen su idealni za vožnju.",
+  "opis_en": "The Una valley is superb for cycling: river, villages, waterfalls and fortresses follow one after another, and Una National Park has the Ćukovi entrance (no. 2) reserved for cyclists and walkers, from which it is about 4.5 km to Štrbački buk and on towards Kulen Vakuf and Martin Brod. For longer rides there are routes such as Kulen Vakuf – Bihać or Martin Brod – Kulen Vakuf, published on route-planning platforms, and a popular ride from Bihać to Plitvice – about 39 km with roughly 600 m of climbing. The Via Dinarica Green Trail also passes through the park. Bikes can be rented in Lohovo. On hot summer days start early, carry enough water and spares, as there are virtually no bike shops along the way. Spring and early autumn are ideal.",
+  "opis_de": "Das Una-Tal ist hervorragend zum Radfahren: Fluss, Dörfer, Wasserfälle und Burgen reihen sich aneinander, und der Nationalpark Una hat mit Ćukovi (Nr. 2) einen Eingang nur für Radfahrer und Fußgänger, von dem es etwa 4,5 km zum Štrbački buk und weiter Richtung Kulen Vakuf und Martin Brod sind. Für längere Touren gibt es Routen wie Kulen Vakuf – Bihać oder Martin Brod – Kulen Vakuf auf Routenplattformen, beliebt ist auch die Fahrt von Bihać zu den Plitvicer Seen – rund 39 km mit etwa 600 Höhenmetern. Auch der Via Dinarica Green Trail führt durch den Park. Fahrräder kann man in Lohovo leihen. An heißen Sommertagen früh starten, genug Wasser und Ersatzteile mitnehmen – Werkstätten gibt es unterwegs kaum. Frühling und Frühherbst sind ideal.",
+  "udaljenost_km": null,
+  "voznja_min": null,
+  "kako_doci_bs": "Start iz centra Bihaća; prema NP Una magistralom M-5 ili dolinom Une; ulaz Ćukovi za bicikliste.",
+  "kako_doci_en": "Start in central Bihać; head to Una NP via the M-5 or along the Una valley; use the Ćukovi entrance for bikes.",
+  "kako_doci_de": "Start im Zentrum von Bihać; zum Nationalpark über die M-5 oder das Una-Tal; Eingang Ćukovi für Räder.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "pola dana do cijeli dan",
+  "za_djecu": false,
+  "lat": null,
+  "lng": null,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://npuna.com/en/?p=6397",
+   "https://npuna.com/en/lohovo",
+   "https://getbybus.com/en/blog/?p=1251",
+   "https://www.bikemap.net/en/r/3987940",
+   "https://www.bikemap.net/en/r/3178755",
+   "https://www.bikemap.net/en/r/2910153",
+   "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/"
+  ],
+  "provjeriti": "'Una Bike Trail' kao imenovana, službeno označena ruta NIJE potvrđena u izvorima – pronađene su samo korisničke rute (bikemap, komoot). Provjeriti s TZ USK/NP Una prije korištenja tog naziva. Koordinate nisu primjenjive (ruta). Koordinate nisu pronađene u otvorenim izvorima – dodati ručno (lat/lng = null). Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "zeljava",
+  "ime": "Podzemni aerodrom Željava (Klek, Plješevica)",
+  "kategorija": "tvrđave i povijest",
+  "kratko_bs": "Napušteni jugoslovenski podzemni aerodrom na granici – minirano područje, samo uz oprez",
+  "opis_bs": "Željava je bivša vojna zračna baza ukopana u planinu Plješevicu, na samoj granici Hrvatske i Bosne i Hercegovine, nadomak Bihaća. Gradnja je počela 1948. i završena 1968., a SFRJ je u nju uložila oko šest milijardi dolara. Tuneli dugi ukupno oko 3,5 km imali su četiri ulaza zaštićena vratima od 100 tona, a unutra su bili smješteni avioni MiG-21. JNA je pri povlačenju razorila piste, a 1992. je dodatnih 56 tona eksploziva onesposobilo bazu. Danas je granica presijeca, a okolina je i dalje MINIRANA – 2000. godine poginuo je oficir koji je skupljao gljive. Ako idete, krećite se isključivo asfaltom, poštujte znakove upozorenja, ponesite jake lampe, čvrstu obuću i rukavice, i ne ulazite ispod oštećenih stropova. Granična policija vas može zaustaviti, pa ih unaprijed obavijestite. Najsigurnije je ići s iskusnim vodičem.",
+  "opis_en": "Željava is a former military air base dug into Plješevica mountain, right on the Croatia – Bosnia and Herzegovina border near Bihać. Construction began in 1948 and finished in 1968, costing Yugoslavia about 6 billion dollars. Tunnels totalling about 3.5 km had four entrances protected by 100-tonne doors and housed MiG-21 jets. The Yugoslav army wrecked the runways as it withdrew, and in 1992 a further 56 tonnes of explosives disabled the base. Today the border cuts through it and the surroundings are still MINED – in 2000 an officer was killed while picking mushrooms. If you go, stay strictly on the tarmac, obey warning signs, bring strong torches, sturdy boots and gloves, and never stand under damaged ceilings. Border police may stop you, so inform them in advance. The safest option is an experienced guide.",
+  "opis_de": "Željava ist ein ehemaliger Militärflugplatz, in den Berg Plješevica gegraben, direkt an der Grenze zwischen Kroatien und Bosnien und Herzegowina bei Bihać. Der Bau begann 1948 und endete 1968; Jugoslawien investierte rund 6 Milliarden Dollar. Tunnel von insgesamt etwa 3,5 km Länge hatten vier Eingänge mit 100-Tonnen-Toren und beherbergten MiG-21-Jets. Die Jugoslawische Volksarmee zerstörte beim Abzug die Pisten, 1992 legten weitere 56 Tonnen Sprengstoff die Basis lahm. Heute verläuft die Grenze mitten hindurch, und die Umgebung ist weiterhin VERMINT – im Jahr 2000 kam ein Offizier beim Pilzesammeln ums Leben. Wer hinfährt: nur auf dem Asphalt bleiben, Warnschilder beachten, starke Lampen, feste Schuhe und Handschuhe mitnehmen und nie unter beschädigten Decken stehen. Die Grenzpolizei kann kontrollieren, daher vorher informieren. Am sichersten mit erfahrenem Guide.",
+  "udaljenost_km": 12,
+  "voznja_min": 15,
+  "kako_doci_bs": "Pristup s hrvatske strane: iz Bihaća preko graničnog prelaza Izačić – Ličko Petrovo Selo, zatim cestom prema Novom Selu Koreničkom i selu Željava, pa dalje do ulaza u tunele. Obavijestiti graničnu policiju (preporučuje se na Izačiću). Ne skretati s asfalta.",
+  "kako_doci_en": "Access from the Croatian side: from Bihać via the Izačić – Ličko Petrovo Selo border crossing, then the road towards Novo Selo Koreničko and Željava village, on to the tunnel entrances. Inform border police (Izačić recommended). Never leave the tarmac.",
+  "kako_doci_de": "Zufahrt von kroatischer Seite: von Bihać über den Grenzübergang Izačić – Ličko Petrovo Selo, dann Richtung Novo Selo Koreničko und Dorf Željava bis zu den Tunneleingängen. Grenzpolizei informieren (Izačić empfohlen). Asphalt nie verlassen.",
+  "ulaznica": "Nema ulaznice; vođene ture se plaćaju (cijena iz 2018. zastarjela).",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "pola dana",
+  "za_djecu": false,
+  "lat": 44.8364,
+  "lng": 15.7581,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/%C5%BDeljava,_Entrance_2.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%C5%BDeljava,_Entrance_2.jpg/1280px-%C5%BDeljava,_Entrance_2.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:%C5%BDeljava,_Entrance_2.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/%C5%BDeljava,_Underground_1.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%C5%BDeljava,_Underground_1.jpg/1280px-%C5%BDeljava,_Underground_1.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:%C5%BDeljava,_Underground_1.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ent2_out.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ent2_out.jpg/1280px-Ent2_out.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Ent2_out.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/%C5%BDeljava_Air_Base",
+   "https://www.dark-tourism.com/index.php/1247-zeljava",
+   "https://en.wikipedia.org/wiki/Li%C4%8Dka_Plje%C5%A1ivica"
+  ],
+  "provjeriti": "VAŽNO: zona je pogranična i minirana; izvor za praktične savjete je iz 2018. – prije objave provjeriti trenutni status pristupa kod granične policije/MUP-a. Naziv 'Klek' iz zadatka (vrh/radarska stanica) nije potvrđen u otvorenim izvorima. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "pljesevica",
+  "ime": "Plješevica (Lička Plješivica)",
+  "kategorija": "priroda",
+  "kratko_bs": "Granična planina iznad Bihaća: Gola Plješevica 1.646 m, Ozeblin 1.657 m",
+  "opis_bs": "Plješevica, ili Lička Plješivica, planina je Dinarskog gorja na granici Hrvatske i Bosne i Hercegovine. Pruža se od sjeverozapada, nadomak Bihaća, prema jugoistoku, uz Krbavsko polje na hrvatskoj strani, sve do doline Une kod Ripča na bosanskoj strani. Najviši vrh je Ozeblin (1.657 m) u južnom dijelu, između Udbine i Donjeg Lapca, a u sjevernom dijelu, između Bihaća i Korenice, uzdiže se Gola Plješevica (1.646 m). U utrobi sjevernog dijela planine skriven je podzemni aerodrom Željava. S vrhova se pružaju pogledi na Bihać i dolinu Une s jedne i na Liku s druge strane. Zbog blizine granice i ostataka rata obavezno se krećite samo označenim stazama i putevima i informišite se lokalno o sigurnosti terena. Najbolje vrijeme za uspon su kasno proljeće i rana jesen.",
+  "opis_en": "Plješevica (Lička Plješivica) is a Dinaric mountain on the border between Croatia and Bosnia and Herzegovina. It runs from the north-west, close to Bihać, to the south-east, along the Krbava field on the Croatian side, down to the Una valley near Ripač on the Bosnian side. The highest peak is Ozeblin (1,657 m) in the south, between Udbina and Donji Lapac, while Gola Plješevica (1,646 m) rises in the north, between Bihać and Korenica. Hidden inside the northern part of the mountain is the Željava underground air base. The summits offer views over Bihać and the Una valley on one side and Lika on the other. Because of the border and war legacy, stay strictly on marked trails and roads and ask locally about safety. Late spring and early autumn are the best seasons for a climb.",
+  "opis_de": "Die Plješevica (Lička Plješivica) ist ein Berg des Dinarischen Gebirges an der Grenze zwischen Kroatien und Bosnien und Herzegowina. Sie zieht sich von Nordwesten nahe Bihać nach Südosten entlang des Krbava-Felds auf kroatischer Seite bis ins Una-Tal bei Ripač auf bosnischer Seite. Höchster Gipfel ist der Ozeblin (1.657 m) im Süden zwischen Udbina und Donji Lapac; im Norden zwischen Bihać und Korenica ragt die Gola Plješevica (1.646 m) auf. Im Inneren des Nordteils liegt der unterirdische Flugplatz Željava. Von den Gipfeln blickt man auf Bihać und das Una-Tal auf der einen und die Lika auf der anderen Seite. Wegen Grenznähe und Kriegsaltlasten unbedingt nur auf markierten Wegen bleiben und sich vor Ort über die Sicherheit informieren. Beste Zeit: später Frühling und Frühherbst.",
+  "udaljenost_km": 35,
+  "voznja_min": 40,
+  "kako_doci_bs": "Planina se uzdiže neposredno zapadno od Bihaća; pristupi s hrvatske strane (Korenica) ili iz okoline Bihaća – samo označenim putevima.",
+  "kako_doci_en": "The mountain rises just west of Bihać; access from the Croatian side (Korenica) or from around Bihać – marked routes only.",
+  "kako_doci_de": "Der Berg erhebt sich direkt westlich von Bihać; Zugang von kroatischer Seite (Korenica) oder aus der Umgebung von Bihać – nur markierte Wege.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "cijeli dan",
+  "za_djecu": false,
+  "lat": 44.5789,
+  "lng": 15.8758,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Licka_Pljesivica.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Licka_Pljesivica.jpg/1280px-Licka_Pljesivica.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Licka_Pljesivica.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Plje%C5%A1evica_-_pogled_iz_Korenice.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Plje%C5%A1evica_-_pogled_iz_Korenice.jpg/1280px-Plje%C5%A1evica_-_pogled_iz_Korenice.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Plje%C5%A1evica_-_pogled_iz_Korenice.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Li%C4%8Dka_Plje%C5%A1ivica",
+   "https://en.wikipedia.org/wiki/%C5%BDeljava_Air_Base"
+  ],
+  "provjeriti": "Koordinate su vrha Ozeblin (jug planine); Gola Plješevica, bliža Bihaću, nema koordinate u izvoru. Planinarske staze, polazišta i stanje miniranosti nisu potvrđeni – OBAVEZNO provjeriti kod planinarskog društva/HGSS-a prije objave konkretnih ruta. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "grmec",
+  "ime": "Planina Grmeč",
+  "kategorija": "priroda",
+  "kratko_bs": "Šumovita planina dugačka 60+ km između Bihaća i Ključa, vrh Crni vrh 1.605 m",
+  "opis_bs": "Grmeč je planina Dinarskog gorja u sjeverozapadnoj Bosni i Hercegovini, duga više od 60 kilometara, koja se pruža između Bihaća i Ključa. Najviši vrh je Crni vrh na 1.605 metara nadmorske visine. Planina se proteže preko područja Bihaća, Bosanskog Petrovca, Ključa, Sanskog Mosta i Bosanske Krupe, pa joj se može prići iz više pravaca. Grmeč je poznat po prostranim šumama, mirnim pašnjacima i čistom zraku, a ljubiteljima prirode nudi planinarenje, šetnje i bijeg od ljetnih vrućina u nizini. Za razliku od doline Une, ovdje nema gužve, pa je pogodan za one koji traže tišinu. Kako je teren velik, planirajte turu uz lokalno planinarsko društvo ili vodiča i ponesite kartu. Najbolje vrijeme su ljeto i rana jesen. Grmeč je od Bihaća udaljen oko sat vožnje, pa je pogodan za cjelodnevni izlet.",
+  "opis_en": "Grmeč is a Dinaric mountain in north-western Bosnia and Herzegovina, more than 60 km long, stretching between Bihać and Ključ. Its highest peak is Crni vrh at 1,605 m. The mountain spans the municipalities of Bihać, Bosanski Petrovac, Ključ, Sanski Most and Bosanska Krupa, so it can be approached from several directions. Grmeč is known for extensive forests, quiet pastures and clean air, offering hiking, walks and an escape from summer heat in the lowlands. Unlike the Una valley, there are no crowds here, so it suits those seeking peace. As the terrain is extensive, plan your hike with a local mountaineering club or guide and carry a map. Summer and early autumn are best. Grmeč is about an hour's drive from Bihać, so it suits a full-day trip.",
+  "opis_de": "Der Grmeč ist ein Berg des Dinarischen Gebirges im Nordwesten Bosnien und Herzegowinas, über 60 km lang, zwischen Bihać und Ključ. Höchster Gipfel ist der Crni vrh mit 1.605 m. Der Berg erstreckt sich über die Gemeinden Bihać, Bosanski Petrovac, Ključ, Sanski Most und Bosanska Krupa und ist daher aus mehreren Richtungen erreichbar. Der Grmeč ist bekannt für ausgedehnte Wälder, ruhige Weiden und saubere Luft und bietet Wanderungen, Spaziergänge und Abkühlung vom Sommer im Tiefland. Anders als im Una-Tal gibt es hier keinen Trubel – ideal für alle, die Ruhe suchen. Da das Gelände weitläufig ist, Touren mit einem lokalen Bergverein oder Guide planen und eine Karte mitnehmen. Beste Zeit: Sommer und Frühherbst. Der Grmeč liegt etwa eine Autostunde von Bihać entfernt und eignet sich für einen Tagesausflug.",
+  "udaljenost_km": 66,
+  "voznja_min": 80,
+  "kako_doci_bs": "Iz Bihaća prema Bosanskom Petrovcu (M-5) ili prema Bosanskoj Krupi; planina se uzdiže istočno od Bihaća.",
+  "kako_doci_en": "From Bihać towards Bosanski Petrovac (M-5) or Bosanska Krupa; the mountain rises east of Bihać.",
+  "kako_doci_de": "Von Bihać Richtung Bosanski Petrovac (M-5) oder Bosanska Krupa; der Berg erhebt sich östlich von Bihać.",
+  "ulaznica": "",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "cijeli dan",
+  "za_djecu": false,
+  "lat": 44.667,
+  "lng": 16.45,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/%D0%96%D0%B5%D1%99%D0%B5%D0%B7%D0%BD%D0%B8%D0%BA_(%D0%93%D1%80%D0%BC%D0%B5%D1%87).jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/%D0%96%D0%B5%D1%99%D0%B5%D0%B7%D0%BD%D0%B8%D0%BA_(%D0%93%D1%80%D0%BC%D0%B5%D1%87).jpg/1280px-%D0%96%D0%B5%D1%99%D0%B5%D0%B7%D0%BD%D0%B8%D0%BA_(%D0%93%D1%80%D0%BC%D0%B5%D1%87).jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:%D0%96%D0%B5%D1%99%D0%B5%D0%B7%D0%BD%D0%B8%D0%BA_(%D0%93%D1%80%D0%BC%D0%B5%D1%87).jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Grme%C4%8D"
+  ],
+  "provjeriti": "Koordinate su vrha Crni vrh. Rečenice o šumama i pašnjacima su opće i nisu iz izvora – provjeriti. Fotografija 'Željeznik (Grmeč)' – provjeriti da prikazuje planinu. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px. 'Oko sat vožnje' je procjena iz koordinata."
+ },
+ {
+  "slug": "plitvicka-jezera",
+  "ime": "Nacionalni park Plitvička jezera",
+  "kategorija": "Hrvatska (Plitvice i sl.)",
+  "kratko_bs": "UNESCO park sa 16 jezera i Velikim slapom od 78 m, preko granice kod Izačića",
+  "opis_bs": "Plitvička jezera su najpoznatiji nacionalni park Hrvatske i na UNESCO-voj listi svjetske baštine od 1979. Park površine oko 297 km² leži uz samu granicu s Bosnom i Hercegovinom, a Lička Plješivica na njegovoj istočnoj strani čini tu granicu. Šesnaest jezera vidljivih na površini povezano je sedrenim barijerama, slapovima i drvenim stazama, a najviši je Veliki slap visok 78 metara. Iz Bihaća se do Plitvica stiže za manje od sat vremena preko graničnog prelaza Izačić – Ličko Petrovo Selo, pa je ovo jedan od najpopularnijih jednodnevnih izleta za naše goste. Za 2026. ljetne ulaznice imaju nižu cijenu poslije 16 h (jun–avgust) odnosno 15 h (septembar), što je odlična prilika da izbjegnete gužve. Ulaznice se mogu kupiti online, a ako nisu rasprodane, i na ulazima. Ponesite pasoš ili ličnu kartu za granicu.",
+  "opis_en": "Plitvice Lakes is Croatia's best-known national park and has been a UNESCO World Heritage Site since 1979. Covering about 297 km², it lies right on the border with Bosnia and Herzegovina, with Lička Plješivica on its eastern side forming that border. Sixteen surface lakes are linked by travertine barriers, waterfalls and wooden boardwalks, and the highest fall, Veliki slap, is 78 m tall. From Bihać you can reach Plitvice in under an hour via the Izačić – Ličko Petrovo Selo border crossing, making it one of our guests' most popular day trips. In 2026 summer tickets are cheaper after 4 pm (June–August) and 3 pm (September) – a great way to avoid the crowds. Tickets can be bought online and, unless sold out, at the entrances. Bring your passport or ID card for the border.",
+  "opis_de": "Die Plitvicer Seen sind Kroatiens bekanntester Nationalpark und seit 1979 UNESCO-Welterbe. Der rund 297 km² große Park liegt direkt an der Grenze zu Bosnien und Herzegowina; die Lička Plješivica an seiner Ostseite bildet diese Grenze. Sechzehn sichtbare Seen sind durch Kalktuffbarrieren, Wasserfälle und Holzstege verbunden; der höchste Fall, der Veliki slap, misst 78 m. Von Bihać erreicht man Plitvice in weniger als einer Stunde über den Grenzübergang Izačić – Ličko Petrovo Selo – einer der beliebtesten Tagesausflüge unserer Gäste. 2026 sind Sommertickets nach 16 Uhr (Juni–August) bzw. 15 Uhr (September) günstiger – ideal, um Menschenmassen zu meiden. Tickets gibt es online und, sofern nicht ausverkauft, an den Eingängen. Reisepass oder Personalausweis für die Grenze nicht vergessen. Für den Besuch sollte man mindestens einen halben, besser einen ganzen Tag einplanen.",
+  "udaljenost_km": 39,
+  "voznja_min": 45,
+  "kako_doci_bs": "Iz Bihaća prema graničnom prelazu Izačić (BiH) – Ličko Petrovo Selo (HR), zatim prema Plitvicama. Biciklistička ruta Bihać – Plitvice na bikemap.net iznosi 39,4 km.",
+  "kako_doci_en": "From Bihać head to the Izačić (BiH) – Ličko Petrovo Selo (HR) border crossing, then on to Plitvice. A Bihać – Plitvice cycling route on bikemap.net measures 39.4 km.",
+  "kako_doci_de": "Von Bihać zum Grenzübergang Izačić (BiH) – Ličko Petrovo Selo (HR), dann weiter nach Plitvice. Eine Radroute Bihać – Plitvice auf bikemap.net misst 39,4 km.",
+  "ulaznica": "2026 (po osobi): odrasli 10 € (1. 1.–31. 3. i 1. 11.–31. 12.), 23 € (apr–maj, okt), 40 € / 25 € (jun–sep, niža cijena poslije 16 h u jun–avg, poslije 15 h u sep); djeca 7–18 god. 4 / 6 / 15 (9) €; djeca do 7 god. besplatno. Parking automobil 1,50 €/h (mar–maj, okt–nov) odnosno 2 €/h (jun–sep).",
+  "radno_vrijeme_sezona": "Otvoreno 365 dana. Trenutno objavljeno: ulazi 8–15 h, prodaja ulaznica do 13 h, parking 7–17 h (raspored se mijenja po sezoni).",
+  "trajanje": "cijeli dan",
+  "za_djecu": true,
+  "lat": 44.8806,
+  "lng": 15.6161,
+  "web": "https://np-plitvicka-jezera.hr",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg/1280px-Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Veliki_Slap_in_Plitvice_Lakes_National_Park_in_Croatia.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Plitvicka_jezera_veliki_slap.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Plitvicka_jezera_veliki_slap.jpg/1280px-Plitvicka_jezera_veliki_slap.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Plitvicka_jezera_veliki_slap.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Plitvice_lakes.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Plitvice_lakes.JPG/1280px-Plitvice_lakes.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Plitvice_lakes.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Plitvice_slapovi_NP06.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Plitvice_slapovi_NP06.jpg/1280px-Plitvice_slapovi_NP06.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Plitvice_slapovi_NP06.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park",
+   "https://np-plitvicka-jezera.hr/en/?p=2955",
+   "https://np-plitvicka-jezera.hr/en/plan-your-visit/istrazite-jezera/hours-of-operation/",
+   "https://www.bikemap.net/en/r/3987940",
+   "https://npuna.com/en/?p=6397",
+   "https://nakordoni.eu/en/bcp/izachich-izai-lichko-petrovo-selo-liko-petrovo-selo"
+  ],
+  "provjeriti": "Udaljenost 39 km preuzeta je s biciklističke rute (bikemap) kao približna cestovna; 'manje od sat vremena' je procjena. Objavljeno radno vrijeme vjerovatno je zimski raspored – ljeti provjeriti. Granični prelaz Izačić je u izvorima naveden (npuna.com, nakordoni.eu), ali stranica nakordoni nije otvarana. Vrijeme vožnje procijenjeno iz udaljenosti (50 km/h), nije iz izvora. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "rastoke-slunj",
+  "ime": "Rastoke i Slunj",
+  "kategorija": "Hrvatska (Plitvice i sl.)",
+  "kratko_bs": "'Male Plitvice': slapovi Slunjčice u Koranu i stari mlinovi, ~56 min od Bihaća",
+  "opis_bs": "Rastoke su dio grada Slunja u Hrvatskoj, gdje se rijeka Slunjčica razdvaja u brojne krakove i preko kaskada i slapića ulijeva u Koranu – zbog čega ih zovu i \"male Plitvice\". U donjem dijelu Rastoka ima 23 slapa, a najpoznatiji su Buk, Hrvoje i Vilina kosa. Mjesto je poznato po mlinovima na vodeni pogon: u najboljim danima radilo ih je do 22, a prvi potiče iz 17. stoljeća. Slunjčica je hladna – zimi oko 7 °C, ljeti do 16 °C – dok Korana ljeti dostiže i 28 °C, pa je kupanje u Korani pravi užitak. Iznad Rastoka je stari grad Slunj, frankopanska utvrda koja se spominje još u 12. stoljeću. U avgustu se održavaju Dani grada Slunja. Rastoke su odlična kombinacija s Plitvicama ili Baraćevim špiljama u istom danu.",
+  "opis_en": "Rastoke is part of the town of Slunj in Croatia, where the Slunjčica river splits into many branches and tumbles over cascades and small falls into the Korana – hence its nickname, \"little Plitvice\". The lower part of Rastoke has 23 waterfalls, the best known being Buk, Hrvoje and Vilina kosa. The village is famous for its water-powered mills: at its peak up to 22 were working, the first dating from the 17th century. The Slunjčica is cold – around 7 °C in winter and up to 16 °C in summer – while the Korana reaches about 28 °C in summer, so swimming in the Korana is a treat. Above Rastoke stands Slunj old town, a Frankopan fortress first mentioned in the 12th century. The Slunj Town Days festival takes place in August. Rastoke combines well with Plitvice or the Barać Caves on the same day.",
+  "opis_de": "Rastoke ist ein Ortsteil von Slunj in Kroatien, wo sich die Slunjčica in zahlreiche Arme teilt und über Kaskaden und kleine Fälle in die Korana stürzt – daher der Beiname „kleine Plitvicer Seen“. Im unteren Teil von Rastoke gibt es 23 Wasserfälle, am bekanntesten sind Buk, Hrvoje und Vilina kosa. Berühmt ist der Ort für seine Wassermühlen: In der Blütezeit liefen bis zu 22, die erste stammt aus dem 17. Jahrhundert. Die Slunjčica ist kalt – im Winter etwa 7 °C, im Sommer bis 16 °C –, die Korana erreicht im Sommer rund 28 °C, ideal zum Baden. Über Rastoke thront die Altstadt von Slunj, eine Frankopanen-Festung, die schon im 12. Jahrhundert erwähnt wird. Im August finden die Stadttage von Slunj statt. Rastoke lässt sich gut mit Plitvice oder den Barać-Höhlen kombinieren.",
+  "udaljenost_km": 50,
+  "voznja_min": 56,
+  "kako_doci_bs": "Iz Bihaća preko graničnog prelaza prema Hrvatskoj i dalje prema Slunju; rome2rio navodi 31,4 milje (≈50 km) i oko 56 minuta vožnje.",
+  "kako_doci_en": "From Bihać cross into Croatia and continue to Slunj; rome2rio gives 31.4 miles (≈50 km) and about 56 minutes' drive.",
+  "kako_doci_de": "Von Bihać über die Grenze nach Kroatien und weiter nach Slunj; rome2rio nennt 31,4 Meilen (≈50 km) und etwa 56 Minuten Fahrt.",
+  "ulaznica": "Cijena ulaza u Rastoke nije pronađena.",
+  "radno_vrijeme_sezona": "TIC Rastoke (Rastoke 2): pon–čet 9–16, pet–sub 10–16, ned zatvoreno; +385 99 735 9411.",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": 45.12126,
+  "lng": 15.58764,
+  "web": "https://slunj-rastoke.hr",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Slunj,_Rastoke,_waterfalls_of_the_Slunjcica_river.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Slunj,_Rastoke,_waterfalls_of_the_Slunjcica_river.JPG/1280px-Slunj,_Rastoke,_waterfalls_of_the_Slunjcica_river.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Slunj,_Rastoke,_waterfalls_of_the_Slunjcica_river.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Slunj,_Rastoke,_waterfalls_falling_into_Korana_river.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Slunj,_Rastoke,_waterfalls_falling_into_Korana_river.JPG/1280px-Slunj,_Rastoke,_waterfalls_falling_into_Korana_river.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Slunj,_Rastoke,_waterfalls_falling_into_Korana_river.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Rastoke_(2),_Slunj,_Croatia_(new).JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Rastoke_(2),_Slunj,_Croatia_(new).JPG/1280px-Rastoke_(2),_Slunj,_Croatia_(new).JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Rastoke_(2),_Slunj,_Croatia_(new).JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Rastoke_1126.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Rastoke_1126.JPG/1280px-Rastoke_1126.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Rastoke_1126.JPG",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Rastoke",
+   "https://en.wikipedia.org/wiki/Slunj",
+   "https://www.rome2rio.com/s/Bihać/Slunj",
+   "https://slunj-rastoke.hr/en/barac-caves/"
+  ],
+  "provjeriti": "Udaljenost/vrijeme odnose se na Slunj (rome2rio), ne tačno na Rastoke. Granični prelaz za ovu rutu nije naveden u izvoru. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "baraceve-spilje",
+  "ime": "Baraćeve špilje (Rakovica)",
+  "kategorija": "Hrvatska (Plitvice i sl.)",
+  "kratko_bs": "Špilje otvorene za posjetioce još 1892., vođene ture na 4 jezika, kod Rakovice",
+  "opis_bs": "Baraćeve špilje nalaze se kod sela Nova Kršlja, oko šest kilometara istočno od Rakovice, između Slunja i Plitvica u Hrvatskoj. Tri ulaza u špilje su na lokalitetu Baraćeve brine. Špilje su za posjetioce otvorene još 1892. godine, nakon Drugog svjetskog rata bile su napuštene i zaboravljene, a Gornja špilja ponovo je otvorena u julu 2004. Godine 2022. u Gornjoj Baraćevoj špilji pronađeni su neandertalski alati, što ovo mjesto čini zanimljivim i za ljubitelje prahistorije. Obilazak je vođen, uz predavanje od 45 do 60 minuta na hrvatskom, engleskom, njemačkom ili talijanskom. Unutra je svježe tokom cijele godine, pa ponesite jaknu i ljeti. Špilje su odličan plan za kišni dan i lako se spajaju s Rastokama i Plitvicama u jedan izlet. Preporučuje se čvrsta obuća.",
+  "opis_en": "The Barać Caves lie near the village of Nova Kršlja, about 6 km east of Rakovica, between Slunj and Plitvice in Croatia. The three cave entrances are at Baraćeve brine. The caves were opened to visitors as early as 1892, abandoned and forgotten after the Second World War, and the Upper Cave reopened in July 2004. In 2022 Neanderthal tools were found in the Upper Barać Cave, adding interest for prehistory fans. Visits are guided, with a 45–60-minute talk in Croatian, English, German or Italian. It is cool inside all year, so bring a jacket even in summer. The caves are a great rainy-day plan and combine easily with Rastoke and Plitvice in one trip. Plan around two hours including the drive between sites.",
+  "opis_de": "Die Barać-Höhlen liegen beim Dorf Nova Kršlja, etwa 6 km östlich von Rakovica zwischen Slunj und Plitvice in Kroatien. Die drei Höhleneingänge befinden sich bei Baraćeve brine. Schon 1892 wurden die Höhlen für Besucher geöffnet, nach dem Zweiten Weltkrieg verlassen und vergessen; die Obere Höhle wurde im Juli 2004 wiedereröffnet. 2022 fand man in der Oberen Barać-Höhle Neandertaler-Werkzeuge – spannend für Freunde der Vorgeschichte. Besichtigungen sind geführt, mit einem 45–60-minütigen Vortrag auf Kroatisch, Englisch, Deutsch oder Italienisch. Drinnen ist es ganzjährig kühl, daher auch im Sommer eine Jacke mitnehmen. Ideal bei Regen und gut mit Rastoke und Plitvice kombinierbar. Wer Plitvice besucht, kann die Höhlen gut auf dem Hin- oder Rückweg einplanen, da sie zwischen Slunj und den Seen liegen. Feste Schuhe sind empfehlenswert.",
+  "udaljenost_km": 30,
+  "voznja_min": 35,
+  "kako_doci_bs": "Iz Bihaća preko granice u Hrvatsku, prema Rakovici, pa 6 km istočno do Nove Kršlje.",
+  "kako_doci_en": "From Bihać cross into Croatia, drive to Rakovica, then 6 km east to Nova Kršlja.",
+  "kako_doci_de": "Von Bihać nach Kroatien, Richtung Rakovica, dann 6 km östlich nach Nova Kršlja.",
+  "ulaznica": "Cijena nije pronađena.",
+  "radno_vrijeme_sezona": "Radno vrijeme nije pronađeno (vidi baraceve-spilje.hr).",
+  "trajanje": "2 sata",
+  "za_djecu": true,
+  "lat": 44.98628,
+  "lng": 15.729,
+  "web": "https://baraceve-spilje.hr",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Baraceve_spilje_caves.JPG",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Baraceve_spilje_caves.JPG/1280px-Baraceve_spilje_caves.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Baraceve_spilje_caves.JPG",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Caves_of_Bara%C4%87",
+   "https://slunj-rastoke.hr/en/barac-caves/"
+  ],
+  "provjeriti": "Rečenica 'unutra je svježe tokom cijele godine' je opća, temperatura nije navedena u izvoru. Cijene i radno vrijeme provjeriti na baraceve-spilje.hr. Granični prelaz nije naveden. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ },
+ {
+  "slug": "vrelo-une",
+  "ime": "Vrelo Une (Donja Suvaja, Srb)",
+  "kategorija": "Hrvatska (Plitvice i sl.)",
+  "kratko_bs": "Tirkizni krški izvor Une, dubok preko 250 m, ulaz 3 € u sezoni",
+  "opis_bs": "Una izvire u Hrvatskoj, u selu Donja Suvaja kod Srba, svega nekoliko kilometara od granice s Bosnom i Hercegovinom. Vrelo Une je okruglo, mirno jezerce tirkizne i modrozelene boje, okruženo šumom i strmim liticama ispod Plješevice i Stražbenice. Ronioci su se spustili do gotovo 250 metara, a dno nisu pronašli – zato se smatra najdubljim krškim izvorom u Hrvatskoj i jednim od pet najdubljih izmjerenih riječnih izvora na svijetu. Dvadesetak metara nizvodno rijeka formira prvu sedrenu kaskadu. Vrelo je zaštićeni hidrološki spomenik prirode od 1968., a njime upravlja ustanova Natura Jadera. Od ulaza do izvora je lagana šetnja od oko 15 minuta. Voda ima samo 7–8 °C, pa kupanje nije dozvoljeno. Kanta za smeće nema – sve ponesite sa sobom. Ovo je duži izlet, ali za ljubitelje Une obavezan.",
+  "opis_en": "The Una rises in Croatia, in the village of Donja Suvaja near Srb, just a few kilometres from the Bosnian border. Vrelo Une is a round, still pool of turquoise and blue-green water, surrounded by forest and steep cliffs below Plješevica and Stražbenica. Divers have descended almost 250 m without finding the bottom, so it is considered Croatia's deepest karst spring and one of the five deepest measured river springs in the world. About 20 m downstream the river forms its first travertine cascade. The spring has been a protected natural monument since 1968 and is managed by Natura Jadera. From the entrance it is an easy 15-minute walk. The water is only 7–8 °C and swimming is not allowed. There are no bins – take all litter with you. It's a longer trip, but a must for anyone who loves the Una.",
+  "opis_de": "Die Una entspringt in Kroatien im Dorf Donja Suvaja bei Srb, nur wenige Kilometer von der bosnischen Grenze. Die Vrelo Une ist ein runder, stiller Quelltopf in Türkis und Blaugrün, umgeben von Wald und steilen Felsen unter Plješevica und Stražbenica. Taucher erreichten fast 250 m Tiefe, ohne den Grund zu finden – sie gilt als tiefste Karstquelle Kroatiens und eine der fünf tiefsten gemessenen Flussquellen der Welt. Etwa 20 m flussabwärts bildet der Fluss seine erste Kalktuffkaskade. Seit 1968 ist die Quelle geschütztes Naturdenkmal, verwaltet von Natura Jadera. Vom Eingang sind es rund 15 Minuten leichter Fußweg. Das Wasser hat nur 7–8 °C, Baden ist nicht erlaubt. Es gibt keine Mülleimer – allen Abfall mitnehmen. Ein längerer Ausflug, aber für Una-Liebhaber ein Muss.",
+  "udaljenost_km": null,
+  "voznja_min": null,
+  "kako_doci_bs": "Iz Bihaća preko granice u Hrvatsku prema Srbu i Donjoj Suvaji; od ulaza 15 min pješice.",
+  "kako_doci_en": "From Bihać cross into Croatia towards Srb and Donja Suvaja; 15 minutes' walk from the entrance.",
+  "kako_doci_de": "Von Bihać nach Kroatien Richtung Srb und Donja Suvaja; 15 Minuten Fußweg ab Eingang.",
+  "ulaznica": "3 € (podatak iz 2023.).",
+  "radno_vrijeme_sezona": "Otvoreno oko šest mjeseci godišnje, u ljetnoj sezoni.",
+  "trajanje": "pola dana",
+  "za_djecu": true,
+  "lat": null,
+  "lng": null,
+  "web": "",
+  "slike": [],
+  "izvori": [
+   "https://www.novilist.hr/?p=1048243",
+   "https://en.wikipedia.org/wiki/Una_(Sava)"
+  ],
+  "provjeriti": "Udaljenost i granični prelaz za ovu rutu nisu pronađeni u izvorima; vjerovatno >1 h vožnje – provjeriti na karti. Cijena je iz 2023. Koordinate nisu pronađene u otvorenim izvorima – dodati ručno (lat/lng = null). Nema pronađenih slobodnih fotografija – potrebna vlastita fotografija ili ručna pretraga Commonsa."
+ },
+ {
+  "slug": "drvar-titova-pecina",
+  "ime": "Drvar i Titova pećina",
+  "kategorija": "gradovi u okolici",
+  "kratko_bs": "Duži izlet: pećina štaba partizana i desant na Drvar 25. maja 1944.",
+  "opis_bs": "Drvar je gradić u zapadnoj Bosni, na putu između Bosanskog Grahova i Bosanskog Petrovca, na oko 480 m nadmorske visine. Najpoznatija znamenitost je Titova pećina: u brdima iznad grada tokom Drugog svjetskog rata bio je smješten Vrhovni štab partizana s Josipom Brozom Titom. Dana 25. maja 1944. njemačke snage izvele su na Drvar padobranski desant, operaciju \"Rösselsprung\", s ciljem da ubiju Tita. Danas pećinu, prema Wikipediji, godišnje posjeti oko 200.000 ljudi. U gradu su i spomen-kompleks borcima i civilima poginulim u ratu, završen u maju 1967., te ostaci rimskog putokaza iz oko 100. godine nove ere. Drvar je duži izlet iz Bihaća, pa ga je dobro spojiti s Martin Brodom i manastirom Rmanj u južnom dijelu NP Una. Izlet je zanimljiv ljubiteljima historije 20. stoljeća.",
+  "opis_en": "Drvar is a small town in western Bosnia on the road between Bosansko Grahovo and Bosanski Petrovac, at about 480 m above sea level. Its best-known sight is Tito's Cave: during the Second World War the Partisan Supreme Headquarters with Josip Broz Tito was based in the hills above town. On 25 May 1944 German forces launched an airborne raid on Drvar, Operation Rösselsprung, aiming to kill Tito. According to Wikipedia, about 200,000 people visit the cave each year. The town also has a memorial complex to fighters and civilians killed in the war, completed in May 1967, and a Roman road marker from around AD 100. Drvar is a longer trip from Bihać, and can be combined with Martin Brod and Rmanj Monastery in the south of Una National Park. It will appeal to anyone interested in 20th-century history.",
+  "opis_de": "Drvar ist eine Kleinstadt im Westen Bosniens an der Straße zwischen Bosansko Grahovo und Bosanski Petrovac, auf etwa 480 m Höhe. Bekannteste Sehenswürdigkeit ist die Tito-Höhle: Im Zweiten Weltkrieg befand sich in den Hügeln über der Stadt der Oberste Stab der Partisanen mit Josip Broz Tito. Am 25. Mai 1944 führten deutsche Truppen das Luftlandeunternehmen „Rösselsprung“ auf Drvar durch, um Tito zu töten. Laut Wikipedia besuchen jährlich rund 200.000 Menschen die Höhle. In der Stadt gibt es zudem eine Gedenkstätte für gefallene Kämpfer und Zivilisten, fertiggestellt im Mai 1967, und einen römischen Wegweiser aus der Zeit um 100 n. Chr. Drvar ist ein längerer Ausflug ab Bihać, gut kombinierbar mit Martin Brod und dem Kloster Rmanj im Süden des Nationalparks Una. Interessant für Freunde der Geschichte des 20. Jahrhunderts.",
+  "udaljenost_km": 86,
+  "voznja_min": 105,
+  "kako_doci_bs": "Iz Bihaća magistralom M-5 preko Bosanskog Petrovca do Drvara.",
+  "kako_doci_en": "From Bihać take the M-5 via Bosanski Petrovac to Drvar.",
+  "kako_doci_de": "Von Bihać über die M-5 via Bosanski Petrovac nach Drvar.",
+  "ulaznica": "Cijena nije pronađena.",
+  "radno_vrijeme_sezona": "",
+  "trajanje": "cijeli dan",
+  "za_djecu": true,
+  "lat": 44.37417,
+  "lng": 16.38444,
+  "web": "",
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Titova_pe%C4%87ina_-_Drvar.jpg",
+    "url_1280": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Titova_pe%C4%87ina_-_Drvar.jpg/1280px-Titova_pe%C4%87ina_-_Drvar.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Titova_pe%C4%87ina_-_Drvar.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
+  "izvori": [
+   "https://en.wikipedia.org/wiki/Drvar"
+  ],
+  "provjeriti": "Broj od 200.000 posjetilaca godišnje je s Wikipedije i djeluje pretjerano – provjeriti prije objave. Koordinate su grada Drvara, ne pećine. Ruta M-5 → Bosanski Petrovac → Drvar složena je iz Wikipedije (Drvar leži na putu Grahovo – Petrovac); provjeriti. Udaljenost vjerovatno prelazi 1,5 h vožnje. Udaljenost i vrijeme vožnje procijenjeni iz koordinata (zračna linija × 1,35; prosjek 50 km/h) – nisu iz izvora, provjeriti na karti. Fotografije: datoteke postoje na Wikimedia Commons (potvrđeno pretragom), ali stranice datoteka nisu bile dostupne alatu – licencu i autora upisati s 'izvor' stranice prije objave. 'url' je original (uvijek radi), 'url_1280' radi samo ako je original širi od 1280 px."
+ }
+]

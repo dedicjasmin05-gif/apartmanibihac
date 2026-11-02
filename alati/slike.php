@@ -24,13 +24,29 @@ foreach ($sve as $url => $info) {
     if ((isset($pokusaji[$url]) ? $pokusaji[$url] : 0) >= 2) { continue; }
     if ($ok + $greske >= $max || time() - $start > 50) { $ostalo++; continue; }
     list($ime, $izvor, $lic, $autor) = $info;
-    $tmp = download_url($url);
+    $dl = $url;
+    if (strpos($url, 'upload.wikimedia.org') !== false) {
+        // Wikimedia Commons: licenca, autor i verzija 1280 px iz API-ja
+        $fn = rawurldecode(basename(preg_replace('#/\d+px-[^/]+$#', '', preg_replace('#/thumb/#', '/', $url))));
+        $api = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1280&titles=' . rawurlencode('File:' . $fn);
+        $r = wp_remote_get($api);
+        $j = is_wp_error($r) ? null : json_decode(wp_remote_retrieve_body($r), true);
+        $pg = $j && !empty($j['query']['pages']) ? reset($j['query']['pages']) : null;
+        if (!$pg || empty($pg['imageinfo'][0])) { $pokusaji[$url] = 9; $greske++; echo 'NEMA NA COMMONS ' . $fn . PHP_EOL; continue; }
+        $ii = $pg['imageinfo'][0];
+        $dl = !empty($ii['thumburl']) ? $ii['thumburl'] : $ii['url'];
+        $m = isset($ii['extmetadata']) ? $ii['extmetadata'] : array();
+        $autor = isset($m['Artist']['value']) ? trim(wp_strip_all_tags($m['Artist']['value'])) : $autor;
+        $lic = (isset($m['LicenseShortName']['value']) ? $m['LicenseShortName']['value'] : $lic) . ', Wikimedia Commons';
+        $izvor = isset($ii['descriptionurl']) ? $ii['descriptionurl'] : $izvor;
+    }
+    $tmp = download_url($dl);
     if (is_wp_error($tmp)) {
         $pokusaji[$url] = (isset($pokusaji[$url]) ? $pokusaji[$url] : 0) + 1; $greske++;
         echo 'GREŠKA ' . $url . ' ' . $tmp->get_error_message() . PHP_EOL;
         continue;
     }
-    $tip = wp_check_filetype_and_ext($tmp, basename(parse_url($url, PHP_URL_PATH)));
+    $tip = wp_check_filetype_and_ext($tmp, basename(parse_url($dl, PHP_URL_PATH)));
     $ext = $tip['ext'] ? $tip['ext'] : 'jpg';
     $mime = function_exists('mime_content_type') ? mime_content_type($tmp) : '';
     if ($mime && strpos($mime, 'image/') !== 0) { @unlink($tmp); $pokusaji[$url] = 9; $greske++; echo 'NIJE SLIKA ' . $url . ' ' . $mime . PHP_EOL; continue; }
