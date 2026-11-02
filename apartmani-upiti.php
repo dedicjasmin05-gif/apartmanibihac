@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Apartmani Upiti
  * Description: Upiti za smještaj s potvrdom vlasnika jednim klikom, kalendarom, iCal sinkronizacijom (Booking/Airbnb), plaćanjem gotovinom (kapara opcionalno) i automatskim porukama.
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: Digital Puls
  * Text Domain: apartmani-upiti
  */
 
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_VER', '1.1.2');
+define('ABU_VER', '1.1.3');
 define('ABU_TABLE', 'abu_upiti');
 define('ABU_ICAL_TABLE', 'abu_ical_blocks');
 
@@ -954,3 +954,4 @@ require_once __DIR__ . '/komentari.php';
 require_once __DIR__ . '/vijesti.php';
 require_once __DIR__ . '/vodic.php';
 require_once __DIR__ . '/teambuilding.php';
+require_once __DIR__ . '/indexnow.php';
