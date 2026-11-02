@@ -1,7 +1,7 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
-define('AB_VER', '1.1.3');
+define('AB_VER', '1.1.4');
 
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');

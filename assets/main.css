@@ -525,3 +525,14 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
   .news__item:not(:first-child) .news__img:empty { display: none; }
   .news__t { overflow-wrap: anywhere; }
 }
+/* 1.1.4: slika u vijesti apsolutno unutar svog okvira (Samsung Internet i lazy "sizes=auto") */
+.news__img { position: relative; overflow: hidden; contain: paint; }
+.news__img img { position: absolute; inset: 0; width: 100% !important; height: 100% !important; max-width: none; object-fit: cover; contain-intrinsic-size: auto; }
+.news__item:first-child .news__img { aspect-ratio: 4 / 3; }
+.news__b { position: relative; z-index: 1; background: var(--bijela); }
+@media (max-width: 720px) {
+  .news__item:not(:first-child) .news__img { flex: 0 0 108px; width: 108px; max-width: 108px; min-height: 104px; }
+  .news__item:not(:first-child) .news__b { padding-left: 16px; }
+}
+.card__media, .ptiles a, .post-card a, .split__media, .promo__media { overflow: hidden; contain: paint; }
+img[sizes^="auto"] { contain-intrinsic-size: auto 300px; }
