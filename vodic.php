@@ -83,7 +83,13 @@ function abu_vodic_slike_ids($e) {
     foreach ((array) (isset($e['slike']) ? $e['slike'] : array()) as $s) {
         if (!empty($s['url']) && !empty($map[$s['url']]) && $map[$s['url']] > 0) { $ids[] = (int) $map[$s['url']]; }
     }
-    return $ids;
+    // položene (vodoravne) fotografije prve, okomite na kraj
+    $vod = array(); $okom = array();
+    foreach ($ids as $i) {
+        $m = wp_get_attachment_metadata($i);
+        if (!empty($m['width']) && !empty($m['height']) && $m['height'] > $m['width'] * 1.05) { $okom[] = $i; } else { $vod[] = $i; }
+    }
+    return array_merge($vod, $okom);
 }
 
 /** Prva fotografija vodiča (za naslovnicu teme). */
