@@ -30,3 +30,5 @@ $o = get_option('abu_postavke', array());
 echo 'kapara_posto: ' . (isset($o['kapara_posto']) ? $o['kapara_posto'] : '?') . ', upiti na: ' . (isset($o['admin_emails']) ? $o['admin_emails'] : '?') . PHP_EOL;
 global $wpdb;
 echo 'objava s "kapar": ' . (int) $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_status='publish' AND post_content LIKE '%kapar%'") . PHP_EOL;
+$kc = wp_count_comments();
+echo 'komentari: na cekanju ' . $kc->moderated . ', spam ' . $kc->spam . ', odobreno ' . $kc->approved . ' | otvoreni postovi: ' . (int) $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE comment_status='open'") . ' | default ' . get_option('default_comment_status') . PHP_EOL;
