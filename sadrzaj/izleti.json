@@ -344,7 +344,14 @@
   "lat": null,
   "lng": null,
   "web": "https://npuna.com/en/lohovo",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Lohovo_Smiljanovac_-_panoramio.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Lohovo_Smiljanovac_-_panoramio.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://npuna.com/en/lohovo",
    "https://npuna.com/en/?p=6397",
@@ -374,7 +381,20 @@
   "lat": null,
   "lng": null,
   "web": "https://npuna.com",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Nationalpark_Una_04.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Nationalpark_Una_04.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Nationalpark_Una_05.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Nationalpark_Una_05.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://npuna.com/en/?p=6397",
    "https://getbybus.com/en/blog/?p=1251",
@@ -445,7 +465,20 @@
   "lat": 44.74615,
   "lng": 15.93636,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Ripa%C4%8D.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Ripa%C4%8D.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una_bei_Bihac.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_bei_Bihac.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.pitchup.com/campsites/bosnia_and_herzegovina/federation-bosnia-and-herzegovina/una-sana/bihac/japodski_otoci",
    "https://chasingthedonkey.com/things-to-do-in-bihac-bosnia-herzegovina-travel-blog/",
@@ -519,7 +552,26 @@
   "lat": 44.7972,
   "lng": 15.9272,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una_River_Bihac.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_River_Bihac.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una_River_Bihac_2.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_River_Bihac_2.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una_near_Biha%C4%87_2.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_near_Biha%C4%87_2.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://en.wikipedia.org/wiki/Pritoka",
    "https://en.wikipedia.org/wiki/Sokolac_(fortress_near_Biha%C4%87)"
@@ -585,7 +637,14 @@
   "lat": null,
   "lng": null,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una_-_Kostela.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_-_Kostela.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://visitbih.ba/en/kostelski-buk-an-unforgettable-experience-of-natural-beauty-and-peace/",
    "https://en.wikipedia.org/wiki/Una_(Sava)",
@@ -653,6 +712,18 @@
    {
     "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Most_Alije_Izetbegovica%2C_Bihac.jpg",
     "izvor": "https://commons.wikimedia.org/wiki/File:Most_Alije_Izetbegovica%2C_Bihac.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una_in_Bihac.JPG",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una_in_Bihac.JPG",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Una%2CBihac.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Una%2CBihac.jpg",
     "licenca": "",
     "autor": ""
    }
@@ -777,7 +848,20 @@
   "lat": 44.8134,
   "lng": 15.8699,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Bihac_centar_-_panoramio.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Bihac_centar_-_panoramio.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Bihac_-_Square_-_panoramio.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Bihac_-_Square_-_panoramio.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.panacomp.net/bihac/",
    "https://en.wikipedia.org/wiki/Biha%c4%87"
@@ -880,7 +964,26 @@
   "lat": 44.967,
   "lng": 15.933,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Cazin_-_New_Square.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Cazin_-_New_Square.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Bijela_stijena%2C_cazin.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Bijela_stijena%2C_cazin.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Dz_cazin_2008.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Dz_cazin_2008.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://www.johnbills.com/una-sana/cazin",
    "https://en.wikipedia.org/wiki/Cazin"
@@ -1233,7 +1336,26 @@
   "lat": null,
   "lng": null,
   "web": "",
-  "slike": [],
+  "slike": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Nationalpark_Una_01.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Nationalpark_Una_01.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Nationalpark_Una_02.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Nationalpark_Una_02.jpg",
+    "licenca": "",
+    "autor": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Nationalpark_Una_03.jpg",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Nationalpark_Una_03.jpg",
+    "licenca": "",
+    "autor": ""
+   }
+  ],
   "izvori": [
    "https://npuna.com/en/?p=6397",
    "https://npuna.com/en/lohovo",
