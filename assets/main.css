@@ -510,3 +510,7 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
   .promo__text { padding-top: 40px; }
   .split__media:empty { display: none; }
 }
+/* 1.1.2: naslovne fotografije članaka uvijek položene */
+.post-hero img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.post-card img, .news__img img { object-fit: cover; }
+.prose img { max-height: 70vh; width: auto; margin-inline: auto; }
