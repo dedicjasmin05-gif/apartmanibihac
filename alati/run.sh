@@ -4,7 +4,7 @@ P=/home/u227550228/domains/apartmanibihac.com/public_html/wp-content/plugins/apa
 D=/home/u227550228/domains/apartmanibihac.com/public_html/wp-content/uploads/abu-tmp
 mkdir -p $D
 php $P/alati/slike.php 25
-for u in / /team-building-bihac/ /rafting-na-uni/ /en/team-building-bihac/; do
+for u in / /restorani-bihac/ /izleti-bihac/ /nocni-zivot-bihac/ /de/restaurants-bihac/; do
   n=$(echo $u | tr -d / ); [ -z "$n" ] && n=naslovnica
   curl -s "https://apartmanibihac.com$u" > $D/$n.html
 done

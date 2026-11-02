@@ -85,3 +85,64 @@ add_shortcode('abu_vijesti', function ($a) {
     $a = shortcode_atts(array('kat' => '', 'broj' => 4, 'naslov' => 'Novosti'), $a);
     return abu_vijesti_blok($a['kat'], (int) $a['broj'], $a['naslov']);
 });
+
+/** Mjesto iz sadrzaj/*.json po slugu (za fotografiju uz vijest). */
+function abu_vijesti_mjesto($slug) {
+    static $sva = null;
+    if ($sva === null) {
+        $sva = array();
+        foreach (glob(__DIR__ . '/sadrzaj/*.json') as $f) {
+            if (basename($f) === 'vijesti.json') { continue; }
+            $x = json_decode((string) file_get_contents($f), true);
+            if (!is_array($x)) { continue; }
+            foreach (isset($x[0]) ? array($x) : array_values($x) as $lista) {
+                if (!is_array($lista)) { continue; }
+                foreach ($lista as $e) { if (is_array($e) && !empty($e['slug'])) { $sva[$e['slug']] = $e; } }
+            }
+        }
+    }
+    return isset($sva[$slug]) ? $sva[$slug] : null;
+}
+
+/** Ključne riječi u slugu članka => mjesto čija fotografija ide kao naslovna. */
+function abu_vijesti_slika_za($slug, $zadano = '') {
+    $m = array('strbacki' => 'strbacki-buk', 'plitvic' => 'plitvicka-jezera', 'rafting' => 'una-olympic-rafting', 'team-building' => 'una-olympic-rafting', 'martin-brod' => 'martin-brod',
+        'nacionalni-park' => 'np-una-posjeta', 'np-una' => 'np-una-posjeta', 'kupanje' => 'lohovo-troslap-dvoslap', 'kostel' => 'kostela-kostelski-buk', 'ostrozac' => 'ostrozac', 'sokolac' => 'tvrdjava-sokolac',
+        'zeljava' => 'zeljava', 'ribolov' => 'ribolov-una', 'bicikl' => 'biciklizam-una', 'restoran' => 'restoran-cardak-na-uni', 'izlas' => 'bihac-una-otoci', 'nocni' => 'bihac-una-otoci', 'kapetanova' => 'kapetanova-kula',
+        'gdje-odsjesti' => 'bihac-una-otoci', 'smjestaj' => 'bihac-una-otoci', 'kako-doci' => 'kanjon-une-bihac-krupa', 'cijene' => 'bihac-una-otoci', 'jesen' => 'kanjon-une-bihac-krupa', 'zima' => 'pljesevica');
+    $kand = array();
+    if ($zadano) { $kand[] = $zadano; }
+    foreach ($m as $k => $v) { if (strpos($slug, $k) !== false) { $kand[] = $v; } }
+    $kand = array_merge($kand, array('strbacki-buk', 'bihac-una-otoci', 'kanjon-une-bihac-krupa', 'martin-brod'));
+    foreach ($kand as $s) {
+        $e = abu_vijesti_mjesto($s);
+        if ($e && function_exists('abu_vodic_slike_ids') && ($ids = abu_vodic_slike_ids($e))) { return $ids[abs(crc32($slug)) % count($ids)]; }
+    }
+    return 0;
+}
+
+/** Objavi vijesti iz sadrzaj/vijesti.json (samo nove) i dodijeli naslovne fotografije člancima bez njih. */
+add_action('init', function () {
+    $f = __DIR__ . '/sadrzaj/vijesti.json';
+    $map = get_option('abu_vodic_slike', array());
+    $ver = ABU_VER . '|' . (is_readable($f) ? md5_file($f) : '-') . '|' . count($map);
+    if (get_option('abu_vijesti_seed') === $ver || get_transient('abu_vijesti_lock')) { return; }
+    set_transient('abu_vijesti_lock', 1, 120);
+    $x = is_readable($f) ? json_decode((string) file_get_contents($f), true) : array();
+    $n = 0;
+    foreach ((array) $x as $i => $v) {
+        if (empty($v['slug']) || empty($v['naslov']) || get_page_by_path($v['slug'], OBJECT, 'post')) { continue; }
+        $kat = get_term_by('slug', 'vijesti-' . (isset($v['kat']) ? $v['kat'] : 'bihac'), 'category');
+        $id = wp_insert_post(array('post_type' => 'post', 'post_status' => 'publish', 'post_name' => $v['slug'], 'post_title' => $v['naslov'],
+            'post_excerpt' => isset($v['izvod']) ? $v['izvod'] : '', 'post_content' => wp_kses_post($v['html']),
+            'post_category' => $kat ? array($kat->term_id) : array(), 'post_date' => gmdate('Y-m-d H:i:s', current_time('timestamp') - ($i * 5400))));
+        if ($id && !is_wp_error($id)) { update_post_meta($id, '_abu_slika_mjesto', isset($v['slika']) ? $v['slika'] : ''); $n++; }
+    }
+    foreach (get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'numberposts' => -1, 'fields' => 'ids')) as $pid) {
+        if (has_post_thumbnail($pid)) { continue; }
+        $img = abu_vijesti_slika_za(get_post_field('post_name', $pid), (string) get_post_meta($pid, '_abu_slika_mjesto', true));
+        if ($img) { set_post_thumbnail($pid, $img); }
+    }
+    update_option('abu_vijesti_seed', $ver);
+    delete_transient('abu_vijesti_lock');
+}, 39);
