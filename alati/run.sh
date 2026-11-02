@@ -1,3 +1,2 @@
 #!/bin/sh
-curl -s "https://apartmanibihac.com/izleti-bihac/?x=$(date +%s)" | grep -o '[a-z]*\.css[^ ]*' | head
-curl -s https://apartmanibihac.com/izleti-bihac/ | grep -c 'class="vp"'
+php /home/u227550228/domains/apartmanibihac.com/public_html/wp-content/plugins/apartmani-upiti/alati/commons.php
