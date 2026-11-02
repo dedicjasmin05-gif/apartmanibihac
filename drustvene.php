@@ -99,7 +99,7 @@ add_filter('the_content', function ($c) {
 
 /** Traka u podnožju svake stranice. */
 add_action('wp_footer', function () {
-    if (is_admin()) { return; }
+    if (is_admin() || current_theme_supports('abu-kontakt')) { return; }
     echo abu_dr_css() . '<section class="abu-dr abu-dr-traka"><h3>' . esc_html(abu_dr_t('prati')) . ' · 139.000+ ' . esc_html(abu_dr_t('pratitelja')) . '</h3><p>' . esc_html(abu_dr_t('novo')) . '</p>' . abu_dr_profili() . '</section>';
 }, 5);
 

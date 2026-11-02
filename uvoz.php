@@ -227,3 +227,19 @@ add_action('init', function () {
     update_option('abu_mig_llms', ABU_VER);
 }, 32);
 add_action('save_post', function () { if (is_file(ABSPATH . 'llms.txt')) { abu_llms_ocisti(); } }, 999);
+
+/* ---------- 1.1.0: kapara izbačena; avans ovisi o pravilima objekta (jednokratno na objavljenom sadržaju) ---------- */
+add_action('init', function () {
+    if (get_option('abu_mig_placanje2') || get_transient('abu_mig_placanje2_lock')) { return; }
+    set_transient('abu_mig_placanje2_lock', 1, 300);
+    $r = json_decode((string) file_get_contents(__DIR__ . '/alati/zamjene-placanje-2.json'), true);
+    if (is_array($r)) {
+        foreach (get_posts(array('post_type' => array('page', 'post', 'objekt'), 'post_status' => 'any', 'numberposts' => -1)) as $p) {
+            $c = $p->post_content; $e = $p->post_excerpt;
+            foreach ($r as $x) { $c = str_replace($x[0], $x[1], $c); $e = str_replace($x[0], $x[1], $e); }
+            if ($c !== $p->post_content || $e !== $p->post_excerpt) { wp_update_post(array('ID' => $p->ID, 'post_content' => $c, 'post_excerpt' => $e)); }
+        }
+    }
+    update_option('abu_mig_placanje2', 1);
+    delete_transient('abu_mig_placanje2_lock');
+}, 33);

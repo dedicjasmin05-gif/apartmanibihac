@@ -38,7 +38,7 @@ function abu_seed_stranice() {
             . '[abu_prijava]'),
         'uvjeti-i-privatnost' => array('Uvjeti rezervacije i privatnost', 'Kako funkcioniraju upit, plaćanje, otkaz i kako koristimo vaše podatke.',
             '<h2>Upit i potvrda</h2><p>Upit nije rezervacija. Termin je za vas držan 12 sati, dok vlasnik ne potvrdi da je slobodan. Nakon potvrde dobivate ukupnu cijenu i potvrdu rezervacije.</p>'
-            . '<h2>Plaćanje</h2><p>Cijeli iznos plaćate gotovinom pri dolasku. Kapara nije obavezna. Ako želite, možete uplatiti avans unaprijed i za to dobiti popust; iznos popusta i način uplate dogovaramo uz potvrdu upita. Posteljina i završno čišćenje uključeni su u cijenu.</p><h2>Ulazak i izlazak</h2><p>Ulazak je od 12:00, izlazak do 11:00, a do 12:00 ako je objekt taj dan slobodan.</p>'
+            . '<h2>Plaćanje</h2><p>Cijeli iznos plaćate gotovinom pri dolasku. Avansno plaćanje kod pojedinih objekata ovisi o pravilima tog objekta, i to piše u potvrdi upita. Posteljina i završno čišćenje uključeni su u cijenu.</p><h2>Ulazak i izlazak</h2><p>Ulazak je od 12:00, izlazak do 11:00, a do 12:00 ako je objekt taj dan slobodan.</p>'
             . '<h2>Otkaz</h2><p>Ako ne možete doći, javite nam se što prije da oslobodimo termin. Za uplaćeni avans uvjeti povrata dogovaraju se uz potvrdu.</p>'
             . '<h2>Vaši podaci</h2><p>Ime, e-mail i broj mobitela koristimo samo za obradu upita i rezervacije. Dijelimo ih isključivo s vlasnikom objekta, i to tek nakon potvrde rezervacije. Podatke ne prodajemo i ne šaljemo trećima. Za brisanje podataka pišite na e-mail naveden u podnožju stranice.</p>'),
         'vodic' => array('Vodič za Bihać i Unu', 'Izleti, rafting, Plitvice, gdje odsjesti i gdje jesti u Bihaću.', ''),
@@ -76,7 +76,7 @@ function abu_seed_clanci() {
             'Cijene apartmana i vikendica u Bihaću i uz Unu kreću od 25 € po noći za cijeli objekt. Što utječe na cijenu i kako platiti manje.',
             '<p><strong>Kratki odgovor:</strong> apartmani i kuće za odmor u našoj ponudi koštaju od 25 do 100 € po noći za cijeli objekt, ovisno o veličini, sezoni i opremi.</p>'
             . '<h2>Što utječe na cijenu</h2><ul><li><strong>Sezona:</strong> srpanj i kolovoz su najtraženiji, a proljeće i jesen povoljniji.</li><li><strong>Veličina:</strong> studio za 2 osobe je jeftiniji od vile za 10 osoba, ali po osobi su velike kuće često najisplativije.</li><li><strong>Položaj:</strong> izlaz na Unu i bazen podižu cijenu.</li><li><strong>Duljina boravka:</strong> za duži boravak pitajte za popust.</li></ul>'
-            . '<h2>Zašto je direktno povoljnije</h2><p>Kad rezervirate direktno kod nas, nema provizije velikih platformi, pa vlasnik može dati bolju cijenu. Plaćate gotovinom pri dolasku, bez obavezne kapare; uz avans unaprijed možete dobiti i popust.</p>' . $poz),
+            . '<h2>Zašto je direktno povoljnije</h2><p>Kad rezervirate direktno kod nas, nema provizije velikih platformi, pa vlasnik može dati bolju cijenu. Plaćate gotovinom pri dolasku; avansno plaćanje kod pojedinih objekata ovisi o pravilima tog objekta.</p>' . $poz),
         'kupanje-na-uni' => array('Kupanje na Uni: gdje se kupati u Bihaću i okolici',
             'Una je ljeti čista i pogodna za kupanje. Gdje se kupati u gradu, u Lohovu i Pritoci te na što paziti.',
             '<p><strong>Kratki odgovor:</strong> ljeti se Una kupa i u samom Bihaću, a mirnija mjesta s plićacima su u Lohovu i Pritoci. Najljepše je iz kuće s vlastitim izlazom na rijeku.</p>'

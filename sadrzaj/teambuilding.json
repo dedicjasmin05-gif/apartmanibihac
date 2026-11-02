@@ -1,0 +1,1311 @@
+{
+ "_meta": {
+  "opis": "Pružaoci usluga za stranicu 'Team building Bihać' (apartmanibihac.com). Prikupljeno 2026-11-02 putem WebSearch/WebFetch. lat/lng = null kada koordinate nisu pronađene u izvoru. Dodatno polje 'email' uneseno gdje je izvor naveo e-mail.",
+  "napomena_koordinate": "In Your Pocket za mnoge objekte daje generičku tačku 44.819599, 15.87079 (centar grada); te koordinate NISU korištene."
+ },
+ "hoteli": [
+  {
+   "slug": "hotel-kostelski-buk",
+   "ime": "Hotel Kostelski Buk",
+   "grupa": "hotel",
+   "kratko_bs": "Hotel s 4 zvjezdice uz slapove Une u Kosteli, kongresna sala do 250 osoba i wellness",
+   "opis_bs": "Hotel Kostelski Buk stoji uz istoimene slapove Une u naselju Kostela, oko osam kilometara od centra Bihaća. Zgrada je otvorena 2009. godine, a restoran u sklopu kompleksa radi još od 2001. i poslužuje domaća, međunarodna i egzotična jela. Većina soba ima balkon s pogledom na slapove. Za firme je važna velika kongresna sala od 340 m² koja prima do 250 osoba u kino postavci ili oko 200 na banketu, te mala sala za oko 25 ljudi. Gosti mogu koristiti wellness s jacuzzijem, finskom i turskom saunom te teretanu. Hotel nudi i catering, dekoraciju, tehničku podršku, foto i video usluge te parking.",
+   "opis_en": "Hotel Kostelski Buk sits beside the Kostela waterfalls on the Una, about 8 km from Bihać centre. Opened in 2009, with a restaurant running since 2001, it offers rooms with river-view balconies, a 340 m² conference hall for up to 250 people (about 200 banquet-style), a small 25-person meeting room, a wellness area with jacuzzi and saunas, a gym, catering, event decoration, AV support and parking.",
+   "opis_de": "Das Hotel Kostelski Buk liegt direkt an den Kostela-Wasserfällen der Una, etwa 8 km vom Zentrum Bihaćs entfernt. Es wurde 2009 eröffnet; das Restaurant besteht seit 2001. Die meisten Zimmer haben Balkone mit Blick auf die Fälle. Für Firmen gibt es einen 340 m² großen Saal für bis zu 250 Personen (ca. 200 beim Bankett), einen kleinen Raum für 25 Personen, Wellness mit Whirlpool und Saunen, Fitnessraum, Catering und Parkplätze.",
+   "kapacitet": "44 smještajne jedinice (uklj. 4 De Luxe apartmana); velika sala do 250 osoba (banket 200), mala sala do 25",
+   "lokacija": "Kostela bb, 77000 Bihać",
+   "lat": 44.881683,
+   "lng": 15.900272,
+   "web": "http://www.kostelski-buk.com",
+   "facebook": "https://www.facebook.com/Kostelski.buk/",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 302 340",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.bh-meetings.com/venue/kostelski-buk/24",
+    "https://www.inyourpocket.com/bihac/Kostelski-Buk_65789v",
+    "https://www.hotels.com/ho489658880"
+   ],
+   "provjeriti": "Broj soba se razlikuje: bh-meetings navodi 44 jedinice, Hotels.com 53 sobe. Službeni sajt nije bilo moguće otvoriti; slike uzeti sa kostelski-buk.com nakon provjere."
+  },
+  {
+   "slug": "hotel-opal-exclusive",
+   "ime": "Hotel Opal Exclusive",
+   "grupa": "hotel",
+   "kratko_bs": "Hotel s 4 zvjezdice na obali Une, restoran 120 mjesta i terasa 100 mjesta",
+   "opis_bs": "Hotel Opal Exclusive je hotel s četiri zvjezdice na samoj obali Une, nadomak centra Bihaća i starog grada. Otvoren je krajem 2008. godine i ima 27 soba, od jednokrevetnih i dvokrevetnih do trokrevetnih i jednog apartmana, sve klimatizirane i za nepušače. Restoran prima 120 gostiju, a sunčana terasa uz rijeku još stotinu, pa je hotel zgodan za zajedničke ručkove i večere većih grupa. Kuhinja nudi bosanska, međunarodna i mediteranska jela. Uz to postoje wellness sa saunom i masažama, teretana, iznajmljivanje bicikala i pomoć pri organizaciji izleta, što odgovara gostima koji dolaze na rafting ili kanu.",
+   "opis_en": "Hotel Opal Exclusive is a four-star hotel right on the Una, close to Bihać centre and the old town. Opened at the end of 2008, it has 27 rooms, a 120-seat restaurant and a 100-seat riverside terrace serving Bosnian, international and Mediterranean dishes, plus wellness with sauna and massages, a gym, bicycle rental and help booking excursions. Popular with rafting and canoe guests.",
+   "opis_de": "Das Vier-Sterne-Hotel Opal Exclusive liegt direkt an der Una, nahe dem Zentrum und der Altstadt von Bihać. Es wurde Ende 2008 eröffnet und hat 27 Zimmer, ein Restaurant mit 120 Plätzen sowie eine Flussterrasse mit 100 Plätzen. Dazu kommen Wellness mit Sauna und Massagen, Fitnessraum, Fahrradverleih und Hilfe bei Ausflügen – ideal für Rafting- und Kanugäste.",
+   "kapacitet": "27 soba (1 apartman, 3 trokrevetne, 20 dvokrevetnih/twin, 3 jednokrevetne); restoran 120 mjesta, terasa 100 mjesta",
+   "lokacija": "Krupska bb, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://www.hotelopalexclusive.net",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 224 183",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.panacomp.net/opal-exclusive-hotel-bihac/",
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Opal-Exclusive",
+    "https://www.cvent.com/venues/bihac/hotel/hotel-opal-exclusive/venue-a797471a-ee2b-4a64-830b-a0806307dd37"
+   ],
+   "provjeriti": "Cvent navodi 25 soba i jednu salu za sastanke (bez kapaciteta), Panacomp 27 soba. Web adresa je iz In Your Pocket, nije otvorena – provjeriti da li radi."
+  },
+  {
+   "slug": "swiss-plus-hotel",
+   "ime": "Swiss Plus Hotel (\"Hotel Swiss\")",
+   "grupa": "hotel",
+   "kratko_bs": "Gradski hotel s 3 zvjezdice, 27 soba i dvije sale po 80 mjesta",
+   "opis_bs": "Swiss Plus Hotel je gradski hotel s tri zvjezdice u ulici 502. viteške brigade, oko kilometar od centra Bihaća i nekoliko minuta hoda od Une. Ima 27 soba različitih tipova, od jednokrevetnih do deluxe, a dio jedinica ima i kuhinju te radni sto. Za poslovne goste važne su dvije sale za sastanke s po 80 mjesta, koje se iznajmljuju za poslovne, edukativne i zabavne događaje. Hotel ima restoran, terasu na svakom spratu, recepciju koja radi 24 sata, besplatan parking i WiFi. Nacionalni park Una udaljen je oko 18 km, a Plitvička jezera oko 23 km, pa je dobra baza za kombinirane programe.",
+   "opis_en": "Swiss Plus Hotel is a three-star city hotel on 502. viteške brigade street, about 1 km from Bihać centre and a short walk from the Una. It has 27 rooms (some with kitchen), two meeting rooms of 80 seats each, a restaurant, a terrace on every floor, 24-hour reception, free parking and WiFi. Una National Park and Plitvice Lakes are both within easy driving distance.",
+   "opis_de": "Das Swiss Plus Hotel ist ein Drei-Sterne-Stadthotel in der Straße 502. viteške brigade, ca. 1 km vom Zentrum und wenige Gehminuten von der Una entfernt. Es bietet 27 Zimmer (teils mit Küche), zwei Tagungsräume mit je 80 Plätzen, Restaurant, Terrassen auf jeder Etage, 24-Stunden-Rezeption, kostenlose Parkplätze und WLAN. Nationalpark Una und Plitvicer Seen sind gut erreichbar.",
+   "kapacitet": "27 soba; 2 sale po 80 mjesta",
+   "lokacija": "502. viteške brigade 74, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.cvent.com/venues/th-TH/bihac/hotel/swiss-plus-hotel/venue-1d69dc8e-69d8-4270-8531-040db558138f",
+    "https://www.priceline.com/hotel-deals/en-us/P5000144074/H67591803/swiss-plus-hotel.ssp"
+   ],
+   "provjeriti": "Jasminov 'Hotel Swiss' je gotovo sigurno ovaj Swiss Plus Hotel u Bihaću (na Bookingu ranije 'Swiss Plus Apartments'). Telefon i službeni web nisu pronađeni."
+  },
+  {
+   "slug": "hotel-emporium",
+   "ime": "Hotel Emporium",
+   "grupa": "hotel",
+   "kratko_bs": "Hotel s kongresnom salom do 300 osoba, restoranom i baštom",
+   "opis_bs": "Hotel Emporium se nalazi u Ulici Irfana Ljubijankića u Bihaću i spada među hotele s najvećim salama u gradu. Ima 28 soba, većinom dvokrevetnih i jednokrevetnih. Veća sala prima do 300 osoba u parlamentarnoj postavci ili oko 200 na banketu i koktelu, a manja do 50 osoba. Zbog toga je pogodan kao sjedište za prezentacije, svečane večere i zabave uz muziku nakon dana provedenog na rijeci. U hotelu su restoran s internacionalnom ponudom, bar, kafić i mjesta za obroke na otvorenom.",
+   "opis_en": "Hotel Emporium on Irfana Ljubijankića street has 28 rooms and some of the largest event spaces in Bihać: a hall for up to 300 people (about 200 for banquets) and a second room for up to 50. It also has a restaurant with international dishes, a bar, a café and outdoor dining, which suits presentations, gala dinners and evening parties.",
+   "opis_de": "Das Hotel Emporium in der Irfana-Ljubijankića-Straße hat 28 Zimmer und einige der größten Veranstaltungsräume in Bihać: einen Saal für bis zu 300 Personen (ca. 200 beim Bankett) und einen Raum für bis zu 50. Dazu kommen Restaurant mit internationaler Küche, Bar, Café und Außenbereich – gut für Präsentationen, Galadinner und Abendfeiern.",
+   "kapacitet": "28 soba; sala do 300 osoba (banket 200), druga sala do 50",
+   "lokacija": "Irfana Ljubijankića 90, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://conference-hotel.com/hotel_EN_1443919551.htm",
+    "https://www.amimagazine.global/Meeting-Event-Venues/Bihac-Bosnia-and-Herzegovina/Hotels"
+   ],
+   "provjeriti": "Izvor navodi 10 jednokrevetnih + 16 dvokrevetnih (=26) uz ukupno 28 soba; kapacitete sala potvrditi s hotelom. Telefon i web nisu pronađeni."
+  },
+  {
+   "slug": "hotel-park-bihac",
+   "ime": "Hotel Park",
+   "grupa": "hotel",
+   "kratko_bs": "Centralni hotel s 3 zvjezdice, restoranom, terasom i dječjim igralištem",
+   "opis_bs": "Hotel Park je hotel s tri zvjezdice u Ulici 5. korpusa, u centralnom dijelu Bihaća, odakle se do većine gradskih sadržaja može pješice. Vodiči ga opisuju kao zgradu starijeg izgleda, ali s vrlo ljubaznim osobljem. Gostima su na raspolaganju restoran i posluga u sobu, bašta, terasa, dječje igralište, poslovni centar, lift te besplatni parking i WiFi. Ranije je u hotelu radila i turistička agencija koja je organizirala izlete. Zbog centralne lokacije dobra je opcija za grupe koje žele večernje izlaske u gradu.",
+   "opis_en": "Hotel Park is a three-star hotel on 5. korpusa street in central Bihać, within walking distance of most of the town. Guides note its dated exterior but friendly service. It has a restaurant and room service, garden, terrace, children's playground, business centre, lift, free parking and WiFi.",
+   "opis_de": "Das Hotel Park ist ein Drei-Sterne-Haus in der Straße 5. korpusa im Zentrum von Bihać; die meisten Ziele sind zu Fuß erreichbar. Das Gebäude wirkt älter, der Service gilt als sehr freundlich. Es gibt Restaurant und Zimmerservice, Garten, Terrasse, Spielplatz, Business-Center, Aufzug sowie kostenloses Parken und WLAN.",
+   "kapacitet": "",
+   "lokacija": "Put 5. korpusa, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://www.aduna.ba",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 226 394",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.kayak.com/Bihac-Hotels-Park-Hotel.462480.ksp",
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Park"
+   ],
+   "provjeriti": "Telefon: Kayak +387 37 226 394, In Your Pocket +387 37 221 431. Broj soba nije pronađen. Web aduna.ba je iz IYP (dijeli ga s Hotelom Ada) – možda zastario. Potvrditi da hotel radi."
+  },
+  {
+   "slug": "hotel-ada",
+   "ime": "Hotel Ada",
+   "grupa": "hotel",
+   "kratko_bs": "Jedan od većih hotela u Bihaću, sobe s balkonima prema slapu na Uni",
+   "opis_bs": "Hotel Ada je hotel s tri zvjezdice u Ulici 5. korpusa i jedan od većih hotela u Bihaću. Prepoznatljiv je po neobičnoj arhitekturi koja spaja alpski stil i futurističke, asimetrične linije. Sobe su svijetle i dobro opremljene, a sve imaju vlastiti balkon, od kojih mnogi gledaju na obližnji slap na Uni. Zbog veličine može primiti veće grupe na jednom mjestu, što olakšava organizaciju team buildinga s noćenjem. U istom kraju posluje i manji objekat Ada-S, koji se na portalima vodi odvojeno.",
+   "opis_en": "Hotel Ada is a three-star hotel on 5. korpusa street and one of the larger hotels in Bihać, known for its mix of alpine and futuristic, angular architecture. Its bright rooms all have balconies, many overlooking the nearby Una waterfall, making it suitable for larger groups staying together.",
+   "opis_de": "Das Hotel Ada ist ein Drei-Sterne-Hotel in der Straße 5. korpusa und eines der größeren Hotels in Bihać, bekannt für seine Mischung aus alpinem und futuristischem Baustil. Alle hellen Zimmer haben Balkone, viele mit Blick auf den nahen Una-Wasserfall – gut geeignet für größere Gruppen.",
+   "kapacitet": "",
+   "lokacija": "Put 5. korpusa, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://www.aduna.ba",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 318 100",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Ada",
+    "https://www.kayak.com/Bihac-Hotels-Ada-Hotel.2300234.ksp",
+    "https://www.inyourpocket.com/bihac/Hotels"
+   ],
+   "provjeriti": "Opis iz In Your Pocket može biti stariji; broj soba nije pronađen. Potvrditi telefon, web i trenutni rad hotela."
+  },
+  {
+   "slug": "hotel-paviljon",
+   "ime": "Hotel Paviljon",
+   "grupa": "hotel",
+   "kratko_bs": "Mali hotel i restoran u parku uz Unu, 13 soba i velika terasa",
+   "opis_bs": "Hotel Paviljon nalazi se u gradskom parku uz Unu, u zgradi koja je nastala od malog riječnog restorana iz 19. stoljeća. Danas je to restoran na više nivoa s hotelom od 13 soba. Većina soba ima pristup velikoj zajedničkoj terasi s pogledom na park i rijeku. Zgrada je kružnog oblika, pa se sobe razlikuju po veličini. Zbog male veličine više odgovara manjim timovima ili kao mjesto za večeru i druženje u samom centru grada. Kod Paviljona završava i planirana turistička vožnja lađom po starom gradskom kanalu.",
+   "opis_en": "Hotel Paviljon stands in the city park on the Una, in a round building that grew out of a 19th-century riverside restaurant. It now combines a multi-level restaurant with 13 rooms, most opening onto a large shared terrace over the park and river. Best for small teams or a central dinner venue.",
+   "opis_de": "Das Hotel Paviljon liegt im Stadtpark an der Una, in einem runden Gebäude, das aus einem Flussrestaurant des 19. Jahrhunderts hervorging. Heute verbindet es ein mehrstöckiges Restaurant mit 13 Zimmern, die meisten mit Zugang zu einer großen Terrasse über Park und Fluss. Ideal für kleine Teams oder als zentraler Ort für ein Abendessen.",
+   "kapacitet": "13 soba",
+   "lokacija": "Aleja Alije Izetbegovića bb, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://english.hotel-paviljon.com",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 224 194",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Paviljon",
+    "https://seesrpska.com/en/svjetsko/unska-lada-po-uzoru-na-venecijansku-gondolu-27-8-2025"
+   ],
+   "provjeriti": "Podaci iz In Your Pocket; potvrditi telefon i web."
+  },
+  {
+   "slug": "hotel-lohovo-bijeli",
+   "ime": "Hotel Lohovo (Bijeli Una Rafting)",
+   "grupa": "hotel",
+   "kratko_bs": "Rafting hotel za do 50 gostiju u Lohovu, s bazenom i doručkom",
+   "opis_bs": "Hotel Lohovo s tri zvjezdice pripada agenciji Bijeli Una Rafting i nalazi se u Lohovu, na mjestu gdje završava adrenalinska rafting ruta sa Štrbačkog buka. Prima do 50 gostiju u pet dvokrevetnih i pet trokrevetnih soba te tri apartmana za četiri do sedam osoba. U cijenu noćenja uključeni su doručak, korištenje bazena i parking. Preko puta hotela, na obali Une, nalazi se hacijenda s restoranom i otvorenom kuhinjom gdje se služe tradicionalna jela i organiziraju ručkovi za team building. Ovo je praktično rješenje kada cijela grupa želi spavati, jesti i raftati na jednom mjestu.",
+   "opis_en": "Three-star Hotel Lohovo belongs to Bijeli Una Rafting and stands in Lohovo, where the Štrbački buk rafting route ends. It sleeps up to 50 guests in five double rooms, five triples and three apartments; breakfast, pool and parking are included. A riverside 'hacienda' restaurant with open kitchen across the road serves traditional food and team-building lunches.",
+   "opis_de": "Das Drei-Sterne-Hotel Lohovo gehört zu Bijeli Una Rafting und liegt in Lohovo, am Ende der Rafting-Strecke ab Štrbački buk. Es bietet Platz für bis zu 50 Gäste in fünf Doppel-, fünf Dreibettzimmern und drei Apartments; Frühstück, Pool und Parkplatz sind inklusive. Gegenüber am Ufer serviert die 'Hacienda' mit offener Küche traditionelle Gerichte und Teambuilding-Mittagessen.",
+   "kapacitet": "do 50 osoba (5 dvokrevetnih, 5 trokrevetnih soba, 3 apartmana)",
+   "lokacija": "Lohovo, Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://www.bijeli-una-rafting.com",
+   "facebook": "https://www.facebook.com/bijeliunarafting/",
+   "instagram": "https://www.instagram.com/bijeli_una_rafting/",
+   "youtube": "",
+   "telefon": "+387 61 138 853",
+   "email": "raftingbijeli@gmail.com",
+   "slike": [
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_85f6b06c0e07446f9e495502999d63e3~mv2.jpg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    }
+   ],
+   "izvori": [
+    "https://www.bijeli-una-rafting.com/en"
+   ],
+   "provjeriti": "Cijena 70 KM/noć s doručkom navedena na sajtu – potvrditi za 2027. Slika hotela je s njihovog Wix sajta."
+  },
+  {
+   "slug": "prenociste-villa-una",
+   "ime": "Prenoćište Villa Una",
+   "grupa": "hotel",
+   "kratko_bs": "Manji pansion s 10 soba na glavnoj ulici od autobuske stanice prema centru",
+   "opis_bs": "Villa Una je manji porodični pansion u Ulici bihaćkih branilaca, na glavnom putu od autobuske stanice prema centru Bihaća. Ima deset soba sa satelitskom televizijom i klimom, uređenih u pomalo rustičnom stilu. Vlasnik je najavljivao proširenje objekta restoranom i sa još šest soba. Zbog manjeg kapaciteta pogodan je za manje timove ili kao dodatni smještaj kada glavni hotel nema dovoljno mjesta za cijelu grupu.",
+   "opis_en": "Villa Una is a small family guest house on Bihaćkih branilaca street, on the main road from the bus station into the centre. It has ten rooms with satellite TV and air conditioning in a slightly rustic style. Suitable for small teams or as overflow accommodation.",
+   "opis_de": "Die Villa Una ist eine kleine Familienpension in der Straße Bihaćkih branilaca, an der Hauptstraße vom Busbahnhof ins Zentrum. Sie hat zehn rustikal eingerichtete Zimmer mit Sat-TV und Klimaanlage – gut für kleine Teams oder als Zusatzunterkunft.",
+   "kapacitet": "10 soba",
+   "lokacija": "Bihaćkih branilaca 20, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 311 393",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Prenociste-Villa-Una"
+   ],
+   "provjeriti": "Jasmin je rekao 'Hotel Villa Una' – u Bihaću je pronađeno samo Prenoćište Villa Una (i B&B Villa Una na portalima). IYP podaci mogu biti stari; potvrditi da li je proširenje završeno."
+  },
+  {
+   "slug": "motel-rio-mare",
+   "ime": "Motel Rio Mare",
+   "grupa": "hotel",
+   "kratko_bs": "Moderan motel na sjevernom ulazu u Bihać, povoljnija opcija za grupe",
+   "opis_bs": "Rio Mare je moderan motel na sjevernom rubu Bihaća, u Jablanskoj ulici. Prema vodiču In Your Pocket nešto je jeftiniji od objekata slične kvalitete bliže centru, ali nije luksuzan. Zbog lokacije na ulazu u grad i lakog pristupa parkingu može poslužiti kao povoljniji smještaj za grupe koje dolaze autobusom ili vlastitim vozilima, a ne trebaju hotelske sadržaje poput sala i wellnessa.",
+   "opis_en": "Rio Mare is a modern motel on the northern edge of Bihać, on Jablanska street. In Your Pocket describes it as somewhat cheaper than similar places nearer the centre, though not luxurious – a budget option for groups arriving by bus or car.",
+   "opis_de": "Rio Mare ist ein modernes Motel am nördlichen Stadtrand von Bihać in der Jablanska-Straße. Laut In Your Pocket etwas günstiger als vergleichbare Häuser im Zentrum, aber nicht luxuriös – eine preiswerte Option für Gruppen mit Bus oder Auto.",
+   "kapacitet": "",
+   "lokacija": "Jablanska 53, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 315 309",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Rio-Mare"
+   ],
+   "provjeriti": "Broj soba i trenutni rad nisu potvrđeni."
+  }
+ ],
+ "rafting": [
+  {
+   "slug": "una-olympic-rafting",
+   "ime": "Una Olympic Rafting",
+   "grupa": "rafting",
+   "kratko_bs": "Rafting, deluxe kućice i restoran na obali Une – kamp olimpijca Dinka Mulića",
+   "opis_bs": "Una Olympic Rafting je rafting centar u Grmuši (Salihovac) kod Bihaća, koji je osnovao Dinko Mulić, nekadašnji kajakaš i učesnik Olimpijskih igara u Ateni 2004. i Londonu 2012. Spustove Unom vode licencirani i iskusni skiperi, a svaki učesnik dobija kompletnu zaštitnu opremu. Ture su prilagođene i početnicima i iskusnima, pa odgovaraju firmama, proslavama i momačkim večerima. U kampu su planinske deluxe kućice s vlastitim kupatilom i terasom s pogledom na rijeku, te restoran sa 60 mjesta koji radi cijele godine i nudi tradicionalna bosanska jela. Za timove postoji poseban team building program koji se gradi oko saradnje, komunikacije i povjerenja.",
+   "opis_en": "Una Olympic Rafting is a rafting centre in Grmuša (Salihovac) near Bihać, founded by Dinko Mulić, a former slalom kayaker who competed at the 2004 Athens and 2012 London Olympics. Licensed skippers lead every trip and all guests get full safety gear; tours suit beginners and experienced paddlers alike. The camp has deluxe mountain cabins with private bathrooms and river-view terraces, plus a 60-seat restaurant open year-round serving traditional Bosnian food. Custom team-building programmes focus on cooperation, communication and trust.",
+   "opis_de": "Una Olympic Rafting ist ein Rafting-Zentrum in Grmuša (Salihovac) bei Bihać, gegründet von Dinko Mulić, ehemaliger Kanuslalom-Fahrer und Olympiateilnehmer 2004 in Athen und 2012 in London. Lizenzierte Skipper führen jede Tour, alle Teilnehmer erhalten komplette Schutzausrüstung; die Touren eignen sich für Anfänger und Erfahrene. Im Camp gibt es Deluxe-Berghütten mit eigenem Bad und Terrasse mit Flussblick sowie ein ganzjährig geöffnetes Restaurant mit 60 Plätzen und bosnischer Küche. Teambuilding-Programme werden individuell zusammengestellt.",
+   "kapacitet": "restoran 60 mjesta",
+   "lokacija": "Grmuša, Salihovac bb, Bihać (Donji Srbljani / Salihovac)",
+   "lat": null,
+   "lng": null,
+   "web": "https://unaolympicrafting.com",
+   "facebook": "https://www.facebook.com/profile.php?id=61572602890860",
+   "instagram": "https://www.instagram.com/unaolympicrafting/",
+   "youtube": "https://www.youtube.com/watch?v=6h6nLAeDZNI",
+   "telefon": "+387 67 103 7177",
+   "email": "unaolympicrafting@gmail.com",
+   "slike": [
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/02/278567.jpeg",
+     "izvor": "https://unaolympicrafting.com/onama/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/IMG-20250506-WA0118-2.jpg",
+     "izvor": "https://unaolympicrafting.com/rafting/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/IMG-20250506-WA0119.jpg",
+     "izvor": "https://unaolympicrafting.com/rafting/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/IMG-20250506-WA0116.jpg",
+     "izvor": "https://unaolympicrafting.com/rafting/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/IMG-20250506-WA0117-1.jpg",
+     "izvor": "https://unaolympicrafting.com/rafting/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/02/66.jpg",
+     "izvor": "https://unaolympicrafting.com/rafting/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/WhatsApp-Slika-2025-05-06-u-09.17.49_83f7403f.jpg",
+     "izvor": "https://unaolympicrafting.com/smjestaj/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/WhatsApp-Slika-2025-05-06-u-09.17.49_d2e19e0a.jpg",
+     "izvor": "https://unaolympicrafting.com/smjestaj/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/IMG-20250506-WA0039-1.jpg",
+     "izvor": "https://unaolympicrafting.com/restoran/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/IMG-20250506-WA0040-1.jpg",
+     "izvor": "https://unaolympicrafting.com/restoran/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    }
+   ],
+   "izvori": [
+    "https://unaolympicrafting.com/onama/",
+    "https://unaolympicrafting.com/rafting/",
+    "https://unaolympicrafting.com/smjestaj/",
+    "https://unaolympicrafting.com/restoran/",
+    "https://unaolympicrafting.com/teambuilding/",
+    "https://hotel.routard.com/hotel/ba/una-olympic-house.en-gb.html?aid=304142"
+   ],
+   "provjeriti": "Sajt ne navodi rutu, dužinu, cijene, broj kućica ni maksimalnu veličinu grupe – Jasmin da dopuni. Dodati koordinate kampa. Slike nemaju alt tekst (nazivi WhatsApp/IMG) – pregledati sadržaj prije objave. Na sajtu dugmad 'Više' i dio kontakt linkova vode na demo sajt teme (wpriverthemes.com) – popraviti. Iskustvo: sajt navodi i '25+' i '20' godina. Firma nije na PDF popisu rafting agencija NP Una 2026."
+  },
+  {
+   "slug": "bijeli-una-rafting",
+   "ime": "Bijeli Una Rafting (Una-Regata Sport Bijeli)",
+   "grupa": "rafting",
+   "kratko_bs": "Prva rafting agencija u BiH (1996), rute Štrbački buk–Lohovo i Kostela–Grmuša",
+   "opis_bs": "Bijeli Una Rafting, poznat i kao Sport Bijeli, radi od 1996. godine i predstavlja se kao prva rafting agencija u Bosni i Hercegovini. Vodi ga Senad Zulić, bivši olimpijski kajakaš. Nudi adrenalinsku rutu Štrbački buk – Lohovo od 17 km (težina 4–5) i porodičnu rutu Kostela – Grmuša od 14 km (težina 2–3), a novitet je vožnja električnim čamcem po mirnijem dijelu Une. Agencija ima vlastiti Hotel Lohovo za do 50 gostiju, bazen i restoran s otvorenom kuhinjom na obali rijeke. Firmama i klubovima slaže team building pakete koji spajaju rafting, smještaj, ručak i muziku uživo, a nudi i streličarstvo u Bihaću.",
+   "opis_en": "Bijeli Una Rafting (Sport Bijeli), founded in 1996 and run by former Olympic kayaker Senad Zulić, presents itself as the first rafting agency in Bosnia and Herzegovina. It runs the adrenaline route Štrbački buk – Lohovo (17 km, grade 4–5) and the family route Kostela – Grmuša (14 km, grade 2–3), plus an electric-boat trip. It owns Hotel Lohovo (up to 50 guests) with pool and a riverside restaurant, and builds team-building packages with rafting, lodging, lunch and live music; archery is also offered.",
+   "opis_de": "Bijeli Una Rafting (Sport Bijeli), gegründet 1996 und geleitet vom ehemaligen Olympia-Kajakfahrer Senad Zulić, gilt als erste Rafting-Agentur in Bosnien und Herzegowina. Angeboten werden die Adrenalin-Strecke Štrbački buk – Lohovo (17 km, Schwierigkeit 4–5) und die Familienstrecke Kostela – Grmuša (14 km, 2–3) sowie Fahrten mit einem Elektroboot. Zum Betrieb gehören Hotel Lohovo (bis 50 Gäste), Pool und Restaurant am Fluss; Teambuilding-Pakete umfassen Rafting, Unterkunft, Mittagessen und Livemusik, dazu Bogenschießen.",
+   "kapacitet": "Hotel Lohovo do 50 osoba",
+   "lokacija": "Lohovo, Bihać (ranija adresa: Klokot-Pecikovići bb)",
+   "lat": null,
+   "lng": null,
+   "web": "https://www.bijeli-una-rafting.com",
+   "facebook": "https://www.facebook.com/bijeliunarafting/",
+   "instagram": "https://www.instagram.com/bijeli_una_rafting/",
+   "youtube": "",
+   "telefon": "+387 61 138 853; +387 61 100 790",
+   "email": "raftingbijeli@gmail.com",
+   "slike": [
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_b3dfa092c7724b0a9f38db2b21347dc5~mv2.jpeg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    },
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_4936f27f4ff94db981e4d8fb78ae6996~mv2.jpg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    },
+    {
+     "url": "https://static.wixstatic.com/media/1a5b00_e4e4dfbc3bff4f7aa137ff6d638218aa~mv2.jpeg",
+     "izvor": "https://www.bijeli-una-rafting.com/en",
+     "licenca": "službena stranica",
+     "autor": "Bijeli Una Rafting"
+    }
+   ],
+   "izvori": [
+    "https://www.bijeli-una-rafting.com/en",
+    "https://www.inyourpocket.com/bihac/Sport-Biljeli_53858v",
+    "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
+   ],
+   "provjeriti": "Jasminov 'Sport Bihać' je vjerovatno ovaj 'Sport Bijeli'. Instagram se na sajtu pojavljuje kao @bijeli_una_rafting i @bijeliunarafting – provjeriti koji je aktivan. Fiksni broj +387 37 380 222 (IYP) i web una-rafting.ba vjerovatno zastarjeli."
+  },
+  {
+   "slug": "una-rc-kiro-rafting",
+   "ime": "Una RC Kiro Rafting",
+   "grupa": "rafting",
+   "kratko_bs": "Rafting kamp u Golubiću, 5 km od Bihaća, s kampom, bazenima i restoranom",
+   "opis_bs": "Una RC Kiro Rafting ima bazni kamp u selu Golubić, oko pet kilometara uzvodno od Bihaća, na terasastom terenu uz Unu. Organizira rafting za sve uzraste i nivoe iskustva, za male i velike grupe, a u ponudi su i kajak i veslanje na divljim vodama. Kamp se prostire na oko 2,5 hektara i ima mjesta za kampere, smještajne jedinice, vanjski i zatvoreni bazen te restoran i WiFi. Gosti na portalima posebno hvale osoblje i prilagođenost djeci. Kamp radi od 1. aprila do 31. oktobra, pa je dobar izbor za sezonske team buildinge koji spajaju rafting, boravak u prirodi i zajedničke obroke.",
+   "opis_en": "Una RC Kiro Rafting runs a base camp in Golubić, about 5 km upstream of Bihać, on terraced ground by the Una. It offers rafting for all ages and skill levels and for small or large groups, plus kayaking. The 2.5-hectare camp has pitches, rental units, outdoor and indoor pools, a restaurant and WiFi, and is open from 1 April to 31 October.",
+   "opis_de": "Una RC Kiro Rafting betreibt ein Basiscamp in Golubić, etwa 5 km flussaufwärts von Bihać, auf terrassiertem Gelände an der Una. Angeboten wird Rafting für alle Altersstufen und Gruppengrößen sowie Kajak. Das 2,5 ha große Camp hat Stellplätze, Mietunterkünfte, Außen- und Hallenbad, Restaurant und WLAN und ist vom 1. April bis 31. Oktober geöffnet.",
+   "kapacitet": "kamp 2,5 ha, 15 mjesta za kampere, 25 smještajnih jedinica (prema ACSI Eurocampings)",
+   "lokacija": "Golubić bb, Bihać",
+   "lat": 44.783006,
+   "lng": 15.924954,
+   "web": "http://www.una-kiro-rafting.com",
+   "facebook": "https://www.facebook.com/UnaRCKiroRafting/",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 61 192 338; +387 61 687 421",
+   "email": "extreme@una-kiro-rafting.com",
+   "slike": [],
+   "izvori": [
+    "https://inyourpocket.com/kiro-rafting_161536v",
+    "https://www.eurocampings.co.uk/bosnia-and-herzegovina/bihac/una-rc-kiro-rafting-121294/",
+    "https://campertunity.com/listings/campgrounds/camping-una-rc-kiro-rafting-bihac-canton-10.md",
+    "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
+   ],
+   "provjeriti": "Službeni sajt una-kiro-rafting.com nije bilo moguće otvoriti – slike i rute uzeti odatle nakon provjere. Na listi NP Una 2026 su (aktivni)."
+  },
+  {
+   "slug": "una-pirates",
+   "ime": "Una Pirates",
+   "grupa": "rafting",
+   "kratko_bs": "Rafting R1/R2, kajak safari, paintball, airsoft, kvad i izlet na Željavu",
+   "opis_bs": "Una Pirates je rafting tim agencije Genesis iz Bihaća, s jednom od najširih ponuda aktivnosti u gradu. Ruta R1 kreće od Štrbačkog buka u Nacionalnom parku Una, traje oko šest sati i namijenjena je osobama od 16 godina, dok je ruta R2 kroz kanjon kod Kostele lakša i pogodna za djecu od pet godina. Tu je i kajak safari na kostelskoj dionici od oko tri sata. Osim vode, agencija nudi vođeni obilazak napuštenog vojnog aerodroma Željava, paintball, airsoft, kvad ture, mušičarenje, penjanje, planinarenje i biciklizam, a ima i posebnu ponudu za team building. Ovo je praktičan partner kada firma želi više aktivnosti kod jednog organizatora.",
+   "opis_en": "Una Pirates, run by Agencija Genesis in Bihać, offers route R1 from Štrbački buk in Una National Park (about 6 h, age 16+), the easier R2 'Paradise' route at Kostela (about 4 h, age 5+), and a 3-hour kayak safari. They also run guided trips to the abandoned Željava military airbase, paintball, airsoft, quad tours, fly fishing, climbing, hiking and biking, and have a dedicated team-building offer.",
+   "opis_de": "Una Pirates (Agencija Genesis, Bihać) bietet die Route R1 ab Štrbački buk im Nationalpark Una (ca. 6 Std., ab 16 Jahren), die leichtere R2 bei Kostela (ca. 4 Std., ab 5 Jahren) und eine dreistündige Kajak-Safari. Dazu kommen Führungen zum verlassenen Militärflughafen Željava, Paintball, Airsoft, Quad-Touren, Fliegenfischen, Klettern, Wandern und Radfahren sowie ein eigenes Teambuilding-Angebot.",
+   "kapacitet": "",
+   "lokacija": "5. korpusa 19b, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://unapiratesrafting.com",
+   "facebook": "https://www.facebook.com/unapirates",
+   "instagram": "https://www.instagram.com/una_pirates",
+   "youtube": "https://www.youtube.com/@UNAPIRATES",
+   "telefon": "+387 61 782 339; +387 60 305 6749; +387 61 775 234; +387 37 220 175",
+   "email": "unapirates@gmail.com",
+   "slike": [
+    {
+     "url": "https://unapiratesrafting.com/assets/images/rute/r1/prevrtac/prevrtac1.jpeg",
+     "izvor": "https://unapiratesrafting.com/",
+     "licenca": "službena stranica",
+     "autor": "Una Pirates"
+    },
+    {
+     "url": "https://unapiratesrafting.com/assets/images/rute/r1/kartice/strbackibuk1.webp",
+     "izvor": "https://unapiratesrafting.com/",
+     "licenca": "službena stranica",
+     "autor": "Una Pirates"
+    },
+    {
+     "url": "https://unapiratesrafting.com/assets/images/galerija/slika4.webp",
+     "izvor": "https://unapiratesrafting.com/",
+     "licenca": "službena stranica",
+     "autor": "Una Pirates"
+    }
+   ],
+   "izvori": [
+    "https://unapiratesrafting.com/",
+    "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
+   ],
+   "provjeriti": "Cijene sa sajta (R1 55€, R2 40€, kajak 35–36€) nisu unesene u opis jer se mijenjaju. HR broj iz NP liste: +385 99 69 09 691."
+  },
+  {
+   "slug": "una-avant-rafting",
+   "ime": "Rafting Una Avant (raftingbihac.ba)",
+   "grupa": "rafting",
+   "kratko_bs": "Rafting Kostela i Štrbački buk s polaskom iz Golubića, prevoz uključen",
+   "opis_bs": "Una Avant je rafting agencija sa polaznom tačkom u Golubiću kod Bihaća, koja posluje preko sajta raftingbihac.ba. Nudi dvije rute: rutu Kostela od oko 14 kilometara i četiri sata, pogodnu i za mlađu djecu, te dužu rutu Štrbački buk od oko šest sati za starije od 12 godina. U cijenu su uključeni oprema, licencirani skiper i prevoz do starta i nazad. Agencija upozorava da se termini za grupe vikendom i praznicima u junu i julu brzo popune, pa je za team building potrebno rezervisati unaprijed.",
+   "opis_en": "Una Avant is a rafting agency starting from Golubić near Bihać (website raftingbihac.ba). It runs the Kostela route (about 14 km, 4 h, family-friendly) and the longer Štrbački buk route (about 6 h, age 12+). Equipment, a licensed skipper and transport are included. Group slots on June and July weekends fill quickly.",
+   "opis_de": "Una Avant ist eine Rafting-Agentur mit Startpunkt in Golubić bei Bihać (Website raftingbihac.ba). Angeboten werden die Kostela-Route (ca. 14 km, 4 Std., familienfreundlich) und die längere Štrbački-buk-Route (ca. 6 Std., ab 12 Jahren). Ausrüstung, lizenzierter Skipper und Transfer sind inklusive; Gruppentermine im Juni und Juli sind schnell ausgebucht.",
+   "kapacitet": "",
+   "lokacija": "Golubić bb, Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://raftingbihac.ba",
+   "facebook": "https://www.facebook.com/p/Rafting-Una-Avant-61576835360253/",
+   "instagram": "https://www.instagram.com/unaavant/",
+   "youtube": "https://www.youtube.com/channel/UCwpKpHg_2sD-SwzpZGS2yrg",
+   "telefon": "+387 61 638 202",
+   "email": "unaavant.rafting@gmail.com",
+   "slike": [
+    {
+     "url": "https://raftingbihac.ba/assets/images/blog/rafting-bihac.webp",
+     "izvor": "https://www.raftingbihac.ba/blog/rafting-bihac/",
+     "licenca": "službena stranica",
+     "autor": "Una Avant"
+    }
+   ],
+   "izvori": [
+    "https://www.raftingbihac.ba/blog/rafting-bihac/"
+   ],
+   "provjeriti": "Nije na PDF popisu agencija NP Una 2026 – provjeriti licencu za rutu Štrbački buk. Moguće da je ovo Jasminov 'Bihać Rafting Club' (domena raftingbihac.ba) – nesigurno."
+  },
+  {
+   "slug": "una-aquarius",
+   "ime": "Rafting Centar Una Aquarius",
+   "grupa": "rafting",
+   "kratko_bs": "Rafting Štrbački buk – Loskun i kamp u Nacionalnom parku Una",
+   "opis_bs": "Rafting Centar Una Aquarius organizira spustove Unom u Nacionalnom parku Una, a najtraženija im je ruta R1 od Štrbačkog buka do Loskuna. Tim čine certificirani vodiči koji se predstavljaju kao dvostruki prvaci BiH u raftingu. Koriste gumene čamce od hypalona, a učesnici dobijaju neoprenska odijela i čizme, prsluke, kacige i vesla. Na ruti su predviđene pauze, skokovi sa stijene od oko sedam metara i kupanje kod slapova. Imaju vlastiti kamp u parku gdje se, prema gostima, služi domaća hrana. Sami ističu da je lokacija dobar izbor za team building, a da kapacitet za grupe nije ograničen.",
+   "opis_en": "Una Aquarius runs rafting trips in Una National Park, with its signature R1 route from Štrbački buk to Loskun. Certified guides, who describe themselves as two-time BiH rafting champions, provide Hypalon rafts, neoprene suits and boots, life jackets, helmets and paddles. Stops include cliff jumps of about 7 m. Their own camp in the park serves home-cooked food and is promoted for team building.",
+   "opis_de": "Una Aquarius bietet Rafting im Nationalpark Una an, vor allem die Route R1 von Štrbački buk nach Loskun. Zertifizierte Guides – nach eigener Angabe zweifache Rafting-Meister von BiH – stellen Hypalon-Boote, Neoprenanzüge und -schuhe, Westen, Helme und Paddel. Unterwegs gibt es Pausen und Klippensprünge von etwa 7 m. Das eigene Camp im Park mit Hausmannskost wird für Teambuilding empfohlen.",
+   "kapacitet": "",
+   "lokacija": "Nacionalni park Una (Bihać)",
+   "lat": null,
+   "lng": null,
+   "web": "https://una-aquarius.com",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 61 354 544",
+   "email": "info@una-aquarius.com",
+   "slike": [],
+   "izvori": [
+    "https://una-aquarius.com/about-us",
+    "https://una-aquarius.com",
+    "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
+   ],
+   "provjeriti": "Telefon i e-mail su s liste NP Una 2026 (sajt ih nije prikazao). Tačna lokacija kampa i slike nisu pronađeni."
+  },
+  {
+   "slug": "una-raft-lohovo",
+   "ime": "Rafting Eko Klub Una-Raft",
+   "grupa": "rafting",
+   "kratko_bs": "Rafting klub u Lohovu s bungalovima, dionica Štrbački buk – Loskun – Lohovo",
+   "opis_bs": "Rafting Eko Klub Una-Raft ima sjedište u Lohovu, selu na Uni gdje završavaju spustovi od Štrbačkog buka. Na sajtu predstavlja rafting na dionici kod Loskunskog slapa i nudi smještaj u bungalovima u Lohovu, kao i posebne aranžmane. Zbog toga je zgodan kada grupa želi prenoćiti uz samu rijeku, na mjestu gdje završava rafting. Klub je na službenom popisu rafting agencija Nacionalnog parka Una za 2026. godinu, što znači da ima dozvolu za rad u parku.",
+   "opis_en": "Rafting Eko Klub Una-Raft is based in Lohovo, the village where trips from Štrbački buk end. Its site features the Loskun waterfall section and offers bungalow accommodation in Lohovo plus package deals. The club appears on Una National Park's 2026 list of rafting agencies.",
+   "opis_de": "Der Rafting Eko Klub Una-Raft hat seinen Sitz in Lohovo, wo die Touren ab Štrbački buk enden. Die Website zeigt den Abschnitt am Loskun-Wasserfall und bietet Bungalows in Lohovo sowie Pauschalangebote. Der Klub steht auf der Liste der Rafting-Agenturen des Nationalparks Una für 2026.",
+   "kapacitet": "",
+   "lokacija": "Lohovo 18, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://unaraft.com",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 65 887 787",
+   "email": "infounaraft@gmail.com",
+   "slike": [
+    {
+     "url": "https://unaraft.com/wp-content/uploads/2026/01/loskun-plavi-camac.jpg",
+     "izvor": "https://unaraft.com/",
+     "licenca": "službena stranica",
+     "autor": "Una-Raft"
+    },
+    {
+     "url": "https://unaraft.com/wp-content/uploads/2026/01/iznad-loskunskog-slapa.jpg",
+     "izvor": "https://unaraft.com/",
+     "licenca": "službena stranica",
+     "autor": "Una-Raft"
+    }
+   ],
+   "izvori": [
+    "https://unaraft.com/",
+    "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
+   ],
+   "provjeriti": "E-mail se razlikuje: sajt infounaraft@gmail.com, NP lista unaraftinfo@gmail.com. Broj bungalova nije naveden."
+  },
+  {
+   "slug": "una-seni-rafting",
+   "ime": "Una Seni Rafting",
+   "grupa": "rafting",
+   "kratko_bs": "Vođeni rafting u NP Una uz smještaj u apartmanima",
+   "opis_bs": "Una Seni Rafting je manja bihaćka agencija koja organizira vođeni rafting na rijeci Uni u području Nacionalnog parka Una. Uz spust nudi i smještaj u apartmanima te preporuke za obilazak lokalnih znamenitosti. Agencija je na službenom popisu rafting agencija NP Una za 2026. godinu. Zbog manjeg obima više odgovara manjim timovima ili kao dodatni kapacitet kada veća grupa treba više čamaca istovremeno.",
+   "opis_en": "Una Seni Rafting is a small Bihać agency offering guided rafting on the Una in the Una National Park area, plus apartment accommodation and tips on local sights. It is on the park's official 2026 list of rafting agencies.",
+   "opis_de": "Una Seni Rafting ist eine kleine Agentur aus Bihać mit geführtem Rafting auf der Una im Nationalpark sowie Apartment-Unterkünften und Ausflugstipps. Sie steht auf der offiziellen Liste der Rafting-Agenturen des Nationalparks für 2026.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://unasenirafting.com",
+   "facebook": "https://www.facebook.com/Seniraft/",
+   "instagram": "https://www.instagram.com/una_seni_rafting/",
+   "youtube": "",
+   "telefon": "+387 61 138 658",
+   "email": "senad1991.v@gmail.com",
+   "slike": [],
+   "izvori": [
+    "https://unasenirafting.com/kontakt/",
+    "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
+   ],
+   "provjeriti": "Telefon se razlikuje: sajt +387 61 138 658, NP lista +387 61 591 401."
+  },
+  {
+   "slug": "una-aqua-centar-srce-prirode",
+   "ime": "Una Aqua Centar / Srce prirode",
+   "grupa": "rafting",
+   "kratko_bs": "Rafting, planinarenje, bicikli i smještaj u kućicama na drvetu kod Japodskih otoka",
+   "opis_bs": "Una Aqua Centar iz Račića kod Bihaća nudi rafting na Uni, od adrenalinskih spustova preko brzaka do mirnijih varijanti za porodice i početnike. Osim raftinga organizira planinarenje, bicikliranje, obilaske Bihaća i team building avanture. Smještaj nudi u području Japodskih otoka, uključujući i kućice na drvetu, što je zanimljiv dodatak za timove koji žele nešto drugačije od klasičnog hotela. Na popisu agencija NP Una za 2026. godinu vodi se pod imenom Srce prirode.",
+   "opis_en": "Una Aqua Centar in Račić near Bihać offers Una rafting from adrenaline runs to calmer family trips, plus hiking, biking, Bihać tours and team-building adventures. Accommodation is around Japodski otoci, including treehouses. On the national park's 2026 agency list it appears as 'Srce prirode'.",
+   "opis_de": "Una Aqua Centar in Račić bei Bihać bietet Rafting von Adrenalin- bis Familientouren sowie Wandern, Radfahren, Stadttouren und Teambuilding-Abenteuer. Übernachtet wird im Bereich Japodski otoci, auch in Baumhäusern. Auf der Agenturliste des Nationalparks 2026 erscheint es als 'Srce prirode'.",
+   "kapacitet": "",
+   "lokacija": "Račić bb, Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://www.una-aqua.com",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 63 141 414; +387 61 604 313",
+   "email": "info@una-aqua.com",
+   "slike": [],
+   "izvori": [
+    "https://inyourpocket.com/Una-Aqua-Centar_53859v",
+    "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
+   ],
+   "provjeriti": "Veza Una Aqua Centar = 'Srce prirode' izvedena iz istog e-maila (info@una-aqua.com). Službeni sajt nije otvoren."
+  },
+  {
+   "slug": "green-river-rafting",
+   "ime": "Green River Rafting",
+   "grupa": "rafting",
+   "kratko_bs": "Rafting iz Lohova, cjelodnevni i višednevni izleti, ture i u Hrvatskoj",
+   "opis_bs": "Green River Rafting je rafting agencija sa sjedištem u Lohovu kod Bihaća. Prema vodiču In Your Pocket organizira spustove Unom koji mogu trajati cijeli dan ili duže, uz kompletnu opremu, a može dogovoriti i slične ture preko granice u Hrvatskoj. Višednevni program može biti zanimljiv timovima koji žele izlet od dva ili više dana na rijeci. Agencija se ne nalazi na popisu NP Una za 2026. godinu, pa prije uključivanja u ponudu treba provjeriti da li još radi.",
+   "opis_en": "Green River Rafting is based in Lohovo near Bihać. According to In Your Pocket it runs full-day or longer Una trips with all equipment and can arrange similar tours across the border in Croatia. It is not on the national park's 2026 list, so its current status needs checking.",
+   "opis_de": "Green River Rafting hat seinen Sitz in Lohovo bei Bihać. Laut In Your Pocket bietet es ganztägige oder längere Una-Touren mit kompletter Ausrüstung und organisiert auch Touren in Kroatien. Es steht nicht auf der Nationalpark-Liste 2026; der aktuelle Betrieb ist zu prüfen.",
+   "kapacitet": "",
+   "lokacija": "Lohovo bb, Bihać",
+   "lat": 44.750457,
+   "lng": 15.928151,
+   "web": "http://unarafting.com",
+   "facebook": "https://www.facebook.com/Green-River-Rafting-196278084099452/",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bihac/green-river-rafting_161537v"
+   ],
+   "provjeriti": "Nije na popisu NP Una 2026 – moguće neaktivna. Telefon nije pronađen."
+  }
+ ],
+ "ostale_agencije_np_una_2026": {
+  "napomena": "Ostale agencije s licencom NP Una za 2026 (samo telefon/e-mail iz PDF-a parka; nisu dalje provjeravane).",
+  "izvor": "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf",
+  "lista": [
+   {
+    "ime": "Rafting Centar Svarog",
+    "telefon": "+387 63 061 044",
+    "email": "unaevo@gmail.com"
+   },
+   {
+    "ime": "Turističke usluge Una Canyon Raft",
+    "telefon": "+387 66 397 035; +387 62 735 429",
+    "email": "info@una-canyon-rafting.com"
+   },
+   {
+    "ime": "Rafting klub Unaxtreme",
+    "telefon": "+387 61 921 918",
+    "email": "unaxtremerafting@gmail.com"
+   },
+   {
+    "ime": "Una Rafting Gala",
+    "telefon": "+387 63 505 183",
+    "email": "ervin.galic@gmail.com"
+   },
+   {
+    "ime": "Rafting centar Raftmania",
+    "telefon": "+387 62 083 138",
+    "email": "raftmania.bihac23@gmail.com"
+   },
+   {
+    "ime": "Lotus Rafting Una",
+    "telefon": "+387 66 810 001; +387 61 782 320",
+    "email": "lotusraftuna@gmail.com"
+   },
+   {
+    "ime": "Una Tour Rafting",
+    "telefon": "+387 62 593 359",
+    "email": "handukicharis63@gmail.com"
+   },
+   {
+    "ime": "Rafting Centar Discover Bihać",
+    "telefon": "+387 62 229 259",
+    "email": "info@raftinguna.com"
+   },
+   {
+    "ime": "Rafting Centar Una Unique",
+    "telefon": "+387 61 444 532",
+    "email": "una-unique-rafting@hotmail.com"
+   },
+   {
+    "ime": "Una Riders",
+    "telefon": "+387 61 793 301",
+    "email": "unariders@gmail.com"
+   },
+   {
+    "ime": "Cesaria",
+    "telefon": "+387 61 589 292",
+    "email": "cesariarafting@gmail.com"
+   },
+   {
+    "ime": "Una Rafting HH",
+    "telefon": "+387 63 160 930",
+    "email": "vahidinhenda2@gmail.com"
+   }
+  ]
+ },
+ "aktivnosti": [
+  {
+   "slug": "una-kayak-safari",
+   "ime": "Una Kayak Safari",
+   "grupa": "kajak",
+   "kratko_bs": "Vođene kajak ture Unom za sve uzraste, uz rafting",
+   "opis_bs": "Una Kayak Safari je bihaćka agencija specijalizirana za vođene kajak ture na rijeci Uni. Nudi nekoliko varijanti tura prilagođenih svim uzrastima, od djece do starijih, a vode ih iskusni vodiči s profesionalnom opremom. Pored kajaka organizira i rafting. Kajak je dobra alternativa ili dopuna raftingu za timove koji žele mirniji tempo i više samostalnog veslanja, jer svaki učesnik upravlja vlastitim čamcem. Agencija je na službenom popisu NP Una za 2026. godinu.",
+   "opis_en": "Una Kayak Safari is a Bihać agency specialising in guided kayak tours on the Una, with several options suitable for all ages, experienced guides and professional gear. It also runs rafting. Kayaking is a calmer alternative or add-on to rafting for teams. Listed by Una National Park for 2026.",
+   "opis_de": "Una Kayak Safari ist eine Agentur aus Bihać für geführte Kajaktouren auf der Una – mehrere Varianten für alle Altersstufen, erfahrene Guides, professionelle Ausrüstung. Auch Rafting wird angeboten. Kajak ist eine ruhigere Alternative oder Ergänzung zum Rafting. Vom Nationalpark Una für 2026 gelistet.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://www.unakayaksafari.com/",
+   "facebook": "https://www.facebook.com/unakajaksafari/",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 62 198 497",
+   "email": "unakayaksafari@gmail.com",
+   "slike": [],
+   "izvori": [
+    "https://inyourpocket.com/bihac/una-kajak-safari_167627v",
+    "https://npuna.com/wp-content/uploads/2020/03/Rafting-agencije-2026.-1.pdf"
+   ],
+   "provjeriti": "Kajak safari nude i Una Pirates (kostelska dionica, ~3 h). Na lll.ba se pojavljuje IG @kajak_bihac – nije potvrđeno čiji je."
+  },
+  {
+   "slug": "una-pirates-paintball-kvad-zeljava",
+   "ime": "Una Pirates – paintball, airsoft, kvad i Željava",
+   "grupa": "paintball | kvad | izlet",
+   "kratko_bs": "Paintball, airsoft, kvad ture i vođeni obilazak aerodroma Željava",
+   "opis_bs": "Osim raftinga, agencija Una Pirates iz Bihaća nudi niz kopnenih aktivnosti koje se lako uklapaju u team building program. Na listi su paintball i airsoft, vožnja kvadovima, penjanje, planinarenje i biciklizam, kao i vođeni obilazak napuštenog podzemnog vojnog aerodroma Željava na Plješevici, jednog od najzanimljivijih izleta u okolini. Prednost je što se sve aktivnosti mogu rezervisati kod jednog organizatora, pa je logistika za grupu jednostavnija. Detalje o terenu za paintball, broju kvadova i cijenama treba dogovoriti direktno.",
+   "opis_en": "Besides rafting, Una Pirates offers paintball, airsoft, quad riding, climbing, hiking and biking, plus guided visits to the abandoned underground Željava military airbase on Plješevica. Booking several activities with one organiser keeps group logistics simple; field location, number of quads and prices must be agreed directly.",
+   "opis_de": "Neben Rafting bietet Una Pirates Paintball, Airsoft, Quadfahren, Klettern, Wandern und Radfahren sowie Führungen zum verlassenen unterirdischen Militärflughafen Željava an der Plješevica. Mehrere Aktivitäten bei einem Anbieter vereinfachen die Gruppenlogistik; Gelände, Anzahl der Quads und Preise sind direkt zu klären.",
+   "kapacitet": "",
+   "lokacija": "5. korpusa 19b, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://unapiratesrafting.com",
+   "facebook": "https://www.facebook.com/unapirates",
+   "instagram": "https://www.instagram.com/una_pirates",
+   "youtube": "https://www.youtube.com/@UNAPIRATES",
+   "telefon": "+387 61 782 339",
+   "email": "unapirates@gmail.com",
+   "slike": [],
+   "izvori": [
+    "https://unapiratesrafting.com/"
+   ],
+   "provjeriti": "Jedini pronađeni ponuđač paintballa u okolini Bihaća. Lokacija terena i kapacitet nepoznati."
+  },
+  {
+   "slug": "quadrent-adventure",
+   "ime": "Quadrent Adventure",
+   "grupa": "kvad",
+   "kratko_bs": "Najam kvadova u Bihaću",
+   "opis_bs": "Quadrent Adventure je bihaćka firma za iznajmljivanje kvadova, koja prema vodiču In Your Pocket ima veći broj vozila na raspolaganju. Kvad ture su popularan dodatak team buildingu jer omogućavaju vožnju makadamskim i šumskim putevima oko grada u manjim grupama. Prema istom izvoru, firma se kontaktira preko društvenih mreža, gdje objavljuje raspoloživost vozila. Prije uvrštavanja u ponudu treba provjeriti trenutne kontakte, uslove za vozače i maksimalnu veličinu grupe.",
+   "opis_en": "Quadrent Adventure rents quad bikes in Bihać and, according to In Your Pocket, has a sizeable fleet. Quad tours on gravel and forest roads around town are a popular team-building add-on. Contact is via social media; current details, driver requirements and group size need confirming.",
+   "opis_de": "Quadrent Adventure vermietet Quads in Bihać und verfügt laut In Your Pocket über viele Fahrzeuge. Quad-Touren auf Schotter- und Waldwegen sind eine beliebte Teambuilding-Ergänzung. Kontakt über soziale Medien; aktuelle Daten, Fahrervoraussetzungen und Gruppengröße sind zu prüfen.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://inyourpocket.com/quadrent-adventure_167625v"
+   ],
+   "provjeriti": "Nema kontakata u izvoru; pronaći FB/IG profil. Na tourismbih.com postoji i 'Rent a Quad Ibrišimović Spahići' (stranica nije mogla biti otvorena)."
+  },
+  {
+   "slug": "amir-fly-fishing",
+   "ime": "Amir Fly Fishing",
+   "grupa": "ribolov",
+   "kratko_bs": "Vođeni mušičarski ribolov na Uni s lokalnim vodičem Amirom Alagićem",
+   "opis_bs": "Amir Fly Fishing vodi Amir Alagić, rođeni Bihaćanin koji organizira vođeni mušičarski ribolov na rijeci Uni. Gostima obezbjeđuje svu potrebnu opremu za dan na rijeci, pa nije potrebno imati vlastiti pribor. Za firme je ovo mirnija aktivnost, pogodna za manje grupe, menadžment ili kao alternativa za učesnike koji ne žele na rafting. Una je poznata po čistoj vodi i ribi, pa je ovakav izlet i dobra prilika da se upozna rijeka iz drugog ugla.",
+   "opis_en": "Amir Fly Fishing is run by Bihać native Amir Alagić, who guides fly-fishing trips on the Una and supplies all the gear needed. A calm option for small groups, management teams or anyone skipping the rafting.",
+   "opis_de": "Amir Fly Fishing wird vom Einheimischen Amir Alagić geführt, der Fliegenfisch-Touren an der Una mit kompletter Ausrüstung anbietet. Eine ruhige Option für kleine Gruppen, Führungsteams oder alle, die kein Rafting möchten.",
+   "kapacitet": "",
+   "lokacija": "Hatinac bb, Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://www.amirflyfishing.com/",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 62 067 088",
+   "email": "amirflyfishing@gmail.com",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/amir-fly-fishing"
+   ],
+   "provjeriti": "Potvrditi da usluga još radi; ribolovna dozvola za Unu vjerovatno potrebna."
+  },
+  {
+   "slug": "daj-krug-bike-club",
+   "ime": "Daj Krug Bike Club",
+   "grupa": "bicikli",
+   "kratko_bs": "Biciklistički klub – izleti biciklističkim stazama oko Bihaća",
+   "opis_bs": "Daj Krug je bihaćki biciklistički klub s više od deset godina iskustva u vožnji lokalnim stazama. Organizira biciklističke izlete po stazama oko Bihaća i zalaže se za očuvanje prirode u okolini grada. Za team building može poslužiti kao partner za vođenu vožnju, bilo kao poludnevni program ili kao lagana aktivnost dan nakon raftinga. Prije uvrštavanja treba provjeriti da li klub ima bicikle za najam ili učesnici moraju donijeti svoje.",
+   "opis_en": "Daj Krug is a Bihać cycling club with over a decade of experience on local trails. It runs bike excursions around Bihać and promotes protecting the local nature. A possible partner for guided rides; bike rental availability needs checking.",
+   "opis_de": "Daj Krug ist ein Radclub aus Bihać mit über zehn Jahren Erfahrung auf den lokalen Strecken. Er organisiert Radausflüge rund um Bihać und setzt sich für den Naturschutz ein. Möglicher Partner für geführte Touren; ob Leihräder verfügbar sind, ist zu prüfen.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "https://www.facebook.com/dajkrug/",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 61 137 581",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/daj-krug-bike-club"
+   ],
+   "provjeriti": "Najam bicikala nije potvrđen. Hotel Opal Exclusive također iznajmljuje bicikle gostima."
+  },
+  {
+   "slug": "seosko-domacinstvo-cardaklije",
+   "ime": "Seosko domaćinstvo Čardaklije",
+   "grupa": "jahanje",
+   "kratko_bs": "Etno imanje kod Bosanskog Petrovca: jahanje, e-bicikli i domaća hrana",
+   "opis_bs": "Seosko domaćinstvo Čardaklije je etno imanje u selu Vrtoče kod Bosanskog Petrovca, uz magistralni put Bihać – Sarajevo, otprilike na tridesetom kilometru od Bihaća. Gostima nudi jahanje, najam električnih bicikala i domaće obroke pripremljene na imanju. Za firme je zanimljivo kao poludnevni izlet izvan grada, gdje se aktivnost na konjima ili biciklima može spojiti s ručkom u seoskom ambijentu. Ovo je jedini ponuđač jahanja koji je pronađen u okolini Bihaća.",
+   "opis_en": "Čardaklije is an ethno-village farm in Vrtoče near Bosanski Petrovac, on the Bihać–Sarajevo road roughly 30 km from Bihać. It offers horseback riding, e-bike rental and home-cooked meals – a good half-day trip combining activity and a countryside lunch. The only horse-riding provider found near Bihać.",
+   "opis_de": "Čardaklije ist ein Ethno-Bauernhof in Vrtoče bei Bosanski Petrovac an der Straße Bihać–Sarajevo, etwa 30 km von Bihać. Angeboten werden Reiten, E-Bike-Verleih und hausgemachte Mahlzeiten – ein guter Halbtagesausflug mit ländlichem Mittagessen. Der einzige gefundene Reitanbieter in der Nähe von Bihać.",
+   "kapacitet": "",
+   "lokacija": "Vrtoče, Bosanski Petrovac (magistrala Bihać – Sarajevo, ~30. km)",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "https://www.instagram.com/seosko_domacinstvo_cardaklije/",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://lll.ba/what-to-do-in-bihac"
+   ],
+   "provjeriti": "Telefon i kapacitet nisu pronađeni; kontaktirati preko Instagrama."
+  },
+  {
+   "slug": "zipline-iznad-une-bosanska-krupa",
+   "ime": "Zipline iznad Une (Bosanska Krupa)",
+   "grupa": "zipline",
+   "kratko_bs": "Zipline od 230 m iznad Une u Bosanskoj Krupi, brzina do 65 km/h",
+   "opis_bs": "Najbliži zipline Bihaću nalazi se u Bosanskoj Krupi, gdje se sajla spušta niz padine iznad grada prema brdu Ćojluk, iznad rijeke Une. Dug je oko 230 metara, a brzina spusta doseže 65 km/h. Vodi ga Klub adrenalinskih sportova Bosanska Krupa. Radi vikendom od 11 do 20 sati, a radnim danima popodne uz prethodnu rezervaciju. Broj posjetilaca po danu je ograničen, pa za grupu treba rezervisati unaprijed. Može se uklopiti u izlet niz Unu prema Bosanskoj Krupi.",
+   "opis_en": "The nearest zipline to Bihać is in Bosanska Krupa: about 230 m long above the Una, running towards Ćojluk hill at up to 65 km/h. It is run by the Bosanska Krupa Adrenaline Sports Club, open weekends 11:00–20:00 and weekday afternoons by reservation. Daily numbers are limited, so groups must book ahead.",
+   "opis_de": "Die nächste Zipline bei Bihać befindet sich in Bosanska Krupa: ca. 230 m lang über der Una Richtung Ćojluk-Hügel, bis zu 65 km/h schnell. Betreiber ist der Adrenalinsport-Klub Bosanska Krupa; geöffnet am Wochenende 11–20 Uhr, werktags nachmittags nach Reservierung. Die Tageskapazität ist begrenzt.",
+   "kapacitet": "",
+   "lokacija": "Bosanska Krupa (prema brdu Ćojluk)",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://seesrpska.com/en/avantura/adrenalin-i-pogled-na-unu-iz-vazduha-5-4-2026"
+   ],
+   "provjeriti": "Kontakt kluba nije naveden u članku. U Bihaću nije pronađen zipline ni avantura park."
+  },
+  {
+   "slug": "bijeli-streljastvo",
+   "ime": "Streličarstvo – Bijeli Una Rafting",
+   "grupa": "streličarstvo",
+   "kratko_bs": "Streličarstvo na poligonu u Bihaću, oko sat vremena, popust za grupe",
+   "opis_bs": "Agencija Bijeli Una Rafting uz rafting nudi i streličarstvo na poligonu u Bihaću. Termin traje oko sat vremena, a za grupe postoji popust. Streličarstvo je dobra takmičarska aktivnost za timove, jer se lako organizira turnir po ekipama, a ne traži posebnu fizičku spremu. Može poslužiti kao program za dan kada vremenski uslovi nisu idealni za rijeku ili kao dodatak raftingu i ručku u Lohovu.",
+   "opis_en": "Bijeli Una Rafting also offers archery at a range in Bihać, about one hour per session with group discounts. Archery works well as a team tournament and needs no special fitness, as a rainy-day option or add-on to rafting and lunch in Lohovo.",
+   "opis_de": "Bijeli Una Rafting bietet auch Bogenschießen auf einem Platz in Bihać an – ca. eine Stunde, mit Gruppenrabatt. Ideal als Team-Turnier ohne besondere Fitness, als Schlechtwetter-Option oder Ergänzung zu Rafting und Mittagessen in Lohovo.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://www.bijeli-una-rafting.com",
+   "facebook": "https://www.facebook.com/bijeliunarafting/",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 61 138 853",
+   "email": "raftingbijeli@gmail.com",
+   "slike": [],
+   "izvori": [
+    "https://www.bijeli-una-rafting.com/en"
+   ],
+   "provjeriti": "Cijena na sajtu 25 KM/osobi – potvrditi."
+  },
+  {
+   "slug": "unska-lada-kanal-bihac",
+   "ime": "Unska lađa – vožnja gradskim kanalom",
+   "grupa": "izlet",
+   "kratko_bs": "Vožnja lađom po uzoru na gondolu po starom gradskom kanalu u Bihaću",
+   "opis_bs": "Unska lađa je novi turistički projekt u Bihaću: vožnja tradicionalnim čamcem po uzoru na venecijanske gondole kroz stari gradski kanal, nekadašnji srednjovjekovni odbrambeni jarak. Ruta počinje kod obilježja Srce, prolazi pored Betona i završava u gradskom parku kod Hotela Paviljon. Uz skipera su predviđeni turistički vodič i fotograf, a projekat cilja vjenčanja, porodice i turiste. Prema najavi iz augusta 2025, cijene i uslove trebaju zajedno utvrditi rafting agencije, Turistička zajednica Bihaća i NP Una.",
+   "opis_en": "Unska lađa is a new Bihać attraction: a gondola-style boat ride along the old town canal, once a medieval moat, from 'The Heart' landmark past Beton to the city park by Hotel Paviljon, with a skipper, guide and photographer. As announced in August 2025, prices and terms were to be set by rafting agencies, the tourist board and Una National Park.",
+   "opis_de": "Die 'Unska lađa' ist eine neue Attraktion in Bihać: eine Bootsfahrt im Gondelstil über den alten Stadtkanal, einst ein mittelalterlicher Wassergraben, vom Wahrzeichen 'Herz' bis zum Stadtpark beim Hotel Paviljon, mit Skipper, Guide und Fotograf. Laut Ankündigung vom August 2025 sollten Preise und Bedingungen noch festgelegt werden.",
+   "kapacitet": "",
+   "lokacija": "Gradski kanal, centar Bihaća",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://seesrpska.com/en/svjetsko/unska-lada-po-uzoru-na-venecijansku-gondolu-27-8-2025"
+   ],
+   "provjeriti": "Operater nije imenovan; nije potvrđeno da je vožnja počela. Provjeriti kod TZ Bihać prije objave."
+  }
+ ],
+ "hrana": [
+  {
+   "slug": "una-olympic-restoran",
+   "ime": "Restoran Una Olympic",
+   "grupa": "restoran na rafting kampu",
+   "kratko_bs": "Restoran sa 60 mjesta na obali Une, bosanska kuhinja, radi cijele godine",
+   "opis_bs": "Restoran u sklopu kampa Una Olympic Rafting smješten je na samoj obali Une u Grmuši kod Bihaća. Ima 60 mjesta za sjedenje i radi tokom cijele godine. Kuhinja se oslanja na tradicionalna bosanska jela od svježih, lokalnih namirnica. Prostor se koristi za manja vjenčanja, momačke i djevojačke večeri, porodična okupljanja i grupne izlete, a za team building se ručak ili večera mogu direktno spojiti s raftingom i noćenjem u kućicama. To znači da grupa ne mora mijenjati lokaciju tokom dana.",
+   "opis_en": "The restaurant at the Una Olympic Rafting camp sits right on the Una in Grmuša near Bihać. It seats 60, is open all year and serves traditional Bosnian food from fresh local produce. It hosts small weddings, parties and group outings, and lunch or dinner can be combined directly with rafting and cabin stays.",
+   "opis_de": "Das Restaurant im Camp von Una Olympic Rafting liegt direkt an der Una in Grmuša bei Bihać. Es hat 60 Sitzplätze, ist ganzjährig geöffnet und serviert traditionelle bosnische Gerichte aus frischen lokalen Zutaten. Es eignet sich für kleine Hochzeiten, Feiern und Gruppenausflüge; Mittag- oder Abendessen lässt sich direkt mit Rafting und Übernachtung kombinieren.",
+   "kapacitet": "60 mjesta",
+   "lokacija": "Grmuša, Salihovac bb, Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://unaolympicrafting.com/restoran/",
+   "facebook": "https://www.facebook.com/profile.php?id=61572602890860",
+   "instagram": "https://www.instagram.com/unaolympicrafting/",
+   "youtube": "",
+   "telefon": "+387 67 103 7177",
+   "email": "unaolympicrafting@gmail.com",
+   "slike": [
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/IMG-20250506-WA0052-2.jpg",
+     "izvor": "https://unaolympicrafting.com/restoran/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    },
+    {
+     "url": "https://unaolympicrafting.com/wp-content/uploads/2025/05/IMG-20250506-WA0054-1.jpg",
+     "izvor": "https://unaolympicrafting.com/restoran/",
+     "licenca": "službena stranica",
+     "autor": "Una Olympic Rafting"
+    }
+   ],
+   "izvori": [
+    "https://unaolympicrafting.com/restoran/"
+   ],
+   "provjeriti": "Jelovnik i cijene menija za grupe nisu na sajtu – Jasmin da dopuni."
+  },
+  {
+   "slug": "restoran-kostelski-buk",
+   "ime": "Restoran Kostelski buk",
+   "grupa": "restoran / riblji restoran",
+   "kratko_bs": "Tradicionalni restoran uz slapove Une u Kosteli, poznat po riječnoj ribi",
+   "opis_bs": "Restoran Kostelski buk radi od 2001. godine u sklopu istoimenog hotela, u Kosteli kod Bihaća, odmah uz slapove Une. Gosti mogu jesti uz pogled na vodopade, a restoran je omiljen i među lokalnim stanovništvom i među turistima. Poznat je po svježoj riječnoj ribi, jagnjetini i tradicionalnim jelima, a ima i stolove na otvorenom iznad rijeke. Često se koristi za proslave i događaje, a uz hotelsku salu za banket do 200 osoba pogodan je i za veće firme. Radi od 10 do 23 sata.",
+   "opis_en": "Restaurant Kostelski buk has operated since 2001 as part of the hotel of the same name, near Bihać beside the Una waterfalls. Popular with locals and visitors, it is known for fresh river fish, lamb and traditional dishes, with outdoor tables above the river. Combined with the hotel's banquet hall (up to 200), it suits large company events. Open 10:00–23:00.",
+   "opis_de": "Das Restaurant Kostelski buk besteht seit 2001 im gleichnamigen Hotel, bei Bihać direkt an den Una-Wasserfällen. Es ist bei Einheimischen und Gästen beliebt, bekannt für frischen Flussfisch, Lamm und traditionelle Gerichte, mit Außentischen über dem Fluss. Mit dem Bankettsaal des Hotels (bis 200 Personen) ideal für große Firmenevents. Geöffnet 10–23 Uhr.",
+   "kapacitet": "banket u hotelskoj sali do 200 osoba",
+   "lokacija": "Kostela bb, 77000 Bihać",
+   "lat": 44.881683,
+   "lng": 15.900272,
+   "web": "http://www.kostelski-buk.com",
+   "facebook": "https://www.facebook.com/Kostelski.buk/",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 302 340",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bihac/Kostelski-Buk_65789v",
+    "https://www.bh-meetings.com/venue/kostelski-buk/24",
+    "https://ardalyspoolhouse.lodgify.com/en/4508827/about-bihac-restaurants-cafes"
+   ],
+   "provjeriti": "Kapacitet samog restorana i terase nije naveden."
+  },
+  {
+   "slug": "river-dock",
+   "ime": "Restoran River Dock",
+   "grupa": "ručak na lađi/splavu",
+   "kratko_bs": "Restoran na Uni gdje se jede u čamcu, uz vožnju prema slapovima",
+   "opis_bs": "River Dock je restoran na obali Une u Bihaću koji je poznat po neobičnom načinu posluživanja: gosti sjede u čamcu koji služi kao sto, a tokom obroka ih veslanjem odvezu do obližnjih slapova. Jelovnik uključuje ribu sa roštilja, morske plodove, odreske i vegetarijanska jela, a terasa gleda na rijeku i zalazak sunca. Za team building je ovo najbliže onome što ljudi traže kao ručak na lađi ili splavu na Uni. Kapacitet čamaca i mogućnost ručka za veću grupu odjednom treba dogovoriti s restoranom.",
+   "opis_en": "River Dock is a riverside restaurant in Bihać where guests eat seated in a boat that serves as the table and are rowed out to nearby waterfalls during the meal. The menu covers grilled fish, seafood, steaks and vegetarian dishes, and the terrace faces the Una. The closest match to a 'lunch on a boat' experience; boat capacity for large groups must be agreed.",
+   "opis_de": "River Dock ist ein Restaurant am Una-Ufer in Bihać, in dem die Gäste in einem Boot sitzen, das als Tisch dient, und während des Essens zu nahen Wasserfällen gerudert werden. Auf der Karte stehen gegrillter Fisch, Meeresfrüchte, Steaks und vegetarische Gerichte; die Terrasse blickt auf die Una. Die Bootskapazität für große Gruppen ist abzusprechen.",
+   "kapacitet": "",
+   "lokacija": "Ulica Armije BiH, Bihać",
+   "lat": 44.773027,
+   "lng": 15.948706,
+   "web": "http://www.riverdock.ba",
+   "facebook": "https://www.facebook.com/RiverDock/",
+   "instagram": "https://www.instagram.com/riverdockbihac/",
+   "youtube": "",
+   "telefon": "+387 63 797 833",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.inyourpocket.com/bihac/river-dock_161495v",
+    "https://lll.ba/what-to-do-in-bihac",
+    "https://ardalyspoolhouse.lodgify.com/en/4508827/about-bihac-restaurants-cafes"
+   ],
+   "provjeriti": "Telefon se razlikuje: IYP +387 63 797 833, lodgify vodič +387 61 555 789. Nije pronađen poseban ponuđač 'ručka na splavu' za veće grupe; na tourismbih.com postoji unos 'Splav na Uni' (stranica nije mogla biti otvorena)."
+  },
+  {
+   "slug": "restoran-hotel-opal",
+   "ime": "Restoran Hotela Opal Exclusive",
+   "grupa": "restoran",
+   "kratko_bs": "Hotelski restoran sa 120 mjesta i terasom za 100 gostiju uz Unu",
+   "opis_bs": "Restoran Hotela Opal Exclusive ima 120 mjesta u zatvorenom prostoru i sunčanu terasu sa još stotinu mjesta, s pogledom na rijeku Unu. Kuhinja kombinira tradicionalna bosanska, međunarodna i mediteranska jela, a uz restoran radi i bar. Zbog lokacije blizu centra grada i dovoljno velike terase, prikladan je za zajedničke večere većih grupa nakon dana na rijeci, posebno kada je dio tima smješten u samom hotelu.",
+   "opis_en": "The restaurant at Hotel Opal Exclusive seats 120 indoors plus 100 on a sunny terrace overlooking the Una, serving Bosnian, international and Mediterranean dishes, with a bar. Close to the town centre and large enough for group dinners after a day on the river.",
+   "opis_de": "Das Restaurant des Hotels Opal Exclusive bietet 120 Plätze innen und 100 auf einer sonnigen Terrasse mit Blick auf die Una; serviert werden bosnische, internationale und mediterrane Gerichte, dazu gibt es eine Bar. Zentrumsnah und groß genug für Gruppendinner nach einem Tag auf dem Fluss.",
+   "kapacitet": "restoran 120 mjesta, terasa 100 mjesta",
+   "lokacija": "Krupska bb, 77000 Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://www.hotelopalexclusive.net",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 224 183",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.panacomp.net/opal-exclusive-hotel-bihac/",
+    "https://www.inyourpocket.com/bosnia-herzegovina/bihac/venues/Opal-Exclusive"
+   ],
+   "provjeriti": ""
+  },
+  {
+   "slug": "hacijenda-bijeli-lohovo",
+   "ime": "Hacijenda Bijeli Una Rafting (Lohovo)",
+   "grupa": "restoran na rafting kampu",
+   "kratko_bs": "Restoran s otvorenom kuhinjom na obali Une u Lohovu, team building ručkovi",
+   "opis_bs": "Hacijenda agencije Bijeli Una Rafting je restoran s otvorenom kuhinjom na obali Une u Lohovu, preko puta Hotela Lohovo. Tu se poslužuju tradicionalna bosanska jela, a ručkovi za team building grupe dogovaraju se na upit. Lokacija je praktična jer se nalazi na kraju adrenalinske rafting rute sa Štrbačkog buka, pa grupa nakon spusta može odmah sjesti za sto. Agencija u svoje pakete za firme uključuje i muziku uživo, što olakšava organizaciju cijelog dana na jednom mjestu.",
+   "opis_en": "The 'hacienda' of Bijeli Una Rafting is an open-kitchen restaurant on the Una in Lohovo, opposite Hotel Lohovo, serving traditional Bosnian food. Team-building lunches are arranged on request, right where the Štrbački buk rafting route ends; company packages can include live music.",
+   "opis_de": "Die 'Hacienda' von Bijeli Una Rafting ist ein Restaurant mit offener Küche an der Una in Lohovo, gegenüber dem Hotel Lohovo, mit traditioneller bosnischer Küche. Teambuilding-Mittagessen gibt es auf Anfrage – direkt am Ende der Rafting-Route ab Štrbački buk; Firmenpakete können Livemusik enthalten.",
+   "kapacitet": "",
+   "lokacija": "Lohovo, Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://www.bijeli-una-rafting.com",
+   "facebook": "https://www.facebook.com/bijeliunarafting/",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 61 138 853",
+   "email": "raftingbijeli@gmail.com",
+   "slike": [],
+   "izvori": [
+    "https://www.bijeli-una-rafting.com/en"
+   ],
+   "provjeriti": "Kapacitet nije naveden."
+  },
+  {
+   "slug": "cardak-na-uni",
+   "ime": "Čardak na Uni",
+   "grupa": "restoran",
+   "kratko_bs": "Porodični restoran bez alkohola na obali Une, bašta s fontanama",
+   "opis_bs": "Čardak na Uni je porodični kafić i restoran na obali Une u Bihaću, u kojem se ne služi alkohol. Stolovi na otvorenom smješteni su među cvijećem, drvećem i fontanama, a unutrašnjost je uređena borovinom, kovanim detaljima i lampama od obojenog stakla. Jelovnik je širi od prosjeka u gradu: roštilj, pizze, rižoto, tjestenine, odresci i šniceli, a vodiči spominju i svježu ribu. Pogodan je za porodične grupe i timove koji traže mirnije mjesto za ručak u gradu.",
+   "opis_en": "Čardak na Uni is a family-friendly, alcohol-free café-restaurant on the Una in Bihać, with outdoor tables among flowers, trees and fountains and a pine interior. The menu is broader than most in town: grills, pizza, risotto, pasta, steaks, schnitzels and fresh fish.",
+   "opis_de": "Čardak na Uni ist ein familienfreundliches, alkoholfreies Café-Restaurant an der Una in Bihać, mit Außentischen zwischen Blumen, Bäumen und Brunnen und einem Interieur aus Kiefernholz. Die Karte ist breiter als üblich: Grill, Pizza, Risotto, Pasta, Steaks, Schnitzel und frischer Fisch.",
+   "kapacitet": "",
+   "lokacija": "Ulica 502. viteške brigade, Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "+387 37 221 238",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www-lonelyplanet-com-57e2.imagizer.com/bosnia-hercegovina/una-river-valley/restaurants/cardak-na-uni/a/poi-eat/1547400/1336256",
+    "https://ardalyspoolhouse.lodgify.com/en/4508827/about-bihac-restaurants-cafes"
+   ],
+   "provjeriti": "Adresa i telefon su samo iz vodiča na lodgify stranici (manje pouzdan izvor) – potvrditi. Bez alkohola (važno za korporativne večeri)."
+  },
+  {
+   "slug": "restoran-river-una",
+   "ime": "Restoran River Una",
+   "grupa": "restoran / riblji restoran",
+   "kratko_bs": "Restoran s terasom tik uz Unu i ribolovačkim trofejima",
+   "opis_bs": "Restoran River Una ima terasu toliko blizu rijeke da gosti tokom jela mogu posmatrati ribe u bistroj vodi Une. Unutrašnji prostor više podsjeća na pab nego na klasičan restoran, a na zidovima su izloženi ribolovački trofeji. Lonely Planet ga izdvaja kao mjesto za piće i druženje uz rijeku. Za grupe može poslužiti kao opuštena lokacija za kasno popodne ili večernje druženje nakon aktivnosti.",
+   "opis_en": "Restoran River Una has a terrace so close to the clear Una that guests can watch fish while they drink. Inside it feels more like a pub, decorated with angling trophies – a relaxed spot for groups after the day's activities.",
+   "opis_de": "Das Restoran River Una hat eine Terrasse so nah an der klaren Una, dass man beim Trinken Fische beobachten kann. Innen wirkt es eher wie ein Pub, dekoriert mit Angeltrophäen – ein entspannter Ort für Gruppen nach dem Tagesprogramm.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www-lonelyplanet-com-57e2.imagizer.com/bosnia-hercegovina/una-river-valley/nightlife/restoran-river-una/a/poi-dri/1546852/1336256"
+   ],
+   "provjeriti": "Adresa, telefon i trenutni rad nisu potvrđeni."
+  }
+ ],
+ "izvodjaci": [
+  {
+   "slug": "mirza-malkoc",
+   "ime": "Mirza Malkoč",
+   "grupa": "pjevač",
+   "kratko_bs": "Pjevač iz Bihaća, učesnik Zvezda Granda, pjesme 'Mlada dama' i 'A da te nema'",
+   "opis_bs": "Mirza Malkoč je pjevač rodom iz Bihaća koji je nastupao u takmičenju Zvezde Granda, a na Hayat TV-u je došao do polufinala. Pjevao je i s Halidom Bešlićem, koji ga je izabrao kao jednog od dva takmičara. Među njegovim pjesmama su 'Mlada dama', 'Kada srcem ljubim' i 'A da te nema'. Stil mu spaja savremenu produkciju s tradicionalnim melodijama i emotivnim izvođenjem, što odgovara večernjim zabavama i proslavama firmi. Prema intervjuu, živi i nastupa u Beogradu, pa dolazak u Bihać treba dogovoriti unaprijed.",
+   "opis_en": "Mirza Malkoč is a singer from Bihać who competed on Zvezde Granda and reached the semi-final of a Hayat TV contest; he also performed with Halid Bešlić. His songs include 'Mlada dama', 'Kada srcem ljubim' and 'A da te nema', blending modern production with traditional melodies. He is based in Belgrade, so bookings in Bihać need advance planning.",
+   "opis_de": "Mirza Malkoč ist ein Sänger aus Bihać, der bei Zvezde Granda auftrat und im Hayat-TV-Wettbewerb das Halbfinale erreichte; er sang auch mit Halid Bešlić. Zu seinen Liedern gehören 'Mlada dama', 'Kada srcem ljubim' und 'A da te nema'. Er lebt in Belgrad – Auftritte in Bihać sind frühzeitig zu planen.",
+   "kapacitet": "",
+   "lokacija": "Bihać (živi u Beogradu)",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.kurir.rs/stars/10134090/mirza-malkoc-kako-me-estrada-promenila",
+    "https://lyrics.iztok.org/artist/342361/Mirza-Malkoc"
+   ],
+   "provjeriti": "Diktirano 'Mirza Malo Kočner' -> vjerovatno Mirza Malkoč (pouzdanost: visoka, ~80%; ime i porijeklo iz Bihaća se poklapaju). Službeni FB/IG/YouTube nisu pronađeni – Jasmin da potvrdi i doda linkove."
+  },
+  {
+   "slug": "karabeg-neidentifikovan",
+   "ime": "Karabeg",
+   "grupa": "pjevač",
+   "kratko_bs": "Pjevač iz Bihaća, za večernji program",
+   "opis_bs": "",
+   "opis_en": "",
+   "opis_de": "",
+   "kapacitet": "",
+   "lokacija": "",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [],
+   "provjeriti": "NIJE IDENTIFIKOVANO. Pretraga 'Karabeg/Karabegović pjevač Bihać' daje samo fudbalera Anela Karabega (Mostar) i književnike/historičare Karabegoviće. Jasmin da pošalje FB/IG link ili tačno ime.",
+   "kratko_en": "Singer from Bihać for the evening programme",
+   "kratko_de": "Sänger aus Bihać für das Abendprogramm"
+  },
+  {
+   "slug": "zosko-i-fink-neidentifikovan",
+   "ime": "Zosko i Fink",
+   "grupa": "bend",
+   "kratko_bs": "Bend za zabave i proslave",
+   "opis_bs": "",
+   "opis_en": "",
+   "opis_de": "",
+   "kapacitet": "",
+   "lokacija": "",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [],
+   "provjeriti": "NIJE IDENTIFIKOVANO. Pretraženo: 'Zoka i Fink', 'Zosko Bihać', 'Fink Bihać', 'Skripta bend' – bez rezultata (pojavljuje se samo britanski muzičar Fink, nevezan). Potreban link od Jasmina.",
+   "kratko_en": "Party band",
+   "kratko_de": "Partyband"
+  },
+  {
+   "slug": "tamburasi-beden-neidentifikovan",
+   "ime": "Tamburaški sastav Beden Bihać",
+   "grupa": "tamburaši",
+   "kratko_bs": "Tamburaši za ručak, večeru i proslavu",
+   "opis_bs": "",
+   "opis_en": "",
+   "opis_de": "",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [],
+   "provjeriti": "NIJE IDENTIFIKOVANO. Pretraga 'tamburaški sastav Bihać', 'tamburaši Bedem Bihać', 'Beden tamburaši' bez rezultata. Ime 'Bedem' bi imalo smisla (bihaćki gradski bedemi), ali nije potvrđeno. Bijeli Una Rafting u team building pakete uključuje muziku uživo – pitati njih koje sastave angažuju.",
+   "kratko_en": "Tamburica band for lunch, dinner and parties",
+   "kratko_de": "Tamburica-Band für Essen und Feiern"
+  },
+  {
+   "slug": "dj-mirel-neidentifikovan",
+   "ime": "DJ Mirel",
+   "grupa": "DJ",
+   "kratko_bs": "DJ iz Bihaća za večernju zabavu",
+   "opis_bs": "",
+   "opis_en": "",
+   "opis_de": "",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [],
+   "provjeriti": "NIJE IDENTIFIKOVANO. Nema javnog profila (Viberate, SoundCloud, Mixcloud) pod tim imenom vezanog za Bihać. Jasmin da pošalje IG/FB.",
+   "kratko_en": "DJ from Bihać for the evening party",
+   "kratko_de": "DJ aus Bihać für die Abendparty"
+  },
+  {
+   "slug": "dj-inis",
+   "ime": "DJ Inis",
+   "grupa": "DJ",
+   "kratko_bs": "DJ iz Bihaća – electronic, house i tech house",
+   "opis_bs": "DJ Inis je DJ iz Bihaća čiji je stil, prema platformi Viberate, elektronska muzika, house i tech house. Takav repertoar odgovara kasnijem dijelu korporativne zabave, nakon večere, kada se program prebacuje na ples, kao i tematskim zabavama uz rijeku ili bazen. Kao lokalni izvođač nema troškove dolaska iz drugog grada, što pojednostavljuje organizaciju. Prije uvrštavanja u ponudu treba pribaviti njegove službene profile, tehničke zahtjeve i uslove nastupa.",
+   "opis_en": "DJ Inis is a Bihać-based DJ playing electronic, house and tech house according to Viberate – a fit for the late, dance-floor part of a corporate party or a riverside or pool event. Being local, no travel costs apply. Official profiles and rider still need to be obtained.",
+   "opis_de": "DJ Inis ist ein DJ aus Bihać mit Electronic, House und Tech House (laut Viberate) – passend für den späteren Tanzteil einer Firmenfeier oder ein Event am Fluss oder Pool. Als lokaler Künstler fallen keine Anreisekosten an. Offizielle Profile und technische Anforderungen sind noch einzuholen.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://www.viberate.com/artist/dj-inis",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.viberate.com/artist/dj-inis"
+   ],
+   "provjeriti": "Identifikacija: visoka pouzdanost (ime + Bihać). Društvene mreže nisu navedene na Viberate – Jasmin da doda."
+  },
+  {
+   "slug": "alen-islamovic",
+   "ime": "Alen Islamović",
+   "grupa": "pjevač",
+   "kratko_bs": "Bihaćka rock legenda, nekadašnji pjevač Divljih jagoda i Bijelog dugmeta",
+   "opis_bs": "Alen Islamović je rođen u Bihaću 1957. godine i i danas živi u ovom gradu. Bio je pjevač grupa Divlje jagode i Bijelo dugme, a kasnije je vodio i solo karijeru, uz albume 'Alcatraz' i 'Tajno'. S Goranom Bregovićem nastupao je na koncertima Bijelog dugmeta, uključujući turneju po SAD-u 2017. U Bihaću je osnivač i predsjednik teniskog kluba Una Gem. Za velike korporativne događaje predstavlja vrhunsko, ali i skuplje rješenje, pa je realniji za veće proslave i jubileje firmi.",
+   "opis_en": "Alen Islamović was born in Bihać in 1957 and still lives there. Former lead singer of Divlje jagode and Bijelo dugme, he later released solo albums such as 'Alcatraz' and 'Tajno' and toured the US with Goran Bregović in 2017. He also founded the Una Gem tennis club in Bihać. A headline option for large corporate anniversaries rather than routine events.",
+   "opis_de": "Alen Islamović wurde 1957 in Bihać geboren und lebt bis heute dort. Der ehemalige Sänger von Divlje jagode und Bijelo dugme veröffentlichte Soloalben wie 'Alcatraz' und 'Tajno' und tourte 2017 mit Goran Bregović durch die USA. Er gründete den Tennisclub Una Gem in Bihać. Eher ein Headliner für große Firmenjubiläen.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "http://www.alen-islamovic.net",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://en.wikipedia.org/wiki/Alen_Islamovi%C4%87"
+   ],
+   "provjeriti": "Nije sa Jasminove liste – dodano kao poznati izvođač iz Bihaća. Dostupnost za privatne/korporativne nastupe i honorar nepoznati; službeni sajt nije otvoren."
+  },
+  {
+   "slug": "ibro-selmanovic",
+   "ime": "Ibro Selmanović",
+   "grupa": "pjevač",
+   "kratko_bs": "Pop-rock izvođač iz Bihaća",
+   "opis_bs": "Ibro Selmanović je izvođač rodom iz Bihaća, kojeg platforma Viberate svrstava u evropsku, balkansku i pop-rock muziku. Kao lokalni muzičar može biti prikladan za opušteniji večernji program, svirku uz večeru ili zabavu na terasi uz rijeku, gdje publika voli poznate domaće i regionalne pjesme. Prije uvrštavanja u ponudu treba provjeriti nastupa li sam ili s bendom, kakav repertoar nudi za korporativne događaje i koje su mu tehničke potrebe.",
+   "opis_en": "Ibro Selmanović is a performer from Bihać listed by Viberate under European, Balkan and pop-rock music – suitable for a relaxed dinner set or a riverside terrace party. Whether he plays solo or with a band, and his corporate repertoire, need confirming.",
+   "opis_de": "Ibro Selmanović ist ein Musiker aus Bihać, den Viberate unter europäischer, Balkan- und Pop-Rock-Musik führt – passend für ein entspanntes Dinner-Set oder eine Terrassenparty am Fluss. Ob solo oder mit Band und welches Repertoire, ist zu klären.",
+   "kapacitet": "",
+   "lokacija": "Bihać",
+   "lat": null,
+   "lng": null,
+   "web": "https://www.viberate.com/artist/ibro-selmanovic",
+   "facebook": "",
+   "instagram": "",
+   "youtube": "",
+   "telefon": "",
+   "email": "",
+   "slike": [],
+   "izvori": [
+    "https://www.viberate.com/artist/ibro-selmanovic"
+   ],
+   "provjeriti": "Nije sa Jasminove liste. Moguće da je Jasmin pod 'Karabeg' ili drugim imenom mislio na nekog drugog – potvrditi. Društvene mreže nepoznate."
+  }
+ ]
+}

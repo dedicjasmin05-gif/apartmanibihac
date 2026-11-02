@@ -72,12 +72,12 @@ function abu_kt_js() {
 
 /** Na vrhu stranice (tema s wp_body_open), inače na dnu s pomakom na vrh. */
 add_action('wp_body_open', function () {
-    if (is_admin()) { return; }
+    if (is_admin() || current_theme_supports('abu-kontakt')) { return; }
     $GLOBALS['abu_kt_ispisano'] = true;
     echo abu_kt_traka(); // phpcs:ignore
 }, 1);
 add_action('wp_footer', function () {
-    if (is_admin() || !empty($GLOBALS['abu_kt_ispisano'])) { return; }
+    if (is_admin() || !empty($GLOBALS['abu_kt_ispisano']) || current_theme_supports('abu-kontakt')) { return; }
     echo abu_kt_traka() . '<script>(function(){var t=document.querySelector(".abu-kt");if(t&&document.body.firstChild!==t){document.body.insertBefore(t,document.body.firstChild);}})();</script>'; // phpcs:ignore
 }, 1);
 
