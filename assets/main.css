@@ -493,3 +493,20 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
   .single-objekt .actbar { display: none; }
   .single-objekt { padding-bottom: 0; }
 }
+/* 1.1.1 dorade */
+.brand__name > span { white-space: nowrap; }
+.hero__cta .btn { white-space: nowrap; padding-inline: .9em; }
+.news__img:empty { display: none; }
+@media (min-width: 1001px) { .grid-cards--slide { grid-template-columns: repeat(4, 1fr); gap: 30px 22px; } .grid-cards--slide .card__title { font-size: 1.15rem; } }
+@media (max-width: 720px) {
+  .search__f--s { grid-column: 1 / -1; }
+  .news__grid { gap: 12px; }
+  .news__item:not(:first-child) { grid-template-columns: 96px 1fr; align-items: center; gap: 0; }
+  .news__item:not(:first-child) .news__img { aspect-ratio: 1; height: 100%; }
+  .news__item:not(:first-child) .news__b { padding: 12px 14px; }
+  .news__item:not(:first-child) .news__img:empty + .news__b { grid-column: 1 / -1; }
+  .news__item:not(:first-child) .news__t { font-size: 1rem; }
+  .promo__media:empty { display: none; }
+  .promo__text { padding-top: 40px; }
+  .split__media:empty { display: none; }
+}
