@@ -4,6 +4,7 @@
   --una: #0E4F4C;
   --una-2: #13615D;
   --tirkiz: #23A99C;
+  --tirkiz-text: #0B766C;
   --kamen: #F1F3EF;
   --kamen-2: #E3E8E2;
   --tinta: #17302E;
@@ -289,7 +290,7 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
 
 /* ===================== 1.1: nova kontakt traka, povjerenje, naslovnica ===================== */
 :root { --ink: #0B2A28; --tb-h: 40px; --shadow: 0 1px 2px #0b2a2814, 0 12px 32px -14px #0b2a2840; }
-.eyebrow { margin: 0 0 .35em; font: 700 .78rem/1 var(--text); letter-spacing: .14em; text-transform: uppercase; color: var(--tirkiz); }
+.eyebrow { margin: 0 0 .35em; font: 700 .78rem/1 var(--text); letter-spacing: .14em; text-transform: uppercase; color: var(--tirkiz-text); }
 .eyebrow--light { color: #8FD3C9; }
 .stars { color: var(--sun); letter-spacing: 1px; }
 
@@ -354,7 +355,7 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
 .ticker:hover .ticker__list { animation-play-state: paused; }
 .ticker__list a { color: var(--tinta); text-decoration: none; font-weight: 600; white-space: nowrap; }
 .ticker__list a:hover { color: var(--una); text-decoration: underline; }
-.ticker__list small { color: var(--tirkiz); font-weight: 700; margin-right: 6px; text-transform: uppercase; font-size: .72rem; letter-spacing: .08em; }
+.ticker__list small { color: var(--tirkiz-text); font-weight: 700; margin-right: 6px; text-transform: uppercase; font-size: .72rem; letter-spacing: .08em; }
 @keyframes tick { to { transform: translateX(-50%); } }
 
 /* Vijesti */
@@ -366,7 +367,7 @@ body .abu-ok { background: #E3EEDB; color: var(--tinta); }
 .news__item:first-child .news__img { aspect-ratio: 4 / 3; }
 .news__img img { width: 100%; height: 100%; object-fit: cover; }
 .news__b { padding: 4px 18px 18px; }
-.news__cat { margin: 0 0 4px; font: 700 .72rem/1 var(--text); letter-spacing: .1em; text-transform: uppercase; color: var(--tirkiz); }
+.news__cat { margin: 0 0 4px; font: 700 .72rem/1 var(--text); letter-spacing: .1em; text-transform: uppercase; color: var(--tirkiz-text); }
 .news__t { margin: 0 0 6px; font: 700 1.12rem/1.25 var(--display); }
 .news__item:first-child .news__t { font-size: 1.45rem; }
 .news__t a { color: var(--tinta); text-decoration: none; }

@@ -1,7 +1,22 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
-define('AB_VER', '1.1.5');
+define('AB_VER', '1.1.6');
+
+// Brzina: bez WordPress emoji skripte i s ranijom vezom na Google Fonts.
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
+add_filter('wp_resource_hints', function ($urls, $relation) {
+    if ($relation === 'preconnect') { $urls[] = 'https://fonts.googleapis.com'; }
+    return $urls;
+}, 10, 2);
+
+// Manja verzija naslovne slike za mobitel, ako je slika u medijima.
+function ab_hero_srcset($src) {
+    $id = attachment_url_to_postid($src);
+    $set = $id ? wp_get_attachment_image_srcset($id, 'full') : '';
+    return $set ? ' srcset="' . esc_attr($set) . '" sizes="100vw"' : '';
+}
 
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
