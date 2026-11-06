@@ -63,7 +63,7 @@ function abu_vijesti_traka() {
     $lbl = array('bs' => 'Novo', 'en' => 'News', 'de' => 'Neu');
     $l = function_exists('abu_dr_jezik') ? abu_dr_jezik() : 'bs';
     // popis dvaput, da se vrti bez prekida
-    return '<div class="ticker" role="region" aria-label="Novosti"><div class="wrap ticker__in"><span class="ticker__lbl">' . esc_html($lbl[$l]) . '</span><div class="ticker__win"><ul class="ticker__list">' . $li . str_replace('<li>', '<li aria-hidden="true">', $li) . '</ul></div></div></div>';
+    return '<div class="ticker" role="region" aria-label="Novosti"><div class="wrap ticker__in"><span class="ticker__lbl">' . esc_html($lbl[$l]) . '</span><div class="ticker__win"><ul class="ticker__list">' . $li . str_replace(array('<li>', '<a '), array('<li aria-hidden="true">', '<a tabindex="-1" '), $li) . '</ul></div></div></div>';
 }
 
 /** Blok vijesti: jedna velika i nekoliko manjih. */
