@@ -1,7 +1,7 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
-define('AB_VER', '1.1.6');
+define('AB_VER', '1.1.7');
 
 // Brzina: bez WordPress emoji skripte i s ranijom vezom na Google Fonts.
 remove_action('wp_head', 'print_emoji_detection_script', 7);
@@ -9,6 +9,13 @@ remove_action('wp_print_styles', 'print_emoji_styles');
 add_filter('wp_resource_hints', function ($urls, $relation) {
     if ($relation === 'preconnect') { $urls[] = 'https://fonts.googleapis.com'; }
     return $urls;
+}, 10, 2);
+
+// Google Fonts ne smije kočiti prvi prikaz. Dok se ne učitaju, vidi se sistemski font.
+add_filter('style_loader_tag', function ($tag, $handle) {
+    if ($handle !== 'ab-fonts') { return $tag; }
+    $async = str_replace("media='all'", "media='print' onload=\"this.media='all'\"", $tag);
+    return $async . '<noscript>' . $tag . '</noscript>';
 }, 10, 2);
 
 // Manja verzija naslovne slike za mobitel, ako je slika u medijima.
