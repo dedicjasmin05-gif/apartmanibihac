@@ -419,10 +419,12 @@ function abu_novac($n) { return number_format((float) $n, 2, ',', '.'); }
 /* ============================================================
  * 7. SLANJE: e-mail, SMS, WhatsApp link
  * ============================================================ */
+// Odgovori gostiju idu na mail apartmana, a ne na adresu pošiljatelja.
+if (!defined('ABU_ODGOVOR_MAIL')) { define('ABU_ODGOVOR_MAIL', 'apartmaniubihacu@gmail.com'); }
 function abu_mail($to, $subj, $body) {
     if (!$to) { return false; }
     $from = get_bloginfo('name');
-    $headers = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . $from . ' <' . get_option('admin_email') . '>');
+    $headers = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . $from . ' <' . get_option('admin_email') . '>', 'Reply-To: ' . ABU_ODGOVOR_MAIL);
     return wp_mail($to, $subj, $body, $headers);
 }
 /**
