@@ -4,7 +4,7 @@ if (!defined('ABSPATH')) { exit; }
 $l = abu_tb_tekuci();
 $tx = abu_tb_txt($l);
 $d = abu_tb_podaci();
-$st = isset($_GET['tb']) ? sanitize_key($_GET['tb']) : '';
+$st = isset($_GET['tb_status']) ? sanitize_key($_GET['tb_status']) : '';
 $hero = function_exists('abu_vodic_naslovna') ? abu_vodic_naslovna('teambuilding', 'ab-wide') : '';
 $hero_url = $hero && preg_match('/src="([^"]+)"/', $hero, $m) ? $m[1] : '';
 $opis = function ($e) use ($l) {

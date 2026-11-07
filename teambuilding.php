@@ -193,7 +193,7 @@ function abu_tb_obradi() {
     $limit = 'abu_tb_' . md5($ip);
     $spam = !empty($p['web_stranica']) || (isset($p['t0']) && time() - (int) $p['t0'] < 4);
     if ($spam || (!$email && !$tel) || (int) get_transient($limit) >= 5) {
-        wp_safe_redirect(add_query_arg('tb', $spam ? 'ok' : 'greska', $natrag) . '#tbf'); exit;
+        wp_safe_redirect(add_query_arg('tb_status', $spam ? 'ok' : 'greska', $natrag) . '#tbf'); exit;
     }
     set_transient($limit, (int) get_transient($limit) + 1, HOUR_IN_SECONDS);
     $grupe = array('smjestaj' => 'Smještaj', 'rafting' => 'Rafting', 'aktivnosti' => 'Aktivnosti', 'hrana' => 'Hrana', 'izvodjaci' => 'Muzika i zabava');
@@ -207,10 +207,10 @@ function abu_tb_obradi() {
     $tijelo .= "\nNapomena:\n" . sanitize_textarea_field(isset($p['nap']) ? $p['nap'] : '') . "\n";
     $naslov = 'Team building upit: ' . ($s('firma') ? $s('firma') : $s('ime')) . ', ' . ($s('osobe') ? $s('osobe') . ' osoba' : '') . ($s('od') ? ', ' . $s('od') : '');
     wp_insert_post(array('post_type' => 'tb_upit', 'post_status' => 'private', 'post_title' => $naslov, 'post_content' => $tijelo));
-    $h = array('Content-Type: text/plain; charset=UTF-8');
+    $h = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . get_bloginfo('name') . ' <' . get_option('admin_email') . '>');
     if ($email) { $h[] = 'Reply-To: ' . ($s('ime') ? str_replace(array(',', '<', '>'), '', $s('ime')) . ' ' : '') . '<' . $email . '>'; }
     wp_mail(ABU_TB_MAIL, $naslov, $tijelo, $h);
-    wp_safe_redirect(add_query_arg('tb', 'ok', $natrag) . '#tbf');
+    wp_safe_redirect(add_query_arg('tb_status', 'ok', $natrag) . '#tbf');
     exit;
 }
 add_action('admin_post_nopriv_abu_tb', 'abu_tb_obradi');
