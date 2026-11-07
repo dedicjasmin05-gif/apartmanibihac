@@ -421,10 +421,11 @@ function abu_novac($n) { return number_format((float) $n, 2, ',', '.'); }
  * ============================================================ */
 // Odgovori gostiju idu na mail apartmana, a ne na adresu pošiljatelja.
 if (!defined('ABU_ODGOVOR_MAIL')) { define('ABU_ODGOVOR_MAIL', 'apartmaniubihacu@gmail.com'); }
+if (!defined('ABU_OD_MAIL')) { define('ABU_OD_MAIL', 'noreply@apartmanibihac.com'); }
 function abu_mail($to, $subj, $body) {
     if (!$to) { return false; }
     $from = get_bloginfo('name');
-    $headers = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . $from . ' <' . get_option('admin_email') . '>', 'Reply-To: ' . ABU_ODGOVOR_MAIL);
+    $headers = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . $from . ' <' . ABU_OD_MAIL . '>', 'Reply-To: ' . ABU_ODGOVOR_MAIL);
     return wp_mail($to, $subj, $body, $headers);
 }
 /**
@@ -957,4 +958,5 @@ require_once __DIR__ . '/vijesti.php';
 require_once __DIR__ . '/vodic.php';
 require_once __DIR__ . '/teambuilding.php';
 require_once __DIR__ . '/ai-odgovori.php';
+require_once __DIR__ . '/mail-postavke.php';
 require_once __DIR__ . '/indexnow.php';

@@ -207,7 +207,7 @@ function abu_tb_obradi() {
     $tijelo .= "\nNapomena:\n" . sanitize_textarea_field(isset($p['nap']) ? $p['nap'] : '') . "\n";
     $naslov = 'Team building upit: ' . ($s('firma') ? $s('firma') : $s('ime')) . ', ' . ($s('osobe') ? $s('osobe') . ' osoba' : '') . ($s('od') ? ', ' . $s('od') : '');
     wp_insert_post(array('post_type' => 'tb_upit', 'post_status' => 'private', 'post_title' => $naslov, 'post_content' => $tijelo));
-    $h = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . get_bloginfo('name') . ' <' . get_option('admin_email') . '>');
+    $h = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . get_bloginfo('name') . ' <' . ABU_OD_MAIL . '>');
     if ($email) { $h[] = 'Reply-To: ' . ($s('ime') ? str_replace(array(',', '<', '>'), '', $s('ime')) . ' ' : '') . '<' . $email . '>'; }
     wp_mail(ABU_TB_MAIL, $naslov, $tijelo, $h);
     wp_safe_redirect(add_query_arg('tb_status', 'ok', $natrag) . '#tbf');
