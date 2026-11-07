@@ -956,4 +956,5 @@ require_once __DIR__ . '/komentari.php';
 require_once __DIR__ . '/vijesti.php';
 require_once __DIR__ . '/vodic.php';
 require_once __DIR__ . '/teambuilding.php';
+require_once __DIR__ . '/ai-odgovori.php';
 require_once __DIR__ . '/indexnow.php';
