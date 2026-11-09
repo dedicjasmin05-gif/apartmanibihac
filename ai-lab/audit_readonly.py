@@ -65,6 +65,7 @@ class PageParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.title = self.description = self.og_title = self.og_description = ""
+        self.description_values = []
         self.canonical = self.lang = ""
         self.h1, self.hreflang, self.images, self.forms, self.jsonld = [], [], [], [], []
         self._capture, self._chunks, self._form = "", [], None
@@ -79,6 +80,7 @@ class PageParser(HTMLParser):
         if tag == "meta":
             if d.get("name", "").lower() == "description":
                 self.description = d.get("content", "")
+                self.description_values.append(self.description)
             if d.get("property", "").lower() == "og:title":
                 self.og_title = d.get("content", "")
             if d.get("property", "").lower() == "og:description":
@@ -153,6 +155,10 @@ def summarize_html(html, path=""):
         flags.append("missing-meta-description")
     if not p.og_description:
         flags.append("empty-og-description")
+    if len(p.description_values) > 1:
+        flags.append("duplicate-meta-description")
+    if path == "/" and p.og_title.strip().casefold() in {"početna", "pocetna", "home", "startseite"}:
+        flags.append("generic-homepage-og-title")
     if not p.canonical:
         flags.append("missing-canonical")
     if path.startswith("/smjestaj/") and path.count("/") > 2 and not p.forms:
@@ -166,6 +172,7 @@ def summarize_html(html, path=""):
                     and form["action_host"] in ("", "apartmanibihac.com", "www.apartmanibihac.com")):
                 flags.append("booking-form-target-requires-review")
     return {"title": p.title, "description": p.description,
+            "meta_description_count": len(p.description_values),
             "og_title": p.og_title, "og_description": p.og_description,
             "html_lang": p.lang, "canonical": p.canonical, "hreflang": p.hreflang,
             "h1": p.h1, "image_count": len(p.images),
