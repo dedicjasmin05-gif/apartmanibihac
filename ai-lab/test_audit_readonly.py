@@ -38,6 +38,24 @@ class AuditTests(unittest.TestCase):
         self.assertTrue(found["forms"][0]["submit"])
         self.assertNotIn("SECRET", str(found))
 
+    def test_booking_form_expected_target_without_secret_values(self):
+        html = """<html><title>Objekt</title>
+        <form class="abu-form" method="post" action="https://apartmanibihac.com/wp-admin/admin-post.php">
+        <input type="hidden" name="abu_n" value="SECRET_NONCE">
+        <input name="dolazak"><button type="submit">Pošalji upit</button></form></html>"""
+        found = summarize_html(html, "/smjestaj/apartman-centar/")
+        self.assertEqual(found["forms"][0]["action_path"], "/wp-admin/admin-post.php")
+        self.assertEqual(found["forms"][0]["action_host"], "apartmanibihac.com")
+        self.assertNotIn("booking-form-target-requires-review", found["review_flags"])
+        self.assertNotIn("SECRET_NONCE", str(found))
+
+    def test_booking_form_offsite_target_requires_review(self):
+        html = """<html><title>Objekt</title>
+        <form class="abu-form" method="post" action="https://other.example/wp-admin/admin-post.php">
+        <input name="dolazak"><button type="submit">Pošalji upit</button></form></html>"""
+        found = summarize_html(html, "/smjestaj/apartman-centar/")
+        self.assertIn("booking-form-target-requires-review", found["review_flags"])
+
     def test_missing_static_form_is_only_review_flag(self):
         found = summarize_html("<html><title>Apartman</title></html>", "/smjestaj/apartman-centar/")
         self.assertIn("no-static-form-check-template-not-proof-of-failure", found["review_flags"])
