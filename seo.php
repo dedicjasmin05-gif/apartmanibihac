@@ -47,6 +47,11 @@ function abu_seo_tekuca() {
 
 function abu_seo_plugin() { return defined('WPSEO_VERSION') || defined('RANK_MATH_VERSION') || defined('AIOSEO_VERSION'); }
 
+/** Jedini izvor opisa naslovnice za SEO i Open Graph. */
+function abu_seo_front_description() {
+    return 'Apartmani u Bihaću i kuće uz rijeku Unu: cijeli apartman od 25 € (50 KM) po noći. 19 objekata, upit bez naknade, odgovor u 12 sati. WhatsApp +387 61 591 320.';
+}
+
 /** Naslov u pregledniku i na Googleu. */
 add_filter('pre_get_document_title', function ($t) {
     if (abu_seo_plugin()) { return $t; }
@@ -71,7 +76,7 @@ add_action('wp_head', function () {
     $s = abu_seo_tekuca();
     if ($s) { $opis = $s['meta']; }
     elseif ($x = abu_seo_pitanja_meta()) { $opis = $x[1]; }
-    elseif (is_front_page()) { $opis = 'Apartmani u Bihaću i kuće uz rijeku Unu: cijeli apartman od 25 € (50 KM) po noći. 19 objekata, upit bez naknade, odgovor u 12 sati. WhatsApp +387 61 591 320.'; }
+    elseif (is_front_page()) { $opis = abu_seo_front_description(); }
     elseif (is_singular()) {
         $id = get_queried_object_id();
         $opis = has_excerpt($id) ? get_the_excerpt($id) : wp_trim_words(wp_strip_all_tags(strip_shortcodes(get_post_field('post_content', $id))), 28, '…');
