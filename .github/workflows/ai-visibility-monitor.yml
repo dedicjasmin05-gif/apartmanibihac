@@ -1,0 +1,32 @@
+name: AI Search Visibility Monitor tests
+
+on:
+  push:
+    branches:
+      - codex/ai-search-visibility-baseline
+    paths:
+      - 'ai-lab/visibility/**'
+      - '.github/workflows/ai-visibility-monitor.yml'
+  pull_request:
+    paths:
+      - 'ai-lab/visibility/**'
+      - '.github/workflows/ai-visibility-monitor.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify 32 prompts and run offline tests
+        run: |
+          python -m unittest discover -s ai-lab/visibility -p 'test_*.py' -v
+          python ai-lab/visibility/monitor.py list > /tmp/visibility-queries.txt
+          test "$(wc -l < /tmp/visibility-queries.txt)" -eq 32
+          python ai-lab/visibility/monitor.py report
