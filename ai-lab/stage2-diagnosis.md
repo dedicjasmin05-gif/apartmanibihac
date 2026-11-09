@@ -1,41 +1,34 @@
-# Korak 2 — dijagnostika bez diranja postojećih funkcija
+# Korak 2 — provjera aktivnog SEO naslova i rezervacijskog obrasca
 
-Datum: 9. studenoga 2026.  
-Status: potvrđene informacije iz repozitorija + opažanja na javnoj stranici. **Nije proveden WordPress administratorski/server-side runtime pregled.**
+**Datum:** 9. studenoga 2026. — čitanje javnog HTML-a i postojećeg GitHub koda, bez promjena produkcije.
 
-## Što je potvrđeno
+## Potvrđeno
 
-1. Postojeći \`seo.php\` registrira \`pre_get_document_title\` na prioritetu 20, i namjerava postaviti \`Smještaj Bihać: apartmani i vikendice na Uni od 25 €\` za početnu.
-2. Taj isti filter **namjerno vraća izvorni naslov** ako je detektiran Yoast, Rank Math ili AIOSEO (\`abu_seo_plugin()\`). Aktivnost tih dodataka **nije potvrđena**. Drugim riječima, moguć je konflikt/izvor konfiguracije, ali uzrok još nije utvrđen.
-3. \`apartmani-upiti.php\` već registrira \`[abu_kalendar]\` i \`[abu_upit]\`. Forma u kodu ima eksplicitni \`admin-post.php\`, nonce, validaciju datuma/gostiju i zaštitu od jednostavnog spama.
-4. \`sadrzaj-objekti.php\` generira objašnjenje „Odaberite datume u kalendaru”, ali sam taj tekst ne ubacuje shortcode. Kalendar se ipak pojavio u javnom pregledniku testiranog Apartmana Centar, što upućuje na umetanje kroz aktivnu temu/predložak ili drugi sloj.
-5. \`alati/seo-test.php\` je već postojeći alat za SEO pregled. Novi \`ai-lab/check_existing_contracts.py\` samo provjerava prisutnost osnovnih ugovora u izvornom kodu; ne pokreće PHP i ne komunicira sa serverom.
+1. **HTML `<title>` početne radi:** `Smještaj Bihać: apartmani i vikendice na Uni od 25 €`. Raniji ekstrakcijski rezultat `Početna` odnosi se na `og:title`, ne na HTML title. **Ne mijenjati SEO title.**
+2. **OG naslov/opis početne:** `og:title = Početna`, `og:description = ""`. Stvarna neusklađenost, provjeriti temu.
+3. **Duplicirani meta description:** na početnoj stranici postoje dva `<meta name="description">` s različitim tekstovima, a na Apartman Centar dva istog sadržaja. Sačuvati provjereni postojeći opis; prvo pronaći dva generatora.
+4. **Canonical postoji:** na početnoj `https://apartmanibihac.com/`, na objektu `https://apartmanibihac.com/smjestaj/apartman-centar/`. Nema razloga duplicirati canonical.
+5. **Aktivna tema:** iz javnog CSS URL-a vidi se slug `wp-content/themes/apartmanibihac/`, glavni stylesheet nosi parametar `ver=1.1.7`. To ne dokazuje internu verziju teme. Izvorni kod teme nije dio pregledanog GitHub repo-a.
+6. **Booking:** javni HTML `form.abu-form` na Apartman Centar ima `method="post"` i eksplicitni `action="https://apartmanibihac.com/wp-admin/admin-post.php"`, obvezne podatke i WordPress nonce. Kalendar i obrazac već se prikazuju. **Nisu poslani stvarni upiti.**
+7. **Postojeći kod:** `seo.php` registrira naslovni filter, a `apartmani-upiti.php` registrira oba booking shortcoda i handler. Nema potrebe uvoditi novi SEO/booking plugin.
 
-## Što je neizvjesno, i zašto ne mijenjamo produkciju
+## Što nam još nedostaje
 
-- Ekstrakcija metapodataka s javne stranice dala je naslov početne **„Početna”**, dok je browser pregled kod pojedinačnog objekta dao opisniji naslov. Potrebna je provjera stvarnog HTML sourcea i utjecaja cachea, teme i aktivnih SEO dodataka.
-- **Naknadno potvrđeno iz izvornog HTML-a** na \`/smjestaj/apartman-centar/\`: obrazac \`form.abu-form\` ima \`method="post"\`, eksplicitni \`action="https://apartmanibihac.com/wp-admin/admin-post.php"\`, sigurnosni nonce, skriveno \`action=abu_upit\` i obavezne podatke o dolasku/odlasku/gostima. Prethodna nejasnoća browser pregleda bila je pogrešna: **nije potreban popravak odredišta obrasca**. Nisu slani probni upiti.
-- Različiti alati različito ekstraktiraju canonical i OG metapodatke. Ne dodavati drugi set metapodataka prije provjere izvornog HTML-a.
+- Provjeriti u stvarnoj temi gdje se generiraju OG meta tagovi i drugi meta description element. To ne možemo pouzdano utvrditi iz javnog HTML-a.
+- Provjeriti je li neki SEO dodatak aktivan. Source kod ima guard za Yoast/RankMath/AIOSEO, ali ispravan HTML title znači da ovo **nije potvrđen kvar**.
+- Na izoliranom stagingu provjeriti prijenos, e-mail i ical bez lažnih rezervacija na produkciji.
 
-## Sljedeća najkraća provjera, bez izmjena
+## Kandidat za najmanju buduću doradu
 
-1. Na odobrenom serveru/hPanelu očitati aktivne SEO dodatke i naziv aktivne teme (read-only).
-2. Usporediti izvorni HTML home + 1 objekt s public URL-a (idealno anonimno i uz cache bypass), posebno \`title\`, canonical, OG i \`form action\`.
-3. Ako aktivan SEO dodatak: pregledati njegov naslov početne i njegove postavke; **ne nadjačavati filter** naslijepo.
-4. Ako nije aktivan: pogledati theme filtere \`pre_get_document_title\`, \`document_title_parts\`, \`wp_title\` ili ručni \`<title>\`, a zatim pripremiti minimalnu ispravku na zasebnoj grani i testirati.
-5. Na stagingu ispitati formu i calendar UI bez slanja pravog upita vlasnicima; tek uz odobrenje provesti kontrolirani end-to-end test slanja.
+- Samo za **početnu** dati opisni OG title i nonempty OG description, koristeći potvrđeni tekst postojeće početne, uz zaštitu od dupliciranja.
+- Ukloniti izvor duplog meta description nakon identifikacije u temi/SEO komponenti.
+- Ne mijenjati HTML title, katalog objekata, rezervacijski sustav ni aktivne podatke bez testiranja.
 
-## Kako pokrenuti lokalni source audit
+## Novi lokalni alati (samo audit)
 
-\`\`\`bash
+```bash
 python3 ai-lab/check_existing_contracts.py
-python3 -m unittest discover -s ai-lab -p "test_*.py" -v
-\`\`\`
+python3 -m unittest discover -s ai-lab -p 'test_*.py' -v
+```
 
-Ovaj source audit ne čita lozinke, ne poziva API, ne piše u bazu i ne pokreće postojeće WordPress migracije.
-
-**Nema deploymenta, mergea, kupnji, izmjena rezervacija niti izmjena cijena.**
-
-## Potvrda HTML obrasca (isti datum)
-
-Čitanje isključivo elementa `form.abu-form` na javnoj stranici potvrđuje POST prema `wp-admin/admin-post.php`, polja `dolazak`, `odlazak`, `osobe`, `ime`, `email`, `telefon`, `uvjeti`, te sigurnosni token i submit button. Ne uključivati vrijednosti noncea u dokumentaciju. **Uspješno stvarno slanje, e-mail obavijesti i iCal sinkronizacija još nisu provjereni.**
+Skripte ne izvršavaju WordPress i ne šalju upite/rezervacije. **Nema mergea, deploya ni kupnji.**
