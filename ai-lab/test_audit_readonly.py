@@ -38,6 +38,21 @@ class AuditTests(unittest.TestCase):
         self.assertTrue(found["forms"][0]["submit"])
         self.assertNotIn("SECRET", str(found))
 
+    def test_correct_html_title_not_confused_with_generic_og(self):
+        html = """<html lang="bs"><head>
+        <title>Smještaj Bihać: apartmani i vikendice na Uni od 25 €</title>
+        <meta name="description" content="Prvi opis">
+        <meta property="og:title" content="Početna">
+        <meta property="og:description" content="">
+        <meta name="description" content="Drugi opis">
+        <link rel="canonical" href="https://apartmanibihac.com/">
+        </head></html>"""
+        found = summarize_html(html, "/")
+        self.assertNotIn("generic-homepage-title", found["review_flags"])
+        self.assertIn("generic-homepage-og-title", found["review_flags"])
+        self.assertIn("duplicate-meta-description", found["review_flags"])
+        self.assertEqual(found["meta_description_count"], 2)
+
     def test_booking_form_expected_target_without_secret_values(self):
         html = """<html><title>Objekt</title>
         <form class="abu-form" method="post" action="https://apartmanibihac.com/wp-admin/admin-post.php">
