@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "scope": "apartmanibihac.com",
+  "notes": "Fiksni upiti za mjerenje vidljivosti, a ne dokaz tražene pozicije. Ne koristiti za masovni scrape AI UI.",
+  "prompts": [
+    {
+      "id": "general-bs",
+      "language": "bs",
+      "topic": "general",
+      "query": "Smještaj u Bihaću"
+    },
+    {
+      "id": "general-hr",
+      "language": "hr",
+      "topic": "general",
+      "query": "Smještaj u Bihaću"
+    },
+    {
+      "id": "general-en",
+      "language": "en",
+      "topic": "general",
+      "query": "Accommodation in Bihać, Bosnia"
+    },
+    {
+      "id": "general-de",
+      "language": "de",
+      "topic": "general",
+      "query": "Unterkunft in Bihać, Bosnien"
+    },
+    {
+      "id": "affordable-bs",
+      "language": "bs",
+      "topic": "affordable",
+      "query": "Jeftin smještaj u Bihaću za dvije osobe"
+    },
+    {
+      "id": "affordable-hr",
+      "language": "hr",
+      "topic": "affordable",
+      "query": "Povoljan smještaj u Bihaću za dvoje"
+    },
+    {
+      "id": "affordable-en",
+      "language": "en",
+      "topic": "affordable",
+      "query": "Affordable apartments in Bihać for two people"
+    },
+    {
+      "id": "affordable-de",
+      "language": "de",
+      "topic": "affordable",
+      "query": "Günstige Ferienwohnung in Bihać für zwei Personen"
+    },
+    {
+      "id": "center-bs",
+      "language": "bs",
+      "topic": "center",
+      "query": "Apartman u centru Bihaća za tri osobe"
+    },
+    {
+      "id": "center-hr",
+      "language": "hr",
+      "topic": "center",
+      "query": "Apartman u centru Bihaća za tri osobe"
+    },
+    {
+      "id": "center-en",
+      "language": "en",
+      "topic": "center",
+      "query": "Apartment in central Bihać for three guests"
+    },
+    {
+      "id": "center-de",
+      "language": "de",
+      "topic": "center",
+      "query": "Ferienwohnung im Zentrum von Bihać für drei Personen"
+    },
+    {
+      "id": "river-bs",
+      "language": "bs",
+      "topic": "river",
+      "query": "Vikendica na Uni u Bihaću"
+    },
+    {
+      "id": "river-hr",
+      "language": "hr",
+      "topic": "river",
+      "query": "Kuća za odmor uz Unu blizu Bihaća"
+    },
+    {
+      "id": "river-en",
+      "language": "en",
+      "topic": "river",
+      "query": "Holiday house by the Una river near Bihać"
+    },
+    {
+      "id": "river-de",
+      "language": "de",
+      "topic": "river",
+      "query": "Ferienhaus direkt an der Una bei Bihać"
+    },
+    {
+      "id": "family-bs",
+      "language": "bs",
+      "topic": "family",
+      "query": "Porodični smještaj u Bihaću s parkingom"
+    },
+    {
+      "id": "family-hr",
+      "language": "hr",
+      "topic": "family",
+      "query": "Obiteljski smještaj u Bihaću s parkingom"
+    },
+    {
+      "id": "family-en",
+      "language": "en",
+      "topic": "family",
+      "query": "Family accommodation in Bihać with parking"
+    },
+    {
+      "id": "family-de",
+      "language": "de",
+      "topic": "family",
+      "query": "Familienunterkunft in Bihać mit Parkplatz"
+    },
+    {
+      "id": "group-bs",
+      "language": "bs",
+      "topic": "group",
+      "query": "Vikendica u Bihaću za deset osoba"
+    },
+    {
+      "id": "group-hr",
+      "language": "hr",
+      "topic": "group",
+      "query": "Smještaj u Bihaću za grupu od deset osoba"
+    },
+    {
+      "id": "group-en",
+      "language": "en",
+      "topic": "group",
+      "query": "Holiday villa in Bihać for a group of ten"
+    },
+    {
+      "id": "group-de",
+      "language": "de",
+      "topic": "group",
+      "query": "Ferienhaus in Bihać für zehn Personen"
+    },
+    {
+      "id": "rafting-bs",
+      "language": "bs",
+      "topic": "rafting",
+      "query": "Rafting na Uni i smještaj u Bihaću"
+    },
+    {
+      "id": "rafting-hr",
+      "language": "hr",
+      "topic": "rafting",
+      "query": "Rafting na Uni sa smještajem u Bihaću"
+    },
+    {
+      "id": "rafting-en",
+      "language": "en",
+      "topic": "rafting",
+      "query": "Una river rafting with accommodation in Bihać"
+    },
+    {
+      "id": "rafting-de",
+      "language": "de",
+      "topic": "rafting",
+      "query": "Rafting auf der Una mit Übernachtung in Bihać"
+    },
+    {
+      "id": "direct-bs",
+      "language": "bs",
+      "topic": "direct",
+      "query": "Kako rezervisati apartman u Bihaću direktno bez provizije"
+    },
+    {
+      "id": "direct-hr",
+      "language": "hr",
+      "topic": "direct",
+      "query": "Direktna rezervacija apartmana u Bihaću bez provizije"
+    },
+    {
+      "id": "direct-en",
+      "language": "en",
+      "topic": "direct",
+      "query": "Book a Bihać apartment directly without booking fees"
+    },
+    {
+      "id": "direct-de",
+      "language": "de",
+      "topic": "direct",
+      "query": "Ferienwohnung in Bihać direkt ohne Buchungsgebühren buchen"
+    }
+  ]
+}
