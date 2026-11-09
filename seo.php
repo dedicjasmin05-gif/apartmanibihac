@@ -49,7 +49,7 @@ function abu_seo_plugin() { return defined('WPSEO_VERSION') || defined('RANK_MAT
 
 /** Jedini izvor opisa naslovnice za SEO i Open Graph. */
 function abu_seo_front_description() {
-    return 'Apartmani u Bihaću i kuće uz rijeku Unu: cijeli apartman od 25 € (50 KM) po noći. 19 objekata, upit bez naknade, odgovor u 12 sati. WhatsApp +387 61 591 320.';
+    return 'Apartmani u Bihaću i kuće uz Unu: cijeli apartman od 25 € (50 KM) po noći. 19 objekata, upit bez naknade i odgovor u 12 sati. Pogledajte ponudu.';
 }
 
 /** Naslov u pregledniku i na Googleu. */
