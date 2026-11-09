@@ -14,7 +14,7 @@ Status: potvrđene informacije iz repozitorija + opažanja na javnoj stranici. *
 ## Što je neizvjesno, i zašto ne mijenjamo produkciju
 
 - Ekstrakcija metapodataka s javne stranice dala je naslov početne **„Početna”**, dok je browser pregled kod pojedinačnog objekta dao opisniji naslov. Potrebna je provjera stvarnog HTML sourcea i utjecaja cachea, teme i aktivnih SEO dodataka.
-- Browser pregled pronašao je \`.abu-form\` i \`.abu-kal\` na Apartman Centar, ali nije pouzdano potvrdio HTML atribut \`action\` obrasca; kod ga eksplicitno postavlja. **To nije dokaz da je forma neispravna.** Nisu slani probni upiti.
+- **Naknadno potvrđeno iz izvornog HTML-a** na \`/smjestaj/apartman-centar/\`: obrazac \`form.abu-form\` ima \`method="post"\`, eksplicitni \`action="https://apartmanibihac.com/wp-admin/admin-post.php"\`, sigurnosni nonce, skriveno \`action=abu_upit\` i obavezne podatke o dolasku/odlasku/gostima. Prethodna nejasnoća browser pregleda bila je pogrešna: **nije potreban popravak odredišta obrasca**. Nisu slani probni upiti.
 - Različiti alati različito ekstraktiraju canonical i OG metapodatke. Ne dodavati drugi set metapodataka prije provjere izvornog HTML-a.
 
 ## Sljedeća najkraća provjera, bez izmjena
@@ -35,3 +35,7 @@ python3 -m unittest discover -s ai-lab -p "test_*.py" -v
 Ovaj source audit ne čita lozinke, ne poziva API, ne piše u bazu i ne pokreće postojeće WordPress migracije.
 
 **Nema deploymenta, mergea, kupnji, izmjena rezervacija niti izmjena cijena.**
+
+## Potvrda HTML obrasca (isti datum)
+
+Čitanje isključivo elementa `form.abu-form` na javnoj stranici potvrđuje POST prema `wp-admin/admin-post.php`, polja `dolazak`, `odlazak`, `osobe`, `ime`, `email`, `telefon`, `uvjeti`, te sigurnosni token i submit button. Ne uključivati vrijednosti noncea u dokumentaciju. **Uspješno stvarno slanje, e-mail obavijesti i iCal sinkronizacija još nisu provjereni.**
