@@ -37,8 +37,6 @@ def validate_observation(obs, prompt_map):
         raise ValueError("Unknown platform")
     if obs["brand_mentioned"] not in ANSWER or obs["site_cited"] not in ANSWER:
         raise ValueError("Expected yes/no/unclear")
-    if obs["brand_mentioned"] == "no" and obs["site_cited"] == "yes":
-        raise ValueError("Site citation cannot be yes when brand mention is marked no; review evidence")
     if not obs["evidence_note"].strip():
         raise ValueError("An evidence note is mandatory: screenshot or source, date, and visibility limits")
     if len(obs["evidence_note"]) > 300:
