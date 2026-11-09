@@ -93,7 +93,15 @@ class PageParser(HTMLParser):
             self.images.append({"alt": bool(d.get("alt", "").strip()),
                                 "dimensions": bool(d.get("width") and d.get("height"))})
         if tag == "form":
-            self._form = {"method": (d.get("method") or "GET").upper(), "fields": [], "submit": False}
+            action = (d.get("action") or "").strip()
+            action_parts = urlsplit(action) if action else None
+            self._form = {
+                "method": (d.get("method") or "GET").upper(),
+                "classes": (d.get("class") or "").split(),
+                "action_host": (action_parts.hostname or "") if action_parts else "",
+                "action_path": action_parts.path if action_parts else "",
+                "fields": [], "submit": False,
+            }
         if tag in ("input", "select", "textarea") and self._form is not None:
             self._form["fields"].append(d.get("name", ""))
         if tag == "button" and self._form is not None and d.get("type", "submit") == "submit":
@@ -149,6 +157,14 @@ def summarize_html(html, path=""):
         flags.append("missing-canonical")
     if path.startswith("/smjestaj/") and path.count("/") > 2 and not p.forms:
         flags.append("no-static-form-check-template-not-proof-of-failure")
+    if path.startswith("/smjestaj/") and path.count("/") > 2:
+        for form in p.forms:
+            if "abu-form" not in form.get("classes", []):
+                continue
+            if not (form["method"] == "POST"
+                    and form["action_path"] == "/wp-admin/admin-post.php"
+                    and form["action_host"] in ("", "apartmanibihac.com", "www.apartmanibihac.com")):
+                flags.append("booking-form-target-requires-review")
     return {"title": p.title, "description": p.description,
             "og_title": p.og_title, "og_description": p.og_description,
             "html_lang": p.lang, "canonical": p.canonical, "hreflang": p.hreflang,
