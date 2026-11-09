@@ -1,0 +1,37 @@
+name: AI Search Lab PHP regression
+
+on:
+  pull_request:
+    paths:
+      - 'seo.php'
+      - 'drustvene.php'
+      - 'ai-lab/tests/**'
+      - '.github/workflows/ai-lab-php.yml'
+  push:
+    branches:
+      - 'codex/ai-search-og-home-minimal'
+    paths:
+      - 'seo.php'
+      - 'drustvene.php'
+      - 'ai-lab/tests/**'
+      - '.github/workflows/ai-lab-php.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  php-regression:
+    name: PHP syntax and OG regression
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: PHP available
+        run: php --version
+      - name: Lint only changed plugin modules
+        run: |
+          php -l seo.php
+          php -l drustvene.php
+          php -l ai-lab/tests/test-og-home.php
+      - name: Homepage and property OG regression
+        run: php ai-lab/tests/test-og-home.php
