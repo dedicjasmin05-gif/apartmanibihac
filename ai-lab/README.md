@@ -17,14 +17,14 @@ python3 audit_readonly.py --output ai-lab-baseline.json
 - Flagovi su znak za *ručni pregled*, nisu AI-rangiranje ni dokaz da neki obrazac ne radi.
 
 ## Potvrđeno opažanje (9. 11. 2026.)
-- Aktivna početna stranica kroz javni pregled daje title „Početna” i prazan OG description. U postojećem `seo.php` već se pokušava postaviti opisniji naslov. Treba pregledati izvornu stranicu i prioritet filtera u temi; **ne dodavati drugi SEO plugin**.
+- **Ispravka nakon pregleda pravog HTML `<head>`:** stvarni `<title>` početne već je `Smještaj Bihać: apartmani i vikendice na Uni od 25 €` — radi i ne treba ga dirati. Vrijednost `Početna` odnosi se na **`og:title`**, a `og:description` je prazan. U HTML-u su i **dva meta description elementa**. Treba provjeriti postojeću temu (`wp-content/themes/apartmanibihac/`) prije minimalne korekcije, bez drugog SEO dodatka.
 - WordPress sitemap radi, AI user-agenti su u robots.txt već obuhvaćeni. Ne treba dodavati duplicirani sitemap ili „AI SEO” dodatak.
-- Kalendar i obrazac za upit postoje kao shortcodeovi `abu_kalendar` i `abu_upit`, ali njihov prikaz nije potvrđen na testiranoj javnoj stranici. Provjeriti WordPress template/shortcode prije bilo kakve dogradnje.
+- Kalendar i obrazac za upit postoje kao shortcodeovi `abu_kalendar` i `abu_upit` **i potvrđeni su u javnom HTML-u Apartmana Centar**. Forma koristi POST na `wp-admin/admin-post.php`. Prava isporuka upita nije testirana; ne graditi novi sustav.
 - Cijene pojedinačnih oglasa trenutno su navedene kao „cijena na upit”. Ne objavljivati procijenjene cijene, raspoloživost ili recenzije.
 - Korisnik je u Google AI Mode postavio „smjestaj u bihacu” (9. 11. 2026. oko 05:20). Jedan odgovor citira Booking/Agoda i neke hotele, a nije citirao portal. To nije statistički dokaz o ukupnoj AI vidljivosti.
 
 ## Naredna etapa, izvan ovog PR-a
-1. Utvrditi uzrok live generičkog naslovnog taga — minimalna izmjena tek na stagingu uz korisnikovo odobrenje.
+1. Na stagingu provjeriti i minimalno ispraviti **OG naslov/opis početne** te **duplicirane meta opise** uz čuvanje sadašnjeg ispravnog HTML `<title>`.
 2. Testirati interaktivni kalendar i obrazac bez stvarnog slanja rezervacija.
 3. Zabilježiti AI vidljivost za fiksne upite (HR/BS/EN/DE), odvojiti Google AI Mode, ChatGPT, Bing; bez automatskog scrapeanja odgovora protiv pravila platforme.
 4. Provjeriti Search Console / Bing Webmaster ako korisnik odobri pristup.
