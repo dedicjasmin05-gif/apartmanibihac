@@ -114,11 +114,12 @@ add_action('wp_head', function () {
     }
     if (defined('WPSEO_VERSION') || defined('RANK_MATH_VERSION') || defined('AIOSEO_VERSION') || !is_singular()) { return; }
     $id = get_queried_object_id();
-    $opis = has_excerpt($id) ? get_the_excerpt($id) : wp_trim_words(wp_strip_all_tags(strip_shortcodes(get_post_field('post_content', $id))), 30, '…');
+    $opis = is_front_page() ? abu_seo_front_description() : (has_excerpt($id) ? get_the_excerpt($id) : wp_trim_words(wp_strip_all_tags(strip_shortcodes(get_post_field('post_content', $id))), 30, '…'));
+    $naslov = is_front_page() ? wp_get_document_title() : get_the_title($id);
     $img = get_the_post_thumbnail_url($id, 'large');
     echo '<meta property="og:type" content="' . (is_singular('post') ? 'article' : 'website') . '">' . "\n";
     echo '<meta property="og:site_name" content="Apartmani & Vikendice Bihać">' . "\n";
-    echo '<meta property="og:title" content="' . esc_attr(get_the_title($id)) . '">' . "\n";
+    echo '<meta property="og:title" content="' . esc_attr($naslov) . '">' . "\n";
     echo '<meta property="og:description" content="' . esc_attr($opis) . '">' . "\n";
     echo '<meta property="og:url" content="' . esc_url(get_permalink($id)) . '">' . "\n";
     if ($img) { echo '<meta property="og:image" content="' . esc_url($img) . '">' . "\n" . '<meta name="twitter:card" content="summary_large_image">' . "\n"; }
