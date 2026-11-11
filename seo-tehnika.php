@@ -36,8 +36,13 @@ add_action('init', function () {
  * 2. Stranice koje ne trebaju biti u Googleu: pretraga /smjestaj/ (isti popis kao /smjestaj-bihac/, uz filtere),
  * arhive opreme (samo popis kartica, ~24 riječi), pomoćna stranica "header-slike". Linkovi se i dalje prate.
  */
+/** Članci skriveni od tražilica (odluka vlasnika 11.11.2026.): stari članak iz 2024. o hostelima kojih nema u ponudi. */
+function abu_seo_skriveni_clanci() {
+    return array('naslov-pronadite-odlican-i-jeftin-smjestaj-u-bihacu-vodic-za-putnike');
+}
 function abu_seo_bez_indeksa() {
     if (get_query_var('ab_smjestaj') || is_tax('oprema')) { return true; }
+    if (is_singular('post') && in_array(get_post_field('post_name', get_queried_object_id()), abu_seo_skriveni_clanci(), true)) { return true; }
     return is_page('header-slike');
 }
 add_filter('wp_robots', function ($r) {
@@ -51,6 +56,11 @@ add_filter('wp_sitemaps_posts_query_args', function ($a, $tip) {
     if ($tip === 'page') {
         $p = get_page_by_path('header-slike');
         if ($p) { $a['post__not_in'] = array_merge(isset($a['post__not_in']) ? (array) $a['post__not_in'] : array(), array($p->ID)); }
+    }
+    if ($tip === 'post') {
+        $ids = array();
+        foreach (abu_seo_skriveni_clanci() as $s) { $x = get_posts(array('name' => $s, 'post_type' => 'post', 'numberposts' => 1, 'fields' => 'ids')); if ($x) { $ids[] = $x[0]; } }
+        if ($ids) { $a['post__not_in'] = array_merge(isset($a['post__not_in']) ? (array) $a['post__not_in'] : array(), $ids); }
     }
     return $a;
 }, 10, 2);

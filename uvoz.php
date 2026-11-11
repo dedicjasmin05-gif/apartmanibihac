@@ -185,6 +185,7 @@ add_action('init', function () {
     }
     $o .= "\n## Vodiči\n";
     foreach (get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'numberposts' => 100)) as $p) {
+        if (function_exists('abu_seo_skriveni_clanci') && in_array($p->post_name, abu_seo_skriveni_clanci(), true)) { continue; }
         $o .= '- [' . $p->post_title . '](' . get_permalink($p) . '): ' . wp_strip_all_tags(get_the_excerpt($p)) . "\n";
     }
     $o .= "\n## Česta pitanja\n- [Sva česta pitanja o Bihaću i smještaju](" . home_url('/cesta-pitanja/') . "): odgovori po temama\n- [Svi odgovori kao tekst](" . home_url('/llms-full.txt') . ")\n";
