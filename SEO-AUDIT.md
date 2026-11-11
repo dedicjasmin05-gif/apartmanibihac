@@ -117,7 +117,7 @@ Napomena o robots.txt: posebne grupe za AI botove sadrže samo `Allow: /`, pa za
 
 - TTFB je 0,52–0,93 s (prosjek 0,67 s preko 196 URL-ova), a HTML 55–65 KB. Nema LiteSpeed cache zaglavlja, pa se stranice ne poslužuju iz page cachea.
 - Naslovna slika ima `fetchpriority="high"`, `srcset` i nije lazy. Ostale slike su lazy, a na objektu prva je `eager`. Dobro postavljeno.
-- Glavne fotografije su 46–133 KB. 116 slika nema `alt`, većinom logotipi partnera na team building stranicama (33–36 po jeziku).
+- Glavne fotografije su 46–133 KB. 116 slika ima prazan `alt`: sličice uz vijesti i partnere, uz koje odmah stoji vidljiv naslov. To je namjerno i ispravno (čitač zaslona ne čita isti naziv dvaput), pa nije mijenjano.
 - PageSpeed API je vratio 429 bez ključa. **Terenske CWV vrijednosti treba pročitati u Search Consoleu (Core Web Vitals) ili PSI s ključem.**
 
 ## 13. Sadržaj i povjerenje

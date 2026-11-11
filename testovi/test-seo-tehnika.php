@@ -22,7 +22,7 @@ foreach (array(1 => '1 osoba', 2 => '2 osobe', 3 => '3 osobe', 4 => '4 osobe', 5
 $h1 = $GLOBALS['F']['the_content'][0];
 t('dupli h1 uklonjen', $h1("<h1>Smještaj u Lohovu</h1>\n<p>Tekst</p>") === "<p>Tekst</p>");
 t('drugačiji h1 ostaje', $h1('<h1>Drugi naslov</h1><p>a</p>') === '<h1>Drugi naslov</h1><p>a</p>');
-t('h1 u sredini ostaje', $h1('<p>a</p><h1>Smještaj u Lohovu</h1>') === '<p>a</p><h1>Smještaj u Lohovu</h1>');
+t('h1 iza putanje uklonjen', $h1('<div><a href="/">Početna</a> › Smještaj u Lohovu</div><div><h1>Smještaj u Lohovu</h1><p>a</p></div>') === '<div><a href="/">Početna</a> › Smještaj u Lohovu</div><div><p>a</p></div>');
 t('bez h1 isto', $h1('<p>a</p>') === '<p>a</p>');
 $GLOBALS['S']['singular'] = false; t('arhiva netaknuta', $h1('<h1>Smještaj u Lohovu</h1>') === '<h1>Smještaj u Lohovu</h1>');
 $rob = $GLOBALS['F']['wp_robots'][0];

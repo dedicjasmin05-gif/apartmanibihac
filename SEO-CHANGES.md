@@ -1,5 +1,9 @@
 # SEO izmjene: grana `ccr-ab0db569-mim4o1`
 
+**Objavljeno na produkciju 11. 11. 2026. u 22:52 UTC** (dodatak 1.1.4, tema 1.1.8; 28 datoteka) uz odobrenje vlasnika. Rezultati provjere: `seo-audit/provjera-prije-2026-11-11.txt` → `seo-audit/provjera-poslije-2026-11-11.txt` (20/20 točaka prema očekivanju). Ponovni prolaz cijelog sitemapa: 183 URL-a, svi 200, nijedna stranica s dva H1, jedan meta opis po stranici.
+
+**Povratak:** datoteke prije objave identične su grani `main` na commitu `0189713` (dodatak) i grani `tema` na `f20ae7d`. Te datoteke treba ponovno učitati; izmijenjene stranice u bazi imaju WordPress revizije.
+
 **Ništa od ovoga nije objavljeno na produkciji.** Svaka izmjena je mala i ima vlastiti povrat.
 
 Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓), `php testovi/test-povezivanje.php` (49/49 ✓; s `-v` ispisuje odabir), `php testovi/test-mjerenje.php` (15/15 ✓). JavaScript mjerenja provjeren u Nodeu: 11 izvora dolaska i 5 vrsta klikova točno prepoznato. Provjera sintakse: `php -l` za sve datoteke ✓. Zakrpa teme se čisto primjenjuje: `git apply --check` na `origin/tema` ✓.
@@ -27,6 +31,10 @@ Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓), `php tes
 | 17 | `uvoz.php`, `alati/zamjene-placanje-3.json` | Jednokratna zamjena istih rečenica u već objavljenom sadržaju u bazi (opcija `abu_mig_placanje3`), istim mehanizmom kao migracije 1 i 2 | 13 | izmijenjene stranice imaju WordPress reviziju |
 | 18 | `seo/stranice.json` | **Nova stranica „O nama“** (`/o-nama/`, isti URL): tko smo, kako radimo (vlasnici, upit i potvrda, plaćanje, ljubimci, adresa nakon potvrde), ponuda (19 objekata), kontakt. Samo činjenice koje su već na webu. Stari tekst o Optici Dervišević ostaje u revizijama stranice. Naslov, meta opis i FAQ schema (3 pitanja); stranica dodana i u llms.txt | 13 | vratiti reviziju u WordPressu (Stranice → O nama → Revizije) ili ukloniti ključ `o-nama` iz JSON-a |
 | 19 | `povezivanje.php` | Ljubimci: tema „Putovanje s ljubimcem“ (bs/en/de) i članak o psu dobivaju blok „Smještaj s psom ili mačkom“ s napomenom „psi i mačke na upit… vlasnik potvrđuje uz odgovor, zajedno s eventualnom doplatom“ | — | — |
+| 20 | `seo-tehnika.php` §3 (dorada nakon objave) | Dupli H1 uklanja se i kad stoji iza putanje ili oznake u tekstu (stranice lokacija i članci od 21. 10.), ne samo na početku | 5 | — |
+| 21 | `seo.php` (dorada nakon objave) | Stranice vodiča (restorani, izlasci, izleti, rafting) i team buildinga ispisuju vlastiti meta opis, pa `seo.php` za njih više ne dodaje drugi (15 stranica). Ova greška postojala je i prije, ali ju je skrivao dupli opis iz teme | 3 | — |
+| 22 | `seo-tehnika.php` §2, `uvoz.php` | Članak iz 2024. („Naslov: Pronađite odličan i jeftin smještaj…“) ima `noindex,follow`, nije u sitemapu ni u llms.txt; adresa i tekst ostaju | 13 | ukloniti slug iz `abu_seo_skriveni_clanci()` |
+| 23 | `apartmani-upiti.php` | Verzija 1.1.4 (osvježavanje pravila adresa, IndexNow šalje sve URL-ove jednom) | — | — |
 
 ## Tema (`zakrpe/tema-1.1.8.patch`, primjenjuje se na granu `tema`)
 
@@ -39,6 +47,7 @@ Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓), `php tes
 | Schema `TravelAgency`: dodani `postalCode` 77000 i `priceRange` (od cijene iz postavki do 100 €), jedan poslovni entitet umjesto dva | 10 |
 | Stranica objekta: u retku činjenica „psi i mačke na upit“; u schemi objekta `petsAllowed` | — |
 | Podnožje: link „O nama“ (stranica nije imala nijedan ulazni link) | 8 |
+| „9.362 recenzija **na Facebooku**“ u gornjoj traci, bloku povjerenja i na naslovnici (bs/en/de) | 13 |
 | Verzija 1.1.8, da se osvježe CSS i JS u cacheu i pravila adresa | — |
 
 Povrat teme: vratiti datoteke verzije 1.1.7 s grane `tema` (`git checkout origin/tema -- .`).

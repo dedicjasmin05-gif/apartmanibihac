@@ -77,6 +77,7 @@ add_action('wp_head', function () {
     if ($s) { $opis = $s['meta']; }
     elseif ($x = abu_seo_pitanja_meta()) { $opis = $x[1]; }
     elseif (is_front_page()) { $opis = abu_seo_front_description(); }
+    elseif ((function_exists('abu_vodic_tekuci') && abu_vodic_tekuci()) || (function_exists('abu_tb_tekuci') && abu_tb_tekuci())) { $opis = ''; } // vodič i team building ispisuju vlastiti opis
     elseif (is_singular()) {
         $id = get_queried_object_id();
         $opis = has_excerpt($id) ? get_the_excerpt($id) : wp_trim_words(wp_strip_all_tags(strip_shortcodes(get_post_field('post_content', $id))), 28, '…');

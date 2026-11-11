@@ -66,15 +66,15 @@ add_filter('wp_sitemaps_posts_query_args', function ($a, $tip) {
 }, 10, 2);
 
 /**
- * 3. Tema već ispisuje naslov kao H1. Kad tekst stranice počinje istim H1, naslov se vidi dvaput
- * i stranica ima dva H1. Uklanja se samo početni H1 koji je jednak naslovu; ostali sadržaj ostaje.
+ * 3. Tema već ispisuje naslov kao H1. Kad tekst stranice sadrži isti H1 (često iza putanje ili oznake),
+ * naslov se vidi dvaput i stranica ima dva H1. Uklanja se samo prvi H1 u sadržaju koji je jednak naslovu.
  */
 add_filter('the_content', function ($c) {
     if (is_admin() || !is_singular() || !in_the_loop() || !is_main_query()) { return $c; }
-    if (!preg_match('~^\s*(?:<!--[^>]*-->\s*)*<h1[^>]*>(.*?)</h1>\s*~is', $c, $m)) { return $c; }
+    if (!preg_match('~<h1[^>]*>(.*?)</h1>\s*~is', $c, $m, PREG_OFFSET_CAPTURE)) { return $c; }
     $norm = function ($s) { return trim(preg_replace('/\s+/u', ' ', html_entity_decode(wp_strip_all_tags($s), ENT_QUOTES, 'UTF-8'))); };
-    if ($norm($m[1]) !== $norm(get_the_title())) { return $c; }
-    return substr($c, strlen($m[0]));
+    if ($norm($m[1][0]) !== $norm(get_the_title())) { return $c; }
+    return substr($c, 0, $m[0][1]) . substr($c, $m[0][1] + strlen($m[0][0]));
 }, 11); // nakon do_blocks (9) i wpautop (10)
 
 /** 4. Članci: BlogPosting schema (naslov, datumi, slika, izdavač). Bez ocjena i recenzija. */
