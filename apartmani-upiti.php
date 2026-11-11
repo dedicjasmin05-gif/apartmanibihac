@@ -960,3 +960,4 @@ require_once __DIR__ . '/teambuilding.php';
 require_once __DIR__ . '/ai-odgovori.php';
 require_once __DIR__ . '/mail-postavke.php';
 require_once __DIR__ . '/indexnow.php';
+require_once __DIR__ . '/seo-tehnika.php';

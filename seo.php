@@ -59,7 +59,7 @@ add_filter('pre_get_document_title', function ($t) {
         $mj = (string) get_post_meta($id, '_abu_mjesto', true);
         $kap = (int) get_post_meta($id, '_abu_kapacitet', true);
         $tip = get_post_meta($id, '_abu_grupa', true) === 'vlastiti' ? 'apartman' : 'smještaj';
-        return get_the_title($id) . ': ' . $tip . ' ' . ($mj && stripos($mj, 'Bihać') === false ? $mj . ', Bihać' : 'Bihać') . ($kap ? ', do ' . $kap . ' osoba' : '');
+        return get_the_title($id) . ': ' . $tip . ' ' . ($mj && stripos($mj, 'Bihać') === false ? $mj . ', Bihać' : 'Bihać') . ($kap ? ', do ' . abu_osobe($kap) : '');
     }
     return $t;
 }, 20);
