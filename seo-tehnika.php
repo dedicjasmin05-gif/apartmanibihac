@@ -110,3 +110,21 @@ add_filter('the_content', function ($c) {
         return $mapa[$slug] ? 'href=' . $m[1] . esc_url($mapa[$slug]) . $m[1] : $m[0];
     }, $c);
 }, 12);
+
+/** 6. Slike bez alt teksta: naslov objave kojoj slika pripada (team building, vodič, vijesti). Uređeni alt ostaje. */
+add_filter('wp_get_attachment_image_attributes', function ($a, $att) {
+    if (isset($a['alt']) && trim($a['alt']) !== '') { return $a; }
+    $rod = $att && !empty($att->post_parent) ? get_post($att->post_parent) : null;
+    if ($rod && $rod->post_status === 'publish' && $rod->post_title !== '') { $a['alt'] = wp_strip_all_tags($rod->post_title); }
+    return $a;
+}, 10, 2);
+
+/**
+ * 7. Google skraćuje naslove dulje od ~60 znakova. Kad naslov stranice već sadrži Bihać ili Unu,
+ * dodatak „– Apartmani i vikendice Bihać“ samo ga produži, pa se izostavlja. Naslovnica i ručno postavljeni naslovi ostaju.
+ */
+add_filter('document_title_parts', function ($d) {
+    if (is_front_page() || empty($d['title'])) { return $d; }
+    if (preg_match('~biha[cć]|\buna\b|\buni\b|\bunu\b~iu', $d['title'])) { unset($d['site'], $d['tagline']); }
+    return $d;
+});

@@ -26,7 +26,8 @@ Dodatak i tema ne ovise jedno o drugom i mogu se objaviti odvojeno.
 
 ## P1: sljedeća 2–4 tjedna
 
-1. **Mjerenje (preduvjet za sve ostalo).** Na webu nema analitike.
+1. ✅ **Mjerenje:** pripremljeno u `mjerenje.php` (vlastito brojanje bez kolačića, izvještaj *Upiti → Mjerenje*). Ostatak ove točke opisuje alternativu (GA4), ako jednom zatreba više od zbrojeva.
+   Na webu sada nema analitike.
    - Predlog: **GA4** s Consent Mode v2 i bannerom za pristanak, ili analitika bez kolačića (Plausible / Matomo bez kolačića).
    - Događaji: `klik_telefon`, `klik_whatsapp`, `klik_viber`, `upit_poslan` (uspješno slanje `abu-form`), `teambuilding_upit`.
    - Upit i potvrđena rezervacija su različite stvari: potvrde se već bilježe u tablici `abu_upiti` (status `potvrden` / `placeno`). Za usporedbu je dovoljno mjesečno izvesti broj upita i potvrda po objektu.
@@ -36,7 +37,7 @@ Dodatak i tema ne ovise jedno o drugom i mogu se objaviti odvojeno.
    - U GSC provjeriti *Settings → Search generative AI* (je li sadržaj uključen u AI rezultate).
    - U Bing WMT otvoriti *AI Performance*.
    - Izvući početno stanje: upiti, klikovi, CTR, pozicija, države, uređaji (28 dana) → `seo-audit/gsc-pocetno.csv`.
-3. **Jedan poslovni entitet u schemi.** Spojiti `TravelAgency` (tema) i `LodgingBusiness` (dodatak, naslovnica) pod `@id …/#org` s jednim imenom. Prijedlog je „Apartmani & Vikendice Bihać“, kao na Facebooku. Vlasnik potvrđuje ime.
+3. ✅ **Jedan poslovni entitet u schemi** (pripremljeno; ime ostaje naziv sajta iz WordPressa, „Apartmani i vikendice Bihać“). Spojiti `TravelAgency` (tema) i `LodgingBusiness` (dodatak, naslovnica) pod `@id …/#org` s jednim imenom. Prijedlog je „Apartmani & Vikendice Bihać“, kao na Facebooku. Vlasnik potvrđuje ime.
 4. ✅ **Tematsko povezivanje** (nalaz 8), pripremljeno u `povezivanje.php`; samo gdje veza stvarno postoji:
    - članak o Štrbačkom buku i NP Una → objekti u Lohovu (smjer parka) i stranica s pitanjima *Štrbački buk*;
    - rafting članci → Grmuša (Green River, Vikendica Unadom) i `/rafting-na-uni/`;
@@ -44,13 +45,13 @@ Dodatak i tema ne ovise jedno o drugom i mogu se objaviti odvojeno.
    - stranice s pitanjima → blok „Smještaj u blizini“ s 3 objekta prema temi.
 
    Izvedba: mapa tema → objekti u kodu, dodaje se na kraj sadržaja, sadržaj u bazi se ne dira.
-5. **Naslovi dulji od 70 znakova (44).** Kad naslov već sadrži „Bihać“, ne dodavati „– Apartmani i vikendice Bihać“ (filter `document_title_parts`). Prije toga zabilježiti CTR u GSC, pa usporediti nakon 4 tjedna.
+5. ✅ **Naslovi dulji od 70 znakova (44)** (pripremljeno). Prije objave zabilježiti CTR tih stranica u GSC. Kad naslov već sadrži „Bihać“, ne dodavati „– Apartmani i vikendice Bihać“ (filter `document_title_parts`). Prije toga zabilježiti CTR u GSC, pa usporediti nakon 4 tjedna.
 6. **Page cache.** Uključiti LiteSpeed Cache (Hostinger ga podržava) samo za neprijavljene posjetitelje.
    - Isključiti iz cachea: `/smjestaj/` s parametrima, `admin-post.php`, stranice s `abu_a=`.
    - Prije uključivanja testirati kalendar i nonce u formi upita.
    - Cilj je TTFB ispod 0,3 s.
 7. **Terenski CWV** iz GSC: LCP ≤ 2,5 s, INP ≤ 200 ms, CLS ≤ 0,1, posebno za mobilne uređaje.
-8. **Alt tekst** za logotipe partnera na team building stranicama (33–36 po jeziku): naziv partnera, iz `sadrzaj/teambuilding.json`.
+8. ✅ **Alt tekst** za logotipe partnera (pripremljeno, iz naslova stavke) na team building stranicama (33–36 po jeziku): naziv partnera, iz `sadrzaj/teambuilding.json`.
 
 ## P2: nakon što postoje podaci
 
@@ -64,7 +65,7 @@ Dodatak i tema ne ovise jedno o drugom i mogu se objaviti odvojeno.
    - Turistička zajednica USK / Grad Bihać (popis smještaja), NP Una (smještaj u okolici), Una Olympic Rafting (partnerski link), lokalni portali.
    - Bez kupljenih linkova.
    - Google Business Profile samo za stvarnu adresu s osobljem koja ispunjava pravila; ne otvarati zaseban profil za svaku kuću.
-5. **robots.txt:** u grupe AI botova dodati iste `Disallow` kao za `*`. Kozmetička izmjena.
+5. ✅ **robots.txt:** u grupe AI botova dodati iste `Disallow` kao za `*`. Kozmetička izmjena.
 6. **Oznaka izvora u traci:** „9.362 recenzije **na Facebooku**“. Tekstualna izmjena; potrebna odluka vlasnika.
 
 ## Što se ne radi
@@ -82,5 +83,5 @@ Dodatak i tema ne ovise jedno o drugom i mogu se objaviti odvojeno.
 | Klikovi, impresije, CTR (brand / nebrand, po jeziku) | GSC | izvući |
 | Citiranja u Copilotu | Bing WMT → AI Performance | izvući |
 | AI vidljivost (32 fiksna upita) | `ai-lab/visibility` (PR #4) | izvući ručno |
-| Klikovi telefon / WhatsApp / Viber | GA4 (nakon P1.1) | 0 (ne mjeri se) |
+| Klikovi telefon / WhatsApp / Viber, dolasci iz AI izvora | Upiti → Mjerenje | počinje od objave |
 | Poslani upiti, potvrđene rezervacije | tablica `abu_upiti` | izvući |

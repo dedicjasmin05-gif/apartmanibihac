@@ -105,7 +105,7 @@ add_action('wp_footer', function () {
 
 /** Google: veza sajta s profilima; Open Graph za lijep prikaz pri dijeljenju (ako nema SEO dodatka). */
 add_action('wp_head', function () {
-    if (is_front_page()) {
+    if (is_front_page() && !function_exists('ab_faq')) { // tema ima isti poslovni entitet (#org) s cijenom i adresom
         $d = array('@context' => 'https://schema.org', '@type' => 'LodgingBusiness', 'name' => 'Apartmani & Vikendice Bihać', 'url' => home_url('/'),
             'telephone' => '+387 61 591 320', 'priceRange' => '25–100 €',
             'address' => array('@type' => 'PostalAddress', 'addressLocality' => 'Bihać', 'postalCode' => '77000', 'addressCountry' => 'BA'),

@@ -1,5 +1,5 @@
 diff --git a/functions.php b/functions.php
-index df98032..63cf83a 100644
+index df98032..22c16a4 100644
 --- a/functions.php
 +++ b/functions.php
 @@ -1,7 +1,7 @@
@@ -67,13 +67,15 @@ index df98032..63cf83a 100644
        </div>
      </article>
      <?php return ob_get_clean();
-@@ -185,10 +201,11 @@ function ab_slike_svih($n) {
+@@ -185,10 +201,12 @@ function ab_slike_svih($n) {
  add_action('wp_head', function () {
      $g = array();
      $site = array('@type' => 'WebSite', '@id' => home_url('/#web'), 'url' => home_url('/'), 'name' => get_bloginfo('name'), 'inLanguage' => 'bs');
 -    $org = array('@type' => 'TravelAgency', '@id' => home_url('/#org'), 'name' => get_bloginfo('name'), 'url' => home_url('/'), 'telephone' => ab_tel(), 'email' => ab_mod('ab_email', ''),
+-        'address' => array('@type' => 'PostalAddress', 'addressLocality' => 'Bihać', 'addressCountry' => 'BA'),
 +    $org = array('@type' => 'TravelAgency', '@id' => home_url('/#org'), 'name' => get_bloginfo('name'), 'url' => home_url('/'), 'telephone' => ab_tel(),
-         'address' => array('@type' => 'PostalAddress', 'addressLocality' => 'Bihać', 'addressCountry' => 'BA'),
++        'address' => array('@type' => 'PostalAddress', 'addressLocality' => 'Bihać', 'postalCode' => '77000', 'addressCountry' => 'BA'),
++        'priceRange' => ab_mod('ab_cijena_od', '25') . '–100 €',
          'areaServed' => array('Bihać', 'Lohovo', 'Grmuša', 'Pritoka', 'Nacionalni park Una'),
 -        'sameAs' => array_values(array_filter(array(ab_mod('ab_facebook'), ab_mod('ab_instagram')))));
 +        'sameAs' => array(ab_fb(), ab_ig()));
@@ -81,7 +83,7 @@ index df98032..63cf83a 100644
      $g[] = $site; $g[] = $org;
      if (is_singular('objekt')) {
          $id = get_queried_object_id();
-@@ -213,6 +230,7 @@ add_action('wp_head', function () {
+@@ -213,6 +231,7 @@ add_action('wp_head', function () {
          $g[] = array('@type' => 'FAQPage', 'mainEntity' => array_map(function ($f) { return array('@type' => 'Question', 'name' => $f[0], 'acceptedAnswer' => array('@type' => 'Answer', 'text' => $f[1])); }, ab_faq()));
      }
      echo '<script type="application/ld+json">' . wp_json_encode(array('@context' => 'https://schema.org', '@graph' => $g), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>' . "\n"; // phpcs:ignore
