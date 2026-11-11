@@ -37,7 +37,7 @@ Dodatak i tema ne ovise jedno o drugom i mogu se objaviti odvojeno.
    - U Bing WMT otvoriti *AI Performance*.
    - Izvući početno stanje: upiti, klikovi, CTR, pozicija, države, uređaji (28 dana) → `seo-audit/gsc-pocetno.csv`.
 3. **Jedan poslovni entitet u schemi.** Spojiti `TravelAgency` (tema) i `LodgingBusiness` (dodatak, naslovnica) pod `@id …/#org` s jednim imenom. Prijedlog je „Apartmani & Vikendice Bihać“, kao na Facebooku. Vlasnik potvrđuje ime.
-4. **Tematsko povezivanje** (nalaz 8), samo gdje veza stvarno postoji:
+4. ✅ **Tematsko povezivanje** (nalaz 8), pripremljeno u `povezivanje.php`; samo gdje veza stvarno postoji:
    - članak o Štrbačkom buku i NP Una → objekti u Lohovu (smjer parka) i stranica s pitanjima *Štrbački buk*;
    - rafting članci → Grmuša (Green River, Vikendica Unadom) i `/rafting-na-uni/`;
    - Plitvice → apartmani u centru i *Plitvice iz Bihaća* (pitanja);

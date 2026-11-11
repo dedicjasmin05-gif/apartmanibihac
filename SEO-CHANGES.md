@@ -2,7 +2,7 @@
 
 **Ništa od ovoga nije objavljeno na produkciji.** Svaka izmjena je mala i ima vlastiti povrat.
 
-Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓). Provjera sintakse: `php -l` za sve datoteke ✓. Zakrpa teme se čisto primjenjuje: `git apply --check` na `origin/tema` ✓.
+Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓), `php testovi/test-povezivanje.php` (47/47 ✓; s `-v` ispisuje odabir). Provjera sintakse: `php -l` za sve datoteke ✓. Zakrpa teme se čisto primjenjuje: `git apply --check` na `origin/tema` ✓.
 
 ## Dodatak (ova grana)
 
@@ -17,6 +17,7 @@ Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓). Provjera
 | 7 | `seo.php`, `uvoz.php` | „do 3 osoba“ → „do 3 osobe“ (`abu_osobe()`) u naslovima objekata i llms.txt | 6 | vratiti `' osoba'` |
 | 8 | `uvoz.php` | llms.txt na `init` 100 umjesto 1, pa sadrži stalne adrese umjesto `?p=ID` | 9 | vratiti `}, 1);` |
 | 9 | `apartmani-upiti.php` | `require_once seo-tehnika.php` | — | obrisati jedan redak; time se vraćaju sve izmjene 1–5 |
+| 10 | `povezivanje.php` (novo) | **Tematsko povezivanje:** na kraju 41 članka i 72 stranice tema pitanja (24 teme × bs/en/de) blok s 3 povezana objekta i linkom na sav smještaj. Objekti se biraju iz stvarnih podataka (mjesto, oprema, kapacitet), ne iz teksta. Redoslijed ovisi o stranici, pa se linkovi raspoređuju na svih 19 objekata. Objekt već linkan u tekstu se preskače. Za ljubimce bloka nema, jer pravila objekata za pse nisu potvrđena | 8 | ukloniti `require_once povezivanje.php` |
 
 ## Tema (`zakrpe/tema-1.1.8.patch`, primjenjuje se na granu `tema`)
 
@@ -45,6 +46,7 @@ Povrat teme: vratiti datoteke verzije 1.1.7 s grane `tema` (`git checkout origin
 | `curl -s https://apartmanibihac.com/llms.txt \| grep -c '?p='` | 19 | 0 |
 | Kartice na `/en/` | „do 3 osobe · Kuhinja · cijena na upit“ | „up to 3 guests · Kitchen · price on request“ |
 | JSON-LD na članku | nema `BlogPosting` | `BlogPosting` i `BreadcrumbList` (Rich Results Test ✓) |
+| Linkovi na objekte iz članaka i pitanja | 0–2 po stranici; 113 stranica bez ijednog | 3 po stranici + link na sav smještaj |
 | Forma upita na objektu (`form.abu-form`, POST na `admin-post.php`) | radi | radi, **bez promjene** |
 
 Ponovno pokretanje cijele inventure: skripta `seo-audit/crawl.py` zapisuje `crawl.json`; usporediti s `seo-audit/inventura-2026-11-11.csv`.
