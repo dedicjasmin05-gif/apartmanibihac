@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Apartmani Upiti
  * Description: Upiti za smještaj s potvrdom vlasnika jednim klikom, kalendarom, iCal sinkronizacijom (Booking/Airbnb), plaćanjem gotovinom (kapara opcionalno) i automatskim porukama.
- * Version: 1.1.4
+ * Version: 1.1.5
  * Author: Digital Puls
  * Text Domain: apartmani-upiti
  */
 
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_VER', '1.1.4');
+define('ABU_VER', '1.1.5');
 define('ABU_TABLE', 'abu_upiti');
 define('ABU_ICAL_TABLE', 'abu_ical_blocks');
 
@@ -560,22 +560,22 @@ add_action('template_redirect', function () {
 });
 
 function abu_status_naziv($s) {
-    $n = array('novi' => 'Novi — čeka potvrdu', 'potvrden' => 'Potvrđen — čeka kaparu', 'placeno' => 'Plaćeno — rezervacija', 'odbijen' => 'Odbijen', 'istekao' => 'Istekao bez odgovora', 'otkazan' => 'Otkazan (nema kapare)');
+    $n = array('novi' => 'Novi — čeka potvrdu', 'potvrden' => 'Potvrđen — čeka kaparu', 'placeno' => 'Plaćeno — rezervacija', 'odbijen' => 'Odbijen', 'istekao' => 'Istekao bez odgovora (gost čeka, javite se)', 'otkazan' => 'Otkazan (nema kapare)');
     return isset($n[$s]) ? $n[$s] : $s;
 }
 
 function abu_izvrsi($u, $akcija) {
     if ($akcija === 'potvrdi') {
-        if ($u->status !== 'novi') { return 'Ovaj upit je već obrađen: ' . abu_status_naziv($u->status) . '.'; }
+        if (!in_array($u->status, array('novi', 'istekao'), true)) { return 'Ovaj upit je već obrađen: ' . abu_status_naziv($u->status) . '.'; }
         if (abu_zauzeto($u->objekt_id, $u->dolazak, $u->odlazak, $u->id)) {
             abu_odbij($u, true);
             return 'Termin je u međuvremenu zauzet (Booking ili drugi gost). Gostu je poslan drugi prijedlog.';
         }
         abu_potvrdi($u);
-        return 'Potvrđeno. Gost je dobio upute za kaparu. Hvala!';
+        return intval(abu_opt('kapara_posto', 0)) > 0 ? 'Potvrđeno. Gost je dobio upute za kaparu. Hvala!' : 'Potvrđeno. Gost je dobio potvrdu rezervacije e-mailom (plaćanje gotovinom pri dolasku). Hvala!';
     }
     if ($akcija === 'odbij') {
-        if (!in_array($u->status, array('novi', 'potvrden'), true)) { return 'Ovaj upit je već obrađen: ' . abu_status_naziv($u->status) . '.'; }
+        if (!in_array($u->status, array('novi', 'potvrden', 'istekao'), true)) { return 'Ovaj upit je već obrađen: ' . abu_status_naziv($u->status) . '.'; }
         abu_odbij($u, true);
         return 'Odbijeno. Gostu je poslan drugi prijedlog.';
     }
@@ -701,9 +701,19 @@ function abu_cron_run() {
         abu_set($u->id, array('podsjetnik_admin' => 1));
     }
 
-    // 3) istek novih upita → gost dobiva alternative
+    // 3) istek novih upita: termin se više ne drži, ali gost NE dobiva poruku "nije slobodno" (to nitko nije provjerio).
+    //    Admin dobiva hitnu poruku s kontaktom gosta; upit se i dalje može potvrditi ili odbiti istim linkovima.
     $rows = $wpdb->get_results($wpdb->prepare("SELECT * FROM $t WHERE status='novi' AND drzi_do < %s", $now));
-    foreach ($rows as $u) { abu_odbij($u, true, 'istekao'); }
+    foreach ($rows as $u) {
+        abu_odbij($u, false, 'istekao');
+        $o = get_post($u->objekt_id);
+        $txt = "Upit #{$u->id} je istekao bez odgovora. Gost NIJE dobio nikakvu poruku i još čeka odgovor.\n\n"
+            . ($o ? $o->post_title : '') . ', ' . abu_dat($u->dolazak) . ' – ' . abu_dat($u->odlazak) . ", {$u->osobe} os.\n"
+            . "Gost: {$u->ime}, {$u->email}, {$u->telefon}\n\nJavite se gostu što prije (WhatsApp/telefon), pa upit potvrdite ili odbijte:\n"
+            . 'Potvrdi: ' . abu_action_url($u, 'potvrdi') . "\nOdbij (gost dobiva prijedlog drugog smještaja): " . abu_action_url($u, 'odbij');
+        foreach (abu_admin_emails() as $to) { abu_mail($to, "HITNO: upit #{$u->id} istekao bez odgovora", $txt); }
+        foreach (abu_admin_telefoni() as $tel) { abu_sms($tel, "HITNO upit #{$u->id} istekao, gost ceka odgovor"); }
+    }
 
     // 4) podsjetnik za kaparu kad ostane 1/3 roka, pa otkaz kad rok istekne
     $rows = $wpdb->get_results("SELECT * FROM $t WHERE status='potvrden'");

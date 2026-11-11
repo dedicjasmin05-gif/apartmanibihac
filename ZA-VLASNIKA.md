@@ -15,3 +15,9 @@ Objavljeni su dodatak 1.1.4 i tema 1.1.8, spojen je PR #3, napravljene su strani
 2. **Search Console** → *Settings* → *Search generative AI*: provjerite je li uključeno.
 3. **Bing Webmaster Tools** → *Sitemaps* → isto; zatim *AI Performance*.
 4. Za 30, 60 i 90 dana: u adminu otvorite **Upiti → Mjerenje** i pošaljite mi snimku zaslona, zajedno s izvozom iz Search Consolea. Usporedit ću s početnim stanjem.
+
+## Naknadno (kad stignete)
+- **iCal linkovi** s Bookinga i Airbnba za objekte koji su ondje: bez njih kalendar na webu ne zna za tamošnje rezervacije.
+- **Fotografije** za Japodsku kućicu na drvetu i Villu Mekić.
+- Upiti zasad stižu na vaš e-mail. Kad upit 3 sata čeka odgovor, stiže podsjetnik, a nakon 12 sati poruka **„HITNO: upit istekao“** s kontaktom gosta.
+
