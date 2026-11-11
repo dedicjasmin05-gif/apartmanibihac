@@ -84,3 +84,19 @@ Ponovno pokretanje cijele inventure: skripta `seo-audit/crawl.py` zapisuje `craw
 - HTML `<title>` naslovnice je ispravan.
 - OG naslovnice rješava PR #3, ovdje nije dupliran.
 - Sadržaj u bazi (članci, pitanja, `/o-nama/`), URL-ovi, preusmjeravanja, dizajn, logika rezervacija i e-mailovi.
+
+## Dodatak 1.1.5 (11. 11. 2026., nakon čitanja baze)
+
+Čitanje baze (`alati/seo-stanje.php`, samo čitanje, jednokratni cron posao je obrisan) pokazalo je sljedeće:
+- u studenom 1 upit s weba, i taj je **istekao bez odgovora**;
+- 7 team building upita;
+- svih 19 objekata bez e-maila vlasnika, bez iCal linkova i bez cijene;
+- Japodska kućica i Villa Mekić bez fotografija;
+- prazno polje za Google recenzije.
+
+| Datoteka | Izmjena | Povrat |
+|---|---|---|
+| `apartmani-upiti.php` | Kad upit istekne bez odgovora, gost **više ne dobiva** automatski e-mail „nažalost, objekt nije slobodan“ (to nitko nije provjerio). Admin dobiva hitan e-mail s kontaktom gosta i linkovima Potvrdi/Odbij; istekli upit može se naknadno potvrditi ili odbiti | `git revert` |
+| `apartmani-upiti.php` | Poruka nakon potvrde kod plaćanja gotovinom: „gost je dobio potvrdu rezervacije“ umjesto „upute za kaparu“ | — |
+| `mjerenje.php` | Jednokratno brisanje brojača za 2026-11 (sadržavao je naše automatske provjere s dana objave); mjerenje kreće od nule | — |
+

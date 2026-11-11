@@ -7,6 +7,13 @@
  */
 if (!defined('ABSPATH')) { exit; }
 
+/** Jednokratno: brojač za 2026-11 sadržavao je automatske provjere s dana objave (11. 11.), pa se briše; mjerenje kreće od nule. */
+add_action('init', function () {
+    if (get_option('abu_mj_ponisteno_2026_11')) { return; }
+    delete_option('abu_mjerenje_2026-11');
+    update_option('abu_mj_ponisteno_2026_11', current_time('mysql'), false);
+}, 50);
+
 function abu_mj_izvori() {
     return array('google', 'bing', 'chatgpt', 'perplexity', 'copilot', 'gemini', 'claude', 'duckduckgo', 'yandex', 'facebook', 'instagram', 'booking', 'ostalo', 'direktno');
 }
