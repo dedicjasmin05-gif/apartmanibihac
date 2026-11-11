@@ -169,7 +169,7 @@ $forma = function ($klasa) use ($mjesta) {
     </div>
     <ul class="social__nums">
       <li><b>139.000+</b><span>pratitelja na Facebooku</span></li>
-      <li><b>9.362</b><span>recenzija</span></li>
+      <li><b>9.362</b><span>recenzija na Facebooku</span></li>
       <li><b>100 %</b><span>preporučuje</span></li>
       <li><b>12 h</b><span>do potvrde upita</span></li>
     </ul>

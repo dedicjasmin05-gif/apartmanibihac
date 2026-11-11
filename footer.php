@@ -39,6 +39,7 @@
       <ul>
         <li><a href="<?php echo esc_url(ab_fb()); ?>" rel="noopener" target="_blank">Facebook · 139.000+</a></li>
         <li><a href="<?php echo esc_url(ab_ig()); ?>" rel="noopener" target="_blank">Instagram</a></li>
+        <li><a href="<?php echo esc_url(home_url('/o-nama/')); ?>">O nama</a></li>
         <li><a href="<?php echo esc_url(home_url('/prijavite-objekt/')); ?>">Iznajmljujete? Prijavite objekt</a></li>
         <li><a href="<?php echo esc_url(home_url('/uvjeti-i-privatnost/')); ?>">Uvjeti i privatnost</a></li>
       </ul>

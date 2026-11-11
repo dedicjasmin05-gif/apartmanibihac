@@ -14,9 +14,10 @@ $oprema = wp_get_post_terms($id, 'oprema', array('fields' => 'names'));
     <h1 class="h1 objekt__title"><?php the_title(); ?></h1>
     <ul class="objekt__facts">
       <?php if ($mjesto) : ?><li><?php echo esc_html($mjesto); ?></li><?php endif; ?>
-      <?php if ($kap) : ?><li>do <?php echo esc_html(ab_osobe($kap)); ?></li><?php endif; ?>
+      <?php if ($kap) : ?><li><?php echo esc_html(ab_osobe($kap)); ?></li><?php endif; ?>
       <li><?php echo esc_html(ab_cijena_txt($id)); ?></li>
       <?php if ($min > 1) : ?><li>najmanje <?php echo (int) $min; ?> noći</li><?php endif; ?>
+      <li>psi i mačke na upit</li>
     </ul>
   </div>
 

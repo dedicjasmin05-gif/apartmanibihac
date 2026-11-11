@@ -15,7 +15,7 @@
     <a class="topbar__trust" href="<?php echo esc_url(ab_fb()); ?>" target="_blank" rel="noopener">
       <span class="topbar__fb"><?php echo ab_ikona('fb'); // phpcs:ignore ?></span>
       <span class="stars" aria-hidden="true">★★★★★</span>
-      <span><b>9.362</b> <?php echo esc_html(ab_t('recenzija')); ?><span class="topbar__more"> · <b>139.000</b> <?php echo esc_html(ab_t('pratitelja')); ?> · 100 % <?php echo esc_html(ab_t('preporuka')); ?></span></span>
+      <span><b>9.362</b> <?php echo esc_html(ab_t('recenzija') . ' ' . ab_t('na_fb')); ?><span class="topbar__more"> · <b>139.000</b> <?php echo esc_html(ab_t('pratitelja')); ?> · 100 % <?php echo esc_html(ab_t('preporuka')); ?></span></span>
     </a>
     <div class="topbar__contact">
       <a class="topbar__tel" href="<?php echo esc_attr($tel_h); ?>"><?php echo ab_ikona('tel'); // phpcs:ignore ?><span><?php echo esc_html($tel); ?></span></a>
