@@ -21,7 +21,7 @@ foreach ($clanci as $j => $s) {
     if ($v) { echo str_pad($s, 42), str_pad($pr ?: '-', 9), implode(', ', array_column($iz, 'slug')), "\n"; }
     foreach ($iz as $x) { $po[$x['slug']] = 1; }
 }
-t('pas bez bloka', abu_pov_clanak('smjestaj-sa-psom-bihac-sto-pitati') === '');
+t('članak o psu = ljubimci', abu_pov_clanak('smjestaj-sa-psom-bihac-sto-pitati') === 'ljubimci');
 t('team building = grupe', abu_pov_clanak('team-building-program-za-2-dana-na-uni') === 'grupe');
 t('restorani = grad', abu_pov_clanak('10-restorana-uz-unu-koje-preporucujemo') === 'grad');
 t('usporedba = mix', abu_pov_clanak('apartman-centar-ili-vikendica-bihac') === 'mix');
@@ -37,7 +37,8 @@ $m = abu_pov_odaberi('mix', 'm', $obj); t('mix: 1 grad + 2 uz Unu', $m[0]['mjest
 $sad = '<a href="https://apartmanibihac.com/smjestaj/vila-enio/">Vila Enio</a>';
 t('već linkan objekt se preskače', !in_array('vila-enio', array_column(abu_pov_odaberi('park', 'x', $obj, $sad), 'slug'), true));
 foreach (abu_pov_teme() as $k => $pr) { t("tema $k ima 3 objekta", count(abu_pov_odaberi($pr, $k, $obj)) === 3); foreach (abu_pov_odaberi($pr, $k, $obj) as $x) { $po[$x['slug']] = 1; } }
-t('tema ljubimci bez bloka', !isset(abu_pov_teme()['21-kucni-ljubimci']));
+t('tema ljubimci ima blok', abu_pov_teme()['21-kucni-ljubimci'] === 'ljubimci');
+t('napomena za ljubimce na 3 jezika', count(abu_pov_napomene()['ljubimci']) === 3);
 t('različite stranice, različiti objekti', abu_pov_odaberi('rijeka', '1', $obj) != abu_pov_odaberi('rijeka', '2', $obj));
 if ($v) { echo 'Linkani objekti (teme bs + uzorak članaka): ', count($po), '/', count($obj), "\n"; }
 echo "OK $ok, neuspjeh $bad\n"; exit($bad ? 1 : 0);

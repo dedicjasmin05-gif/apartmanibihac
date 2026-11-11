@@ -2,7 +2,7 @@
 
 **Ništa od ovoga nije objavljeno na produkciji.** Svaka izmjena je mala i ima vlastiti povrat.
 
-Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓), `php testovi/test-povezivanje.php` (47/47 ✓; s `-v` ispisuje odabir), `php testovi/test-mjerenje.php` (15/15 ✓). JavaScript mjerenja provjeren u Nodeu: 11 izvora dolaska i 5 vrsta klikova točno prepoznato. Provjera sintakse: `php -l` za sve datoteke ✓. Zakrpa teme se čisto primjenjuje: `git apply --check` na `origin/tema` ✓.
+Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓), `php testovi/test-povezivanje.php` (49/49 ✓; s `-v` ispisuje odabir), `php testovi/test-mjerenje.php` (15/15 ✓). JavaScript mjerenja provjeren u Nodeu: 11 izvora dolaska i 5 vrsta klikova točno prepoznato. Provjera sintakse: `php -l` za sve datoteke ✓. Zakrpa teme se čisto primjenjuje: `git apply --check` na `origin/tema` ✓.
 
 ## Dodatak (ova grana)
 
@@ -23,6 +23,10 @@ Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓), `php tes
 | 13 | `seo-tehnika.php` §7 | Kad naslov već sadrži Bihać ili Unu, ne dodaje se „– Apartmani i vikendice Bihać“ (44 naslova kraća za 30 znakova). Naslovnica i ručno postavljeni naslovi ostaju | 14 | ukloniti blok §7 |
 | 14 | `preusmjeravanja.php` | robots.txt: AI botovi dobivaju iste zabrane kao ostali (`/wp-admin/`, `/?s=`, `/*?abu_a=`), i dalje uz `Allow: /` | 11 | vratiti stari tekst (`git revert`) |
 | 15 | `drustvene.php` | Na naslovnici se ne ispisuje drugi poslovni entitet (`LodgingBusiness`) kad tema ima svoj (`#org`); cijena i poštanski broj prelaze u entitet teme | 10 | ukloniti `&& !function_exists('ab_faq')` |
+| 16 | `pitanja/*.json` (bs/en/de), `seo/stranice.json`, `sadrzaj/vijesti.json`, `uvoz.php` | **Jedno pravilo plaćanja:** „Smještaj plaćate gotovinom po dolasku; kapara nije obavezna, a ako pojedini objekt traži avans, to piše u potvrdi upita prije bilo kakve uplate.“ Uklonjeno je obećanje „avans uz popust“ (12 pitanja × 3 jezika, 14 mjesta na SEO stranicama, 1 članak, llms.txt). U njemačkim odgovorima uklonjene su i ponovljene rečenice i ostaci ranije djelomične zamjene. Popust za dulji boravak („nije zajamčen“) ostaje | 13 | `git revert` |
+| 17 | `uvoz.php`, `alati/zamjene-placanje-3.json` | Jednokratna zamjena istih rečenica u već objavljenom sadržaju u bazi (opcija `abu_mig_placanje3`), istim mehanizmom kao migracije 1 i 2 | 13 | izmijenjene stranice imaju WordPress reviziju |
+| 18 | `seo/stranice.json` | **Nova stranica „O nama“** (`/o-nama/`, isti URL): tko smo, kako radimo (vlasnici, upit i potvrda, plaćanje, ljubimci, adresa nakon potvrde), ponuda (19 objekata), kontakt. Samo činjenice koje su već na webu. Stari tekst o Optici Dervišević ostaje u revizijama stranice. Naslov, meta opis i FAQ schema (3 pitanja); stranica dodana i u llms.txt | 13 | vratiti reviziju u WordPressu (Stranice → O nama → Revizije) ili ukloniti ključ `o-nama` iz JSON-a |
+| 19 | `povezivanje.php` | Ljubimci: tema „Putovanje s ljubimcem“ (bs/en/de) i članak o psu dobivaju blok „Smještaj s psom ili mačkom“ s napomenom „psi i mačke na upit… vlasnik potvrđuje uz odgovor, zajedno s eventualnom doplatom“ | — | — |
 
 ## Tema (`zakrpe/tema-1.1.8.patch`, primjenjuje se na granu `tema`)
 
@@ -33,6 +37,8 @@ Testovi bez WordPressa: `php testovi/test-seo-tehnika.php` (24/24 ✓), `php tes
 | `ab_osobe()` vraća cijeli izraz („do 3 osobe“ / „up to 3 guests“ / „bis 3 Personen“), a pozivi su prilagođeni (`functions.php`, `single-objekt.php`) | 7 |
 | Schema `TravelAgency`: `sameAs` = stvarni FB i IG profili (`ab_fb()`, `ab_ig()`); prazan `email` se ne ispisuje | 10 |
 | Schema `TravelAgency`: dodani `postalCode` 77000 i `priceRange` (od cijene iz postavki do 100 €), jedan poslovni entitet umjesto dva | 10 |
+| Stranica objekta: u retku činjenica „psi i mačke na upit“; u schemi objekta `petsAllowed` | — |
+| Podnožje: link „O nama“ (stranica nije imala nijedan ulazni link) | 8 |
 | Verzija 1.1.8, da se osvježe CSS i JS u cacheu i pravila adresa | — |
 
 Povrat teme: vratiti datoteke verzije 1.1.7 s grane `tema` (`git checkout origin/tema -- .`).
@@ -56,6 +62,8 @@ Povrat teme: vratiti datoteke verzije 1.1.7 s grane `tema` (`git checkout origin
 | `<title>` članka „Prvi rafting na Uni: kako odabrati turu“ | „… – Apartmani i vikendice Bihać“ (69 znakova) | bez dodatka (39 znakova) |
 | Poslovni entiteti u schemi naslovnice | 2 (`TravelAgency` i `LodgingBusiness`, različita imena) | 1 (`TravelAgency #org`) |
 | Upiti → Mjerenje u adminu | ne postoji | brojke se pune od prvog dana |
+| `/o-nama/` | tekst o Optici Dervišević, 0 ulaznih linkova | stranica o smještaju, link u podnožju |
+| Spominjanje „avans uz popust“ (bs/en/de) | 33 rečenice na 15 stranica (provjera živog weba 11. 11.) | 0 |
 | Forma upita na objektu (`form.abu-form`, POST na `admin-post.php`) | radi | radi, **bez promjene** |
 
 Ponovno pokretanje cijele inventure: skripta `seo-audit/crawl.py` zapisuje `crawl.json`; usporediti s `seo-audit/inventura-2026-11-11.csv`.

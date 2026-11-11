@@ -1,5 +1,17 @@
+diff --git a/footer.php b/footer.php
+index c58c25f..496e617 100644
+--- a/footer.php
++++ b/footer.php
+@@ -39,6 +39,7 @@
+       <ul>
+         <li><a href="<?php echo esc_url(ab_fb()); ?>" rel="noopener" target="_blank">Facebook · 139.000+</a></li>
+         <li><a href="<?php echo esc_url(ab_ig()); ?>" rel="noopener" target="_blank">Instagram</a></li>
++        <li><a href="<?php echo esc_url(home_url('/o-nama/')); ?>">O nama</a></li>
+         <li><a href="<?php echo esc_url(home_url('/prijavite-objekt/')); ?>">Iznajmljujete? Prijavite objekt</a></li>
+         <li><a href="<?php echo esc_url(home_url('/uvjeti-i-privatnost/')); ?>">Uvjeti i privatnost</a></li>
+       </ul>
 diff --git a/functions.php b/functions.php
-index df98032..22c16a4 100644
+index df98032..1057d11 100644
 --- a/functions.php
 +++ b/functions.php
 @@ -1,7 +1,7 @@
@@ -83,6 +95,15 @@ index df98032..22c16a4 100644
      $g[] = $site; $g[] = $org;
      if (is_singular('objekt')) {
          $id = get_queried_object_id();
+@@ -196,7 +214,7 @@ add_action('wp_head', function () {
+         $l = array('@type' => 'LodgingBusiness', 'name' => get_the_title($id), 'url' => get_permalink($id), 'description' => wp_strip_all_tags(get_the_excerpt($id)),
+             'image' => array_values(array_filter(array_map(function ($i) { return wp_get_attachment_image_url($i, 'large'); }, $sl))),
+             'address' => array('@type' => 'PostalAddress', 'addressLocality' => ab_m($id, 'mjesto') ? ab_m($id, 'mjesto') : 'Bihać', 'addressCountry' => 'BA'),
+-            'telephone' => ab_tel(), 'containedInPlace' => array('@id' => home_url('/#org')));
++            'telephone' => ab_tel(), 'petsAllowed' => 'Psi i mačke na upit; vlasnik potvrđuje u odgovoru na upit.', 'containedInPlace' => array('@id' => home_url('/#org')));
+         $c = (float) ab_m($id, 'cijena');
+         if ($c) { $l['priceRange'] = 'od ' . $c . ' EUR'; }
+         $kap = (int) ab_m($id, 'kapacitet');
 @@ -213,6 +231,7 @@ add_action('wp_head', function () {
          $g[] = array('@type' => 'FAQPage', 'mainEntity' => array_map(function ($f) { return array('@type' => 'Question', 'name' => $f[0], 'acceptedAnswer' => array('@type' => 'Answer', 'text' => $f[1])); }, ab_faq()));
      }
@@ -92,10 +113,10 @@ index df98032..22c16a4 100644
          $d = has_excerpt() ? get_the_excerpt() : wp_trim_words(wp_strip_all_tags(get_post_field('post_content', get_queried_object_id())), 28, '…');
          if ($d) { echo '<meta name="description" content="' . esc_attr($d) . '">' . "\n"; }
 diff --git a/single-objekt.php b/single-objekt.php
-index 55c19a6..43d767b 100644
+index 55c19a6..ce17047 100644
 --- a/single-objekt.php
 +++ b/single-objekt.php
-@@ -14,7 +14,7 @@ $oprema = wp_get_post_terms($id, 'oprema', array('fields' => 'names'));
+@@ -14,9 +14,10 @@ $oprema = wp_get_post_terms($id, 'oprema', array('fields' => 'names'));
      <h1 class="h1 objekt__title"><?php the_title(); ?></h1>
      <ul class="objekt__facts">
        <?php if ($mjesto) : ?><li><?php echo esc_html($mjesto); ?></li><?php endif; ?>
@@ -103,7 +124,10 @@ index 55c19a6..43d767b 100644
 +      <?php if ($kap) : ?><li><?php echo esc_html(ab_osobe($kap)); ?></li><?php endif; ?>
        <li><?php echo esc_html(ab_cijena_txt($id)); ?></li>
        <?php if ($min > 1) : ?><li>najmanje <?php echo (int) $min; ?> noći</li><?php endif; ?>
++      <li>psi i mačke na upit</li>
      </ul>
+   </div>
+ 
 diff --git a/style.css b/style.css
 index c0d1f0a..f61d3d0 100644
 --- a/style.css

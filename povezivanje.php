@@ -17,6 +17,8 @@ function abu_pov_profili() {
         'grupe'  => array('prvo' => array('min' => 9)),
         'obitelj'=> array('prvo' => array('min' => 6)),
         'mix'    => array('prvo' => array('mjesto' => 'Bihać'), 'dopuna' => array('oprema' => 'izlaz-na-unu'), 'po' => 1),
+        // Psi i mačke su na upit u svim objektima: isti odabir kao 'mix', uz napomenu ispod naslova.
+        'ljubimci' => array('prvo' => array('mjesto' => 'Bihać'), 'dopuna' => array('oprema' => 'izlaz-na-unu'), 'po' => 1),
     );
 }
 
@@ -30,10 +32,21 @@ function abu_pov_naslovi() {
         'grupe'   => array('bs' => 'Smještaj za grupe', 'en' => 'Accommodation for groups', 'de' => 'Unterkunft für Gruppen'),
         'obitelj' => array('bs' => 'Smještaj za obitelji', 'en' => 'Accommodation for families', 'de' => 'Unterkunft für Familien'),
         'mix'     => array('bs' => 'Smještaj u Bihaću i uz Unu', 'en' => 'Stays in Bihać and on the Una', 'de' => 'Unterkünfte in Bihać und an der Una'),
+        'ljubimci'=> array('bs' => 'Smještaj s psom ili mačkom', 'en' => 'Stays with a dog or cat', 'de' => 'Unterkunft mit Hund oder Katze'),
     );
 }
 
-/** Tema pitanja (ključ iz pitanja.php) => profil. Bez profila (npr. ljubimci): nema bloka, jer pravila za ljubimce nisu potvrđena. */
+/** Kratka napomena ispod naslova bloka (samo gdje je potrebna). */
+function abu_pov_napomene() {
+    return array(
+        'ljubimci' => array(
+            'bs' => 'Psi i mačke su u svim objektima na upit. U upitu napišite vrstu i veličinu ljubimca, a vlasnik potvrđuje uz odgovor na upit, zajedno s eventualnom doplatom.',
+            'en' => 'Dogs and cats are welcome on request in all properties. Mention the type and size of your pet in the enquiry; the owner confirms in the reply, together with any extra charge.',
+            'de' => 'Hunde und Katzen sind in allen Unterkünften auf Anfrage möglich. Nennen Sie Art und Größe des Tieres in der Anfrage; der Vermieter bestätigt in der Antwort, zusammen mit einem eventuellen Aufpreis.'),
+    );
+}
+
+/** Tema pitanja (ključ iz pitanja.php) => profil. */
 function abu_pov_teme() {
     return array(
         '01-bihac-opcenito' => 'mix', '02-kako-doci' => 'grad', '03-granica-dokumenti' => 'grad', '04-smjestaj-bihac' => 'mix',
@@ -41,14 +54,15 @@ function abu_pov_teme() {
         '09-strbacki-buk' => 'park', '10-martin-brod-izleti-np' => 'park', '11-rafting' => 'rafting', '12-kajak-kanu-aktivnosti' => 'rijeka',
         '13-ribolov' => 'rijeka', '14-kupanje-una' => 'rijeka', '15-plitvice-iz-bihaca' => 'grad', '16-hrana-restorani' => 'grad',
         '17-nocni-zivot-kafici' => 'grad', '18-povijest-znamenitosti' => 'grad', '19-izleti-okolica' => 'mix', '20-obitelji-djeca' => 'obitelj',
+        '21-kucni-ljubimci' => 'ljubimci',
         '22-novac-cijene' => 'mix', '23-vrijeme-sezone' => 'mix', '24-sigurnost-zdravlje' => 'mix', '25-prakticne-info' => 'mix',
     );
 }
 
-/** Članak => profil prema adresi (slug). Prvo pravilo koje odgovara. Članak o putovanju sa psom nema blok. */
+/** Članak => profil prema adresi (slug). Prvo pravilo koje odgovara. */
 function abu_pov_clanak($slug) {
     $pravila = array(
-        'sa-psom|ljubim' => '',
+        'sa-psom|ljubim|mack' => 'ljubimci',
         'team-building|za-grupe|50-ljudi|sale-za' => 'grupe',
         'bazen' => 'bazen',
         'rafting' => 'rafting',
@@ -126,7 +140,9 @@ function abu_pov_blok($profil, $l, $izbor) {
     $n = abu_pov_naslovi();
     $sve = array('bs' => array('/smjestaj-bihac/', 'Sav smještaj'), 'en' => array('/en/accommodation-bihac/', 'All accommodation'), 'de' => array('/de/unterkunft-bihac/', 'Alle Unterkünfte'));
     $l = isset($sve[$l]) ? $l : 'bs';
-    $h = '<section class="abu-povezano" style="margin:36px 0 8px"><h2>' . esc_html($n[$profil][$l]) . '</h2><div class="grid grid--cards">';
+    $nap = abu_pov_napomene();
+    $h = '<section class="abu-povezano" style="margin:36px 0 8px"><h2>' . esc_html($n[$profil][$l]) . '</h2>'
+        . (isset($nap[$profil][$l]) ? '<p>' . esc_html($nap[$profil][$l]) . '</p>' : '') . '<div class="grid grid--cards">';
     foreach ($izbor as $x) {
         if (function_exists('ab_kartica')) { $h .= ab_kartica($x['id'], null, $l === 'bs' ? array() : array('lang' => $l)); continue; }
         $h .= '<p><a href="' . esc_url($x['url']) . '">' . esc_html(get_the_title($x['id'])) . '</a> · ' . esc_html($x['mjesto']) . '</p>';

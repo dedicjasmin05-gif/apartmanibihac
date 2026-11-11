@@ -13,7 +13,7 @@ Načela su ista za sve stavke: male izmjene koje se mogu vratiti, URL-ovi ostaju
 | 0.3 | **Bingbot 403 / GPTBot 429** (nalaz 11) | Bing, Copilot i dio ChatGPT pretrage vide web | — | vlasnik: Bing WMT *Live URL*; hPanel → Security → bot / AI crawler zaštita | čeka provjeru |
 | 0.4 | **Spojiti PR #3** (OG naslov i opis naslovnice) | ispravan prikaz pri dijeljenju na Facebook/WhatsApp; nestaje „Početna“ | nizak | pregled vlasnika | čeka spajanje |
 | 0.5 | Dvostruki meta opis (nalaz 3), hreflang (4), dupli H1 (5), gramatika (6), EN/DE kartice (7), linkovi preko 301 (8), llms.txt (9), BlogPosting (10) | čišći signali Googleu; bolji prikaz na EN/DE | nizak | kod | ✅ pripremljeno |
-| 0.6 | Odluke vlasnika: `/o-nama/` (Optika), članak iz 2024., jedna formulacija o avansu/kapari | povjerenje, točnost za AI odgovore | — | vlasnik | čeka |
+| 0.6 | ✅ `/o-nama/`, jedno pravilo plaćanja, ljubimci na upit (pripremljeno). Ostaje članak iz 2024. | povjerenje, točnost za AI odgovore | — | vlasnik | čeka |
 
 **Redoslijed objave (nakon odobrenja):**
 1. Backup.

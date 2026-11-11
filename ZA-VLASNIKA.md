@@ -19,17 +19,13 @@ Recite „objavi“. Tada:
 
 Uz to spojite i **PR #3** na GitHubu (OG naslov naslovnice), ili mi recite da ga spojim ja.
 
-## 4. Odluke o sadržaju (odgovorite jednom porukom)
-1. **`/o-nama/`** sada govori o Optici Dervišević. Napišite 3–4 rečenice o sebi (tko ste, od kada iznajmljujete, s koliko vlasnika radite) i ja ću složiti stranicu.
-2. **Članak iz 2024.** o hostelima: obrisati, sakriti od Googlea ili prepisati?
-3. **Plaćanje:** koja je istina?
-   - (a) „Plaća se gotovinom pri dolasku; avans samo kod nekih objekata“
-   - (b) „Avans je dobrovoljan i daje popust“
-   - (c) „Kapara 30 % s rokom“
+## 4. Odluke o sadržaju
+Riješeno prema vašim uputama: **O nama**, **jedno pravilo plaćanja** i **psi i mačke na upit** (opis u `SEO-CHANGES.md`, redovi 16–19).
 
-   Uskladit ću to na webu, u pitanjima, u llms.txt i u e-mailovima.
-4. **Ljubimci:** koji objekti primaju pse? Dodat ću ih na stranice o putovanju sa psom.
-5. **Traka „9.362 recenzije“:** smijem li dodati „na Facebooku“, da bude jasno odakle su recenzije?
+Otvoreno je još:
+1. **Članak iz 2024.** o hostelima: obrisati, sakriti od Googlea ili prepisati?
+2. **Traka „9.362 recenzije“:** smijem li dodati „na Facebooku“?
+3. Pregledajte novu stranicu **O nama** nakon objave i javite ako nešto treba drugačije.
 
 ## 5. Nakon objave
 1. **Search Console** → *Sitemaps* → ponovno pošaljite `wp-sitemap.xml`.
