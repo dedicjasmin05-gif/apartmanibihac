@@ -18,7 +18,9 @@ add_filter('language_attributes', function ($out) {
     return $j ? 'lang="' . $j . '"' : 'lang="bs"';
 });
 add_action('wp_head', function () {
-    if (!is_front_page() && !abu_jezik_stranice()) { return; }
+    // Samo naslovnice jezika. Podstranice /en/… i /de/… imaju vlastite parove (seo.php, pitanja.php).
+    $p = is_page() ? get_queried_object() : null;
+    if (!is_front_page() && !($p && !$p->post_parent && in_array($p->post_name, array('de', 'en'), true))) { return; }
     $de = get_page_by_path('de'); $en = get_page_by_path('en');
     echo '<link rel="alternate" hreflang="bs" href="' . esc_url(home_url('/')) . '">' . "\n";
     echo '<link rel="alternate" hreflang="hr" href="' . esc_url(home_url('/')) . '">' . "\n";

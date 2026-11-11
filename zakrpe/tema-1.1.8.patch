@@ -1,0 +1,195 @@
+diff --git a/footer.php b/footer.php
+index c58c25f..496e617 100644
+--- a/footer.php
++++ b/footer.php
+@@ -39,6 +39,7 @@
+       <ul>
+         <li><a href="<?php echo esc_url(ab_fb()); ?>" rel="noopener" target="_blank">Facebook · 139.000+</a></li>
+         <li><a href="<?php echo esc_url(ab_ig()); ?>" rel="noopener" target="_blank">Instagram</a></li>
++        <li><a href="<?php echo esc_url(home_url('/o-nama/')); ?>">O nama</a></li>
+         <li><a href="<?php echo esc_url(home_url('/prijavite-objekt/')); ?>">Iznajmljujete? Prijavite objekt</a></li>
+         <li><a href="<?php echo esc_url(home_url('/uvjeti-i-privatnost/')); ?>">Uvjeti i privatnost</a></li>
+       </ul>
+diff --git a/front-page.php b/front-page.php
+index b2904eb..a5afaa2 100644
+--- a/front-page.php
++++ b/front-page.php
+@@ -169,7 +169,7 @@ $forma = function ($klasa) use ($mjesta) {
+     </div>
+     <ul class="social__nums">
+       <li><b>139.000+</b><span>pratitelja na Facebooku</span></li>
+-      <li><b>9.362</b><span>recenzija</span></li>
++      <li><b>9.362</b><span>recenzija na Facebooku</span></li>
+       <li><b>100 %</b><span>preporučuje</span></li>
+       <li><b>12 h</b><span>do potvrde upita</span></li>
+     </ul>
+diff --git a/functions.php b/functions.php
+index df98032..25eaabe 100644
+--- a/functions.php
++++ b/functions.php
+@@ -1,7 +1,7 @@
+ <?php
+ if (!defined('ABSPATH')) { exit; }
+ 
+-define('AB_VER', '1.1.7');
++define('AB_VER', '1.1.8');
+ 
+ // Brzina: bez WordPress emoji skripte i s ranijom vezom na Google Fonts.
+ remove_action('wp_head', 'print_emoji_detection_script', 7);
+@@ -100,13 +100,28 @@ function ab_slike($id, $max = 30) {
+     }
+     return array_slice($ids, 0, $max);
+ }
+-function ab_cijena_txt($id) {
++function ab_cijena_txt($id, $l = 'bs') {
+     $c = (float) ab_m($id, 'cijena');
+-    return $c > 0 ? 'od ' . number_format($c, 0, ',', '.') . ' € / noć' : 'cijena na upit';
++    $t = array('bs' => array('od %s € / noć', 'cijena na upit'), 'en' => array('from €%s / night', 'price on request'), 'de' => array('ab %s € / Nacht', 'Preis auf Anfrage'));
++    $t = isset($t[$l]) ? $t[$l] : $t['bs'];
++    return $c > 0 ? sprintf($t[0], number_format($c, 0, ',', '.')) : $t[1];
+ }
+-function ab_osobe($n) {
++function ab_osobe($n, $l = 'bs') {
+     $n = (int) $n; $m10 = $n % 10; $m100 = $n % 100;
+-    return $n . ' ' . (($m10 >= 2 && $m10 <= 4 && ($m100 < 12 || $m100 > 14)) ? 'osobe' : 'osoba');
++    if ($l === 'en') { return 'up to ' . $n . ' ' . ($n === 1 ? 'guest' : 'guests'); }
++    if ($l === 'de') { return 'bis ' . $n . ' ' . ($n === 1 ? 'Person' : 'Personen'); }
++    return 'do ' . $n . ' ' . (($m10 >= 2 && $m10 <= 4 && ($m100 < 12 || $m100 > 14)) ? 'osobe' : 'osoba');
++}
++/** Nazivi opreme na engleskom i njemačkom (kartice na /en/ i /de/). */
++function ab_oprema_naziv($n, $l = 'bs') {
++    $t = array(
++        'Strogi centar' => array('City centre', 'Stadtzentrum'), 'Kuhinja' => array('Kitchen', 'Küche'), 'Parking' => array('Parking', 'Parkplatz'),
++        'Wi-Fi' => array('Wi-Fi', 'WLAN'), 'Terasa' => array('Terrace', 'Terrasse'), 'Perilica rublja' => array('Washing machine', 'Waschmaschine'),
++        'Klima' => array('Air conditioning', 'Klimaanlage'), 'Roštilj' => array('Barbecue', 'Grill'), 'Izlaz na Unu' => array('Access to the Una', 'Zugang zur Una'),
++        'Plaža' => array('Beach', 'Badestelle'), 'Bazen' => array('Pool', 'Pool'),
++    );
++    $i = $l === 'en' ? 0 : ($l === 'de' ? 1 : -1);
++    return ($i >= 0 && isset($t[$n])) ? $t[$n][$i] : $n;
+ }
+ 
+ /* ---------- Pretraga smještaja ---------- */
+@@ -145,17 +160,18 @@ function ab_kartica($id, $slobodno = null, $qs = array()) {
+     $url = $qs ? add_query_arg($qs, get_permalink($id)) : get_permalink($id);
+     $kap = (int) ab_m($id, 'kapacitet');
+     $op = wp_get_post_terms($id, 'oprema', array('fields' => 'names'));
++    $l = (isset($qs['lang']) && in_array($qs['lang'], array('en', 'de'), true)) ? $qs['lang'] : 'bs';
+     ob_start(); ?>
+     <article class="card">
+       <a class="card__media" href="<?php echo esc_url($url); ?>" tabindex="-1" aria-hidden="true"><?php echo $img ? $img : '<span class="card__noimg"></span>'; // phpcs:ignore ?></a>
+       <div class="card__body">
+-        <p class="card__place"><?php echo esc_html(ab_m($id, 'mjesto')); ?><?php if ($slobodno === true) : ?> <span class="tag tag--free">slobodno za vaše datume</span><?php endif; ?></p>
++        <p class="card__place"><?php echo esc_html(ab_m($id, 'mjesto')); ?><?php if ($slobodno === true) : ?> <span class="tag tag--free"><?php echo esc_html($l === 'en' ? 'available for your dates' : ($l === 'de' ? 'frei für Ihre Daten' : 'slobodno za vaše datume')); ?></span><?php endif; ?></p>
+         <h3 class="card__title"><a href="<?php echo esc_url($url); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h3>
+         <ul class="card__facts">
+-          <?php if ($kap) : ?><li>do <?php echo esc_html(ab_osobe($kap)); ?></li><?php endif; ?>
+-          <?php foreach (array_slice((array) $op, 0, 2) as $o) : ?><li><?php echo esc_html($o); ?></li><?php endforeach; ?>
++          <?php if ($kap) : ?><li><?php echo esc_html(ab_osobe($kap, $l)); ?></li><?php endif; ?>
++          <?php foreach (array_slice((array) $op, 0, 2) as $o) : ?><li><?php echo esc_html(ab_oprema_naziv($o, $l)); ?></li><?php endforeach; ?>
+         </ul>
+-        <p class="card__price"><?php echo esc_html(ab_cijena_txt($id)); ?></p>
++        <p class="card__price"><?php echo esc_html(ab_cijena_txt($id, $l)); ?></p>
+       </div>
+     </article>
+     <?php return ob_get_clean();
+@@ -185,10 +201,12 @@ function ab_slike_svih($n) {
+ add_action('wp_head', function () {
+     $g = array();
+     $site = array('@type' => 'WebSite', '@id' => home_url('/#web'), 'url' => home_url('/'), 'name' => get_bloginfo('name'), 'inLanguage' => 'bs');
+-    $org = array('@type' => 'TravelAgency', '@id' => home_url('/#org'), 'name' => get_bloginfo('name'), 'url' => home_url('/'), 'telephone' => ab_tel(), 'email' => ab_mod('ab_email', ''),
+-        'address' => array('@type' => 'PostalAddress', 'addressLocality' => 'Bihać', 'addressCountry' => 'BA'),
++    $org = array('@type' => 'TravelAgency', '@id' => home_url('/#org'), 'name' => get_bloginfo('name'), 'url' => home_url('/'), 'telephone' => ab_tel(),
++        'address' => array('@type' => 'PostalAddress', 'addressLocality' => 'Bihać', 'postalCode' => '77000', 'addressCountry' => 'BA'),
++        'priceRange' => ab_mod('ab_cijena_od', '25') . '–100 €',
+         'areaServed' => array('Bihać', 'Lohovo', 'Grmuša', 'Pritoka', 'Nacionalni park Una'),
+-        'sameAs' => array_values(array_filter(array(ab_mod('ab_facebook'), ab_mod('ab_instagram')))));
++        'sameAs' => array(ab_fb(), ab_ig()));
++    if (ab_mod('ab_email', '')) { $org['email'] = ab_mod('ab_email', ''); }
+     $g[] = $site; $g[] = $org;
+     if (is_singular('objekt')) {
+         $id = get_queried_object_id();
+@@ -196,7 +214,7 @@ add_action('wp_head', function () {
+         $l = array('@type' => 'LodgingBusiness', 'name' => get_the_title($id), 'url' => get_permalink($id), 'description' => wp_strip_all_tags(get_the_excerpt($id)),
+             'image' => array_values(array_filter(array_map(function ($i) { return wp_get_attachment_image_url($i, 'large'); }, $sl))),
+             'address' => array('@type' => 'PostalAddress', 'addressLocality' => ab_m($id, 'mjesto') ? ab_m($id, 'mjesto') : 'Bihać', 'addressCountry' => 'BA'),
+-            'telephone' => ab_tel(), 'containedInPlace' => array('@id' => home_url('/#org')));
++            'telephone' => ab_tel(), 'petsAllowed' => 'Psi i mačke na upit; vlasnik potvrđuje u odgovoru na upit.', 'containedInPlace' => array('@id' => home_url('/#org')));
+         $c = (float) ab_m($id, 'cijena');
+         if ($c) { $l['priceRange'] = 'od ' . $c . ' EUR'; }
+         $kap = (int) ab_m($id, 'kapacitet');
+@@ -213,6 +231,7 @@ add_action('wp_head', function () {
+         $g[] = array('@type' => 'FAQPage', 'mainEntity' => array_map(function ($f) { return array('@type' => 'Question', 'name' => $f[0], 'acceptedAnswer' => array('@type' => 'Answer', 'text' => $f[1])); }, ab_faq()));
+     }
+     echo '<script type="application/ld+json">' . wp_json_encode(array('@context' => 'https://schema.org', '@graph' => $g), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>' . "\n"; // phpcs:ignore
++    if (function_exists('abu_seo_tekuca')) { return; } // opis ispisuje dodatak (seo.php), bez duplikata
+     if (is_singular() && !is_front_page()) {
+         $d = has_excerpt() ? get_the_excerpt() : wp_trim_words(wp_strip_all_tags(get_post_field('post_content', get_queried_object_id())), 28, '…');
+         if ($d) { echo '<meta name="description" content="' . esc_attr($d) . '">' . "\n"; }
+@@ -258,13 +277,13 @@ function ab_jezik() {
+ }
+ function ab_t($k) {
+     $t = array(
+-        'bs' => array('recenzija' => 'recenzija', 'pratitelja' => 'pratitelja', 'preporuka' => 'preporuka', 'rezerviraj' => 'Pronađi smještaj',
++        'bs' => array('na_fb' => 'na Facebooku', 'recenzija' => 'recenzija', 'pratitelja' => 'pratitelja', 'preporuka' => 'preporuka', 'rezerviraj' => 'Pronađi smještaj',
+             'smjestaj' => 'Smještaj', 'restorani' => 'Restorani', 'izlasci' => 'Izlasci', 'izleti' => 'Izleti', 'rafting' => 'Rafting', 'tb' => 'Team building', 'vodic' => 'Vodič',
+             'nazovi' => 'Nazovi', 'upit' => 'Upit'),
+-        'en' => array('recenzija' => 'reviews', 'pratitelja' => 'followers', 'preporuka' => 'recommend', 'rezerviraj' => 'Find a stay',
++        'en' => array('na_fb' => 'on Facebook', 'recenzija' => 'reviews', 'pratitelja' => 'followers', 'preporuka' => 'recommend', 'rezerviraj' => 'Find a stay',
+             'smjestaj' => 'Stays', 'restorani' => 'Restaurants', 'izlasci' => 'Nightlife', 'izleti' => 'Day trips', 'rafting' => 'Rafting', 'tb' => 'Team building', 'vodic' => 'Guide',
+             'nazovi' => 'Call', 'upit' => 'Enquire'),
+-        'de' => array('recenzija' => 'Bewertungen', 'pratitelja' => 'Follower', 'preporuka' => 'Empfehlung', 'rezerviraj' => 'Unterkunft finden',
++        'de' => array('na_fb' => 'auf Facebook', 'recenzija' => 'Bewertungen', 'pratitelja' => 'Follower', 'preporuka' => 'Empfehlung', 'rezerviraj' => 'Unterkunft finden',
+             'smjestaj' => 'Unterkünfte', 'restorani' => 'Restaurants', 'izlasci' => 'Ausgehen', 'izleti' => 'Ausflüge', 'rafting' => 'Rafting', 'tb' => 'Teambuilding', 'vodic' => 'Reiseführer',
+             'nazovi' => 'Anrufen', 'upit' => 'Anfrage'),
+     );
+@@ -308,7 +327,7 @@ function ab_povjerenje($klasa = '') {
+     ob_start(); ?>
+     <a class="trust <?php echo esc_attr($klasa); ?>" href="<?php echo esc_url(ab_fb()); ?>" target="_blank" rel="noopener">
+       <span class="trust__fb"><?php echo ab_ikona('fb'); // phpcs:ignore ?></span>
+-      <span class="trust__txt"><span class="stars" aria-label="5/5">★★★★★</span><b>9.362 <?php echo esc_html(ab_t('recenzija')); ?> · 100 % <?php echo esc_html(ab_t('preporuka')); ?></b><small>139.000 <?php echo esc_html(ab_t('pratitelja')); ?> · Apartmani &amp; Vikendice</small></span>
++      <span class="trust__txt"><span class="stars" aria-label="5/5">★★★★★</span><b>9.362 <?php echo esc_html(ab_t('recenzija') . ' ' . ab_t('na_fb')); ?> · 100 % <?php echo esc_html(ab_t('preporuka')); ?></b><small>139.000 <?php echo esc_html(ab_t('pratitelja')); ?> · Apartmani &amp; Vikendice</small></span>
+     </a>
+     <?php return ob_get_clean();
+ }
+diff --git a/header.php b/header.php
+index 5c9e5d9..04eaead 100644
+--- a/header.php
++++ b/header.php
+@@ -15,7 +15,7 @@
+     <a class="topbar__trust" href="<?php echo esc_url(ab_fb()); ?>" target="_blank" rel="noopener">
+       <span class="topbar__fb"><?php echo ab_ikona('fb'); // phpcs:ignore ?></span>
+       <span class="stars" aria-hidden="true">★★★★★</span>
+-      <span><b>9.362</b> <?php echo esc_html(ab_t('recenzija')); ?><span class="topbar__more"> · <b>139.000</b> <?php echo esc_html(ab_t('pratitelja')); ?> · 100 % <?php echo esc_html(ab_t('preporuka')); ?></span></span>
++      <span><b>9.362</b> <?php echo esc_html(ab_t('recenzija') . ' ' . ab_t('na_fb')); ?><span class="topbar__more"> · <b>139.000</b> <?php echo esc_html(ab_t('pratitelja')); ?> · 100 % <?php echo esc_html(ab_t('preporuka')); ?></span></span>
+     </a>
+     <div class="topbar__contact">
+       <a class="topbar__tel" href="<?php echo esc_attr($tel_h); ?>"><?php echo ab_ikona('tel'); // phpcs:ignore ?><span><?php echo esc_html($tel); ?></span></a>
+diff --git a/single-objekt.php b/single-objekt.php
+index 55c19a6..ce17047 100644
+--- a/single-objekt.php
++++ b/single-objekt.php
+@@ -14,9 +14,10 @@ $oprema = wp_get_post_terms($id, 'oprema', array('fields' => 'names'));
+     <h1 class="h1 objekt__title"><?php the_title(); ?></h1>
+     <ul class="objekt__facts">
+       <?php if ($mjesto) : ?><li><?php echo esc_html($mjesto); ?></li><?php endif; ?>
+-      <?php if ($kap) : ?><li>do <?php echo esc_html(ab_osobe($kap)); ?></li><?php endif; ?>
++      <?php if ($kap) : ?><li><?php echo esc_html(ab_osobe($kap)); ?></li><?php endif; ?>
+       <li><?php echo esc_html(ab_cijena_txt($id)); ?></li>
+       <?php if ($min > 1) : ?><li>najmanje <?php echo (int) $min; ?> noći</li><?php endif; ?>
++      <li>psi i mačke na upit</li>
+     </ul>
+   </div>
+ 
+diff --git a/style.css b/style.css
+index c0d1f0a..f61d3d0 100644
+--- a/style.css
++++ b/style.css
+@@ -3,7 +3,7 @@ Theme Name: Apartmani Bihać
+ Theme URI: https://www.apartmanibihac.com/
+ Author: Digital Puls
+ Description: Smještaj u Bihaću i na rijeci Uni. Radi uz dodatak Apartmani Upiti (kalendar, upit, potvrda vlasnika).
+-Version: 1.1.7
++Version: 1.1.8
+ Requires PHP: 7.4
+ Text Domain: apartmanibihac
+ */

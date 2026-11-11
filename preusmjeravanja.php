@@ -62,5 +62,8 @@ add_action('template_redirect', function () {
 
 add_filter('robots_txt', function ($out, $public) {
     if (!$public) { return $out; }
-    return "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /?s=\nDisallow: /*?abu_a=\n\n# AI pretraživači su dobrodošli\nUser-agent: GPTBot\nAllow: /\nUser-agent: ClaudeBot\nAllow: /\nUser-agent: PerplexityBot\nAllow: /\nUser-agent: Google-Extended\nAllow: /\nUser-agent: OAI-SearchBot\nAllow: /\nUser-agent: ChatGPT-User\nAllow: /\nUser-agent: Claude-SearchBot\nAllow: /\nUser-agent: Claude-User\nAllow: /\nUser-agent: Perplexity-User\nAllow: /\n\nSitemap: " . home_url('/wp-sitemap.xml') . "\n# llms: " . home_url('/llms.txt') . "\n# llms-full: " . home_url('/llms-full.txt') . "\n";
+    // Ista pravila za sve; AI botovi imaju vlastitu grupu, pa im se pravila ponavljaju (grupa * za njih ne vrijedi).
+    $pravila = "Allow: /\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /?s=\nDisallow: /*?abu_a=\n";
+    $ai = array('GPTBot', 'ClaudeBot', 'PerplexityBot', 'Google-Extended', 'OAI-SearchBot', 'ChatGPT-User', 'Claude-SearchBot', 'Claude-User', 'Perplexity-User');
+    return "User-agent: *\n" . $pravila . "\n# AI pretraživači su dobrodošli\n" . implode('', array_map(function ($b) { return 'User-agent: ' . $b . "\n"; }, $ai)) . $pravila . "\nSitemap: " . home_url('/wp-sitemap.xml') . "\n# llms: " . home_url('/llms.txt') . "\n# llms-full: " . home_url('/llms-full.txt') . "\n";
 }, 10, 2);

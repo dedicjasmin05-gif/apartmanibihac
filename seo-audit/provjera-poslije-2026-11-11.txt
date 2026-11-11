@@ -1,0 +1,20 @@
+1 pretraga /smjestaj/?mjesto=Lohovo: 200  kartica=1
+2 /oprema/bazen/: 200 robots=name='robots' content='noindex, follow'
+3 oprema u sitemapu: 0
+4 meta opisa naslovnica/objekt: 1 / 1
+5 hreflang /en/faq/una-river/: 4
+6 h1 /smjestaj-lohovo/: 1  clanak: 1
+7 title objekta: <title>Apartman Centar: smještaj Bihać, do 3 osobe
+8 llms ?p=: 0
+9 /en/ kartice:      19 card__price">price on request 
+10 BlogPosting na clanku: 1
+11 og:title naslovnice: og:title" content="Smještaj Bihać: apartmani i vikendice na Uni od 25 €
+12 povezani objekti na /cesta-pitanja/rafting-pitanja/: 1
+13 title clanka: <title>Prvi rafting na Uni: kako odabrati turu
+14 /o-nama/: <title>O nama: Apartmani & Vikendice Bihać, smještaj u Bihaću i uz Unu optika=0
+15 'popust' uz avans na /cesta-pitanja/rezervacija-i-placanje/: 0
+16 ljubimci na objektu: 1
+17 mjerenje skripta: 1
+18 clanak 2024 robots: name='robots' content='noindex, follow'
+19 forma upita: action="https://apartmanibihac.com/wp-admin/admin-post.php"
+20 robots.txt AI disallow: 2
