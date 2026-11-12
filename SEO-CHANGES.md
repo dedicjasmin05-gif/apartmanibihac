@@ -100,3 +100,19 @@ Ponovno pokretanje cijele inventure: skripta `seo-audit/crawl.py` zapisuje `craw
 | `apartmani-upiti.php` | Poruka nakon potvrde kod plaćanja gotovinom: „gost je dobio potvrdu rezervacije“ umjesto „upute za kaparu“ | — |
 | `mjerenje.php` | Jednokratno brisanje brojača za 2026-11 (sadržavao je naše automatske provjere s dana objave); mjerenje kreće od nule | — |
 
+
+## 12. 11. 2026.: popravci prema provjeri s MAG servera, LiteSpeed Cache, WebP
+
+| Što | Izmjena | Provjera na živom webu |
+|---|---|---|
+| Slike objekata na 5 stranica lokacija (404) | `seo-tehnika.php` §8: `/assets/*.webp` sa starog sajta zamijenjene fotografijom objekta na koji kartica vodi | 0 neispravnih slika |
+| Mrtvi linkovi restorana | `sadrzaj/restorani.json`: uklonjeni `riverdock.ba` i `riveruna.com.ba` (FB i IG ostaju) | link više ne postoji |
+| og:image | `drustvene.php`: zamjenska slika s naslovnice kad stranica nema svoju | og:image na svim stranicama |
+| Kategorije | `seo-tehnika.php` §9: meta opis i canonical | da |
+| Tema 1.1.9 | bez `backdrop-filter` na mobitelu i tabletu; nazivi skrivenih linkova galerije | izgled isti, bez zamućenja |
+| **LiteSpeed Cache 7.9.3** | instaliran i aktivan (Hostinger API); `cache.php` isključuje iz cachea objekte, pretragu, prijavu objekta, team building i potvrde iz e-maila (sigurnosni ključ forme) | naslovnica, pitanja, O nama: `hit`; objekti i forme: `no-cache`; 48 istodobnih zahtjeva bez ijedne greške 500 |
+| **WebP** | `webp.php` + jednokratno `alati/webp-sve.php`: 2.430 WebP kopija od 2.629 slika (−57 MB); stranice poslužuju WebP, og:image ostaje JPG, nove slike automatski | naslovnica: 50 WebP, 0 JPG u tijelu |
+
+Povrat: LiteSpeed Cache se može deaktivirati u WP adminu (Plugins). WebP: ukloniti `require_once webp.php` (stranice se vraćaju na JPG, a `.webp` datoteke mogu ostati). Cache: ukloniti `require_once cache.php`, ali samo ako se deaktivira i LiteSpeed.
+
+Rezultat provjere u 20 točaka: `seo-audit/provjera-2026-11-12.txt` (20/20). Cijeli sitemap: 183/183 vraća 200.
