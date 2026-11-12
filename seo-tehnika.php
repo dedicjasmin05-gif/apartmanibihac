@@ -138,3 +138,31 @@ add_filter('document_title_parts', function ($d) {
     if (preg_match('~biha[cć]|\buna\b|\buni\b|\bunu\b~iu', $d['title'])) { unset($d['site'], $d['tagline']); }
     return $d;
 });
+
+/**
+ * 8. Stranice prenesene sa starog sajta (lokacije, uz Unu, s bazenom) imaju kartice sa slikama /assets/….webp,
+ * koje na ovom serveru ne postoje (404). Slika se pri prikazu zamijeni istaknutom fotografijom objekta na koji kartica
+ * vodi; ako objekt nema fotografiju, prazna slika se uklanja. Sadržaj u bazi ostaje isti.
+ */
+add_filter('the_content', function ($c) {
+    if (is_admin() || strpos($c, '/assets/') === false) { return $c; }
+    return preg_replace_callback('~(<a href="(?:' . preg_quote(untrailingslashit(home_url()), '~') . ')?/smjestaj/([a-z0-9-]+)/"[^>]*>)\s*<img[^>]*\bsrc="/assets/[^"]+"[^>]*>~i', function ($m) {
+        $p = get_page_by_path($m[2], OBJECT, 'objekt');
+        $id = $p ? get_post_thumbnail_id($p) : 0;
+        if (!$id && $p && function_exists('ab_slike')) { $s = ab_slike($p->ID, 1); $id = $s ? $s[0] : 0; }
+        if (!$id) { return $m[1]; }
+        $mj = (string) get_post_meta($p->ID, '_abu_mjesto', true);
+        return $m[1] . wp_get_attachment_image($id, 'ab-card', false, array('loading' => 'lazy', 'alt' => get_the_title($p) . ($mj ? ', ' . $mj : '')));
+    }, $c);
+}, 13);
+
+/** 9. Kategorije vijesti i vodiča: meta opis i canonical (WordPress ih za arhive ne ispisuje). */
+add_action('wp_head', function () {
+    if (!is_category() || (function_exists('abu_seo_plugin') && abu_seo_plugin())) { return; }
+    $t = get_queried_object();
+    if (!$t || empty($t->term_id)) { return; }
+    $opis = trim(wp_strip_all_tags(term_description($t)));
+    if ($opis === '') { $opis = $t->name . ': novosti i vodiči o Bihaću, rijeci Uni i smještaju. Apartmani i kuće uz Unu od 25 € po noći.'; }
+    echo '<meta name="description" content="' . esc_attr(mb_substr($opis, 0, 158)) . '">' . "\n";
+    if (!is_paged()) { echo '<link rel="canonical" href="' . esc_url(get_term_link($t)) . '">' . "\n"; }
+}, 2);
