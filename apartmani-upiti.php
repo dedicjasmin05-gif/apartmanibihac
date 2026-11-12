@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Apartmani Upiti
  * Description: Upiti za smještaj s potvrdom vlasnika jednim klikom, kalendarom, iCal sinkronizacijom (Booking/Airbnb), plaćanjem gotovinom (kapara opcionalno) i automatskim porukama.
- * Version: 1.1.5
+ * Version: 1.1.6
  * Author: Digital Puls
  * Text Domain: apartmani-upiti
  */
 
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_VER', '1.1.5');
+define('ABU_VER', '1.1.6');
 define('ABU_TABLE', 'abu_upiti');
 define('ABU_ICAL_TABLE', 'abu_ical_blocks');
 
@@ -788,7 +788,7 @@ add_shortcode('abu_kalendar', function ($a) {
         $o .= '</div></div>';
     }
     $leg = $L === 'de' ? array('frei', 'belegt') : ($L === 'en' ? array('available', 'booked') : array('slobodno', 'zauzeto'));
-    $o .= '<div class="abu-leg"><i class="abu-s"></i>' . esc_html($leg[0]) . ' <i class="abu-z"></i>' . esc_html($leg[1]) . '</div></div>';
+    $o .= '<div class="abu-leg"><i class="abu-s" aria-hidden="true"></i>' . esc_html($leg[0]) . ' <i class="abu-z" aria-hidden="true"></i>' . esc_html($leg[1]) . '</div></div>';
     return abu_css() . $o;
 });
 
@@ -863,7 +863,7 @@ function abu_css() {
     static $done = false;
     if ($done) { return ''; }
     $done = true;
-    return '<style>.abu-kal{display:flex;flex-wrap:wrap;gap:22px;margin:18px 0}.abu-mj{flex:1 1 260px;max-width:340px}.abu-mj-n{font-weight:700;margin-bottom:8px;text-transform:capitalize}.abu-g{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.abu-g span{text-align:center;padding:7px 0;border-radius:6px;font-size:14px}.abu-h{font-size:12px!important;color:#777}.abu-s{background:#eaf6ea}.abu-z{background:#f3d6d6;color:#999;text-decoration:line-through}.abu-pr{color:#bbb}.abu-leg{width:100%;font-size:13px;color:#555}.abu-leg i{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin:0 6px 0 12px}.abu-form{display:grid;gap:12px;background:#fff;padding:20px;border-radius:14px;box-shadow:0 4px 18px #0000000f}.abu-form label{display:grid;gap:4px;font-size:14px;font-weight:600}.abu-form input,.abu-form textarea{font:inherit;font-weight:400;padding:10px;border:1px solid #ccc;border-radius:6px}.abu-r{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.abu-c{display:block!important;font-weight:400!important}.abu-c small{color:#666}.abu-trap{position:absolute;left:-9999px}.abu-form .btn{background:#ffda26;border:0;padding:13px 18px;border-radius:5px;font-weight:700;font-size:16px;cursor:pointer}.abu-ok{background:#eaf6ea;padding:14px;border-radius:10px;margin:10px 0}.abu-err{background:#fbe4e4;padding:14px;border-radius:10px;margin:10px 0}</style>';
+    return '<style>.abu-kal{display:flex;flex-wrap:wrap;gap:22px;margin:18px 0}.abu-mj{flex:1 1 260px;max-width:340px}.abu-mj-n{font-weight:700;margin-bottom:8px;text-transform:capitalize}.abu-g{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.abu-g span{text-align:center;padding:7px 0;border-radius:6px;font-size:14px}.abu-h{font-size:12px!important;color:#6b6b6b}.abu-s{background:#eaf6ea}.abu-z{background:#f3d6d6;color:#999;text-decoration:line-through}.abu-pr{color:#bbb}.abu-leg{width:100%;font-size:13px;color:#555}.abu-leg i{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin:0 6px 0 12px}.abu-form{display:grid;gap:12px;background:#fff;padding:20px;border-radius:14px;box-shadow:0 4px 18px #0000000f}.abu-form label{display:grid;gap:4px;font-size:14px;font-weight:600}.abu-form input,.abu-form textarea{font:inherit;font-weight:400;padding:10px;border:1px solid #ccc;border-radius:6px}.abu-r{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.abu-c{display:block!important;font-weight:400!important}.abu-c small{color:#666}.abu-trap{position:absolute;left:-9999px}.abu-form .btn{background:#ffda26;border:0;padding:13px 18px;border-radius:5px;font-weight:700;font-size:16px;cursor:pointer}.abu-ok{background:#eaf6ea;padding:14px;border-radius:10px;margin:10px 0}.abu-err{background:#fbe4e4;padding:14px;border-radius:10px;margin:10px 0}</style>';
 }
 
 /* ============================================================

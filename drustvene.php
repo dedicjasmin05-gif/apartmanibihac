@@ -38,21 +38,22 @@ function abu_dr_css() {
     if ($ok) { return ''; }
     $ok = true;
     return '<style>
-.abu-dr{--fb:#1877f2;--ig:#d62976;font:inherit}
+.abu-dr{--fb:#1466d6;--ig:#d62976;font:inherit}
 .abu-dr a{text-decoration:none}
 .abu-dr-gumbi{display:flex;flex-wrap:wrap;gap:10px}
 .abu-dr-g{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;color:#fff!important;font-weight:700;font-size:15px;line-height:1.2;transition:transform .15s,box-shadow .15s}
 .abu-dr-g:hover{transform:translateY(-1px);box-shadow:0 6px 16px #0002}
-.abu-dr-g small{font-weight:500;opacity:.9}
+.abu-dr-g small{font-weight:500}
 .abu-dr-fb{background:var(--fb)}
 .abu-dr-ig{background:linear-gradient(45deg,#feda75,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5)}
-.abu-dr-wa{background:#25d366}.abu-dr-vb{background:#7360f2}.abu-dr-ln{background:#555;border:0;cursor:pointer;font:inherit}
+.abu-dr-wa{background:#0e7a3c}.abu-dr-vb{background:#6352e6}.abu-dr-ln{background:#555;border:0;cursor:pointer;font:inherit}
 .abu-dr-traka{background:#1f2a24;color:#fff;padding:28px 16px;text-align:center}
-.abu-dr-traka h3{color:#fff;margin:0 0 6px;font-size:20px}
+.abu-dr-traka h3,.abu-dr-traka .abu-dr-h{color:#fff;margin:0 0 6px;font-size:20px}
+.abu-dr-dijeli .abu-dr-h{font-size:1rem;margin:0 0 10px}
 .abu-dr-traka p{margin:0 auto 16px;max-width:620px;opacity:.85;font-size:15px}
 .abu-dr-traka .abu-dr-gumbi{justify-content:center}
 .abu-dr-blok{background:#f6f8f4;border-radius:16px;padding:22px;margin:28px 0;display:grid;gap:14px}
-.abu-dr-blok h3{margin:0;font-size:20px}
+.abu-dr-blok h3,.abu-dr-blok .abu-dr-h{margin:0;font-size:20px}
 .abu-dr-brojke{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:15px;color:#333}
 .abu-dr-brojke b{font-size:22px;color:#111}
 .abu-dr-dijeli{margin:26px 0;padding:18px;border:1px solid #e6e6e6;border-radius:14px}
@@ -74,7 +75,7 @@ function abu_dr_profili() {
 
 /** [abu_drustvene] blok s brojkama i gumbima. */
 function abu_dr_blok() {
-    return abu_dr_css() . '<section class="abu-dr abu-dr-blok"><h3>' . esc_html(abu_dr_t('zajednica')) . '</h3>' . abu_dr_brojke() . '<p style="margin:0">' . esc_html(abu_dr_t('novo')) . '</p>' . abu_dr_profili() . '</section>';
+    return abu_dr_css() . '<section class="abu-dr abu-dr-blok"><h2 class="abu-dr-h">' . esc_html(abu_dr_t('zajednica')) . '</h2>' . abu_dr_brojke() . '<p style="margin:0">' . esc_html(abu_dr_t('novo')) . '</p>' . abu_dr_profili() . '</section>';
 }
 add_shortcode('abu_drustvene', 'abu_dr_blok');
 
@@ -87,7 +88,7 @@ add_filter('the_content', function ($c) {
     if (is_singular('objekt')) {
         $url = get_permalink();
         $txt = get_the_title() . ' – ' . $url;
-        $c .= abu_dr_css() . '<div class="abu-dr abu-dr-dijeli"><h4>' . esc_html(abu_dr_t('podijeli')) . '</h4><div class="abu-dr-gumbi">'
+        $c .= abu_dr_css() . '<div class="abu-dr abu-dr-dijeli"><h2 class="abu-dr-h">' . esc_html(abu_dr_t('podijeli')) . '</h2><div class="abu-dr-gumbi">'
             . '<a class="abu-dr-g abu-dr-fb" href="https://www.facebook.com/sharer/sharer.php?u=' . rawurlencode($url) . '" target="_blank" rel="noopener">' . abu_dr_ikona('fb') . 'Facebook</a>'
             . '<a class="abu-dr-g abu-dr-wa" href="https://wa.me/?text=' . rawurlencode($txt) . '" target="_blank" rel="noopener">' . abu_dr_ikona('wa') . 'WhatsApp</a>'
             . '<a class="abu-dr-g abu-dr-vb" href="viber://forward?text=' . rawurlencode($txt) . '">' . abu_dr_ikona('vb') . 'Viber</a>'
@@ -100,7 +101,7 @@ add_filter('the_content', function ($c) {
 /** Traka u podnožju svake stranice. */
 add_action('wp_footer', function () {
     if (is_admin() || current_theme_supports('abu-kontakt')) { return; }
-    echo abu_dr_css() . '<section class="abu-dr abu-dr-traka"><h3>' . esc_html(abu_dr_t('prati')) . ' · 139.000+ ' . esc_html(abu_dr_t('pratitelja')) . '</h3><p>' . esc_html(abu_dr_t('novo')) . '</p>' . abu_dr_profili() . '</section>';
+    echo abu_dr_css() . '<section class="abu-dr abu-dr-traka"><h2 class="abu-dr-h">' . esc_html(abu_dr_t('prati')) . ' · 139.000+ ' . esc_html(abu_dr_t('pratitelja')) . '</h2><p>' . esc_html(abu_dr_t('novo')) . '</p>' . abu_dr_profili() . '</section>';
 }, 5);
 
 /** Google: veza sajta s profilima; Open Graph za lijep prikaz pri dijeljenju (ako nema SEO dodatka). */

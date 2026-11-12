@@ -27,7 +27,7 @@ function abu_tb_podaci() {
 function abu_tb_txt($l) {
     $t = array(
         'bs' => array(
-            'title' => 'Team building Bihać: rafting, smještaj i program na rijeci Uni | složite ponudu',
+            'title' => 'Team building Bihać: rafting, smještaj i program na Uni',
             'h1' => 'Team building u Bihaću, na rijeci Uni',
             'lead' => 'Rafting, kajaci, kvadovi, jahanje, ručak na rijeci, tamburaši i DJ. Odaberite što želite, a mi spojimo hotele, rafting kuće, restorane i izvođače u Bihaću u jednu ponudu. Bez obaveze, odgovor u 24 sata.',
             'meta' => 'Team building u Bihaću: rafting na Uni, smještaj za grupe, aktivnosti, ručak na rijeci i muzika uživo. Složite program sami i pošaljite upit, ponuda u 24 sata.',
@@ -64,7 +64,7 @@ function abu_tb_txt($l) {
             ),
         ),
         'en' => array(
-            'title' => 'Team building in Bihać: rafting, accommodation and activities on the Una river',
+            'title' => 'Team building in Bihać: rafting, stays and activities',
             'h1' => 'Team building in Bihać, on the Una river',
             'lead' => 'Rafting, kayaks, quads, horse riding, lunch on the river, tamburica bands and DJs. Pick what you like and we put hotels, rafting camps, restaurants and performers in Bihać together into one offer. No obligation, reply within 24 hours.',
             'meta' => 'Team building in Bihać: Una river rafting, group accommodation, activities, lunch by the river and live music. Build your programme and get an offer within 24 hours.',
@@ -96,7 +96,7 @@ function abu_tb_txt($l) {
             ),
         ),
         'de' => array(
-            'title' => 'Teambuilding in Bihać: Rafting, Unterkunft und Programm an der Una',
+            'title' => 'Teambuilding in Bihać: Rafting, Unterkunft, Programm',
             'h1' => 'Teambuilding in Bihać an der Una',
             'lead' => 'Rafting, Kajak, Quads, Reiten, Mittagessen am Fluss, Tamburica-Musik und DJ. Wählen Sie aus, was Sie möchten, und wir verbinden Hotels, Raftingcamps, Restaurants und Künstler in Bihać zu einem Angebot. Unverbindlich, Antwort innerhalb von 24 Stunden.',
             'meta' => 'Teambuilding in Bihać: Rafting auf der Una, Gruppenunterkunft, Aktivitäten, Essen am Fluss und Live-Musik. Programm zusammenstellen, Angebot in 24 Stunden.',
