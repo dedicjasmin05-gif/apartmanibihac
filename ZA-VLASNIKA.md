@@ -21,3 +21,16 @@ Objavljeni su dodatak 1.1.4 i tema 1.1.8, spojen je PR #3, napravljene su strani
 - **Fotografije** za Japodsku kućicu na drvetu i Villu Mekić.
 - Upiti zasad stižu na vaš e-mail. Kad upit 3 sata čeka odgovor, stiže podsjetnik, a nakon 12 sati poruka **„HITNO: upit istekao“** s kontaktom gosta.
 
+
+## Facebook i Instagram: automatsko objavljivanje (jednom, oko 15 minuta, s računala)
+Modul je na webu: **WP admin → Upiti → Društvene mreže**. Dok nema tokena, tamo su gotovi tekstovi za ručno kopiranje.
+
+1. Instagram račun mora biti **profesionalni (Business)** i povezan s Facebook stranicom Apartmani & Vikendice (Meta Business Suite → Postavke → Povezani računi).
+2. Otvorite https://developers.facebook.com/apps i napravite aplikaciju tipa **Business**.
+3. Otvorite **Graph API Explorer** (https://developers.facebook.com/tools/explorer/) i odaberite tu aplikaciju. Pod *User or Page* odaberite stranicu **Apartmani & Vikendice**. Dodajte dozvole `pages_manage_posts`, `pages_read_engagement`, `instagram_basic` i `instagram_content_publish`, pa kliknite **Generate Access Token**.
+4. Token produžite na trajni: **Access Token Debugger** → *Extend Access Token*. Zatim u Exploreru pokrenite `me/accounts` i kopirajte `access_token` i `id` stranice. Token stranice dobiven iz produženog tokena ne istječe.
+5. U Exploreru pokrenite `<id stranice>?fields=instagram_business_account`. Broj koji dobijete je **Instagram Business ID**.
+6. U WP adminu (Upiti → Društvene mreže) upišite ID stranice, token i Instagram ID, pa kliknite **Spremi**. Ako je sve ispravno, ispiše se ime stranice i broj pratitelja.
+7. Uključite **Automatika**. Od tada svaki novi članak ide na Facebook i Instagram 10 minuta nakon objave. Starije članke možete objaviti gumbom **Objavi**.
+
+Token se čuva samo u bazi weba, ne u kodu. Ne šaljite ga u chat.
