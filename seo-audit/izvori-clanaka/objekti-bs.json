@@ -1,0 +1,519 @@
+{
+    "apartman-centar": {
+        "naziv": "Apartman Centar",
+        "mjesto": "Bihać",
+        "kapacitet": 3,
+        "uvod": [
+            "Apartman Centar nalazi se u najstrožem centru Bihaća, u ulici 5. korpusa, 50 metara od gradskog trga. Apartman od 45 m² kompletno je renoviran i moderno uređen, u prizemlju zgrade.",
+            "Za dvije osobe tu je krevet dimenzija 200 x 200 cm, a apartman prima i treću osobu. Idealan je za parove i kraće gradske boravke."
+        ],
+        "oprema_popis": [
+            "Kapacitet 2 + 1 osoba",
+            "Krevet 200 x 200 cm",
+            "Dnevni boravak",
+            "Kuhinja s hladnjakom",
+            "Tuš kabina i sušilo za kosu",
+            "TV i Wi-Fi",
+            "Grijanje",
+            "Parking"
+        ],
+        "oprema_filter": [
+            "Strogi centar",
+            "Kuhinja",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 1
+    },
+    "apartman-city-centar": {
+        "naziv": "Apartman City Centar",
+        "mjesto": "Bihać",
+        "kapacitet": 7,
+        "uvod": [
+            "Apartman City Centar je prostrani gradski apartman u ulici HVO-a u Bihaću, s kapacitetom do 7 osoba. Jedan je od rijetkih apartmana u gradu u koji stane cijela obitelj ili veće društvo.",
+            "Ima dnevni boravak i potpuno opremljenu kuhinju s pećnicom, pa odgovara i za duži boravak, posjet rodbini ili grupna putovanja."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 7 osoba",
+            "Dnevni boravak",
+            "Kuhinja s pećnicom i hladnjakom",
+            "Flat-screen TV",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Kuhinja",
+            "Wi-Fi"
+        ],
+        "min_noci": 1
+    },
+    "apartman-hari": {
+        "naziv": "Apartman Hari",
+        "mjesto": "Bihać",
+        "kapacitet": 4,
+        "uvod": [
+            "Apartman Hari nalazi se u ulici Alije Đerzeleza u Bihaću i prima do 4 osobe. Ima vlastitu terasu, dnevni boravak i opremljenu kuhinju.",
+            "Perilica rublja i besplatan parking čine ga praktičnim izborom za obitelji i goste koji ostaju više dana."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 4 osobe",
+            "Dnevni boravak",
+            "Vanjska terasa",
+            "Kuhinja s pećnicom",
+            "Perilica rublja",
+            "Flat-screen TV",
+            "Kupaonica s tuš kabinom",
+            "Besplatan parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Terasa",
+            "Kuhinja",
+            "Perilica rublja",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 1
+    },
+    "apartman-m-mahala": {
+        "naziv": "Apartman M. Mahala",
+        "mjesto": "Bihać",
+        "kapacitet": 6,
+        "uvod": [
+            "Apartman M. Mahala nalazi se u Midžića mahali u Bihaću i prima 4 + 2 osobe. Ima dvije vanjske terase i roštilj, što je rijetkost za gradski smještaj.",
+            "Klimatiziran je, s dnevnim boravkom, perilicom posuđa i perilicom rublja, pa odgovara obiteljima s djecom i dužim boravcima."
+        ],
+        "oprema_popis": [
+            "Kapacitet 4 + 2 osobe",
+            "Klima uređaj",
+            "Dnevni boravak",
+            "Dvije vanjske terase",
+            "Roštilj",
+            "Kuhinja s pećnicom",
+            "Perilica posuđa i rublja",
+            "TV",
+            "Kupaonica s kadom",
+            "Besplatan parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Klima",
+            "Terasa",
+            "Roštilj",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 1
+    },
+    "farah-superior-apartments": {
+        "naziv": "Farah Superior Apartments",
+        "mjesto": "Bihać",
+        "kapacitet": 8,
+        "uvod": [
+            "Farah Superior Apartments nalaze se na Privilici u Bihaću, s direktnim izlazom na Unu i vlastitom plažom. Dva apartmana primaju 8 i 5 osoba.",
+            "Gosti mogu koristiti čamac i ribolovni pribor, a uz apartmane su tri vanjske terase i roštilj. Grad i rijeka na istom mjestu."
+        ],
+        "oprema_popis": [
+            "2 apartmana: 8 i 5 osoba",
+            "Izlaz na Unu i plaža",
+            "Čamac i ribolovni pribor",
+            "Tri vanjske terase",
+            "Roštilj",
+            "Klima uređaj",
+            "Kuhinja s perilicom posuđa i mikrovalnom",
+            "Perilica i sušilica rublja",
+            "Kupaonica s kadom i tuš kabinom",
+            "Besplatan parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Plaža",
+            "Klima",
+            "Roštilj",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "feel-luxury-apartments": {
+        "naziv": "Feel Luxury Apartments",
+        "mjesto": "Bihać",
+        "kapacitet": 12,
+        "uvod": [
+            "Feel Luxury Apartments u ulici Irfana Ljubijankića u Bihaću primaju do 12 osoba, što ih čini jednim od najvećih apartmanskih smještaja u gradu.",
+            "Opremljeni su za grupe i velike obitelji: klima, perilica posuđa, perilica i sušilica rublja, aparat za kavu i besplatan parking."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 12 osoba",
+            "Klima uređaj",
+            "Kuhinja s perilicom posuđa",
+            "Aparat za kavu",
+            "Perilica i sušilica rublja",
+            "Kupaonica s kadom i tuš kabinom",
+            "Besplatan parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Klima",
+            "Kuhinja",
+            "Perilica rublja",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "lux-apartments-bihac": {
+        "naziv": "LUX Apartments Bihać",
+        "mjesto": "Bihać",
+        "kapacitet": 10,
+        "uvod": [
+            "LUX Apartments Bihać u ulici Irfana Ljubijankića primaju do 10 osoba. Klimatizirani su i opremljeni za grupe, obitelji i poslovne boravke.",
+            "Kuhinja ima perilicu posuđa, pećnicu, mikrovalnu i aparat za kavu, a tu su i perilica i sušilica rublja te besplatan parking."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 10 osoba",
+            "Klima uređaj",
+            "Kuhinja s perilicom posuđa",
+            "Aparat za kavu",
+            "Perilica i sušilica rublja",
+            "Kupaonica s kadom i tuš kabinom",
+            "Besplatan parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Klima",
+            "Kuhinja",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "green-river": {
+        "naziv": "Green River",
+        "mjesto": "Grmuša",
+        "kapacitet": 8,
+        "uvod": [
+            "Green River je vikendica u Grmuši s izlazom na Unu i vanjskom terasom iznad same rijeke. Prima 6 + 2 osobe.",
+            "Jutarnja kava na terasi nad Unom, kupanje i rafting pored kuće razlog su zašto se gosti vraćaju. Kuća ima dnevni boravak, kuhinju i perilicu rublja."
+        ],
+        "oprema_popis": [
+            "Kapacitet 6 + 2 osobe",
+            "Izlaz na Unu",
+            "Terasa nad Unom",
+            "Dnevni boravak",
+            "Kuhinja",
+            "Perilica rublja",
+            "Flat-screen TV",
+            "Kupaonica s tuš kabinom",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Terasa",
+            "Perilica rublja",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "vikendica-unadom": {
+        "naziv": "Vikendica Unadom",
+        "mjesto": "Grmuša",
+        "kapacitet": 8,
+        "uvod": [
+            "Vikendica Unadom u Grmuši prima 6 + 2 osobe i ima izlaz na Unu s terasom iznad rijeke.",
+            "Smještena je u srcu rafting zone, pa odgovara grupama koje dolaze na rafting, ali i obiteljima koje žele tihi odmor uz vodu."
+        ],
+        "oprema_popis": [
+            "Kapacitet 6 + 2 osobe",
+            "Izlaz na Unu",
+            "Terasa nad Unom",
+            "Dnevni boravak",
+            "Kuhinja",
+            "Flat-screen TV",
+            "Kupaonica s tuš kabinom",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "vila-enio": {
+        "naziv": "Vila Enio",
+        "mjesto": "Lohovo",
+        "kapacitet": 6,
+        "uvod": [
+            "Vila Enio u Lohovu je kuća za odmor za 6 osoba s bazenom i izlazom na Unu. Ima dvije terase: jednu iznad rijeke i jednu uz bazen.",
+            "Jedna je od rijetkih vikendica oko Bihaća koja nudi i bazen i rijeku na istom mjestu. Kuća ima dnevni boravak, kuhinju, kupaonicu i dodatni vanjski WC."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 6 osoba",
+            "Bazen",
+            "Izlaz na Unu",
+            "Terasa nad Unom",
+            "Terasa uz bazen",
+            "Dnevni boravak",
+            "Kuhinja",
+            "TV",
+            "Kupaonica i vanjski WC",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Bazen",
+            "Izlaz na Unu",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "vikendica-rekic": {
+        "naziv": "Vikendica Rekić",
+        "mjesto": "Pritoka",
+        "kapacitet": 8,
+        "uvod": [
+            "Vikendica Rekić u Pritoci prima do 8 osoba i ima izlaz na Unu s terasom iznad rijeke.",
+            "Kuća ima dnevni boravak, opremljenu kuhinju i kupaonicu s tuš kabinom. Grad je blizu, a spavate uz šum rijeke."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 8 osoba",
+            "Izlaz na Unu",
+            "Terasa nad Unom",
+            "Dnevni boravak",
+            "Kuhinja",
+            "Flat-screen TV",
+            "Kupaonica s tuš kabinom",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "japodska-kucica-na-drvetu": {
+        "naziv": "Japodska kućica na drvetu",
+        "mjesto": "Bihać i okolica",
+        "kapacitet": 4,
+        "uvod": [
+            "Japodska kućica na drvetu je kućica za 4 osobe u krošnji, s izlazom na Unu. Jedan je od najneobičnijih smještaja u Bihaću i okolici.",
+            "Ispod kućice je natkriveni prostor za sjedenje, a uz nju terasa. Za parove i obitelji koje žele odmor u prirodi s pričom."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 4 osobe",
+            "Izlaz na Unu",
+            "Terasa",
+            "Prostor za sjedenje ispod kućice",
+            "TV",
+            "Wi-Fi",
+            "Besplatan parking"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 1
+    },
+    "vikend-kuca-basic": {
+        "naziv": "Vikend kuća Bašić",
+        "mjesto": "Bihać i okolica",
+        "kapacitet": 6,
+        "uvod": [
+            "Vikend kuća Bašić je kuća za odmor za 6 osoba s izlazom na Unu. Kreveti su bračni i odvojeni, pa kuća odgovara i obiteljima i društvu.",
+            "Uz kuću su terasa i roštilj, a u kući dnevni boravak i opremljena kuhinja."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 6 osoba",
+            "Bračni i odvojeni kreveti",
+            "Izlaz na Unu",
+            "Terasa",
+            "Roštilj",
+            "Dnevni boravak",
+            "Kuhinja",
+            "TV",
+            "Wi-Fi",
+            "Parking"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Roštilj",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "vikend-kuca-emira": {
+        "naziv": "Vikend kuća Emira",
+        "mjesto": "Bihać i okolica",
+        "kapacitet": 7,
+        "uvod": [
+            "Vikend kuća Emira prima do 7 osoba u odvojenim krevetima i ima izlaz na Unu. Odličan izbor za društvo prijatelja, rafting ekipe i grupe.",
+            "Kuća ima dnevni boravak, kuhinju i terasu, a parking je uz objekt."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 7 osoba",
+            "Odvojeni kreveti",
+            "Izlaz na Unu",
+            "Terasa",
+            "Dnevni boravak",
+            "Kuhinja",
+            "Parking"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Terasa",
+            "Parking"
+        ],
+        "min_noci": 2
+    },
+    "villa-dzane": {
+        "naziv": "Villa Džane",
+        "mjesto": "Bihać i okolica",
+        "kapacitet": 9,
+        "uvod": [
+            "Villa Džane prima do 9 osoba i ima izlaz na Unu. Kreveti su bračni i odvojeni.",
+            "Uz vilu su terasa i roštilj, a u kući dnevni boravak i kuhinja. Za veće grupe može se kombinirati s Vikendicom Džane 2."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 9 osoba",
+            "Bračni i odvojeni kreveti",
+            "Izlaz na Unu",
+            "Terasa",
+            "Roštilj",
+            "Dnevni boravak",
+            "Kuhinja",
+            "TV",
+            "Wi-Fi",
+            "Parking"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Roštilj",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "vikendica-dzane-2": {
+        "naziv": "Vikendica Džane 2",
+        "mjesto": "Bihać i okolica",
+        "kapacitet": 7,
+        "uvod": [
+            "Vikendica Džane 2 prima 5 + 2 osobe i ima izlaz na Unu. Uz kuću su terasa i roštilj.",
+            "Ima dnevni boravak i opremljenu kuhinju, pa odgovara obiteljima i manjim grupama. Za veće grupe može se kombinirati s Villom Džane."
+        ],
+        "oprema_popis": [
+            "Kapacitet 5 + 2 osobe",
+            "Izlaz na Unu",
+            "Terasa",
+            "Roštilj",
+            "Dnevni boravak",
+            "Kuhinja",
+            "TV",
+            "Wi-Fi",
+            "Parking"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Roštilj",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "vikendica-karakas": {
+        "naziv": "Vikendica Karakaš",
+        "mjesto": "Bihać i okolica",
+        "kapacitet": 10,
+        "uvod": [
+            "Vikendica Karakaš prima 9 + 1 osobu i ima izlaz na Unu. Prostrana terasa i roštilj središte su druženja.",
+            "Kreveti su bračni i odvojeni, a kuća ima dnevni boravak i kuhinju. Za velike obitelji i grupe prijatelja."
+        ],
+        "oprema_popis": [
+            "Kapacitet 9 + 1 osoba",
+            "Bračni i odvojeni kreveti",
+            "Izlaz na Unu",
+            "Prostrana terasa",
+            "Roštilj",
+            "Dnevni boravak",
+            "Kuhinja",
+            "TV"
+        ],
+        "oprema_filter": [
+            "Izlaz na Unu",
+            "Roštilj",
+            "Terasa"
+        ],
+        "min_noci": 2
+    },
+    "villa-mekic": {
+        "naziv": "Villa Mekić",
+        "mjesto": "Bihać i okolica",
+        "kapacitet": 9,
+        "uvod": [
+            "Villa Mekić prima do 9 osoba u odvojenim krevetima, u tri sobe: 2 + 4 + 3.",
+            "Ima dnevni boravak, kuhinju, terasu i roštilj. Raspored soba odgovara grupama prijatelja, sportskim ekipama i obiteljima koje putuju zajedno."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 9 osoba",
+            "Sobe 2 + 4 + 3",
+            "Odvojeni kreveti",
+            "Terasa",
+            "Roštilj",
+            "Dnevni boravak",
+            "Kuhinja",
+            "TV",
+            "Wi-Fi",
+            "Parking"
+        ],
+        "oprema_filter": [
+            "Roštilj",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    },
+    "villa-mekic-2": {
+        "naziv": "Villa Mekić 2",
+        "mjesto": "Bihać i okolica",
+        "kapacitet": 20,
+        "uvod": [
+            "Villa Mekić 2 prima do 20 osoba u apartmanima, što je čini jednim od najvećih objekata u ponudi.",
+            "Idealna je za team building, rafting grupe, sportske ekipe, svadbene goste i velika obiteljska okupljanja. Na raspolaganju su terasa, roštilj, kuhinja i parking."
+        ],
+        "oprema_popis": [
+            "Kapacitet do 20 osoba",
+            "Smještaj u apartmanima",
+            "Terasa",
+            "Roštilj",
+            "Dnevni boravak",
+            "Kuhinja",
+            "TV",
+            "Wi-Fi",
+            "Parking"
+        ],
+        "oprema_filter": [
+            "Roštilj",
+            "Terasa",
+            "Parking",
+            "Wi-Fi"
+        ],
+        "min_noci": 2
+    }
+}

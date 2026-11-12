@@ -75,7 +75,7 @@ add_shortcode('abu_usporedba', function ($a) {
     $h .= '</tr></thead><tbody>';
     foreach ($red as $r) {
         $url = get_permalink($r['o']);
-        if ($l !== 'bs') { $url = add_query_arg('lang', $l, $url); }
+        if ($l !== 'bs') { $x = function_exists('abu_objekt_url') ? abu_objekt_url($r['o']->ID, $l) : ''; $url = $x ? $x : add_query_arg('lang', $l, $url); }
         $h .= '<tr><td><a href="' . esc_url($url) . '">' . esc_html($r['o']->post_title) . '</a></td><td>' . esc_html($r['mj']) . '</td><td>' . (int) $r['kap'] . '</td>';
         foreach ($stupci as $s) { $h .= '<td>' . esc_html(in_array($s, $r['op'], true) ? $t[9] : $t[10]) . '</td>'; }
         $h .= '<td>' . (int) $r['min'] . '</td></tr>';

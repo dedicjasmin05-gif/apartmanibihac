@@ -2,14 +2,14 @@
 /**
  * Plugin Name: Apartmani Upiti
  * Description: Upiti za smještaj s potvrdom vlasnika jednim klikom, kalendarom, iCal sinkronizacijom (Booking/Airbnb), plaćanjem gotovinom (kapara opcionalno) i automatskim porukama.
- * Version: 1.1.7
+ * Version: 1.1.8
  * Author: Digital Puls
  * Text Domain: apartmani-upiti
  */
 
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_VER', '1.1.7');
+define('ABU_VER', '1.1.8');
 define('ABU_TABLE', 'abu_upiti');
 define('ABU_ICAL_TABLE', 'abu_ical_blocks');
 
@@ -807,7 +807,7 @@ add_shortcode('abu_upit', function ($a) {
     $o = $poruka . '<form class="abu-form" method="post" action="' . esc_url(admin_url('admin-post.php')) . '">'
         . wp_nonce_field('abu_upit_' . $id, 'abu_n', true, false)
         . '<input type="hidden" name="action" value="abu_upit"><input type="hidden" name="objekt" value="' . $id . '"><input type="hidden" name="lang" value="' . esc_attr($L) . '">'
-        . '<input type="hidden" name="nazad" value="' . esc_url(get_permalink($id)) . '">'
+        . '<input type="hidden" name="nazad" value="' . esc_url(is_singular() && (int) get_queried_object_id() !== $id ? get_permalink(get_queried_object_id()) : get_permalink($id)) . '">'
         . '<div class="abu-r"><label>' . esc_html(abu_t('f_dol', $L)) . '<input type="date" name="dolazak" required min="' . esc_attr(current_time('Y-m-d')) . '"></label>'
         . '<label>' . esc_html(abu_t('f_odl', $L)) . '<input type="date" name="odlazak" required min="' . esc_attr(current_time('Y-m-d')) . '"></label>'
         . '<label>' . esc_html(abu_t('f_osobe', $L)) . '<input type="number" name="osobe" min="1" max="' . ($kap ? $kap : 50) . '" value="2" required></label></div>'
@@ -978,3 +978,4 @@ require_once __DIR__ . '/webp.php';
 require_once __DIR__ . '/clanci.php';
 require_once __DIR__ . '/uzivo.php';
 require_once __DIR__ . '/drustvene-objave.php';
+require_once __DIR__ . '/objekti-jezici.php';

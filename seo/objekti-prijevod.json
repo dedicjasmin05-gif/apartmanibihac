@@ -1,0 +1,820 @@
+{
+ "lokacije": {
+  "Bihać": {
+   "en": "Bihać is a town on the River Una, and most of its sights are within walking distance of the centre: Kapetanova kula (the Captain's Tower), the Fethija mosque, the City Park (Gradski park) and the riverside promenade along the Una. The centre has restaurants, cafés, shops and pharmacies, so you will hardly need a car during your stay. The entrance to Plitvice Lakes National Park is about 35 km away, and Štrbački buk in Una National Park makes a good half-day trip.",
+   "de": "Bihać liegt an der Una, und die meisten Sehenswürdigkeiten erreichen Sie vom Zentrum aus zu Fuß: Kapetanova kula (den Kapitänsturm), die Fethija-Moschee, den Stadtpark (Gradski park) und die Uferpromenade an der Una. Im Zentrum gibt es Restaurants, Cafés, Geschäfte und Apotheken, ein Auto brauchen Sie während Ihres Aufenthalts also kaum. Bis zum Eingang des Nationalparks Plitvicer Seen sind es etwa 35 km, und der Štrbački buk im Nationalpark Una ist ein lohnender Halbtagesausflug."
+  },
+  "Lohovo": {
+   "en": "Lohovo is a quiet village on the Una south of Bihać, about ten kilometres from the town centre. Here the Una is slower and clearer than in town, so swimming and time by the water are the main reasons to come. The drive to central Bihać takes about fifteen minutes.",
+   "de": "Lohovo ist ein ruhiger Ort an der Una südlich von Bihać, rund zehn Kilometer vom Stadtzentrum entfernt. Hier fließt die Una langsamer und klarer als in der Stadt, Baden und Zeit am Wasser sind deshalb der Hauptgrund für einen Aufenthalt. Ins Zentrum von Bihać fahren Sie etwa fünfzehn Minuten."
+  },
+  "Grmuša": {
+   "en": "Grmuša is a village on the Una north-east of Bihać and one of the main rafting spots on the river. Grmuša and Salihovac are home to the Una Olympic Rafting base, with a restaurant by the river. Central Bihać is about 20 km away.",
+   "de": "Grmuša ist ein Ort an der Una nordöstlich von Bihać und einer der wichtigsten Rafting-Orte am Fluss. In Grmuša und Salihovac befindet sich die Basis von Una Olympic Rafting mit einem Restaurant am Fluss. Bis ins Zentrum von Bihać sind es etwa 20 km."
+  },
+  "Pritoka": {
+   "en": "Pritoka is a neighbourhood on the Una right on the edge of Bihać, a few minutes' drive from the centre. You get the quiet of a house on the river, with shops, restaurants and the town's sights close by.",
+   "de": "Pritoka liegt an der Una direkt am Stadtrand von Bihać, wenige Autominuten vom Zentrum entfernt. Sie wohnen ruhig in einem Haus am Fluss, und Geschäfte, Restaurants und die Sehenswürdigkeiten der Stadt sind trotzdem nah."
+  },
+  "Bihać i okolica": {
+   "en": "The property is on the River Una near Bihać, away from the bustle of town yet only a few minutes' drive from the centre. From here Štrbački buk, rafting in Grmuša and the Plitvice Lakes, about 35 km from town, are all within easy reach.",
+   "de": "Die Unterkunft liegt an der Una in der Umgebung von Bihać, abseits vom Trubel der Stadt und doch nur wenige Autominuten vom Zentrum entfernt. Von hier erreichen Sie bequem den Štrbački buk, das Rafting in Grmuša und die Plitvicer Seen, etwa 35 km von der Stadt."
+  }
+ },
+ "objekti": {
+  "apartman-centar": {
+   "en": {
+    "title": "Apartman Centar, Bihać: apartment in the town centre",
+    "meta": "Renovated 45 m² apartment in central Bihać, 50 m from the town square, for 2 + 1 guests, with kitchen and parking. Book directly, pay in cash on arrival.",
+    "h1": "Apartman Centar – apartment in the centre of Bihać",
+    "uvod": [
+     "Apartman Centar is right in the centre of Bihać, on 5. korpusa street, 50 metres from the town square. The 45 m² ground-floor apartment has been fully renovated and furnished in a modern style.",
+     "There is a 200 x 200 cm bed for two, and the apartment can take a third guest. It suits couples and short city stays."
+    ],
+    "oprema": [
+     "Sleeps 2 + 1",
+     "Bed 200 x 200 cm",
+     "Living room",
+     "Kitchen with fridge",
+     "Shower cabin and hairdryer",
+     "TV and Wi-Fi",
+     "Heating",
+     "Parking"
+    ]
+   },
+   "de": {
+    "title": "Apartman Centar, Bihać: Apartment im Stadtzentrum",
+    "meta": "Renoviertes 45-m²-Apartment im Zentrum von Bihać, 50 m vom Stadtplatz, für 2 + 1 Personen, mit Parkplatz. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Apartman Centar – Apartment im Zentrum von Bihać",
+    "uvod": [
+     "Das Apartman Centar liegt mitten im Zentrum von Bihać, in der Straße 5. korpusa, 50 Meter vom Stadtplatz entfernt. Das 45 m² große Apartment im Erdgeschoss ist komplett renoviert und modern eingerichtet.",
+     "Für zwei Personen gibt es ein Bett mit 200 x 200 cm, eine dritte Person kann ebenfalls übernachten. Gut geeignet für Paare und kurze Städteaufenthalte."
+    ],
+    "oprema": [
+     "Für 2 + 1 Personen",
+     "Bett 200 x 200 cm",
+     "Wohnzimmer",
+     "Küche mit Kühlschrank",
+     "Duschkabine und Haartrockner",
+     "TV und WLAN",
+     "Heizung",
+     "Parkplatz"
+    ]
+   }
+  },
+  "apartman-city-centar": {
+   "en": {
+    "title": "Apartman City Centar, Bihać: apartment for up to 7",
+    "meta": "Spacious apartment in Bihać for up to 7 guests, with a living room, a fully equipped kitchen and Wi-Fi. Book directly, pay in cash on arrival.",
+    "h1": "Apartman City Centar – spacious apartment for up to 7 in Bihać",
+    "uvod": [
+     "Apartman City Centar is a spacious town apartment on HVO-a street in Bihać, sleeping up to 7. It is one of the few apartments in town with room for a whole family or a larger group.",
+     "With a living room and a fully equipped kitchen with oven, it also works well for longer stays, visits to relatives and group trips."
+    ],
+    "oprema": [
+     "Sleeps up to 7",
+     "Living room",
+     "Kitchen with oven and fridge",
+     "Flat-screen TV",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Apartman City Centar, Bihać: Apartment für bis zu 7",
+    "meta": "Geräumiges Apartment in Bihać für bis zu 7 Personen, mit Wohnzimmer und voll ausgestatteter Küche. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Apartman City Centar – geräumiges Apartment für bis zu 7 Personen in Bihać",
+    "uvod": [
+     "Das Apartman City Centar ist ein geräumiges Stadtapartment in der Straße HVO-a in Bihać für bis zu 7 Personen. Es gehört zu den wenigen Apartments in der Stadt, in denen eine ganze Familie oder eine größere Gruppe Platz findet.",
+     "Mit Wohnzimmer und voll ausgestatteter Küche mit Backofen eignet es sich auch für längere Aufenthalte, Verwandtenbesuche und Gruppenreisen."
+    ],
+    "oprema": [
+     "Für bis zu 7 Personen",
+     "Wohnzimmer",
+     "Küche mit Backofen und Kühlschrank",
+     "Flachbild-TV",
+     "WLAN"
+    ]
+   }
+  },
+  "apartman-hari": {
+   "en": {
+    "title": "Apartman Hari, Bihać: apartment with terrace for 4",
+    "meta": "Apartment in Bihać for up to 4 guests, with private terrace, kitchen, washing machine and free parking. Book directly, pay in cash on arrival.",
+    "h1": "Apartman Hari – apartment with terrace in Bihać",
+    "uvod": [
+     "Apartman Hari is on Alije Đerzeleza street in Bihać and sleeps up to 4. It has its own terrace, a living room and an equipped kitchen.",
+     "A washing machine and free parking make it a practical choice for families and guests staying several days."
+    ],
+    "oprema": [
+     "Sleeps up to 4",
+     "Living room",
+     "Outdoor terrace",
+     "Kitchen with oven",
+     "Washing machine",
+     "Flat-screen TV",
+     "Bathroom with shower cabin",
+     "Free parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Apartman Hari, Bihać: Apartment mit Terrasse für 4",
+    "meta": "Apartment in Bihać für bis zu 4 Personen, mit Terrasse, Küche, Waschmaschine und kostenlosem Parkplatz. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Apartman Hari – Apartment mit Terrasse in Bihać",
+    "uvod": [
+     "Das Apartman Hari liegt in der Straße Alije Đerzeleza in Bihać und bietet Platz für bis zu 4 Personen. Es hat eine eigene Terrasse, ein Wohnzimmer und eine ausgestattete Küche.",
+     "Waschmaschine und kostenloser Parkplatz machen es zu einer praktischen Wahl für Familien und Gäste, die mehrere Tage bleiben."
+    ],
+    "oprema": [
+     "Für bis zu 4 Personen",
+     "Wohnzimmer",
+     "Terrasse",
+     "Küche mit Backofen",
+     "Waschmaschine",
+     "Flachbild-TV",
+     "Bad mit Duschkabine",
+     "Kostenloser Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "apartman-m-mahala": {
+   "en": {
+    "title": "Apartman M. Mahala, Bihać: two terraces and barbecue",
+    "meta": "Air-conditioned apartment in Bihać for 4 + 2 guests, with two terraces, barbecue and free parking. Book directly, pay in cash on arrival.",
+    "h1": "Apartman M. Mahala – apartment with two terraces in Bihać",
+    "uvod": [
+     "Apartman M. Mahala is in the Midžića mahala neighbourhood of Bihać and sleeps 4 + 2. It has two outdoor terraces and a barbecue, which is rare for accommodation in town.",
+     "It is air-conditioned, with a living room, a dishwasher and a washing machine, so it suits families with children and longer stays."
+    ],
+    "oprema": [
+     "Sleeps 4 + 2",
+     "Air conditioning",
+     "Living room",
+     "Two outdoor terraces",
+     "Barbecue",
+     "Kitchen with oven",
+     "Dishwasher and washing machine",
+     "TV",
+     "Bathroom with bathtub",
+     "Free parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Apartman M. Mahala, Bihać: zwei Terrassen und Grill",
+    "meta": "Klimatisiertes Apartment in Bihać für 4 + 2 Personen, mit zwei Terrassen, Grill und kostenlosem Parkplatz. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Apartman M. Mahala – Apartment mit zwei Terrassen in Bihać",
+    "uvod": [
+     "Das Apartman M. Mahala liegt im Viertel Midžića mahala in Bihać und bietet Platz für 4 + 2 Personen. Es hat zwei Terrassen und einen Grill, was für eine Unterkunft in der Stadt selten ist.",
+     "Es ist klimatisiert und hat ein Wohnzimmer, einen Geschirrspüler und eine Waschmaschine, daher passt es gut für Familien mit Kindern und längere Aufenthalte."
+    ],
+    "oprema": [
+     "Für 4 + 2 Personen",
+     "Klimaanlage",
+     "Wohnzimmer",
+     "Zwei Terrassen",
+     "Grill",
+     "Küche mit Backofen",
+     "Geschirrspüler und Waschmaschine",
+     "TV",
+     "Bad mit Badewanne",
+     "Kostenloser Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "farah-superior-apartments": {
+   "en": {
+    "title": "Farah Superior Apartments, Bihać: on the Una with beach",
+    "meta": "Two apartments in Bihać for 8 and 5 guests, with direct access to the Una, own beach, boat and barbecue. Book directly, pay in cash on arrival.",
+    "h1": "Farah Superior Apartments – apartments on the Una in Bihać",
+    "uvod": [
+     "Farah Superior Apartments are in Privilica, Bihać, with direct access to the Una and their own beach. The two apartments sleep 8 and 5.",
+     "Guests can use a boat and fishing gear, and the apartments have three outdoor terraces and a barbecue. Town and river in one place."
+    ],
+    "oprema": [
+     "2 apartments: for 8 and 5",
+     "Access to the Una and beach",
+     "Boat and fishing gear",
+     "Three outdoor terraces",
+     "Barbecue",
+     "Air conditioning",
+     "Kitchen with dishwasher and microwave",
+     "Washing machine and tumble dryer",
+     "Bathroom with bathtub and shower cabin",
+     "Free parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Farah Superior Apartments, Bihać: an der Una mit Strand",
+    "meta": "Zwei Apartments in Bihać für 8 und 5 Personen, direkt an der Una mit eigenem Strand, Boot und Grill. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Farah Superior Apartments – Apartments an der Una in Bihać",
+    "uvod": [
+     "Die Farah Superior Apartments liegen in Privilica in Bihać, mit direktem Zugang zur Una und eigenem Strand. Die zwei Apartments bieten Platz für 8 und 5 Personen.",
+     "Gäste können ein Boot und Angelausrüstung nutzen, dazu gibt es drei Terrassen und einen Grill. Stadt und Fluss an einem Ort."
+    ],
+    "oprema": [
+     "2 Apartments: für 8 und 5 Personen",
+     "Zugang zur Una und Strand",
+     "Boot und Angelausrüstung",
+     "Drei Terrassen",
+     "Grill",
+     "Klimaanlage",
+     "Küche mit Geschirrspüler und Mikrowelle",
+     "Waschmaschine und Wäschetrockner",
+     "Bad mit Badewanne und Duschkabine",
+     "Kostenloser Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "feel-luxury-apartments": {
+   "en": {
+    "title": "Feel Luxury Apartments, Bihać: for groups of up to 12",
+    "meta": "Apartments in Bihać for up to 12 guests, with air conditioning, dishwasher, washing machine and free parking. Book directly, pay in cash on arrival.",
+    "h1": "Feel Luxury Apartments – apartments for up to 12 in Bihać",
+    "uvod": [
+     "Feel Luxury Apartments on Irfana Ljubijankića street in Bihać sleep up to 12, making them one of the largest apartment options in town.",
+     "They are equipped for groups and large families: air conditioning, a dishwasher, a washing machine and tumble dryer, a coffee machine and free parking."
+    ],
+    "oprema": [
+     "Sleeps up to 12",
+     "Air conditioning",
+     "Kitchen with dishwasher",
+     "Coffee machine",
+     "Washing machine and tumble dryer",
+     "Bathroom with bathtub and shower cabin",
+     "Free parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Feel Luxury Apartments, Bihać: für bis zu 12 Personen",
+    "meta": "Apartments in Bihać für bis zu 12 Personen, mit Klimaanlage, Geschirrspüler, Waschmaschine und Parkplatz. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Feel Luxury Apartments – Apartments für bis zu 12 Personen in Bihać",
+    "uvod": [
+     "Die Feel Luxury Apartments in der Straße Irfana Ljubijankića in Bihać bieten Platz für bis zu 12 Personen und gehören damit zu den größten Apartmentunterkünften der Stadt.",
+     "Sie sind für Gruppen und große Familien ausgestattet: Klimaanlage, Geschirrspüler, Waschmaschine und Wäschetrockner, Kaffeemaschine und kostenloser Parkplatz."
+    ],
+    "oprema": [
+     "Für bis zu 12 Personen",
+     "Klimaanlage",
+     "Küche mit Geschirrspüler",
+     "Kaffeemaschine",
+     "Waschmaschine und Wäschetrockner",
+     "Bad mit Badewanne und Duschkabine",
+     "Kostenloser Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "lux-apartments-bihac": {
+   "en": {
+    "title": "LUX Apartments Bihać: air-conditioned, for up to 10",
+    "meta": "Air-conditioned apartments in Bihać for up to 10 guests, with dishwasher, washing machine and free parking. Book directly, pay in cash on arrival.",
+    "h1": "LUX Apartments Bihać – apartments for up to 10 guests",
+    "uvod": [
+     "LUX Apartments Bihać on Irfana Ljubijankića street sleep up to 10. They are air-conditioned and equipped for groups, families and business stays.",
+     "The kitchen has a dishwasher, oven, microwave and coffee machine, and there is also a washing machine, a tumble dryer and free parking."
+    ],
+    "oprema": [
+     "Sleeps up to 10",
+     "Air conditioning",
+     "Kitchen with dishwasher",
+     "Coffee machine",
+     "Washing machine and tumble dryer",
+     "Bathroom with bathtub and shower cabin",
+     "Free parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "LUX Apartments Bihać: klimatisiert, für bis zu 10",
+    "meta": "Klimatisierte Apartments in Bihać für bis zu 10 Personen, mit Geschirrspüler, Waschmaschine und Parkplatz. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "LUX Apartments Bihać – Apartments für bis zu 10 Personen",
+    "uvod": [
+     "Die LUX Apartments Bihać in der Straße Irfana Ljubijankića bieten Platz für bis zu 10 Personen. Sie sind klimatisiert und für Gruppen, Familien und Geschäftsreisende ausgestattet.",
+     "Die Küche hat Geschirrspüler, Backofen, Mikrowelle und Kaffeemaschine, außerdem gibt es Waschmaschine, Wäschetrockner und einen kostenlosen Parkplatz."
+    ],
+    "oprema": [
+     "Für bis zu 10 Personen",
+     "Klimaanlage",
+     "Küche mit Geschirrspüler",
+     "Kaffeemaschine",
+     "Waschmaschine und Wäschetrockner",
+     "Bad mit Badewanne und Duschkabine",
+     "Kostenloser Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "green-river": {
+   "en": {
+    "title": "Green River, Grmuša: holiday house on the Una",
+    "meta": "Holiday house in Grmuša for 6 + 2 guests, with access to the Una, a terrace above the river and a washing machine. Book directly, pay in cash on arrival.",
+    "h1": "Green River – holiday house with river terrace in Grmuša",
+    "uvod": [
+     "Green River is a holiday house in Grmuša with access to the Una and an outdoor terrace right above the river. It sleeps 6 + 2.",
+     "Morning coffee on the terrace over the Una, swimming and rafting right by the house are why guests keep coming back. The house has a living room, a kitchen and a washing machine."
+    ],
+    "oprema": [
+     "Sleeps 6 + 2",
+     "Access to the Una",
+     "Terrace above the Una",
+     "Living room",
+     "Kitchen",
+     "Washing machine",
+     "Flat-screen TV",
+     "Bathroom with shower cabin",
+     "Parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Green River, Grmuša: Ferienhaus an der Una",
+    "meta": "Ferienhaus in Grmuša für 6 + 2 Personen, mit Zugang zur Una und Terrasse über dem Fluss. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Green River – Ferienhaus mit Terrasse über der Una in Grmuša",
+    "uvod": [
+     "Green River ist ein Ferienhaus in Grmuša mit Zugang zur Una und einer Terrasse direkt über dem Fluss. Es bietet Platz für 6 + 2 Personen.",
+     "Der Morgenkaffee auf der Terrasse über der Una, Baden und Rafting direkt am Haus sind der Grund, warum Gäste wiederkommen. Das Haus hat ein Wohnzimmer, eine Küche und eine Waschmaschine."
+    ],
+    "oprema": [
+     "Für 6 + 2 Personen",
+     "Zugang zur Una",
+     "Terrasse über der Una",
+     "Wohnzimmer",
+     "Küche",
+     "Waschmaschine",
+     "Flachbild-TV",
+     "Bad mit Duschkabine",
+     "Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "vikendica-unadom": {
+   "en": {
+    "title": "Vikendica Unadom, Grmuša: holiday house on the Una",
+    "meta": "Holiday house in Grmuša for 6 + 2 guests, with access to the Una and a river terrace, in the rafting area. Book directly, pay in cash on arrival.",
+    "h1": "Vikendica Unadom – holiday house in the Grmuša rafting area",
+    "uvod": [
+     "Vikendica Unadom in Grmuša sleeps 6 + 2 and has access to the Una, with a terrace above the river.",
+     "It is in the heart of the rafting area, so it suits rafting groups as well as families looking for a quiet break by the water."
+    ],
+    "oprema": [
+     "Sleeps 6 + 2",
+     "Access to the Una",
+     "Terrace above the Una",
+     "Living room",
+     "Kitchen",
+     "Flat-screen TV",
+     "Bathroom with shower cabin",
+     "Parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Vikendica Unadom, Grmuša: Ferienhaus an der Una",
+    "meta": "Ferienhaus in Grmuša für 6 + 2 Personen, mit Zugang zur Una und Terrasse über dem Fluss, im Rafting-Gebiet. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Vikendica Unadom – Ferienhaus im Rafting-Gebiet Grmuša",
+    "uvod": [
+     "Die Vikendica Unadom in Grmuša bietet Platz für 6 + 2 Personen und hat Zugang zur Una mit einer Terrasse über dem Fluss.",
+     "Sie liegt mitten im Rafting-Gebiet und eignet sich für Rafting-Gruppen ebenso wie für Familien, die einen ruhigen Urlaub am Wasser suchen."
+    ],
+    "oprema": [
+     "Für 6 + 2 Personen",
+     "Zugang zur Una",
+     "Terrasse über der Una",
+     "Wohnzimmer",
+     "Küche",
+     "Flachbild-TV",
+     "Bad mit Duschkabine",
+     "Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "vila-enio": {
+   "en": {
+    "title": "Vila Enio, Lohovo: holiday house with pool on the Una",
+    "meta": "Holiday house in Lohovo for 6 guests, with a pool, access to the Una and terraces above the river and by the pool. Book directly, pay in cash on arrival.",
+    "h1": "Vila Enio – holiday house with pool in Lohovo",
+    "uvod": [
+     "Vila Enio in Lohovo is a holiday house for 6 with a pool and access to the Una. It has two terraces: one above the river and one by the pool.",
+     "It is one of the few holiday houses around Bihać with both a pool and the river in one place. The house has a living room, a kitchen, a bathroom and an extra outdoor WC."
+    ],
+    "oprema": [
+     "Sleeps up to 6",
+     "Swimming pool",
+     "Access to the Una",
+     "Terrace above the Una",
+     "Poolside terrace",
+     "Living room",
+     "Kitchen",
+     "TV",
+     "Bathroom and outdoor WC",
+     "Parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Vila Enio, Lohovo: Ferienhaus mit Pool an der Una",
+    "meta": "Ferienhaus in Lohovo für 6 Personen, mit Pool, Zugang zur Una und zwei Terrassen über dem Fluss und am Pool. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Vila Enio – Ferienhaus mit Pool in Lohovo",
+    "uvod": [
+     "Die Vila Enio in Lohovo ist ein Ferienhaus für 6 Personen mit Pool und Zugang zur Una. Es hat zwei Terrassen: eine über dem Fluss und eine am Pool.",
+     "Das Haus gehört zu den wenigen Ferienhäusern rund um Bihać, die Pool und Fluss an einem Ort bieten. Es hat ein Wohnzimmer, eine Küche, ein Bad und ein zusätzliches WC im Außenbereich."
+    ],
+    "oprema": [
+     "Für bis zu 6 Personen",
+     "Pool",
+     "Zugang zur Una",
+     "Terrasse über der Una",
+     "Terrasse am Pool",
+     "Wohnzimmer",
+     "Küche",
+     "TV",
+     "Bad und Außen-WC",
+     "Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "vikendica-rekic": {
+   "en": {
+    "title": "Vikendica Rekić, Pritoka: holiday house on the Una",
+    "meta": "Holiday house in Pritoka, on the edge of Bihać, for up to 8 guests, with access to the Una and a river terrace. Book directly, pay in cash on arrival.",
+    "h1": "Vikendica Rekić – holiday house on the Una in Pritoka",
+    "uvod": [
+     "Vikendica Rekić in Pritoka sleeps up to 8 and has access to the Una, with a terrace above the river.",
+     "The house has a living room, an equipped kitchen and a bathroom with a shower cabin. Town is close by, and you fall asleep to the sound of the river."
+    ],
+    "oprema": [
+     "Sleeps up to 8",
+     "Access to the Una",
+     "Terrace above the Una",
+     "Living room",
+     "Kitchen",
+     "Flat-screen TV",
+     "Bathroom with shower cabin",
+     "Parking",
+     "Wi-Fi"
+    ]
+   },
+   "de": {
+    "title": "Vikendica Rekić, Pritoka: Ferienhaus an der Una",
+    "meta": "Ferienhaus in Pritoka am Stadtrand von Bihać, für bis zu 8 Personen, mit Zugang zur Una und Terrasse. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Vikendica Rekić – Ferienhaus an der Una in Pritoka",
+    "uvod": [
+     "Die Vikendica Rekić in Pritoka bietet Platz für bis zu 8 Personen und hat Zugang zur Una mit einer Terrasse über dem Fluss.",
+     "Das Haus hat ein Wohnzimmer, eine ausgestattete Küche und ein Bad mit Duschkabine. Die Stadt ist nah, und Sie schlafen beim Rauschen des Flusses ein."
+    ],
+    "oprema": [
+     "Für bis zu 8 Personen",
+     "Zugang zur Una",
+     "Terrasse über der Una",
+     "Wohnzimmer",
+     "Küche",
+     "Flachbild-TV",
+     "Bad mit Duschkabine",
+     "Parkplatz",
+     "WLAN"
+    ]
+   }
+  },
+  "japodska-kucica-na-drvetu": {
+   "en": {
+    "title": "Japodska kućica na drvetu: treehouse on the Una",
+    "meta": "Treehouse for 4 guests near Bihać, with access to the Una, a terrace and a covered seating area. Book directly, pay in cash on arrival.",
+    "h1": "Japodska kućica na drvetu – treehouse for 4 near Bihać",
+    "uvod": [
+     "Japodska kućica na drvetu is a treehouse for 4 set in the treetops, with access to the Una. It is one of the most unusual places to stay in and around Bihać.",
+     "Below the treehouse there is a covered seating area, with a terrace alongside. For couples and families who want a break in nature with a story to it."
+    ],
+    "oprema": [
+     "Sleeps up to 4",
+     "Access to the Una",
+     "Terrace",
+     "Seating area below the treehouse",
+     "TV",
+     "Wi-Fi",
+     "Free parking"
+    ]
+   },
+   "de": {
+    "title": "Japodska kućica na drvetu: Baumhaus an der Una",
+    "meta": "Baumhaus für 4 Personen bei Bihać, mit Zugang zur Una, Terrasse und überdachtem Sitzplatz. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Japodska kućica na drvetu – Baumhaus für 4 Personen bei Bihać",
+    "uvod": [
+     "Die Japodska kućica na drvetu ist ein Baumhaus für 4 Personen in der Baumkrone, mit Zugang zur Una. Sie gehört zu den ungewöhnlichsten Unterkünften in Bihać und Umgebung.",
+     "Unter dem Baumhaus gibt es einen überdachten Sitzplatz, daneben eine Terrasse. Für Paare und Familien, die Urlaub in der Natur mit Geschichte suchen."
+    ],
+    "oprema": [
+     "Für bis zu 4 Personen",
+     "Zugang zur Una",
+     "Terrasse",
+     "Sitzplatz unter dem Baumhaus",
+     "TV",
+     "WLAN",
+     "Kostenloser Parkplatz"
+    ]
+   }
+  },
+  "vikend-kuca-basic": {
+   "en": {
+    "title": "Vikend kuća Bašić: holiday house on the Una for 6",
+    "meta": "Holiday house near Bihać for 6 guests, with access to the Una, terrace, barbecue, double and single beds. Book directly, pay in cash on arrival.",
+    "h1": "Vikend kuća Bašić – holiday house on the Una near Bihać",
+    "uvod": [
+     "Vikend kuća Bašić is a holiday house for 6 with access to the Una. There are double and single beds, so the house suits both families and groups of friends.",
+     "Outside there is a terrace and a barbecue; inside, a living room and an equipped kitchen."
+    ],
+    "oprema": [
+     "Sleeps up to 6",
+     "Double and single beds",
+     "Access to the Una",
+     "Terrace",
+     "Barbecue",
+     "Living room",
+     "Kitchen",
+     "TV",
+     "Wi-Fi",
+     "Parking"
+    ]
+   },
+   "de": {
+    "title": "Vikend kuća Bašić: Ferienhaus an der Una für 6",
+    "meta": "Ferienhaus bei Bihać für 6 Personen, mit Zugang zur Una, Terrasse, Grill sowie Doppel- und Einzelbetten. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Vikend kuća Bašić – Ferienhaus an der Una bei Bihać",
+    "uvod": [
+     "Die Vikend kuća Bašić ist ein Ferienhaus für 6 Personen mit Zugang zur Una. Es gibt Doppel- und Einzelbetten, daher passt das Haus für Familien ebenso wie für Freundesgruppen.",
+     "Draußen gibt es eine Terrasse und einen Grill, drinnen ein Wohnzimmer und eine ausgestattete Küche."
+    ],
+    "oprema": [
+     "Für bis zu 6 Personen",
+     "Doppel- und Einzelbetten",
+     "Zugang zur Una",
+     "Terrasse",
+     "Grill",
+     "Wohnzimmer",
+     "Küche",
+     "TV",
+     "WLAN",
+     "Parkplatz"
+    ]
+   }
+  },
+  "vikend-kuca-emira": {
+   "en": {
+    "title": "Vikend kuća Emira: holiday house on the Una for 7",
+    "meta": "Holiday house near Bihać for up to 7 guests in single beds, with access to the Una, terrace and parking. Book directly, pay in cash on arrival.",
+    "h1": "Vikend kuća Emira – holiday house for groups near Bihać",
+    "uvod": [
+     "Vikend kuća Emira sleeps up to 7 in single beds and has access to the Una. A good choice for groups of friends, rafting crews and other groups.",
+     "The house has a living room, a kitchen and a terrace, with parking right next to it."
+    ],
+    "oprema": [
+     "Sleeps up to 7",
+     "Single beds",
+     "Access to the Una",
+     "Terrace",
+     "Living room",
+     "Kitchen",
+     "Parking"
+    ]
+   },
+   "de": {
+    "title": "Vikend kuća Emira: Ferienhaus an der Una für 7",
+    "meta": "Ferienhaus bei Bihać für bis zu 7 Personen in Einzelbetten, mit Zugang zur Una und Terrasse. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Vikend kuća Emira – Ferienhaus für Gruppen bei Bihać",
+    "uvod": [
+     "Die Vikend kuća Emira bietet Platz für bis zu 7 Personen in Einzelbetten und hat Zugang zur Una. Eine gute Wahl für Freundesgruppen, Rafting-Teams und andere Gruppen.",
+     "Das Haus hat ein Wohnzimmer, eine Küche und eine Terrasse, der Parkplatz liegt direkt am Haus."
+    ],
+    "oprema": [
+     "Für bis zu 7 Personen",
+     "Einzelbetten",
+     "Zugang zur Una",
+     "Terrasse",
+     "Wohnzimmer",
+     "Küche",
+     "Parkplatz"
+    ]
+   }
+  },
+  "villa-dzane": {
+   "en": {
+    "title": "Villa Džane: holiday house on the Una for up to 9",
+    "meta": "Holiday house near Bihać for up to 9 guests, with access to the Una, a terrace and a barbecue. Book directly, pay in cash on arrival.",
+    "h1": "Villa Džane – holiday house on the Una near Bihać",
+    "uvod": [
+     "Villa Džane sleeps up to 9 and has access to the Una. There are double and single beds.",
+     "Outside there is a terrace and a barbecue; inside, a living room and a kitchen. Larger groups can combine it with Vikendica Džane 2."
+    ],
+    "oprema": [
+     "Sleeps up to 9",
+     "Double and single beds",
+     "Access to the Una",
+     "Terrace",
+     "Barbecue",
+     "Living room",
+     "Kitchen",
+     "TV",
+     "Wi-Fi",
+     "Parking"
+    ]
+   },
+   "de": {
+    "title": "Villa Džane: Ferienhaus an der Una für bis zu 9",
+    "meta": "Ferienhaus bei Bihać für bis zu 9 Personen, mit Zugang zur Una, Terrasse und Grill. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Villa Džane – Ferienhaus an der Una bei Bihać",
+    "uvod": [
+     "Die Villa Džane bietet Platz für bis zu 9 Personen und hat Zugang zur Una. Es gibt Doppel- und Einzelbetten.",
+     "Draußen gibt es eine Terrasse und einen Grill, drinnen ein Wohnzimmer und eine Küche. Größere Gruppen können sie mit der Vikendica Džane 2 kombinieren."
+    ],
+    "oprema": [
+     "Für bis zu 9 Personen",
+     "Doppel- und Einzelbetten",
+     "Zugang zur Una",
+     "Terrasse",
+     "Grill",
+     "Wohnzimmer",
+     "Küche",
+     "TV",
+     "WLAN",
+     "Parkplatz"
+    ]
+   }
+  },
+  "vikendica-dzane-2": {
+   "en": {
+    "title": "Vikendica Džane 2: holiday house on the Una for 5 + 2",
+    "meta": "Holiday house near Bihać for 5 + 2 guests, with access to the Una, a terrace and a barbecue. Book directly, pay in cash on arrival.",
+    "h1": "Vikendica Džane 2 – holiday house on the Una near Bihać",
+    "uvod": [
+     "Vikendica Džane 2 sleeps 5 + 2 and has access to the Una. Outside there is a terrace and a barbecue.",
+     "With a living room and an equipped kitchen, it suits families and smaller groups. Larger groups can combine it with Villa Džane."
+    ],
+    "oprema": [
+     "Sleeps 5 + 2",
+     "Access to the Una",
+     "Terrace",
+     "Barbecue",
+     "Living room",
+     "Kitchen",
+     "TV",
+     "Wi-Fi",
+     "Parking"
+    ]
+   },
+   "de": {
+    "title": "Vikendica Džane 2: Ferienhaus an der Una für 5 + 2",
+    "meta": "Ferienhaus bei Bihać für 5 + 2 Personen, mit Zugang zur Una, Terrasse, Grill und WLAN. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Vikendica Džane 2 – Ferienhaus an der Una bei Bihać",
+    "uvod": [
+     "Die Vikendica Džane 2 bietet Platz für 5 + 2 Personen und hat Zugang zur Una. Am Haus gibt es eine Terrasse und einen Grill.",
+     "Mit Wohnzimmer und ausgestatteter Küche eignet sie sich für Familien und kleinere Gruppen. Größere Gruppen können sie mit der Villa Džane kombinieren."
+    ],
+    "oprema": [
+     "Für 5 + 2 Personen",
+     "Zugang zur Una",
+     "Terrasse",
+     "Grill",
+     "Wohnzimmer",
+     "Küche",
+     "TV",
+     "WLAN",
+     "Parkplatz"
+    ]
+   }
+  },
+  "vikendica-karakas": {
+   "en": {
+    "title": "Vikendica Karakaš: holiday house on the Una for 9 + 1",
+    "meta": "Holiday house near Bihać for 9 + 1 guests, with access to the Una, a spacious terrace and a barbecue. Book directly, pay in cash on arrival.",
+    "h1": "Vikendica Karakaš – holiday house for large groups near Bihać",
+    "uvod": [
+     "Vikendica Karakaš sleeps 9 + 1 and has access to the Una. The spacious terrace and barbecue are where everyone gets together.",
+     "There are double and single beds, and the house has a living room and a kitchen. For large families and groups of friends."
+    ],
+    "oprema": [
+     "Sleeps 9 + 1",
+     "Double and single beds",
+     "Access to the Una",
+     "Spacious terrace",
+     "Barbecue",
+     "Living room",
+     "Kitchen",
+     "TV"
+    ]
+   },
+   "de": {
+    "title": "Vikendica Karakaš: Ferienhaus an der Una für 9 + 1",
+    "meta": "Ferienhaus bei Bihać für 9 + 1 Personen, mit Zugang zur Una, großer Terrasse und Grill. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Vikendica Karakaš – Ferienhaus für große Gruppen bei Bihać",
+    "uvod": [
+     "Die Vikendica Karakaš bietet Platz für 9 + 1 Personen und hat Zugang zur Una. Die große Terrasse mit Grill ist der Treffpunkt für alle.",
+     "Es gibt Doppel- und Einzelbetten, dazu ein Wohnzimmer und eine Küche. Für große Familien und Freundesgruppen."
+    ],
+    "oprema": [
+     "Für 9 + 1 Personen",
+     "Doppel- und Einzelbetten",
+     "Zugang zur Una",
+     "Große Terrasse",
+     "Grill",
+     "Wohnzimmer",
+     "Küche",
+     "TV"
+    ]
+   }
+  },
+  "villa-mekic": {
+   "en": {
+    "title": "Villa Mekić: holiday house for up to 9 near Bihać",
+    "meta": "Holiday house near Bihać for up to 9 guests in three bedrooms with single beds, terrace and barbecue. Book directly, pay in cash on arrival.",
+    "h1": "Villa Mekić – holiday house for groups near Bihać",
+    "uvod": [
+     "Villa Mekić sleeps up to 9 in single beds, across three bedrooms: 2 + 4 + 3.",
+     "It has a living room, a kitchen, a terrace and a barbecue. The room layout suits groups of friends, sports teams and families travelling together."
+    ],
+    "oprema": [
+     "Sleeps up to 9",
+     "Bedrooms 2 + 4 + 3",
+     "Single beds",
+     "Terrace",
+     "Barbecue",
+     "Living room",
+     "Kitchen",
+     "TV",
+     "Wi-Fi",
+     "Parking"
+    ]
+   },
+   "de": {
+    "title": "Villa Mekić: Ferienhaus für bis zu 9 bei Bihać",
+    "meta": "Ferienhaus bei Bihać für bis zu 9 Personen in drei Zimmern mit Einzelbetten, Terrasse und Grill. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Villa Mekić – Ferienhaus für Gruppen bei Bihać",
+    "uvod": [
+     "Die Villa Mekić bietet Platz für bis zu 9 Personen in Einzelbetten, verteilt auf drei Zimmer: 2 + 4 + 3.",
+     "Sie hat ein Wohnzimmer, eine Küche, eine Terrasse und einen Grill. Die Zimmeraufteilung passt für Freundesgruppen, Sportteams und Familien, die gemeinsam reisen."
+    ],
+    "oprema": [
+     "Für bis zu 9 Personen",
+     "Zimmer 2 + 4 + 3",
+     "Einzelbetten",
+     "Terrasse",
+     "Grill",
+     "Wohnzimmer",
+     "Küche",
+     "TV",
+     "WLAN",
+     "Parkplatz"
+    ]
+   }
+  },
+  "villa-mekic-2": {
+   "en": {
+    "title": "Villa Mekić 2: group accommodation for up to 20",
+    "meta": "Apartments near Bihać for up to 20 guests, for rafting groups, team building and family gatherings, with barbecue. Book directly, pay in cash on arrival.",
+    "h1": "Villa Mekić 2 – group accommodation for up to 20 near Bihać",
+    "uvod": [
+     "Villa Mekić 2 sleeps up to 20 in apartments, making it one of the largest properties we offer.",
+     "It suits team building, rafting groups, sports teams, wedding guests and large family gatherings. Guests have a terrace, a barbecue, a kitchen and parking."
+    ],
+    "oprema": [
+     "Sleeps up to 20",
+     "Accommodation in apartments",
+     "Terrace",
+     "Barbecue",
+     "Living room",
+     "Kitchen",
+     "TV",
+     "Wi-Fi",
+     "Parking"
+    ]
+   },
+   "de": {
+    "title": "Villa Mekić 2: Gruppenunterkunft für bis zu 20",
+    "meta": "Apartments bei Bihać für bis zu 20 Personen, für Rafting-Gruppen, Teambuilding und Familienfeiern. Direkt buchen, bar bei Ankunft zahlen.",
+    "h1": "Villa Mekić 2 – Gruppenunterkunft für bis zu 20 Personen bei Bihać",
+    "uvod": [
+     "Die Villa Mekić 2 bietet Platz für bis zu 20 Personen in Apartments und gehört damit zu den größten Unterkünften in unserem Angebot.",
+     "Sie eignet sich für Teambuilding, Rafting-Gruppen, Sportteams, Hochzeitsgäste und große Familientreffen. Zur Verfügung stehen Terrasse, Grill, Küche und Parkplatz."
+    ],
+    "oprema": [
+     "Für bis zu 20 Personen",
+     "Unterbringung in Apartments",
+     "Terrasse",
+     "Grill",
+     "Wohnzimmer",
+     "Küche",
+     "TV",
+     "WLAN",
+     "Parkplatz"
+    ]
+   }
+  }
+ }
+}
