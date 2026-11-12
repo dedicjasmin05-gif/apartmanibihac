@@ -116,3 +116,32 @@ Ponovno pokretanje cijele inventure: skripta `seo-audit/crawl.py` zapisuje `craw
 Povrat: LiteSpeed Cache se može deaktivirati u WP adminu (Plugins). WebP: ukloniti `require_once webp.php` (stranice se vraćaju na JPG, a `.webp` datoteke mogu ostati). Cache: ukloniti `require_once cache.php`, ali samo ako se deaktivira i LiteSpeed.
 
 Rezultat provjere u 20 točaka: `seo-audit/provjera-2026-11-12.txt` (20/20). Cijeli sitemap: 183/183 vraća 200.
+
+## 12. 11. 2026. (2): pristupačnost i naslovi (dodatak 1.1.6, tema 1.1.10)
+
+- **Kontrast:**
+  - Facebook `#1466d6`, WhatsApp `#0e7a3c` i Viber `#6352e6` gumbi;
+  - podnaslov loga (prozirnost 0,9);
+  - dani u tjednu `#6b6b6b` i prošli dani `#757575` u kalendaru.
+- **Redoslijed naslova:**
+  - „Podijeli“, „Pratite nas“ i „zajednica“ su `h2`;
+  - stranice pitanja imaju `h2` „Pitanja i odgovori“ (bs, en, de).
+- **Logo:** pristupačni naziv sada je vidljivi tekst (uklonjen `aria-label`).
+- **Kalendar:** legenda više nije „gumb“ i skrivena je od čitača zaslona.
+- **Naslovi:**
+  - ime sajta izostaje kad bi naslov bio dulji od 60 znakova;
+  - skraćeni SEO naslovi vodiča, raftinga i team buildinga (bs, en, de) te O nama;
+  - „ | Bihać“ na pitanjima dodaje se samo kad stane.
+
+**Lighthouse, mobitel (prije, MAG 12. 11. → poslije):**
+
+| Stranica | Performance | Pristupačnost | Ostalo |
+|---|---|---|---|
+| Naslovnica | 61 → 95 | → 100 | TBT 4,4 s → 0,11 s |
+| Vila Enio | 83 → 94 | 92 → 97 | |
+| Rafting pitanja | 89 → 97 | → 100 | |
+| /en/ | 77 → 98 | → 100 | |
+
+SEO je 100 na svim stranicama. Mjereno na drugom računalu nego MAG, pa brojke nisu potpuno usporedive.
+
+**Naslovi:** dulji od 60 znakova bilo ih je 20, sada su 2 (naslovi samih članaka). Nema duplih naslova, duplih opisa ni duplih H1. 183/183 URL-a vraća 200.
