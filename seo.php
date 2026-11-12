@@ -155,6 +155,8 @@ add_filter('the_content', function ($c) {
         array('team-building-bihac', 'Team building na Uni', 'Rafting, smještaj i ručak za firme i grupe na jednom mjestu.'),
         array('vikendice-s-bazenom', 'Vikendice s bazenom', 'Kuće uz Unu s bazenom za obitelji i društva.'),
         array('cesta-pitanja', 'Česta pitanja', '1000 odgovora o Bihaću, NP Una, Plitvicama i smještaju.'),
+        array('promet-granice', 'Promet, granice i kamere', 'Kamere na granicama, vrijeme uživo, čekanja i stanje cesta oko Bihaća.'),
+        array('usporedba-smjestaja', 'Usporedba smještaja', 'Svih 19 apartmana i kuća u jednoj tablici: osobe, izlaz na Unu, bazen.'),
     );
     $h = '<style>.abu-pr-blok{margin:32px 0}.abu-pr-blok h2{margin:0 0 14px}.abu-pr-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.abu-pr-k{display:block;padding:18px;border-radius:14px;background:#f6f8f4;color:inherit!important;text-decoration:none;border:1px solid #e5e9e2}.abu-pr-k:hover{border-color:#14532d}.abu-pr-k strong{display:block;font-size:17px;margin-bottom:6px;color:#14532d}.abu-pr-k span{font-size:14px;color:#444}</style>'
         . '<section class="abu-pr-blok"><h2>Naše preporuke za Bihać</h2><div class="abu-pr-g">';

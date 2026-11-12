@@ -1,0 +1,90 @@
+[
+ {
+  "grupa": "granica",
+  "naziv_bs": "Izačić – Ličko Petrovo Selo (ulaz i izlaz)",
+  "naziv_en": "Izačić – Ličko Petrovo Selo (entry and exit)",
+  "naziv_de": "Izačić – Ličko Petrovo Selo (Ein- und Ausreise)",
+  "izvor": "kamere.bihac.ba (AMS RS, BIHAMK)",
+  "stranica": "https://kamere.bihac.ba/granica/licko-petrovo-selo/"
+ },
+ {
+  "grupa": "granica",
+  "naziv_bs": "Maljevac – Velika Kladuša",
+  "naziv_en": "Maljevac – Velika Kladuša",
+  "naziv_de": "Maljevac – Velika Kladuša",
+  "izvor": "kamere.bihac.ba",
+  "stranica": "https://kamere.bihac.ba/granica/velika-kladusa/"
+ },
+ {
+  "grupa": "granica",
+  "naziv_bs": "Maljevac – kamere i stanje (GPMaljevac)",
+  "naziv_en": "Maljevac – cameras and status (GPMaljevac)",
+  "naziv_de": "Maljevac – Kameras und Lage (GPMaljevac)",
+  "izvor": "gpmaljevac.com",
+  "stranica": "https://gpmaljevac.com/kamere/"
+ },
+ {
+  "grupa": "granica",
+  "naziv_bs": "Tržačka Raštela (Cazin, Bužim)",
+  "naziv_en": "Tržačka Raštela (Cazin, Bužim)",
+  "naziv_de": "Tržačka Raštela (Cazin, Bužim)",
+  "izvor": "kamere.bihac.ba",
+  "stranica": "https://kamere.bihac.ba/granica/trzacka-rastela/"
+ },
+ {
+  "grupa": "granica",
+  "naziv_bs": "Užljebić – Ripač (bez javne kamere, stanje od vozača)",
+  "naziv_en": "Užljebić – Ripač (no public camera, driver reports)",
+  "naziv_de": "Užljebić – Ripač (keine öffentliche Kamera, Fahrermeldungen)",
+  "izvor": "kamere.bihac.ba",
+  "stranica": "https://kamere.bihac.ba/granica/uzljebic/"
+ },
+ {
+  "grupa": "granica",
+  "naziv_bs": "Hadžin Potok – Cazin (bez javne kamere)",
+  "naziv_en": "Hadžin Potok – Cazin (no public camera)",
+  "naziv_de": "Hadžin Potok – Cazin (keine öffentliche Kamera)",
+  "izvor": "kamere.bihac.ba",
+  "stranica": "https://kamere.bihac.ba/granica/hadzin-potok/"
+ },
+ {
+  "grupa": "granica",
+  "naziv_bs": "Novi Grad – Dvor",
+  "naziv_en": "Novi Grad – Dvor",
+  "naziv_de": "Novi Grad – Dvor",
+  "izvor": "kamere.bihac.ba",
+  "stranica": "https://kamere.bihac.ba/granica/novi-grad/"
+ },
+ {
+  "grupa": "granica",
+  "naziv_bs": "Kostajnica – Hrvatska Kostajnica",
+  "naziv_en": "Kostajnica – Hrvatska Kostajnica",
+  "naziv_de": "Kostajnica – Hrvatska Kostajnica",
+  "izvor": "kamere.bihac.ba",
+  "stranica": "https://kamere.bihac.ba/granica/kostajnica/"
+ },
+ {
+  "grupa": "sve",
+  "naziv_bs": "Sve granične kamere BiH na jednom mjestu",
+  "naziv_en": "All Bosnian border cameras in one place",
+  "naziv_de": "Alle Grenzkameras in Bosnien an einem Ort",
+  "izvor": "kamere.bihac.ba",
+  "stranica": "https://kamere.bihac.ba/"
+ },
+ {
+  "grupa": "sve",
+  "naziv_bs": "BIHAMK: kamere na granicama i cestama u BiH",
+  "naziv_en": "BIHAMK: border and road cameras in Bosnia",
+  "naziv_de": "BIHAMK: Grenz- und Straßenkameras in Bosnien",
+  "izvor": "BIHAMK",
+  "stranica": "https://bihamk.ba/spi/kamere"
+ },
+ {
+  "grupa": "sve",
+  "naziv_bs": "HAK: kamere na graničnim prijelazima (Hrvatska)",
+  "naziv_en": "HAK: border crossing cameras (Croatia)",
+  "naziv_de": "HAK: Kameras an Grenzübergängen (Kroatien)",
+  "izvor": "HAK",
+  "stranica": "https://m.hak.hr/kamera.asp?g=2"
+ }
+]
