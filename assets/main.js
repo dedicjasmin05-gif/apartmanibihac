@@ -50,7 +50,7 @@
     });
     // Klik na slobodan dan u kalendaru upisuje dolazak, drugi klik odlazak
     var pick = 0;
-    document.querySelectorAll('.abu-kal .abu-s').forEach(function (day) {
+    document.querySelectorAll('.abu-kal .abu-g .abu-s').forEach(function (day) {
       day.style.cursor = 'pointer';
       day.setAttribute('role', 'button');
       day.setAttribute('tabindex', '0');

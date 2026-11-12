@@ -29,7 +29,7 @@
 </div>
 <header class="site-head<?php echo is_front_page() ? ' site-head--over' : ''; ?>">
   <div class="wrap site-head__in">
-    <a class="brand" href="<?php echo esc_url(home_url('/')); ?>" aria-label="<?php echo esc_attr(get_bloginfo('name')); ?>, početna">
+    <a class="brand" href="<?php echo esc_url(home_url('/')); ?>">
       <?php if (has_custom_logo()) : echo wp_get_attachment_image(get_theme_mod('custom_logo'), 'medium', false, array('class' => 'brand__logo', 'alt' => get_bloginfo('name'))); else : ?>
       <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M3 26c6-6 10 4 17-2s10-4 17 2" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path d="M8 18 20 8l12 10" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span class="brand__name"><span>Apartmani <i>&amp;</i> Vikendice</span><small>Bihać · rijeka Una</small></span>
