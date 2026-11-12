@@ -32,6 +32,10 @@
         <li><a href="<?php echo esc_url(home_url('/team-building-bihac/')); ?>">Team building Bihać</a></li>
         <li><a href="<?php echo esc_url(home_url('/vodic/')); ?>">Blog i novosti</a></li>
         <li><a href="<?php echo esc_url(home_url('/cesta-pitanja/')); ?>">Česta pitanja</a></li>
+        <li><a href="<?php echo esc_url(home_url('/promet-granice/')); ?>">Promet, granice i kamere</a></li>
+        <li><a href="<?php echo esc_url(home_url('/usporedba-smjestaja/')); ?>">Usporedba smještaja</a></li>
+        <li><a href="<?php echo esc_url(home_url('/en/guide/')); ?>" hreflang="en">Travel guides (English)</a></li>
+        <li><a href="<?php echo esc_url(home_url('/de/reisefuehrer/')); ?>" hreflang="de">Reiseführer (Deutsch)</a></li>
       </ul>
     </nav>
     <div>
