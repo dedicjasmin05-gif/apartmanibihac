@@ -442,5 +442,96 @@
     "a": "Psi i mačke su na upit. U upitu napišite vrstu i veličinu ljubimca, a vlasnik potvrđuje uz odgovor, zajedno s eventualnom doplatom."
    }
   ]
+ },
+ "usporedba-smjestaja": {
+  "lang": "bs",
+  "title": "Usporedba smještaja u Bihaću: 19 objekata u tablici",
+  "meta": "Svih 19 apartmana i kuća u Bihaću i uz Unu u jednoj tablici: broj osoba, izlaz na Unu, bazen, klima, parking, Wi-Fi i minimalni broj noći.",
+  "h1": "Usporedba smještaja u Bihaću i uz Unu",
+  "html": "<p class=\"lead\">Na apartmanibihac.com je 19 objekata: sedam apartmana u Bihaću i dvanaest kuća i vikendica uz rijeku Unu i u okolici. Tablica ispod uspoređuje ih po broju osoba i opremi, a podaci se uzimaju izravno iz opisa objekata, pa su uvijek ažurni.</p>\n<h2>Kratki odgovor</h2>\n<p>Za grad i kraći boravak birajte apartmane u Bihaću. Za kupanje i mir uz rijeku birajte kuće s izlazom na Unu. Bazen ima Vila Enio u Lohovu, a najveći objekt je Villa Mekić 2, za do 20 osoba. Smještaj plaćate gotovinom po dolasku; kapara nije obavezna.</p>\n<h2>Svi objekti</h2>\n[abu_usporedba lang=\"bs\"]\n<h2>Kako odabrati</h2>\n<ul>\n<li><strong>Bez automobila ili poslovni put</strong>: apartmani u Bihaću, sve je na pješačkoj udaljenosti ili kratkoj vožnji.</li>\n<li><strong>Obitelj ili društvo, ljeto</strong>: kuće s izlazom na Unu u Lohovu, Pritoci, Grmuši i okolici Bihaća.</li>\n<li><strong>Rafting</strong>: Grmuša, odakle kreće rafting na Uni.</li>\n<li><strong>Grupe od 10 i više osoba</strong>: Feel Luxury Apartments, LUX Apartments Bihać, Vikendica Karakaš i Villa Mekić 2.</li>\n</ul>\n<p>Pogledajte i <a href=\"/smjestaj-bihac/\">sav smještaj</a>, <a href=\"/vikendice-na-uni/\">vikendice na Uni</a> i <a href=\"/cesta-pitanja/smjestaj-u-bihacu/\">pitanja o smještaju</a>.</p>",
+  "faq": [
+   {
+    "q": "Koliko objekata ima na apartmanibihac.com?",
+    "a": "19: sedam apartmana u Bihaću i dvanaest kuća i vikendica uz Unu i u okolici Bihaća."
+   },
+   {
+    "q": "Koji smještaj u Bihaću ima bazen?",
+    "a": "Bazen ima Vila Enio u Lohovu, kuća za do 6 osoba s izlazom na Unu."
+   },
+   {
+    "q": "Koji je najveći objekt?",
+    "a": "Villa Mekić 2, za do 20 osoba."
+   },
+   {
+    "q": "Kako se plaća smještaj?",
+    "a": "Smještaj plaćate gotovinom po dolasku; kapara nije obavezna. Ako pojedini objekt traži avans, to piše u potvrdi upita."
+   }
+  ]
+ },
+ "en/compare-accommodation": {
+  "lang": "en",
+  "title": "Compare accommodation in Bihać: 19 properties",
+  "meta": "All 19 apartments and river houses in Bihać in one table: guests, river access, pool, air conditioning, parking, Wi-Fi and minimum nights.",
+  "h1": "Compare accommodation in Bihać and on the Una river",
+  "html": "<p class=\"lead\">apartmanibihac.com lists 19 properties: seven apartments in Bihać and twelve holiday houses on the Una river and around the town. The table compares them by size and features and is built directly from the property data, so it is always up to date.</p>\n<h2>Short answer</h2>\n<p>For the town and short stays, choose an apartment in Bihać. For swimming and a quiet stay on the river, choose a house with direct access to the Una. Vila Enio in Lohovo has a pool, and the largest property is Villa Mekić 2 for up to 20 guests. You pay in cash on arrival; no deposit is required.</p>\n<h2>All properties</h2>\n[abu_usporedba lang=\"en\"]\n<h2>How to choose</h2>\n<ul>\n<li><strong>No car or a business trip</strong>: apartments in Bihać.</li>\n<li><strong>Families and groups in summer</strong>: houses with river access in Lohovo, Pritoka, Grmuša and around Bihać.</li>\n<li><strong>Rafting</strong>: Grmuša, the starting point for rafting on the Una.</li>\n<li><strong>Groups of 10 or more</strong>: Feel Luxury Apartments, LUX Apartments Bihać, Vikendica Karakaš and Villa Mekić 2.</li>\n</ul>\n<p>See also <a href=\"/en/accommodation-bihac/\">all accommodation</a>, <a href=\"/en/holiday-homes-una-river/\">holiday homes on the Una</a> and the <a href=\"/en/guide/\">Bihać travel guides</a>.</p>",
+  "faq": [
+   {
+    "q": "How many properties are listed?",
+    "a": "19: seven apartments in Bihać and twelve holiday houses on the Una and around Bihać."
+   },
+   {
+    "q": "Which accommodation in Bihać has a pool?",
+    "a": "Vila Enio in Lohovo, a house for up to 6 guests with access to the Una."
+   },
+   {
+    "q": "What is the largest property?",
+    "a": "Villa Mekić 2, for up to 20 guests."
+   },
+   {
+    "q": "How do I pay?",
+    "a": "In cash on arrival; no deposit is required. If a property asks for an advance payment, this is stated in the confirmation."
+   }
+  ]
+ },
+ "de/unterkuenfte-vergleich": {
+  "lang": "de",
+  "title": "Unterkünfte in Bihać im Vergleich: 19 Objekte",
+  "meta": "Alle 19 Ferienwohnungen und Häuser an der Una in einer Tabelle: Personen, Zugang zur Una, Pool, Klima, Parkplatz, WLAN und Mindestaufenthalt.",
+  "h1": "Unterkünfte in Bihać und an der Una im Vergleich",
+  "html": "<p class=\"lead\">Auf apartmanibihac.com finden Sie 19 Unterkünfte: sieben Ferienwohnungen in Bihać und zwölf Ferienhäuser an der Una und in der Umgebung. Die Tabelle vergleicht sie nach Größe und Ausstattung und wird direkt aus den Objektdaten erstellt.</p>\n<h2>Kurz gesagt</h2>\n<p>Für die Stadt und kurze Aufenthalte eignen sich die Wohnungen in Bihać. Zum Baden und für Ruhe am Fluss wählen Sie ein Haus mit direktem Zugang zur Una. Einen Pool hat die Vila Enio in Lohovo, die größte Unterkunft ist die Villa Mekić 2 für bis zu 20 Personen. Bezahlt wird bar bei Ankunft, eine Anzahlung ist nicht Pflicht.</p>\n<h2>Alle Unterkünfte</h2>\n[abu_usporedba lang=\"de\"]\n<h2>Welche Unterkunft passt?</h2>\n<ul>\n<li><strong>Ohne Auto oder geschäftlich</strong>: Wohnungen in Bihać.</li>\n<li><strong>Familien und Gruppen im Sommer</strong>: Häuser mit Zugang zur Una in Lohovo, Pritoka, Grmuša und Umgebung.</li>\n<li><strong>Rafting</strong>: Grmuša, Ausgangspunkt für Rafting auf der Una.</li>\n<li><strong>Gruppen ab 10 Personen</strong>: Feel Luxury Apartments, LUX Apartments Bihać, Vikendica Karakaš und Villa Mekić 2.</li>\n</ul>\n<p>Siehe auch <a href=\"/de/unterkunft-bihac/\">alle Unterkünfte</a>, <a href=\"/de/ferienhaus-una/\">Ferienhäuser an der Una</a> und den <a href=\"/de/reisefuehrer/\">Reiseführer Bihać</a>.</p>",
+  "faq": [
+   {
+    "q": "Wie viele Unterkünfte gibt es?",
+    "a": "19: sieben Wohnungen in Bihać und zwölf Ferienhäuser an der Una und in der Umgebung."
+   },
+   {
+    "q": "Welche Unterkunft in Bihać hat einen Pool?",
+    "a": "Die Vila Enio in Lohovo, ein Haus für bis zu 6 Personen mit Zugang zur Una."
+   },
+   {
+    "q": "Welche ist die größte Unterkunft?",
+    "a": "Die Villa Mekić 2 für bis zu 20 Personen."
+   },
+   {
+    "q": "Wie wird bezahlt?",
+    "a": "Bar bei Ankunft, eine Anzahlung ist nicht Pflicht. Verlangt eine Unterkunft eine Vorauszahlung, steht das in der Bestätigung."
+   }
+  ]
+ },
+ "en/guide": {
+  "lang": "en",
+  "title": "Bihać travel guides: Una river, trips, practical tips",
+  "meta": "Travel guides for Bihać and the Una river: day trips, the drive to the coast, border crossings, rafting, kayaking, fishing, swimming spots and seasons.",
+  "h1": "Bihać travel guides",
+  "html": "<p class=\"lead\">Practical, checked guides for visiting Bihać and the Una river in Bosnia and Herzegovina: getting here, crossing the border, day trips and things to do in every season.</p>\n[abu_vodici lang=\"en\"]\n<p>Questions? See the <a href=\"/en/faq/\">Bihać FAQ</a> or <a href=\"/en/compare-accommodation/\">compare our accommodation</a>.</p>",
+  "faq": []
+ },
+ "de/reisefuehrer": {
+  "lang": "de",
+  "title": "Reiseführer Bihać: Una, Ausflüge, praktische Tipps",
+  "meta": "Reiseführer für Bihać und die Una: Ausflüge, Anreise und Weiterfahrt ans Meer, Grenzübergänge, Rafting, Kajak, Angeln, Badestellen und Jahreszeiten.",
+  "h1": "Reiseführer Bihać",
+  "html": "<p class=\"lead\">Praktische, geprüfte Reiseführer für Bihać und die Una in Bosnien und Herzegowina: Anreise, Grenze, Ausflüge und Aktivitäten in jeder Jahreszeit.</p>\n[abu_vodici lang=\"de\"]\n<p>Fragen? Siehe die <a href=\"/de/faq/\">FAQ zu Bihać</a> oder <a href=\"/de/unterkuenfte-vergleich/\">vergleichen Sie unsere Unterkünfte</a>.</p>",
+  "faq": []
  }
 }

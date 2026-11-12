@@ -195,6 +195,7 @@ add_action('init', function () {
         $p = get_page_by_path($s);
         if ($p) { $o .= '- [' . $p->post_title . '](' . get_permalink($p) . '): ' . wp_strip_all_tags($p->post_excerpt) . "\n"; }
     }
+    $o = apply_filters('abu_llms_dodatak', $o);
     echo $o; // phpcs:ignore
     exit;
 }, 100); // nakon registracije objekata i teme: stalne adrese umjesto ?p=ID
