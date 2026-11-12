@@ -1,7 +1,7 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
-define('AB_VER', '1.1.11');
+define('AB_VER', '1.1.12');
 
 // Brzina: bez WordPress emoji skripte i s ranijom vezom na Google Fonts.
 remove_action('wp_head', 'print_emoji_detection_script', 7);
@@ -158,6 +158,7 @@ function ab_kartica($id, $slobodno = null, $qs = array()) {
     $img = get_the_post_thumbnail($id, 'ab-card', array('loading' => 'lazy', 'class' => 'card__img', 'alt' => get_the_title($id) . ', ' . ab_m($id, 'mjesto')));
     if (!$img) { $sl = ab_slike($id, 1); if ($sl) { $img = wp_get_attachment_image($sl[0], 'ab-card', false, array('loading' => 'lazy', 'class' => 'card__img')); } }
     $url = $qs ? add_query_arg($qs, get_permalink($id)) : get_permalink($id);
+    if (!empty($qs['lang']) && function_exists('abu_objekt_url') && ($ju = abu_objekt_url($id, $qs['lang']))) { $url = $ju; } // stranica objekta na engleskom/njemačkom
     $kap = (int) ab_m($id, 'kapacitet');
     $op = wp_get_post_terms($id, 'oprema', array('fields' => 'names'));
     $l = (isset($qs['lang']) && in_array($qs['lang'], array('en', 'de'), true)) ? $qs['lang'] : 'bs';
