@@ -31,7 +31,7 @@ $oprema = wp_get_post_terms($id, 'oprema', array('fields' => 'names'));
     <?php endforeach; ?>
     <?php if (count($slike) > 5) : ?>
       <button class="mosaic__all" type="button" data-gallery-open>Sve fotografije (<?php echo count($slike); ?>)</button>
-      <div hidden><?php foreach (array_slice($slike, 5) as $sid) : ?><a href="<?php echo esc_url(wp_get_attachment_image_url($sid, 'full')); ?>"></a><?php endforeach; ?></div>
+      <div hidden><?php foreach (array_slice($slike, 5) as $j => $sid) : ?><a href="<?php echo esc_url(wp_get_attachment_image_url($sid, 'full')); ?>" aria-label="<?php echo esc_attr(get_the_title() . ', fotografija ' . ($j + 6)); ?>"></a><?php endforeach; ?></div>
     <?php endif; ?>
   </div>
   <?php endif; ?>

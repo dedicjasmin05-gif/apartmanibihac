@@ -1,7 +1,7 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
-define('AB_VER', '1.1.8');
+define('AB_VER', '1.1.9');
 
 // Brzina: bez WordPress emoji skripte i s ranijom vezom na Google Fonts.
 remove_action('wp_head', 'print_emoji_detection_script', 7);
