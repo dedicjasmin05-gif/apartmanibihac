@@ -117,6 +117,7 @@ add_action('wp_head', function () {
     $opis = is_front_page() ? abu_seo_front_description() : (has_excerpt($id) ? get_the_excerpt($id) : wp_trim_words(wp_strip_all_tags(strip_shortcodes(get_post_field('post_content', $id))), 30, '…'));
     $naslov = is_front_page() ? wp_get_document_title() : get_the_title($id);
     $img = get_the_post_thumbnail_url($id, 'large');
+    if (!$img && function_exists('ab_hero_slike')) { $h = ab_hero_slike(); $img = $h ? $h[0]['src'] : ''; } // zamjenska slika za dijeljenje (prva slika s naslovnice)
     echo '<meta property="og:type" content="' . (is_singular('post') ? 'article' : 'website') . '">' . "\n";
     echo '<meta property="og:site_name" content="Apartmani & Vikendice Bihać">' . "\n";
     echo '<meta property="og:title" content="' . esc_attr($naslov) . '">' . "\n";

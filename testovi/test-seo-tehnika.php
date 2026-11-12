@@ -1,6 +1,6 @@
 <?php
 /** Izolirani test za seo-tehnika.php bez WordPressa: php testovi/test-seo-tehnika.php */
-define('ABSPATH', __DIR__);
+define('ABSPATH', __DIR__); define('OBJECT', 'OBJECT');
 $GLOBALS['F'] = array(); $GLOBALS['S'] = array('singular' => true, 'title' => 'Smještaj u Lohovu', 'page' => '', 'ab' => '', 'tax' => false);
 function add_filter($h, $cb, $p = 10, $n = 1) { $GLOBALS['F'][$h][] = $cb; }
 function add_action($h, $cb, $p = 10, $n = 1) { $GLOBALS['F'][$h][] = $cb; }
@@ -38,4 +38,11 @@ t('vodic link zamijenjen', $vl('<a href="https://apartmanibihac.com/vodic/postoj
 t('relativni vodic link', $vl("<a href='/vodic/postoji'>x</a>") === "<a href='https://apartmanibihac.com/2026/10/21/postoji/'>x</a>");
 t('nepoznat ostaje', $vl('<a href="/vodic/nema/">x</a>') === '<a href="/vodic/nema/">x</a>');
 t('paginacija ostaje', $vl('<a href="/vodic/page/2/">x</a>') === '<a href="/vodic/page/2/">x</a>');
+function get_page_by_path($s, $o = null, $t = '') { return $s === 'vila-enio' ? (object) array('ID' => 13) : null; }
+function get_post_thumbnail_id($p) { return 99; } function get_post_meta($id, $k, $j) { return 'Lohovo'; }
+function wp_get_attachment_image($id, $v, $i, $a) { return '<img src="/wp-content/uploads/x.jpg" alt="' . $a['alt'] . '">'; }
+$GLOBALS['S']['title'] = 'Vila Enio'; $as = $GLOBALS['F']['the_content'][2];
+t('assets slika zamijenjena', $as('<a href="/smjestaj/vila-enio/"><img decoding="async" src="/assets/7055.webp" srcset="/assets/7055-600.webp 600w" alt="Vila Enio — Lohovo"><span>Vila</span></a>') === '<a href="/smjestaj/vila-enio/"><img src="/wp-content/uploads/x.jpg" alt="Vila Enio, Lohovo"><span>Vila</span></a>');
+t('objekt bez slike: prazna slika uklonjena', $as('<a href="/smjestaj/nema/"><img src="/assets/x.webp" alt="x"><span>K</span></a>') === '<a href="/smjestaj/nema/"><span>K</span></a>');
+t('ostale slike netaknute', $as('<p>/assets/ tekst</p><img src="/wp-content/a.jpg">') === '<p>/assets/ tekst</p><img src="/wp-content/a.jpg">');
 echo "OK $ok, neuspjeh $bad\n"; exit($bad ? 1 : 0);
