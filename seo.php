@@ -135,7 +135,8 @@ function abu_seo_pitanja_meta() {
     $opis = $t[$k][$J['i'] + 2];
     $n = count(abu_pitanja_ucitaj($k, $l));
     $br = array('bs' => $n . ' odgovora: ', 'en' => $n . ' answers: ', 'de' => $n . ' Antworten: ');
-    $title = $naslov . ' – ' . $faq[$l] . (strpos($naslov, 'Bihać') === false && strpos($naslov, 'Una') === false ? ' | Bihać' : '');
+    $title = $naslov . ' – ' . $faq[$l];
+    if (strpos($naslov, 'Bihać') === false && strpos($naslov, 'Una') === false && mb_strlen($title) <= 52) { $title .= ' | Bihać'; }
     $meta = $br[$l] . $opis . ' ' . $cta[$l];
     if (mb_strlen($meta) < 120) {
         $prva = abu_pitanja_ucitaj($k, $l);

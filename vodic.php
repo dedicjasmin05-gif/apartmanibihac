@@ -12,7 +12,7 @@ function abu_vodic_def() {
         'restorani' => array('dat' => 'restorani.json', 'polje' => '', 'schema' => 'Restaurant', 'kat' => 'restorani',
             'put' => array('bs' => 'restorani-bihac', 'en' => 'en/restaurants-bihac', 'de' => 'de/restaurants-bihac'),
             'h1' => array('bs' => 'Restorani u Bihaću: gdje jesti uz Unu', 'en' => 'Restaurants in Bihać: where to eat by the Una', 'de' => 'Restaurants in Bihać: Essen an der Una'),
-            'title' => array('bs' => 'Restorani Bihać: riba iz Une, ćevapi, pizza | vodič s kartom', 'en' => 'Best restaurants in Bihać: river fish, ćevapi, pizza | map & tips', 'de' => 'Restaurants in Bihać: Una-Fisch, Ćevapi, Pizza | Karte & Tipps'),
+            'title' => array('bs' => 'Restorani Bihać: riba iz Une, ćevapi, pizza | vodič s kartom', 'en' => 'Best restaurants in Bihać: river fish, ćevapi, pizza', 'de' => 'Restaurants in Bihać: Una-Fisch, Ćevapi, Pizza'),
             'uvod' => array(
                 'bs' => 'Riba iz Une, travnički ćevapi, roštilj, pizza i kolači: najbolji restorani u Bihaću i uz rijeku, s fotografijama, kartom, telefonima i preporukama što naručiti. Popis redovno dopunjavamo prema iskustvu naših gostiju.',
                 'en' => 'River fish from the Una, ćevapi, grill, pizza and cakes: the best restaurants in Bihać and along the river, with photos, a map, phone numbers and what to order. We keep the list updated based on what our guests tell us.',
@@ -28,7 +28,7 @@ function abu_vodic_def() {
         'izleti' => array('dat' => 'izleti.json', 'polje' => '', 'schema' => 'TouristAttraction', 'kat' => 'izleti',
             'put' => array('bs' => 'izleti-bihac', 'en' => 'en/day-trips-bihac', 'de' => 'de/ausfluege-bihac'),
             'h1' => array('bs' => 'Izleti iz Bihaća: slapovi, tvrđave, Plitvice', 'en' => 'Day trips from Bihać: waterfalls, fortresses, Plitvice', 'de' => 'Ausflüge ab Bihać: Wasserfälle, Burgen, Plitvice'),
-            'title' => array('bs' => 'Izleti iz Bihaća: Štrbački buk, Martin Brod, Plitvice i još 30 mjesta', 'en' => 'Day trips from Bihać: Štrbački buk, Martin Brod, Plitvice and 30 more', 'de' => 'Ausflüge ab Bihać: Štrbački buk, Martin Brod, Plitvice und 30 weitere'),
+            'title' => array('bs' => 'Izleti iz Bihaća: Štrbački buk, Martin Brod, Plitvice', 'en' => 'Day trips from Bihać: Štrbački buk, Martin Brod, Plitvice', 'de' => 'Ausflüge ab Bihać: Štrbački buk, Martin Brod, Plitvice'),
             'uvod' => array(
                 'bs' => 'Nacionalni park Una, Štrbački buk, Martin Brod, srednjovjekovne tvrđave, Plitvička jezera i desetine mjesta uz rijeku. Za svako mjesto: udaljenost od Bihaća, kako doći, ulaznice, fotografije i karta.',
                 'en' => 'Una National Park, Štrbački buk, Martin Brod, medieval fortresses, Plitvice Lakes and dozens of places along the river. For each one: distance from Bihać, how to get there, tickets, photos and a map.',
@@ -36,7 +36,7 @@ function abu_vodic_def() {
         'rafting' => array('dat' => 'teambuilding.json', 'polje' => 'rafting', 'schema' => 'SportsActivityLocation', 'kat' => 'bihac',
             'put' => array('bs' => 'rafting-na-uni', 'en' => 'en/rafting-una', 'de' => 'de/rafting-una'),
             'h1' => array('bs' => 'Rafting na Uni kod Bihaća', 'en' => 'Rafting on the Una river near Bihać', 'de' => 'Rafting auf der Una bei Bihać'),
-            'title' => array('bs' => 'Rafting Una Bihać: Una Olympic Rafting i rafting kampovi, cijene i smještaj', 'en' => 'Una river rafting in Bihać: Una Olympic Rafting, camps and accommodation', 'de' => 'Rafting auf der Una in Bihać: Una Olympic Rafting, Camps und Unterkunft'),
+            'title' => array('bs' => 'Rafting na Uni u Bihaću: kampovi, cijene i smještaj', 'en' => 'Una river rafting in Bihać: camps, prices, places to stay', 'de' => 'Rafting auf der Una in Bihać: Camps, Preise, Unterkunft'),
             'uvod' => array(
                 'bs' => 'Una je jedna od najljepših rijeka za rafting u Europi: bistra, zelena, s brzacima za početnike i iskusne. Na prvom mjestu preporučujemo Una Olympic Rafting iz Grmuše, a ispod su i ostali rafting kampovi uz Unu. Smještaj i rafting dogovaramo u istom upitu.',
                 'en' => 'The Una is one of the most beautiful rafting rivers in Europe: clear, green, with rapids for beginners and experienced paddlers. Our first pick is Una Olympic Rafting in Grmuša; the other rafting camps on the Una are listed below. We arrange accommodation and rafting in one enquiry.',

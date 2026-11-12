@@ -135,7 +135,8 @@ add_filter('wp_get_attachment_image_attributes', function ($a, $att) {
  */
 add_filter('document_title_parts', function ($d) {
     if (is_front_page() || empty($d['title'])) { return $d; }
-    if (preg_match('~biha[cć]|\buna\b|\buni\b|\bunu\b~iu', $d['title'])) { unset($d['site'], $d['tagline']); }
+    $dugo = !empty($d['site']) && mb_strlen(wp_strip_all_tags($d['title'])) + 3 + mb_strlen($d['site']) > 60;
+    if ($dugo || preg_match('~biha[cć]|\buna\b|\buni\b|\bunu\b~iu', $d['title'])) { unset($d['site'], $d['tagline']); }
     return $d;
 });
 

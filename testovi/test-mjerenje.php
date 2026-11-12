@@ -8,6 +8,7 @@ function update_option($k, $v) { $GLOBALS['O'][$k] = $v; }
 function current_time($f) { return gmdate($f); }
 function wp_parse_url($u, $c) { return parse_url($u, $c); }
 function is_front_page() { return $GLOBALS['FP']; }
+function wp_strip_all_tags($s) { return strip_tags($s); }
 require dirname(__DIR__) . '/mjerenje.php';
 require dirname(__DIR__) . '/seo-tehnika.php';
 $ok = 0; $bad = 0; function t($n, $u) { global $ok, $bad; if ($u) { $ok++; } else { $bad++; echo "NEUSPJEH: $n\n"; } }
@@ -27,4 +28,6 @@ $tp = $GLOBALS['F']['document_title_parts'][0];
 t('naslov s Bihać bez imena sajta', !isset($tp(array('title' => 'Rafting na Uni: kako odabrati turu', 'site' => 'X'))['site']));
 t('naslov bez Bihaća zadržava ime', isset($tp(array('title' => 'O nama', 'site' => 'X'))['site']));
 t('"Unadom" nije "Una"', isset($tp(array('title' => 'Vikendica Unadom', 'site' => 'X'))['site']));
+t('dug naslov bez Bihaća gubi ime sajta', !isset($tp(array('title' => 'Što ponijeti na rafting: praktičan popis za pripremu', 'site' => 'Apartmani i vikendice Bihać'))['site']));
+t('kratak naslov bez Bihaća zadržava ime', isset($tp(array('title' => 'O nama', 'site' => 'Apartmani i vikendice Bihać'))['site']));
 echo "OK $ok, neuspjeh $bad\n"; exit($bad ? 1 : 0);

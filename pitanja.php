@@ -109,6 +109,7 @@ function abu_pitanja_osvjezi_jezik($lang) {
         if (!$lista) { if ($p) { wp_update_post(array('ID' => $p->ID, 'post_status' => 'draft')); } continue; }
         $ukupno += count($lista);
         $sadrzaj = '<p class="lead">' . esc_html($opis) . ' ' . count($lista) . ' ' . esc_html($J['pitanja']) . '</p>' . "\n"
+            . '<h2>' . esc_html(array('bs' => 'Pitanja i odgovori', 'en' => 'Questions and answers', 'de' => 'Fragen und Antworten')[$lang]) . "</h2>\n"
             . abu_pitanja_html($lista)
             . '<p><a href="' . esc_url(home_url('/' . abu_pitanja_put($lang) . '/')) . '">' . esc_html($J['sva']) . '</a> · ' . $J['cta'] . '</p>';
         $podaci = array('post_type' => 'page', 'post_status' => 'publish', 'post_parent' => $rid, 'post_name' => $slug,
