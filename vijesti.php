@@ -136,7 +136,12 @@ add_action('init', function () {
         $id = wp_insert_post(array('post_type' => 'post', 'post_status' => 'publish', 'post_name' => $v['slug'], 'post_title' => $v['naslov'],
             'post_excerpt' => isset($v['izvod']) ? $v['izvod'] : '', 'post_content' => wp_kses_post($v['html']),
             'post_category' => $kat ? array($kat->term_id) : array(), 'post_date' => gmdate('Y-m-d H:i:s', current_time('timestamp') - ($i * 5400))));
-        if ($id && !is_wp_error($id)) { update_post_meta($id, '_abu_slika_mjesto', isset($v['slika']) ? $v['slika'] : ''); $n++; }
+        if ($id && !is_wp_error($id)) {
+            update_post_meta($id, '_abu_slika_mjesto', isset($v['slika']) ? $v['slika'] : '');
+            if (!empty($v['fb'])) { update_post_meta($id, '_abu_fb_tekst', $v['fb']); }
+            if (!empty($v['ig'])) { update_post_meta($id, '_abu_ig_tekst', $v['ig']); }
+            $n++;
+        }
     }
     foreach (get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'numberposts' => -1, 'fields' => 'ids')) as $pid) {
         if (has_post_thumbnail($pid)) { continue; }
