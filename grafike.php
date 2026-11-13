@@ -8,7 +8,7 @@
  */
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_GR_VER', '2');
+define('ABU_GR_VER', '3');
 define('ABU_GR_TEL', '+387 61 591 320');
 
 function abu_gr_moze() {
@@ -132,12 +132,15 @@ function abu_gr_uravnotezi($vel, $font, $tekst, $max) {
 
 /** Tekst s razmakom između slova (za oznaku). Vraća širinu. */
 function abu_gr_razmaknuto($c, $vel, $font, $x, $y, $boja, $tekst, $razmak, $crtaj = true) {
-    $sx = $x;
-    foreach (preg_split('//u', $tekst, -1, PREG_SPLIT_NO_EMPTY) as $z) {
-        if ($crtaj) { imagettftext($c, $vel, 0, (int) round($x), (int) round($y), $boja, $font, $z); }
-        $x += abu_gr_sirina($vel, $font, $z === ' ' ? 'i' : $z) + $razmak;
+    $z = preg_split('//u', $tekst, -1, PREG_SPLIT_NO_EMPTY);
+    $pre = '';
+    foreach ($z as $i => $slovo) {
+        // položaj iz širine cijelog prethodnog niza (prava širina slova uz kerning), plus razmak
+        $px = $pre === '' ? 0 : abu_gr_sirina($vel, $font, $pre . 'H') - abu_gr_sirina($vel, $font, 'H');
+        if ($crtaj && $slovo !== ' ') { imagettftext($c, $vel, 0, (int) round($x + $px + $i * $razmak), (int) round($y), $boja, $font, $slovo); }
+        $pre .= $slovo;
     }
-    return $x - $razmak - $sx;
+    return abu_gr_sirina($vel, $font, $tekst) + (count($z) - 1) * $razmak;
 }
 
 function abu_gr_zaobljeno($c, $x1, $y1, $x2, $y2, $r, $boja) {
