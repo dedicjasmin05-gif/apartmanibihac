@@ -273,9 +273,9 @@ add_action('init', function () {
     $r = json_decode((string) file_get_contents($f), true);
     if (is_array($r)) {
         foreach (get_posts(array('post_type' => array('page', 'post', 'objekt'), 'post_status' => 'any', 'numberposts' => -1)) as $p) {
-            $c = $p->post_content; $e = $p->post_excerpt;
-            foreach ($r as $x) { if (is_array($x) && count($x) === 2) { $c = str_replace($x[0], $x[1], $c); $e = str_replace($x[0], $x[1], $e); } }
-            if ($c !== $p->post_content || $e !== $p->post_excerpt) { wp_update_post(array('ID' => $p->ID, 'post_content' => $c, 'post_excerpt' => $e)); }
+            $c = $p->post_content; $e = $p->post_excerpt; $t = $p->post_title;
+            foreach ($r as $x) { if (is_array($x) && count($x) === 2) { $c = str_replace($x[0], $x[1], $c); $e = str_replace($x[0], $x[1], $e); $t = str_replace($x[0], $x[1], $t); } }
+            if ($c !== $p->post_content || $e !== $p->post_excerpt || $t !== $p->post_title) { wp_update_post(array('ID' => $p->ID, 'post_content' => $c, 'post_excerpt' => $e, 'post_title' => $t)); }
         }
         if (function_exists('do_action')) { do_action('litespeed_purge_all'); }
     }
