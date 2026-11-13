@@ -137,11 +137,13 @@ add_action('init', function () {
     $x = is_readable($f) ? json_decode((string) file_get_contents($f), true) : array();
     $n = 0;
     foreach ((array) $x as $i => $v) {
-        if (empty($v['slug']) || empty($v['naslov']) || get_page_by_path($v['slug'], OBJECT, 'post')) { continue; }
+        if (empty($v['slug']) || empty($v['naslov']) || get_page_by_path($v['slug'], OBJECT, 'post') || get_posts(array('name' => $v['slug'], 'post_type' => 'post', 'post_status' => 'any', 'numberposts' => 1))) { continue; }
         $kat = get_term_by('slug', 'vijesti-' . (isset($v['kat']) ? $v['kat'] : 'bihac'), 'category');
         $id = wp_insert_post(array('post_type' => 'post', 'post_status' => 'publish', 'post_name' => $v['slug'], 'post_title' => $v['naslov'],
             'post_excerpt' => isset($v['izvod']) ? $v['izvod'] : '', 'post_content' => wp_kses_post($v['html']),
-            'post_category' => $kat ? array($kat->term_id) : array(), 'post_date' => gmdate('Y-m-d H:i:s', current_time('timestamp') - ($i * 5400))));
+            'post_category' => $kat ? array($kat->term_id) : array(),
+            // "datum" (lokalno vrijeme, npr. "2026-11-14 11:00:00"): u budućnosti => zakazana objava (FB/IG kad izađe)
+            'post_date' => !empty($v['datum']) ? $v['datum'] : gmdate('Y-m-d H:i:s', current_time('timestamp') - ($i * 5400))));
         if ($id && !is_wp_error($id)) {
             update_post_meta($id, '_abu_slika_mjesto', isset($v['slika']) ? $v['slika'] : '');
             if (!empty($v['fb'])) { update_post_meta($id, '_abu_fb_tekst', $v['fb']); }

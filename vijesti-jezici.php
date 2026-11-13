@@ -165,6 +165,18 @@ add_action('init', function () {
     delete_transient('abu_vj_lock');
 }, 46);
 
+/** Zakazana vijest iz vijesti.json kad izađe: odmah napravi prijevode. */
+add_action('transition_post_status', function ($novi, $stari, $post) {
+    if ($novi !== 'publish' || $stari === 'publish' || $post->post_type !== 'post') { return; }
+    $f = __DIR__ . '/sadrzaj/vijesti.json';
+    if (!is_readable($f)) { return; }
+    foreach ((array) json_decode((string) file_get_contents($f), true) as $v) {
+        if (empty($v['slug']) || $v['slug'] !== $post->post_name) { continue; }
+        if (!has_post_thumbnail($post->ID) && function_exists('abu_vijesti_slika_za')) { $img = abu_vijesti_slika_za($post->post_name, (string) ($v['slika'] ?? '')); if ($img) { set_post_thumbnail($post->ID, $img); } }
+        foreach (array('en', 'de') as $l) { if (!empty($v[$l])) { abu_vj_spremi($post->ID, $l, $v[$l]); } }
+    }
+}, 30, 3);
+
 /** Središta vijesti nisu u popisu „vodiča“ i ne smetaju; prijevodi idu u llms.txt. */
 add_filter('abu_llms_dodatak', function ($o) {
     foreach (abu_vj_putevi() as $l => $put) {
