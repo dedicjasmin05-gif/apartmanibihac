@@ -57,7 +57,7 @@ add_filter('pre_get_document_title', function ($t) {
     if (abu_seo_plugin()) { return $t; }
     $s = abu_seo_tekuca();
     if ($s && !empty($s['title'])) { return $s['title']; }
-    if (is_front_page()) { return 'Smještaj Bihać: apartmani i vikendice na Uni od 25 €'; }
+    if (is_front_page()) { return 'Apartmani & Vikendice Bihać: smještaj uz rijeku Unu'; } // brend; „smještaj Bihać“ cilja /smjestaj-bihac/
     if ($x = abu_seo_pitanja_meta()) { return $x[0]; }
     if (is_singular('objekt')) {
         $id = get_queried_object_id();
