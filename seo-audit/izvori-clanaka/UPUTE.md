@@ -38,3 +38,12 @@ Za svaku temu zapiši **jednu JSON datoteku** `<bs-slug>.json` u ovu mapu, UTF-8
 - Provjeri da je JSON ispravan (`python3 -c "import json;json.load(open('...'))"`).
 
 Na kraju vrati kratak sažetak: koje datoteke si napisao, i popis tvrdnji koje NISI mogao potvrditi (pa si ih izostavio).
+
+## Jezik: bosanski, ne hrvatski (Jasmin, 13. 11. 2026.)
+Piši bosanskim standardom, bez hrvatskih riječi:
+sistem (ne sustav), pasoš (ne putovnica), lična karta (ne osobna iskaznica), dokument (ne isprava),
+granični prelaz (ne prijelaz), ko (ne tko), šta (ne što u pitanjima), voz (ne vlak), avion (ne zrakoplov),
+aerodrom (ne zračna luka), hiljada (ne tisuća), sedmica (ne tjedan), porodica (radije nego obitelj),
+elektronski (ne elektronički), dozvoljeno (ne dopušteno), vanredno (ne izvanredno), nosilac (ne nositelj),
+postepeno (ne postupno), mjeseci: januar, februar, mart, april, maj, juni, juli, august, septembar, oktobar, novembar, decembar
+(i u slugovima: npr. ...-novembar-2026, nikad studeni). Naslovi izvora i vlastita imena ostaju kako jesu.
