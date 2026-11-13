@@ -24,6 +24,10 @@ function abu_dr_tekst($id, $mreza) {
         $t = get_the_title($id) . "\n\n" . wp_strip_all_tags($izvod) . "\n\n" . ($mreza === 'ig' ? '#Bihać #Una #rijekaUna #BiH #BosnaiHercegovina #apartmani #vikendice' : '#Bihać #Una #BiH');
         if ($mreza === 'ig') { $t .= "\n\nViše na apartmanibihac.com"; }
     }
+    // Objave o smještaju: broj telefona u tekstu (vijesti i vodiči bez broja).
+    if (function_exists('abu_je_smjestaj') && abu_je_smjestaj($id) && strpos(preg_replace('/\s+/', '', $t), '61591320') === false) {
+        $t .= "\n\n📞 Poziv, WhatsApp, Viber: +387 61 591 320";
+    }
     return $t;
 }
 

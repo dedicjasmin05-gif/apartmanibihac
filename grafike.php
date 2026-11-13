@@ -8,11 +8,21 @@
  */
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_GR_VER', '3');
+define('ABU_GR_VER', '4');
 define('ABU_GR_TEL', '+387 61 591 320');
 
 function abu_gr_moze() {
     return function_exists('imagecreatetruecolor') && function_exists('imagettftext') && function_exists('imagettfbbox');
+}
+
+/** Objava vezana za smještaj (ponuda, apartmani): na sliku i u tekst ide broj telefona. Obične vijesti i vodiči: bez broja. */
+function abu_je_smjestaj($id) {
+    if (get_post_meta($id, '_abu_dnevna_vijest', true)) { return false; }
+    if (get_post_meta($id, '_abu_smjestaj', true)) { return true; }
+    $slug = (string) get_post_field('post_name', $id);
+    if (preg_match('/(smjestaj|apartman|vikendic|ponud|gdje-odsjesti|nocenj|rezervacij)/', $slug)) { return true; }
+    foreach ((array) get_the_category($id) as $c) { if (in_array($c->slug, array('ponude', 'ponuda'), true)) { return true; } }
+    return (bool) apply_filters('abu_je_smjestaj', false, $id);
 }
 
 /** Oznaka na slici: dnevna vijest → Vijesti iz turizma; inače prva rubrika; bez rubrike → Vodič. */
@@ -43,7 +53,8 @@ function abu_grafika($id, $vrsta = 'fb') {
     $naslov = html_entity_decode(wp_strip_all_tags(get_the_title($id)), ENT_QUOTES, 'UTF-8');
     $oznaka = abu_gr_oznaka($id);
     $datum = get_the_date('j. n. Y.', $id);
-    $hash = substr(md5(ABU_GR_VER . '|' . $vrsta . '|' . $naslov . '|' . $att . '|' . $oznaka . '|' . $datum), 0, 10);
+    $tel = abu_je_smjestaj($id);
+    $hash = substr(md5(ABU_GR_VER . '|' . $vrsta . '|' . $naslov . '|' . $att . '|' . $oznaka . '|' . $datum . '|' . (int) $tel), 0, 10);
     $up = wp_upload_dir();
     if (!empty($up['error'])) { return ''; }
     $dir = trailingslashit($up['basedir']) . 'abu-grafike';
@@ -53,7 +64,7 @@ function abu_grafika($id, $vrsta = 'fb') {
     if (!wp_mkdir_p($dir)) { return ''; }
     if (get_transient('abu_gr_lock_' . $id . $vrsta)) { return ''; }
     set_transient('abu_gr_lock_' . $id . $vrsta, 1, 60);
-    $ok = abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $dir . '/' . $ime);
+    $ok = abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $dir . '/' . $ime, $tel);
     delete_transient('abu_gr_lock_' . $id . $vrsta);
     if (!$ok) { return ''; }
     foreach ((array) glob($dir . '/' . $id . '-' . $vrsta . '-*.jpg') as $stara) { if ($stara && basename($stara) !== $ime) { @unlink($stara); } }
@@ -160,7 +171,7 @@ function abu_gr_png($c, $f, $x, $y, $w = 0, $h = 0) {
 }
 
 /** Crtanje; $px u CSS pikselima → točke za GD (96 dpi): pt = px * 0.75. */
-function abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $izlaz) {
+function abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $izlaz, $tel = false) {
     $d = __DIR__ . '/grafike/';
     $F_NASLOV = $d . 'bricolage-800.ttf'; $F_OZN = $d . 'sourcesans-700.ttf'; $F_POD = $d . 'sourcesans-600.ttf';
     foreach (array($F_NASLOV, $F_OZN, $F_POD) as $f) { if (!is_readable($f)) { return false; } }
@@ -206,7 +217,7 @@ function abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $izlaz) {
     $mal = $ig ? 23 : 18;                      // sitni tekst
     $ikona = $ig ? 44 : 32;
     $sun_t = imagecolorallocate($c, 242, 183, 5);
-    if ($ig) {
+    if ($tel && $ig) {
         $y_tel = $dno - (int) round($tv * 0.18);
         abu_gr_png($c, $d . 'tel.png', $L - 4, $y_tel - (int) round($tv * 0.78) - 2, $ikona, $ikona);
         imagettftext($c, $tv * $pt, 0, $L + $ikona + 10, $y_tel, $sun_t, $F_NASLOV, ABU_GR_TEL);
@@ -214,13 +225,20 @@ function abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $izlaz) {
         imagettftext($c, $mal * $pt, 0, $W - 60 - abu_gr_sirina($mal * $pt, $F_POD, $t2), $y_tel, $bijela, $F_POD, $t2);
         imagettftext($c, $mal * $pt, 0, $W - 60 - abu_gr_sirina($mal * $pt, $F_POD, $t1), $y_tel - (int) round($mal * 1.3), $bijela2, $F_POD, $t1);
         $vrh_pod = $y_tel - (int) round($tv * 0.8);
-    } else {
+    } elseif ($tel) {
         $y_mal = $dno - (int) round($mal * 0.25);
         imagettftext($c, $mal * $pt, 0, $L, $y_mal, $bijela2, $F_POD, 'Poziv · WhatsApp · Viber · apartmanibihac.com');
         $y_tel = $y_mal - (int) round($mal * 1.45);
         abu_gr_png($c, $d . 'tel.png', $L - 3, $y_tel - (int) round($tv * 0.78) - 1, $ikona, $ikona);
         imagettftext($c, $tv * $pt, 0, $L + $ikona + 8, $y_tel, $sun_t, $F_NASLOV, ABU_GR_TEL);
         $vrh_pod = $y_tel - (int) round($tv * 0.8);
+    } else {
+        // Vijesti i vodiči: adresa i datum (bez broja).
+        $y_pod = $dno - (int) round($pod * 0.28);
+        imagettftext($c, $pod * $pt, 0, $L, $y_pod, $bijela, $F_POD, 'apartmanibihac.com');
+        if ($ig) { $sw = abu_gr_sirina($pod * $pt, $F_POD, $datum); imagettftext($c, $pod * $pt, 0, $W - 60 - $sw, $y_pod, $bijela2, $F_POD, $datum); }
+        else { imagettftext($c, $pod * $pt, 0, $L + abu_gr_sirina($pod * $pt, $F_POD, 'apartmanibihac.com') + 24, $y_pod, $bijela2, $F_POD, $datum); }
+        $vrh_pod = $dno - (int) round($pod * 1.25);
     }
     $y_val = $vrh_pod - ($ig ? 28 : 18) - $valh;
     abu_gr_png($c, $d . 'val.png', $L, $y_val, $valw, $valh);
