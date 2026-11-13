@@ -68,5 +68,10 @@
   "bs": "promet-granice",
   "en": "en/traffic-border-crossings",
   "de": "de/verkehr-grenzuebergaenge"
+ },
+ {
+  "bs": "brze-cinjenice",
+  "en": "en/quick-facts",
+  "de": "de/kurzfakten"
  }
 ]

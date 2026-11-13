@@ -179,6 +179,8 @@ add_action('init', function () {
     if ($path !== '/llms-full.txt') { return; }
     header('Content-Type: text/plain; charset=utf-8');
     echo "# Apartmani i vikendice Bihać (apartmanibihac.com): FAQ\n\n> Accommodation in Bihać and on the Una river, Bosnia and Herzegovina. 19 properties, a whole apartment from €25 (50 KM) per night, payment in cash on arrival, enquiry answered within 12 hours. Check-in from 12:00, check-out by 11:00. WhatsApp/Viber +387 61 591 320, apartmaniubihacu@gmail.com. We speak Bosnian, English and German.\n\n";
+    foreach (array('brze-cinjenice', 'en/quick-facts', 'de/kurzfakten') as $put) { $p = get_page_by_path($put); if ($p && $p->post_status === 'publish') { echo '- Quick facts: ' . get_permalink($p) . "\n"; } }
+    echo "- Index: " . home_url('/llms.txt') . "\n\n";
     foreach (abu_pitanja_jezici() as $l => $J) {
         foreach (abu_pitanja_teme_sve() as $k => $t) {
             $lista = abu_pitanja_ucitaj($k, $l);
