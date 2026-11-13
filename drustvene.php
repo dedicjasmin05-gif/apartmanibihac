@@ -124,5 +124,7 @@ add_action('wp_head', function () {
     echo '<meta property="og:title" content="' . esc_attr($naslov) . '">' . "\n";
     echo '<meta property="og:description" content="' . esc_attr($opis) . '">' . "\n";
     echo '<meta property="og:url" content="' . esc_url(get_permalink($id)) . '">' . "\n";
-    if ($img) { echo '<meta property="og:image" content="' . esc_url($img) . '">' . "\n" . '<meta name="twitter:card" content="summary_large_image">' . "\n"; }
+    $gr = (is_singular('post') && function_exists('abu_grafika')) ? abu_grafika($id, 'fb') : ''; // grafika s logom (grafike.php)
+    if ($gr) { echo '<meta property="og:image" content="' . esc_url($gr) . '">' . "\n" . '<meta property="og:image:width" content="1200">' . "\n" . '<meta property="og:image:height" content="630">' . "\n" . '<meta name="twitter:card" content="summary_large_image">' . "\n"; }
+    elseif ($img) { echo '<meta property="og:image" content="' . esc_url($img) . '">' . "\n" . '<meta name="twitter:card" content="summary_large_image">' . "\n"; }
 }, 3);
