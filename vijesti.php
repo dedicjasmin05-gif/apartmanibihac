@@ -70,6 +70,11 @@ function abu_vijesti_traka() {
 /** Blok vijesti: jedna velika i nekoliko manjih. */
 function abu_vijesti_blok($kat = '', $broj = 4, $naslov = 'Novosti') {
     $p = abu_vijesti_upit($kat, $broj);
+    // Ako u rubrici ima manje vijesti od traženog broja, dopuni najnovijim ostalim novostima (bez ponavljanja).
+    if ($kat && count($p) < $broj) {
+        $ima = wp_list_pluck($p, 'ID');
+        foreach (abu_vijesti_upit('', $broj + count($ima)) as $x) { if (count($p) >= $broj) { break; } if (!in_array($x->ID, $ima, true)) { $p[] = $x; } }
+    }
     if (!$p) { return ''; }
     $h = '<section class="news" aria-label="' . esc_attr($naslov) . '"><div class="wrap"><div class="section__head"><div><p class="eyebrow">Novosti</p><h2 class="h2">' . esc_html($naslov) . '</h2></div>'
         . '<a class="link" href="' . esc_url(home_url($kat ? '/category/vijesti/vijesti-' . $kat . '/' : '/vodic/')) . '">Sve novosti →</a></div><div class="news__grid">';
