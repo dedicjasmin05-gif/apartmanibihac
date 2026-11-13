@@ -326,15 +326,15 @@ function abu_t($key, $lang = 'bs') {
     if ($T === null) {
         $T = array(
             'bs' => array(
-                'f_ime' => 'Ime i prezime', 'f_email' => 'E-mail', 'f_tel' => 'Mobitel (WhatsApp/Viber)', 'f_dol' => 'Dolazak', 'f_odl' => 'Odlazak', 'f_osobe' => 'Broj osoba', 'f_poruka' => 'Poruka (nije obavezno)', 'f_uvjeti' => 'Prihvaćam uvjete otkaza', 'f_posalji' => 'Pošalji upit',
+                'f_ime' => 'Ime i prezime', 'f_email' => 'E-mail', 'f_tel' => 'Mobitel (WhatsApp/Viber)', 'f_dol' => 'Dolazak', 'f_odl' => 'Odlazak', 'f_osobe' => 'Broj osoba', 'f_poruka' => 'Poruka (nije obavezno)', 'f_uvjeti' => 'Prihvatam uslove otkaza', 'f_posalji' => 'Pošalji upit',
                 'ok' => 'Hvala! Upit je poslan vlasniku. Odgovor s potvrdom dobivate u roku od %d sati na e-mail i SMS.',
-                'err_dat' => 'Provjerite datume dolaska i odlaska.', 'err_zauz' => 'Odabrani datumi više nisu slobodni. Odaberite druge datume.', 'err_pol' => 'Ispunite ime, ispravan e-mail i mobitel.', 'err_min' => 'Minimalni boravak je %d noći.', 'err_kap' => 'Objekt prima najviše %d osoba.', 'err_uvj' => 'Potrebno je prihvatiti uvjete otkaza.', 'err_spam' => 'Pričekajte minutu prije novog upita.',
+                'err_dat' => 'Provjerite datume dolaska i odlaska.', 'err_zauz' => 'Odabrani datumi više nisu slobodni. Odaberite druge datume.', 'err_pol' => 'Ispunite ime, ispravan e-mail i mobitel.', 'err_min' => 'Minimalni boravak je %d noći.', 'err_kap' => 'Objekt prima najviše %d osoba.', 'err_uvj' => 'Potrebno je prihvatiti uslove otkaza.', 'err_spam' => 'Sačekajte minutu prije novog upita.',
                 's_primljen' => 'Primili smo vaš upit — %s',
                 'b_primljen' => "Poštovani %1\$s,\n\nhvala na upitu za %2\$s, %3\$s – %4\$s, %5\$d osoba.\nVlasnik potvrđuje termin u roku od %6\$d sati, a potvrdu dobivate na ovaj e-mail i SMS.\n\nPitanja: WhatsApp/Viber %7\$s",
                 's_potvrden' => 'Termin je slobodan — uplatite kaparu (%s)',
-                'b_potvrden' => "Poštovani %1\$s,\n\ntermin %2\$s – %3\$s u objektu %4\$s je slobodan i čuvamo ga za vas.\n\nUkupno: %5\$s €\nKapara (%6\$d %%): %7\$s €\nRok za uplatu: %8\$s\n\n%9\$s\n\nNakon uplate dobivate adresu i kontakt vlasnika.\n\nUvjeti otkaza: %10\$s",
+                'b_potvrden' => "Poštovani %1\$s,\n\ntermin %2\$s – %3\$s u objektu %4\$s je slobodan i čuvamo ga za vas.\n\nUkupno: %5\$s €\nKapara (%6\$d %%): %7\$s €\nRok za uplatu: %8\$s\n\n%9\$s\n\nNakon uplate dobivate adresu i kontakt vlasnika.\n\nUslovi otkaza: %10\$s",
                 'placanje_link' => 'Plaćanje karticom: %s',
-                'placanje_iban' => "Uplata na račun:\nPrimatelj: %1\$s\nIBAN: %2\$s\nPoziv na broj / opis: Upit %3\$d",
+                'placanje_iban' => "Uplata na račun:\nPrimalac: %1\$s\nIBAN: %2\$s\nPoziv na broj / opis: Upit %3\$d",
                 's_odbijen' => 'Termin nije dostupan — %s',
                 'b_odbijen' => "Poštovani %1\$s,\n\nnažalost, %2\$s nije slobodan za %3\$s – %4\$s.\n\n%5\$sJavite nam se i pronaći ćemo vam smještaj: WhatsApp/Viber %6\$s",
                 'alternative' => "Slobodni slični objekti za vaše datume:\n%s\n\n",
@@ -343,7 +343,7 @@ function abu_t($key, $lang = 'bs') {
                 's_otkazan' => 'Termin oslobođen — %s',
                 'b_otkazan' => "Poštovani %1\$s,\n\nkapara za %2\$s nije uplaćena u roku pa je termin oslobođen. Ako i dalje želite doći, pošaljite novi upit ili nam se javite: %3\$s",
                 's_placeno' => 'Rezervacija potvrđena — %s',
-                'b_placeno' => "Poštovani %1\$s,\n\nvaša rezervacija je potvrđena.\n\nObjekt: %2\$s\nAdresa: %3\$s\nDolazak: %4\$s\nOdlazak: %5\$s\nOsoba: %6\$d\nZa platiti gotovinom pri dolasku: %7\$s €\nUlazak od 12:00, izlazak do 11:00 (do 12:00 ako je objekt slobodan). Posteljina i čišćenje su uključeni.\n\nVlasnik: %8\$s, %9\$s\n\nUvjeti otkaza: %10\$s",
+                'b_placeno' => "Poštovani %1\$s,\n\nvaša rezervacija je potvrđena.\n\nObjekt: %2\$s\nAdresa: %3\$s\nDolazak: %4\$s\nOdlazak: %5\$s\nOsoba: %6\$d\nZa platiti gotovinom pri dolasku: %7\$s €\nUlazak od 12:00, izlazak do 11:00 (do 12:00 ako je objekt slobodan). Posteljina i čišćenje su uključeni.\n\nVlasnik: %8\$s, %9\$s\n\nUslovi otkaza: %10\$s",
                 's_7d' => 'Za 7 dana dolazite u Bihać — %s',
                 'b_7d' => "Poštovani %1\$s,\n\nvidimo se %2\$s u objektu %3\$s.\n\n%4\$s\n\nRafting na Uni, team building i restoran uz rijeku: Una Olympic Rafting, +387 67 103 7177.\n\nVlasnik: %5\$s",
                 's_1d' => 'Sutra dolazite — %s',
@@ -615,7 +615,7 @@ function abu_potvrdi($u) {
         $u->ime, abu_dat($u->dolazak), abu_dat($u->odlazak), $o->post_title,
         $u->iznos ? abu_novac($u->iznos) : '—', intval(abu_opt('kapara_posto', 30)), $u->kapara ? abu_novac($u->kapara) : '—', $rok,
         abu_placanje_upute($u), abu_opt('uvjeti_otkaza')));
-    abu_sms($u->telefon, $o->post_title . ' ' . abu_dat($u->dolazak) . ': ' . ($L === 'bs' ? 'termin je slobodan. Upute za kaparu su na vašem e-mailu, rok ' : 'available. Deposit details sent by e-mail, deadline ') . $rok);
+    abu_sms($u->telefon, $o->post_title . ' ' . abu_dat($u->dolazak) . ': ' . ($L === 'bs' ? 'termin je slobodan. Uputstva za kaparu su na vašem e-mailu, rok ' : 'available. Deposit details sent by e-mail, deadline ') . $rok);
     // admini dobivaju link "plaćeno" za ručno označavanje (uplata na račun)
     foreach (abu_admin_emails() as $to) {
         abu_mail($to, "Upit #{$u->id} potvrđen — čeka kaparu", "Kad kapara stigne na račun, kliknite:\n" . abu_action_url($u, 'placeno'));
@@ -775,7 +775,8 @@ add_shortcode('abu_kalendar', function ($a) {
     $danas = current_time('Y-m-d');
     for ($k = 0; $k < max(1, min(12, intval($a['mjeseci']))); $k++) {
         $m = strtotime('+' . $k . ' month', $start);
-        $o .= '<div class="abu-mj"><div class="abu-mj-n">' . esc_html(date_i18n('F Y', $m)) . '</div><div class="abu-g">';
+        $mj_n = $L === 'de' ? array('Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember') : ($L === 'en' ? array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December') : array('januar', 'februar', 'mart', 'april', 'maj', 'juni', 'juli', 'august', 'septembar', 'oktobar', 'novembar', 'decembar'));
+        $o .= '<div class="abu-mj"><div class="abu-mj-n">' . esc_html($mj_n[(int) date('n', $m) - 1] . ' ' . date('Y', $m)) . '</div><div class="abu-g">';
         foreach ($dani_n as $dn) { $o .= '<span class="abu-h">' . esc_html($dn) . '</span>'; }
         $pomak = (int) date('N', $m) - 1;
         for ($p = 0; $p < $pomak; $p++) { $o .= '<span></span>'; }

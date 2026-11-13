@@ -14,7 +14,7 @@ function abu_vodic_def() {
             'h1' => array('bs' => 'Restorani u Bihaću: gdje jesti uz Unu', 'en' => 'Restaurants in Bihać: where to eat by the Una', 'de' => 'Restaurants in Bihać: Essen an der Una'),
             'title' => array('bs' => 'Restorani Bihać: riba iz Une, ćevapi, pizza | vodič s kartom', 'en' => 'Best restaurants in Bihać: river fish, ćevapi, pizza', 'de' => 'Restaurants in Bihać: Una-Fisch, Ćevapi, Pizza'),
             'uvod' => array(
-                'bs' => 'Riba iz Une, travnički ćevapi, roštilj, pizza i kolači: najbolji restorani u Bihaću i uz rijeku, s fotografijama, kartom, telefonima i preporukama što naručiti. Popis redovno dopunjavamo prema iskustvu naših gostiju.',
+                'bs' => 'Riba iz Une, travnički ćevapi, roštilj, pizza i kolači: najbolji restorani u Bihaću i uz rijeku, s fotografijama, kartom, telefonima i preporukama šta naručiti. Spisak redovno dopunjavamo prema iskustvu naših gostiju.',
                 'en' => 'River fish from the Una, ćevapi, grill, pizza and cakes: the best restaurants in Bihać and along the river, with photos, a map, phone numbers and what to order. We keep the list updated based on what our guests tell us.',
                 'de' => 'Fisch aus der Una, Ćevapi, Grill, Pizza und Kuchen: die besten Restaurants in Bihać und am Fluss, mit Fotos, Karte, Telefonnummern und Empfehlungen, was man bestellen sollte. Die Liste ergänzen wir laufend nach den Erfahrungen unserer Gäste.')),
         'izlasci' => array('dat' => 'izlasci.json', 'polje' => '', 'schema' => 'BarOrPub', 'kat' => 'izlasci',
@@ -22,7 +22,7 @@ function abu_vodic_def() {
             'h1' => array('bs' => 'Noćni život u Bihaću: gdje izaći', 'en' => 'Nightlife in Bihać: where to go out', 'de' => 'Nachtleben in Bihać: wo man ausgeht'),
             'title' => array('bs' => 'Gdje izaći u Bihaću: barovi na Uni, terase i klubovi', 'en' => 'Bihać nightlife: riverside bars, terraces and clubs', 'de' => 'Nachtleben Bihać: Bars an der Una, Terrassen und Clubs'),
             'uvod' => array(
-                'bs' => 'Večer u Bihaću počinje na terasi uz Unu, a vikendom se nastavlja u klubovima. Kafići, barovi i klubovi s fotografijama, kartom i kontaktima. Grad je malen, pa većinu obiđete pješice iz našeg smještaja u centru.',
+                'bs' => 'Veče u Bihaću počinje na terasi uz Unu, a vikendom se nastavlja u klubovima. Kafići, barovi i klubovi s fotografijama, kartom i kontaktima. Grad je malen, pa većinu obiđete pješice iz našeg smještaja u centru.',
                 'en' => 'An evening in Bihać starts on a terrace by the Una and carries on in the clubs at the weekend. Cafés, bars and clubs with photos, a map and contacts. The town is small, so you can walk to most of them from our apartments in the centre.',
                 'de' => 'Ein Abend in Bihać beginnt auf einer Terrasse an der Una und geht am Wochenende in den Clubs weiter. Cafés, Bars und Clubs mit Fotos, Karte und Kontakten. Die Stadt ist klein, die meisten Lokale erreichen Sie von unseren Wohnungen im Zentrum zu Fuß.')),
         'izleti' => array('dat' => 'izleti.json', 'polje' => '', 'schema' => 'TouristAttraction', 'kat' => 'izleti',
@@ -38,7 +38,7 @@ function abu_vodic_def() {
             'h1' => array('bs' => 'Rafting na Uni kod Bihaća', 'en' => 'Rafting on the Una river near Bihać', 'de' => 'Rafting auf der Una bei Bihać'),
             'title' => array('bs' => 'Rafting na Uni u Bihaću: kampovi, cijene i smještaj', 'en' => 'Una river rafting in Bihać: camps, prices, places to stay', 'de' => 'Rafting auf der Una in Bihać: Camps, Preise, Unterkunft'),
             'uvod' => array(
-                'bs' => 'Una je jedna od najljepših rijeka za rafting u Europi: bistra, zelena, s brzacima za početnike i iskusne. Na prvom mjestu preporučujemo Una Olympic Rafting iz Grmuše, a ispod su i ostali rafting kampovi uz Unu. Smještaj i rafting dogovaramo u istom upitu.',
+                'bs' => 'Una je jedna od najljepših rijeka za rafting u Evropi: bistra, zelena, s brzacima za početnike i iskusne. Na prvom mjestu preporučujemo Una Olympic Rafting iz Grmuše, a ispod su i ostali rafting kampovi uz Unu. Smještaj i rafting dogovaramo u istom upitu.',
                 'en' => 'The Una is one of the most beautiful rafting rivers in Europe: clear, green, with rapids for beginners and experienced paddlers. Our first pick is Una Olympic Rafting in Grmuša; the other rafting camps on the Una are listed below. We arrange accommodation and rafting in one enquiry.',
                 'de' => 'Die Una ist einer der schönsten Raftingflüsse Europas: klar, grün, mit Stromschnellen für Anfänger und Erfahrene. Unsere erste Empfehlung ist Una Olympic Rafting in Grmuša, darunter finden Sie die anderen Raftingcamps an der Una. Unterkunft und Rafting organisieren wir in einer Anfrage.')),
     );
@@ -126,7 +126,7 @@ function abu_vodic_t($k, $l) {
         'uz_rijeku' => array('bs' => 'Uz rijeku', 'en' => 'By the river', 'de' => 'Am Fluss'),
         'mjesta' => array('bs' => 'mjesta na karti', 'en' => 'places on the map', 'de' => 'Orte auf der Karte'),
         'smjestaj_h' => array('bs' => 'Smještaj u Bihaću od 25 € po noći', 'en' => 'Stay in Bihać from €25 a night', 'de' => 'Unterkunft in Bihać ab 25 € pro Nacht'),
-        'smjestaj_p' => array('bs' => 'Cijeli apartman po cijeni sobe, plaćanje gotovinom pri dolasku. Pišite nam i preporučimo i gdje jesti, izaći i kamo na izlet.', 'en' => 'A whole apartment for the price of a room, pay cash on arrival. Message us and we will also tell you where to eat, go out and what to see.', 'de' => 'Eine ganze Wohnung zum Preis eines Zimmers, Barzahlung bei Ankunft. Schreiben Sie uns, wir empfehlen Ihnen auch Restaurants, Bars und Ausflüge.'),
+        'smjestaj_p' => array('bs' => 'Cijeli apartman po cijeni sobe, plaćanje gotovinom pri dolasku. Pišite nam i preporučimo i gdje jesti, izaći i kuda na izlet.', 'en' => 'A whole apartment for the price of a room, pay cash on arrival. Message us and we will also tell you where to eat, go out and what to see.', 'de' => 'Eine ganze Wohnung zum Preis eines Zimmers, Barzahlung bei Ankunft. Schreiben Sie uns, wir empfehlen Ihnen auch Restaurants, Bars und Ausflüge.'),
         'pogledaj' => array('bs' => 'Pogledaj smještaj', 'en' => 'See accommodation', 'de' => 'Unterkünfte ansehen'),
         'foto' => array('bs' => 'Foto', 'en' => 'Photo', 'de' => 'Foto'),
         'preporuka' => array('bs' => 'Naša preporuka', 'en' => 'Our pick', 'de' => 'Unsere Empfehlung'),
@@ -141,9 +141,9 @@ function abu_vodic_tip($tip, $l) {
     if ($l === 'bs' || !$tip) { return $tip; }
     $m = array(
         'restoran' => array('Restaurant', 'Restaurant'), 'riblji restoran' => array('Fish restaurant', 'Fischrestaurant'), 'ćevabdžinica' => array('Ćevapi grill', 'Ćevapi-Grill'),
-        'pizzeria' => array('Pizzeria', 'Pizzeria'), 'slastičarna' => array('Cake shop', 'Konditorei'), 'kafić' => array('Café', 'Café'), 'bar' => array('Bar', 'Bar'), 'klub' => array('Club', 'Club'),
+        'pizzeria' => array('Pizzeria', 'Pizzeria'), 'poslastičarnica' => array('Cake shop', 'Konditorei'), 'slastičarna' => array('Cake shop', 'Konditorei'), 'kafić' => array('Café', 'Café'), 'bar' => array('Bar', 'Bar'), 'klub' => array('Club', 'Club'),
         'caffe na rijeci' => array('Riverside café', 'Café am Fluss'), 'buregdžinica' => array('Burek bakery', 'Burek-Bäckerei'), 'roštilj' => array('Grill', 'Grill'), 'pivnica' => array('Pub', 'Bierlokal'),
-        'np una' => array('Una National Park', 'Nationalpark Una'), 'priroda' => array('Nature', 'Natur'), 'tvrđave i povijest' => array('Fortresses & history', 'Burgen & Geschichte'),
+        'np una' => array('Una National Park', 'Nationalpark Una'), 'priroda' => array('Nature', 'Natur'), 'tvrđave i historija' => array('Fortresses & history', 'Burgen & Geschichte'), 'tvrđave i povijest' => array('Fortresses & history', 'Burgen & Geschichte'),
         'vjerski objekti' => array('Religious sites', 'Religiöse Stätten'), 'aktivnosti' => array('Activities', 'Aktivitäten'), 'gradovi u okolici' => array('Nearby towns', 'Städte in der Umgebung'),
         'hrvatska (plitvice i sl.)' => array('Croatia (Plitvice etc.)', 'Kroatien (Plitvice usw.)'), 'rafting' => array('Rafting', 'Rafting'),
     );

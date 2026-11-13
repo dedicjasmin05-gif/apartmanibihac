@@ -275,6 +275,16 @@ add_action('init', function () {
     delete_transient('abu_mig_placanje3_lock');
 }, 34);
 
+/** Naziv opreme na bosanskom (slug ostaje isti, filteri i URL-ovi rade kao prije). */
+add_action('init', function () {
+    if (get_option('abu_mig_oprema_bs')) { return; }
+    foreach (array('Perilica rublja' => 'Veš mašina', 'Hladnjak' => 'Frižider', 'Pećnica' => 'Rerna') as $staro => $novo) {
+        $t = get_term_by('name', $staro, 'oprema');
+        if ($t && !is_wp_error($t)) { wp_update_term($t->term_id, 'oprema', array('name' => $novo)); }
+    }
+    update_option('abu_mig_oprema_bs', 1);
+}, 36);
+
 /** Ispravke teksta u objavljenom sadržaju: alati/ispravke-teksta.json ([staro, novo]); izvodi se jednom po verziji datoteke. */
 add_action('init', function () {
     $f = __DIR__ . '/alati/ispravke-teksta.json';
