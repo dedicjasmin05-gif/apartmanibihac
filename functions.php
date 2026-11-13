@@ -1,7 +1,7 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
-define('AB_VER', '1.1.13');
+define('AB_VER', '1.1.14');
 
 // Brzina: bez WordPress emoji skripte i s ranijom vezom na Google Fonts.
 remove_action('wp_head', 'print_emoji_detection_script', 7);
@@ -116,7 +116,7 @@ function ab_osobe($n, $l = 'bs') {
 function ab_oprema_naziv($n, $l = 'bs') {
     $t = array(
         'Strogi centar' => array('City centre', 'Stadtzentrum'), 'Kuhinja' => array('Kitchen', 'Küche'), 'Parking' => array('Parking', 'Parkplatz'),
-        'Wi-Fi' => array('Wi-Fi', 'WLAN'), 'Terasa' => array('Terrace', 'Terrasse'), 'Perilica rublja' => array('Washing machine', 'Waschmaschine'),
+        'Wi-Fi' => array('Wi-Fi', 'WLAN'), 'Terasa' => array('Terrace', 'Terrasse'), 'Perilica rublja' => array('Washing machine', 'Waschmaschine'), 'Veš mašina' => array('Washing machine', 'Waschmaschine'),
         'Klima' => array('Air conditioning', 'Klimaanlage'), 'Roštilj' => array('Barbecue', 'Grill'), 'Izlaz na Unu' => array('Access to the Una', 'Zugang zur Una'),
         'Plaža' => array('Beach', 'Badestelle'), 'Bazen' => array('Pool', 'Pool'),
     );
@@ -243,11 +243,11 @@ add_action('wp_head', function () {
 
 function ab_faq() {
     return array(
-        array('Koliko košta smještaj u Bihaću?', 'Apartmani i kuće za odmor u našoj ponudi kreću od ' . ab_mod('ab_cijena_od', '25') . ' € po noći za cijeli objekt. Cijena ovisi o objektu, sezoni i broju gostiju, a točan iznos vidite u potvrdi upita.'),
-        array('Kako rezervirati?', 'Odaberite objekt i datume i pošaljite upit. Vlasnik potvrđuje u roku od 12 sati. Većinu smještaja plaćate gotovinom pri dolasku. Avansno plaćanje kod pojedinih objekata ovisi o pravilima tog objekta, i to vidite u potvrdi.'),
+        array('Koliko košta smještaj u Bihaću?', 'Apartmani i kuće za odmor u našoj ponudi kreću od ' . ab_mod('ab_cijena_od', '25') . ' € po noći za cijeli objekt. Cijena zavisi od objekta, sezone i broja gostiju, a tačan iznos vidite u potvrdi upita.'),
+        array('Kako rezervisati?', 'Odaberite objekt i datume i pošaljite upit. Vlasnik potvrđuje u roku od 12 sati. Većinu smještaja plaćate gotovinom pri dolasku. Avansno plaćanje kod pojedinih objekata zavisi od pravila tog objekta, i to vidite u potvrdi.'),
         array('Ima li smještaj uz samu rijeku Unu?', 'Da. U Lohovu, Pritoci i Grmuši nudimo kuće s izlazom na Unu, neke s terasom iznad rijeke ili bazenom.'),
         array('Koliko je Bihać udaljen od Plitvičkih jezera?', 'Do ulaza u Nacionalni park Plitvička jezera ima oko 35 km, otprilike 40 minuta vožnje.'),
-        array('Mogu li uz smještaj rezervirati rafting?', 'Da. Rafting na Uni, team building i ručak uz rijeku organizira Una Olympic Rafting, a paket smještaja i raftinga dogovaramo u istom upitu.'),
+        array('Mogu li uz smještaj rezervisati rafting?', 'Da. Rafting na Uni, team building i ručak uz rijeku organizuje Una Olympic Rafting, a paket smještaja i raftinga dogovaramo u istom upitu.'),
     );
 }
 
@@ -278,7 +278,7 @@ function ab_jezik() {
 }
 function ab_t($k) {
     $t = array(
-        'bs' => array('na_fb' => 'na Facebooku', 'recenzija' => 'recenzija', 'pratitelja' => 'pratitelja', 'preporuka' => 'preporuka', 'rezerviraj' => 'Pronađi smještaj',
+        'bs' => array('na_fb' => 'na Facebooku', 'recenzija' => 'recenzija', 'pratitelja' => 'pratilaca', 'preporuka' => 'preporuka', 'rezerviraj' => 'Pronađi smještaj',
             'smjestaj' => 'Smještaj', 'restorani' => 'Restorani', 'izlasci' => 'Izlasci', 'izleti' => 'Izleti', 'rafting' => 'Rafting', 'tb' => 'Team building', 'vodic' => 'Vodič',
             'nazovi' => 'Nazovi', 'upit' => 'Upit'),
         'en' => array('na_fb' => 'on Facebook', 'recenzija' => 'reviews', 'pratitelja' => 'followers', 'preporuka' => 'recommend', 'rezerviraj' => 'Find a stay',

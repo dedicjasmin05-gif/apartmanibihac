@@ -45,7 +45,7 @@ $oprema = wp_get_post_terms($id, 'oprema', array('fields' => 'names'));
       <?php endif; ?>
       <?php if ($mjesto) : ?>
         <h2>Lokacija</h2>
-        <p>Točnu adresu šaljemo nakon potvrde rezervacije. Karta prikazuje mjesto <?php echo esc_html($mjesto); ?>.</p>
+        <p>Tačnu adresu šaljemo nakon potvrde rezervacije. Karta prikazuje mjesto <?php echo esc_html($mjesto); ?>.</p>
         <div class="map"><iframe title="Karta: <?php echo esc_attr($mjesto); ?>" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="<?php echo esc_url('https://www.google.com/maps?q=' . rawurlencode($mjesto . ', Bihać, Bosna i Hercegovina') . '&z=13&output=embed'); ?>"></iframe></div>
       <?php endif; ?>
     </div>

@@ -35,13 +35,13 @@
       <span class="brand__name"><span>Apartmani <i>&amp;</i> Vikendice</span><small>Bihać · rijeka Una</small></span>
       <?php endif; ?>
     </a>
-    <nav class="nav" aria-label="Glavni izbornik">
+    <nav class="nav" aria-label="Glavni meni">
       <ul class="nav__list">
         <?php foreach (ab_izbornik() as $s) : ?><li><a href="<?php echo esc_url($s[1]); ?>"><?php echo esc_html($s[0]); ?></a></li><?php endforeach; ?>
       </ul>
     </nav>
     <a class="btn btn--sun head-cta" href="<?php echo esc_url(home_url('/smjestaj/')); ?>"><?php echo esc_html(ab_t('rezerviraj')); ?></a>
-    <button class="nav-toggle" aria-expanded="false" aria-controls="mob-nav"><span class="sr">Izbornik</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mob-nav"><span class="sr">Meni</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
   </div>
   <div class="mob-nav" id="mob-nav" hidden>
     <ul>

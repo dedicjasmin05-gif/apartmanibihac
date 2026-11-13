@@ -86,7 +86,7 @@ if (function_exists('abu_vijesti_blok')) { $tv = abu_vijesti_blok('turizam', 4, 
     <ol class="how__steps">
       <li><strong>Pošaljete upit</strong>Odaberete objekt i datume. Termin je 12 sati držan samo za vas.</li>
       <li><strong>Potvrdimo termin</strong>Dobijete potvrdu s ukupnom cijenom, adresom i kontaktom, najkasnije za 12 sati.</li>
-      <li><strong>Plaćate pri dolasku</strong>Većinu smještaja plaćate gotovinom pri dolasku. Avansno plaćanje kod pojedinih objekata ovisi o pravilima tog objekta.</li>
+      <li><strong>Plaćate pri dolasku</strong>Većinu smještaja plaćate gotovinom pri dolasku. Avansno plaćanje kod pojedinih objekata zavisi od pravila tog objekta.</li>
       <li><strong>Ulazak od 12 sati</strong>Izlazak do 11, ili do 12 ako je objekt slobodan. Posteljina i čišćenje su uključeni.</li>
     </ol>
   </div>
@@ -121,7 +121,7 @@ if (function_exists('abu_vijesti_blok')) { $tv = abu_vijesti_blok('turizam', 4, 
 <section class="section section--tight" aria-labelledby="prep-h">
   <div class="wrap">
     <p class="eyebrow">Vodič</p>
-    <h2 id="prep-h" class="h2">Što raditi u Bihaću</h2>
+    <h2 id="prep-h" class="h2">Šta raditi u Bihaću</h2>
     <ul class="ptiles">
       <?php foreach (array(
           array('restorani', 'restorani-bihac', 'Gdje jesti', 'Riba iz Une, ćevapi, domaća kuhinja'),
@@ -169,7 +169,7 @@ if (function_exists('abu_vijesti_blok')) { $tv = abu_vijesti_blok('turizam', 4, 
       </p>
     </div>
     <ul class="social__nums">
-      <li><b>139.000+</b><span>pratitelja na Facebooku</span></li>
+      <li><b>139.000+</b><span>pratilaca na Facebooku</span></li>
       <li><b>9.362</b><span>recenzija na Facebooku</span></li>
       <li><b>100 %</b><span>preporučuje</span></li>
       <li><b>12 h</b><span>do potvrde upita</span></li>

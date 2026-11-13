@@ -31,7 +31,7 @@ $oprema = get_terms(array('taxonomy' => 'oprema', 'hide_empty' => true));
       <div class="grid-cards grid-cards--list"><?php foreach ($lista as $o) { echo ab_kartica($o['id'], $o['slobodno'], $qs); } // phpcs:ignore ?></div>
     <?php else : ?>
       <div class="empty">
-        <h2 class="h3">Za ove uvjete nema slobodnog objekta</h2>
+        <h2 class="h3">Za ove uslove nema slobodnog objekta</h2>
         <p>Probajte druge datume ili manje filtera. Ako žurite, pošaljite nam termin i broj osoba na WhatsApp, a mi provjerimo i objekte koji još nisu na sajtu.</p>
         <p><a class="btn btn--sun" href="<?php echo esc_url(ab_wa('Pozdrav, tražim smještaj ' . ($f['mjesto'] ? 'u mjestu ' . $f['mjesto'] . ' ' : '') . ($ima_dat ? 'od ' . $f['dolazak'] . ' do ' . $f['odlazak'] : '') . ($f['osobe'] ? ' za ' . $f['osobe'] . ' osoba' : '') . '.')); ?>" target="_blank" rel="noopener">Pošalji termin na WhatsApp</a></p>
       </div>

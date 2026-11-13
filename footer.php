@@ -32,8 +32,8 @@
         <li><a href="<?php echo esc_url(home_url('/team-building-bihac/')); ?>">Team building Bihać</a></li>
         <li><a href="<?php echo esc_url(home_url('/vodic/')); ?>">Blog i novosti</a></li>
         <li><a href="<?php echo esc_url(home_url('/cesta-pitanja/')); ?>">Česta pitanja</a></li>
-        <li><a href="<?php echo esc_url(home_url('/promet-granice/')); ?>">Promet, granice i kamere</a></li>
-        <li><a href="<?php echo esc_url(home_url('/usporedba-smjestaja/')); ?>">Usporedba smještaja</a></li>
+        <li><a href="<?php echo esc_url(home_url('/promet-granice/')); ?>">Saobraćaj, granice i kamere</a></li>
+        <li><a href="<?php echo esc_url(home_url('/usporedba-smjestaja/')); ?>">Poređenje smještaja</a></li>
         <li><a href="<?php echo esc_url(home_url('/en/guide/')); ?>" hreflang="en">Travel guides (English)</a></li>
         <li><a href="<?php echo esc_url(home_url('/de/reisefuehrer/')); ?>" hreflang="de">Reiseführer (Deutsch)</a></li>
       </ul>
@@ -45,7 +45,7 @@
         <li><a href="<?php echo esc_url(ab_ig()); ?>" rel="noopener" target="_blank">Instagram</a></li>
         <li><a href="<?php echo esc_url(home_url('/o-nama/')); ?>">O nama</a></li>
         <li><a href="<?php echo esc_url(home_url('/prijavite-objekt/')); ?>">Iznajmljujete? Prijavite objekt</a></li>
-        <li><a href="<?php echo esc_url(home_url('/uvjeti-i-privatnost/')); ?>">Uvjeti i privatnost</a></li>
+        <li><a href="<?php echo esc_url(home_url('/uvjeti-i-privatnost/')); ?>">Uslovi i privatnost</a></li>
       </ul>
     </div>
   </div>
