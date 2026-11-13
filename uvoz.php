@@ -262,3 +262,23 @@ add_action('init', function () {
     update_option('abu_mig_placanje3', 1);
     delete_transient('abu_mig_placanje3_lock');
 }, 34);
+
+/** Ispravke teksta u objavljenom sadržaju: alati/ispravke-teksta.json ([staro, novo]); izvodi se jednom po verziji datoteke. */
+add_action('init', function () {
+    $f = __DIR__ . '/alati/ispravke-teksta.json';
+    if (!is_readable($f)) { return; }
+    $v = md5_file($f);
+    if (get_option('abu_mig_ispravke') === $v || get_transient('abu_mig_ispravke_lock')) { return; }
+    set_transient('abu_mig_ispravke_lock', 1, 300);
+    $r = json_decode((string) file_get_contents($f), true);
+    if (is_array($r)) {
+        foreach (get_posts(array('post_type' => array('page', 'post', 'objekt'), 'post_status' => 'any', 'numberposts' => -1)) as $p) {
+            $c = $p->post_content; $e = $p->post_excerpt;
+            foreach ($r as $x) { if (is_array($x) && count($x) === 2) { $c = str_replace($x[0], $x[1], $c); $e = str_replace($x[0], $x[1], $e); } }
+            if ($c !== $p->post_content || $e !== $p->post_excerpt) { wp_update_post(array('ID' => $p->ID, 'post_content' => $c, 'post_excerpt' => $e)); }
+        }
+        if (function_exists('do_action')) { do_action('litespeed_purge_all'); }
+    }
+    update_option('abu_mig_ispravke', $v);
+    delete_transient('abu_mig_ispravke_lock');
+}, 35);

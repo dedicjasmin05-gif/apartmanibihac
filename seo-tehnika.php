@@ -167,3 +167,9 @@ add_action('wp_head', function () {
     echo '<meta name="description" content="' . esc_attr(mb_substr($opis, 0, 158)) . '">' . "\n";
     if (!is_paged()) { echo '<link rel="canonical" href="' . esc_url(get_term_link($t)) . '">' . "\n"; }
 }, 2);
+
+/* §10 Tablice u člancima: zaglavlje poravnato lijevo kao ćelije, čitljivo na mobitelu. */
+add_action('wp_head', function () {
+    if (!is_singular()) { return; }
+    echo '<style id="abu-tablice">.prose table{width:100%;border-collapse:collapse;margin:1.2em 0}.prose th,.prose td{text-align:left;vertical-align:top;padding:.55em .6em;border-bottom:1px solid rgba(0,0,0,.12)}.prose thead th{border-bottom:2px solid rgba(0,0,0,.25)}@media(max-width:600px){.prose th,.prose td{padding:.5em .35em;font-size:.95em}}</style>' . "\n";
+}, 20);
