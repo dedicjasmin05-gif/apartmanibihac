@@ -14,6 +14,7 @@ function abu_vijesti_kategorije() {
         'izlasci' => 'Izlasci',
         'izleti' => 'Izleti',
         'smjestaj' => 'Smještaj',
+        'turizam' => 'Vijesti iz turizma',
     );
 }
 
