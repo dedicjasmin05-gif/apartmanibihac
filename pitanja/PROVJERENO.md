@@ -827,3 +827,6 @@ Izvor za SEO promjene: uputa vlasnika (UPUTA.md od 1. 11. 2026.) o plaćanju, po
 - **Ostali objekti:** ljubimci, roštilj, krevetić, bicikli i ograđeno dvorište (sada „pitajte uz upit“). U temi 06 i dalje se navode roštilji kod Vikend kuće Bašić, Ville Džane, Džane 2, Karakaša i Mekića te bazen samo kod Vile Enio, klima kod nekih apartmana i opis Japodske kućice. To su podaci autora koje treba potvrditi.
 - **Parking po objektima** (02#24, 04#23 navode „besplatan“ kod pojedinih).
 - **Una Olympic Rafting:** minimalna dob i kapacitet čamca kod vašeg partnera.
+
+
+> Napomena 13. 11. 2026.: „opcionalni avans s popustom“ iz stavki iznad više NE vrijedi. Važeće pravilo: gotovinom po dolasku; kapara nije obavezna, a ako pojedini objekt traži avans, to piše u potvrdi upita prije bilo kakve uplate (migracija abu_mig_placanje3).
