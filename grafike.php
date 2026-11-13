@@ -8,7 +8,7 @@
  */
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_GR_VER', '5');
+define('ABU_GR_VER', '6');
 define('ABU_GR_TEL', '+387 61 591 320');
 define('ABU_GR_OBJEKT', 'apartman-centar'); // jedini objekt čije se fotografije smiju koristiti u objavama
 
@@ -45,11 +45,16 @@ function abu_gr_tudji_objekt($att) {
     return $x && get_post_field('post_name', $x[0]) !== ABU_GR_OBJEKT;
 }
 
-/** Fotografije za objave: Apartman Centar (položene, bez kupatila) + fotografije od vlasnika u grafike/foto/. */
+/** Fotografije za objave: one od vlasnika (grafike/foto/), a ako ih nema, Apartman Centar (položene, bez kupatila). */
 function abu_gr_bazen() {
     static $b = null;
     if ($b !== null) { return $b; }
     $b = array();
+    // 1. Fotografije koje je dao vlasnik (imaju prednost).
+    $up = wp_upload_dir();
+    foreach (array(__DIR__ . '/grafike/foto', trailingslashit($up['basedir']) . 'abu-grafike/foto') as $m) { foreach ((array) glob($m . '/*.{jpg,jpeg,png,webp,JPG,JPEG}', GLOB_BRACE) as $f) { if ($f && is_readable($f)) { $b[] = $f; } } }
+    if ($b) { return $b; }
+    // 2. Inače Apartman Centar.
     $o = get_page_by_path(ABU_GR_OBJEKT, OBJECT, 'objekt');
     if ($o && function_exists('ab_slike')) {
         foreach (ab_slike($o->ID, 30) as $i) {
@@ -59,7 +64,6 @@ function abu_gr_bazen() {
             $b[] = $f;
         }
     }
-    foreach ((array) glob(__DIR__ . '/grafike/foto/*.{jpg,jpeg,png,webp,JPG,JPEG}', GLOB_BRACE) as $f) { if ($f && is_readable($f)) { $b[] = $f; } }
     return $b;
 }
 
