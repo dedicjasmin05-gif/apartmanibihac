@@ -8,8 +8,9 @@
  */
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_GR_VER', '4');
+define('ABU_GR_VER', '5');
 define('ABU_GR_TEL', '+387 61 591 320');
+define('ABU_GR_OBJEKT', 'apartman-centar'); // jedini objekt čije se fotografije smiju koristiti u objavama
 
 function abu_gr_moze() {
     return function_exists('imagecreatetruecolor') && function_exists('imagettftext') && function_exists('imagettfbbox');
@@ -36,12 +37,43 @@ function abu_gr_oznaka($id) {
     return 'Vodič';
 }
 
-/** Putanja do izvorne fotografije (istaknuta slika). */
+/** Je li fotografija s nekog objekta (kuće/vikendice)? Dopušten je samo Apartman Centar. */
+function abu_gr_tudji_objekt($att) {
+    $rod = (int) wp_get_post_parent_id($att);
+    if ($rod && get_post_type($rod) === 'objekt' && get_post_field('post_name', $rod) !== ABU_GR_OBJEKT) { return true; }
+    $x = get_posts(array('post_type' => 'objekt', 'post_status' => 'any', 'numberposts' => 1, 'fields' => 'ids', 'meta_key' => '_thumbnail_id', 'meta_value' => (int) $att));
+    return $x && get_post_field('post_name', $x[0]) !== ABU_GR_OBJEKT;
+}
+
+/** Fotografije za objave: Apartman Centar (položene, bez kupatila) + fotografije od vlasnika u grafike/foto/. */
+function abu_gr_bazen() {
+    static $b = null;
+    if ($b !== null) { return $b; }
+    $b = array();
+    $o = get_page_by_path(ABU_GR_OBJEKT, OBJECT, 'objekt');
+    if ($o && function_exists('ab_slike')) {
+        foreach (ab_slike($o->ID, 30) as $i) {
+            $f = get_attached_file($i); $m = wp_get_attachment_metadata($i);
+            if (!$f || !is_readable($f) || preg_match('/(wc|kupatil|kupaon|toalet)/i', basename($f))) { continue; }
+            if (!empty($m['width']) && !empty($m['height']) && $m['height'] > $m['width']) { continue; }
+            $b[] = $f;
+        }
+    }
+    foreach ((array) glob(__DIR__ . '/grafike/foto/*.{jpg,jpeg,png,webp,JPG,JPEG}', GLOB_BRACE) as $f) { if ($f && is_readable($f)) { $b[] = $f; } }
+    return $b;
+}
+
+/** Fotografija za grafiku: istaknuta slika članka ako nije s tuđeg objekta (i nije objava o smještaju); inače iz bazena. */
 function abu_gr_foto($id) {
-    $att = get_post_thumbnail_id($id);
-    if (!$att) { return array(0, ''); }
-    $f = get_attached_file($att);
-    return array((int) $att, ($f && is_readable($f)) ? $f : '');
+    $att = (int) get_post_thumbnail_id($id);
+    if ($att && !abu_je_smjestaj($id) && !abu_gr_tudji_objekt($att)) {
+        $f = get_attached_file($att);
+        if ($f && is_readable($f)) { return array($att, $f); }
+    }
+    $b = abu_gr_bazen();
+    if (!$b) { return array(0, ''); }
+    $f = $b[abs(crc32((string) get_post_field('post_name', $id))) % count($b)];
+    return array('b' . md5($f), $f);
 }
 
 /** URL grafike ('ig' ili 'fb') za članak; napravi je ako ne postoji. Prazno ako nije moguće. */
@@ -53,7 +85,7 @@ function abu_grafika($id, $vrsta = 'fb') {
     $naslov = html_entity_decode(wp_strip_all_tags(get_the_title($id)), ENT_QUOTES, 'UTF-8');
     $oznaka = abu_gr_oznaka($id);
     $datum = get_the_date('j. n. Y.', $id);
-    $tel = abu_je_smjestaj($id);
+    $tel = false;
     $hash = substr(md5(ABU_GR_VER . '|' . $vrsta . '|' . $naslov . '|' . $att . '|' . $oznaka . '|' . $datum . '|' . (int) $tel), 0, 10);
     $up = wp_upload_dir();
     if (!empty($up['error'])) { return ''; }
@@ -64,7 +96,7 @@ function abu_grafika($id, $vrsta = 'fb') {
     if (!wp_mkdir_p($dir)) { return ''; }
     if (get_transient('abu_gr_lock_' . $id . $vrsta)) { return ''; }
     set_transient('abu_gr_lock_' . $id . $vrsta, 1, 60);
-    $ok = abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $dir . '/' . $ime, $tel);
+    $ok = abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $dir . '/' . $ime, false); // broj ide u tekst objave, ne na sliku
     delete_transient('abu_gr_lock_' . $id . $vrsta);
     if (!$ok) { return ''; }
     foreach ((array) glob($dir . '/' . $id . '-' . $vrsta . '-*.jpg') as $stara) { if ($stara && basename($stara) !== $ime) { @unlink($stara); } }
