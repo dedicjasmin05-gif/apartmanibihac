@@ -60,6 +60,9 @@ $forma = function ($klasa) use ($mjesta) {
 </section>
 <?php endif; ?>
 
+<?php // Istaknute vijesti iz turizma (ako ih još nema, opće novosti); pretraga je ispod
+if (function_exists('abu_vijesti_blok')) { $tv = abu_vijesti_blok('turizam', 4, 'Istaknute vijesti iz turizma'); echo $tv ? $tv : abu_vijesti_blok('', 4, 'Novosti iz Bihaća i s Une'); } // phpcs:ignore ?>
+
 <section class="find" aria-labelledby="find-h">
   <div class="wrap">
     <p class="eyebrow eyebrow--light">Pretraga</p>
@@ -72,8 +75,6 @@ $forma = function ($klasa) use ($mjesta) {
     </ol>
   </div>
 </section>
-
-<?php if (function_exists('abu_vijesti_blok')) { echo abu_vijesti_blok('', 4, 'Novosti iz Bihaća i s Une'); } // phpcs:ignore ?>
 
 <section class="how" aria-labelledby="how-h">
   <div class="wrap how__in">
