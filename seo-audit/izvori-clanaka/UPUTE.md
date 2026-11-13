@@ -47,3 +47,13 @@ aerodrom (ne zračna luka), hiljada (ne tisuća), sedmica (ne tjedan), porodica 
 elektronski (ne elektronički), dozvoljeno (ne dopušteno), vanredno (ne izvanredno), nosilac (ne nositelj),
 postepeno (ne postupno), mjeseci: januar, februar, mart, april, maj, juni, juli, august, septembar, oktobar, novembar, decembar
 (i u slugovima: npr. ...-novembar-2026, nikad studeni). Naslovi izvora i vlastita imena ostaju kako jesu.
+
+## Puni SEO i prijevodi za SVAKU vijest (Jasmin, 13. 11. 2026.)
+Svaka nova vijest (dnevna i sedmična) ide na tri jezika i mora biti spremna za indeksiranje:
+- bs: `naslov` ≤ 60 znakova, ključna riječ naprijed (npr. „Bihać: …“, „NP Una: …“); `izvod` 140–155 znakova (meta opis, poziv na klik);
+  `html`: prvi odlomak odgovara na „šta, gdje, kada“ i spominje Bihać/Unu/USK; 2–3 podnaslova `<h2>`; barem 1 unutarnja poveznica
+  na relevantan vodič ili smještaj na apartmanibihac.com; izvor na kraju; bez izmišljenih podataka.
+- `en` i `de`: objekti s istim poljima {slug, naslov, izvod, html}, prirodan prijevod (ne doslovan), isti podaci, slug na tom jeziku
+  (ASCII, s „bihac“ gdje prirodno), naslov ≤ 60, izvod 120–155, poveznice na EN/DE stranice (seo/parovi.json, /en/stays/, /de/unterkuenfte/,
+  /en/guide/, /de/reisefuehrer/), izvor na kraju („Source:“ / „Quelle:“). Datumi: „14 November 2026“ / „14. November 2026“.
+- Web sam napravi /en/news/<slug>/ i /de/nachrichten/<slug>/, hreflang između sve tri verzije, NewsArticle schema, sliku s logom i IndexNow.

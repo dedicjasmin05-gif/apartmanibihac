@@ -77,19 +77,23 @@ add_filter('the_content', function ($c) {
     return substr($c, 0, $m[0][1]) . substr($c, $m[0][1] + strlen($m[0][0]));
 }, 11); // nakon do_blocks (9) i wpautop (10)
 
-/** 4. Članci: BlogPosting schema (naslov, datumi, slika, izdavač). Bez ocjena i recenzija. */
+/** 4. Članci: BlogPosting (vijesti: NewsArticle s izvorom) schema (naslov, datumi, slika, izdavač). Bez ocjena i recenzija. */
 add_action('wp_head', function () {
     if (!is_singular('post')) { return; }
     $id = get_queried_object_id();
-    $d = array('@context' => 'https://schema.org', '@type' => 'BlogPosting',
+    $vijest = get_post_meta($id, '_abu_dnevna_vijest', true) || (function_exists('abu_vijesti_kat_ime') && abu_vijesti_kat_ime($id) !== 'Vodič');
+    $d = array('@context' => 'https://schema.org', '@type' => $vijest ? 'NewsArticle' : 'BlogPosting',
         'headline' => wp_strip_all_tags(get_the_title($id)),
         'url' => get_permalink($id), 'mainEntityOfPage' => get_permalink($id),
         'datePublished' => get_the_date('c', $id), 'dateModified' => get_the_modified_date('c', $id),
         'inLanguage' => 'bs',
         'author' => array('@type' => 'Organization', 'name' => 'Apartmani & Vikendice Bihać', 'url' => home_url('/')),
         'publisher' => array('@id' => home_url('/#org')));
-    $img = get_the_post_thumbnail_url($id, 'large');
-    if ($img) { $d['image'] = $img; }
+    $img = function_exists('abu_grafika') ? abu_grafika($id, 'fb') : '';
+    $img2 = get_the_post_thumbnail_url($id, 'large');
+    if ($img && $img2) { $d['image'] = array($img, $img2); } elseif ($img || $img2) { $d['image'] = $img ? $img : $img2; }
+    $iz = get_post_meta($id, '_abu_izvor_url', true);
+    if ($iz) { $d['isBasedOn'] = $iz; }
     $opis = has_excerpt($id) ? get_the_excerpt($id) : '';
     if ($opis) { $d['description'] = wp_strip_all_tags($opis); }
     $kat = get_the_category($id);

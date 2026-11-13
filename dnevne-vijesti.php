@@ -63,7 +63,17 @@ function abu_dv_obradi($lista, $sada = null) {
         if (!empty($v['fb'])) { update_post_meta($id, '_abu_fb_tekst', wp_strip_all_tags($v['fb'])); }
         if (!empty($v['ig'])) { update_post_meta($id, '_abu_ig_tekst', wp_strip_all_tags($v['ig'])); }
         if (function_exists('abu_vijesti_slika_za')) { $img = abu_vijesti_slika_za($slug, (string) ($v['slika'] ?? '')); if ($img) { set_post_thumbnail($id, $img); } }
+        foreach (array('en', 'de') as $l) { if (!empty($v[$l]) && function_exists('abu_vj_spremi')) { abu_vj_spremi($id, $l, $v[$l]); } }
         $objavljeno++; $n_danas++;
+    }
+    // Prijevodi za već objavljene vijesti (dodani ili izmijenjeni naknadno).
+    if (function_exists('abu_vj_spremi')) {
+        foreach ((array) $lista as $v) {
+            if (!is_array($v) || empty($v['slug']) || (empty($v['en']) && empty($v['de']))) { continue; }
+            $bs = get_page_by_path(sanitize_title($v['slug']), OBJECT, 'post');
+            if (!$bs || $bs->post_status !== 'publish') { continue; }
+            foreach (array('en', 'de') as $l) { if (!empty($v[$l])) { abu_vj_spremi($bs->ID, $l, $v[$l]); } }
+        }
     }
     update_option('abu_dv_dan', array('d' => $danas, 'n' => $n_danas), false);
     return $objavljeno;
