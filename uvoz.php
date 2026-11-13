@@ -179,14 +179,26 @@ add_action('init', function () {
     $path = isset($_SERVER['REQUEST_URI']) ? strtok(wp_unslash($_SERVER['REQUEST_URI']), '?') : '';
     if ($path !== '/llms.txt') { return; }
     header('Content-Type: text/plain; charset=utf-8');
-    $o = "# Apartmani i vikendice Bihać (apartmanibihac.com)\n\n> Smještaj u Bihaću i uz rijeku Unu, Bosna i Hercegovina: apartmani u gradu i kuće za odmor u Lohovu, Pritoci i Grmuši. Cijene od 25 do 100 € po noći za cijeli objekt. Direktan upit, vlasnik potvrđuje u roku od 12 sati, plaćanje gotovinom pri dolasku, kapara nije obavezna (ako objekt traži avans, piše u potvrdi upita). Kontakt: +387 61 591 320 (WhatsApp/Viber).\n\n## Smještaj\n";
+    $o = "# Apartmani i vikendice Bihać (apartmanibihac.com)\n\n> Smještaj u Bihaću i uz rijeku Unu, Bosna i Hercegovina: apartmani u gradu i kuće za odmor u Lohovu, Pritoci i Grmuši. Cijene od 25 do 100 € po noći za cijeli objekt. Direktan upit, vlasnik potvrđuje u roku od 12 sati, plaćanje gotovinom pri dolasku, kapara nije obavezna (ako objekt traži avans, piše u potvrdi upita). Kontakt: +387 61 591 320 (WhatsApp/Viber).\n\n";
+    // Brze činjenice (kratki, provjereni podaci za citiranje) na tri jezika.
+    $bc = array('brze-cinjenice' => 'Brze činjenice (bs)', 'en/quick-facts' => 'Quick facts (en)', 'de/kurzfakten' => 'Kurzfakten (de)');
+    $bco = '';
+    foreach ($bc as $put => $n) { $p = get_page_by_path($put); if ($p && $p->post_status === 'publish') { $bco .= '- [' . $n . '](' . get_permalink($p) . '): ' . wp_strip_all_tags($p->post_excerpt) . "\n"; } }
+    if ($bco) { $o .= "## Ključne činjenice\n" . $bco . "\n"; }
+    $o .= "## Smještaj\n";
     foreach (get_posts(array('post_type' => 'objekt', 'post_status' => 'publish', 'numberposts' => 200, 'orderby' => 'title', 'order' => 'ASC')) as $p) {
         $o .= '- [' . $p->post_title . '](' . get_permalink($p) . '): ' . get_post_meta($p->ID, '_abu_mjesto', true) . ', do ' . abu_osobe(get_post_meta($p->ID, '_abu_kapacitet', true)) . '. ' . wp_strip_all_tags($p->post_excerpt) . "\n";
     }
     $o .= "\n## Vodiči\n";
     foreach (get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'numberposts' => 100)) as $p) {
         if (function_exists('abu_seo_skriveni_clanci') && in_array($p->post_name, abu_seo_skriveni_clanci(), true)) { continue; }
+        if (get_post_meta($p->ID, '_abu_dnevna_vijest', true)) { continue; } // dnevne vijesti su u odjeljku Novosti
         $o .= '- [' . $p->post_title . '](' . get_permalink($p) . '): ' . wp_strip_all_tags(get_the_excerpt($p)) . "\n";
+    }
+    $nov = get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'numberposts' => 6, 'meta_key' => '_abu_dnevna_vijest', 'meta_value' => '1'));
+    if ($nov) {
+        $o .= "\n## Novosti iz turizma (najnovije)\n";
+        foreach ($nov as $p) { $o .= '- [' . $p->post_title . '](' . get_permalink($p) . ') (' . get_the_date('j. n. Y.', $p) . '): ' . wp_strip_all_tags(get_the_excerpt($p)) . "\n"; }
     }
     $o .= "\n## Česta pitanja\n- [Sva česta pitanja o Bihaću i smještaju](" . home_url('/cesta-pitanja/') . "): odgovori po temama\n- [Svi odgovori kao tekst](" . home_url('/llms-full.txt') . ")\n";
     if (function_exists('abu_pitanja_teme')) { foreach (abu_pitanja_teme() as $t) { $p = get_page_by_path('cesta-pitanja/' . $t[0]); if ($p && $p->post_status === 'publish') { $o .= '- [' . $t[1] . '](' . get_permalink($p) . '): ' . $t[2] . "\n"; } } }
