@@ -8,7 +8,8 @@
  */
 if (!defined('ABSPATH')) { exit; }
 
-define('ABU_GR_VER', '1');
+define('ABU_GR_VER', '3');
+define('ABU_GR_TEL', '+387 61 591 320');
 
 function abu_gr_moze() {
     return function_exists('imagecreatetruecolor') && function_exists('imagettftext') && function_exists('imagettfbbox');
@@ -131,12 +132,15 @@ function abu_gr_uravnotezi($vel, $font, $tekst, $max) {
 
 /** Tekst s razmakom između slova (za oznaku). Vraća širinu. */
 function abu_gr_razmaknuto($c, $vel, $font, $x, $y, $boja, $tekst, $razmak, $crtaj = true) {
-    $sx = $x;
-    foreach (preg_split('//u', $tekst, -1, PREG_SPLIT_NO_EMPTY) as $z) {
-        if ($crtaj) { imagettftext($c, $vel, 0, (int) round($x), (int) round($y), $boja, $font, $z); }
-        $x += abu_gr_sirina($vel, $font, $z === ' ' ? 'i' : $z) + $razmak;
+    $z = preg_split('//u', $tekst, -1, PREG_SPLIT_NO_EMPTY);
+    $pre = '';
+    foreach ($z as $i => $slovo) {
+        // položaj iz širine cijelog prethodnog niza (prava širina slova uz kerning), plus razmak
+        $px = $pre === '' ? 0 : abu_gr_sirina($vel, $font, $pre . 'H') - abu_gr_sirina($vel, $font, 'H');
+        if ($crtaj && $slovo !== ' ') { imagettftext($c, $vel, 0, (int) round($x + $px + $i * $razmak), (int) round($y), $boja, $font, $slovo); }
+        $pre .= $slovo;
     }
-    return $x - $razmak - $sx;
+    return abu_gr_sirina($vel, $font, $tekst) + (count($z) - 1) * $razmak;
 }
 
 function abu_gr_zaobljeno($c, $x1, $y1, $x2, $y2, $r, $boja) {
@@ -197,17 +201,28 @@ function abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $izlaz) {
     while (count($red) > $granica && $vel > ($ig ? 52 : 34)) { $vel -= 4; $red = abu_gr_uravnotezi($vel * $pt, $F_NASLOV, $naslov, $maxw); }
     $vis = (int) round($vel * $lh);
 
-    // Odozdo prema gore: podnožje → val → naslov → oznaka.
-    $y_pod = $dno - (int) round($pod * 0.28);
-    imagettftext($c, $pod * $pt, 0, $L, $y_pod, $bijela, $F_POD, 'apartmanibihac.com');
+    // Odozdo prema gore: podnožje (broj telefona u prvom planu) → val → naslov → oznaka.
+    $tv = $ig ? 46 : 34;                       // veličina broja (px)
+    $mal = $ig ? 23 : 18;                      // sitni tekst
+    $ikona = $ig ? 44 : 32;
+    $sun_t = imagecolorallocate($c, 242, 183, 5);
     if ($ig) {
-        $sw = abu_gr_sirina($pod * $pt, $F_POD, $datum);
-        imagettftext($c, $pod * $pt, 0, $W - 60 - $sw, $y_pod, $bijela2, $F_POD, $datum);
+        $y_tel = $dno - (int) round($tv * 0.18);
+        abu_gr_png($c, $d . 'tel.png', $L - 4, $y_tel - (int) round($tv * 0.78) - 2, $ikona, $ikona);
+        imagettftext($c, $tv * $pt, 0, $L + $ikona + 10, $y_tel, $sun_t, $F_NASLOV, ABU_GR_TEL);
+        $t1 = 'Poziv · WhatsApp · Viber'; $t2 = 'apartmanibihac.com';
+        imagettftext($c, $mal * $pt, 0, $W - 60 - abu_gr_sirina($mal * $pt, $F_POD, $t2), $y_tel, $bijela, $F_POD, $t2);
+        imagettftext($c, $mal * $pt, 0, $W - 60 - abu_gr_sirina($mal * $pt, $F_POD, $t1), $y_tel - (int) round($mal * 1.3), $bijela2, $F_POD, $t1);
+        $vrh_pod = $y_tel - (int) round($tv * 0.8);
     } else {
-        $x = $L + abu_gr_sirina($pod * $pt, $F_POD, 'apartmanibihac.com') + 24;
-        imagettftext($c, $pod * $pt, 0, $x, $y_pod, $bijela2, $F_POD, $datum);
+        $y_mal = $dno - (int) round($mal * 0.25);
+        imagettftext($c, $mal * $pt, 0, $L, $y_mal, $bijela2, $F_POD, 'Poziv · WhatsApp · Viber · apartmanibihac.com');
+        $y_tel = $y_mal - (int) round($mal * 1.45);
+        abu_gr_png($c, $d . 'tel.png', $L - 3, $y_tel - (int) round($tv * 0.78) - 1, $ikona, $ikona);
+        imagettftext($c, $tv * $pt, 0, $L + $ikona + 8, $y_tel, $sun_t, $F_NASLOV, ABU_GR_TEL);
+        $vrh_pod = $y_tel - (int) round($tv * 0.8);
     }
-    $y_val = $dno - (int) round($pod * 1.25) - ($ig ? 26 : 18) - $valh;
+    $y_val = $vrh_pod - ($ig ? 28 : 18) - $valh;
     abu_gr_png($c, $d . 'val.png', $L, $y_val, $valw, $valh);
 
     $y_zadnji = $y_val - ($ig ? 22 : 18) - (int) round($vel * 0.22);
