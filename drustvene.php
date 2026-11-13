@@ -17,7 +17,7 @@ function abu_dr_jezik() {
 
 function abu_dr_t($k) {
     $t = array(
-        'bs' => array('prati' => 'Pratite nas', 'pratitelja' => 'pratitelja', 'osvrta' => 'osvrta', 'prep' => '100 % preporučuje', 'podijeli' => 'Podijelite ovaj smještaj', 'kopiraj' => 'Kopiraj link', 'kopirano' => 'Link kopiran', 'zajednica' => 'Najveća zajednica za smještaj u Bihaću', 'novo' => 'Nove fotografije, slobodni termini i akcije prvo objavljujemo na Facebooku i Instagramu.'),
+        'bs' => array('prati' => 'Pratite nas', 'pratitelja' => 'pratilaca', 'osvrta' => 'osvrta', 'prep' => '100 % preporučuje', 'podijeli' => 'Podijelite ovaj smještaj', 'kopiraj' => 'Kopiraj link', 'kopirano' => 'Link kopiran', 'zajednica' => 'Najveća zajednica za smještaj u Bihaću', 'novo' => 'Nove fotografije, slobodni termini i akcije prvo objavljujemo na Facebooku i Instagramu.'),
         'en' => array('prati' => 'Follow us', 'pratitelja' => 'followers', 'osvrta' => 'reviews', 'prep' => '100% recommend', 'podijeli' => 'Share this property', 'kopiraj' => 'Copy link', 'kopirano' => 'Link copied', 'zajednica' => 'The largest accommodation community in Bihać', 'novo' => 'New photos, free dates and offers appear first on Facebook and Instagram.'),
         'de' => array('prati' => 'Folgen Sie uns', 'pratitelja' => 'Follower', 'osvrta' => 'Bewertungen', 'prep' => '100 % empfehlen', 'podijeli' => 'Unterkunft teilen', 'kopiraj' => 'Link kopieren', 'kopirano' => 'Link kopiert', 'zajednica' => 'Die größte Unterkunfts-Community in Bihać', 'novo' => 'Neue Fotos, freie Termine und Angebote zuerst auf Facebook und Instagram.'),
     );

@@ -30,7 +30,7 @@ function abu_pov_naslovi() {
         'park'    => array('bs' => 'Smještaj za izlet u Nacionalni park Una', 'en' => 'Where to stay for Una National Park', 'de' => 'Unterkunft für den Nationalpark Una'),
         'bazen'   => array('bs' => 'Kuće s bazenom i uz Unu', 'en' => 'Houses with a pool and on the Una', 'de' => 'Häuser mit Pool und an der Una'),
         'grupe'   => array('bs' => 'Smještaj za grupe', 'en' => 'Accommodation for groups', 'de' => 'Unterkunft für Gruppen'),
-        'obitelj' => array('bs' => 'Smještaj za obitelji', 'en' => 'Accommodation for families', 'de' => 'Unterkunft für Familien'),
+        'obitelj' => array('bs' => 'Smještaj za porodice', 'en' => 'Accommodation for families', 'de' => 'Unterkunft für Familien'),
         'mix'     => array('bs' => 'Smještaj u Bihaću i uz Unu', 'en' => 'Stays in Bihać and on the Una', 'de' => 'Unterkünfte in Bihać und an der Una'),
         'ljubimci'=> array('bs' => 'Smještaj s psom ili mačkom', 'en' => 'Stays with a dog or cat', 'de' => 'Unterkunft mit Hund oder Katze'),
     );
