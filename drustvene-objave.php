@@ -29,6 +29,7 @@ function abu_dr_tekst($id, $mreza) {
 
 /** Slika za Instagram: originalna JPG istaknuta slika (Instagram ne prima WebP). */
 function abu_dr_slika($id) {
+    if (function_exists('abu_grafika') && ($g = abu_grafika($id, 'ig'))) { return $g; } // grafika s logom (grafike.php)
     $att = get_post_thumbnail_id($id);
     if (!$att) { return ''; }
     $u = wp_get_attachment_image_url($att, 'large');
