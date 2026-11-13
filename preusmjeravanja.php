@@ -29,6 +29,21 @@ function abu_stare_adrese() {
         'uvjeti'             => '/uvjeti-i-privatnost/',
         'privacy-policy'     => '/uvjeti-i-privatnost/',
         'politika-privatnosti' => '/uvjeti-i-privatnost/',
+        // 13.11.2026.: važne adrese starog sajta (arhiva 2023.–2026.) koje su vraćale 404
+        'apartman-centar-bihac'          => '/smjestaj/apartman-centar/',
+        'apartman-1-bihac'               => '/apartmani-bihac/',
+        'apartman-2-bihac'               => '/apartmani-bihac/',
+        'galerija-slika'                 => '/smjestaj-bihac/',
+        'galerija'                       => '/smjestaj-bihac/',
+        'lokacija'                       => '/o-nama/',
+        'o-hotelu'                       => '/o-nama/',
+        'contacts'                       => '/o-nama/',
+        'our-services'                   => '/izleti-bihac/',
+        'our-services/npunabihac'        => '/cesta-pitanja/nacionalni-park-una/',
+        'our-services/riverbihac'        => '/restorani-bihac/',
+        'our-services/sokolacbihac'      => '/izleti-bihac/',
+        'our-services/domacahranabihac'  => '/restorani-bihac/',
+        'our-services/pizzeriaasabihac'  => '/restorani-bihac/',
     );
 }
 
