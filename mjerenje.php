@@ -123,9 +123,10 @@ add_action('save_post_tb_upit', function ($id, $post, $update) { if (!$update &&
 add_action('wp_footer', function () {
     if (is_admin() || current_user_can('edit_posts')) { return; }
     $url = esc_url(admin_url('admin-ajax.php'));
+    $pid = (is_singular('post') && !is_front_page()) ? (int) get_queried_object_id() : 0;
     ?>
-<script>(function(){if(navigator.webdriver)return;var u="<?php echo $url; // phpcs:ignore ?>",Q=new URLSearchParams(location.search);
-function K(){var k=(Q.get("utm_campaign")||"").toLowerCase().replace(/[^a-z0-9_-]+/g,"-").slice(0,60);try{if(k){sessionStorage.setItem("abu_k",k)}else{k=sessionStorage.getItem("abu_k")||""}}catch(e){}return k}
+<script>(function(){if(navigator.webdriver)return;var u="<?php echo $url; // phpcs:ignore ?>",P=<?php echo $pid; ?>,Q=new URLSearchParams(location.search);
+function K(){var k=(Q.get("utm_campaign")||"").toLowerCase().replace(/[^a-z0-9_-]+/g,"-").slice(0,60);if(!k&&P&&Q.get("fbclid")){k="fb-"+P}try{if(k){sessionStorage.setItem("abu_k",k)}else{k=sessionStorage.getItem("abu_k")||""}}catch(e){}return k}
 var k=K();function s(d,i){try{var f=new FormData();f.append("action","abu_mj");f.append("d",d);f.append("p",location.pathname);if(i){f.append("i",i)}if(k){f.append("k",k)}if(navigator.sendBeacon){navigator.sendBeacon(u,f)}else{fetch(u,{method:"POST",body:f,keepalive:true})}}catch(e){}}
 function izvor(){var q=(Q.get("utm_source")||"").toLowerCase(),r="";try{r=document.referrer?new URL(document.referrer).hostname.toLowerCase():""}catch(e){}if(r===location.hostname)return"";if(Q.get("gclid")||Q.get("gbraid")||Q.get("wbraid"))return"google_ads";if(Q.get("fbclid")&&!q)return/instagram/.test(r)?"instagram":"facebook";var h=q+" "+r,m=[["chatgpt","chatgpt|openai"],["perplexity","perplexity"],["copilot","copilot"],["gemini","gemini"],["claude","claude"],["bing","bing"],["google","google"],["duckduckgo","duckduckgo"],["yandex","yandex"],["instagram","instagram|^ig$| ig$"],["facebook","facebook|fb\\.|fb$|^fb |meta"],["booking","booking"]];for(var x=0;x<m.length;x++){if(new RegExp(m[x][1]).test(h))return m[x][0]}return r||q?"ostalo":"direktno"}
 var i=izvor();if(i){var t=setTimeout(function(){if(document.visibilityState==="visible")s("ulaz",i)},1500);document.addEventListener("visibilitychange",function(){if(document.visibilityState!=="visible")clearTimeout(t)})}
@@ -133,6 +134,69 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 document.addEventListener("submit",function(e){var f=e.target;if(!k||!f||!f.action||f.action.indexOf("admin-post.php")<0||f.querySelector("input[name=abu_k]"))return;var x=document.createElement("input");x.type="hidden";x.name="abu_k";x.value=k;f.appendChild(x)},true)})();</script>
     <?php
 }, 99);
+
+/* ---------- Razmjena sa zakazanim zadacima (Hostinger datoteke, nisu javne) ----------
+ * wp-content/abu-mjerenje/troskovi.json  ← zadatak upisuje trošak boosta: {"fb-123":{"trosak":3,"naziv":"Boost: …"}}
+ * wp-content/abu-mjerenje/stanje.json    → web upisuje brojke kampanja i izvora (svakih 15 min), zadatak ih čita.
+ */
+function abu_mj_mapa() {
+    $d = WP_CONTENT_DIR . '/abu-mjerenje';
+    if (!is_dir($d)) { wp_mkdir_p($d); }
+    if (!file_exists($d . '/.htaccess')) { @file_put_contents($d . '/.htaccess', "Require all denied\nDeny from all\n"); }
+    if (!file_exists($d . '/index.php')) { @file_put_contents($d . '/index.php', "<?php // Silence is golden.\n"); }
+    return $d;
+}
+
+/** Troškovi iz datoteke: primjenjuju se samo kad se datoteka promijeni, pa ručni unos u adminu ostaje dok zadatak ne upiše novo. */
+function abu_mj_uvezi_troskove() {
+    $f = abu_mj_mapa() . '/troskovi.json';
+    if (!is_readable($f)) { return 0; }
+    $h = md5_file($f);
+    if (get_option('abu_mj_troskovi_hash') === $h) { return 0; }
+    $j = json_decode((string) file_get_contents($f), true);
+    if (!is_array($j)) { return 0; }
+    $sve = get_option('abu_mj_kampanje', array());
+    if (!is_array($sve)) { $sve = array(); }
+    $n = 0;
+    foreach ($j as $kamp => $v) {
+        $kamp = abu_mj_k($kamp);
+        if ($kamp === '' || !is_array($v)) { continue; }
+        if (!isset($sve[$kamp])) {
+            if (count($sve) >= 300) { continue; }
+            $sve[$kamp] = array('ulaz' => 0, 'kontakt' => 0, 'upit' => 0, 'prvi' => current_time('Y-m-d'), 'zadnji' => '', 'izvor' => '', 'trosak' => 0, 'kanal' => '', 'naziv' => '');
+        }
+        $sve[$kamp]['trosak'] = max(0, round((float) ($v['trosak'] ?? 0), 2));
+        if (!empty($v['naziv'])) { $sve[$kamp]['naziv'] = sanitize_text_field((string) $v['naziv']); }
+        if (empty($sve[$kamp]['kanal'])) { $sve[$kamp]['kanal'] = strpos($kamp, 'fb-') === 0 ? 'facebook' : ''; }
+        $n++;
+    }
+    update_option('abu_mj_kampanje', $sve, false);
+    update_option('abu_mj_troskovi_hash', $h, false);
+    return $n;
+}
+
+/** Brojke za zakazane zadatke: kampanje (s cijenom po dolasku/kontaktu/upitu) i izvori tekućeg mjeseca. */
+function abu_mj_izvezi_stanje() {
+    $sve = get_option('abu_mj_kampanje', array());
+    $kamp = array();
+    foreach ((array) $sve as $k => $c) {
+        $t = (float) $c['trosak'];
+        $kamp[$k] = array('naziv' => $c['naziv'], 'kanal' => $c['kanal'], 'trosak' => $t, 'dolasci' => (int) $c['ulaz'], 'kontakti' => (int) $c['kontakt'], 'upiti' => (int) $c['upit'],
+            'eur_po_dolasku' => ($t > 0 && $c['ulaz'] > 0) ? round($t / $c['ulaz'], 2) : null,
+            'eur_po_kontaktu' => ($t > 0 && $c['kontakt'] > 0) ? round($t / $c['kontakt'], 2) : null,
+            'eur_po_upitu' => ($t > 0 && $c['upit'] > 0) ? round($t / $c['upit'], 2) : null,
+            'prvi' => $c['prvi'], 'zadnji' => $c['zadnji']);
+    }
+    $m = current_time('Y-m');
+    $z = (array) get_option('abu_mjerenje_' . $m, array());
+    $izv = array();
+    foreach (abu_mj_izvori() as $i) { $izv[$i] = isset($z['i:' . $i]) ? (int) $z['i:' . $i] : 0; }
+    $o = array('azurirano' => current_time('c'), 'mjesec' => $m, 'kampanje' => $kamp, 'izvori_mjesec' => $izv,
+        'kontakti_mjesec' => array('tel' => (int) ($z['d:tel'] ?? 0), 'wa' => (int) ($z['d:wa'] ?? 0), 'viber' => (int) ($z['d:viber'] ?? 0), 'mail' => (int) ($z['d:mail'] ?? 0)),
+        'upiti_mjesec' => function_exists('abu_mj_upiti') ? abu_mj_upiti($m) : array());
+    @file_put_contents(abu_mj_mapa() . '/stanje.json', wp_json_encode($o, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+}
+add_action('abu_cron', function () { abu_mj_uvezi_troskove(); abu_mj_izvezi_stanje(); }, 30);
 
 /* ---------- Izvještaj u adminu ---------- */
 add_action('admin_menu', function () {
@@ -195,6 +259,7 @@ function abu_mj_link($kamp, $kanal, $put = '/') {
 }
 
 function abu_mj_izvjestaj() {
+    abu_mj_uvezi_troskove();
     $poruka = abu_mj_spremi_kampanje();
     $mj = array(current_time('Y-m'), gmdate('Y-m', strtotime(current_time('Y-m') . '-01 -1 month')), gmdate('Y-m', strtotime(current_time('Y-m') . '-01 -2 month')));
     $z = array(); $u = array();
@@ -210,7 +275,7 @@ function abu_mj_izvjestaj() {
     uasort($sve, function ($a, $b) { return strcmp((string) $b['zadnji'], (string) $a['zadnji']); });
     echo '<h2>Kampanje: koliko je došlo ljudi za uloženi novac</h2>';
     echo '<p>Svaki plaćeni oglas (Facebook boost, Google Ads…) neka vodi na link s oznakom kampanje. Upiši koliko si platio, a ovdje se vidi cijena po dolasku, po kontaktu i po upitu. '
-        . 'Automatske objave na Facebooku same dobivaju oznaku <code>fb-ID</code>, pa kad boostaš takvu objavu, samo upiši trošak u njen red. '
+        . 'Svaki dolazak s Facebooka na članak ide u kampanju <code>fb-ID</code> tog članka, pa kad boostaš objavu, samo upiši trošak u njen red (zakazani zadatak za boost to radi sam). '
         . '<b>Dolazak</b> = posjetitelj otvorio stranicu (isti preglednik broji se jednom u 30 min). <b>Kontakt</b> = klik na telefon, WhatsApp, Viber ili e-mail. <b>Upit</b> = poslan obrazac.</p>';
     echo '<form method="post">';
     wp_nonce_field('abu_mj_kamp');
