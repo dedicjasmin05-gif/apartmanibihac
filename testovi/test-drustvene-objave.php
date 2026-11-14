@@ -15,13 +15,14 @@ function get_post_thumbnail_id($id) { return $id === 2 ? 0 : 50; } function wp_g
 function is_wp_error($x) { return false; }
 function wp_remote_post($u, $a) { $GLOBALS['poz'][] = array($u, $a['body']); return array_shift($GLOBALS['odg']); }
 function wp_remote_retrieve_body($r) { return $r; }
+function add_query_arg($a, $u) { return $u . (strpos($u, '?') === false ? '?' : '&') . http_build_query($a); }
 require dirname(__DIR__) . '/drustvene-objave.php';
 $ok = 0; $bad = 0; function t($n, $u) { global $ok, $bad; if ($u) { $ok++; } else { $bad++; echo "NEUSPJEH: $n\n"; } }
 t('bez tokena ne objavljuje', abu_dr_objavi_jedan(1, 'fb') === 'Nema tokena.' && !$GLOBALS['poz']);
 $GLOBALS['opt']['abu_meta'] = array('page_id' => '123', 'token' => 'TAJNA', 'ig_id' => '456', 'auto' => 1);
 $GLOBALS['odg'] = array('{"id":"123_999"}');
 t('facebook objava', abu_dr_objavi_jedan(1, 'fb') === 'Objavljeno na Facebooku.' && $GLOBALS['meta'][1]['_abu_fb_id'] === '123_999');
-t('facebook poziv ide na /123/feed s linkom', strpos($GLOBALS['poz'][0][0], '/123/feed') !== false && $GLOBALS['poz'][0][1]['link'] === 'https://apartmanibihac.com/clanak-1/');
+t('facebook poziv ide na /123/feed s linkom', strpos($GLOBALS['poz'][0][0], '/123/feed') !== false && $GLOBALS['poz'][0][1]['link'] === 'https://apartmanibihac.com/clanak-1/?utm_source=facebook&utm_medium=social&utm_campaign=fb-1');
 t('ne objavljuje dvaput', abu_dr_objavi_jedan(1, 'fb') === 'Već objavljeno na Facebooku.' && count($GLOBALS['poz']) === 1);
 $GLOBALS['odg'] = array('{"id":"C1"}', '{"id":"IG9"}');
 t('instagram: kontejner pa objava', abu_dr_objavi_jedan(1, 'ig') === 'Objavljeno na Instagramu.' && strpos($GLOBALS['poz'][2][0], '/456/media_publish') !== false && $GLOBALS['poz'][2][1]['creation_id'] === 'C1');

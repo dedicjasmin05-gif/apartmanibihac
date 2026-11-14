@@ -48,11 +48,16 @@ function abu_dr_graph($put, $polja) {
     return array($j, '');
 }
 
+/** Link članka za Facebook s oznakom kampanje fb-ID, da se u Mjerenju vide dolasci, kontakti i upiti s te objave (i njenog boosta). */
+function abu_dr_link($id) {
+    return add_query_arg(array('utm_source' => 'facebook', 'utm_medium' => 'social', 'utm_campaign' => 'fb-' . (int) $id), get_permalink($id));
+}
+
 /** Objavi jedan članak na odabranu mrežu; sprema ID objave ili grešku u meta polja. */
 function abu_dr_objavi_jedan($id, $mreza) {
     $o = abu_meta_opt();
     if (!$o['token']) { return 'Nema tokena.'; }
-    $link = get_permalink($id);
+    $link = abu_dr_link($id);
     if ($mreza === 'fb') {
         if (!$o['page_id']) { return 'Nema ID-a Facebook stranice.'; }
         if (get_post_meta($id, '_abu_fb_id', true)) { return 'Već objavljeno na Facebooku.'; }
@@ -147,7 +152,7 @@ function abu_dr_admin() {
             return ($g ? '<span style="color:#b32d2e">' . esc_html($g) . '</span><br>' : '') . $b;
         };
         echo '<tr><td><a href="' . esc_url(get_permalink($p)) . '" target="_blank">' . esc_html($p->post_title) . '</a><br><small>' . esc_html(get_the_date('', $p)) . '</small></td><td>' . $st('fb') . '</td><td>' . $st('ig') . '</td>'
-            . '<td><textarea readonly rows="4" style="width:100%" onclick="this.select()">' . esc_textarea(abu_dr_tekst($p->ID, 'fb') . "\n\n" . get_permalink($p)) . '</textarea></td></tr>';
+            . '<td><textarea readonly rows="4" style="width:100%" onclick="this.select()">' . esc_textarea(abu_dr_tekst($p->ID, 'fb') . "\n\n" . abu_dr_link($p->ID)) . '</textarea></td></tr>';
     }
     echo '</tbody></table></div>';
 }

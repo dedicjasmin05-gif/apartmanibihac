@@ -6,6 +6,8 @@ function add_action() {} function add_filter($h, $cb) { $GLOBALS['F'][$h][] = $c
 function get_option($k, $d = false) { return isset($GLOBALS['O'][$k]) ? $GLOBALS['O'][$k] : $d; }
 function update_option($k, $v) { $GLOBALS['O'][$k] = $v; }
 function current_time($f) { return gmdate($f); }
+$GLOBALS['T'] = array(); function get_transient($k) { return $GLOBALS['T'][$k] ?? false; } function set_transient($k, $v, $e) { $GLOBALS['T'][$k] = $v; }
+function wp_salt($s) { return 'sol'; } define('MINUTE_IN_SECONDS', 60);
 function wp_parse_url($u, $c) { return parse_url($u, $c); }
 function is_front_page() { return $GLOBALS['FP']; }
 function wp_strip_all_tags($s) { return strip_tags($s); }
@@ -30,4 +32,18 @@ t('naslov bez Bihaća zadržava ime', isset($tp(array('title' => 'O nama', 'site
 t('"Unadom" nije "Una"', isset($tp(array('title' => 'Vikendica Unadom', 'site' => 'X'))['site']));
 t('dug naslov bez Bihaća gubi ime sajta', !isset($tp(array('title' => 'Što ponijeti na rafting: praktičan popis za pripremu', 'site' => 'Apartmani i vikendice Bihać'))['site']));
 t('kratak naslov bez Bihaća zadržava ime', isset($tp(array('title' => 'O nama', 'site' => 'Apartmani i vikendice Bihać'))['site']));
+// kampanje
+t('oznaka kampanje očišćena', abu_mj_k(' Boost Nova Godina!! ') === 'boost-nova-godina' && abu_mj_k(str_repeat('a', 80)) === str_repeat('a', 60));
+abu_mj_kampanja_zabiljezi('fb-12', 'ulaz', 'facebook'); abu_mj_kampanja_zabiljezi('fb-12', 'ulaz', 'facebook'); abu_mj_kampanja_zabiljezi('fb-12', 'kontakt'); abu_mj_kampanja_zabiljezi('fb-12', 'upit');
+$c = $GLOBALS['O']['abu_mj_kampanje']['fb-12'];
+t('kampanja broji', $c['ulaz'] === 2 && $c['kontakt'] === 1 && $c['upit'] === 1 && $c['izvor'] === 'facebook');
+t('nepoznata vrsta odbijena', abu_mj_kampanja_zabiljezi('fb-12', 'hack') === false && abu_mj_kampanja_zabiljezi('', 'ulaz') === false);
+for ($i = 0; $i < 310; $i++) { abu_mj_kampanja_zabiljezi('k' . $i, 'ulaz'); }
+t('najviše 300 kampanja', count($GLOBALS['O']['abu_mj_kampanje']) === 300);
+t('cijena po upitu', abu_mj_po(30, 4) === '7,50 €' && abu_mj_po(0, 4) === '–' && abu_mj_po(30, 0) === '–');
+$_SERVER['REMOTE_ADDR'] = '1.2.3.4'; $_SERVER['HTTP_USER_AGENT'] = 'Mozilla/5.0 (iPhone)';
+t('prvi dolazak se broji', abu_mj_ponovljeno() === false); t('ponovljeni u 30 min ne', abu_mj_ponovljeno() === true);
+$_SERVER['REMOTE_ADDR'] = '5.6.7.8'; t('drugi posjetitelj se broji', abu_mj_ponovljeno() === false);
+$_SERVER['HTTP_USER_AGENT'] = 'facebookexternalhit/1.1'; t('facebook pregled je bot', abu_mj_bot());
+t('google_ads je izvor', in_array('google_ads', abu_mj_izvori(), true));
 echo "OK $ok, neuspjeh $bad\n"; exit($bad ? 1 : 0);
