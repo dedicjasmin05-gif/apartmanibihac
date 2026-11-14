@@ -1,7 +1,7 @@
 <?php
 /**
  * Grafike za objave: za svaki članak web sam složi sliku s logom (fotografija + naslov + oznaka + adresa + datum).
- * - 'ig' 1080×1350 (Instagram), 'fb' 1200×630 (Facebook i og:image pri dijeljenju linka).
+ * - 'ig' 1080×1350 (Instagram), 'fb' 1200×630 (Facebook i og:image pri dijeljenju linka), 'story' 1080×1920 (FB i IG story).
  * - Spremaju se u uploads/abu-grafike/{id}-{vrsta}-{hash}.jpg; nova se pravi samo kad se promijeni naslov, slika, oznaka ili datum.
  * - Fontovi (OFL) i logo su u mapi grafike/. Ako server nema GD s FreeType, vraća '' i sve radi kao prije (obična fotografija).
  * Povrat: ukloniti require_once u apartmani-upiti.php.
@@ -80,10 +80,10 @@ function abu_gr_foto($id) {
     return array('b' . md5($f), $f);
 }
 
-/** URL grafike ('ig' ili 'fb') za članak; napravi je ako ne postoji. Prazno ako nije moguće. */
+/** URL grafike ('ig', 'fb' ili 'story') za članak; napravi je ako ne postoji. Prazno ako nije moguće. */
 function abu_grafika($id, $vrsta = 'fb') {
     $id = (int) $id;
-    if (!abu_gr_moze() || !in_array($vrsta, array('ig', 'fb'), true) || get_post_type($id) !== 'post') { return ''; }
+    if (!abu_gr_moze() || !in_array($vrsta, array('ig', 'fb', 'story'), true) || get_post_type($id) !== 'post') { return ''; }
     list($att, $foto) = abu_gr_foto($id);
     if (!$foto) { return ''; }
     $naslov = html_entity_decode(wp_strip_all_tags(get_the_title($id)), ENT_QUOTES, 'UTF-8');
@@ -213,8 +213,9 @@ function abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $izlaz, $tel = 
     foreach (array($F_NASLOV, $F_OZN, $F_POD) as $f) { if (!is_readable($f)) { return false; } }
     $src = abu_gr_ucitaj($foto);
     if (!$src) { return false; }
-    $ig = $vrsta === 'ig';
-    $W = $ig ? 1080 : 1200; $H = $ig ? 1350 : 630;
+    $story = $vrsta === 'story';
+    $ig = $vrsta === 'ig' || $story; // story = isti raspored kao Instagram, samo viši (9:16)
+    $W = $ig ? 1080 : 1200; $H = $story ? 1920 : ($ig ? 1350 : 630);
     $c = imagecreatetruecolor($W, $H);
     imagealphablending($c, true);
     $una = imagecolorallocate($c, 14, 79, 76);
@@ -230,8 +231,9 @@ function abu_gr_nacrtaj($vrsta, $foto, $naslov, $oznaka, $datum, $izlaz, $tel = 
         abu_gr_preliv($c, 0, 0, $W, $H, array(
             array(0, 11, 55, 53, .85), array(.14, 11, 55, 53, .35), array(.26, 14, 79, 76, 0), array(.40, 14, 79, 76, 0),
             array(.68, 10, 45, 43, .88), array(1, 11, 55, 53, 1)), 'v');
-        abu_gr_png($c, $d . 'brand.png', 46, 42);
-        $L = 60; $maxw = $W - 120; $dno = $H - 64;
+        // story: logo i tekst izvan gornjeg i donjeg ruba koji pokriva sučelje Instagrama/Facebooka
+        abu_gr_png($c, $d . 'brand.png', 46, $story ? 230 : 42);
+        $L = 60; $maxw = $W - 120; $dno = $H - ($story ? 330 : 64);
         $vel = 76; $lh = 1.02; $pod = 27; $valh = 22; $valw = $W - 120;
     } else {
         $px = (int) round($W * 0.52);
@@ -306,4 +308,4 @@ add_action('transition_post_status', function ($novi, $stari, $post) {
     if ($novi !== 'publish' || $post->post_type !== 'post') { return; }
     if (!wp_next_scheduled('abu_gr_napravi', array((int) $post->ID))) { wp_schedule_single_event(time() + 30, 'abu_gr_napravi', array((int) $post->ID)); }
 }, 10, 3);
-add_action('abu_gr_napravi', function ($id) { abu_grafika($id, 'fb'); abu_grafika($id, 'ig'); });
+add_action('abu_gr_napravi', function ($id) { abu_grafika($id, 'fb'); abu_grafika($id, 'ig'); abu_grafika($id, 'story'); });
