@@ -12,7 +12,7 @@ if (!defined('ABSPATH')) { exit; }
 define('ABU_GRAPH', 'https://graph.facebook.com/v22.0/');
 
 function abu_meta_opt($k = null) {
-    $o = wp_parse_args((array) get_option('abu_meta', array()), array('page_id' => '', 'token' => '', 'ig_id' => '', 'auto' => 0, 'od' => ''));
+    $o = wp_parse_args((array) get_option('abu_meta', array()), array('page_id' => '', 'token' => '', 'ig_id' => '', 'auto' => 0, 'od' => '', 'ads_token' => '', 'ads_racun' => ''));
     return $k === null ? $o : $o[$k];
 }
 
@@ -97,7 +97,11 @@ function abu_dr_admin() {
     if (isset($_POST['abu_meta_spremi']) && current_user_can('manage_options') && check_admin_referer('abu_meta')) {
         $o = abu_meta_opt();
         $novo = array('page_id' => sanitize_text_field(wp_unslash($_POST['page_id'] ?? '')), 'ig_id' => sanitize_text_field(wp_unslash($_POST['ig_id'] ?? '')),
-            'auto' => empty($_POST['auto']) ? 0 : 1, 'token' => $o['token'], 'od' => $o['od']);
+            'auto' => empty($_POST['auto']) ? 0 : 1, 'token' => $o['token'], 'od' => $o['od'],
+            'ads_token' => $o['ads_token'], 'ads_racun' => preg_replace('/[^0-9]/', '', (string) wp_unslash($_POST['ads_racun'] ?? '')));
+        $at = trim((string) wp_unslash($_POST['ads_token'] ?? ''));
+        if ($at !== '') { $novo['ads_token'] = sanitize_text_field($at); }
+        if (!empty($_POST['ads_token_brisi'])) { $novo['ads_token'] = ''; }
         $tok = trim((string) wp_unslash($_POST['token'] ?? ''));
         if ($tok !== '') { $novo['token'] = sanitize_text_field($tok); }
         if (!empty($_POST['token_brisi'])) { $novo['token'] = ''; }
@@ -108,6 +112,11 @@ function abu_dr_admin() {
             $r = wp_remote_get(ABU_GRAPH . rawurlencode($novo['page_id']) . '?fields=name,followers_count&access_token=' . rawurlencode($novo['token']), array('timeout' => 20));
             $jj = is_wp_error($r) ? null : json_decode((string) wp_remote_retrieve_body($r), true);
             $poruka .= !empty($jj['name']) ? ' Facebook stranica: ' . esc_html($jj['name']) . (isset($jj['followers_count']) ? ' (' . number_format_i18n($jj['followers_count']) . ' pratitelja)' : '') . '.' : ' Provjera stranice nije uspjela: ' . esc_html($jj['error']['message'] ?? 'nepoznato') . '.';
+        }
+        if ($novo['ads_token'] && $novo['ads_racun']) {
+            $r = wp_remote_get(ABU_GRAPH . 'act_' . $novo['ads_racun'] . '?fields=name,account_status,currency&access_token=' . rawurlencode($novo['ads_token']), array('timeout' => 20));
+            $ja = is_wp_error($r) ? null : json_decode((string) wp_remote_retrieve_body($r), true);
+            $poruka .= !empty($ja['name']) ? ' Reklamni račun: ' . esc_html($ja['name']) . ' (' . esc_html($ja['currency'] ?? '') . ', status ' . (int) ($ja['account_status'] ?? 0) . ').' : ' Provjera reklamnog računa nije uspjela: ' . esc_html($ja['error']['message'] ?? 'nepoznato') . '.';
         }
     }
     if (isset($_POST['abu_dr_objavi'], $_POST['id'], $_POST['mreza']) && check_admin_referer('abu_dr_objavi')) {
@@ -123,6 +132,8 @@ function abu_dr_admin() {
         echo '<tr><th>ID Facebook stranice</th><td><input class="regular-text" name="page_id" value="' . esc_attr($o['page_id']) . '"></td></tr>';
         echo '<tr><th>Token stranice</th><td><input class="regular-text" type="password" name="token" placeholder="' . ($o['token'] ? 'spremljen (unesite novi za zamjenu)' : '') . '" autocomplete="off"> ' . ($o['token'] ? '<label><input type="checkbox" name="token_brisi" value="1"> obriši</label>' : '') . '</td></tr>';
         echo '<tr><th>Instagram Business ID</th><td><input class="regular-text" name="ig_id" value="' . esc_attr($o['ig_id']) . '"></td></tr>';
+        echo '<tr><th>Token za reklame (boost)</th><td><input class="regular-text" type="password" name="ads_token" placeholder="' . ($o['ads_token'] ? 'spremljen (unesite novi za zamjenu)' : 'token sistemskog korisnika s ads_management') . '" autocomplete="off"> ' . ($o['ads_token'] ? '<label><input type="checkbox" name="ads_token_brisi" value="1"> obriši</label>' : '') . '</td></tr>';
+        echo '<tr><th>ID reklamnog računa</th><td><input class="regular-text" name="ads_racun" value="' . esc_attr($o['ads_racun']) . '" placeholder="samo brojevi, bez act_"></td></tr>';
         echo '<tr><th>Automatika</th><td><label><input type="checkbox" name="auto" value="1"' . checked($o['auto'], 1, false) . '> novi članci automatski na Facebook i Instagram</label>' . ($o['od'] ? ' <small>(uključeno od ' . esc_html($o['od']) . ' UTC)</small>' : '') . '</td></tr>';
         echo '</table><p><button class="button button-primary" name="abu_meta_spremi" value="1">Spremi</button></p></form>';
     }
