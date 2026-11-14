@@ -22,7 +22,7 @@ $forma = function ($klasa) use ($mjesta) {
 <section class="hero" aria-label="Smještaj u Bihaću">
   <div class="hero__slides" data-slides>
     <?php foreach ($slike as $i => $s) : ?>
-      <img class="hero__img<?php echo $i === 0 ? ' is-on' : ''; ?>" src="<?php echo esc_url($s['src']); ?>"<?php echo ab_hero_srcset($s['src']); // phpcs:ignore ?> alt="<?php echo esc_attr($s['alt']); ?>" <?php echo $i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'; ?>>
+      <img class="hero__img<?php echo $i === 0 ? ' is-on' : ''; ?>" src="<?php echo esc_url($s['src']); ?>"<?php echo ab_hero_srcset($s['src']); // phpcs:ignore ?> alt="<?php echo esc_attr($s['alt']); ?>" width="1200" height="800" <?php echo $i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'; ?>>
     <?php endforeach; ?>
   </div>
   <div class="wrap hero__in">

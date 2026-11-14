@@ -1,15 +1,11 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
 
-define('AB_VER', '1.1.14');
+define('AB_VER', '1.1.15');
 
-// Brzina: bez WordPress emoji skripte i s ranijom vezom na Google Fonts.
+// Brzina: bez WordPress emoji skripte. Fontovi su na našem serveru (assets/fonts), bez veze prema Googleu.
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
-add_filter('wp_resource_hints', function ($urls, $relation) {
-    if ($relation === 'preconnect') { $urls[] = 'https://fonts.googleapis.com'; }
-    return $urls;
-}, 10, 2);
 
 // Google Fonts ne smije kočiti prvi prikaz. Dok se ne učitaju, vidi se sistemski font.
 add_filter('style_loader_tag', function ($tag, $handle) {
@@ -37,14 +33,11 @@ add_action('after_setup_theme', function () {
 });
 
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('ab-fonts', 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap', array(), null);
+    wp_enqueue_style('ab-fonts', get_template_directory_uri() . '/assets/fonts/fontovi.css', array(), AB_VER); // GDPR: bez Google Fonts
     wp_enqueue_style('ab-main', get_template_directory_uri() . '/assets/main.css', array(), AB_VER);
     wp_enqueue_script('ab-main', get_template_directory_uri() . '/assets/main.js', array(), AB_VER, true);
 });
-add_filter('wp_resource_hints', function ($urls, $rel) {
-    if ($rel === 'preconnect') { $urls[] = array('href' => 'https://fonts.gstatic.com', 'crossorigin'); }
-    return $urls;
-}, 10, 2);
+
 
 /* ---------- Oprema (tags za objekte) ---------- */
 add_action('init', function () {
