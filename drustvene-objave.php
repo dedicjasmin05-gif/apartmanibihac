@@ -3,7 +3,8 @@
  * Objave na Facebook stranicu i Instagram (Meta Graph API).
  * - Upiti → Društvene mreže: ID stranice, token stranice, Instagram Business ID, uključivanje automatike,
  *   popis članaka sa stanjem objave, gumbi "Objavi na Facebook/Instagram" i gotovi tekstovi za ručno kopiranje.
- * - Kad je automatika uključena, svaki NOVI članak objavljen nakon uključivanja ide na FB i IG 10 minuta nakon objave.
+ * - Kad je automatika uključena, svaki NOVI članak objavljen nakon uključivanja ide na FB i IG 10 minuta nakon objave,
+ *   a uz uključene storyje i kao story na FB stranicu i IG (grafika 1080×1920; story nema link, link je u običnoj objavi).
  * - Token se čuva u bazi (opcija abu_meta), nikad u kodu ni u gitu.
  * Bez tokena modul samo priprema tekstove. Povrat: ukloniti require_once u apartmani-upiti.php.
  */
@@ -12,7 +13,7 @@ if (!defined('ABSPATH')) { exit; }
 define('ABU_GRAPH', 'https://graph.facebook.com/v22.0/');
 
 function abu_meta_opt($k = null) {
-    $o = wp_parse_args((array) get_option('abu_meta', array()), array('page_id' => '', 'token' => '', 'ig_id' => '', 'auto' => 0, 'od' => '', 'ads_token' => '', 'ads_racun' => ''));
+    $o = wp_parse_args((array) get_option('abu_meta', array()), array('page_id' => '', 'token' => '', 'ig_id' => '', 'auto' => 0, 'story' => 1, 'od' => '', 'ads_token' => '', 'ads_racun' => ''));
     return $k === null ? $o : $o[$k];
 }
 
@@ -77,6 +78,37 @@ function abu_dr_objavi_jedan($id, $mreza) {
     return 'Objavljeno na Instagramu.';
 }
 
+/** Slika za story: grafika 1080×1920 (grafike.php); ako je nema, ista slika kao za Instagram. */
+function abu_dr_story_slika($id) {
+    if (function_exists('abu_grafika') && ($g = abu_grafika($id, 'story'))) { return $g; }
+    return abu_dr_slika($id);
+}
+
+/** Story jednog članka: 'fb' = story na Facebook stranici, 'ig' = Instagram story. ID ili greška u _abu_fbs_* / _abu_igs_*. */
+function abu_dr_story_jedan($id, $mreza) {
+    $o = abu_meta_opt();
+    if (!$o['token']) { return 'Nema tokena.'; }
+    $k = $mreza === 'ig' ? 'igs' : 'fbs';
+    $ime = $mreza === 'ig' ? 'Instagram story' : 'Facebook story';
+    if ($mreza === 'ig' && !$o['ig_id']) { return 'Nema Instagram Business ID-a.'; }
+    if ($mreza !== 'ig' && !$o['page_id']) { return 'Nema ID-a Facebook stranice.'; }
+    if (get_post_meta($id, '_abu_' . $k . '_id', true)) { return $ime . ': već objavljen.'; }
+    $img = abu_dr_story_slika($id);
+    if (!$img) { update_post_meta($id, '_abu_' . $k . '_greska', 'Članak nema istaknutu sliku.'); return $ime . ': članak nema istaknutu sliku.'; }
+    if ($mreza === 'ig') {
+        list($j, $e) = abu_dr_graph(rawurlencode($o['ig_id']) . '/media', array('image_url' => $img, 'media_type' => 'STORIES', 'access_token' => $o['token']));
+        if (!$e) { list($j, $e) = abu_dr_graph(rawurlencode($o['ig_id']) . '/media_publish', array('creation_id' => $j['id'] ?? '', 'access_token' => $o['token'])); }
+    } else {
+        // Facebook: fotografija se učita neobjavljena (ne pojavljuje se na zidu), zatim se od nje napravi story.
+        list($j, $e) = abu_dr_graph(rawurlencode($o['page_id']) . '/photos', array('url' => $img, 'published' => 'false', 'access_token' => $o['token']));
+        if (!$e) { list($j, $e) = abu_dr_graph(rawurlencode($o['page_id']) . '/photo_stories', array('photo_id' => $j['id'] ?? '', 'access_token' => $o['token'])); }
+        if (!$e && empty($j['success']) && empty($j['post_id']) && empty($j['id'])) { $e = 'story nije potvrđen'; }
+    }
+    if ($e) { update_post_meta($id, '_abu_' . $k . '_greska', $e); return $ime . ': ' . $e; }
+    update_post_meta($id, '_abu_' . $k . '_id', (string) ($j['post_id'] ?? ($j['id'] ?? '1'))); delete_post_meta($id, '_abu_' . $k . '_greska');
+    return $ime . ' objavljen.';
+}
+
 /** Automatika: novi članak (objavljen nakon uključivanja) → FB i IG nakon 10 minuta. */
 add_action('transition_post_status', function ($novi, $stari, $post) {
     if ($novi !== 'publish' || $stari === 'publish' || $post->post_type !== 'post') { return; }
@@ -90,6 +122,7 @@ add_action('transition_post_status', function ($novi, $stari, $post) {
 add_action('abu_dr_auto', function ($id) {
     abu_dr_objavi_jedan($id, 'fb');
     abu_dr_objavi_jedan($id, 'ig');
+    if (abu_meta_opt('story')) { abu_dr_story_jedan($id, 'fb'); abu_dr_story_jedan($id, 'ig'); }
 });
 
 /* ---------- Admin ---------- */
@@ -102,7 +135,7 @@ function abu_dr_admin() {
     if (isset($_POST['abu_meta_spremi']) && current_user_can('manage_options') && check_admin_referer('abu_meta')) {
         $o = abu_meta_opt();
         $novo = array('page_id' => sanitize_text_field(wp_unslash($_POST['page_id'] ?? '')), 'ig_id' => sanitize_text_field(wp_unslash($_POST['ig_id'] ?? '')),
-            'auto' => empty($_POST['auto']) ? 0 : 1, 'token' => $o['token'], 'od' => $o['od'],
+            'auto' => empty($_POST['auto']) ? 0 : 1, 'story' => empty($_POST['story']) ? 0 : 1, 'token' => $o['token'], 'od' => $o['od'],
             'ads_token' => $o['ads_token'], 'ads_racun' => preg_replace('/[^0-9]/', '', (string) wp_unslash($_POST['ads_racun'] ?? '')));
         $at = trim((string) wp_unslash($_POST['ads_token'] ?? ''));
         if ($at !== '') { $novo['ads_token'] = sanitize_text_field($at); }
@@ -125,12 +158,13 @@ function abu_dr_admin() {
         }
     }
     if (isset($_POST['abu_dr_objavi'], $_POST['id'], $_POST['mreza']) && check_admin_referer('abu_dr_objavi')) {
-        $poruka = abu_dr_objavi_jedan((int) $_POST['id'], sanitize_key(wp_unslash($_POST['mreza'])) === 'ig' ? 'ig' : 'fb');
+        $mr = sanitize_key(wp_unslash($_POST['mreza']));
+        $poruka = in_array($mr, array('fbs', 'igs'), true) ? abu_dr_story_jedan((int) $_POST['id'], $mr === 'igs' ? 'ig' : 'fb') : abu_dr_objavi_jedan((int) $_POST['id'], $mr === 'ig' ? 'ig' : 'fb');
     }
     $o = abu_meta_opt();
     echo '<div class="wrap"><h1>Društvene mreže</h1>';
     if ($poruka) { echo '<div class="notice notice-info"><p>' . esc_html($poruka) . '</p></div>'; }
-    echo '<p>Kad su uneseni ID Facebook stranice, token stranice (s pravima <code>pages_manage_posts</code>, <code>pages_read_engagement</code>, <code>instagram_basic</code>, <code>instagram_content_publish</code>) i Instagram Business ID, članci se mogu objaviti jednim klikom, a uz uključenu automatiku svaki novi članak ide na obje mreže 10 minuta nakon objave. Bez tokena ispod su gotovi tekstovi za kopiranje.</p>';
+    echo '<p>Kad su uneseni ID Facebook stranice, token stranice (s pravima <code>pages_manage_posts</code>, <code>pages_read_engagement</code>, <code>instagram_basic</code>, <code>instagram_content_publish</code>) i Instagram Business ID, članci se mogu objaviti jednim klikom, a uz uključenu automatiku svaki novi članak ide na obje mreže 10 minuta nakon objave (uz uključene storyje i kao story na obje mreže). Bez tokena ispod su gotovi tekstovi za kopiranje.</p>';
     if (current_user_can('manage_options')) {
         echo '<form method="post"><table class="form-table">';
         wp_nonce_field('abu_meta');
@@ -140,9 +174,10 @@ function abu_dr_admin() {
         echo '<tr><th>Token za reklame (boost)</th><td><input class="regular-text" type="password" name="ads_token" placeholder="' . ($o['ads_token'] ? 'spremljen (unesite novi za zamjenu)' : 'token sistemskog korisnika s ads_management') . '" autocomplete="off"> ' . ($o['ads_token'] ? '<label><input type="checkbox" name="ads_token_brisi" value="1"> obriši</label>' : '') . '</td></tr>';
         echo '<tr><th>ID reklamnog računa</th><td><input class="regular-text" name="ads_racun" value="' . esc_attr($o['ads_racun']) . '" placeholder="samo brojevi, bez act_"></td></tr>';
         echo '<tr><th>Automatika</th><td><label><input type="checkbox" name="auto" value="1"' . checked($o['auto'], 1, false) . '> novi članci automatski na Facebook i Instagram</label>' . ($o['od'] ? ' <small>(uključeno od ' . esc_html($o['od']) . ' UTC)</small>' : '') . '</td></tr>';
+        echo '<tr><th>Storyji</th><td><label><input type="checkbox" name="story" value="1"' . checked($o['story'], 1, false) . '> uz automatsku objavu i story na Facebook stranici i Instagramu</label> <small>(slika 1080×1920 s naslovom; story nema link)</small></td></tr>';
         echo '</table><p><button class="button button-primary" name="abu_meta_spremi" value="1">Spremi</button></p></form>';
     }
-    echo '<h2>Članci</h2><table class="widefat striped"><thead><tr><th>Članak</th><th>Facebook</th><th>Instagram</th><th>Tekst za kopiranje (Facebook)</th></tr></thead><tbody>';
+    echo '<h2>Članci</h2><table class="widefat striped"><thead><tr><th>Članak</th><th>Facebook</th><th>Instagram</th><th>Story (FB / IG)</th><th>Tekst za kopiranje (Facebook)</th></tr></thead><tbody>';
     foreach (get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'numberposts' => 40)) as $p) {
         $st = function ($m) use ($p, $o) {
             $id = get_post_meta($p->ID, '_abu_' . $m . '_id', true);
@@ -151,7 +186,7 @@ function abu_dr_admin() {
             $b = $o['token'] ? '<form method="post" style="display:inline">' . wp_nonce_field('abu_dr_objavi', '_wpnonce', true, false) . '<input type="hidden" name="id" value="' . (int) $p->ID . '"><input type="hidden" name="mreza" value="' . $m . '"><button class="button" name="abu_dr_objavi" value="1">Objavi</button></form>' : '—';
             return ($g ? '<span style="color:#b32d2e">' . esc_html($g) . '</span><br>' : '') . $b;
         };
-        echo '<tr><td><a href="' . esc_url(get_permalink($p)) . '" target="_blank">' . esc_html($p->post_title) . '</a><br><small>' . esc_html(get_the_date('', $p)) . '</small></td><td>' . $st('fb') . '</td><td>' . $st('ig') . '</td>'
+        echo '<tr><td><a href="' . esc_url(get_permalink($p)) . '" target="_blank">' . esc_html($p->post_title) . '</a><br><small>' . esc_html(get_the_date('', $p)) . '</small></td><td>' . $st('fb') . '</td><td>' . $st('ig') . '</td><td>FB: ' . $st('fbs') . '<br>IG: ' . $st('igs') . '</td>'
             . '<td><textarea readonly rows="4" style="width:100%" onclick="this.select()">' . esc_textarea(abu_dr_tekst($p->ID, 'fb') . "\n\n" . abu_dr_link($p->ID)) . '</textarea></td></tr>';
     }
     echo '</tbody></table></div>';

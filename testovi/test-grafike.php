@@ -14,7 +14,7 @@ $out = $argv[1] ?? sys_get_temp_dir();
 $foto = $argv[2] ?? '';
 if (!$foto) { $foto = $out . '/proba.jpg'; $i = imagecreatetruecolor(1200, 900); imagefill($i, 0, 0, imagecolorallocate($i, 60, 120, 90)); imagejpeg($i, $foto); }
 t(abu_gr_moze(), 'GD s FreeType');
-foreach (array('ig' => array(1080, 1350), 'fb' => array(1200, 630)) as $v => $dim) {
+foreach (array('ig' => array(1080, 1350), 'fb' => array(1200, 630), 'story' => array(1080, 1920)) as $v => $dim) {
     $f = "$out/t-$v.jpg";
     t(abu_gr_nacrtaj($v, $foto, 'Nakon olujnog vjetra: hladan vikend i snijeg na planinama', 'Vijesti iz turizma', '13. 11. 2026.', $f), "crtanje $v");
     $s = @getimagesize($f); t($s && $s[0] === $dim[0] && $s[1] === $dim[1], "dimenzije $v");
