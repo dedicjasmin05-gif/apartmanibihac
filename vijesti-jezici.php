@@ -156,6 +156,14 @@ add_action('init', function () {
     if (get_option('abu_vj_ver') === $ver || get_transient('abu_vj_lock')) { return; }
     set_transient('abu_vj_lock', 1, 300);
     foreach ((array) json_decode((string) file_get_contents($f), true) as $v) {
+        // Zakazana (još neobjavljena) vijest: tekstovi za FB/IG prate izmjene u datoteci.
+        if (!empty($v['slug'])) {
+            $z = get_posts(array('name' => $v['slug'], 'post_type' => 'post', 'post_status' => 'future', 'numberposts' => 1));
+            if ($z) {
+                if (!empty($v['fb'])) { update_post_meta($z[0]->ID, '_abu_fb_tekst', wp_strip_all_tags($v['fb'])); }
+                if (!empty($v['ig'])) { update_post_meta($z[0]->ID, '_abu_ig_tekst', wp_strip_all_tags($v['ig'])); }
+            }
+        }
         if (empty($v['slug']) || (empty($v['en']) && empty($v['de']))) { continue; }
         $bs = get_page_by_path($v['slug'], OBJECT, 'post');
         if (!$bs || $bs->post_status !== 'publish') { continue; }
