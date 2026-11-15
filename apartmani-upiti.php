@@ -71,6 +71,10 @@ function abu_activate() {
 register_deactivation_hook(__FILE__, function () {
     wp_clear_scheduled_hook('abu_cron');
 });
+// Ako se zakazani zadatak izgubi (npr. nakon vraćanja starih datoteka), ponovno ga zakaži – bez ponovne aktivacije dodatka.
+add_action('init', function () {
+    if (!wp_next_scheduled('abu_cron')) { wp_schedule_event(time() + 60, 'abu_15min', 'abu_cron'); }
+}, 50);
 add_filter('cron_schedules', function ($s) {
     $s['abu_15min'] = array('interval' => 900, 'display' => 'Svakih 15 minuta');
     return $s;
