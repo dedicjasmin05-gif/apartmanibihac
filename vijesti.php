@@ -143,7 +143,8 @@ add_action('init', function () {
             'post_excerpt' => isset($v['izvod']) ? $v['izvod'] : '', 'post_content' => wp_kses_post($v['html']),
             'post_category' => $kat ? array($kat->term_id) : array(),
             // "datum" (lokalno vrijeme, npr. "2026-11-14 11:00:00"): u budućnosti => zakazana objava (FB/IG kad izađe)
-            'post_date' => !empty($v['datum']) ? $v['datum'] : gmdate('Y-m-d H:i:s', current_time('timestamp') - ($i * 5400))));
+            // bez datuma: prva odmah, svaka sljedeća nova 3 h kasnije (zakazano) – nikad više vijesti odjednom ni datum unazad
+            'post_date' => !empty($v['datum']) ? $v['datum'] : gmdate('Y-m-d H:i:s', current_time('timestamp') + ($n * 3 * 3600))));
         if ($id && !is_wp_error($id)) {
             update_post_meta($id, '_abu_slika_mjesto', isset($v['slika']) ? $v['slika'] : '');
             if (!empty($v['fb'])) { update_post_meta($id, '_abu_fb_tekst', $v['fb']); }
