@@ -132,3 +132,65 @@ function abu_ms_provjeri_vezu() {
     return $s;
 }
 add_action('abu_cron', 'abu_ms_provjeri_vezu', 40);
+
+/* ---------- Admin: Upiti → Messenger ---------- */
+add_action('admin_menu', function () {
+    add_submenu_page('abu-upiti', 'Messenger', 'Messenger', 'manage_options', 'abu-messenger', 'abu_ms_admin');
+}, 22);
+
+function abu_ms_admin() {
+    if (!current_user_can('manage_options')) { return; }
+    $poruka = '';
+    if (isset($_POST['abu_ms_spremi']) && check_admin_referer('abu_ms')) {
+        $c = abu_ms_cfg();
+        $sec = trim((string) wp_unslash($_POST['app_secret'] ?? ''));
+        if ($sec !== '') { $c['app_secret'] = sanitize_text_field($sec); }
+        if (!empty($_POST['app_secret_brisi'])) { $c['app_secret'] = ''; }
+        if ($c['verify_token'] === '') { $c['verify_token'] = 'abu-' . wp_generate_password(32, false); }
+        $c['pretplati'] = !empty($_POST['pretplati']);
+        @file_put_contents(abu_ms_mapa() . '/postavke.json', wp_json_encode($c), LOCK_EX);
+        $poruka = 'Spremljeno.';
+    }
+    if (isset($_POST['abu_ms_spremi']) || isset($_POST['abu_ms_provjeri'])) {
+        if (isset($_POST['abu_ms_provjeri'])) { check_admin_referer('abu_ms'); }
+        abu_ms_provjeri_vezu();
+        $poruka .= ' Veza provjerena.';
+    }
+    $c = abu_ms_cfg();
+    $f = abu_ms_mapa() . '/stanje.json';
+    $s = file_exists($f) ? json_decode((string) file_get_contents($f), true) : array();
+    $da = function ($b) { return $b ? '<span style="color:#008a20">✓</span>' : '<span style="color:#b32d2e">✗</span>'; };
+    echo '<div class="wrap"><h1>Messenger</h1>';
+    if ($poruka) { echo '<div class="notice notice-info"><p>' . esc_html(trim($poruka)) . '</p></div>'; }
+    echo '<p>Poruke s Facebook stranice dolaze ovdje i bilježe se. Gostima se još ništa ne odgovara automatski.</p>';
+    echo '<h2>Za Meta aplikaciju (Messenger → Webhooks)</h2><table class="form-table">';
+    echo '<tr><th>Callback URL</th><td><input class="large-text" readonly onclick="this.select()" value="' . esc_attr(rest_url('abu/v1/messenger')) . '"></td></tr>';
+    echo '<tr><th>Verify token</th><td><input class="large-text" readonly onclick="this.select()" value="' . esc_attr($c['verify_token']) . '"></td></tr>';
+    echo '<tr><th>Polja</th><td><code>messages, messaging_postbacks, message_echoes</code></td></tr></table>';
+    echo '<h2>Postavke</h2><form method="post">';
+    wp_nonce_field('abu_ms');
+    echo '<table class="form-table"><tr><th>App Secret</th><td><input class="regular-text" type="password" name="app_secret" autocomplete="off" placeholder="' . ($c['app_secret'] ? 'spremljen (unesite novi za zamjenu)' : 'Meta aplikacija → Postavke → Osnovno → App Secret') . '"> '
+        . ($c['app_secret'] ? '<label><input type="checkbox" name="app_secret_brisi" value="1"> obriši</label>' : '') . '</td></tr>';
+    echo '<tr><th>Pretplata stranice</th><td><label><input type="checkbox" name="pretplati" value="1"' . checked($c['pretplati'], true, false) . '> sama pretplati stranicu na poruke kad token ima pages_messaging</label></td></tr>';
+    echo '<tr><th>Token stranice</th><td>Isti kao u <a href="' . esc_url(admin_url('admin.php?page=abu-drustvene')) . '">Društvene mreže</a> – mora imati i dozvolu <code>pages_messaging</code>.</td></tr></table>';
+    echo '<p><button class="button button-primary" name="abu_ms_spremi" value="1">Spremi</button> <button class="button" name="abu_ms_provjeri" value="1">Provjeri vezu sada</button></p></form>';
+    echo '<h2>Stanje veze</h2><table class="widefat striped" style="max-width:720px"><tbody>';
+    $ap = $s['aplikacija'] ?? '';
+    echo '<tr><td>Aplikacija tokena</td><td>' . esc_html(is_array($ap) ? $ap['ime'] . ' (' . $ap['id'] . ')' : (string) $ap) . '</td></tr>';
+    echo '<tr><td>App Secret</td><td>' . $da($c['app_secret'] !== '') . '</td></tr>';
+    echo '<tr><td>Token ima pages_messaging</td><td>' . $da(!empty($s['pages_messaging'])) . '</td></tr>';
+    echo '<tr><td>Stranica pretplaćena na poruke</td><td>' . $da(!empty($s['stranica_pretplacena_na_poruke'])) . (isset($s['pretplata_pokusaj']) ? ' ' . esc_html($s['pretplata_pokusaj']) : '') . '</td></tr>';
+    echo '<tr><td>Primljeno poruka</td><td>' . (int) ($s['primljeno_dogadaja'] ?? 0) . '</td></tr>';
+    echo '<tr><td>Provjereno</td><td>' . esc_html($s['azurirano'] ?? '-') . '</td></tr></tbody></table>';
+    $pf = abu_ms_mapa() . '/poruke.jsonl';
+    if (file_exists($pf)) {
+        echo '<h2>Zadnje poruke</h2><table class="widefat striped"><thead><tr><th>Vrijeme (UTC)</th><th>Tko</th><th>Tekst</th></tr></thead><tbody>';
+        foreach (array_reverse(array_slice(file($pf, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES), -30)) as $red) {
+            $d = json_decode($red, true);
+            if (!$d) { continue; }
+            echo '<tr><td>' . esc_html($d['vrijeme']) . '</td><td>' . esc_html($d['vrsta'] === 'stranica' ? 'Stranica' : 'Gost ' . substr($d['gost'], -4)) . '</td><td>' . esc_html($d['tekst']) . ($d['privitci'] ? ' [privitak]' : '') . '</td></tr>';
+        }
+        echo '</tbody></table>';
+    }
+    echo '</div>';
+}
