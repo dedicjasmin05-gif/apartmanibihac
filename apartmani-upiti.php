@@ -983,6 +983,7 @@ require_once __DIR__ . '/webp.php';
 require_once __DIR__ . '/clanci.php';
 require_once __DIR__ . '/uzivo.php';
 require_once __DIR__ . '/drustvene-objave.php';
+require_once __DIR__ . '/messenger.php';
 require_once __DIR__ . '/objekti-jezici.php';
 require_once __DIR__ . '/dnevne-vijesti.php';
 require_once __DIR__ . '/grafike.php';
