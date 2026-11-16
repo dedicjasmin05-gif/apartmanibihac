@@ -11,6 +11,8 @@
 if (!defined('ABSPATH')) { exit; }
 
 define('ABU_GRAPH', 'https://graph.facebook.com/v22.0/');
+if (!defined('ABU_DR_RAZMAK')) { define('ABU_DR_RAZMAK', 5400); } // razmak između automatskih objava na mreže
+if (!defined('ABU_DR_DNEVNO')) { define('ABU_DR_DNEVNO', 5); }                  // najviše automatskih objava dnevno
 
 function abu_meta_opt($k = null) {
     $o = wp_parse_args((array) get_option('abu_meta', array()), array('page_id' => '', 'token' => '', 'ig_id' => '', 'auto' => 0, 'story' => 1, 'od' => '', 'ads_token' => '', 'ads_racun' => ''));
@@ -110,15 +112,25 @@ function abu_dr_story_jedan($id, $mreza) {
 }
 
 /** Automatika: novi članak (objavljen nakon uključivanja) → FB i IG nakon 10 minuta. */
-add_action('transition_post_status', function ($novi, $stari, $post) {
+add_action('transition_post_status', 'abu_dr_auto_zakazi', 20, 3);
+function abu_dr_auto_zakazi($novi, $stari, $post) {
     if ($novi !== 'publish' || $stari === 'publish' || $post->post_type !== 'post') { return; }
     $o = abu_meta_opt();
     if (empty($o['auto']) || !$o['token'] || ($o['od'] && $post->post_date_gmt && strtotime($post->post_date_gmt) < strtotime($o['od']) - DAY_IN_SECONDS)) { return; }
-    // najmanje 10 minuta nakon objave i 10 minuta razmaka između dvije automatske objave
-    $kad = max(time() + 600, (int) get_option('abu_meta_zadnji', 0) + 600);
+    // Zaštita od rafala (16.11.2026.): članak s datumom starijim od 12 h (uvoz unazad) ne ide automatski na mreže.
+    if ($post->post_date_gmt && $post->post_date_gmt !== '0000-00-00 00:00:00' && strtotime($post->post_date_gmt . ' UTC') < time() - 43200) {
+        update_post_meta($post->ID, '_abu_auto_preskoceno', 'stari datum'); return;
+    }
+    // Najviše ABU_DR_DNEVNO automatskih objava dnevno; višak se ne objavljuje automatski (može ručno iz admina).
+    $dan = wp_date('Y-m-d'); $br = (array) get_option('abu_meta_dan', array());
+    $br = array($dan => (int) ($br[$dan] ?? 0));
+    if ($br[$dan] >= ABU_DR_DNEVNO) { update_post_meta($post->ID, '_abu_auto_preskoceno', 'dnevni limit'); return; }
+    $br[$dan]++; update_option('abu_meta_dan', $br, false);
+    // najmanje 10 minuta nakon objave i ABU_DR_RAZMAK između dvije automatske objave
+    $kad = max(time() + 600, (int) get_option('abu_meta_zadnji', 0) + ABU_DR_RAZMAK);
     update_option('abu_meta_zadnji', $kad, false);
     wp_schedule_single_event($kad, 'abu_dr_auto', array((int) $post->ID));
-}, 20, 3);
+}
 add_action('abu_dr_auto', function ($id) {
     abu_dr_objavi_jedan($id, 'fb');
     abu_dr_objavi_jedan($id, 'ig');

@@ -15,6 +15,9 @@ function get_post_thumbnail_id($id) { return $id === 2 ? 0 : 50; } function wp_g
 function is_wp_error($x) { return false; }
 function wp_remote_post($u, $a) { $GLOBALS['poz'][] = array($u, $a['body']); return array_shift($GLOBALS['odg']); }
 function wp_remote_retrieve_body($r) { return $r; }
+function update_option($k, $v, $a = null) { $GLOBALS['opt'][$k] = $v; }
+function wp_date($f) { return date($f); }
+function wp_schedule_single_event($t, $h, $a) { $GLOBALS['zak'][] = array($t, $a[0]); }
 function add_query_arg($a, $u) { return $u . (strpos($u, '?') === false ? '?' : '&') . http_build_query($a); }
 require dirname(__DIR__) . '/drustvene-objave.php';
 $ok = 0; $bad = 0; function t($n, $u) { global $ok, $bad; if ($u) { $ok++; } else { $bad++; echo "NEUSPJEH: $n\n"; } }
@@ -44,4 +47,14 @@ $GLOBALS['poz'] = array(); $GLOBALS['odg'] = array('{"id":"PH8"}', '{"error":{"m
 t('fb story greška se sprema', abu_dr_story_jedan(6, 'fb') === 'Facebook story: No permission' && $GLOBALS['meta'][6]['_abu_fbs_greska'] === 'No permission' && empty($GLOBALS['meta'][6]['_abu_fbs_id']));
 t('story bez slike', strpos(abu_dr_story_jedan(2, 'ig'), 'nema istaknutu sliku') !== false);
 t('storyji uključeni po zadanom', abu_meta_opt('story') == 1);
+
+// Zaštita od rafala: 7 novih članaka odjednom -> najviše 5 dnevno, razmak 90 min; članak s datumom unazad se preskače.
+$GLOBALS['zak'] = array(); $GLOBALS['opt']['abu_meta_zadnji'] = 0; $GLOBALS['opt']['abu_meta_dan'] = array();
+$sad = gmdate('Y-m-d H:i:s');
+for ($i = 101; $i <= 107; $i++) { abu_dr_auto_zakazi('publish', 'draft', (object) array('ID' => $i, 'post_type' => 'post', 'post_date_gmt' => $sad)); }
+t('rafal: najviše 5 dnevno', count($GLOBALS['zak']) === 5 && ($GLOBALS['meta'][106]['_abu_auto_preskoceno'] ?? '') === 'dnevni limit');
+t('rafal: razmak 90 min', $GLOBALS['zak'][1][0] - $GLOBALS['zak'][0][0] === 5400 && $GLOBALS['zak'][4][0] - $GLOBALS['zak'][3][0] === 5400);
+$GLOBALS['opt']['abu_meta_dan'] = array();
+abu_dr_auto_zakazi('publish', 'draft', (object) array('ID' => 120, 'post_type' => 'post', 'post_date_gmt' => gmdate('Y-m-d H:i:s', time() - 2 * 86400)));
+t('datum unazad ne ide na mreže', count($GLOBALS['zak']) === 5 && ($GLOBALS['meta'][120]['_abu_auto_preskoceno'] ?? '') === 'stari datum');
 echo "OK $ok, neuspjeh $bad\n"; exit($bad ? 1 : 0);
