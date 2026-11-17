@@ -81,12 +81,15 @@ add_action('rest_api_init', function () {
         }),
         array('methods' => 'POST', 'permission_callback' => '__return_true', 'callback' => function ($r) {
             $tijelo = (string) $r->get_body();
-            if (!abu_ms_potpis_ok($tijelo, $r->get_header('x_hub_signature_256'), (string) abu_ms_cfg('app_secret'))) {
+            $tajna = (string) abu_ms_cfg('app_secret');
+            if ($tajna !== '' && !abu_ms_potpis_ok($tijelo, $r->get_header('x_hub_signature_256'), $tajna)) {
                 return new WP_Error('potpis', 'Neispravan potpis', array('status' => 403));
             }
             $d = abu_ms_dogadaji($tijelo);
+            // Bez App Secreta poruke se samo bilježe kao nepotvrđene i ništa se na njih ne radi.
+            if ($tajna === '') { foreach ($d as $k => $x) { $d[$k]['nepotvrdeno'] = true; } }
             abu_ms_zapisi($d);
-            do_action('abu_ms_poruke', $d); // ovdje će se kasnije spojiti logika odgovora
+            if ($tajna !== '') { do_action('abu_ms_poruke', $d); } // ovdje će se kasnije spojiti logika odgovora
             return new WP_REST_Response('EVENT_RECEIVED', 200);
         }),
     ));
@@ -163,6 +166,7 @@ function abu_ms_admin() {
     echo '<div class="wrap"><h1>Messenger</h1>';
     if ($poruka) { echo '<div class="notice notice-info"><p>' . esc_html(trim($poruka)) . '</p></div>'; }
     echo '<p>Poruke s Facebook stranice dolaze ovdje i bilježe se. Gostima se još ništa ne odgovara automatski.</p>';
+    if ($c['app_secret'] === '') { echo '<div class="notice notice-warning"><p>App Secret nije upisan: poruke se primaju i bilježe kao nepotvrđene, ali bot na njih neće odgovarati dok se App Secret ne upiše.</p></div>'; }
     echo '<h2>Za Meta aplikaciju (Messenger → Webhooks)</h2><table class="form-table">';
     echo '<tr><th>Callback URL</th><td><input class="large-text" readonly onclick="this.select()" value="' . esc_attr(rest_url('abu/v1/messenger')) . '"></td></tr>';
     echo '<tr><th>Verify token</th><td><input class="large-text" readonly onclick="this.select()" value="' . esc_attr($c['verify_token']) . '"></td></tr>';
