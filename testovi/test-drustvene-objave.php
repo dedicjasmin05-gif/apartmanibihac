@@ -18,6 +18,7 @@ function wp_remote_retrieve_body($r) { return $r; }
 function update_option($k, $v, $a = null) { $GLOBALS['opt'][$k] = $v; }
 function wp_date($f) { return date($f); }
 function wp_schedule_single_event($t, $h, $a) { $GLOBALS['zak'][] = array($t, $a[0]); }
+function wp_remote_get($u, $a = array()) { return '{"status_code":"FINISHED"}'; }
 function add_query_arg($a, $u) { return $u . (strpos($u, '?') === false ? '?' : '&') . http_build_query($a); }
 require dirname(__DIR__) . '/drustvene-objave.php';
 $ok = 0; $bad = 0; function t($n, $u) { global $ok, $bad; if ($u) { $ok++; } else { $bad++; echo "NEUSPJEH: $n\n"; } }

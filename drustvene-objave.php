@@ -43,6 +43,19 @@ function abu_dr_slika($id) {
     return $u ? $u : (string) wp_get_attachment_url($att);
 }
 
+/** Instagram: pričekaj da kontejner bude spreman (status FINISHED) prije media_publish – inače „Media ID is not available“. */
+function abu_dr_ig_cekaj($cid, $token, $puta = 12) {
+    for ($i = 0; $i < $puta; $i++) {
+        $r = wp_remote_get(ABU_GRAPH . rawurlencode($cid) . '?fields=status_code&access_token=' . rawurlencode($token), array('timeout' => 20));
+        $j = is_wp_error($r) ? array() : json_decode((string) wp_remote_retrieve_body($r), true);
+        $st = (string) ($j['status_code'] ?? '');
+        if ($st === 'FINISHED') { return ''; }
+        if ($st === 'ERROR' || $st === 'EXPIRED') { return 'Instagram kontejner: ' . $st; }
+        sleep(5);
+    }
+    return 'Instagram kontejner nije spreman nakon 60 s';
+}
+
 function abu_dr_graph($put, $polja) {
     $r = wp_remote_post(ABU_GRAPH . $put, array('timeout' => 30, 'body' => $polja));
     if (is_wp_error($r)) { return array(null, $r->get_error_message()); }
@@ -74,6 +87,7 @@ function abu_dr_objavi_jedan($id, $mreza) {
     $img = abu_dr_slika($id);
     if (!$img) { update_post_meta($id, '_abu_ig_greska', 'Članak nema istaknutu sliku.'); return 'Instagram: članak nema istaknutu sliku.'; }
     list($j, $e) = abu_dr_graph(rawurlencode($o['ig_id']) . '/media', array('image_url' => $img, 'caption' => abu_dr_tekst($id, 'ig'), 'access_token' => $o['token']));
+    if (!$e) { $e = abu_dr_ig_cekaj($j['id'] ?? '', $o['token']); }
     if (!$e) { list($j, $e) = abu_dr_graph(rawurlencode($o['ig_id']) . '/media_publish', array('creation_id' => $j['id'] ?? '', 'access_token' => $o['token'])); }
     if ($e) { update_post_meta($id, '_abu_ig_greska', $e); return 'Instagram: ' . $e; }
     update_post_meta($id, '_abu_ig_id', $j['id'] ?? '1'); delete_post_meta($id, '_abu_ig_greska');
@@ -99,7 +113,8 @@ function abu_dr_story_jedan($id, $mreza) {
     if (!$img) { update_post_meta($id, '_abu_' . $k . '_greska', 'Članak nema istaknutu sliku.'); return $ime . ': članak nema istaknutu sliku.'; }
     if ($mreza === 'ig') {
         list($j, $e) = abu_dr_graph(rawurlencode($o['ig_id']) . '/media', array('image_url' => $img, 'media_type' => 'STORIES', 'access_token' => $o['token']));
-        if (!$e) { list($j, $e) = abu_dr_graph(rawurlencode($o['ig_id']) . '/media_publish', array('creation_id' => $j['id'] ?? '', 'access_token' => $o['token'])); }
+        if (!$e) { $e = abu_dr_ig_cekaj($j['id'] ?? '', $o['token']); }
+    if (!$e) { list($j, $e) = abu_dr_graph(rawurlencode($o['ig_id']) . '/media_publish', array('creation_id' => $j['id'] ?? '', 'access_token' => $o['token'])); }
     } else {
         // Facebook: fotografija se učita neobjavljena (ne pojavljuje se na zidu), zatim se od nje napravi story.
         list($j, $e) = abu_dr_graph(rawurlencode($o['page_id']) . '/photos', array('url' => $img, 'published' => 'false', 'access_token' => $o['token']));
