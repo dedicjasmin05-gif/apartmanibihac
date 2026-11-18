@@ -132,18 +132,19 @@ function abu_vj_ocisti_prijevode($bs) {
         if ($p) { do_action('litespeed_purge_post', $p); do_action('litespeed_purge_url', get_permalink($p)); }
     }
     do_action('litespeed_purge_post', $bs);
+    foreach (array('/?p=' . $bs, '/wp-sitemap.xml', '/wp-sitemap-posts-page-1.xml', '/wp-sitemap-posts-post-1.xml') as $u) { do_action('litespeed_purge_url', home_url($u)); }
 }
 add_action('transition_post_status', function ($novi, $stari, $post) {
     if ($post->post_type === 'post' && $stari === 'publish' && $novi !== 'publish') { abu_vj_ocisti_prijevode($post->ID); }
 }, 10, 3);
 /* Jednokratno za već skinute originale (16.11.2026.). */
 add_action('init', function () {
-    if (get_option('abu_vj_sirocad_cache') === '1') { return; }
+    if (get_option('abu_vj_sirocad_cache') === '2') { return; }
     foreach (get_posts(array('post_type' => 'page', 'meta_key' => '_abu_vj_bs', 'fields' => 'ids', 'numberposts' => -1, 'no_found_rows' => true)) as $id) {
         $bs = abu_vj_siroce($id);
         if ($bs) { abu_vj_ocisti_prijevode($bs); }
     }
-    update_option('abu_vj_sirocad_cache', '1', false);
+    update_option('abu_vj_sirocad_cache', '2', false);
 }, 99);
 add_filter('wp_sitemaps_posts_query_args', function ($a, $tip) {
     if ($tip !== 'page') { return $a; }
