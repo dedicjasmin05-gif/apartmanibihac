@@ -181,7 +181,7 @@ add_action('wp_head', function () {
     if ($opis === '') { $opis = 'Vodič i novosti za Bihać i Unu: izleti, rafting, Plitvice, gdje odsjesti i gdje jesti u Bihaću.'; }
     echo '<meta name="description" content="' . esc_attr(mb_substr($opis, 0, 158)) . '">' . "\n";
     $str = max(1, (int) get_query_var('paged'));
-    echo '<link rel="canonical" href="' . esc_url($str > 1 ? get_pagenum_link($str) : get_permalink($pid)) . '">' . "\n";
+    echo '<link rel="canonical" href="' . esc_url($str > 1 ? strtok(get_pagenum_link($str, false), '?') : get_permalink($pid)) . '">' . "\n";
 }, 2);
 
 /* §10 Tablice u člancima: zaglavlje poravnato lijevo kao ćelije, čitljivo na mobitelu. */
