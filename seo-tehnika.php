@@ -172,6 +172,18 @@ add_action('wp_head', function () {
     if (!is_paged()) { echo '<link rel="canonical" href="' . esc_url(get_term_link($t)) . '">' . "\n"; }
 }, 2);
 
+/** 9a. /vodic/ (stranica s popisom članaka): WordPress za nju ne ispisuje canonical ni meta opis. */
+add_action('wp_head', function () {
+    if (!is_home() || is_front_page() || (function_exists('abu_seo_plugin') && abu_seo_plugin())) { return; }
+    $pid = (int) get_option('page_for_posts');
+    if (!$pid) { return; }
+    $opis = trim(wp_strip_all_tags(get_post_field('post_excerpt', $pid)));
+    if ($opis === '') { $opis = 'Vodič i novosti za Bihać i Unu: izleti, rafting, Plitvice, gdje odsjesti i gdje jesti u Bihaću.'; }
+    echo '<meta name="description" content="' . esc_attr(mb_substr($opis, 0, 158)) . '">' . "\n";
+    $str = max(1, (int) get_query_var('paged'));
+    echo '<link rel="canonical" href="' . esc_url($str > 1 ? get_pagenum_link($str) : get_permalink($pid)) . '">' . "\n";
+}, 2);
+
 /* §10 Tablice u člancima: zaglavlje poravnato lijevo kao ćelije, čitljivo na mobitelu. */
 add_action('wp_head', function () {
     if (!is_singular()) { return; }

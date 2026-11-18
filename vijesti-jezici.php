@@ -73,6 +73,68 @@ function abu_vj_verzije($id) {
     return count($o) > 1 ? $o : array();
 }
 
+/**
+ * Siročad prijevoda: bs original skinut s weba (duplikat ili zastarjela vijest), a en/de prijevod ostao objavljen
+ * i linka na nepostojeći ?p=ID. Ako original ima zamjenu (abu_vj_zamjene), prijevod ide 301 na prijevod zamjene
+ * na istom jeziku; inače 410. Izvan sitemapa. Isto vrijedi za staru bs adresu skinutog originala.
+ */
+function abu_vj_zamjene() {
+    // skinuti bs ID => objavljeni bs ID iste teme (16.11.2026.: duplikat vijesti o vozu Gepard Express)
+    return apply_filters('abu_vj_zamjene', array(1631 => 1637));
+}
+function abu_vj_siroce($id) {
+    $bs = (int) get_post_meta($id, '_abu_vj_bs', true);
+    return $bs && get_post_status($bs) !== 'publish' ? $bs : 0;
+}
+function abu_vj_odrediste($bs, $l) {
+    $z = abu_vj_zamjene();
+    if (empty($z[$bs]) || get_post_status($z[$bs]) !== 'publish') { return ''; }
+    if ($l === 'bs') { return get_permalink($z[$bs]); }
+    $p = (int) get_post_meta($z[$bs], '_abu_vj_' . $l, true);
+    return $p && get_post_status($p) === 'publish' ? get_permalink($p) : '';
+}
+function abu_vj_nestalo() {
+    status_header(410);
+    nocache_headers();
+    do_action('litespeed_control_set_nocache', 'apartmani-upiti: uklonjena vijest');
+    add_filter('wp_robots', function ($r) { return array('noindex' => true, 'follow' => true); }, 99);
+    global $wp_query;
+    $wp_query->set_404();
+    $t = get_404_template();
+    if ($t) { include $t; } else { echo '<h1>410</h1>'; }
+    exit;
+}
+add_action('template_redirect', function () {
+    if (is_page()) {
+        $id = get_queried_object_id();
+        $bs = abu_vj_siroce($id);
+        if (!$bs) { return; }
+        $l = (string) get_post_meta($id, '_abu_vj_lang', true) === 'de' ? 'de' : 'en';
+        $u = abu_vj_odrediste($bs, $l);
+        if ($u) { wp_redirect($u, 301, 'apartmanibihac'); exit; }
+        abu_vj_nestalo();
+    }
+    if (is_404()) {
+        $put = trim((string) parse_url(isset($_SERVER['REQUEST_URI']) ? wp_unslash($_SERVER['REQUEST_URI']) : '', PHP_URL_PATH), '/');
+        $q = isset($_GET['p']) ? (int) $_GET['p'] : 0;
+        $slug = $put === '' ? '' : sanitize_title(basename($put));
+        $p = $q ? get_post($q) : ($slug !== '' ? get_page_by_path($slug, OBJECT, 'post') : null);
+        if (!$p || $p->post_type !== 'post' || $p->post_status === 'publish' || get_post_meta($p->ID, '_abu_vj_en', true) === '' && get_post_meta($p->ID, '_abu_vj_de', true) === '') { return; }
+        $u = abu_vj_odrediste($p->ID, 'bs');
+        if ($u) { wp_redirect($u, 301, 'apartmanibihac'); exit; }
+        abu_vj_nestalo();
+    }
+}, 3);
+add_filter('wp_sitemaps_posts_query_args', function ($a, $tip) {
+    if ($tip !== 'page') { return $a; }
+    $ids = array();
+    foreach (get_posts(array('post_type' => 'page', 'meta_key' => '_abu_vj_bs', 'fields' => 'ids', 'numberposts' => -1, 'no_found_rows' => true)) as $id) {
+        if (abu_vj_siroce($id)) { $ids[] = $id; }
+    }
+    if ($ids) { $a['post__not_in'] = array_merge(isset($a['post__not_in']) ? (array) $a['post__not_in'] : array(), $ids); }
+    return $a;
+}, 12, 2);
+
 /** hreflang na bs vijesti i na prijevodima. */
 add_action('wp_head', function () {
     if (!is_singular(array('post', 'page'))) { return; }
@@ -128,7 +190,7 @@ add_filter('the_content', function ($c) {
     $iz = get_post_meta($id, '_abu_izvor_url', true);
     $post = ($iz && strpos($c, $iz) === false) ? '<p><small>' . esc_html($T['izvor']) . ': <a href="' . esc_url($iz) . '" target="_blank" rel="noopener">' . esc_html(wp_parse_url($iz, PHP_URL_HOST)) . '</a></small></p>' : '';
     $hub = wp_get_post_parent_id($id);
-    $post .= '<p><a href="' . esc_url(get_permalink($hub)) . '">← ' . esc_html($T['sve']) . '</a> · <a href="' . esc_url(get_permalink($bs)) . '" hreflang="bs" lang="bs">Bosanski</a></p>';
+    $post .= '<p><a href="' . esc_url(get_permalink($hub)) . '">← ' . esc_html($T['sve']) . '</a>' . (get_post_status($bs) === 'publish' ? ' · <a href="' . esc_url(get_permalink($bs)) . '" hreflang="bs" lang="bs">Bosanski</a>' : '') . '</p>';
     return $pre . $c . $post;
 }, 30);
 
