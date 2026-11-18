@@ -125,6 +125,26 @@ add_action('template_redirect', function () {
         abu_vj_nestalo();
     }
 }, 3);
+/** LiteSpeed cache: prijevodi skinutog originala inače ostaju u cacheu (200, 7 dana) i PHP ih ne vidi. */
+function abu_vj_ocisti_prijevode($bs) {
+    foreach (array('en', 'de') as $l) {
+        $p = (int) get_post_meta($bs, '_abu_vj_' . $l, true);
+        if ($p) { do_action('litespeed_purge_post', $p); do_action('litespeed_purge_url', get_permalink($p)); }
+    }
+    do_action('litespeed_purge_post', $bs);
+}
+add_action('transition_post_status', function ($novi, $stari, $post) {
+    if ($post->post_type === 'post' && $stari === 'publish' && $novi !== 'publish') { abu_vj_ocisti_prijevode($post->ID); }
+}, 10, 3);
+/* Jednokratno za već skinute originale (16.11.2026.). */
+add_action('init', function () {
+    if (get_option('abu_vj_sirocad_cache') === '1') { return; }
+    foreach (get_posts(array('post_type' => 'page', 'meta_key' => '_abu_vj_bs', 'fields' => 'ids', 'numberposts' => -1, 'no_found_rows' => true)) as $id) {
+        $bs = abu_vj_siroce($id);
+        if ($bs) { abu_vj_ocisti_prijevode($bs); }
+    }
+    update_option('abu_vj_sirocad_cache', '1', false);
+}, 99);
 add_filter('wp_sitemaps_posts_query_args', function ($a, $tip) {
     if ($tip !== 'page') { return $a; }
     $ids = array();
