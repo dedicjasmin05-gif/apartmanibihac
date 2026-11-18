@@ -184,14 +184,17 @@ add_action('wp_head', function () {
     echo '<link rel="canonical" href="' . esc_url($str > 1 ? strtok(get_pagenum_link($str, false), '?') : get_permalink($pid)) . '">' . "\n";
 }, 2);
 
-/** 9b. Bing Webmaster verifikacija (meta oznaka na početnoj; Google je verificiran preko DNS-a). */
+/** 9b. Bing i Yandex Webmaster verifikacija (meta oznaka na početnoj; Google je verificiran preko DNS-a). */
 add_action('wp_head', function () {
-    if (is_front_page()) { echo '<meta name="msvalidate.01" content="9FEA92413D5058E1352F7BC495A535C5" />' . "\n"; }
+    if (is_front_page()) {
+        echo '<meta name="msvalidate.01" content="9FEA92413D5058E1352F7BC495A535C5" />' . "\n";
+        echo '<meta name="yandex-verification" content="4d882392fc540e20" />' . "\n"; // Yandex Webmaster, 18.11.2026.
+    }
 }, 1);
 add_action('init', function () {
-    if (get_option('abu_bing_meta_purge') === '1') { return; }
+    if (get_option('abu_bing_meta_purge') === '2') { return; }
     do_action('litespeed_purge_url', home_url('/'));
-    update_option('abu_bing_meta_purge', '1', false);
+    update_option('abu_bing_meta_purge', '2', false);
 }, 99);
 
 /* §10 Tablice u člancima: zaglavlje poravnato lijevo kao ćelije, čitljivo na mobitelu. */
