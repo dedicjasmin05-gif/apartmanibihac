@@ -13,3 +13,11 @@ echo 'vrsta: ' . ($x['type'] ?? '?') . ' | istječe: ' . (!empty($x['expires_at'
 echo 'dozvole: ' . implode(', ', (array) ($x['scopes'] ?? array())) . "\n";
 $a = $g('me/adaccounts?fields=name,account_status,currency');
 echo 'reklamni računi: ' . (isset($a['data']) ? count($a['data']) . ' ' . implode('; ', array_map(function ($r) { return ($r['name'] ?? '') . ' (' . ($r['currency'] ?? '') . ', status ' . ($r['account_status'] ?? '') . ')'; }, $a['data'])) : ('greška: ' . ($a['error']['message'] ?? ''))) . "\n";
+$o = abu_meta_opt();
+echo 'token za reklame: ' . (!empty($o['ads_token']) ? 'upisan' : 'NIJE upisan') . ' | reklamni račun: ' . (!empty($o['ads_racun']) ? 'upisan' : 'NIJE upisan') . "\n";
+if (!empty($o['ads_token']) && !empty($o['ads_racun'])) {
+    $r = wp_remote_get(ABU_GRAPH . 'act_' . $o['ads_racun'] . '?fields=name,account_status,currency&access_token=' . rawurlencode($o['ads_token']), array('timeout' => 30));
+    $j = is_wp_error($r) ? array() : json_decode((string) wp_remote_retrieve_body($r), true);
+    echo 'reklamni račun provjera: ' . (!empty($j['name']) ? $j['name'] . ' ' . ($j['currency'] ?? '') . ' status ' . ($j['account_status'] ?? '') : ('greška: ' . ($j['error']['message'] ?? '?'))) . "\n";
+}
+
